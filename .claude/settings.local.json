@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(awk 'NR==1281{print; print \"<script src=\\\\\"assets/data.js\\\\\"></script>\"; skip=1; next} skip && /^<\\\\/script>$/{skip=0; next} !skip' \"/Users/joshuapeacock/Documents/OMA new site/direction-a-sunrise.html\")",
+      "Bash(sed -i '' 's|assets/OMA brand logos/|assets/brand-logos/|g' \"/Users/joshuapeacock/Documents/OMA new site/direction-a-sunrise.html\")",
+      "Bash(sed -i '' 's|assets/head shots final/|assets/headshots/|g' \"/Users/joshuapeacock/Documents/OMA new site/assets/data.js\")",
+      "Bash(python3 -m http.server 8080)",
+      "Bash(curl -sI \"http://localhost:8080/direction-a-sunrise.html\")",
+      "Bash(kill %1)",
+      "Bash(pkill -f \"python3 -m http.server 8080\")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(pkill -9 -f \"http.server 8080\")",
+      "Bash(kill -9 26357)",
+      "Bash(curl -s \"http://localhost:8080/direction-a-sunrise.html\")",
+      "Bash(cp \"/Users/joshuapeacock/Documents/Online Model Academy/OMA logo.ai\" \"/tmp/oma-logo.pdf\")",
+      "Bash(sips -s format png --resampleWidth 800 \"/tmp/oma-logo.pdf\" --out \"/tmp/oma-logo.png\")",
+      "Bash(sips -s format png --resampleWidth 800 \"/tmp/oma-logo.pdf\" --out \"/tmp/oma-logo-p2.png\" --setProperty pageNumber 2)",
+      "Bash(python3)",
+      "WebFetch(domain:www.onlinemodelacademy.com)",
+      "Bash(sips -s format png \"assets/Site logos/oma-logo-black-cropped.svg\" --out /tmp/logo-preview.png --resampleWidth 600)",
+      "Bash(curl -sL \"https://www.onlinemodelacademy.com/\" -o /tmp/oma-home.html)",
+      "Bash(cp \"/Users/joshuapeacock/Downloads/OMA_Mentor_Carousel_Content.md.pdf\" /tmp/mentors.pdf)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -m pip install --user --quiet pypdf)",
+      "Bash(node -e ' *)",
+      "Bash(sips -Z 400 \"Shone Vertue Method.png\" --out /tmp/m-shona.jpg)",
+      "Bash(sips -Z 400 \"Antonia Murphy Fountainhead Casting.png\" --out /tmp/m-antonia.jpg)",
+      "Bash(python3 -m pip install --user --quiet Pillow)"
+    ]
+  }
+}

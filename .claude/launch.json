@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "oma-static",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [".claude/server.js"],
+      "port": 8080,
+      "autoPort": true
+    }
+  ]
+}
