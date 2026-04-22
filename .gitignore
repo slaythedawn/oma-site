@@ -2,3 +2,4 @@
 /node_modules
 .claude/server.js.log
 index (old).html
+assets/Reels/*.MP4
