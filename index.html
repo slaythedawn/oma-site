@@ -1428,13 +1428,13 @@ h1 em, h2 em, h3 em { font-style: italic; font-weight: 350; }
     <div class="free-copy rv">
       <div class="eyebrow">Start for free</div>
       <h2>The runway module. <em>On the house.</em></h2>
-      <p class="p">Jack Bedwani produces Australian Fashion Week. He's choreographed shows for Calvin Klein, Coach and Charlotte Tilbury. He's given us 45 minutes of teaching — posture, pace, timing, and the energy that gets you rebooked — and you can watch it right now.</p>
+      <p class="p">Jack Bedwani produces Australian Fashion Week. He's choreographed shows for Calvin Klein, Coach and Charlotte Tilbury. He's given us a masterclass in posture, pace, timing, and the energy that gets you rebooked — and you can watch it right now.</p>
       <div class="cta-row">
-        <a class="btn btn-peach" href="#">Watch the free module <span class="arr">→</span></a>
+        <a class="btn btn-peach" href="#" data-play-free>Watch the free module <span class="arr">→</span></a>
         <button class="btn btn-ghost btn-ghost-dark" type="button" data-quiz-open>Take the 60-sec quiz</button>
       </div>
       <ul class="free-list">
-        <li>6 lessons · 45 minutes total</li>
+        <li>6 lessons · full masterclass</li>
         <li>No credit card. No catch.</li>
         <li>Watch straight in your browser</li>
         <li>Get a personalised next-step plan</li>
@@ -2056,6 +2056,24 @@ h1 em, h2 em, h3 em { font-style: italic; font-weight: 350; }
   $$('[data-quiz-close]').forEach(b => b.addEventListener('click', closeQuiz));
   quizModal.addEventListener('click', e => { if (e.target === quizModal) closeQuiz(); });
   document.addEventListener('keydown', e => { if (e.key === 'Escape' && quizModal.classList.contains('open')) closeQuiz(); });
+
+  /* Watch the free module — unmute + fullscreen the reel */
+  $$('[data-play-free]').forEach(btn => {
+    btn.addEventListener('click', e => {
+      e.preventDefault();
+      const video = document.querySelector('.free-art video');
+      if (!video) return;
+      video.muted = false;
+      video.controls = true;
+      video.currentTime = 0;
+      const playPromise = video.play();
+      if (playPromise && playPromise.catch) playPromise.catch(() => {});
+      const req = video.requestFullscreen
+        || video.webkitRequestFullscreen
+        || video.webkitEnterFullscreen; // iOS Safari
+      if (req) { try { req.call(video); } catch (_) {} }
+    });
+  });
 
   /* Nav scrolled */
   const nav = $('#nav');
