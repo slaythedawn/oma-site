@@ -2004,15 +2004,25 @@ h1 em, h2 em, h3 em { font-style: italic; font-weight: 350; }
     });
   };
 
+  const QUIZ_WEBHOOK_URL = 'https://hooks.zapier.com/hooks/catch/27315899/ujpujnt/';
   const submitLead = (payload) => {
-    // Persist locally so no lead is lost before a real backend is wired
+    // Local backup — belt-and-braces in case the webhook is down
     try {
       const key = 'oma_quiz_leads';
       const prev = JSON.parse(localStorage.getItem(key) || '[]');
       prev.push(payload);
       localStorage.setItem(key, JSON.stringify(prev));
     } catch (_) {}
-    // Hook point: replace with fetch() to your CRM/ESP (Kajabi, ConvertKit, Klaviyo, etc.)
+    // Fire to Zapier webhook → goes to Kajabi
+    try {
+      fetch(QUIZ_WEBHOOK_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+        keepalive: true, // fire-and-forget even if user navigates away
+      }).catch(() => {});
+    } catch (_) {}
+    // Legacy hook still available for additional integrations
     if (window.OMA_ON_LEAD) { try { window.OMA_ON_LEAD(payload); } catch (_) {} }
   };
 
