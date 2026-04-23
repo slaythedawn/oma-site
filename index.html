@@ -2013,13 +2013,22 @@ h1 em, h2 em, h3 em { font-style: italic; font-weight: 350; }
       prev.push(payload);
       localStorage.setItem(key, JSON.stringify(prev));
     } catch (_) {}
-    // Fire to Zapier webhook → goes to Kajabi
+    // Fire to Zapier webhook as form-encoded to bypass CORS preflight
     try {
+      const body = new URLSearchParams();
+      body.append('name',    payload.name  || '');
+      body.append('email',   payload.email || '');
+      body.append('ts',      payload.ts    || new Date().toISOString());
+      body.append('answers', JSON.stringify(payload.answers || []));
+      (payload.answers || []).forEach((a, i) => {
+        body.append(`q${i + 1}_value`, a && a.value ? a.value : '');
+        body.append(`q${i + 1}_label`, a && a.label ? a.label : '');
+      });
       fetch(QUIZ_WEBHOOK_URL, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload),
-        keepalive: true, // fire-and-forget even if user navigates away
+        body,
+        mode: 'no-cors',
+        keepalive: true,
       }).catch(() => {});
     } catch (_) {}
     // Legacy hook still available for additional integrations
