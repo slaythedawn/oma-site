@@ -4,6 +4,39 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Online Model Academy — Learn how to become a model from the people who book them</title>
+
+<!-- Google Tag Manager -->
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K8BZ2TGG');
+</script>
+<!-- End Google Tag Manager -->
+
+<!-- GA4 direct gtag — remove this block if GTM is already configured to send GA4 pageviews for G-J2GQZGGLTW -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J2GQZGGLTW"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-J2GQZGGLTW');
+gtag('config', 'AW-17266528210');
+</script>
+<!-- End GA4 direct gtag / Google Ads -->
+
+<!-- Meta Pixel -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1026127672836232');
+fbq('track', 'PageView');
+</script>
+<!-- End Meta Pixel -->
 <link rel="icon" type="image/svg+xml" href="assets/logo-mark.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -603,6 +636,17 @@ h1 em, h2 em, h3 em { font-style: italic; font-weight: 350; }
 }
 @media (max-width: 520px) {
   .mentor-cred { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 980px) {
+  .mentors-head {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .mentors-head h2 { max-width: none; }
+}
+@media (max-width: 520px) {
+  .mentors-head h2 { font-size: clamp(32px, 8vw, 44px); letter-spacing: -1px; }
+  .mentors { padding: 80px 0 64px; }
 }
 
 /* =========================================================
@@ -1277,6 +1321,19 @@ h1 em, h2 em, h3 em { font-style: italic; font-weight: 350; }
 </style>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K8BZ2TGG"
+          height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Meta Pixel noscript fallback -->
+<noscript>
+  <img height="1" width="1" style="display:none"
+       src="https://www.facebook.com/tr?id=1026127672836232&ev=PageView&noscript=1"/>
+</noscript>
+
 <a class="back" href="index.html">← Directions</a>
 
 <nav class="nav" id="nav">
@@ -2005,6 +2062,7 @@ h1 em, h2 em, h3 em { font-style: italic; font-weight: 350; }
   };
 
   const QUIZ_WEBHOOK_URL = 'https://hooks.zapier.com/hooks/catch/27315899/ujpujnt/';
+  let _leadTracked = false; // guard against duplicate lead events on retry
   const submitLead = (payload) => {
     // Local backup — belt-and-braces in case the webhook is down
     try {
@@ -2033,6 +2091,22 @@ h1 em, h2 em, h3 em { font-style: italic; font-weight: 350; }
     } catch (_) {}
     // Legacy hook still available for additional integrations
     if (window.OMA_ON_LEAD) { try { window.OMA_ON_LEAD(payload); } catch (_) {} }
+
+    // Analytics — fire once only
+    if (!_leadTracked) {
+      _leadTracked = true;
+      trackMeta('Lead', {
+        content_name: 'Homepage Quiz Lead',
+        lead_type: 'quiz',
+        source_page: 'https://www.onlinemodelacademy.com/'
+      });
+      trackGA('generate_lead', {
+        lead_source: 'homepage_quiz',
+        lead_type: 'quiz',
+        source_page: 'https://www.onlinemodelacademy.com/'
+      });
+      trackGAds('AW-17266528210/Q-SLCOGkh6IbENKfqalA');
+    }
   };
 
   const renderResult = () => {
@@ -2083,6 +2157,63 @@ h1 em, h2 em, h3 em { font-style: italic; font-weight: 350; }
     entries.forEach(e => e.isIntersecting && e.target.classList.add('seen'));
   }, { threshold: 0.12 });
   $$('.rv').forEach(el => io.observe(el));
+
+  /* ——— Analytics helpers ——— */
+  function trackMeta(eventName, params) {
+    if (typeof window.fbq === 'function') {
+      window.fbq('track', eventName, params || {});
+    }
+  }
+  function trackGA(eventName, params) {
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', eventName, params || {});
+    } else {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push(Object.assign({ event: eventName }, params || {}));
+    }
+  }
+  function trackGAds(sendTo, params) {
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'conversion', Object.assign({ send_to: sendTo }, params || {}));
+    }
+  }
+
+  /* ——— CTA click tracking (delegated) ——— */
+  document.addEventListener('click', function(e) {
+    var link = e.target.closest('a[href]');
+    if (!link) return;
+    var href = link.getAttribute('href') || '';
+
+    if (href.indexOf('offers/ZbJFXeGn') !== -1) {
+      trackMeta('ViewContent', {
+        content_name: 'Free Runway Module',
+        content_category: 'Lead Magnet',
+        destination_url: 'https://www.onlinemodel.academy/offers/ZbJFXeGn'
+      });
+      trackGA('generate_lead', {
+        lead_source: 'homepage_free_module_cta',
+        offer_slug: 'ZbJFXeGn',
+        destination_url: 'https://www.onlinemodel.academy/offers/ZbJFXeGn'
+      });
+    }
+
+    if (href.indexOf('offers/iJxLGaoD') !== -1) {
+      trackMeta('InitiateCheckout', {
+        content_name: 'Online Model Academy Full Access',
+        value: 299.00,
+        currency: 'AUD',
+        destination_url: 'https://www.onlinemodel.academy/offers/iJxLGaoD'
+      });
+      trackGA('begin_checkout', {
+        currency: 'AUD',
+        value: 299.00,
+        item_name: 'Online Model Academy Full Access',
+        offer_slug: 'iJxLGaoD',
+        destination_url: 'https://www.onlinemodel.academy/offers/iJxLGaoD'
+      });
+      /* Google Ads purchase conversion fires on Kajabi checkout page, not here */
+    }
+  });
 })();
 </script>
 </body>
