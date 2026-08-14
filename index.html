@@ -11,6 +11,8 @@
 <meta property="og:url" content="https://www.onlinemodelacademy.com/">
 <meta property="og:site_name" content="Online Model Academy">
 <meta property="og:type" content="website">
+<meta property="og:image" content="https://www.onlinemodelacademy.com/blog/images/how-to-become-a-model.jpg">
+<meta name="twitter:card" content="summary_large_image">
 
 <!-- Google Tag Manager -->
 <script>
@@ -51,6 +53,7 @@ fbq('track', 'PageView');
 {"@context":"https://schema.org","@type":"Course","name":"Online Model Academy","description":"A 2026 guide to launching, booking and building a modelling career. 16 modules and 94 lessons taught by 12 industry professionals including a casting director, a runway producer and working models. Covers portfolio, castings, contracts and rebooks. Lifetime access.","url":"https://www.onlinemodelacademy.com/","inLanguage":"en","educationalLevel":"Beginner","teaches":["How to become a model","Building a modeling portfolio","Runway walk technique","Getting signed by a modeling agency","Casting preparation","Reading a modeling contract"],"provider":{"@type":"Organization","name":"Online Model Academy","url":"https://www.onlinemodelacademy.com/"},"offers":{"@type":"Offer","category":"Paid","price":"299","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.onlinemodel.academy/offers/iJxLGaoD"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"Online","courseWorkload":"PT8H"}}
 </script>
 <link rel="icon" type="image/svg+xml" href="assets/logo-mark.svg">
+<link rel="preload" as="image" href="header-assets/75fcda82-84c3-48c5-94e3-d124b8e28b43.jpeg" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -539,15 +542,26 @@ h1 em, h2 em, h3 em { font-style: italic; font-weight: 350; }
 }
 .mentor-strip-wrap { position: relative; }
 .mentor-strip {
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
   mask-image: linear-gradient(90deg, transparent, #000 3%, #000 97%, transparent);
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 3%, #000 97%, transparent);
   position: relative;
+  /* native horizontal scrolling on touch, vertical page scroll unaffected */
+  touch-action: pan-x pan-y;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  cursor: grab;
 }
+.mentor-strip::-webkit-scrollbar { display: none; }
+.mentor-strip.is-dragging { cursor: grabbing; }
+.mentor-strip.is-dragging .mentor-card { pointer-events: none; }
+.mentor-strip:focus-visible { outline: 2px solid var(--peach-dk); outline-offset: 4px; }
 .mentor-track {
-  display: flex; gap: 16px; width: fit-content; padding: 8px 0;
-  animation: scroll 140s linear infinite;
+  display: flex; gap: 16px; width: max-content; padding: 8px 0;
 }
-.mentor-track:hover { animation-play-state: paused; }
 .mentor-nav {
   position: absolute; top: 50%; transform: translateY(-50%);
   z-index: 5;
@@ -1411,9 +1425,9 @@ h1 em, h2 em, h3 em { font-style: italic; font-weight: 350; }
     </div>
 
     <div class="hero-art">
-      <div class="frame f1"><img src="header-assets/75fcda82-84c3-48c5-94e3-d124b8e28b43.jpeg" alt=""></div>
-      <div class="frame f2"><img src="header-assets/natalieroser17.jpeg" alt=""></div>
-      <div class="frame f3"><img src="header-assets/78363769007-jf-derby-151-modeling-jpf-09105.jpeg" alt=""></div>
+      <div class="frame f1"><img src="header-assets/75fcda82-84c3-48c5-94e3-d124b8e28b43.jpeg" alt="" fetchpriority="high" decoding="async"></div>
+      <div class="frame f2"><img src="header-assets/natalieroser17.jpeg" alt="" decoding="async"></div>
+      <div class="frame f3"><img src="header-assets/78363769007-jf-derby-151-modeling-jpf-09105.jpeg" alt="" decoding="async"></div>
       <div class="ticket">
         <span class="caps">Free module</span>
         Master the runway.
@@ -1469,11 +1483,11 @@ h1 em, h2 em, h3 em { font-style: italic; font-weight: 350; }
         <img class="m-logo" src="assets/brand-logos/7.png"  alt="">
         <img class="m-logo" src="assets/brand-logos/8.png"  alt="">
         <img class="m-logo" src="assets/brand-logos/9.png"  alt="">
-        <img class="m-logo" src="assets/brand-logos/10.png" alt="">
-        <img class="m-logo" src="assets/brand-logos/11.png" alt="">
-        <img class="m-logo" src="assets/brand-logos/12.png" alt="">
-        <img class="m-logo" src="assets/brand-logos/13.png" alt="">
-        <img class="m-logo" src="assets/brand-logos/14.png" alt="">
+        <img class="m-logo" src="assets/brand-logos/10.png" alt="" loading="lazy" decoding="async" height="64">
+        <img class="m-logo" src="assets/brand-logos/11.png" alt="" loading="lazy" decoding="async" height="64">
+        <img class="m-logo" src="assets/brand-logos/12.png" alt="" loading="lazy" decoding="async" height="64">
+        <img class="m-logo" src="assets/brand-logos/13.png" alt="" loading="lazy" decoding="async" height="64">
+        <img class="m-logo" src="assets/brand-logos/14.png" alt="" loading="lazy" decoding="async" height="64">
         <!-- duplicate for seamless loop -->
         <img class="m-logo" src="assets/brand-logos/4.png"  alt="">
         <img class="m-logo" src="assets/brand-logos/5.png"  alt="">
@@ -1481,11 +1495,11 @@ h1 em, h2 em, h3 em { font-style: italic; font-weight: 350; }
         <img class="m-logo" src="assets/brand-logos/7.png"  alt="">
         <img class="m-logo" src="assets/brand-logos/8.png"  alt="">
         <img class="m-logo" src="assets/brand-logos/9.png"  alt="">
-        <img class="m-logo" src="assets/brand-logos/10.png" alt="">
-        <img class="m-logo" src="assets/brand-logos/11.png" alt="">
-        <img class="m-logo" src="assets/brand-logos/12.png" alt="">
-        <img class="m-logo" src="assets/brand-logos/13.png" alt="">
-        <img class="m-logo" src="assets/brand-logos/14.png" alt="">
+        <img class="m-logo" src="assets/brand-logos/10.png" alt="" loading="lazy" decoding="async" height="64">
+        <img class="m-logo" src="assets/brand-logos/11.png" alt="" loading="lazy" decoding="async" height="64">
+        <img class="m-logo" src="assets/brand-logos/12.png" alt="" loading="lazy" decoding="async" height="64">
+        <img class="m-logo" src="assets/brand-logos/13.png" alt="" loading="lazy" decoding="async" height="64">
+        <img class="m-logo" src="assets/brand-logos/14.png" alt="" loading="lazy" decoding="async" height="64">
       </div>
     </div>
   </div>
@@ -1829,7 +1843,7 @@ h1 em, h2 em, h3 em { font-style: italic; font-weight: 350; }
   const mt = $('#mentorTrack');
   const mentorCard = (m, idx) => `
     <button class="mentor-card" type="button" data-mentor-open="${idx % D.mentors.length}">
-      <div class="photo"><img src="${m.img}?v=2" alt="${m.name}" loading="lazy"></div>
+      <div class="photo"><img src="${m.img}?v=2" alt="${m.name}" loading="lazy" decoding="async" width="280" height="350"></div>
       <div class="body">
         <div class="n">${m.name}</div>
         <div class="r">${m.role}</div>
@@ -1839,25 +1853,162 @@ h1 em, h2 em, h3 em { font-style: italic; font-weight: 350; }
     </button>`;
   mt.innerHTML = [...D.mentors, ...D.mentors].map((m, i) => mentorCard(m, i)).join('');
 
-  /* Mentor nav arrows — jump the CSS animation forward/back by 2 cards */
-  const mentorStep = 2; // cards per click
-  $$('[data-mentor-nav]').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const first = mt.children[0];
-      if (!first) return;
-      const cardW = first.getBoundingClientRect().width + 16; // card + gap
-      const dir   = parseInt(btn.dataset.mentorNav, 10) || 1;
-      const shift = cardW * mentorStep * dir;
-      const anim  = mt.getAnimations && mt.getAnimations()[0];
-      if (!anim) return;
-      const totalMs   = 140 * 1000;
-      const halfWidth = mt.scrollWidth / 2;
-      if (!halfWidth) return;
-      const deltaMs = (shift / halfWidth) * totalMs;
-      const t       = (anim.currentTime || 0) + deltaMs;
-      anim.currentTime = ((t % totalMs) + totalMs) % totalMs;
+  /* ---------------------------------------------------------------
+     Mentor carousel
+     Native scroll container so touch swipe, trackpad and mouse drag
+     all behave the way people expect. Auto-drift is done by nudging
+     scrollLeft, which any user interaction interrupts naturally.
+     --------------------------------------------------------------- */
+  const strip = $('.mentor-strip');
+  if (strip && mt) {
+    strip.setAttribute('tabindex', '0');
+    strip.setAttribute('role', 'region');
+    strip.setAttribute('aria-label', 'Mentors, scrollable');
+
+    const GAP = 16;
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    /* Auto-drift only where there is a real pointer to pause it. On touch there
+       is no hover, so a drifting strip means tapping a moving card. Swipe is
+       the natural gesture there anyway. */
+    const canHover = window.matchMedia('(hover: hover) and (pointer: fine)');
+    const halfWidth = () => mt.scrollWidth / 2;
+    const cardW = () => {
+      const c = mt.children[0];
+      return c ? c.getBoundingClientRect().width + GAP : 296;
+    };
+
+    /* Keep the loop seamless. The track is the mentor list twice over, so
+       shifting by exactly half a track is visually undetectable. */
+    let allowWrap = true;
+    const wrap = () => {
+      if (!allowWrap) return;
+      const h = halfWidth();
+      if (!h) return;
+      const x = strip.scrollLeft;
+      if (x >= h) { strip.scrollLeft = x - h; pos = strip.scrollLeft; }
+      else if (x < 1) { strip.scrollLeft = x + h; pos = strip.scrollLeft; }
+    };
+    /* The browser scrolls this container itself when a card receives focus or
+       find-in-page lands inside it. Suspend wrapping briefly so the content
+       does not jump out from under the user. */
+    let suspend;
+    const suspendWrap = () => {
+      allowWrap = false;
+      clearTimeout(suspend);
+      suspend = setTimeout(() => { allowWrap = true; }, 600);
+    };
+    strip.addEventListener('focusin', suspendWrap);
+
+    /* Auto drift */
+    const SPEED = 26;              // px per second
+    let paused = false, dragging = false, last = 0, drift;
+    /* Browsers round scrollLeft, so a 0.4px nudge per frame would never land.
+       Track the true position here and assign absolute values instead. */
+    let pos = 0, applied = -1;
+    const idle = () => canHover.matches && !paused && !dragging && !document.hidden &&
+                       !reduceMotion.matches && !gliding;
+    const tick = (ts) => {
+      if (!last) last = ts;
+      const dt = Math.min((ts - last) / 1000, 0.05);
+      last = ts;
+      // resync if anything else moved the strip (drag, glide, focus, find-in-page)
+      if (applied < 0 || Math.abs(strip.scrollLeft - applied) > 1) pos = strip.scrollLeft;
+      if (idle()) {
+        pos += SPEED * dt;
+        strip.scrollLeft = pos;
+      }
+      wrap();
+      applied = strip.scrollLeft;
+      drift = requestAnimationFrame(tick);
+    };
+    drift = requestAnimationFrame(tick);
+
+    const pause = () => { paused = true; };
+    const play  = () => { paused = false; last = 0; };
+    strip.addEventListener('mouseenter', pause);
+    strip.addEventListener('mouseleave', play);
+    strip.addEventListener('focusin', pause);
+    strip.addEventListener('focusout', play);
+    strip.addEventListener('touchstart', pause, { passive: true });
+    strip.addEventListener('touchend', () => setTimeout(play, 2500), { passive: true });
+    document.addEventListener('visibilitychange', () => { last = 0; });
+
+    /* Arrow buttons: eased glide rather than an instant jump */
+    let gliding = false, glideRaf;
+    const glide = (delta) => {
+      cancelAnimationFrame(glideRaf);
+      const from = strip.scrollLeft;
+      const t0 = performance.now();
+      const dur = reduceMotion.matches ? 0 : 460;
+      gliding = true; allowWrap = false;
+      const step = (t) => {
+        const p = dur ? Math.min(1, (t - t0) / dur) : 1;
+        const e = 1 - Math.pow(1 - p, 3);       // easeOutCubic
+        strip.scrollLeft = from + delta * e;
+        if (p < 1) { glideRaf = requestAnimationFrame(step); }
+        else { gliding = false; allowWrap = true; wrap(); last = 0; }
+      };
+      glideRaf = requestAnimationFrame(step);
+    };
+
+    $$('[data-mentor-nav]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const dir = parseInt(btn.dataset.mentorNav, 10) || 1;
+        glide(cardW() * 2 * dir);
+      });
     });
-  });
+
+    /* Mouse and pen drag. Touch is left to the browser so iOS and Android
+       keep their native momentum and rubber-banding. */
+    let startX = 0, startScroll = 0, moved = 0, pid = null;
+    strip.addEventListener('pointerdown', (e) => {
+      if (e.pointerType === 'touch') return;
+      if (e.button !== 0) return;
+      pid = e.pointerId;
+      dragging = true; moved = 0;
+      startX = e.clientX; startScroll = strip.scrollLeft;
+      cancelAnimationFrame(glideRaf); gliding = false; allowWrap = true;
+      // NB: do not disable card pointer-events here. The browser resolves the
+      // click target at pointerup, so killing it on pointerdown swallows plain
+      // clicks. It is switched on below only once a real drag starts.
+    });
+    strip.addEventListener('pointermove', (e) => {
+      if (!dragging || e.pointerId !== pid) return;
+      const dx = e.clientX - startX;
+      if (Math.abs(dx) > 3 && !strip.hasPointerCapture(pid)) {
+        strip.setPointerCapture(pid);
+      }
+      moved = Math.max(moved, Math.abs(dx));
+      if (moved > 3) strip.classList.add('is-dragging');
+      strip.scrollLeft = startScroll - dx;
+      wrap();
+      if (moved > 3) e.preventDefault();
+    });
+    const endDrag = (e) => {
+      if (!dragging || (e && e.pointerId !== pid)) return;
+      dragging = false; last = 0;
+      strip.classList.remove('is-dragging');
+      if (pid !== null && strip.hasPointerCapture(pid)) strip.releasePointerCapture(pid);
+      pid = null;
+    };
+    strip.addEventListener('pointerup', endDrag);
+    strip.addEventListener('pointercancel', endDrag);
+    strip.addEventListener('pointerleave', endDrag);
+
+    /* A drag must never be mistaken for a click on a mentor card */
+    strip.addEventListener('click', (e) => {
+      if (moved > 5) { e.stopPropagation(); e.preventDefault(); moved = 0; }
+    }, true);
+
+    /* Keyboard */
+    strip.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight') { e.preventDefault(); glide(cardW()); }
+      else if (e.key === 'ArrowLeft') { e.preventDefault(); glide(-cardW()); }
+    });
+
+    /* Start part-way in so scrolling left is available immediately */
+    requestAnimationFrame(() => { strip.scrollLeft = halfWidth() / 2; });
+  }
 
   /* Mentor lightbox */
   const mentorLb   = $('#mentorLb');
@@ -1869,7 +2020,7 @@ h1 em, h2 em, h3 em { font-style: italic; font-weight: 350; }
     const gallery = (m.gallery    || []).filter(Boolean);
     mentorBody.innerHTML = `
       <div class="mentor-lb-top">
-        <div class="mentor-lb-photo"><img src="${m.img}?v=2" alt="${m.name}"></div>
+        <div class="mentor-lb-photo"><img src="${m.img}?v=2" alt="${m.name}" decoding="async"></div>
         <div class="mentor-lb-info">
           <div class="role">Mentor</div>
           <h3>${m.name}</h3>
