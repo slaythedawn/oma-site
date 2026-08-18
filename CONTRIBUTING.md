@@ -40,12 +40,11 @@ grep -rn '299' --include='*.html' --include='*.js' .
 Getting the site and Kajabi out of step is the single most expensive mistake
 available here. Change Kajabi first, then the site.
 
-> **Open question — the currency does not agree with itself.** The homepage
-> `Course` schema declares `"priceCurrency": "USD"`, while the conversion tracking
-> a few hundred lines below reports the same $299 as `currency: 'AUD'`. One of them
-> is wrong: the schema is what Google may print in a search result, and the tracking
-> is what GA4 and Meta count as revenue. Confirm what Kajabi actually charges, make
-> both match, and this note can go.
+Everything is priced in **AUD**. The homepage states the price in three places —
+the `Course` schema, the conversion tracking, and `assets/data.js` — and
+`npm run check:site` fails if they stop agreeing on either the number or the
+currency. Change all three together, or the check will tell you which one you
+missed.
 
 ## Changing a Kajabi offer
 
@@ -111,7 +110,7 @@ Say in the PR what campaign reporting the change affects.
 
 | Command | What it catches |
 | --- | --- |
-| `npm run check:site` | Broken links and image/video references, a page missing from the sitemap, a copy-pasted canonical, a missing title or meta description |
+| `npm run check:site` | Broken links and image/video references, a page missing from the sitemap, a copy-pasted canonical, a missing title or meta description, a price or currency that disagrees with itself |
 | `npm run check:kajabi` | A Kajabi link that drifted from `config/kajabi.json`, a wrong `utm_campaign`, a `utm_content` slug that does not match its page |
 | `npm run check:site:external` | Off-site links that no longer respond. Runs in CI, and weekly on a schedule, so an archived Kajabi offer surfaces even in a quiet week. Advisory — it does not block a PR. |
 

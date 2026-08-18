@@ -104,6 +104,53 @@ if (!existsSync(dataPath)) {
   }
 }
 
+// --- the price and currency agree everywhere they are declared --------------
+// The homepage states the price three times: the Course schema Google may print
+// in a search result, the conversion events GA4 and Meta count as revenue, and
+// assets/data.js. They drifted apart once already (schema said USD while the
+// tracking said AUD), which misstates the price to whichever one is wrong.
+{
+  const home = readFileSync(join(ROOT, 'index.html'), 'utf8');
+  const data = existsSync(dataPath) ? readFileSync(dataPath, 'utf8') : '';
+
+  const currencies = new Map();
+  const add = (where, value) => {
+    if (value) currencies.set(where, value);
+  };
+
+  add('the Course schema', home.match(/"priceCurrency"\s*:\s*"([A-Z]{3})"/)?.[1]);
+  for (const [, value] of home.matchAll(/currency\s*:\s*['"]([A-Z]{3})['"]/g)) {
+    add('the conversion tracking', value);
+  }
+
+  const distinctCurrencies = new Set(currencies.values());
+  if (distinctCurrencies.size > 1) {
+    problems.push(
+      'index.html: the price currency disagrees with itself — ' +
+        [...currencies].map(([where, value]) => `${value} in ${where}`).join(', ') + '.',
+    );
+  }
+
+  const prices = new Map();
+  const schemaPrice = home.match(/"price"\s*:\s*"?(\d+(?:\.\d+)?)"?/)?.[1];
+  if (schemaPrice) prices.set('the Course schema', Number(schemaPrice));
+  for (const [, value] of home.matchAll(/value\s*:\s*(\d+(?:\.\d+)?)\s*,\s*\n?\s*currency/g)) {
+    prices.set('the conversion tracking', Number(value));
+  }
+  for (const [, value] of home.matchAll(/currency\s*:\s*['"][A-Z]{3}['"]\s*,\s*\n?\s*value\s*:\s*(\d+(?:\.\d+)?)/g)) {
+    prices.set('the conversion tracking', Number(value));
+  }
+  const dataPrice = data.match(/priceCurrent\s*:\s*(\d+(?:\.\d+)?)/)?.[1];
+  if (dataPrice) prices.set('assets/data.js', Number(dataPrice));
+
+  if (new Set(prices.values()).size > 1) {
+    problems.push(
+      'index.html: the price disagrees with itself — ' +
+        [...prices].map(([where, value]) => `${value} in ${where}`).join(', ') + '.',
+    );
+  }
+}
+
 // --- sitemap covers exactly the pages that exist ---------------------------
 const sitemapPath = join(ROOT, 'sitemap.xml');
 if (!existsSync(sitemapPath)) {

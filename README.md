@@ -30,6 +30,10 @@ Visitor → onlinemodelacademy.com (this repo, Vercel)
 
 There is no build step and no framework. What is in the repo is what is served.
 
+Everything is priced in AUD. The homepage declares the price three times — the
+`Course` schema, the conversion tracking and `assets/data.js` — and `npm run check`
+fails if they stop agreeing.
+
 ## Working on it
 
 ```bash
