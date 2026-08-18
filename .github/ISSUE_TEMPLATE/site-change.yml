@@ -1,0 +1,31 @@
+name: Site change
+description: Copy, design or content change to the marketing site.
+labels: [site]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: URL or path, e.g. / or /blog/how-to-become-a-model/
+      placeholder: https://www.onlinemodelacademy.com/
+    validations:
+      required: true
+
+  - type: textarea
+    id: change
+    attributes:
+      label: What should change
+      description: Paste the exact new copy where you can — it saves a round trip.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Urgency
+      options:
+        - Whenever
+        - This week
+        - Blocking a campaign or launch
+    validations:
+      required: true
