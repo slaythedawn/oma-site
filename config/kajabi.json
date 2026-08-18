@@ -1,0 +1,24 @@
+{
+  "_comment": "Single source of truth for every link that leaves the site for Kajabi. Edit here, then run `npm run kajabi:sync` to rewrite all HTML. CI fails if HTML and this file disagree.",
+
+  "backendDomain": "https://www.onlinemodel.academy",
+
+  "offers": {
+    "paid": {
+      "id": "iJxLGaoD",
+      "label": "Full course enrolment",
+      "utmCampaign": "enrol_299"
+    },
+    "free": {
+      "id": "ZbJFXeGn",
+      "label": "Free runway module",
+      "utmCampaign": "free_runway_module"
+    }
+  },
+
+  "paths": {
+    "login": "/login",
+    "privacy": "/privacy-policy",
+    "terms": "/Terms-&-Conditions"
+  }
+}
