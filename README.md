@@ -56,7 +56,7 @@ URL on it. Check that preview before merging. Merging to `main` publishes.
 ## Changing a Kajabi link
 
 Offer ids, the backend domain and the login/legal paths are all declared in
-`config/kajabi.json`. They appear in 18 HTML files; never edit those by hand.
+`config/kajabi.json`. They appear in 34 HTML files; never edit those by hand.
 
 ```bash
 # 1. edit the id in config/kajabi.json
@@ -66,7 +66,7 @@ npm run kajabi:sync
 ```
 
 The sync reads the previous id from the last committed version of the config, so
-one line in, one command, and all 18 pages follow. It also rewrites the offer id
+one line in, one command, and all 34 pages follow. It also rewrites the offer id
 where it is hardcoded in the homepage's conversion tracking — those handlers gate
 on `href.indexOf('offers/<id>')`, so updating only the links would leave the Meta
 and GA4 checkout events silently dead. CI fails the PR if the HTML and the config

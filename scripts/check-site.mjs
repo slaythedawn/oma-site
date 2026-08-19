@@ -217,29 +217,59 @@ if (!existsSync(sitemapPath)) {
 
 // --- off-site links respond (CI only; needs network egress) ----------------
 if (checkExternal) {
-  const urls = [...externalUrls].filter((u) => !u.startsWith(SITE));
-  console.log(`check-site: probing ${urls.length} external URLs…`);
+  // Dedupe by origin + path. The blog carries ~150 Kajabi links that differ only
+  // by UTM parameters and all resolve to two pages; probing each one separately
+  // gets us rate-limited and tells us nothing extra.
+  const byPage = new Map();
+  for (const url of externalUrls) {
+    if (url.startsWith(SITE)) continue;
+    try {
+      const u = new URL(url);
+      byPage.set(u.origin + u.pathname, url);
+    } catch {
+      problems.push(`unparseable external URL: ${url}`);
+    }
+  }
 
-  const results = await Promise.all(
-    urls.map(async (url) => {
-      for (const method of ['HEAD', 'GET']) {
-        try {
-          const res = await fetch(url, {
-            method,
-            redirect: 'follow',
-            signal: AbortSignal.timeout(20_000),
-            headers: { 'user-agent': 'oma-site-link-check' },
-          });
-          // Some CDNs reject HEAD; only treat a failing GET as a real failure.
-          if (res.ok || res.status === 403) return null;
-          if (method === 'GET') return `external link ${url} returned ${res.status}.`;
-        } catch (err) {
-          if (method === 'GET') return `external link ${url} failed: ${err.message}`;
-        }
+  const targets = [...byPage.values()];
+  console.log(`check-site: probing ${targets.length} distinct external pages…`);
+
+  const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+  async function probe(url) {
+    // A 429 means the host is up and throttling us, not that the link is broken,
+    // so back off once and only report if it still will not answer.
+    for (const [attempt, method] of [[0, 'HEAD'], [1, 'GET'], [2, 'GET']]) {
+      if (attempt) await sleep(attempt * 3000);
+      try {
+        const res = await fetch(url, {
+          method,
+          redirect: 'follow',
+          signal: AbortSignal.timeout(20_000),
+          headers: { 'user-agent': 'oma-site-link-check' },
+        });
+        // 403 is routine for CDNs and bot filters hit by a CI runner.
+        if (res.ok || res.status === 403) return null;
+        if (res.status === 429) continue;
+        if (attempt === 2) return `external link ${url} returned ${res.status}.`;
+      } catch (err) {
+        if (attempt === 2) return `external link ${url} failed: ${err.message}`;
       }
-      return null;
-    }),
-  );
+    }
+    return null;
+  }
+
+  // Small worker pool rather than one burst, so a single host is never flooded.
+  const queue = [...targets];
+  const results = [];
+  const workers = Array.from({ length: 4 }, async () => {
+    while (queue.length) {
+      const url = queue.shift();
+      results.push(await probe(url));
+      await sleep(250);
+    }
+  });
+  await Promise.all(workers);
 
   problems.push(...results.filter(Boolean));
 }

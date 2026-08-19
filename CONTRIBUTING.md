@@ -63,7 +63,7 @@ Edit `config/kajabi.json`, then:
 npm run kajabi:sync
 ```
 
-That rewrites all 18 pages. Commit the config and the HTML together. If the config
+That rewrites all 34 pages. Commit the config and the HTML together. If the config
 was already committed before you synced, tell the script what it is replacing:
 
 ```bash
@@ -140,8 +140,9 @@ cloud storage. If a video will not fit comfortably, host it externally and embed
 
 ## Changing tracking
 
-The GTM, GA4, Google Ads and Meta Pixel snippets are duplicated across all 18
-pages. Change them in every page or in none — a partial rollout produces
+The GTM, GA4, Google Ads and Meta Pixel snippets are duplicated across all 34
+pages. For generated articles they come from the shared template, so change them
+there and rebuild rather than editing pages individually. Change them in every page or in none — a partial rollout produces
 attribution data that is worse than no data.
 
 Say in the PR what campaign reporting the change affects.
