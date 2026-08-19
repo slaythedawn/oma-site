@@ -1,0 +1,80 @@
+name: Site checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    # Weekly, so a Kajabi offer that gets archived or a mentor image that 404s
+    # is caught even in a week when nobody touches the repo.
+    - cron: '0 20 * * 1'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  structure:
+    name: Links, assets and sitemap
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # kajabi-links compares against the previously committed config to
+          # resolve an offer id that is being renamed in this change.
+          fetch-depth: 2
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Generated articles match their source content
+        run: npm run check:build
+
+      - name: Every local link, image and video resolves
+        run: npm run check:site
+
+      - name: Kajabi links match config/kajabi.json
+        run: npm run check:kajabi
+
+      - name: HTML is well formed
+        run: |
+          npx --yes html-validate@8 \
+            --formatter stylish \
+            'index.html' 'blog/**/*.html'
+
+  external:
+    name: Off-site links respond
+    runs-on: ubuntu-latest
+    # Advisory: a third-party site being slow or rate-limiting a CI runner must
+    # not block a copy change. The result is still visible on the PR.
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Checkout, login and legal links are alive
+        run: npm run check:site:external
+
+  deploy-size:
+    name: Deploy payload stays small
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fail on files too large to belong in the deploy
+        run: |
+          LIMIT_MB=10
+          # Anything .vercelignore excludes is not part of the deploy.
+          OVERSIZE=$(git ls-files -z \
+            | grep -zZv '^\(project/\|\.github/\|\.claude/\|scripts/\|docs/\)' \
+            | xargs -0 -I{} find {} -size +${LIMIT_MB}M -print 2>/dev/null || true)
+          if [ -n "$OVERSIZE" ]; then
+            echo "::error::These files are over ${LIMIT_MB}MB and would ship to visitors:"
+            echo "$OVERSIZE"
+            echo ""
+            echo "Compress the export, or keep the master in cloud storage and commit"
+            echo "only a web-optimised version (see CONTRIBUTING.md)."
+            exit 1
+          fi
+          echo "No file over ${LIMIT_MB}MB. Deploy payload: $(du -sh --exclude=.git . | cut -f1)"

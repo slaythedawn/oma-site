@@ -1,5 +1,19 @@
+# OS / editor
 .DS_Store
+Thumbs.db
+
+# Dependencies
 /node_modules
+
+# Local dev server logs
 .claude/server.js.log
+
+# Working files that must not reach the deploy
 index (old).html
+*.old.html
+
+# Master video/photo source files — keep these in cloud storage, not git.
+# Only web-optimised exports (e.g. assets/Reels/*-web.mp4) belong in the repo.
 assets/Reels/*.MP4
+assets/Reels/*.mov
+assets/Reels/*.MOV

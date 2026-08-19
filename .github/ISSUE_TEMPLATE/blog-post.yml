@@ -1,0 +1,27 @@
+name: New blog article
+description: Commission a new SEO article for the blog.
+labels: [content, seo]
+body:
+  - type: input
+    id: keyword
+    attributes:
+      label: Target keyword
+      placeholder: how to become a runway model
+    validations:
+      required: true
+
+  - type: input
+    id: slug
+    attributes:
+      label: Proposed slug
+      description: Becomes /blog/<slug>/ — lowercase, hyphenated.
+      placeholder: how-to-become-a-runway-model
+    validations:
+      required: true
+
+  - type: textarea
+    id: angle
+    attributes:
+      label: Angle and any mentors to quote
+    validations:
+      required: true

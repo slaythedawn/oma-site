@@ -1,0 +1,35 @@
+name: Something is broken
+description: A broken link, a page that will not load, a checkout that fails.
+labels: [bug]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      placeholder: https://www.onlinemodelacademy.com/blog/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens, and what you expected instead
+    validations:
+      required: true
+
+  - type: dropdown
+    id: revenue
+    attributes:
+      label: Does this stop someone buying?
+      description: Anything touching the checkout gets picked up first.
+      options:
+        - "No"
+        - "Yes — the checkout or enrol button is affected"
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Device and browser
+      placeholder: iPhone 15, Safari

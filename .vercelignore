@@ -1,0 +1,14 @@
+# Nothing here is part of the live site — keep it out of the deployment.
+
+# Superseded Claude Design prototype. Kept in git for reference only;
+# it is a stale copy of the homepage and must not be publicly reachable.
+project/
+
+# Repo tooling
+.github/
+content/
+.claude/
+scripts/
+docs/
+CONTRIBUTING.md
+README.md
