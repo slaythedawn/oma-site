@@ -20,7 +20,9 @@ const problems = [];
 const fail = (page, message) => problems.push(`${page}: ${message}`);
 
 const pages = globSync('**/*.html', { cwd: ROOT })
-  .filter((p) => !p.startsWith('node_modules/') && !p.startsWith('project/'))
+  // content/ holds the source template, project/ the superseded prototype —
+  // neither is a deployed page.
+  .filter((p) => !['node_modules/', 'project/', 'content/'].some((d) => p.startsWith(d)))
   .sort();
 
 if (pages.length === 0) {

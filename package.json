@@ -1,11 +1,17 @@
 {
   "name": "oma-site",
   "private": true,
-  "description": "Online Model Academy marketing site — static front end to the Kajabi checkout and course.",
+  "description": "Online Model Academy marketing site \u2014 static front end to the Kajabi checkout and course.",
   "type": "module",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
-    "check": "npm run check:site && npm run check:kajabi",
+    "build": "npm run build:articles && npm run build:index",
+    "build:articles": "node scripts/build-articles.mjs",
+    "build:index": "node scripts/build-index-and-sitemap.mjs",
+    "check": "npm run check:build && npm run check:site && npm run check:kajabi",
+    "check:build": "node scripts/build-articles.mjs --verify",
     "check:site": "node scripts/check-site.mjs",
     "check:site:external": "node scripts/check-site.mjs --external",
     "check:kajabi": "node scripts/kajabi-links.mjs --check",

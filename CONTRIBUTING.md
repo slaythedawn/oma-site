@@ -75,22 +75,53 @@ a Kajabi 404 passes every check in this repo.
 
 ## Adding a blog article
 
-1. Copy an existing article directory — they share one layout.
+Articles come in two kinds. The original sixteen are hand-written HTML in
+`blog/<slug>/index.html`. Everything added since is **generated** from content in
+`content/articles/` — do not hand-edit those files, your changes will be
+overwritten by the next build.
 
-   ```bash
-   cp -r blog/how-to-become-a-model blog/<new-slug>
+To add a generated article:
+
+1. Add an entry to the right file in `content/articles/` (or start a new one and
+   import it from `content/articles.mjs`):
+
+   ```js
+   {
+     slug: 'my-new-article',
+     seoTitle: 'Under 60 characters',        // the <title> and og:title
+     description: 'Under 160 characters.',   // meta description and og:description
+     headline: 'The H1, which can be longer than the SEO title',
+     category: 'Agencies',                   // shown as the eyebrow and card tag
+     image: 'how-to-become-a-model',         // basename in blog/images/
+     imageAlt: 'Describes the photo',
+     readTime: 10,
+     date: '2026-08-19',
+     related: ['slug-a', 'slug-b', 'slug-c'],// three "Keep reading" cards
+     faq: [{ q: '…', a: '…' }],              // becomes FAQPage schema
+     body: `<p>…</p>`,                       // the article itself
+   }
    ```
 
-2. Update, in the new `index.html`:
-   - `<title>`, `<meta name="description">`, `og:` tags
-   - `<link rel="canonical">` → `https://www.onlinemodelacademy.com/blog/<new-slug>/`
-   - the `Article` / `FAQPage` JSON-LD, including `datePublished`
-   - every CTA's `utm_content` → `<new-slug>__nav`, `__inline`, `__end`, `__footer`, `__exit`
-3. Add it to `blog/index.html` and to `sitemap.xml`.
-4. `npm run check` — it will tell you if you missed the sitemap, the canonical or a UTM slug.
+2. Add the slug to `ORDER` in `scripts/build-index-and-sitemap.mjs`, which sets
+   the listing order. The build refuses to run if an article is missing from it.
+3. Build and check:
+
+   ```bash
+   npm run build && npm run check
+   ```
+
+That regenerates the page, the blog listing and `sitemap.xml`, and wires up the
+canonical, the `Article` / `BreadcrumbList` / `FAQPage` schema, the tracking, the
+CTAs and their `utm_content` slugs automatically. CI fails if the committed HTML
+does not match the content it was generated from.
+
+The template in `content/article-template.html` was lifted verbatim from the
+hand-written articles, so both kinds render identically. If you change the shared
+layout, change it there and re-run `npm run build`.
 
 Article images go in `blog/images/`, exported at the width they are displayed and
-saved as WebP or a compressed JPEG.
+saved as WebP or a compressed JPEG. A new article may reuse an existing image by
+basename, but a dedicated one is better.
 
 ## Adding or replacing an image
 

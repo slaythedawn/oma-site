@@ -28,6 +28,9 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Generated articles match their source content
+        run: npm run check:build
+
       - name: Every local link, image and video resolves
         run: npm run check:site
 

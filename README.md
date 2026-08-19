@@ -21,14 +21,17 @@ Visitor → onlinemodelacademy.com (this repo, Vercel)
 | Path | What it is |
 | --- | --- |
 | `index.html` | The homepage. Everything — markup, CSS and JS — is in this one file. |
-| `blog/<slug>/index.html` | One directory per article, 16 of them, plus `blog/index.html` as the listing. |
+| `blog/<slug>/index.html` | One directory per article, 32 of them, plus `blog/index.html` as the listing. The first 16 are hand-written; the rest are generated — do not edit those by hand. |
+| `content/articles/` | Source content for generated articles, plus the shared page template. |
 | `assets/data.js` | Shared content data: mentor list, headline stats, pricing. Loaded by the homepage at runtime. |
 | `assets/`, `header-assets/`, `blog/images/` | Images, logos and the one web-optimised video. |
 | `config/kajabi.json` | **Single source of truth** for every link that leaves the site for Kajabi. |
 | `scripts/` | Checks and the Kajabi link sync. Not deployed. |
 | `project/` | Superseded Claude Design prototype. Kept for reference, excluded from the deploy. |
 
-There is no build step and no framework. What is in the repo is what is served.
+There is no framework and no bundler. What is in the repo is what is served — the
+build step only renders article HTML from content, it does not transform anything
+at deploy time.
 
 Pricing is a markdown in AUD: $299 current, $499 struck through, and a savings line
 derived from the two. Those numbers are repeated across the pricing card, the
@@ -40,7 +43,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md#changing-a-price) before changing either.
 
 ```bash
 npm run dev      # serve locally at http://localhost:8080
-npm run check    # link, asset, sitemap, canonical and Kajabi checks
+npm run build    # regenerate articles, the blog listing and sitemap.xml
+npm run check    # build, link, asset, sitemap, canonical and Kajabi checks
 ```
 
 `npm run check` is what CI runs on every pull request, so run it before you push.

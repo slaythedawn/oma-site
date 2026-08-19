@@ -42,7 +42,9 @@ const BARE_OFFER = /(?<!\/)\boffers\/([A-Za-z0-9_-]+)/g;
 const OFFER_SLUG = /(offer_slug\s*:\s*)(['"])([A-Za-z0-9_-]+)\2/g;
 
 const pages = globSync('**/*.html', { cwd: ROOT })
-  .filter((p) => !p.startsWith('node_modules/') && !p.startsWith('project/'))
+  // content/ holds the source template, project/ the superseded prototype —
+  // neither is a deployed page.
+  .filter((p) => !['node_modules/', 'project/', 'content/'].some((d) => p.startsWith(d)))
   .sort();
 
 /**
