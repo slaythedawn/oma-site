@@ -129,7 +129,7 @@ export const gettingStarted = [
     related: [
       'modelling-agencies-australia',
       'modelling-agencies-sydney',
-      'how-to-become-a-model',
+      'how-to-start-a-modeling-career',
     ],
     faq: [
       {

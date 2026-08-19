@@ -76,8 +76,8 @@ export const agenciesAu = [
     readTime: 11,
     date: DATE,
     related: [
-      'how-to-get-signed-by-a-modeling-agency',
-      'how-to-choose-a-modeling-agency',
+      'what-do-modeling-agencies-look-for',
+      'modelling-agencies-melbourne',
       'modelling-agencies-australia',
     ],
     faq: [
@@ -153,7 +153,7 @@ ${redFlags}
     date: DATE,
     related: [
       'modelling-agencies-sydney',
-      'how-to-get-signed-by-a-modeling-agency',
+      'modelling-agencies-brisbane',
       'modelling-agencies-australia',
     ],
     faq: [
@@ -218,7 +218,7 @@ ${redFlags}
     date: DATE,
     related: [
       'modelling-agencies-australia',
-      'how-to-get-signed-by-a-modeling-agency',
+      'modelling-agencies-perth',
       'modelling-agencies-sydney',
     ],
     faq: [
@@ -279,8 +279,8 @@ ${redFlags}
     date: DATE,
     related: [
       'modelling-agencies-australia',
-      'how-to-get-signed-by-a-modeling-agency',
-      'how-to-choose-a-modeling-agency',
+      'modelling-agencies-melbourne',
+      'modelling-agencies-brisbane',
     ],
     faq: [
       ...auFaqCommon('Perth'),

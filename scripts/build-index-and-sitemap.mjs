@@ -23,41 +23,80 @@ const existing = JSON.parse(readFileSync(join(ROOT, 'content/registry-existing.j
 const registry = { ...existing };
 for (const a of articles) registry[a.slug] = a;
 
-/** Listing order. The feature card leads; everything after is grouped by theme. */
-const ORDER = [
-  'how-to-become-a-model',
-  'how-to-start-a-modeling-career',
-  'how-to-become-a-model-in-australia',
-  'how-to-become-a-model-with-no-experience',
-  'what-do-modeling-agencies-look-for',
-  'how-to-get-signed-by-a-modeling-agency',
-  'how-to-choose-a-modeling-agency',
-  'modeling-agencies-near-me',
-  'modelling-agencies-australia',
-  'modelling-agencies-sydney',
-  'modelling-agencies-melbourne',
-  'modelling-agencies-brisbane',
-  'modelling-agencies-perth',
-  'modeling-jobs',
-  'open-casting-call',
-  'model-casting-calls',
-  'how-to-make-a-modeling-portfolio',
-  'modeling-portfolio-examples',
-  'model-comp-card',
-  'model-portfolio-website',
-  'how-much-does-it-cost-to-become-a-model',
-  'child-modeling-agencies',
-  'baby-modelling-agency',
-  'how-to-become-a-child-model',
-  'how-to-become-a-model-at-16',
-  'plus-size-modeling-agencies',
-  'how-to-become-a-male-model',
-  'how-to-become-a-fitness-model',
-  'how-to-become-a-hand-model',
-  'how-to-become-a-freelance-model',
-  'how-do-models-walk-in-runway-shows',
-  'how-to-become-a-successful-model',
+/**
+ * The listing, grouped into the topic clusters the content is actually built
+ * around. Grouping gives a visitor 32 articles they can navigate rather than
+ * scroll, and gives each cluster a heading that names what it covers.
+ * The first article in the first group renders as the feature card.
+ */
+const CLUSTERS = [
+  {
+    heading: 'Start here',
+    blurb: 'The fundamentals, whichever market you are in.',
+    slugs: [
+      'how-to-become-a-model',
+      'how-to-start-a-modeling-career',
+      'how-to-become-a-model-in-australia',
+      'how-to-become-a-model-with-no-experience',
+      'how-much-does-it-cost-to-become-a-model',
+      'how-to-become-a-successful-model',
+    ],
+  },
+  {
+    heading: 'Agencies',
+    blurb: 'How representation works, who to approach, and what to avoid.',
+    slugs: [
+      'what-do-modeling-agencies-look-for',
+      'how-to-get-signed-by-a-modeling-agency',
+      'how-to-choose-a-modeling-agency',
+      'modeling-agencies-near-me',
+      'modelling-agencies-australia',
+      'modelling-agencies-sydney',
+      'modelling-agencies-melbourne',
+      'modelling-agencies-brisbane',
+      'modelling-agencies-perth',
+    ],
+  },
+  {
+    heading: 'Castings & work',
+    blurb: 'Where the bookings come from and how to handle the room.',
+    slugs: ['modeling-jobs', 'open-casting-call', 'model-casting-calls', 'how-do-models-walk-in-runway-shows'],
+  },
+  {
+    heading: 'Portfolio',
+    blurb: 'Digitals, books, comp cards and everything agencies ask to see.',
+    slugs: [
+      'how-to-make-a-modeling-portfolio',
+      'modeling-portfolio-examples',
+      'model-comp-card',
+      'model-portfolio-website',
+    ],
+  },
+  {
+    heading: 'For parents',
+    blurb: 'Child and teen modelling, and how to tell a real agency from a scam.',
+    slugs: [
+      'child-modeling-agencies',
+      'baby-modelling-agency',
+      'how-to-become-a-child-model',
+      'how-to-become-a-model-at-16',
+    ],
+  },
+  {
+    heading: 'Specialisms',
+    blurb: 'Boards with their own clients, requirements and rates.',
+    slugs: [
+      'plus-size-modeling-agencies',
+      'how-to-become-a-male-model',
+      'how-to-become-a-fitness-model',
+      'how-to-become-a-hand-model',
+      'how-to-become-a-freelance-model',
+    ],
+  },
 ];
+
+/** Flat order, for the sitemap and for coverage checks. */
+const ORDER = CLUSTERS.flatMap((c) => c.slugs);
 
 const known = Object.keys(registry);
 const missing = known.filter((s) => !ORDER.includes(s));
@@ -81,11 +120,43 @@ const card = (slug, i) => {
 
 const indexPath = join(ROOT, 'blog/index.html');
 let index = readFileSync(indexPath, 'utf8');
-const cards = ORDER.map(card).join('');
+
+let featureUsed = false;
+const sections = CLUSTERS.map((c) => {
+  const cards = c.slugs
+    .map((slug) => {
+      const isFeature = !featureUsed;
+      featureUsed = true;
+      return card(slug, isFeature ? 0 : 1);
+    })
+    .join('');
+  return `<div class="cluster">
+    <h2 class="cluster-h">${c.heading}</h2>
+    <p class="cluster-b">${c.blurb}</p>
+  </div>
+  <div class="cards">${cards}</div>`;
+}).join('\n  ');
 
 const before = index;
-index = index.replace(/(<div class="cards">)[\s\S]*?(<\/div>\s*<\/section>)/, `$1${cards}$2`);
+index = index.replace(
+  /<div class="cards">[\s\S]*?<\/div>(\s*<\/section>)/,
+  `${sections}$1`,
+);
 if (index === before) throw new Error('blog/index.html: could not find the cards grid to replace.');
+
+// Styles for the cluster headings, added once.
+if (!index.includes('.cluster-h {')) {
+  index = index.replace(
+    '.bgrid {',
+    `.cluster { max-width:1280px; margin:56px auto 20px; }
+.cluster:first-of-type { margin-top:8px; }
+.cluster-h { font-family:var(--serif); font-weight:600; font-size:clamp(24px,3vw,32px); line-height:1.15; letter-spacing:-0.01em; }
+.cluster-b { font-size:15.5px; color:var(--ink-mute); margin-top:6px; }
+.bgrid .cards + .cluster { margin-top:64px; }
+.bgrid {`,
+  );
+}
+
 writeFileSync(indexPath, index);
 
 // --- sitemap ---------------------------------------------------------------

@@ -37,7 +37,7 @@ export const agenciesUs = [
     date: DATE,
     related: [
       'what-do-modeling-agencies-look-for',
-      'how-to-get-signed-by-a-modeling-agency',
+      'how-to-start-a-modeling-career',
       'how-to-choose-a-modeling-agency',
     ],
     faq: [
@@ -220,7 +220,7 @@ ${feeWarning}
     related: [
       'what-do-modeling-agencies-look-for',
       'modeling-agencies-near-me',
-      'how-to-make-a-modeling-portfolio',
+      'model-portfolio-website',
     ],
     faq: [
       {
