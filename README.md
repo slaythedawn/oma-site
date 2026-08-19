@@ -101,6 +101,12 @@ Vercel, connected to this repo. `vercel.json` sets cache headers, security heade
 and forces trailing slashes so `/blog/x` and `/blog/x/` do not both get indexed.
 `.vercelignore` keeps repo tooling and the old prototype out of the deployment.
 
+**Nothing is built at deploy time.** `npm run build` runs locally and its output is
+committed, so `vercel.json` sets an explicit no-op `buildCommand`. Without it Vercel
+sees the `build` script in `package.json`, tries to run it, and fails — `scripts/`
+and `content/` are excluded from the deployment, so the build cannot find its own
+files. Leave that setting alone unless the deploy genuinely needs to build something.
+
 Image and video caching is time-based, not content-hashed. **Renaming a file is how
 you bust the cache** — overwriting `assets/headshots/foo.png` in place can leave the
 old image in front of visitors for up to a week.
