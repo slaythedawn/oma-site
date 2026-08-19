@@ -18,6 +18,6 @@
     "check:site:external": "node scripts/check-site.mjs --external",
     "check:kajabi": "node scripts/kajabi-links.mjs --check",
     "kajabi:sync": "node scripts/kajabi-links.mjs --sync",
-    "dev": "node .claude/server.js"
+    "dev": "node .claude/server.cjs"
   }
 }

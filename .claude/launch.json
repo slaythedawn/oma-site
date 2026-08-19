@@ -4,7 +4,7 @@
     {
       "name": "oma-static",
       "runtimeExecutable": "node",
-      "runtimeArgs": [".claude/server.js"],
+      "runtimeArgs": [".claude/server.cjs"],
       "port": 8080,
       "autoPort": true
     }
