@@ -104,49 +104,87 @@ if (!existsSync(dataPath)) {
   }
 }
 
-// --- the price and currency agree everywhere they are declared --------------
-// The homepage states the price three times: the Course schema Google may print
-// in a search result, the conversion events GA4 and Meta count as revenue, and
-// assets/data.js. They drifted apart once already (schema said USD while the
-// tracking said AUD), which misstates the price to whichever one is wrong.
+// --- the two prices agree everywhere they are declared ----------------------
+// The pricing card shows a markdown: $299 current, $499 struck through, and a
+// "Save $200" line derived from the two. Those numbers are repeated in the
+// Course schema, in the Meta/GA4 conversion events and in assets/data.js, so a
+// price change touches five places. Miss one and the site either misreports
+// revenue or makes a savings claim that does not add up.
 {
   const home = readFileSync(join(ROOT, 'index.html'), 'utf8');
   const data = existsSync(dataPath) ? readFileSync(dataPath, 'utf8') : '';
 
-  const currencies = new Map();
-  const add = (where, value) => {
-    if (value) currencies.set(where, value);
+  /** The Offer block out of the Course JSON-LD, parsed rather than regexed. */
+  let schemaOffer = null;
+  for (const [, raw] of home.matchAll(
+    /<script type="application\/ld\+json">([\s\S]*?)<\/script>/g,
+  )) {
+    try {
+      const parsed = JSON.parse(raw);
+      if (parsed['@type'] === 'Course' && parsed.offers) schemaOffer = parsed.offers;
+    } catch {
+      problems.push('index.html: a JSON-LD block does not parse as JSON.');
+    }
+  }
+  if (!schemaOffer) problems.push('index.html: no Offer found in the Course schema.');
+
+  /** Collect "where it is declared" -> value, then complain if they disagree. */
+  const compare = (label, sources) => {
+    const found = new Map(sources.filter(([, value]) => value != null));
+    if (new Set(found.values()).size > 1) {
+      problems.push(
+        `index.html: ${label} disagrees with itself — ` +
+          [...found].map(([where, value]) => `${value} in ${where}`).join(', ') + '.',
+      );
+    }
+    return [...found.values()][0];
   };
 
-  add('the Course schema', home.match(/"priceCurrency"\s*:\s*"([A-Z]{3})"/)?.[1]);
-  for (const [, value] of home.matchAll(/currency\s*:\s*['"]([A-Z]{3})['"]/g)) {
-    add('the conversion tracking', value);
-  }
+  const num = (match) => (match ? Number(match[1]) : null);
 
-  const distinctCurrencies = new Set(currencies.values());
-  if (distinctCurrencies.size > 1) {
+  // What a visitor is charged today.
+  const current = compare('the current price', [
+    ['the pricing card', num(home.match(/<span class="big">\$<em>(\d+)<\/em><\/span>/))],
+    ['the Course schema', schemaOffer ? Number(schemaOffer.price) : null],
+    ['the conversion tracking', num(home.match(/value:\s*(\d+(?:\.\d+)?)/))],
+    ['assets/data.js', num(data.match(/priceCurrent:\s*(\d+(?:\.\d+)?)/))],
+  ]);
+
+  // The struck-through anchor. Deliberately a separate number from the above —
+  // the two are meant to differ, and only each source of the same one must agree.
+  const anchor = compare('the anchor price', [
+    ['the pricing card', num(home.match(/<span class="old">\$(\d+)<\/span>/))],
+    ['assets/data.js', num(data.match(/priceOld:\s*(\d+(?:\.\d+)?)/))],
+  ]);
+
+  // Every conversion event must carry the same value, not just the first.
+  const trackedValues = [...home.matchAll(/value:\s*(\d+(?:\.\d+)?)/g)].map((m) => Number(m[1]));
+  if (new Set(trackedValues).size > 1) {
     problems.push(
-      'index.html: the price currency disagrees with itself — ' +
-        [...currencies].map(([where, value]) => `${value} in ${where}`).join(', ') + '.',
+      `index.html: the conversion events report different values — ${[...new Set(trackedValues)].join(', ')}.`,
     );
   }
 
-  const prices = new Map();
-  const schemaPrice = home.match(/"price"\s*:\s*"?(\d+(?:\.\d+)?)"?/)?.[1];
-  if (schemaPrice) prices.set('the Course schema', Number(schemaPrice));
-  for (const [, value] of home.matchAll(/value\s*:\s*(\d+(?:\.\d+)?)\s*,\s*\n?\s*currency/g)) {
-    prices.set('the conversion tracking', Number(value));
-  }
-  for (const [, value] of home.matchAll(/currency\s*:\s*['"][A-Z]{3}['"]\s*,\s*\n?\s*value\s*:\s*(\d+(?:\.\d+)?)/g)) {
-    prices.set('the conversion tracking', Number(value));
-  }
-  const dataPrice = data.match(/priceCurrent\s*:\s*(\d+(?:\.\d+)?)/)?.[1];
-  if (dataPrice) prices.set('assets/data.js', Number(dataPrice));
+  // The currency, wherever it is stated.
+  compare('the price currency', [
+    ['the Course schema', schemaOffer?.priceCurrency ?? null],
+    ...[...home.matchAll(/currency:\s*['"]([A-Z]{3})['"]/g)].map((m, i) => [
+      `conversion event ${i + 1}`,
+      m[1],
+    ]),
+  ]);
 
-  if (new Set(prices.values()).size > 1) {
+  // "Save $200 off launch pricing" has to be arithmetic, not a leftover.
+  const claimed = num(home.match(/Save \$(\d+) off/));
+  if (claimed != null && current != null && anchor != null && claimed !== anchor - current) {
     problems.push(
-      'index.html: the price disagrees with itself — ' +
-        [...prices].map(([where, value]) => `${value} in ${where}`).join(', ') + '.',
+      `index.html: the savings claim says $${claimed}, but $${anchor} - $${current} is $${anchor - current}.`,
+    );
+  }
+  if (anchor != null && current != null && anchor <= current) {
+    problems.push(
+      `index.html: the anchor price $${anchor} is not above the current price $${current}, ` +
+        'so the struck-through price reads as a markup rather than a discount.',
     );
   }
 }

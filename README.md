@@ -30,9 +30,11 @@ Visitor → onlinemodelacademy.com (this repo, Vercel)
 
 There is no build step and no framework. What is in the repo is what is served.
 
-Everything is priced in AUD. The homepage declares the price three times — the
-`Course` schema, the conversion tracking and `assets/data.js` — and `npm run check`
-fails if they stop agreeing.
+Pricing is a markdown in AUD: $299 current, $499 struck through, and a savings line
+derived from the two. Those numbers are repeated across the pricing card, the
+`Course` schema, both conversion events and `assets/data.js`, so `npm run check`
+verifies each price agrees with itself and that the savings line still adds up.
+See [CONTRIBUTING.md](CONTRIBUTING.md#changing-a-price) before changing either.
 
 ## Working on it
 

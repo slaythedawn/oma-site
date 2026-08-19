@@ -24,27 +24,36 @@ before customers do.
 
 ## Changing a price
 
-The price appears in more places than you would expect. All of these:
+There are **two** prices, and they are meant to differ:
 
-- `index.html` — the pricing section, the CTA button labels (`Enrol — $299`), any
-  comparison table, and the `Course` / `Offer` JSON-LD schema block
-- `assets/data.js` — `stats.priceCurrent` and `stats.priceOld`
+| | Now | Where |
+| --- | --- | --- |
+| **Current** — what a visitor is charged | $299 | pricing card, `Course` schema, both conversion events, `data.js` `priceCurrent`, every CTA button label |
+| **Anchor** — struck through above it | $499 | pricing card, `data.js` `priceOld` |
+
+The `Save $200 off launch pricing` line is derived from the two, so a price change
+touches five places plus that sentence. `npm run check:site` verifies each price
+agrees with itself across its own sources, that the savings line is actually
+`anchor − current`, and that the anchor stays above the current price.
+
+Also update:
+
 - every `blog/*/index.html` — the nav CTA button label
 - **Kajabi** — the offer itself. The site is a shopfront; changing the number here
   does not change what anyone is charged.
 
 ```bash
-grep -rn '299' --include='*.html' --include='*.js' .
+grep -rn '299\|499' --include='*.html' --include='*.js' .
 ```
 
 Getting the site and Kajabi out of step is the single most expensive mistake
 available here. Change Kajabi first, then the site.
 
-Everything is priced in **AUD**. The homepage states the price in three places —
-the `Course` schema, the conversion tracking, and `assets/data.js` — and
-`npm run check:site` fails if they stop agreeing on either the number or the
-currency. Change all three together, or the check will tell you which one you
-missed.
+Everything is priced in **AUD**, in the schema and in the conversion events alike.
+
+A struck-through price is a claim about what the course used to cost. Keep it one
+you could stand behind — the ACL treats was/now pricing as a representation, not
+decoration.
 
 ## Changing a Kajabi offer
 
@@ -110,7 +119,7 @@ Say in the PR what campaign reporting the change affects.
 
 | Command | What it catches |
 | --- | --- |
-| `npm run check:site` | Broken links and image/video references, a page missing from the sitemap, a copy-pasted canonical, a missing title or meta description, a price or currency that disagrees with itself |
+| `npm run check:site` | Broken links and image/video references, a page missing from the sitemap, a copy-pasted canonical, a missing title or meta description, a price or currency that disagrees with itself, a savings claim that no longer adds up |
 | `npm run check:kajabi` | A Kajabi link that drifted from `config/kajabi.json`, a wrong `utm_campaign`, a `utm_content` slug that does not match its page |
 | `npm run check:site:external` | Off-site links that no longer respond. Runs in CI, and weekly on a schedule, so an archived Kajabi offer surfaces even in a quiet week. Advisory — it does not block a PR. |
 
