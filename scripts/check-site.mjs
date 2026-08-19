@@ -71,7 +71,10 @@ for (const page of pages) {
     }
   }
 
-  for (const [, url] of html.matchAll(absoluteUrl)) externalUrls.add(url.split('#')[0]);
+  // preconnect and dns-prefetch name a host to warm a connection to; the bare
+  // origin is not a page and legitimately 404s, so they are not links to check.
+  const linkable = html.replace(/<link[^>]+rel="(?:preconnect|dns-prefetch)"[^>]*>/g, '');
+  for (const [, url] of linkable.matchAll(absoluteUrl)) externalUrls.add(url.split('#')[0]);
 
   // --- every local reference points at a file that exists ------------------
   for (const [, ref] of html.matchAll(attrRef)) {
