@@ -7,15 +7,17 @@
     "node": ">=22"
   },
   "scripts": {
-    "build": "npm run build:articles && npm run build:index",
+    "build": "npm run build:articles && npm run build:footer && npm run build:schema && npm run build:index",
     "build:articles": "node scripts/build-articles.mjs",
+    "build:footer": "node scripts/build-footer.mjs",
+    "build:schema": "node scripts/build-home-schema.mjs",
     "build:index": "node scripts/build-index-and-sitemap.mjs",
     "check": "npm run check:build && npm run check:site && npm run check:kajabi",
-    "check:build": "node scripts/build-articles.mjs --verify",
+    "check:build": "node scripts/build-articles.mjs --verify && node scripts/build-footer.mjs --verify && node scripts/build-home-schema.mjs --verify",
     "check:site": "node scripts/check-site.mjs",
     "check:site:external": "node scripts/check-site.mjs --external",
     "check:kajabi": "node scripts/kajabi-links.mjs --check",
     "kajabi:sync": "node scripts/kajabi-links.mjs --sync",
-    "dev": "node .claude/server.js"
+    "dev": "node .claude/server.cjs"
   }
 }

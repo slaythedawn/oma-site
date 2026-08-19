@@ -102,9 +102,13 @@ To add a generated article:
    }
    ```
 
-2. Add the slug to `ORDER` in `scripts/build-index-and-sitemap.mjs`, which sets
-   the listing order. The build refuses to run if an article is missing from it.
-3. Build and check:
+2. Add the slug to a cluster in `CLUSTERS` in `scripts/build-index-and-sitemap.mjs`,
+   which sets both the blog listing and the sitemap. The build refuses to run if an
+   article is in neither.
+3. If it deserves a sitewide link, add it to `COLUMNS` in `scripts/build-footer.mjs`.
+   Keep the footer to roughly five links per column — it is a navigation aid, not a
+   dump of every URL.
+4. Build and check:
 
    ```bash
    npm run build && npm run check
@@ -137,6 +141,23 @@ basename, but a dedicated one is better.
 Only web-optimised exports belong in the repo — see `assets/Reels/Jack-web.mp4`
 for the target, around 6 MB. Master files are gitignored on purpose; keep them in
 cloud storage. If a video will not fit comfortably, host it externally and embed it.
+
+## The footer and the homepage schema
+
+Both are generated, because both are duplicated across all 35 files and drifted
+the moment anyone edited one by hand.
+
+- `scripts/build-footer.mjs` owns the footer everywhere, including its CSS. It is
+  the site's only sitewide internal-linking surface, so the link groups mirror the
+  blog's topic clusters. The free-module CTA keeps each page's own `utm_content`,
+  so footer opt-ins stay attributable to the article that drove them.
+- `scripts/build-home-schema.mjs` emits the homepage `WebSite` and `FAQPage`
+  JSON-LD, reading the questions straight out of `assets/data.js`. The visible FAQ
+  is rendered by JavaScript into an empty div, so without this a crawler sees no
+  questions at all. Edit the FAQ in `data.js` and rebuild — never hand-edit the
+  JSON-LD, it sits between generated markers.
+
+`npm run check` fails if either is stale.
 
 ## Changing tracking
 

@@ -6,7 +6,7 @@ Thumbs.db
 /node_modules
 
 # Local dev server logs
-.claude/server.js.log
+.claude/server.cjs.log
 
 # Working files that must not reach the deploy
 index (old).html
