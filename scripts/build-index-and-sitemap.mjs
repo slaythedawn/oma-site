@@ -102,6 +102,7 @@ const CLUSTERS = [
     heading: 'Specialisms',
     blurb: 'Boards with their own clients, requirements and rates.',
     slugs: [
+      'runway-model',
       'plus-size-modeling-agencies',
       'how-to-become-a-male-model',
       'how-to-become-a-fitness-model',

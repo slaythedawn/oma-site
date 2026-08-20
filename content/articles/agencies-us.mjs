@@ -129,7 +129,7 @@ ${digitalsBlock}
     related: [
       'how-to-get-signed-by-a-modeling-agency',
       'modeling-agencies-near-me',
-      'how-to-become-a-model-with-no-experience',
+      'runway-model',
     ],
     faq: [
       {
