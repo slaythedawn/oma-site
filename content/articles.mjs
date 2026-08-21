@@ -8,6 +8,7 @@ import { parents } from './articles/parents.mjs';
 import { portfolio } from './articles/portfolio.mjs';
 import { jobs } from './articles/jobs.mjs';
 import { gettingStarted } from './articles/getting-started.mjs';
+import { commercial } from './articles/commercial.mjs';
 
 export const articles = [
   ...agenciesAu,
@@ -16,4 +17,5 @@ export const articles = [
   ...portfolio,
   ...jobs,
   ...gettingStarted,
+  ...commercial,
 ];

@@ -63,6 +63,11 @@ const CLUSTERS = [
     slugs: ['modeling-jobs', 'open-casting-call', 'model-casting-calls', 'how-do-models-walk-in-runway-shows'],
   },
   {
+    heading: 'Training',
+    blurb: 'Whether to pay for classes, and how to avoid the schools that sell hope.',
+    slugs: ['modeling-classes', 'modeling-schools'],
+  },
+  {
     heading: 'Portfolio',
     blurb: 'Digitals, books, comp cards and everything agencies ask to see.',
     slugs: [
