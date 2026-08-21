@@ -31,7 +31,7 @@ const COLUMNS = [
       { href: '#mentors', label: 'Mentors', anchor: true },
       { href: '#pricing', label: 'Pricing', anchor: true },
       { href: '#faq', label: 'FAQ', anchor: true },
-      { href: 'blog/', label: 'All 32 guides' },
+      { href: 'blog/', label: 'All 34 guides' },
     ],
   },
   {
@@ -41,7 +41,8 @@ const COLUMNS = [
       { href: 'blog/how-to-start-a-modeling-career/', label: 'Starting a career' },
       { href: 'blog/how-to-become-a-model-with-no-experience/', label: 'With no experience' },
       { href: 'blog/how-to-become-a-model-in-australia/', label: 'Modelling in Australia' },
-      { href: 'blog/how-much-does-it-cost-to-become-a-model/', label: 'What it costs' },
+      { href: 'blog/modeling-classes/', label: 'Are classes worth it?' },
+      { href: 'blog/modeling-schools/', label: 'Schools & scams' },
     ],
   },
   {
@@ -67,6 +68,15 @@ const COLUMNS = [
 ];
 
 const KAJABI = 'https://www.onlinemodel.academy';
+
+// The "All N guides" label has to match reality, so derive it rather than
+// hand-maintaining a number that goes stale every time an article ships.
+const GUIDE_COUNT = globSync('blog/*/index.html', { cwd: ROOT }).length;
+for (const c of COLUMNS) {
+  for (const l of c.links) {
+    if (l.href === 'blog/') l.label = `All ${GUIDE_COUNT} guides`;
+  }
+}
 
 /**
  * @param prefix  path back to the site root from the page being rendered

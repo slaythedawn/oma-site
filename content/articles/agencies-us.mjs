@@ -102,6 +102,10 @@ ${digitalsBlock}
 <p>Plenty of agencies run open calls, and they remain the most direct route into a room with a booker. Expect it to be short and slightly clinical: measurements, a photo against a wall, a few questions, and "we'll be in touch". That is the format, not a rejection.</p>
 <p>Turn up with clean hair, minimal makeup, fitted plain clothes, your digitals and your stats. What decides the outcome is usually whether your look fills a gap on their board this season. Read our guide to <a href="../open-casting-call/">open casting calls</a> for how to handle the room itself.</p>
 
+<h2>"Classes Near Me" Is a Different Search</h2>
+<p>A lot of people looking for an agency nearby end up searching for classes nearby instead, and the two lead somewhere very different. An agency represents you and earns commission on your bookings. A local class or school sells you training and earns from your fee whether or not you ever work.</p>
+<p>Both can be legitimate, but only one of them can put you in front of a client — and no class or certificate has ever caused an agency to sign anyone, because the industry has no accreditation. If a local business presents itself as both, read our guides to <a href="../modeling-schools/">modeling schools and how the scams work</a> and <a href="../modeling-classes/">judging a class before you pay</a> before handing over anything.</p>
+
 <h2>If There Is Genuinely Nothing Near You</h2>
 <p>Some legitimate paths do not require a local agency at all. Freelance commercial and catalogue work exists in most cities, and a lot of it is booked directly — our <a href="../how-to-become-a-freelance-model/">freelance modeling guide</a> covers how that works and where the risks are. Digital submissions to agencies in a target market are also normal now, and many agencies will request a video call before asking you to travel.</p>
 <p>What does not work is signing with whoever is nearest regardless of whether they can book you. A bad agency is worse than no agency, because an exclusive contract with a company that never places you can lock up your career for its full term.</p>

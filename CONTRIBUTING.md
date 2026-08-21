@@ -107,7 +107,8 @@ To add a generated article:
    article is in neither.
 3. If it deserves a sitewide link, add it to `COLUMNS` in `scripts/build-footer.mjs`.
    Keep the footer to roughly five links per column — it is a navigation aid, not a
-   dump of every URL.
+   dump of every URL. The "All N guides" label counts the articles on disk, so it
+   does not need updating.
 4. Build and check:
 
    ```bash
