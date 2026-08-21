@@ -50,6 +50,7 @@ const CLUSTERS = [
       'how-to-become-a-model-in-australia',
       'how-to-become-a-model-with-no-experience',
       'how-much-does-it-cost-to-become-a-model',
+      'how-much-do-models-make',
       'how-to-become-a-successful-model',
     ],
   },
