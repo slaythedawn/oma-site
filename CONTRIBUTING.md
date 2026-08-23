@@ -136,6 +136,11 @@ basename, but a dedicated one is better.
 - **Give a replacement a new filename.** Caching is time-based, so overwriting a
   file in place can serve the old image for up to a week.
 - Mentor headshots are wired up in `assets/data.js`, not in the HTML.
+- **Every `<img>` needs an `alt`.** Describe what the image shows. If it is
+  genuinely decorative — a tracking pixel, or a logo duplicated purely so a
+  marquee can loop without a seam — write `alt="" aria-hidden="true"`. A bare
+  `alt=""` fails `npm run check:site`, because it is indistinguishable from a
+  field someone left blank. Bing reports both the same way.
 
 ## Adding or replacing a video
 
@@ -158,7 +163,11 @@ the moment anyone edited one by hand.
   questions at all. Edit the FAQ in `data.js` and rebuild — never hand-edit the
   JSON-LD, it sits between generated markers.
 
-`npm run check` fails if either is stale.
+- `scripts/build-index-and-sitemap.mjs` owns the blog listing grid and
+  `sitemap.xml`. It rewrites the whole `<section class="bgrid">` body, so
+  running it twice is a no-op.
+
+`npm run check` fails if any of them is stale.
 
 ## Changing tracking
 

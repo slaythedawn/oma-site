@@ -18,6 +18,17 @@ import { articles } from '../content/articles.mjs';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const SITE = 'https://www.onlinemodelacademy.com';
+const verifyOnly = process.argv.includes('--verify');
+
+const stale = [];
+
+/** Write, or in --verify mode record that the committed file has drifted. */
+function emit(relPath, contents) {
+  const file = join(ROOT, relPath);
+  if (readFileSync(file, 'utf8') === contents) return;
+  if (verifyOnly) stale.push(relPath);
+  else writeFileSync(file, contents);
+}
 
 const existing = JSON.parse(readFileSync(join(ROOT, 'content/registry-existing.json'), 'utf8'));
 const registry = { ...existing };
@@ -142,12 +153,15 @@ const sections = CLUSTERS.map((c) => {
   <div class="cards">${cards}</div>`;
 }).join('\n  ');
 
-const before = index;
-index = index.replace(
-  /<div class="cards">[\s\S]*?<\/div>(\s*<\/section>)/,
-  `${sections}$1`,
-);
-if (index === before) throw new Error('blog/index.html: could not find the cards grid to replace.');
+// Replace the whole <section class="bgrid"> body, not just the first cards
+// grid. Anchoring on the grid left the cluster heading that precedes it behind,
+// so every build stacked one more empty "Start here" on the live page.
+// Now that the build is idempotent, an unchanged file means "already current",
+// not "failed" — so guard on the region being found rather than on the output
+// differing.
+const GRID = /(<section class="bgrid">)[\s\S]*?(<\/section>)/;
+if (!GRID.test(index)) throw new Error('blog/index.html: could not find <section class="bgrid"> to replace.');
+index = index.replace(GRID, `$1\n  ${sections}\n$2`);
 
 // Styles for the cluster headings, added once.
 if (!index.includes('.cluster-h {')) {
@@ -162,7 +176,7 @@ if (!index.includes('.cluster-h {')) {
   );
 }
 
-writeFileSync(indexPath, index);
+emit('blog/index.html', index);
 
 // --- sitemap ---------------------------------------------------------------
 const today = articles[0].date;
@@ -194,8 +208,19 @@ ${urls
 </urlset>
 `;
 
-writeFileSync(join(ROOT, 'sitemap.xml'), sitemap);
+emit('sitemap.xml', sitemap);
 
-console.log(
-  `build-index-and-sitemap: ${ORDER.length} articles listed, ${urls.length} URLs in sitemap.xml.`,
-);
+if (verifyOnly) {
+  if (stale.length) {
+    console.error(
+      `build-index-and-sitemap: ${stale.length} file(s) out of date — run \`npm run build:index\`:\n`,
+    );
+    for (const f of stale) console.error(`  ✗ ${f}`);
+    process.exit(1);
+  }
+  console.log('build-index-and-sitemap: blog listing and sitemap.xml are current.');
+} else {
+  console.log(
+    `build-index-and-sitemap: ${ORDER.length} articles listed, ${urls.length} URLs in sitemap.xml.`,
+  );
+}

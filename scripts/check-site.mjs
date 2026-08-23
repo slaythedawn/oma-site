@@ -76,6 +76,25 @@ for (const page of pages) {
   const linkable = html.replace(/<link[^>]+rel="(?:preconnect|dns-prefetch)"[^>]*>/g, '');
   for (const [, url] of linkable.matchAll(absoluteUrl)) externalUrls.add(url.split('#')[0]);
 
+  // --- every image says what it is, or says it says nothing ----------------
+  // Bing flags a bare `alt=""` the same way it flags a missing attribute, and
+  // it cannot tell a decorative image from a content one. Neither can a checker,
+  // so the convention here is that empty alt has to be declared: `alt=""` is
+  // only allowed alongside `aria-hidden="true"`, which is a decision someone
+  // made rather than a field left blank. A JS-built alt (`alt="${…}"`) counts.
+  for (const tag of html.match(/<img\b[^>]*>/g) ?? []) {
+    const alt = tag.match(/\salt="([^"]*)"/);
+    const src = tag.match(/\ssrc="([^"]*)"/)?.[1] ?? tag.slice(0, 60);
+    if (!alt) {
+      fail(page, `<img src="${src}"> has no alt attribute.`);
+    } else if (!alt[1].trim() && !/\saria-hidden="true"/.test(tag)) {
+      fail(
+        page,
+        `<img src="${src}"> has an empty alt. Describe it, or add aria-hidden="true" if it is decorative.`,
+      );
+    }
+  }
+
   // --- every local reference points at a file that exists ------------------
   for (const [, ref] of html.matchAll(attrRef)) {
     // Built at runtime from assets/data.js — checked separately below.
