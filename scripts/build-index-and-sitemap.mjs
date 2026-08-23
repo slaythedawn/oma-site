@@ -50,6 +50,7 @@ const CLUSTERS = [
       'how-to-become-a-model-in-australia',
       'how-to-become-a-model-with-no-experience',
       'how-much-does-it-cost-to-become-a-model',
+      'how-much-do-models-make',
       'how-to-become-a-successful-model',
     ],
   },
@@ -71,7 +72,7 @@ const CLUSTERS = [
   {
     heading: 'Castings & work',
     blurb: 'Where the bookings come from and how to handle the room.',
-    slugs: ['modeling-jobs', 'open-casting-call', 'model-casting-calls', 'how-do-models-walk-in-runway-shows'],
+    slugs: ['modeling-jobs', 'open-casting-call', 'model-casting-calls', 'how-do-models-walk-in-runway-shows', 'runway-model'],
   },
   {
     heading: 'Training',

@@ -32,7 +32,7 @@ export const jobs = [
     date: DATE,
     related: [
       'open-casting-call',
-      'model-casting-calls',
+      'how-much-do-models-make',
       'how-to-become-a-freelance-model',
     ],
     faq: [

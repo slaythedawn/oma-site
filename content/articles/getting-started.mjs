@@ -19,7 +19,7 @@ export const gettingStarted = [
     related: [
       'how-to-become-a-model',
       'what-do-modeling-agencies-look-for',
-      'modeling-jobs',
+      'runway-model',
     ],
     faq: [
       {

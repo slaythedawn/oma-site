@@ -61,6 +61,7 @@ const COLUMNS = [
       { href: 'blog/how-to-make-a-modeling-portfolio/', label: 'Building a portfolio' },
       { href: 'blog/model-comp-card/', label: 'Comp cards' },
       { href: 'blog/modeling-jobs/', label: 'Where the work is' },
+      { href: 'blog/how-much-do-models-make/', label: 'What models earn' },
       { href: 'blog/child-modeling-agencies/', label: 'For parents' },
       { href: 'blog/plus-size-modeling-agencies/', label: 'Curve & plus' },
     ],
