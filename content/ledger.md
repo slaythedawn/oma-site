@@ -46,6 +46,7 @@ the keyword, improve that article. Do not write a second one.
 | runway-model | runway model / what is runway modeling | 3200 + 1200 | 2 / 0 | 2026-08-20 |
 | modeling-classes | modeling classes | 900 | 20 | 2026-08-22 |
 | modeling-schools | modeling schools | 300 | 0 | 2026-08-22 |
+| how-much-do-models-make | how much do models make | 2500 | 3 | 2026-08-23 |
 
 ## Shortlist for coming weeks
 
@@ -53,7 +54,6 @@ Verified uncovered against the table above. Figures re-checked 2026-08-20.
 
 | Target keyword | US vol | KD | Note |
 | --- | --- | --- | --- |
-| how much do models make | 2500 | 0 | About earning. Distinct from how-much-does-it-cost, which is about spending. |
 | types of modeling | 1300 | 6 | Natural hub page that can link out to most of the table above. |
 | how to get paid as a model | 800 | 0 | Pairs with "how much do models make". |
 | how to find modeling jobs | 700 | 0 | Close to the offer. Check against modeling-jobs for overlap before writing. |
