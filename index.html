@@ -2238,14 +2238,27 @@ h1 em, h2 em, h3 em { font-style: italic; font-weight: 350; }
   const QUIZ_WEBHOOK_URL = 'https://hooks.zapier.com/hooks/catch/27315899/ujpujnt/';
   let _leadTracked = false; // guard against duplicate lead events on retry
   const submitLead = (payload) => {
-    // Local backup — belt-and-braces in case the webhook is down
+    // Local copy. Note this lives in THIS VISITOR'S browser, so it is not a
+    // backup anyone can recover from — it is only useful for debugging on a
+    // device you control. The webhook is the only real delivery path.
     try {
       const key = 'oma_quiz_leads';
       const prev = JSON.parse(localStorage.getItem(key) || '[]');
       prev.push(payload);
       localStorage.setItem(key, JSON.stringify(prev));
     } catch (_) {}
-    // Fire to Zapier webhook as form-encoded to bypass CORS preflight
+    // Fire to Zapier webhook as form-encoded to bypass CORS preflight.
+    //
+    // This runs in no-cors mode, which means the response is opaque: res.ok is
+    // always false and res.status is always 0. A 500 from Zapier is therefore
+    // INDISTINGUISHABLE from a 200 here — the only failure this code can see is
+    // the request never leaving the browser (offline, DNS failure, connection
+    // refused, timeout). Server-side errors have to be caught on the Zapier
+    // side, via that Zap's own error notifications.
+    //
+    // What we can do is stop losing leads silently: retry a transient failure
+    // once, then report the failure to analytics so a broken funnel shows up as
+    // a number instead of as an absence of numbers.
     try {
       const body = new URLSearchParams();
       body.append('name',    payload.name  || '');
@@ -2256,12 +2269,46 @@ h1 em, h2 em, h3 em { font-style: italic; font-weight: 350; }
         body.append(`q${i + 1}_value`, a && a.value ? a.value : '');
         body.append(`q${i + 1}_label`, a && a.label ? a.label : '');
       });
-      fetch(QUIZ_WEBHOOK_URL, {
+
+      // A hung request is a failure too, so bound it rather than waiting on the
+      // browser's default. AbortSignal.timeout is not in older Safari.
+      const withTimeout = (ms) => {
+        if (typeof AbortController !== 'function') return undefined;
+        const ac = new AbortController();
+        setTimeout(() => ac.abort(), ms);
+        return ac.signal;
+      };
+
+      const post = () => fetch(QUIZ_WEBHOOK_URL, {
         method: 'POST',
         body,
         mode: 'no-cors',
         keepalive: true,
-      }).catch(() => {});
+        signal: withTimeout(8000),
+      });
+
+      // One retry, after a short pause, for the transient case. Two attempts is
+      // the limit worth having: a repeat failure is not going to clear up while
+      // the visitor is still on the page.
+      post()
+        .catch(() => new Promise((r) => setTimeout(r, 1500)).then(post))
+        .catch((err) => {
+          // Delivery failed and the lead is not in the CRM. Make it visible.
+          try {
+            localStorage.setItem('oma_quiz_last_delivery_error', JSON.stringify({
+              ts: new Date().toISOString(),
+              reason: (err && err.name) || 'unknown',
+            }));
+          } catch (_) {}
+          trackGA('lead_delivery_failed', {
+            lead_source: 'homepage_quiz',
+            failure_reason: (err && err.name) || 'unknown',
+          });
+          trackMeta('LeadDeliveryFailed', {
+            content_name: 'Homepage Quiz Lead',
+            failure_reason: (err && err.name) || 'unknown',
+          });
+        });
     } catch (_) {}
     // Legacy hook still available for additional integrations
     if (window.OMA_ON_LEAD) { try { window.OMA_ON_LEAD(payload); } catch (_) {} }
