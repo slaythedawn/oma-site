@@ -85,23 +85,32 @@ any of these).
   `onlinemodelacademy.com` is available in-session, "pull GSC data" in the
   weekly routine (step 2) cannot run as documented — substitute the Ahrefs
   organic-keyword check above.
-- **Live site is not fetchable from this environment.** Both raw `curl` and
-  the `WebFetch` tool are blocked by network egress policy for
-  `www.onlinemodelacademy.com`. The weekly health check (step 1) instead
-  ran `npm run check` against the repo and cross-checked the Vercel MCP
-  (`list_deployments`, `get_runtime_errors`) for production deploy state —
-  as of 2026-08-22 the latest production deployment is READY on commit
-  `1016417` (PR #4) with zero runtime errors in the last 7 days. This is a
-  reasonable substitute but does not confirm what a browser actually
-  renders; if this gap persists, add a scripted fetch step that runs in CI
-  instead, where egress is not blocked.
+- **The live site IS fetchable, via the Vercel MCP.** Raw `curl` and the
+  `WebFetch` tool are both blocked by network egress policy for
+  `www.onlinemodelacademy.com` — but the Vercel MCP's `web_fetch_vercel_url`
+  reaches production fine and returns the full raw HTML. Used repeatedly on
+  2026-08-23 to verify deployed markup. Two things to know when using it:
+  a large page exceeds the tool's token cap and is written to a file to be
+  read from disk instead, and it appends a `_vercel_share` token to
+  redirect targets, which is an artefact of authenticated access, not
+  something a visitor sees. Prefer it over `WebFetch` even where `WebFetch`
+  is allowed: `WebFetch` converts to markdown, which silently strips
+  JSON-LD and `href`s, so it will report schema and links as absent when
+  they are present. That mistake was made and corrected in this session.
 - **Two article branches sat unmerged for 1-2 days before recovery.**
   `claude/charming-tesla-4r1qds` (runway-model + this ledger's first repo
   version) and `claude/charming-tesla-5x0qph` (how-much-do-models-make)
   were pushed by earlier sessions but neither opened a PR, so they were
   invisible to the session that shipped modeling-classes/modeling-schools
   (PR #4) a day later. Both are now merged into this branch's history. The
-  two stale branches on GitHub are safe to delete once this PR merges.
+  two stale branches were deleted on 2026-08-23 after PR #5 merged.
+- **18 of the 20 generated articles have no inline CTA.** The 16 hand-written
+  articles carry the mid-body `.inline-cta` block. Of the generated ones only
+  `runway-model` and `how-much-do-models-make` do — both written after the
+  pattern was noticed. The CSS ships on every page, so this is purely missing
+  content in `content/articles/`, not a template problem. Counted 2026-08-23;
+  re-count before quoting the number. This is the largest single conversion
+  gap currently on the blog.
 - **Homepage still uses British "modelling"** in the low-30s count of
   places against low-20s "modeling". All the search volume is US. Left
   alone because it is brand copy, not a routine decision — flagged for
