@@ -73,6 +73,13 @@ export const gettingStarted = [
 </ul>
 <p>Agencies specifically want to see you unhelped. A polished, retouched submission reads as concealment and guarantees a wasted meeting. This costs nothing and takes twenty minutes — see our <a href="../how-to-become-a-model-with-no-experience/">no-experience guide</a> for the detail.</p>
 
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-start-a-modeling-career__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
 <h2>Step 4: Build a Real Agency Shortlist</h2>
 <p>Not every agency, and not the nearest one. Agencies that run a board for your category, in a market you can physically reach for castings.</p>
 <p>Verify each one: does it earn commission rather than fees, can you trace its clients and campaigns, do the models on its board visibly work, does it have a real office? Our guides to <a href="../modeling-agencies-near-me/">finding a real agency</a> and <a href="../how-to-choose-a-modeling-agency/">choosing between agencies</a> cover the full checklist.</p>
@@ -173,6 +180,13 @@ export const gettingStarted = [
 
 <h2>Step 2: Measurements, in Centimetres</h2>
 <p>Australian agencies work in centimetres. Height, bust or chest, waist, hips, dress or suit size, shoe size, hair and eye colour. Measure properly — agencies remeasure, and a discrepancy is noticed.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-model-in-australia__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
 
 <h2>Step 3: Digitals, Not a Photoshoot</h2>
 <p>Four to six photos on a phone, in daylight, against a plain wall. Front, side, back, one smiling, one neutral, plus a close-up. No makeup, no filters, no retouching, hair down. Fitted plain clothing.</p>

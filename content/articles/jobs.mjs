@@ -77,6 +77,13 @@ export const jobs = [
 <h3>Promotional and event</h3>
 <p>Brand ambassador work, trade shows, activations. Frequently booked direct, frequently the entry point for freelancers, and correspondingly the category where scam listings cluster.</p>
 
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modeling-jobs__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
 <h2>How the Money Works</h2>
 <p>This is the part almost every new model gets wrong, and it costs them real money.</p>
 <p>A booking has two components:</p>
@@ -175,6 +182,13 @@ ${scamSection}
 <li><b>Are you easy?</b> Prompt, prepared, pleasant to the person on the door. Bookers ask that person afterwards more often than anyone expects.</li>
 </ul>
 <p>Our guide to <a href="../what-do-modeling-agencies-look-for/">what agencies look for</a> goes deeper on the criteria behind the decision.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=open-casting-call__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
 
 <h2>What to Bring and Wear</h2>
 <h3>Bring</h3>

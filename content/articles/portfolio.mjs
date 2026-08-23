@@ -62,6 +62,13 @@ export const portfolio = [
 </ul>
 <p>If a client can only remember one thing about you, it will be this image. Choose it accordingly — and choose the one that looks most like you on an ordinary day, not the most flattering one ever taken of you.</p>
 
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=model-comp-card__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
 <h2>The Back</h2>
 <p>Three to five images plus your stats. The images should demonstrate range without repeating each other:</p>
 <ul>
@@ -181,6 +188,13 @@ export const portfolio = [
 <p>Height, bust or chest, waist, hips, dress or suit size, shoe size, hair and eye colour. Same data as your <a href="../model-comp-card/">comp card</a>, same requirement to be accurate.</p>
 <h3>A contact route that keeps you safe</h3>
 <p>Your agency's details if you are represented. A dedicated work email if you are not. Never your phone number, never your home address, and nothing that identifies your suburb, your gym or your regular routine.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=model-portfolio-website__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
 
 <h2>What to Leave Out</h2>
 <ul>

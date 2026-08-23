@@ -104,13 +104,15 @@ any of these).
   invisible to the session that shipped modeling-classes/modeling-schools
   (PR #4) a day later. Both are now merged into this branch's history. The
   two stale branches were deleted on 2026-08-23 after PR #5 merged.
-- **18 of the 20 generated articles have no inline CTA.** The 16 hand-written
-  articles carry the mid-body `.inline-cta` block. Of the generated ones only
-  `runway-model` and `how-much-do-models-make` do — both written after the
-  pattern was noticed. The CSS ships on every page, so this is purely missing
-  content in `content/articles/`, not a template problem. Counted 2026-08-23;
-  re-count before quoting the number. This is the largest single conversion
-  gap currently on the blog.
+- ~~**18 of the 20 generated articles have no inline CTA.**~~ **Fixed
+  2026-08-23.** Added the mid-body `.inline-cta` block (identical markup to
+  `runway-model` and `how-much-do-models-make`, each with its own
+  `utm_content=<slug>__inline`) to all 18 remaining generated articles,
+  placed before the H2 closest to a third of the way through each body.
+  `npm run check` and `html-validate` both pass clean; the diff is exactly
+  the 18 `blog/<slug>/index.html` files plus the 7 `content/articles/*.mjs`
+  files that needed a new block. All 36 live articles now carry the inline
+  CTA — this gap is closed.
 - **Homepage still uses British "modelling"** in the low-30s count of
   places against low-20s "modeling". All the search volume is US. Left
   alone because it is brand copy, not a routine decision — flagged for

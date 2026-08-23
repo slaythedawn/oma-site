@@ -75,6 +75,13 @@ export const commercial = [
 
 ${whatAgenciesThink}
 
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modeling-classes__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
 <h2>The Three Kinds of Training, Honestly Compared</h2>
 <h3>In-person classes and workshops</h3>
 <p><b>Best for:</b> physical coaching — walking, posing, movement — where live correction genuinely beats video.</p>
@@ -181,6 +188,13 @@ ${whatAgenciesThink}
 <p>Note that steps 1 to 5 can be conducted without a single false statement. Nobody guaranteed you work. That is what makes it durable — much of it is legal, and it survives precisely because the victim cannot point to a broken promise.</p>
 
 ${whatAgenciesThink}
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modeling-schools__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
 
 <h2>What a Legitimate School Looks Like</h2>
 <p>They do exist. The honest ones share traits:</p>

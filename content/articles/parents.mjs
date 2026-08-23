@@ -84,6 +84,13 @@ export const parents = [
 
 ${parentRedFlags}
 
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=child-modeling-agencies__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
 <h2>What Agencies Actually Want From a Child</h2>
 <p>Much less than parents expect, and almost none of it is about being exceptionally beautiful.</p>
 <h3>Babies and toddlers</h3>
@@ -177,6 +184,13 @@ ${legalBlock}
 <p>Clients cast narrowly — a brand needing a six-month-old will not use a twelve-month-old. Babies also age out of their band in weeks rather than years, so agencies re-photograph frequently and interest can be sporadic for that reason alone.</p>
 
 ${legalBlock}
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=baby-modelling-agency__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
 
 <h2>How to Submit</h2>
 <ul>
