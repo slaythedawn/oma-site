@@ -96,6 +96,13 @@ ${feeWarning}
 <li><b>Classic</b> — models over roughly 35. Consistently in demand, consistently under-supplied.</li>
 </ul>
 
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modeling-agencies-near-me__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
 ${digitalsBlock}
 
 <h2>Open Calls Still Work</h2>
@@ -184,6 +191,13 @@ ${digitalsBlock}
 <p>Underrated, and often decisive. Every time an agent puts you forward, they are lending you their credibility with a client. A model who is late, difficult, or unreliable costs the agency the relationship, not just the booking.</p>
 <p>So agents screen hard for it, from the first email. Do you reply promptly and clearly? Did you follow the submission instructions? At an open call, were you polite to the receptionist? None of this is a test in the formal sense, and all of it is being noticed.</p>
 
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=what-do-modeling-agencies-look-for__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
 <h2>What Gets People Rejected, In Order</h2>
 <ol>
 <li><b>Wrong agency for the category.</b> The most common and the most avoidable.</li>
@@ -268,6 +282,13 @@ ${feeWarning}
 <p>Curve bookers pay close attention to proportion and how garments fall, because their clients are selling fit as much as style. Well-proportioned at size 16 is a far easier sell than a measurement set that garments hang awkwardly on at any size.</p>
 <h3>Accurate numbers</h3>
 <p>Send bust, waist, hips, dress size, and height, measured properly rather than estimated from what you buy. Curve sizing varies enormously between brands, so your actual measurements matter more than your label size.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=plus-size-modeling-agencies__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
 
 <h2>How to Submit</h2>
 <p>The format is the same as any other board: four to six phone photos in daylight against a plain wall, front, side, back, one smiling, one neutral, no makeup or retouching, plus a close-up.</p>

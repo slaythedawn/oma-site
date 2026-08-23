@@ -123,6 +123,13 @@ export const agenciesAu = [
 </ul>
 <p>Working out which of these is right for you is the whole game, and it is worth reading our <a href="../how-to-choose-a-modeling-agency/">guide to choosing between agencies</a> before you submit to all of them at once.</p>
 
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modelling-agencies-sydney__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
 ${openCalls}
 ${submissionSteps}
 ${redFlags}
@@ -196,6 +203,13 @@ ${redFlags}
 <li><b>Giant Management</b> — Melbourne agency representing models and talent.</li>
 </ul>
 
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modelling-agencies-melbourne__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
 ${openCalls}
 ${submissionSteps}
 ${redFlags}
@@ -256,6 +270,13 @@ ${redFlags}
 <li><b>Chadwick Models</b> — national agency, places Queensland talent nationally.</li>
 </ul>
 <p>Because the Brisbane market is smaller, dual representation is common: signed in Brisbane, also on a Sydney or Melbourne board for bigger campaigns. Check your contract's exclusivity and territory clauses before assuming you can do this — our <a href="../how-to-choose-a-modeling-agency/">agency selection guide</a> explains which clauses matter.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modelling-agencies-brisbane__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
 
 ${openCalls}
 ${submissionSteps}
@@ -318,6 +339,13 @@ ${redFlags}
 
 <h2>The Interstate Question</h2>
 <p>Sooner or later a Perth-based model asks whether to move east. There is no universal answer, but there is a sensible sequence: build a book and a track record locally first, get comfortable in casting rooms, then approach east coast agencies with evidence rather than potential. Arriving in Sydney with a working portfolio and references is a completely different conversation from arriving with digitals.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modelling-agencies-perth__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
 
 ${openCalls}
 ${submissionSteps}
@@ -385,6 +413,13 @@ ${redFlags}
 <p>Commercial, corporate and resources-sector work. Isolated, less competitive, and most careers eventually involve east coast representation too. See our <a href="../modelling-agencies-perth/">Perth agency guide</a>.</p>
 <h3>Adelaide</h3>
 <p>The smallest of the mainland markets, primarily commercial and retail, with several small agencies and frequent interstate placement for larger jobs.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modelling-agencies-australia__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
 
 <h2>Which Board You Belong On</h2>
 <p>This is the single most useful thing to work out before you contact anyone.</p>
