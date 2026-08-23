@@ -46,7 +46,7 @@ targets the keyword, improve that article. Do not write a second one.
 | modeling-classes | modeling classes / modeling classes for beginners / modeling training | 900 + 200 | 20 / 0 | 2026-08-21 |
 | modeling-schools | modeling school (+ scam intent) | 700 | 35 | 2026-08-21 |
 | runway-model | runway model / what is runway modeling | 3200 + 1200 | 2 / 0 | 2026-08-20 |
-| how-much-do-models-make | how much do models make | 2500 | 0 | 2026-08-21 |
+| how-much-do-models-make | how much do models make | 2500 | 3 | 2026-08-21 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
