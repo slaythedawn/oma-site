@@ -44,6 +44,8 @@ the keyword, improve that article. Do not write a second one.
 | open-casting-call | open casting call | — | — | 2026-08-19 |
 | how-to-start-a-modeling-career | how to start a modeling career | — | — | 2026-08-19 |
 | runway-model | runway model / what is runway modeling | 3200 + 1200 | 2 / 0 | 2026-08-20 |
+| modeling-classes | modeling classes | 900 | 20 | 2026-08-22 |
+| modeling-schools | modeling schools | 300 | 0 | 2026-08-22 |
 
 ## Shortlist for coming weeks
 
@@ -64,10 +66,11 @@ Verified uncovered against the table above. Figures re-checked 2026-08-20.
   the repo. No trace of it here, so the draft is gone. The keyword is still
   uncovered and still worth 2500/mo, so it is on the shortlist as new work.
 - **Generated articles have no inline CTA.** The 16 hand-written articles carry
-  the mid-body `.inline-cta` block; the 16 generated ones (added 19 August) do
-  not, because the body content in `content/articles/` was written without it.
-  The CSS is present on every page, so it is purely a content omission.
-  `runway-model` includes it. The other 16 are a backfill worth doing.
+  the mid-body `.inline-cta` block; 18 of the 19 generated ones do not, because
+  the body content in `content/articles/` was written without it. The CSS is
+  present on every page, so it is purely a content omission. `runway-model` is
+  the only generated article that includes it. The other 18 are a backfill worth
+  doing — measured 2026-08-23, so re-count before quoting this number.
 - **Homepage uses British "modelling"** in 31 places against 21 US "modeling".
   All the search volume is US. Left alone because it is brand copy, not a
   routine decision.
