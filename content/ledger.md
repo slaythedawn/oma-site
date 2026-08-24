@@ -7,7 +7,7 @@ are US Ahrefs figures at the date the article was picked, where known.
 **The rule this table exists to enforce:** if an existing article already
 targets the keyword, improve that article. Do not write a second one.
 
-## Live (36 articles)
+## Live (37 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -47,6 +47,7 @@ targets the keyword, improve that article. Do not write a second one.
 | modeling-schools | modeling school (+ scam intent) | 700 | 35 | 2026-08-21 |
 | runway-model | runway model / what is runway modeling | 3200 + 1200 | 2 / 0 | 2026-08-20 |
 | how-much-do-models-make | how much do models make | 2500 | 3 | 2026-08-21 |
+| what-is-commercial-modeling | what is commercial modeling | 2500 | 2 | 2026-08-24 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -61,7 +62,6 @@ any of these).
 
 | Target keyword | US vol | KD | Note |
 | --- | --- | --- | --- |
-| what is commercial modeling | 2500 | 2 | Article 17 from the old chat routine. Drafted 16 August, delivered as a zip, never unpacked — the draft is gone with the old sandbox. Still uncovered and still worth 2500/mo. Needs writing from scratch, not recovering. |
 | types of modeling | 1300 | 6 | Natural hub page that can link out to most of the table above. |
 | how to get paid as a model | 800 | 0 | Adjacent to how-much-do-models-make; check for overlap before writing, this may be a section of that article rather than its own page. |
 | how to find modeling jobs | 700 | 0 | Close to the offer. Check against modeling-jobs for overlap before writing — may already be covered. |
@@ -117,3 +117,28 @@ any of these).
   places against low-20s "modeling". All the search volume is US. Left
   alone because it is brand copy, not a routine decision — flagged for
   Josh, not changed unasked.
+- **2026-08-24 run: wrote `what-is-commercial-modeling`, the article the
+  original handover flagged as the first job for this routine.** No zip to
+  recover; the 16 August draft never made it out of the old chat sandbox,
+  so this was written from scratch against the "Types of work" cluster
+  (sits alongside `runway-model`). Reused the `how-to-become-a-freelance-model`
+  image rather than generating one, matching the convention every other
+  generated article already follows. Linked in from `runway-model`,
+  `how-much-do-models-make` and `modeling-jobs` (one related-card swap
+  each) so it is not orphaned; added to the `Specialisms` cluster in
+  `build-index-and-sitemap.mjs`. `npm run build && npm run check` pass
+  clean; 37 articles, 39 sitemap URLs. GSC still is not reachable from this
+  session (see above), so this pick leaned on the shortlist figures
+  re-verified 2026-08-22 rather than fresh near-miss data — worth a real
+  GSC pull once access exists, since several of the AU agency pages and
+  commercial-intent articles added since 18 August have had time to be
+  crawled and are worth checking for near-misses before the next new
+  article.
+- **The local dev server (`npm run dev` / `.claude/server.cjs`) 404s on
+  every directory URL and on `/`.** It has no directory-index fallback
+  (`/blog/x/` needs the literal `/blog/x/index.html`) and `/` is hardcoded
+  to a stray `direction-a-sunrise.html` that does not exist in this repo.
+  Confirmed the new article's actual file serves fine at its explicit
+  `index.html` path; not otherwise investigated or fixed, since it is a
+  local-only tooling issue, not a production one, and outside this run's
+  scope.

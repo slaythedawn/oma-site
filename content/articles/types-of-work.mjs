@@ -18,7 +18,7 @@ export const typesOfWork = [
     date: DATE,
     related: [
       'how-do-models-walk-in-runway-shows',
-      'what-do-modeling-agencies-look-for',
+      'what-is-commercial-modeling',
       'how-to-become-a-model',
     ],
     faq: [
@@ -108,6 +108,106 @@ export const typesOfWork = [
 
 <h2>The Short Version</h2>
 <p>Runway modeling is its own discipline inside the industry, built around a specific height and sample-size requirement, a seasonal booking pattern, and a job that is judged in seconds by people who see hundreds of applicants a day. It rewards a controlled walk, fast composed backstage work, and a track record built one uneventful show at a time, far more than it rewards a single dramatic casting. For the right build and the right temperament, it is one of the clearest, most concentrated categories of work in the industry to break into. For everyone else, the rest of modeling is not a consolation prize; it is most of the industry, and most of the money in it.</p>
+`,
+  },
+  {
+    slug: 'what-is-commercial-modeling',
+    seoTitle: 'What Is Commercial Modeling? The Job, Explained',
+    description:
+      'What commercial modeling actually is, how it differs from editorial work, and what agencies look for, explained by the people who book it.',
+    headline: 'What Is Commercial Modeling? The Job, the Money and What Agencies Actually Look For',
+    category: 'Types of work',
+    image: 'how-to-become-a-freelance-model',
+    imageAlt: 'A model setting up a phone on a tripod to shoot content for a brand',
+    readTime: 10,
+    date: '2026-08-24',
+    related: [
+      'runway-model',
+      'how-to-become-a-freelance-model',
+      'how-much-do-models-make',
+    ],
+    faq: [
+      {
+        q: 'What is commercial modeling?',
+        a: 'Commercial modeling is work built to sell a product, service or brand rather than a designer\'s vision: catalog and e-commerce photography, lifestyle and advertising campaigns, product and hand modeling, and branded social content. Clients cast for how relatable and specific someone looks against a target customer, not for an extreme or unusual look, which is what separates it most sharply from editorial and runway.',
+      },
+      {
+        q: 'What is the difference between commercial and editorial modeling?',
+        a: 'Editorial modeling serves a magazine or designer\'s creative vision and rewards a distinctive, sometimes extreme look. Commercial modeling serves a client\'s sales goal and rewards a look that a target customer can see themselves in. Editorial castings ask "is this striking," commercial castings ask "does this read as the person who buys our product."',
+      },
+      {
+        q: 'Do you need to be tall to be a commercial model?',
+        a: 'No. Commercial work has no standard height requirement, which is the single biggest reason it has the widest range of body types, ages and heights of any category in modeling. Height matters only when a specific brief calls for it, such as apparel that needs to hang a certain way, and even then it is one factor among several, not a gatekeeping rule.',
+      },
+      {
+        q: 'How much does commercial modeling pay?',
+        a: 'It varies by client budget and usage rights far more than by the model. A local or small-brand shoot might pay a modest flat day rate, while a national campaign with broadcast or paid social usage can pay many times more because the client is buying the right to run the image widely, not just the shoot day itself. Reading a usage clause before signing matters more in commercial work than in almost any other category.',
+      },
+      {
+        q: 'How do I get into commercial modeling?',
+        a: 'Build a portfolio of natural, warm, un-posed-looking images rather than high-fashion editorial shots, since that is what commercial clients respond to at submission stage. Submit to agencies with a commercial or lifestyle board specifically, not just a fashion board, and expect castings that ask you to look ordinary and approachable on command, which is its own skill worth practising.',
+      },
+    ],
+    body: `
+<p>Ask a beginner to picture "a model" and they picture editorial: dramatic lighting, an extreme look, a magazine spread. Ask a working agent where the actual volume of bookings comes from and the answer is almost always commercial. It is the category that pays the industry's bills, and it is also the category new applicants understand the least, because it looks so ordinary from the outside that people assume it does not count as "real" modeling.</p>
+<p>It counts. Here is what the job actually is, from the people who cast it.</p>
+
+<h2>What Commercial Modeling Actually Is</h2>
+<p>Commercial modeling is any modeling work built to sell something: a product, a service, a lifestyle, a brand. That covers a wide range of formats, catalog and e-commerce photography, advertising and lifestyle campaigns, product and hand modeling, corporate and testimonial work, and branded social content, but it shares one thing across all of them. The client's job is not artistic expression. It is moving a customer toward a purchase, and the model's face and body are the vehicle for that.</p>
+<p>That single difference in purpose is what shapes everything else about the category: who gets cast, what a casting looks for, how the work is priced, and why commercial modeling has a far wider range of ages, heights and body types than fashion or runway ever will.</p>
+
+<h2>How Commercial Differs From Editorial and Runway</h2>
+<p>Three things separate commercial work from the fashion end of the industry, and understanding them explains most of what confuses beginners about where they fit.</p>
+<h3>What a casting is actually judging</h3>
+<p>An editorial or runway casting is looking for something distinctive, a specific look that carries a designer's vision or a magazine's point of view. A commercial casting is looking for the opposite: someone a target customer can see themselves in. Relatable beats striking almost every time. A commercial client wants their audience to think "that could be me," not "I could never look like that."</p>
+<p>See our guide to <a href="../runway-model/">what a runway model actually does</a> for the fashion side of that contrast in detail.</p>
+<h3>No standard height or size requirement</h3>
+<p>Fashion and runway boards are built around narrow proportion ranges because of how sample garments are cut. Commercial work carries no equivalent rule. A skincare campaign, a family stock shoot, a hand-modeling job for a jewelry client and a fitness apparel ad each have their own brief, but none of them starts from a height cutoff. This is the single biggest reason commercial modeling includes people the fashion side of the industry would never consider, and why it is the widest entry point into paid work.</p>
+<h3>The booking pattern</h3>
+<p>Commercial work runs year-round and is not tied to a fashion calendar. Catalog cycles, ad campaigns, product launches and social content briefs come in constantly across every season, which is part of why commercial modeling, not runway or editorial, is what actually pays most working models' bills between the occasional bigger job.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=what-is-commercial-modeling__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>The Different Kinds of Commercial Work</h2>
+<p>"Commercial modeling" covers several distinct jobs that get cast differently, and knowing which one a brief is asking for changes how you should prepare and shoot.</p>
+<ul>
+<li><b>Catalog and e-commerce.</b> Clean, well-lit product-on-body shots for a retailer's site or print catalog. High volume, steady booking, and the closest thing the industry has to reliable, repeatable work.</li>
+<li><b>Lifestyle and advertising.</b> The model is shown living with or using the product: a family at breakfast, someone unboxing a phone, a group at a gym. Casting looks for natural, warm expressions over posed intensity.</li>
+<li><b>Product and hand modeling.</b> The product is the subject, and the model's job is to show it off without drawing focus, whether that is hands holding a watch or a body wearing an item for fit and drape. See our guide to <a href="../how-to-become-a-hand-model/">how to become a hand model</a> for that specialism in detail.</li>
+<li><b>Corporate and testimonial.</b> Stock imagery, annual reports, in-office campaigns, and "real customer" style testimonial content. Approachable and credible matters more than striking.</li>
+<li><b>Branded social and UGC-style content.</b> The fastest-growing lane. Brands increasingly want content that looks self-shot on a phone rather than studio-produced, because it performs better in a feed. A model who can shoot competent, natural-looking content of themselves, not just stand in front of someone else's camera, has a real edge here.</li>
+</ul>
+
+<h2>What Agencies and Clients Actually Look For</h2>
+<p>Commercial casting directors are not grading against a fashion standard, and it is worth being direct about what they are actually assessing instead.</p>
+<ul>
+<li><b>Does this person read as the target customer.</b> A campaign for a retirement product, a college brand and a luxury skincare line each want a different, specific face, and none of them is looking for the most striking option in the room.</li>
+<li><b>Range of natural expression.</b> The ability to look genuinely happy, mid-laugh, thoughtful or surprised on command, repeatably, without it reading as posed. This is a trainable skill and one of the most underrated in the whole industry.</li>
+<li><b>Ease on set.</b> Commercial shoots move fast and often involve a product, a director and a client all giving notes in the same ten minutes. A model who takes direction quickly and stays easy to work with gets rebooked far more than one who is simply photogenic.</li>
+</ul>
+<p>Our general guide to <a href="../what-do-modeling-agencies-look-for/">what modeling agencies look for</a> covers the fundamentals that apply across every category; commercial casting layers relatability and range on top of those basics.</p>
+
+<h2>What the Money Actually Looks Like</h2>
+<p>Commercial pay is driven far more by usage than by the model, and understanding that single fact will save a new face from either underpricing themselves or expecting the wrong number.</p>
+<p>A local business or small-brand shoot typically pays a modest flat day rate for the shoot itself. A national campaign, by contrast, pays for the right to run the image, in broadcast, print, paid social or out-of-home advertising, for a defined period across a defined territory, and that usage fee is frequently worth several times the day rate alone. The same face, the same shoot day, can be priced completely differently depending on where and how long the client plans to run it.</p>
+<p>This is why reading the usage clause in a commercial contract matters more than in almost any other category of modeling work. A rate that looks generous on the call sheet can be a poor deal if it signs away unlimited, perpetual usage, and a rate that looks modest can be a good one if the usage is genuinely limited. For the wider picture on what models earn across categories, see our guide to <a href="../how-much-do-models-make/">how much models actually make</a>.</p>
+
+<h2>How to Actually Get Started</h2>
+<p>Commercial is the most accessible entry point in the industry, but "accessible" does not mean casual. The bar is different from fashion, not lower.</p>
+<ol>
+<li><b>Build a natural, warm portfolio.</b> Commercial clients are not looking for high-fashion editorial shots. Smiling, candid-looking, well-lit images that show real expression range will get you cast over a moodier, more stylised book.</li>
+<li><b>Submit to a commercial or lifestyle board specifically.</b> Many agencies run separate boards, and a fashion-focused agent is not necessarily the right person to submit commercial work to. Ask directly which board you would sit on before signing. Our guide to <a href="../how-to-choose-a-modeling-agency/">choosing a modeling agency</a> covers the questions worth asking.</li>
+<li><b>Practise looking ordinary on command.</b> It sounds strange to train for, but holding a genuine, relaxed expression for take after take is a real skill, and castings notice immediately who has it and who is faking it.</li>
+<li><b>Learn to shoot yourself competently.</b> Branded social and UGC-style work is growing fast, and a model who can deliver clean, natural self-shot content is booking work that a purely in-studio model is not even being considered for.</li>
+</ol>
+
+<h2>The Short Version</h2>
+<p>Commercial modeling is work built to sell rather than to make a fashion statement, and that single difference in purpose is why it has no standard height requirement, the widest range of ages and body types in the industry, and the steadiest year-round booking pattern of any category. It rewards relatability, natural expression and ease on set over an extreme look, and it pays according to usage as much as the shoot itself. For most working models, commercial is not the consolation category. It is the one that actually pays the bills.</p>
 `,
   },
 ];

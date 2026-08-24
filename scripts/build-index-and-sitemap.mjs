@@ -108,6 +108,7 @@ const CLUSTERS = [
       'how-to-become-a-fitness-model',
       'how-to-become-a-hand-model',
       'how-to-become-a-freelance-model',
+      'what-is-commercial-modeling',
     ],
   },
 ];

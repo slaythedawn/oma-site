@@ -18,7 +18,7 @@ export const money = [
     date: DATE,
     related: [
       'how-much-does-it-cost-to-become-a-model',
-      'how-to-become-a-freelance-model',
+      'what-is-commercial-modeling',
       'modeling-jobs',
     ],
     faq: [
