@@ -136,7 +136,7 @@ ${digitalsBlock}
     related: [
       'how-to-get-signed-by-a-modeling-agency',
       'modeling-agencies-near-me',
-      'runway-model',
+      'what-is-commercial-modeling',
     ],
     faq: [
       {
