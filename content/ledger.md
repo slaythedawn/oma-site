@@ -117,6 +117,20 @@ any of these).
   places against low-20s "modeling". All the search volume is US. Left
   alone because it is brand copy, not a routine decision — flagged for
   Josh, not changed unasked.
+- **A second, independent branch wrote the same article the same week.**
+  `claude/charming-tesla-u3oidj`, pushed 2026-08-24 21:15 UTC by an earlier
+  session, also wrote `what-is-commercial-modeling` against the same
+  shortlist entry, and also never opened a PR — the exact same failure
+  mode as the 2026-08-23 collision two entries above this one, and this is
+  now the second time it has cost a full duplicate write. Discovered only
+  by chance, via `list_deployments` on the Vercel MCP surfacing a preview
+  build from that branch, *after* this session had already written and
+  pushed its own version as PR #11. **Before picking next week's target,
+  check `git branch -r` and open PRs for a branch already covering it** —
+  this should happen before writing content, not after. PR #11's version
+  was kept (already validated, checks green); `claude/charming-tesla-u3oidj`
+  should be deleted once #11 merges, per the same cleanup the last
+  collision got.
 - **`what-is-commercial-modeling` shipped 2026-08-25 reused an existing
   hero image rather than a dedicated one.** Higgsfield's `generate_image`
   worked fine and returned a usable result (a clean, modern, plain-wall
