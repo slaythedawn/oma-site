@@ -148,10 +148,19 @@ Only web-optimised exports belong in the repo — see `assets/Reels/Jack-web.mp4
 for the target, around 6 MB. Master files are gitignored on purpose; keep them in
 cloud storage. If a video will not fit comfortably, host it externally and embed it.
 
-## The footer and the homepage schema
+## The nav, the footer and the homepage schema
 
-Both are generated, because both are duplicated across all 35 files and drifted
-the moment anyone edited one by hand.
+All generated, because each is duplicated across every page and drifted the
+moment anyone edited one by hand.
+
+- `scripts/build-nav.mjs` owns the nav everywhere, including its CSS and the
+  small scroll listener that fades in the bottom border. It was hand-written
+  twice — once for the homepage, once for the blog template — and the two copies
+  diverged into different components sharing a class name: a 44px logo against a
+  26px one, an 80px bar against 58px, and links in different places because one
+  used `justify-content: space-between` and the other `gap` plus an auto margin.
+  The homepage design is canonical. The nav CTA keeps each page's own
+  `utm_content`, so nav enrols stay attributable.
 
 - `scripts/build-footer.mjs` owns the footer everywhere, including its CSS. It is
   the site's only sitewide internal-linking surface, so the link groups mirror the
