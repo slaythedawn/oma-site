@@ -72,7 +72,7 @@ const CLUSTERS = [
   {
     heading: 'Castings & work',
     blurb: 'Where the bookings come from and how to handle the room.',
-    slugs: ['modeling-jobs', 'open-casting-call', 'model-casting-calls', 'how-do-models-walk-in-runway-shows', 'runway-model'],
+    slugs: ['modeling-jobs', 'open-casting-call', 'model-casting-calls', 'how-do-models-walk-in-runway-shows', 'runway-model', 'what-is-commercial-modeling'],
   },
   {
     heading: 'Training',

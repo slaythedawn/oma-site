@@ -7,7 +7,7 @@ are US Ahrefs figures at the date the article was picked, where known.
 **The rule this table exists to enforce:** if an existing article already
 targets the keyword, improve that article. Do not write a second one.
 
-## Live (36 articles)
+## Live (37 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -47,6 +47,7 @@ targets the keyword, improve that article. Do not write a second one.
 | modeling-schools | modeling school (+ scam intent) | 700 | 35 | 2026-08-21 |
 | runway-model | runway model / what is runway modeling | 3200 + 1200 | 2 / 0 | 2026-08-20 |
 | how-much-do-models-make | how much do models make | 2500 | 3 | 2026-08-21 |
+| what-is-commercial-modeling | what is commercial modeling | 2500 | 3 | 2026-08-25 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -61,7 +62,6 @@ any of these).
 
 | Target keyword | US vol | KD | Note |
 | --- | --- | --- | --- |
-| what is commercial modeling | 2500 | 2 | Article 17 from the old chat routine. Drafted 16 August, delivered as a zip, never unpacked — the draft is gone with the old sandbox. Still uncovered and still worth 2500/mo. Needs writing from scratch, not recovering. |
 | types of modeling | 1300 | 6 | Natural hub page that can link out to most of the table above. |
 | how to get paid as a model | 800 | 0 | Adjacent to how-much-do-models-make; check for overlap before writing, this may be a section of that article rather than its own page. |
 | how to find modeling jobs | 700 | 0 | Close to the offer. Check against modeling-jobs for overlap before writing — may already be covered. |
@@ -117,3 +117,34 @@ any of these).
   places against low-20s "modeling". All the search volume is US. Left
   alone because it is brand copy, not a routine decision — flagged for
   Josh, not changed unasked.
+- **A second, independent branch wrote the same article the same week.**
+  `claude/charming-tesla-u3oidj`, pushed 2026-08-24 21:15 UTC by an earlier
+  session, also wrote `what-is-commercial-modeling` against the same
+  shortlist entry, and also never opened a PR — the exact same failure
+  mode as the 2026-08-23 collision two entries above this one, and this is
+  now the second time it has cost a full duplicate write. Discovered only
+  by chance, via `list_deployments` on the Vercel MCP surfacing a preview
+  build from that branch, *after* this session had already written and
+  pushed its own version as PR #11. **Before picking next week's target,
+  check `git branch -r` and open PRs for a branch already covering it** —
+  this should happen before writing content, not after. PR #11's version
+  was kept (already validated, checks green); `claude/charming-tesla-u3oidj`
+  should be deleted once #11 merges, per the same cleanup the last
+  collision got.
+- **`what-is-commercial-modeling` shipped 2026-08-25 reused an existing
+  hero image rather than a dedicated one.** Higgsfield's `generate_image`
+  worked fine and returned a usable result (a clean, modern, plain-wall
+  commercial headshot, no collage/text artefacts), but the resulting
+  `cloudfront.net` asset URL could not be fetched into this session:
+  direct `curl` and the agent proxy both got a policy `403` on the host
+  (confirmed via `/root/.ccr/__agentproxy/status`, `recentRelayFailures`),
+  and no available MCP tool downloads an arbitrary HTTPS media URL to a
+  local file (`media_import_url` re-hosts into Higgsfield's own storage,
+  it does not return bytes; `WebFetch` summarises rather than fetching
+  binary). Shipped with `image: 'how-to-become-a-model'` instead, which
+  is the closest existing hero in tone (plain wall, natural smile). Until
+  this is resolved, treat "generate a dedicated Higgsfield hero" as
+  blocked in this execution environment and default to reusing an
+  existing image by basename, per the reuse allowance in
+  CONTRIBUTING.md — flag it here rather than silently shipping without
+  noting the substitution.

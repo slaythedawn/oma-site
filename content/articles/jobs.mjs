@@ -33,7 +33,7 @@ export const jobs = [
     related: [
       'open-casting-call',
       'how-much-do-models-make',
-      'how-to-become-a-freelance-model',
+      'what-is-commercial-modeling',
     ],
     faq: [
       {
