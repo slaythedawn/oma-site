@@ -148,3 +148,29 @@ any of these).
   existing image by basename, per the reuse allowance in
   CONTRIBUTING.md — flag it here rather than silently shipping without
   noting the substitution.
+- **PR #10 (nav unification) and PR #11 (`what-is-commercial-modeling`)
+  merged cleanly with no text conflict, but merging both landed one page
+  with stale markup anyway.** #11 was generated before #10 rebuilt the
+  nav, so the new article carried the pre-unification per-template nav
+  after both merged — exactly the drift #10 exists to prevent, just on a
+  page #10 didn't know existed. `npm run check` caught it immediately
+  (`check:build` failed on the one file); fixed in PR #12 by re-running
+  `npm run build`, which touched only that file. **Lesson for next time:
+  after merging two PRs that touch generated output, always pull main and
+  run `npm run check` before considering either one actually shipped** —
+  green CI on each PR individually does not guarantee the merged result is
+  clean.
+- **Branch cleanup is blocked from this execution environment.** `git push
+  origin --delete` on any stale branch fails with HTTP 403 — this
+  session's git credentials can push to branches but not delete them, and
+  no available GitHub MCP tool (`mcp__github__*`) deletes a branch either
+  (only `create_branch` exists). Confirmed superseded and safe to delete
+  once someone has the access: `claude/charming-tesla-4r1qds`,
+  `claude/charming-tesla-5x0qph`, `claude/charming-tesla-d63iwv`,
+  `claude/charming-tesla-u3oidj`, `claude/charming-tesla-zragay` (all fully
+  superseded by already-merged PRs — content verified identical or
+  earlier-superseded), plus `claude/high-intent-coverage` and
+  `claude/seo-internal-linking` (merged) and the two now-merged PR head
+  branches `claude/charming-tesla-7yt01d` and
+  `claude/model-academy-github-setup-etwquk`. None of this blocks
+  shipping; it is only repo tidiness.
