@@ -7,7 +7,7 @@ are US Ahrefs figures at the date the article was picked, where known.
 **The rule this table exists to enforce:** if an existing article already
 targets the keyword, improve that article. Do not write a second one.
 
-## Live (37 articles)
+## Live (38 articles, 1 pending merge)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -48,6 +48,7 @@ targets the keyword, improve that article. Do not write a second one.
 | runway-model | runway model / what is runway modeling | 3200 + 1200 | 2 / 0 | 2026-08-20 |
 | how-much-do-models-make | how much do models make | 2500 | 3 | 2026-08-21 |
 | what-is-commercial-modeling | what is commercial modeling | 2500 | 3 | 2026-08-25 |
+| types-of-modeling | types of modeling / types of models | 1300 + 700 | 9 / 1 | 2026-08-27 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -62,7 +63,6 @@ any of these).
 
 | Target keyword | US vol | KD | Note |
 | --- | --- | --- | --- |
-| types of modeling | 1300 | 6 | Natural hub page that can link out to most of the table above. |
 | how to get paid as a model | 800 | 0 | Adjacent to how-much-do-models-make; check for overlap before writing, this may be a section of that article rather than its own page. |
 | how to find modeling jobs | 700 | 0 | Close to the offer. Check against modeling-jobs for overlap before writing — may already be covered. |
 | modeling scams | 60 | 1 | Low volume but high relevance to the brand's anti-scam positioning; modeling-schools already carries some of this. Check for overlap first. |
@@ -174,3 +174,24 @@ any of these).
   branches `claude/charming-tesla-7yt01d` and
   `claude/model-academy-github-setup-etwquk`. None of this blocks
   shipping; it is only repo tidiness.
+- **2026-08-27 run: `git branch -r` + open-PR check done *before* writing,
+  per the lesson above — no collision this time.** All flagged stale
+  branches confirmed still zero commits ahead of `main`. No open PRs
+  existed at session start. `npm run check` on `main` was clean before any
+  new work started, so the PR #10/#11 merge-order issue has not recurred.
+- **The Higgsfield hero-image download block is now three-for-three.**
+  `generate_image` (`nano_banana_pro`) produced a clean, on-brief result
+  again, but the `cloudfront.net` asset URL still 403s through this
+  session's network policy on direct fetch — same failure as the
+  `what-is-commercial-modeling` note above, reproduced again for
+  `types-of-modeling`. This looks like a standing property of the
+  execution environment rather than a one-off, so treat "generate a
+  dedicated Higgsfield hero" as blocked until someone with access to the
+  proxy config allowlists the Higgsfield CDN host, and keep defaulting to
+  an existing-image reuse in the meantime.
+- **GSC access: unchanged, still unavailable.** No `gsc-*`-prefixed MCP
+  tool and no service-account key file present in this session
+  (`find / -iname '*gsc*'` turned up nothing outside system packages).
+  Same substitution as before: Ahrefs `site-explorer-organic-keywords` and
+  `keywords-explorer-overview` for keyword targeting, no near-miss/impression
+  data available this run.
