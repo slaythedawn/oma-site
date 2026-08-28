@@ -50,6 +50,7 @@ export const typesOfWork = [
 <h2>What a Runway Model Actually Is</h2>
 <p>A runway model works fashion shows: presenting a designer or brand's collection to buyers, editors and clients by walking it, live, in front of them. That is the entire product. Everything about the discipline, the height requirements, the fittings, the pace of a casting season, exists to make that few minutes on the floor work.</p>
 <p>It is one category of modeling among several, not a synonym for modeling itself. A model can build an entire career in print, commercial or fitness work and never walk a runway. The two are related disciplines that happen to share an industry, more like sprinting and marathon running than like two versions of the same thing.</p>
+<p>It is also worth being precise about a narrower confusion: runway is one channel inside fashion modeling specifically, alongside editorial and campaign work, not another name for the fashion category as a whole. Our guide to <a href="../what-is-fashion-modeling/">what fashion modeling actually covers</a> maps the wider category this discipline sits inside.</p>
 <p>The walk itself, the technique, the posture, the turn, is covered in detail in our guide to <a href="../how-do-models-walk-in-runway-shows/">how models actually walk in runway shows</a>. This piece is about the job around it: what it is, who qualifies, and what the work actually looks like.</p>
 
 <h2>How Runway Differs From Print and Commercial Work</h2>
@@ -254,7 +255,7 @@ export const typesOfWork = [
 <h2>The Main Categories of Modeling</h2>
 
 <h3>Fashion and runway</h3>
-<p>The narrowest category by requirements and the one most people picture first: designer shows, sample-size fittings, a walk that has to repeat identically look after look. It has the strictest height range in the industry and the highest reject rate at casting, but it also has the biggest single-booking upside during a fashion week. We cover the job in full, including realistic pay, in our guide to <a href="../runway-model/">what a runway model actually does</a>, and the walk itself, technique and training, in <a href="../how-do-models-walk-in-runway-shows/">how models actually walk in runway shows</a>.</p>
+<p>The narrowest category by requirements and the one most people picture first: designer shows, sample-size fittings, a walk that has to repeat identically look after look. It has the strictest height range in the industry and the highest reject rate at casting, but it also has the biggest single-booking upside during a fashion week. Runway is only one channel inside the wider fashion category, though, alongside editorial and campaign work; our guide to <a href="../what-is-fashion-modeling/">what fashion modeling actually covers</a> maps the whole category, runway specifically is in <a href="../runway-model/">what a runway model actually does</a>, and the walk itself, technique and training, is in <a href="../how-do-models-walk-in-runway-shows/">how models actually walk in runway shows</a>.</p>
 
 <h3>Commercial</h3>
 <p>The category that sells everything except the clothes themselves: catalogues, e-commerce, lifestyle photography, advertising campaigns, corporate imagery. No universal height or age rule, because there is no single client, and it employs more working models than any other category by a wide margin. Our full breakdown, including the different kinds of commercial work and how the pay structure differs from fashion, is in <a href="../what-is-commercial-modeling/">what is commercial modeling</a>.</p>
@@ -326,6 +327,102 @@ export const typesOfWork = [
 
 <h2>The Short Version</h2>
 <p>Modeling is not one industry with variations, it is closer to a dozen adjacent industries sharing a word, each with its own casting standards, its own clients and its own pay structure. Fashion and runway are the narrowest and hardest to enter; commercial is the widest and the steadiest income for most working models; fitness, plus, petite, mature, child, hand and glamour each have their own real, working boards. The fastest way into any of them is not guessing which one sounds most glamorous, it is reading the requirements honestly, building a portfolio that shows the right range, and starting local in whichever lane actually fits.</p>
+`,
+  },
+
+  {
+    slug: 'what-is-fashion-modeling',
+    seoTitle: 'What Is Fashion Modeling? The Real Job, Explained',
+    description:
+      'What fashion modeling actually is, how it differs from runway and commercial work, real pay across editorial and campaign work, and how to get booked.',
+    headline: 'What Is Fashion Modeling? The Job, the Money and What It Actually Takes',
+    category: 'Types of work',
+    image: 'how-to-become-a-successful-model',
+    imageAlt: 'A model in a fitting room before a shoot, garments on a rail behind them',
+    readTime: 10,
+    date: '2026-08-28',
+    related: ['runway-model', 'types-of-modeling', 'how-to-make-a-modeling-portfolio'],
+    faq: [
+      {
+        q: 'What is fashion modeling?',
+        a: 'Fashion modeling is modeling built around presenting clothing and a designer or brand\'s image, rather than selling an unrelated product. It covers several distinct channels, editorial, runway, campaign and showroom work, and a fashion model can build a full career on any combination of them without ever doing all four.',
+      },
+      {
+        q: 'What is the difference between fashion modeling and runway modeling?',
+        a: 'Runway modeling is one specific channel inside fashion modeling: live shows, walked in front of an audience. Fashion modeling is the broader career, and plenty of working fashion models book mostly editorial and campaign work and rarely or never walk a show. Treating the two as synonyms is the single most common confusion beginners have about the category.',
+      },
+      {
+        q: 'What is the difference between fashion and commercial modeling?',
+        a: 'Fashion modeling sells the clothing and the brand\'s image, and books to designers\' sample sizing. Commercial modeling sells whatever a client is selling, cast to look like that client\'s actual customer, with no comparable universal size requirement. A fashion casting is written around a garment; a commercial casting is written around a buyer.',
+      },
+      {
+        q: 'How do you get into fashion modeling?',
+        a: 'Build simple digitals that show your proportions honestly, submit to agencies that run a fashion board specifically, not every agency does, and expect early work to be test shoots and smaller editorial rather than a national campaign. Height and proportion matter more here than in commercial work, so an honest early assessment from a real agency saves months of submitting to boards that were never going to say yes.',
+      },
+      {
+        q: 'Does fashion modeling pay well?',
+        a: 'Unevenly. Campaign work, where a brand licenses images for national advertising, is among the best-paid work in the industry because of usage. Editorial, magazine features and brand lookbooks, is famously the opposite: often close to unpaid, because the fee is the tearsheet and the credibility it buys, not the cheque. A working fashion model\'s income usually depends on mixing both rather than choosing one.',
+      },
+    ],
+    body: `
+<p>"Fashion model" is the term most people reach for before they know the industry has other categories, and it is also the most misunderstood one on this site. Most beginners use it to mean runway, and runway is only one piece of it. A model can spend an entire career shooting editorial and brand campaigns and never once walk a show, and still be, correctly, a fashion model.</p>
+<p>Here is what the category actually covers, from the people who cast it.</p>
+
+<h2>What Fashion Modeling Actually Is</h2>
+<p>Fashion modeling is modeling built around presenting clothing and a designer or brand's image, rather than selling an unrelated product. That single distinction, presenting the garment and the brand versus selling something else, is what separates it from commercial work, covered in detail in our guide to <a href="../what-is-commercial-modeling/">what is commercial modeling</a>. Inside that distinction, fashion splits into several genuinely different channels, and most confusion new faces have about the category comes from treating those channels as one job.</p>
+
+<h2>Fashion Modeling Is Not the Same as Runway Modeling</h2>
+<p>This is worth stating plainly, because it is the most common mix-up beginners bring to a first agency meeting: runway is one channel inside fashion modeling, not another name for it. A fashion model who books editorial and campaign work steadily and never walks a show is not doing a lesser or incomplete version of the job; they are doing a large, normal share of it. Our guide to <a href="../runway-model/">what a runway model actually does</a> covers the live-show discipline specifically, the height requirement, the seasonal booking pattern, the backstage pace. Everything below is about the wider category that discipline sits inside.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=what-is-fashion-modeling__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>The Channels Inside Fashion Modeling</h2>
+<ul>
+<li><b>Editorial.</b> Magazine features, fashion-press photo stories and brand lookbooks. Cash pay is often minimal, sometimes nothing beyond expenses, because the actual currency is the tearsheet: proof, in a real fashion publication, that a serious photographer and stylist chose to shoot you. New fashion models take editorial work specifically to build that credibility, not for the day rate.</li>
+<li><b>Campaign.</b> A brand's own advertising imagery for a collection, shot for its own use rather than a magazine's. This is where the real money in fashion tends to sit, because a national or global campaign licenses the images for wide, long-running usage, covered in more detail below.</li>
+<li><b>Runway.</b> Live shows, walked in front of buyers, press and clients. The narrowest channel by height and proportion requirement, and the one covered in full in our dedicated <a href="../runway-model/">runway model guide</a>.</li>
+<li><b>Showroom and fit work.</b> Private fittings and presentations for buyers and press, without a live audience or a runway. Less visible than the other three, steady, and a genuine way into a design house's roster.</li>
+</ul>
+<p>A working fashion model typically books across two or three of these rather than staying in one lane, and agencies generally submit a fashion-board model to all of them rather than pre-sorting by channel.</p>
+
+<h2>What Sets Fashion Apart From Commercial and Runway</h2>
+<h3>Sample sizing, but with more room than runway</h3>
+<p>Fashion work overall still leans on the same narrow proportion range design houses use for sample garments, because editorial and campaign shoots are frequently styled in the same samples a runway show uses. But a photograph is not a live show: it can be composed, lit and shot around a model in ways a runway walk cannot forgive, so editorial and campaign casting has somewhat more flexibility than a strict runway board, without losing the size requirement entirely.</p>
+<h3>A less rigid calendar than runway</h3>
+<p>Runway concentrates hard into fashion weeks. Editorial and campaign work run closer to year-round, tied to magazine issue schedules and brand launch calendars rather than a handful of frantic weeks, which is part of why a fashion model who mixes channels tends to have a steadier year than one chasing runway shows alone.</p>
+<h3>What the casting is actually judging</h3>
+<p>A commercial casting director is judging relatability, someone who reads as a real customer. A fashion casting director, across every channel above, is judging something closer to how a garment and a specific aesthetic read on a particular face and body, a more abstract, brand-and-image-driven standard than commercial work uses, and part of why fashion casting can feel harder to prepare for than commercial.</p>
+<h3>Exclusivity clauses, which commercial rarely uses</h3>
+<p>Fashion and campaign contracts commonly include an exclusivity period: a model booked for a major campaign may be contractually barred from working for a competing brand for a set stretch of time, sometimes covering the whole season the campaign runs in. It is a real trade-off worth understanding before signing anything, not a formality, because it can close off other bookings in the same category while it is in effect. Commercial contracts carry this far less often, since most commercial clients are not competing head-to-head the way fashion houses do.</p>
+
+<h2>What the Money Actually Looks Like</h2>
+<p>Fashion pay varies more by channel than almost anything else in the industry. Editorial routinely pays little to nothing in cash, and working fashion models treat it as an investment in the book rather than income. Campaign work sits at the other end: a brand licensing images for a season or a year of national advertising pays a fee built around that usage, and a single well-placed campaign can outpay a long stretch of other bookings combined, though it may come bundled with the exclusivity trade-off above. Runway pay is covered separately in our <a href="../runway-model/">runway model guide</a>, since it has its own, distinct structure. The full breakdown of day rates, usage and agency commission across categories is in <a href="../how-much-do-models-make/">how much do models actually make</a>.</p>
+<p>The practical result: a fashion model's real income usually comes from mixing channels, not picking a favourite. Editorial builds the book that gets a model seen for campaign castings, and campaign work is what actually pays the bills most years.</p>
+
+<h2>What Agencies Actually Look For</h2>
+<p>Our general guide to <a href="../what-do-modeling-agencies-look-for/">what modeling agencies look for</a> covers the baseline that applies everywhere; fashion adds a size requirement and a harder-to-describe photographic quality on top of it. Inside that baseline, three things matter specifically for a fashion board:</p>
+<ul>
+<li><b>Proportions close to sample sizing.</b> Not as strict as a live runway show in every case, but close, since editorial and campaign shoots are frequently styled in the same garments a runway board would use.</li>
+<li><b>A face that photographs distinctively, not just attractively.</b> Editorial and campaign casting is judging how a face and a specific brand aesthetic read together in a still image, which is a different, harder-to-coach quality than on-camera warmth or a practised walk.</li>
+<li><b>Stamina and direction-taking across long shoot days.</b> Editorial and campaign shoots can run for hours with repeated wardrobe and lighting changes, and an agency remembers a model who stays composed and takes direction quickly through all of it.</li>
+</ul>
+
+<h2>How to Actually Get Into Fashion Modeling</h2>
+<ol>
+<li><b>Get an honest read on your proportions early.</b> Fashion boards are less forgiving on this than commercial ones, and a real agency will tell you directly whether you fit before wasting months of submissions.</li>
+<li><b>Build simple, honest digitals first.</b> Not a styled editorial-style shoot, agencies want to see the real proportions and face before anyone books a stylist. Our <a href="../how-to-make-a-modeling-portfolio/">portfolio guide</a> covers exactly what to shoot.</li>
+<li><b>Submit to agencies with a dedicated fashion board.</b> Not every agency runs one, ask directly, and read our guide to <a href="../how-to-choose-a-modeling-agency/">choosing a modeling agency</a> before signing anywhere.</li>
+<li><b>Expect early work to be test shoots and small editorial,</b> not a campaign. This builds the book a bigger client will actually look at.</li>
+<li><b>Decide whether runway is part of the plan or not.</b> It is a genuine choice, not a requirement, and plenty of fashion careers are built entirely on editorial and campaign work.</li>
+</ol>
+
+<h2>The Short Version</h2>
+<p>Fashion modeling is the category built around presenting clothing and a brand's image, and it is bigger than runway alone: editorial, campaign and showroom work are all real, working parts of it, each with its own pay structure and its own demands. Editorial builds the credibility, campaign work tends to pay the bills, and runway, covered in full separately, is one visible but narrow channel inside a wider career. The proportion requirement is real and closer to runway's than commercial's, but the channels around it give a fashion model more ways to build a working career than the runway-only picture most beginners start with.</p>
 `,
   },
 ];
