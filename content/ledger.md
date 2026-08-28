@@ -7,7 +7,7 @@ are US Ahrefs figures at the date the article was picked, where known.
 **The rule this table exists to enforce:** if an existing article already
 targets the keyword, improve that article. Do not write a second one.
 
-## Live (38 articles, 1 pending merge)
+## Live (38 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -69,6 +69,19 @@ any of these).
 
 ## Known gaps
 
+- **Merge the routine's own PRs without waiting for Josh's approval.**
+  PR #14 (`types-of-modeling`) sat green and mergeable for about a day
+  because the session that shipped it deferred the merge to Josh ("ready
+  to merge whenever you get a chance to glance at the preview yourself").
+  Josh's instruction as of 2026-08-28: don't wait for approval on this in
+  future — once a routine-authored PR is CI-green and `mergeable_state`
+  is `clean`, merge it directly and move on, same as every other step in
+  this routine. This does not extend to anything touching prices,
+  checkout links or tracking (CONTRIBUTING.md's existing carve-out still
+  applies there), and it does not license skipping the checks themselves
+  — CI green and a clean mergeable state are still required before
+  merging, this just removes the extra wait for a human glance at the
+  preview on top of that.
 - **GSC access is not available from this execution environment.** The
   service-account key described in the original handover lived in a chat
   project's file store, not in this repo or this session's secrets. No
