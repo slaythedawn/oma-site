@@ -171,7 +171,7 @@ ${digitalsBlock}
 
 <h2>The Four Things Being Assessed</h2>
 <h3>1. Category fit</h3>
-<p>Before anything else, an agent is working out which board you belong on. Fashion, commercial, curve, parts, kids, classic. If you do not clearly fit one, you are difficult to market, and difficult to market is the single most common reason for a no.</p>
+<p>Before anything else, an agent is working out which board you belong on. Fashion, commercial, curve, parts, kids, classic. If you do not clearly fit one, you are difficult to market, and difficult to market is the single most common reason for a no. Our guide to <a href="../types-of-modeling/">the different types of modeling</a> covers what each board actually requires.</p>
 <p>The practical implication: decide your category before you submit, and submit to agencies that run that board. Applying to a fashion-only agency with a commercial look is not ambition, it is a filing error.</p>
 
 <h3>2. Measurements, against that category</h3>

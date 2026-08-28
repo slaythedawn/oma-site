@@ -209,4 +209,123 @@ export const typesOfWork = [
 <p>Commercial modeling is the category that sells everything except the clothes themselves, and it is where most working models spend most of their career, whether or not they also do fashion or runway work. It books on relatability, range and reliability rather than a narrow set of proportions, it pays through a combination of day rate and usage rather than a single fee, and it is, by a wide margin, the easiest door into the industry for a beginner to walk through first.</p>
 `,
   },
+
+  {
+    slug: 'types-of-modeling',
+    seoTitle: 'Types of Modeling: Every Category, Explained',
+    description:
+      'Every type of modeling explained by working agents and casting directors: what each category pays, what it requires, and how to find your lane.',
+    headline: 'Types of Modeling: Every Category, and How to Tell Which One Fits You',
+    category: 'Types of work',
+    image: 'model-casting-calls',
+    imageAlt: 'Models of different heights, ages and looks waiting along a wall at a casting call, representing the range of categories a single casting can call for',
+    readTime: 11,
+    date: '2026-08-27',
+    related: ['how-to-become-a-model', 'what-is-commercial-modeling', 'runway-model'],
+    faq: [
+      {
+        q: 'What are the types of modeling?',
+        a: 'The main categories are fashion and runway, commercial, editorial and print, fitness and athletic, plus-size and curve, petite, mature, child, hand and parts, glamour and swim, and freelance work, which is a way of working rather than a look. Most working models book across two or three of these rather than staying in one lane their whole career.',
+      },
+      {
+        q: 'How many types of modeling are there?',
+        a: 'There is no single official count, and lists online range from around ten to over twenty depending on how finely they split hand modeling from foot modeling, or swim from glamour. What matters more than the exact number is that each category has its own casting standards, its own clients, and its own pay structure, so the right question is not "how many" but "which one fits the person asking."',
+      },
+      {
+        q: 'What type of modeling pays the most?',
+        a: 'National advertising campaigns and long-running usage deals have the highest ceiling, because the fee is built around usage rather than a single shoot day. But high-ceiling is not the same as reliable: commercial, catalogue and fit modeling pay less per job and far more consistently, and a model working those categories steadily often out-earns one chasing rare high-fashion bookings. See our guide to how much models actually make for the full breakdown.',
+      },
+      {
+        q: 'What type of modeling is easiest to get into?',
+        a: 'Commercial, by a wide margin. It has no narrow height or proportion requirement, it books on relatability rather than a fashion-industry ideal, and local and regional clients give new faces a realistic first booking. Fashion runway is the hardest, both because of its height requirement and because of how many applicants a single casting sees for very few spots.',
+      },
+      {
+        q: 'Can you do more than one type of modeling?',
+        a: 'Yes, and most working models do. A commercial model who also fits a fitness board, or a runway model who books catalogue work between fashion weeks, is the normal shape of a modeling career, not an exception. Agencies generally welcome it, since a model who can be submitted to more than one board is more bookable overall.',
+      },
+    ],
+    body: `
+<p>New faces ask this question before almost any other: "what type of modeling should I do?" It is usually the wrong question to start with, because it assumes modeling is one thing with variations, when it is closer to a dozen separate industries that happen to share the word. A runway casting, a hand modeling job and a national ad campaign are booked by different people, judged on different standards, and paid in completely different ways.</p>
+<p>This is the map. Our instructors are working agents, bookers and a fashion week producer, and this is how they actually sort a portfolio when it lands on their desk.</p>
+
+<h2>How Many Types of Modeling Are There?</h2>
+<p>Ask five people in the industry and you will get five different counts, because the categories overlap and some agencies split them more finely than others. What every working booker agrees on is the short list of categories that actually generate steady bookings, and that is what this guide covers. Treat any list claiming an exact, official number with mild suspicion; the useful question is not how many boxes exist, but which one a given person actually fits.</p>
+
+<h2>The Main Categories of Modeling</h2>
+
+<h3>Fashion and runway</h3>
+<p>The narrowest category by requirements and the one most people picture first: designer shows, sample-size fittings, a walk that has to repeat identically look after look. It has the strictest height range in the industry and the highest reject rate at casting, but it also has the biggest single-booking upside during a fashion week. We cover the job in full, including realistic pay, in our guide to <a href="../runway-model/">what a runway model actually does</a>, and the walk itself, technique and training, in <a href="../how-do-models-walk-in-runway-shows/">how models actually walk in runway shows</a>.</p>
+
+<h3>Commercial</h3>
+<p>The category that sells everything except the clothes themselves: catalogues, e-commerce, lifestyle photography, advertising campaigns, corporate imagery. No universal height or age rule, because there is no single client, and it employs more working models than any other category by a wide margin. Our full breakdown, including the different kinds of commercial work and how the pay structure differs from fashion, is in <a href="../what-is-commercial-modeling/">what is commercial modeling</a>.</p>
+
+<h3>Editorial and print</h3>
+<p>Magazine features, brand lookbooks and print campaigns. Pays less in cash than commercial or advertising work, often close to nothing on smaller shoots, but builds the tearsheets and book credibility that open doors to bigger bookings later. Most working models treat early editorial as an investment in the portfolio rather than an income source.</p>
+
+<h3>Fitness and athletic</h3>
+<p>Activewear, supplement brands, gym and wellness campaigns. Casts on visible condition and a specific trained look rather than height, and books year-round rather than seasonally. Our guide to <a href="../how-to-become-a-fitness-model/">becoming a fitness model</a> covers what agencies actually look for and how the board differs from a general commercial one.</p>
+
+<h3>Plus-size and curve</h3>
+<p>A substantial and steadily growing board with its own client base, its own casting standards, and its own agencies specializing in it. See our <a href="../plus-size-modeling-agencies/">guide to plus size modeling agencies</a> for how to find one and what curve casting directors are actually looking for.</p>
+
+<h3>Petite</h3>
+<p>Models below the height range fashion runway requires, cast for commercial, catalogue and lifestyle work built around realistic proportions rather than sample sizing. A genuine, steady lane, not a consolation category, and one that overlaps heavily with commercial casting more broadly.</p>
+
+<h3>Mature</h3>
+<p>Models over roughly 40, booked for brands selling to an older customer: healthcare, finance, home and lifestyle campaigns in particular. Demand has grown steadily as brands have moved away from casting only in their twenties, and it is one of the few categories where a longer, visible life is the credential rather than a limitation.</p>
+
+<h3>Child modeling</h3>
+<p>Its own regulatory world as much as its own casting category: work permits, trust accounts for a minor's earnings, and a parent doing the agency vetting rather than the model. If this is the lane you are looking at, start with our <a href="../how-to-become-a-child-model/">parent's guide to child modeling</a> rather than the general advice on this page, because the rules are genuinely different.</p>
+
+<h3>Hand and parts modeling</h3>
+<p>A real, specialist niche: close-up work for product photography, jewelry, cosmetics and skincare. Small client pool, repeat bookings, and consistently underrated pay per hour. Covered in full in <a href="../how-to-become-a-hand-model/">how to become a hand model</a>.</p>
+
+<h3>Glamour and swim</h3>
+<p>Swimwear, lingerie and beauty campaigns. Casts on a specific look and comfort in front of the camera rather than height, and overlaps significantly with commercial and fitness casting in practice.</p>
+
+<h3>Freelance</h3>
+<p>Not a look or a client type, a way of working: booking directly with clients and photographers instead of, or alongside, an agency. A freelancer keeps the full rate they negotiate rather than paying agency commission, at the cost of the largest national clients, who mostly book through agencies. Our <a href="../how-to-become-a-freelance-model/">freelance modeling guide</a> covers rate-setting and finding legitimate work directly.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=types-of-modeling__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>What Beginners Usually Get Wrong About Categories</h2>
+<p>Three mistakes show up in almost every new submission a booker sees, and all three are fixable before you ever walk into an agency.</p>
+<ul>
+<li><b>Picking the category first, and the portfolio second.</b> A new face decides they want to be a runway model, then shoots a book that does not show the walk, the proportions, or anything a runway board actually screens for. The category should follow from what the photos honestly show, not the other way round.</li>
+<li><b>Treating rejection from one board as rejection from the industry.</b> A commercial casting director and a fashion runway board are not applying the same standard, and a "no" from one says nothing about your odds with the other. Bookers see this misunderstanding cost promising new faces months of confidence they did not need to lose.</li>
+<li><b>Assuming the categories are ranked.</b> There is a persistent idea that fashion and runway sit above commercial, fitness or hand modeling in some kind of hierarchy. Working agents do not think this way. They think about which board has demand right now and which model reliably books it, and by that measure commercial outperforms fashion on volume most years, not the reverse.</li>
+</ul>
+
+<h2>How to Figure Out Which Type Fits You</h2>
+<p>Casting directors sort a new face by three things before they ever discuss talent: measurements and proportions against a specific board's requirements, the kind of expression and energy the photos show, and whether the person can plausibly rebook rather than just book once. Working backward from that:</p>
+<ul>
+<li><b>If you fit a narrow height and proportion range and can hold a consistent, practiced walk,</b> fashion runway is worth pursuing, alongside commercial work to fill the calendar between seasons.</li>
+<li><b>If you read as natural and relaxed on camera rather than posed,</b> commercial is the strongest starting lane, and the one with the most steady demand.</li>
+<li><b>If you have a visible trained physique and an interest in activewear or supplement brands,</b> fitness casting is worth building a portfolio around specifically.</li>
+<li><b>If a specific feature, hands, a particular skin type, is your strongest asset,</b> parts modeling is worth investigating on its own, separate from a general book.</li>
+<li><b>If none of the above feels like a clean fit,</b> that is normal, not a dead end. Plus, petite, mature and curve boards exist precisely because "the industry ideal" was never the whole industry, and most working models do not fit a single narrow category either.</li>
+</ul>
+<p>Whatever the fit looks like, the portfolio has to show it clearly. Our guide to <a href="../modeling-portfolio-examples/">modeling portfolio examples</a> breaks down, category by category, what a book that actually gets signed looks like.</p>
+
+<h2>Which Type of Modeling Pays the Most?</h2>
+<p>National advertising and long-running usage deals have the highest ceiling, because the fee is built around how widely and how long a client can use the images, not just the shoot day. But a high ceiling is not the same as a reliable income. Commercial, catalogue and fit modeling pay less per booking and far more consistently, and a model working those categories steadily tends to out-earn one holding out for rare high-fashion work. The full pay structure, day rates versus usage, agency commission, and realistic ranges by category, is in <a href="../how-much-do-models-make/">how much do models actually make</a>.</p>
+
+<h2>Getting Started, Whichever Category Fits</h2>
+<p>The starting steps are close to identical across every category above, and only branch once you know which board you are aiming at:</p>
+<ol>
+<li><b>Shoot simple, honest digitals</b> that show the range relevant to your category, not a heavily styled shoot. Our <a href="../how-to-make-a-modeling-portfolio/">portfolio guide</a> covers what to shoot for each type.</li>
+<li><b>Research agencies with the right board.</b> Not every agency runs curve, fitness or hand boards; ask directly, and read our <a href="../how-to-choose-a-modeling-agency/">guide to choosing an agency</a> before signing anywhere.</li>
+<li><b>Start local.</b> Regional castings and smaller clients before a national campaign, in every category without exception. See what real, current <a href="../model-casting-calls/">casting calls</a> actually look like before your first submission.</li>
+<li><b>Expect to adjust the lane, not just the effort.</b> A "no" from a fashion runway board is often a "yes" waiting at a commercial or fitness one. If you are starting with genuinely no experience anywhere, our <a href="../how-to-become-a-model-with-no-experience/">beginner's guide</a> walks through the realistic first steps.</li>
+</ol>
+
+<h2>The Short Version</h2>
+<p>Modeling is not one industry with variations, it is closer to a dozen adjacent industries sharing a word, each with its own casting standards, its own clients and its own pay structure. Fashion and runway are the narrowest and hardest to enter; commercial is the widest and the steadiest income for most working models; fitness, plus, petite, mature, child, hand and glamour each have their own real, working boards. The fastest way into any of them is not guessing which one sounds most glamorous, it is reading the requirements honestly, building a portfolio that shows the right range, and starting local in whichever lane actually fits.</p>
+`,
+  },
 ];

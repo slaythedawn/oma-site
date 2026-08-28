@@ -19,7 +19,7 @@ export const gettingStarted = [
     related: [
       'how-to-become-a-model',
       'what-do-modeling-agencies-look-for',
-      'runway-model',
+      'types-of-modeling',
     ],
     faq: [
       {
@@ -57,6 +57,7 @@ export const gettingStarted = [
 <li><b>Fit</b> — stable specific measurements, used in garment development. Steady and almost invisible from outside.</li>
 <li><b>Classic</b> — over roughly 35, consistently under-supplied.</li>
 </ul>
+<p>That is the short version. For the full map of categories, what each pays, and how to tell which one actually fits you, see our guide to <a href="../types-of-modeling/">the different types of modeling</a>.</p>
 <p>Be honest here. Aiming at a fashion board at 5'5" is not ambition, it is a guaranteed no from every agency you contact — while the commercial board that would have taken you never hears from you.</p>
 
 <h2>Step 2: Measure Yourself Properly</h2>
