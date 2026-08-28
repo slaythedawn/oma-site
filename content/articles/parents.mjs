@@ -22,16 +22,27 @@ const parentRedFlags = `
 
 const legalBlock = `
 <h2>The Rules That Protect Your Child</h2>
-<p>Children working in entertainment and advertising are covered by employment and child-protection rules, and the specifics vary by jurisdiction — by state in Australia and by state in the US. It is worth spending an hour on your own jurisdiction's rules before your child works, but the protections generally cover the same ground:</p>
+<p>Children working in entertainment and advertising are covered by employment and child-protection rules everywhere this guide is read, but the system doing the protecting is different in the US, the UK and Australia, and none of the three run it nationally. A professional agency and a professional client will know their own system and follow it without being asked; an operator who seems unaware of it, or treats it as an inconvenience, is telling you exactly how the day will go.</p>
+
+<h3>United States</h3>
+<p>There is no single federal child-performer law — it runs state by state, and the rules a family in California works under can differ meaningfully from a family in Texas. Most states with an active industry require an entertainment work permit before a minor can work a shoot, cap hours and set mandatory breaks by age, and require schooling arrangements on longer bookings. A handful of states, California and New York among them, go further and legally require a portion of a child's earnings, commonly 15 percent, into a blocked trust account the child controls at adulthood, often called a Coogan account after the law's namesake. Check your own state's labor department before your child works a single job.</p>
+
+<h3>United Kingdom</h3>
+<p>England licenses child performers through the local council, not a national body: under the Children (Performances and Activities) Regulations 2014, any child from birth to the end of compulsory school age needs a performance licence from their local authority to work in paid modelling, and the employer or agency is normally the one who applies for it. Unless a parent or a teacher from the child's school is directly supervising, the child must be accompanied by a local-authority-registered chaperone, whose sole job on set is the child's welfare. Scotland, Wales and Northern Ireland run their own separate but broadly similar licensing systems, administered locally rather than by Westminster, so check with your own council before assuming the England rules apply as written.</p>
+
+<h3>Australia</h3>
+<p>Australia has no single national scheme either — each state runs its own. In New South Wales, an employer needs a formal Authority from the Office of the Children's Guardian before employing a child in modelling or entertainment, must notify the Office before the work happens, and must have a child-safe code of conduct in place; the Authority is time-limited, issued for anywhere from one week to twelve months. Other states, Victoria and Queensland among them, run comparable schemes through their own regulators rather than the NSW system, so the correct body to check with depends on where your family and the job are actually based.</p>
+
+<h2>What All Three Systems Actually Cover</h2>
+<p>Despite the different regulators and paperwork, US, UK and Australian rules protect the same ground:</p>
 <ul>
-<li><b>Permits or licences</b> for a child to work, often the employer's responsibility to obtain.</li>
+<li><b>Permits, licences or an equivalent authority</b> for a child to work, usually the employer's responsibility to obtain, not the family's.</li>
 <li><b>Limits on hours</b>, tightened further by age and by whether it is a school day.</li>
 <li><b>Mandatory breaks and rest</b>, and limits on total time on set.</li>
-<li><b>Supervision requirements</b> — a parent, guardian or approved chaperone present.</li>
+<li><b>Supervision requirements</b> — a parent, guardian or approved chaperone present at all times.</li>
 <li><b>Schooling provisions</b> where a booking falls in school hours.</li>
-<li><b>Restrictions on how earnings are handled</b>, including trust arrangements in some jurisdictions.</li>
+<li><b>Restrictions on how earnings are handled</b>, including trust arrangements in some US states.</li>
 </ul>
-<p>A professional agency and a professional client will know these rules and follow them without being asked. An operator who seems unaware of them, or who treats them as an inconvenience, is telling you exactly how the day will go.</p>
 `;
 
 export const parents = [
@@ -44,7 +55,7 @@ export const parents = [
     category: 'For parents',
     image: 'how-to-become-a-child-model',
     imageAlt: 'A parent and child at a relaxed daylight casting',
-    readTime: 11,
+    readTime: 12,
     date: DATE,
     related: [
       'how-to-become-a-child-model',
@@ -132,7 +143,7 @@ ${legalBlock}
     category: 'For parents',
     image: 'how-to-become-a-child-model',
     imageAlt: 'A baby photographed in soft daylight during a relaxed casting',
-    readTime: 9,
+    readTime: 10,
     date: DATE,
     related: [
       'child-modeling-agencies',
