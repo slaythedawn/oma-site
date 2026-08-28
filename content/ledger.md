@@ -43,6 +43,21 @@ Every run does all of the following, not just "pick a keyword and write":
 6. Merge the run's own PR once CI is green and `mergeable_state` is
    `clean` — do not wait for Josh to look at the preview first.
 
+**Market parity on jurisdiction-dependent content, added 2026-08-28.**
+The site targets US, UK and Australian search intent (see the Live table's
+mix of US-spelled and AU-spelled slugs), but content covering anything
+legally or administratively jurisdiction-dependent — child labor/work
+permit law, licensing, trust-account or tax rules, agency regulation —
+defaulted to US-only detail with a vague one-line "varies elsewhere"
+caveat. Josh's feedback on `baby-modelling-agency`: give the US, the UK
+and Australia equal, concrete treatment, not one researched market and
+two hand-waves. Fixed there via the shared `legalBlock` in
+`content/articles/parents.mjs` (verified against gov.uk, local-council
+sources and NSW's Office of the Children's Guardian before writing, not
+guessed). Apply the same standard going forward: any new or edited
+article touching a jurisdiction-dependent rule gets real, checked detail
+for all three markets, or it doesn't ship.
+
 ## Live (38 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
