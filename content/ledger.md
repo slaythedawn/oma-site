@@ -58,7 +58,7 @@ guessed). Apply the same standard going forward: any new or edited
 article touching a jurisdiction-dependent rule gets real, checked detail
 for all three markets, or it doesn't ship.
 
-## Live (38 articles)
+## Live (39 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -100,6 +100,7 @@ for all three markets, or it doesn't ship.
 | how-much-do-models-make | how much do models make | 2500 | 3 | 2026-08-21 |
 | what-is-commercial-modeling | what is commercial modeling | 2500 | 3 | 2026-08-25 |
 | types-of-modeling | types of modeling / types of models | 1300 + 700 | 9 / 1 | 2026-08-27 |
+| what-is-fashion-modeling | what is fashion modeling | 1000 | 6 | 2026-08-28 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -108,9 +109,18 @@ blog article, tracked separately.
 
 ## Shortlist for coming weeks
 
-Verified uncovered against the table above. Ahrefs figures re-checked
-2026-08-22 (`site-explorer-organic-keywords`, no top-100 ranking page for
-any of these).
+The three entries below were re-checked 2026-08-28 against fresh Ahrefs
+`keywords-explorer-matching-terms` data (not just the 2026-08-22
+`site-explorer-organic-keywords` pass) and are still open — none written
+yet, still flagged for overlap review before picking. `what-is-fashion-modeling`
+was picked from the same fresh pull, not from this list: it wasn't on it,
+found instead by scanning matching-terms for "modeling" filtered to low
+difficulty, cross-checked as genuinely uncovered via both
+`site-explorer-organic-keywords` (no ranking page at all, not even a
+near-miss) and a search of this ledger and the live articles for
+"fashion modeling". Worth doing that broader matching-terms scan each run
+rather than only working down this fixed list — it is what surfaced the
+best opportunity this run.
 
 | Target keyword | US vol | KD | Note |
 | --- | --- | --- | --- |
