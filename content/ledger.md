@@ -7,6 +7,42 @@ are US Ahrefs figures at the date the article was picked, where known.
 **The rule this table exists to enforce:** if an existing article already
 targets the keyword, improve that article. Do not write a second one.
 
+## Cadence
+
+As of 2026-08-28, Josh's instruction: run every 2 days (not weekly), at a
+randomised time of day, and **every run ships a new article** picked
+against a live Ahrefs opportunity — no more skipping a run because the
+last article's PR hadn't merged yet (that's moot now anyway, see the
+merge-without-approval note below). The actual fire schedule and time
+randomisation live in this environment's scheduled-trigger configuration
+outside this repo and outside any tool this session has access to — Josh
+manages the interval and time in the Claude Code on the web scheduling
+settings for this environment, not by editing this file. This section is
+the operating contract for what a run does once it fires, not a record of
+when it fires.
+
+Every run does all of the following, not just "pick a keyword and write":
+
+1. Check open branches/PRs first for a target already in flight — the
+   duplicate-article collision (two entries below, paid for twice already)
+   gets more likely, not less, at a 2-day cadence.
+2. Pick the target from live Ahrefs opportunity data (organic-keywords /
+   keyword-explorer — see the GSC gap below for why Ahrefs is the source),
+   checked against this table for cannibalisation.
+3. Write the article, cross-link it from 2+ sibling articles in-body (not
+   just the blog index card) — `npm run check:site` now enforces this as
+   a hard failure via the orphan-inbound-link check added 2026-08-28, so a
+   run that skips it will not pass CI, not just risk an SEO miss.
+4. Regenerate the blog index and `sitemap.xml` (`npm run build:index`) and
+   confirm `robots.txt` still points at it — `npm run check:site` also
+   covers this.
+5. Update this ledger: move the keyword from Shortlist to Live, and add
+   any newly-surfaced opportunities noticed along the way to Shortlist
+   even if this run doesn't write them yet, so the next run has a live
+   list rather than a stale one.
+6. Merge the run's own PR once CI is green and `mergeable_state` is
+   `clean` — do not wait for Josh to look at the preview first.
+
 ## Live (38 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
@@ -69,6 +105,29 @@ any of these).
 
 ## Known gaps
 
+- **The routine's actual run schedule (interval, time of day) is not
+  configurable from inside a session.** Josh asked (2026-08-28) for every
+  2 days at a randomised time, replacing weekly. No tool available in this
+  session's toolset edits that outer trigger — `CronCreate` only makes
+  session-scoped jobs that die with the session (7-day hard cap), which is
+  not what fires this routine in the first place (this session started
+  from an external "SCHEDULED TASK" prompt, not a `CronCreate` job — see
+  `CronList`, which reports none). The interval and time live in this
+  environment's scheduled-trigger settings in Claude Code on the web,
+  outside this repo. Told Josh directly rather than silently leaving the
+  old weekly schedule in place; he needs to change it there himself. The
+  Cadence section above is what a run does once fired, which this session
+  *can* control, and is kept current regardless of who sets the trigger.
+- **`npm run check:site` now fails a blog article with fewer than 2
+  in-body inbound links from other articles**, added 2026-08-28
+  alongside this cadence change, in `scripts/check-site.mjs`. Found one
+  pre-existing violation on the first run — `baby-modelling-agency` had
+  only the one inbound link from `child-modeling-agencies`'s related-card
+  — fixed by adding a link to it from the "babies and toddlers" section of
+  `how-to-become-a-child-model`. The blog index card and sitemap listing
+  both link every article by construction and do not count toward the
+  minimum, since neither carries the in-body link equity or topical
+  context a real cross-link does.
 - **Merge the routine's own PRs without waiting for Josh's approval.**
   PR #14 (`types-of-modeling`) sat green and mergeable for about a day
   because the session that shipped it deferred the merge to Josh ("ready

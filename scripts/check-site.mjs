@@ -19,6 +19,12 @@ const checkExternal = process.argv.includes('--external');
 const problems = [];
 const fail = (page, message) => problems.push(`${page}: ${message}`);
 
+// page -> Set of other pages that link to it. Used below to catch a new
+// article that only the blog index and sitemap point at — technically live,
+// but with no in-body link equity flowing to it and a real risk of never
+// being crawled from anywhere but the listing page.
+const inboundLinks = new Map();
+
 const pages = globSync('**/*.html', { cwd: ROOT })
   // content/ holds the source template, project/ the superseded prototype —
   // neither is a deployed page.
@@ -108,9 +114,37 @@ for (const page of pages) {
       ? [join(target, 'index.html')]
       : [target];
 
-    if (!candidates.some(existsSync)) {
+    const hit = candidates.find(existsSync);
+    if (!hit) {
       fail(page, `broken reference "${ref}" -> ${relative(ROOT, target)} does not exist.`);
+      continue;
     }
+
+    const hitPage = relative(ROOT, hit);
+    if (hitPage !== page) {
+      if (!inboundLinks.has(hitPage)) inboundLinks.set(hitPage, new Set());
+      inboundLinks.get(hitPage).add(page);
+    }
+  }
+}
+
+// --- every blog article has real in-body inbound links, not just the index -
+// The blog listing and the sitemap both link every article by construction,
+// so neither counts as evidence the article is actually woven into the site.
+// The routine's own practice (content/ledger.md) is to add 2-3 cross-links
+// from sibling articles when shipping a new one; this makes that a checked
+// requirement instead of a habit that can be skipped under time pressure.
+const MIN_INBOUND = 2;
+for (const page of pages) {
+  if (page === 'blog/index.html' || dirname(page) === '.') continue; // homepage, blog index
+  if (!page.startsWith('blog/')) continue;
+
+  const sources = [...(inboundLinks.get(page) ?? [])].filter((p) => p !== 'blog/index.html');
+  if (sources.length < MIN_INBOUND) {
+    fail(
+      page,
+      `only ${sources.length} in-body inbound link(s) (${sources.join(', ') || 'none'}) besides the blog index — needs at least ${MIN_INBOUND} cross-links from sibling articles or the homepage to avoid shipping an orphan.`,
+    );
   }
 }
 
