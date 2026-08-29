@@ -126,7 +126,7 @@ export const agenciesAu = [
 <aside class="inline-cta">
   <div class="k">Free module</div>
   <h3>The runway masterclass, free</h3>
-  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
   <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modelling-agencies-sydney__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
 </aside>
 
@@ -143,7 +143,7 @@ ${redFlags}
 <p>What shortens it is arriving prepared: correct digitals, correct stats, the right agencies for your category, and knowing how to behave in a casting. That last one is learnable, and it is most of what separates models who get rebooked from models who get booked once.</p>
 
 <h2>Before You Submit Anywhere</h2>
-<p>Get your digitals right, know your category, shortlist the agencies whose boards you genuinely fit, and understand what happens in a casting room before you are standing in one. Our free runway masterclass with Jack Bedwani, who produces Australian Fashion Week, covers the last part in six lessons and costs nothing.</p>
+<p>Get your digitals right, know your category, shortlist the agencies whose boards you genuinely fit, and understand what happens in a casting room before you are standing in one. Our free runway masterclass with Jack Bedwani, who produces Australian Fashion Week, covers the last part in five lessons and costs nothing.</p>
 `,
   },
 
@@ -206,7 +206,7 @@ ${redFlags}
 <aside class="inline-cta">
   <div class="k">Free module</div>
   <h3>The runway masterclass, free</h3>
-  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
   <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modelling-agencies-melbourne__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
 </aside>
 
@@ -274,7 +274,7 @@ ${redFlags}
 <aside class="inline-cta">
   <div class="k">Free module</div>
   <h3>The runway masterclass, free</h3>
-  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
   <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modelling-agencies-brisbane__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
 </aside>
 
@@ -343,7 +343,7 @@ ${redFlags}
 <aside class="inline-cta">
   <div class="k">Free module</div>
   <h3>The runway masterclass, free</h3>
-  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
   <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modelling-agencies-perth__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
 </aside>
 
@@ -417,7 +417,7 @@ ${redFlags}
 <aside class="inline-cta">
   <div class="k">Free module</div>
   <h3>The runway masterclass, free</h3>
-  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
   <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modelling-agencies-australia__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
 </aside>
 
@@ -452,7 +452,7 @@ ${redFlags}
 
 <h2>What Actually Gets You Signed</h2>
 <p>Clean digitals, accurate stats, the right agency for your category, and evidence that you will be easy to work with. Nothing on that list requires money.</p>
-<p>What happens after you are signed is a different skill set: how you walk, how you take direction, how you behave when a casting runs three hours late. That is what our mentors teach, and the free runway masterclass with Jack Bedwani — who produces Australian Fashion Week — is six lessons of it at no cost.</p>
+<p>What happens after you are signed is a different skill set: how you walk, how you take direction, how you behave when a casting runs three hours late. That is what our mentors teach, and the free runway masterclass with Jack Bedwani — who produces Australian Fashion Week — is five lessons of it at no cost.</p>
 `,
   },
 ];

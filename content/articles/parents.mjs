@@ -87,7 +87,7 @@ ${parentRedFlags}
 <aside class="inline-cta">
   <div class="k">Free module</div>
   <h3>The runway masterclass, free</h3>
-  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
   <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=child-modeling-agencies__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
 </aside>
 
@@ -188,7 +188,7 @@ ${legalBlock}
 <aside class="inline-cta">
   <div class="k">Free module</div>
   <h3>The runway masterclass, free</h3>
-  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
   <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=baby-modelling-agency__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
 </aside>
 

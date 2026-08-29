@@ -78,7 +78,7 @@ ${whatAgenciesThink}
 <aside class="inline-cta">
   <div class="k">Free module</div>
   <h3>The runway masterclass, free</h3>
-  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
   <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modeling-classes__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
 </aside>
 
@@ -120,7 +120,7 @@ ${whatAgenciesThink}
 
 <h2>What We Do</h2>
 <p>Online Model Academy is an online course taught by working casting directors, agents, a fashion week producer and an industry lawyer. It covers the knowledge half thoroughly and makes no claim to get you signed, because no course can.</p>
-<p>The free runway module with Jack Bedwani, who produces Australian Fashion Week, is six lessons at no cost — enough to judge whether the teaching is worth anything to you before you spend a dollar.</p>
+<p>The free runway module with Jack Bedwani, who produces Australian Fashion Week, is five lessons at no cost — enough to judge whether the teaching is worth anything to you before you spend a dollar.</p>
 `,
   },
 
@@ -192,7 +192,7 @@ ${whatAgenciesThink}
 <aside class="inline-cta">
   <div class="k">Free module</div>
   <h3>The runway masterclass, free</h3>
-  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
   <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modeling-schools__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
 </aside>
 
@@ -230,7 +230,7 @@ ${whatAgenciesThink}
 <li>Find real agencies and verify them — our guide to <a href="../modeling-agencies-near-me/">finding a genuine agency</a> has the checklist.</li>
 <li>Submit exactly what each one asks for, and go to open calls.</li>
 </ol>
-<p>If you then decide training would help, <a href="../modeling-classes/">our guide to modeling classes</a> covers how to judge one. And our own free runway module — six lessons from a working fashion week producer, no card required — exists so you can assess the teaching before spending anything.</p>
+<p>If you then decide training would help, <a href="../modeling-classes/">our guide to modeling classes</a> covers how to judge one. And our own free runway module — five lessons from a working fashion week producer, no card required — exists so you can assess the teaching before spending anything.</p>
 `,
   },
 ];

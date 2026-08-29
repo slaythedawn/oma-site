@@ -81,7 +81,7 @@ export const money = [
 <aside class="inline-cta">
   <div class="k">Free module</div>
   <h3>The runway masterclass, free</h3>
-  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
   <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-much-do-models-make__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
 </aside>
 
@@ -110,7 +110,7 @@ export const money = [
 <li><b>Knowing what you're worth before you're in the room.</b> Understanding day rate versus usage, and negotiating both, is a learnable skill, not an innate one, and it is worth real money the first time a client tries to bundle unlimited usage into a modest day rate.</li>
 <li><b>Range.</b> A model who can competently deliver beauty, commercial lifestyle, and movement is bookable by more clients than one who can only do one of those things well.</li>
 </ul>
-<p>That last set of skills, reading a casting room and negotiating from a position of actually understanding what you're being asked to sign away, is exactly what our mentors teach. The free runway masterclass, taught by Jack Bedwani, who produces Australian Fashion Week, is six lessons on the craft side of this at no cost, and it is the place to start before your first rate negotiation, not after.</p>
+<p>That last set of skills, reading a casting room and negotiating from a position of actually understanding what you're being asked to sign away, is exactly what our mentors teach. The free runway masterclass, taught by Jack Bedwani, who produces Australian Fashion Week, is five lessons on the craft side of this at no cost, and it is the place to start before your first rate negotiation, not after.</p>
 `,
   },
 ];

@@ -99,7 +99,7 @@ ${feeWarning}
 <aside class="inline-cta">
   <div class="k">Free module</div>
   <h3>The runway masterclass, free</h3>
-  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
   <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modeling-agencies-near-me__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
 </aside>
 
@@ -118,7 +118,7 @@ ${digitalsBlock}
 <p>What does not work is signing with whoever is nearest regardless of whether they can book you. A bad agency is worse than no agency, because an exclusive contract with a company that never places you can lock up your career for its full term.</p>
 
 <h2>Before You Submit Anywhere</h2>
-<p>Get your digitals right, know your category, verify every agency on your list, and understand what happens in a casting room before you are standing in one. Our free runway masterclass — six lessons from a working fashion week producer — covers the last part, and costs nothing.</p>
+<p>Get your digitals right, know your category, verify every agency on your list, and understand what happens in a casting room before you are standing in one. Our free runway masterclass — five lessons from a working fashion week producer — covers the last part, and costs nothing.</p>
 `,
   },
 
@@ -194,7 +194,7 @@ ${digitalsBlock}
 <aside class="inline-cta">
   <div class="k">Free module</div>
   <h3>The runway masterclass, free</h3>
-  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
   <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=what-do-modeling-agencies-look-for__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
 </aside>
 
@@ -220,7 +220,7 @@ ${feeWarning}
 
 <h2>What You Can Actually Control</h2>
 <p>You cannot control your height, your bone structure, or whether an agency's board happens to need your look this season. You can control your digitals, your accuracy, your targeting, and how you behave in the room.</p>
-<p>That last one is where most of the difference lies between models who get booked once and models who build a career. It is learnable, and it is what our mentors teach. The free runway masterclass with Jack Bedwani — who produces Australian Fashion Week — is six lessons of exactly that, at no cost.</p>
+<p>That last one is where most of the difference lies between models who get booked once and models who build a career. It is learnable, and it is what our mentors teach. The free runway masterclass with Jack Bedwani — who produces Australian Fashion Week — is five lessons of exactly that, at no cost.</p>
 `,
   },
 
@@ -286,7 +286,7 @@ ${feeWarning}
 <aside class="inline-cta">
   <div class="k">Free module</div>
   <h3>The runway masterclass, free</h3>
-  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
   <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=plus-size-modeling-agencies__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
 </aside>
 
@@ -309,7 +309,7 @@ ${feeWarning}
 <p>Once signed, your agency will guide testing to build a portfolio that shows range: clean beauty, commercial lifestyle, something with movement, and at least one shot that shows your shape honestly rather than styled around it. Our guide to <a href="../how-to-make-a-modeling-portfolio/">building a modeling portfolio</a> covers the structure, and the principles are identical across boards.</p>
 
 <h2>Start Here</h2>
-<p>Measure yourself accurately, shoot honest digitals in fitted clothing, shortlist agencies that actually run a curve board, and learn how castings work before you are in one. Our free runway masterclass covers the casting-room craft in six lessons, taught by a working fashion week producer, at no cost.</p>
+<p>Measure yourself accurately, shoot honest digitals in fitted clothing, shortlist agencies that actually run a curve board, and learn how castings work before you are in one. Our free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
 `,
   },
 ];
