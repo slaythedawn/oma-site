@@ -51,6 +51,7 @@ const CLUSTERS = [
       'how-to-become-a-model-with-no-experience',
       'how-much-does-it-cost-to-become-a-model',
       'how-much-do-models-make',
+      'how-to-get-paid-as-a-model',
       'how-to-become-a-successful-model',
     ],
   },

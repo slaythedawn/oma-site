@@ -6,6 +6,92 @@ const DATE = '2026-08-21';
 
 export const money = [
   {
+    slug: 'how-to-get-paid-as-a-model',
+    seoTitle: 'How to Get Paid as a Model: The Process Explained',
+    description:
+      'How models actually get paid: agency-collected vs. direct billing, net terms, vouchers, invoicing and 1099s, and what to do if a client is late.',
+    headline: 'How to Get Paid as a Model: The Process, Step by Step',
+    category: 'Money',
+    image: 'how-to-get-signed-by-a-modeling-agency',
+    imageAlt: 'A model reviewing an invoice and payment terms across a desk',
+    readTime: 9,
+    date: '2026-08-29',
+    related: ['how-much-do-models-make', 'modeling-jobs', 'how-to-become-a-freelance-model'],
+    faq: [
+      {
+        q: 'How do models get paid, through an agency or directly?',
+        a: 'It depends on whether you are signed. An agency-collected payment means the client pays your agency, which deducts its commission and pays you the rest; you never bill the client yourself. A direct-billed payment means you invoice the client and collect the full rate yourself, which is how freelance and self-sourced work is usually paid.',
+      },
+      {
+        q: 'What does net 30 or net 60 mean in modeling?',
+        a: 'It is the number of days after the invoice date that payment is due, not after the shoot date. Net 30 is standard, net 60 is common with larger brands, and net 90 is worth negotiating down before you accept the booking. The shoot happening does not start the clock; the invoice does.',
+      },
+      {
+        q: 'Are models paid as employees or independent contractors?',
+        a: 'Almost always as independent contractors, whether the payment comes through an agency or a direct client. Nobody withholds tax from your fee before it reaches you, so the number you are quoted is a pre-tax figure, and in the US a client paying you $600 or more in a year owes you a Form 1099-NEC.',
+      },
+      {
+        q: 'What is a modeling voucher or trade shoot, and is it real payment?',
+        a: 'Trade, sometimes called TFP, pays in images for your portfolio rather than cash. It is a normal and often necessary part of building a book early on, not a red flag by itself. It becomes one when it never converts to paid work once you have tearsheets and a track record, which is a sign of the arrangement rather than of you.',
+      },
+      {
+        q: 'What should I do if a client does not pay me?',
+        a: 'Confirm the invoice was received and is genuinely past its stated terms first, since most delays are process, not refusal. Signed models raise it with their agency, whose job is to chase it. Freelancers follow up in writing referencing the original invoice, then escalate to a formal notice, and small claims court is a real, lawyer-free option in most US jurisdictions for smaller amounts.',
+      },
+      {
+        q: 'Do agencies ever pay a model before collecting from the client?',
+        a: 'Rarely, and it is worth asking about upfront rather than assuming it. Most agencies pay you only once the client has actually paid them, so a slow-paying client means a slow-paying job regardless of how promptly your agency processes its own side once the money lands.',
+      },
+    ],
+    body: `
+<p>"How much do models make" gets all the attention. How models actually get paid gets almost none, which is strange, because the mechanics decide whether the number on a rate card ever reaches your bank account, and when. Two models booked at the identical day rate can have completely different experiences getting paid: one sees the money in two weeks, the other chases an invoice for three months. The difference is rarely a dishonest client. It is usually that nobody explained the process before the first booking.</p>
+<p>Our instructors at Online Model Academy include agents and bookers who process these payments for a living. This is how the money actually moves.</p>
+
+<h2>The Two Payment Routes: Agency-Collected and Direct-Billed</h2>
+<p>Every modeling payment travels one of two paths, and which one applies to you depends on whether you are signed.</p>
+<ul>
+<li><b>Agency-collected.</b> The client pays your agency the full fee, including its own booking markup where one applies. Your agency deducts its commission, usually around 20 percent in the US, and pays you the remainder. You do not invoice the client directly and, under most agency contracts, are not permitted to.</li>
+<li><b>Direct-billed.</b> If you are freelance or working a job you sourced yourself, you invoice the client and collect payment directly. You keep the full rate you negotiated, but you also take on every part of the collections process an agency would otherwise handle for you.</li>
+</ul>
+<p>A signed model can sometimes do both: agency-booked work paid through the agency, and self-sourced side work billed directly, if the contract allows it. Read that contract before assuming it does. Our guide to <a href="../how-to-become-a-freelance-model/">freelance modeling</a> covers what direct billing actually involves day to day.</p>
+
+<h2>Net Terms: Why the Wait Is Normal, and When It Isn't</h2>
+<p>Almost no modeling job pays on the day of the shoot. Clients pay on terms, most commonly net 30, meaning payment is due 30 days after the invoice date, not after the shoot date. Net 60 is common with larger brands and agencies with slower internal processes. Net 90 exists and is worth pushing back on before you accept the booking, not after.</p>
+<p>What this means in practice: the shoot happens, the agency or you invoice the client, the client's accounts payable department processes it on its own schedule, and only then does money move toward you. A quoted day rate is not a same-week payment, and budgeting as though it were is one of the most common financial mistakes early-career models make.</p>
+<p>What is not normal: a client who goes quiet past their stated terms, an agency that cannot tell you when a specific job was invoiced, or terms that were never actually specified before you agreed to the job. Ask "what are the terms on this one" before you accept a booking, not while you are waiting on it.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-get-paid-as-a-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>Getting Paid in Vouchers or Trade, Not Cash</h2>
+<p>Early in a career, plenty of legitimate work pays in something other than money. Test shoots, TFP (time for print) collaborations, and some editorial arrangements pay in images for your book instead of a fee. That is a normal, even necessary, part of building a portfolio when you have no tearsheets yet, and it is not a red flag by itself.</p>
+<p>It becomes one when the pattern never changes. A model still being offered "exposure" instead of a rate after a year of steady bookings, or an agency or school that only ever offers trade for work it should be paying for, is a sign of how the arrangement is designed to stay, not a normal stage of a career. Trade should visibly shrink as your book grows, not stay fixed while your experience grows around it.</p>
+
+<h2>Invoicing a Client Yourself</h2>
+<p>If you are billing directly, an invoice needs to state plainly what was sold: the date of the shoot, the day or session rate, the usage granted (where the images run, for how long, in which media), and the total. Put your payment terms on the invoice itself, not only in a prior email, since the invoice is the document a client's accounts team actually works from.</p>
+<p>Send it promptly. An invoice sent a month after the shoot pushes a net-30 payment out a further month for no reason. In the US, a client paying you $600 or more in a year is required to send you a Form 1099-NEC, so give them your correct tax details, usually a completed W-9, before the job rather than when they chase you for it at tax time.</p>
+
+<h2>Taxes: You Are a Contractor, Not an Employee</h2>
+<p>Almost all modeling income in the US is paid to independent contractors, not employees, whether it arrives through an agency or a direct client. Nobody withholds tax from your fee before it reaches you, which means the full amount you are quoted is the amount before tax, not after it.</p>
+<p>Two consequences follow. First, keep a real record of every payment as it arrives rather than reconstructing it at tax time from memory and old emails. Second, if modeling is a meaningful part of your income, you are likely expected to pay quarterly estimated taxes rather than settling everything in one lump sum the following April. A tax professional who has worked with contractors or creative freelancers before is worth the cost the first year, specifically to avoid a penalty for underpaying through the year rather than at the end of it.</p>
+
+<h2>When a Client Does Not Pay</h2>
+<p>Start with the assumption that it is a process delay, not theft, and confirm the invoice was actually received and is past its stated terms before escalating. From there:</p>
+<ul>
+<li><b>Signed models</b> should raise it with their agency immediately. Chasing payment is the agency's job, and a booker who cannot tell you the status of an overdue invoice is itself worth noting.</li>
+<li><b>Freelancers</b> follow up in writing, referencing the original invoice and its due date, then escalate to a formal late notice if a follow-up goes unanswered.</li>
+<li><b>Genuinely unresponsive clients</b>, after reasonable attempts, are a matter for small claims court in most US jurisdictions for amounts under a few thousand dollars, which does not require a lawyer to file.</li>
+</ul>
+<p>The best protection sits upstream of all of this: agree on the rate, the usage, and the payment terms in writing before the shoot, not after. Almost every payment dispute in modeling traces back to one of those three things being assumed rather than confirmed.</p>
+
+<p>None of this is complicated once someone walks you through it once, which is exactly the gap our mentors built the course to close. The free runway masterclass, taught by Jack Bedwani, who produces Australian Fashion Week, covers the craft side of the business at no cost. Understanding how you get paid is worth knowing before your first booking, not after your first overdue invoice.</p>
+`,
+  },
+  {
     slug: 'how-much-do-models-make',
     seoTitle: 'How Much Do Models Make? Real Pay, Explained',
     description:
@@ -96,7 +182,7 @@ export const money = [
 <li><b>Bookings are lumpy.</b> A quiet month followed by one national campaign can outearn six months of steady local work, or the reverse. Annualizing a single good month is how inflated numbers end up circulating online.</li>
 <li><b>Most models supplement, at least early on.</b> A day job, freelance work outside modeling, or study alongside it is normal, not a sign of failure, while a book and a client relationship history build.</li>
 <li><b>Categories that pay steadily beat categories that pay big but rarely.</b> A model earning consistent commercial and fit bookings frequently outearns one chasing occasional high-fashion work, over any given year.</li>
-<li><b>Payment terms vary and can be slow.</b> Net 30 or Net 60 from clients is common. Ask your agency how and when you are actually paid, not just how much.</li>
+<li><b>Payment terms vary and can be slow.</b> Net 30 or Net 60 from clients is common. Ask your agency how and when you are actually paid, not just how much — the mechanics of that, agency-collected versus direct billing, vouchers, and what to do if a client is late, are in our <a href="../how-to-get-paid-as-a-model/">guide to how models actually get paid</a>.</li>
 </ul>
 
 <h2>The Costs That Come Out First</h2>

@@ -104,7 +104,7 @@ export const gettingStarted = [
 <p>Models who quit almost always quit during this phase, because the gap between being signed and being booked is longer and quieter than anyone expects.</p>
 
 <h2>Step 8: Learn How the Money Works</h2>
-<p>A booking pays a day or session rate plus a usage fee covering where the images run and for how long. Usage is frequently the larger figure and the part new models forget to ask about. Our guide to <a href="../modeling-jobs/">where modeling work comes from</a> breaks the structure down.</p>
+<p>A booking pays a day or session rate plus a usage fee covering where the images run and for how long. Usage is frequently the larger figure and the part new models forget to ask about. Our guide to <a href="../modeling-jobs/">where modeling work comes from</a> breaks the structure down, and our <a href="../how-to-get-paid-as-a-model/">guide to how models actually get paid</a> covers what happens after the booking, from invoicing through to the money actually landing.</p>
 <p>Your genuine costs starting out are casting travel, basic grooming and any training you choose. Representation itself should cost nothing, ever. Our guide to <a href="../how-much-does-it-cost-to-become-a-model/">what modeling costs</a> puts real numbers on it.</p>
 
 <h2>The Realistic Timeline</h2>
