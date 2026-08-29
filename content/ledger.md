@@ -101,6 +101,7 @@ for all three markets, or it doesn't ship.
 | what-is-commercial-modeling | what is commercial modeling | 2500 | 3 | 2026-08-25 |
 | types-of-modeling | types of modeling / types of models | 1300 + 700 | 9 / 1 | 2026-08-27 |
 | what-is-fashion-modeling | what is fashion modeling | 1000 | 6 | 2026-08-28 |
+| how-to-get-paid-as-a-model | how to get paid as a model | 800 | 0 | 2026-08-29 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -109,24 +110,45 @@ blog article, tracked separately.
 
 ## Shortlist for coming weeks
 
-The three entries below were re-checked 2026-08-28 against fresh Ahrefs
-`keywords-explorer-matching-terms` data (not just the 2026-08-22
-`site-explorer-organic-keywords` pass) and are still open — none written
-yet, still flagged for overlap review before picking. `what-is-fashion-modeling`
-was picked from the same fresh pull, not from this list: it wasn't on it,
-found instead by scanning matching-terms for "modeling" filtered to low
-difficulty, cross-checked as genuinely uncovered via both
-`site-explorer-organic-keywords` (no ranking page at all, not even a
-near-miss) and a search of this ledger and the live articles for
-"fashion modeling". Worth doing that broader matching-terms scan each run
-rather than only working down this fixed list — it is what surfaced the
-best opportunity this run.
+`how to get paid as a model` (below) was picked and shipped 2026-08-29 — see
+the Live table. The overlap check flagged for it turned out clean: the
+existing `how-much-do-models-make` FAQ and body cover pay *rates* (day rate,
+usage, commission), not payment *mechanics* (agency-collected vs. direct
+billing, net terms, invoicing, 1099s), so the two are genuinely
+complementary rather than duplicative. Cross-linked in-body from
+`how-much-do-models-make`, `modeling-jobs` and `how-to-start-a-modeling-career`.
+
+`modeling scams` (was on this list) is now confirmed covered rather than
+merely flagged: `modeling-schools` is subtitled "How They Work and How to
+Spot a Scam" and covers the scam pattern in depth, `modeling-jobs` has its
+own "How to Tell a Real Job From a Scam" section, and the AU agency guides
+carry it too. Dropped from the shortlist — do not write a dedicated piece
+for this term.
+
+Two fresh candidates surfaced 2026-08-29 via a `keywords-explorer-matching-terms`
+scan for "modeling" filtered to low difficulty looked like clean gaps on
+volume and KD alone but turned out **not** to be once the actual article
+bodies were checked, not just this ledger's table — a reminder that the
+table records target keywords, not full-text coverage, so a keyword absent
+from it can still be substantively covered inside another article's prose:
+
+- **`what is editorial modeling`** (1700 vol, KD 0) — `what-is-fashion-modeling`'s
+  own FAQ already states editorial as one of fashion modeling's channels
+  ("editorial, runway, campaign and showroom work"), and `types-of-modeling`
+  gives it a dedicated subsection. A standalone page would cannibalize both.
+- **`what is fitness modeling`** (1000 vol, KD 2) — `how-to-become-a-fitness-model`
+  already has a section literally titled "What Fitness Modeling Actually Is
+  (and Isn't)" answering this exact query.
+
+Neither is worth writing as its own page. If either keyword's near-miss
+position looks worth chasing once GSC access exists, the move is expanding
+the existing section, not a new URL.
 
 | Target keyword | US vol | KD | Note |
 | --- | --- | --- | --- |
-| how to get paid as a model | 800 | 0 | Adjacent to how-much-do-models-make; check for overlap before writing, this may be a section of that article rather than its own page. |
 | how to find modeling jobs | 700 | 0 | Close to the offer. Check against modeling-jobs for overlap before writing — may already be covered. |
-| modeling scams | 60 | 1 | Low volume but high relevance to the brand's anti-scam positioning; modeling-schools already carries some of this. Check for overlap first. |
+| modeling headshots | 800 | 0 | Commercial + local intent (some searchers may want a photographer, not a guide), so weaker fit than it looks. `portfolio.mjs` mentions headshots in the comp-card context but has no dedicated treatment of choosing/getting a modeling headshot specifically — not confirmed clean, check depth before writing. |
+| modeling digitals | 1000 | 0 | Looks uncovered by slug, but `how-to-get-signed-by-a-modeling-agency` and `portfolio.mjs` already explain digitals in some depth ("what agencies actually ask for... how to shoot them"). Check whether a dedicated page would meaningfully add to that before writing. |
 
 ## Known gaps
 
@@ -292,3 +314,12 @@ best opportunity this run.
   Same substitution as before: Ahrefs `site-explorer-organic-keywords` and
   `keywords-explorer-overview` for keyword targeting, no near-miss/impression
   data available this run.
+- **2026-08-29 run: skipped attempting a dedicated Higgsfield hero and went
+  straight to reusing an existing image**, given the three prior consecutive
+  failures logged above are described as a standing environment property,
+  not a one-off worth re-testing every run. Reused
+  `how-to-get-signed-by-a-modeling-agency` (a desk/paperwork scene, already
+  reused once for `how-much-do-models-make`) for `how-to-get-paid-as-a-model`
+  with its own `imageAlt`. If someone confirms the CDN host has been
+  allowlisted, it's worth trying a dedicated generation again rather than
+  defaulting to reuse indefinitely.

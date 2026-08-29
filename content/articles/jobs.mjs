@@ -93,6 +93,7 @@ export const jobs = [
 </ul>
 <p>Usage is frequently the larger number. A single day's shoot licensed for a two-year national campaign is a completely different job from the same day licensed for one month of social media, even though you did identical work.</p>
 <p>So the question to ask before accepting anything is never just "what does it pay". It is <b>"what's the rate, and what's the usage?"</b> A client offering a generous day rate with unlimited perpetual worldwide usage is not being generous.</p>
+<p>Once the booking is confirmed, how the money actually reaches you, and when, is its own question. Our <a href="../how-to-get-paid-as-a-model/">guide to how models actually get paid</a> covers agency-collected versus direct billing, net terms, and what to do if a client goes quiet.</p>
 <p>Your agency deducts commission from the total, and typically charges the client a separate booking fee. None of that comes out of your pocket in advance. Our guide to <a href="../how-much-does-it-cost-to-become-a-model/">what modeling actually costs</a> covers the money flow in full.</p>
 
 <h2>How to Actually Get Booked</h2>
