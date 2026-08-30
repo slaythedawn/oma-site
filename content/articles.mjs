@@ -11,6 +11,7 @@ import { gettingStarted } from './articles/getting-started.mjs';
 import { commercial } from './articles/commercial.mjs';
 import { typesOfWork } from './articles/types-of-work.mjs';
 import { money } from './articles/money.mjs';
+import { niche } from './articles/niche.mjs';
 
 export const articles = [
   ...agenciesAu,
@@ -22,4 +23,5 @@ export const articles = [
   ...commercial,
   ...typesOfWork,
   ...money,
+  ...niche,
 ];

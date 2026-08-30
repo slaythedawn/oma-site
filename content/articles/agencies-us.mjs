@@ -264,7 +264,7 @@ ${feeWarning}
     ],
     body: `
 <p>Curve and plus is one of the few genuinely growing segments in modeling, driven by retail brands broadening their size ranges and by advertising that finally casts closer to the actual customer. It is also poorly explained, which leaves a lot of people who would be signable submitting to the wrong boards.</p>
-<p>This is how it works from the agency side.</p>
+<p>This is how it works from the agency side. If you want the personal step-by-step version instead, from measuring yourself through your first submission, see our <a href="../how-to-become-a-plus-size-model/">guide to becoming a plus size model</a>.</p>
 
 <h2>Curve, Plus, or Neither: The Terminology</h2>
 <p>Agencies use "curve" and "plus" fairly interchangeably, though many now prefer curve. What matters practically is that it is a separate board with its own client base, its own measurement expectations, and often its own bookers within the agency.</p>

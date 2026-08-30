@@ -52,7 +52,7 @@ export const gettingStarted = [
 <ul>
 <li><b>Fashion and runway</b> — women roughly 5'9" to 6'0", men roughly 6'0" to 6'3". The range is driven by sample sizing, not preference.</li>
 <li><b>Commercial</b> — the largest board and where most models earn most of their money. No meaningful height requirement. Clients are casting believable people.</li>
-<li><b>Curve and plus</b> — its own board with its own clients. See our <a href="../plus-size-modeling-agencies/">curve board guide</a>.</li>
+<li><b>Curve and plus</b> — its own board with its own clients. See our <a href="../how-to-become-a-plus-size-model/">guide to breaking in</a> and our <a href="../plus-size-modeling-agencies/">curve board guide</a>.</li>
 <li><b>Parts</b> — hands, feet, hair, skin. Specialist, well paid hourly.</li>
 <li><b>Fit</b> — stable specific measurements, used in garment development. Steady and almost invisible from outside.</li>
 <li><b>Classic</b> — over roughly 35, consistently under-supplied.</li>

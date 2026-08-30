@@ -267,7 +267,7 @@ export const typesOfWork = [
 <p>Activewear, supplement brands, gym and wellness campaigns. Casts on visible condition and a specific trained look rather than height, and books year-round rather than seasonally. Our guide to <a href="../how-to-become-a-fitness-model/">becoming a fitness model</a> covers what agencies actually look for and how the board differs from a general commercial one.</p>
 
 <h3>Plus-size and curve</h3>
-<p>A substantial and steadily growing board with its own client base, its own casting standards, and its own agencies specializing in it. See our <a href="../plus-size-modeling-agencies/">guide to plus size modeling agencies</a> for how to find one and what curve casting directors are actually looking for.</p>
+<p>A substantial and steadily growing board with its own client base, its own casting standards, and its own agencies specializing in it. See our <a href="../how-to-become-a-plus-size-model/">guide to becoming a plus size model</a> for the personal path in, and our <a href="../plus-size-modeling-agencies/">guide to plus size modeling agencies</a> for how to find one and what curve casting directors are actually looking for.</p>
 
 <h3>Petite</h3>
 <p>Models below the height range fashion runway requires, cast for commercial, catalogue and lifestyle work built around realistic proportions rather than sample sizing. A genuine, steady lane, not a consolation category, and one that overlaps heavily with commercial casting more broadly.</p>
