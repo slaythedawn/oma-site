@@ -13,8 +13,8 @@ docs/
 CONTRIBUTING.md
 README.md
 
-# Extracted Kajabi course content, staged here for the backend rebuild. These
-# are the lesson bodies of the $299 course — instructor notes, overviews, key
-# takeaways — and nothing in .vercelignore was stopping them deploying, so they
-# were reachable on the live marketing site to anyone with the URL.
+# Guard. migration/ held the extracted Kajabi course content — lesson bodies of
+# the $299 course, and the 93 Wistia video ids — and was briefly committed here
+# before being removed; it lives in the private oma-backend repo instead. This
+# entry stays so that re-adding the directory cannot publish it by accident.
 migration/
