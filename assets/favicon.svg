@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Favicon. Purpose-built, and deliberately not logo-mark.svg:
+
+  1. logo-mark.svg is fill="currentColor", which needs a parent element to
+     inherit from. A favicon has none, so it falls back to black and vanishes
+     against dark browser chrome. The fill here is explicit, and flips with
+     prefers-color-scheme (honoured by Chrome and Firefox; Safari takes the
+     light value, which is the safer of the two to be stuck with).
+
+  2. The mark is 300x690. Dropped straight into a square 16px favicon slot it
+     scales to about 7px wide and reads as a sliver. Here it is centred in a
+     square canvas at 78% height, so it stays recognisable.
+
+  Source of truth for the shape is logo-mark.svg — if that changes, re-derive
+  this rather than editing the path by hand.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Online Model Academy">
+  <style>
+    path { fill: #1B1713 }
+    @media (prefers-color-scheme: dark) { path { fill: #FBF8F2 } }
+  </style>
+  <g transform="translate(169.05,56) scale(0.5797)">
+    <path d="m0 0h289l1 1v685l-9-2-20-7-20-8-29-14-19-11-15-10-14-10-10-8-13-11-12-11-20-20-9-11-12-14-13-18-10-15-15-25-14-27-11-24-9-25-7-24-6-30-3-28z"/>
+  </g>
+</svg>
