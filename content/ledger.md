@@ -102,6 +102,7 @@ for all three markets, or it doesn't ship.
 | types-of-modeling | types of modeling / types of models | 1300 + 700 | 9 / 1 | 2026-08-27 |
 | what-is-fashion-modeling | what is fashion modeling | 1000 | 6 | 2026-08-28 |
 | how-to-get-paid-as-a-model | how to get paid as a model | 800 | 0 | 2026-08-29 |
+| how-to-become-a-plus-size-model | how to get into plus-size modeling / how to become a plus size model | 900 + 200 | 1 / 1 | 2026-08-30 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -110,13 +111,32 @@ blog article, tracked separately.
 
 ## Shortlist for coming weeks
 
-`how to get paid as a model` (below) was picked and shipped 2026-08-29 — see
-the Live table. The overlap check flagged for it turned out clean: the
-existing `how-much-do-models-make` FAQ and body cover pay *rates* (day rate,
-usage, commission), not payment *mechanics* (agency-collected vs. direct
-billing, net terms, invoicing, 1099s), so the two are genuinely
-complementary rather than duplicative. Cross-linked in-body from
-`how-much-do-models-make`, `modeling-jobs` and `how-to-start-a-modeling-career`.
+`how to get into plus-size modeling` (below) was picked and shipped
+2026-08-30 — see the Live table. Verified via Ahrefs (`keywords-explorer-overview`,
+`keywords-explorer-matching-terms`) against this table's two remaining
+digitals-adjacent shortlist entries below first: `how to find modeling jobs`
+and `modeling digitals` both checked out as cannibalised on closer reading
+of the actual article bodies, not just the ledger table (`jobs.mjs`'s FAQ
+already answers "how do I find modeling jobs" near-verbatim; `portfolio.mjs`'s
+comp-card section and `how-to-get-signed-by-a-modeling-agency` already
+explain digitals in depth). Both dropped from the shortlist below. The
+matching-terms scan surfaced `how to get into plus-size modeling` (900 vol,
+KD 1) and `how to become a plus size model` (200 vol, KD 1) as genuinely
+clean instead: the site's existing plus-size content
+(`plus-size-modeling-agencies`, plus a subsection of `types-of-modeling`) is
+agency-directory and category-hub material, not a personal step-by-step
+guide, and every other niche in the "Specialisms" cluster (fitness, hand,
+male, freelance) already has one. Cross-linked in-body from
+`plus-size-modeling-agencies`, `types-of-modeling` and
+`how-to-start-a-modeling-career`.
+
+`how to get paid as a model` (picked 2026-08-29) is fully covered above too.
+The overlap check flagged for it turned out clean: the existing
+`how-much-do-models-make` FAQ and body cover pay *rates* (day rate, usage,
+commission), not payment *mechanics* (agency-collected vs. direct billing,
+net terms, invoicing, 1099s), so the two are genuinely complementary rather
+than duplicative. Cross-linked in-body from `how-much-do-models-make`,
+`modeling-jobs` and `how-to-start-a-modeling-career`.
 
 `modeling scams` (was on this list) is now confirmed covered rather than
 merely flagged: `modeling-schools` is subtitled "How They Work and How to
@@ -146,9 +166,10 @@ the existing section, not a new URL.
 
 | Target keyword | US vol | KD | Note |
 | --- | --- | --- | --- |
-| how to find modeling jobs | 700 | 0 | Close to the offer. Check against modeling-jobs for overlap before writing — may already be covered. |
 | modeling headshots | 800 | 0 | Commercial + local intent (some searchers may want a photographer, not a guide), so weaker fit than it looks. `portfolio.mjs` mentions headshots in the comp-card context but has no dedicated treatment of choosing/getting a modeling headshot specifically — not confirmed clean, check depth before writing. |
-| modeling digitals | 1000 | 0 | Looks uncovered by slug, but `how-to-get-signed-by-a-modeling-agency` and `portfolio.mjs` already explain digitals in some depth ("what agencies actually ask for... how to shoot them"). Check whether a dedicated page would meaningfully add to that before writing. |
+| how to find modeling jobs | 700 | 0 | **Confirmed cannibalised 2026-08-30** — dropped, do not write. `jobs.mjs`'s FAQ already answers this near-verbatim. |
+| modeling digitals | 1000 | 0 | **Confirmed cannibalised 2026-08-30** — dropped, do not write. `portfolio.mjs` and `how-to-get-signed-by-a-modeling-agency` already cover it in depth. |
+| modeling resume | 700 | 0 | Surfaced 2026-08-30 via matching-terms scan. Genuinely uncovered but niche/low-signal — lower priority than the row above until the shortlist runs thin. |
 
 ## Known gaps
 
@@ -323,3 +344,20 @@ the existing section, not a new URL.
   with its own `imageAlt`. If someone confirms the CDN host has been
   allowlisted, it's worth trying a dedicated generation again rather than
   defaulting to reuse indefinitely.
+- **2026-08-30 run: `git branch -r` + open-PR check done before writing, per
+  the standing lesson above — no open PRs, and every stale branch listed in
+  this file confirmed still zero commits ahead of `main`.** Also re-checked
+  `/root/.ccr/__agentproxy/status` for the Higgsfield CDN block: still no
+  allowlisting change (`recentRelayFailures` empty because nothing was
+  attempted, not because it's fixed), so skipped a generation attempt again
+  and reused `how-to-become-a-model` (plain-wall studio portrait, not
+  previously reused in generated content) for
+  `how-to-become-a-plus-size-model`, with its own `imageAlt` describing the
+  actual digitals-style framing rather than the original page's framing.
+  This session also created a new `content/articles/niche.mjs` file for
+  personal "how to become a [niche] model" career guides, alongside the
+  existing hand-written fitness/hand/male/freelance guides and separate from
+  `agencies-us.mjs`'s agency-directory content — the first article that
+  didn't cleanly fit an existing bucket file. Future niche career-guide
+  articles (as opposed to agency-directory or category-hub content) belong
+  there too.
