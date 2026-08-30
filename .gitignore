@@ -17,3 +17,8 @@ index (old).html
 assets/Reels/*.MP4
 assets/Reels/*.mov
 assets/Reels/*.MOV
+
+# Extracted Kajabi course content lives in the private oma-backend repo, never
+# here — this repo is public. It was briefly committed and has been removed;
+# ignoring it means a stray re-export cannot be staged by accident.
+migration/
