@@ -12,3 +12,9 @@ scripts/
 docs/
 CONTRIBUTING.md
 README.md
+
+# Extracted Kajabi course content, staged here for the backend rebuild. These
+# are the lesson bodies of the $299 course — instructor notes, overviews, key
+# takeaways — and nothing in .vercelignore was stopping them deploying, so they
+# were reachable on the live marketing site to anyone with the URL.
+migration/
