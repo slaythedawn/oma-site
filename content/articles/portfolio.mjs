@@ -121,7 +121,7 @@ export const portfolio = [
 
 <h2>Keeping It Current</h2>
 <p>Reprint whenever your look changes meaningfully — a significant haircut, a colour change, a change in body composition — and otherwise review it annually with your agent. A current card costs very little. An out-of-date one costs bookings.</p>
-<p>Your card, your book and your digitals are three different tools for three different moments. Our guide to <a href="../modeling-portfolio-examples/">portfolio examples</a> shows how they fit together.</p>
+<p>Your card, your book and your digitals are three different tools for three different moments. Our guide to <a href="../modeling-portfolio-examples/">portfolio examples</a> shows how they fit together. A short written <a href="../modeling-resume/">modeling resume</a> is worth keeping too, for the freelance bookings and crossover castings that ask for one instead of a card.</p>
 `,
   },
 
@@ -222,11 +222,108 @@ export const portfolio = [
 <li><b>Your book</b> — the physical or agency-hosted portfolio, for meetings and castings.</li>
 <li><b>Your comp card</b> — the leave-behind at an in-person casting.</li>
 <li><b>Your website</b> — the stable link you own, mainly for direct and freelance work.</li>
+<li><b>Your resume</b> — a plain text record of your stats and history, used for freelance bookings and crossover castings rather than agency submissions. Our <a href="../modeling-resume/">modeling resume guide</a> covers what belongs on it.</li>
 </ul>
 <p>Our guide to <a href="../how-to-make-a-modeling-portfolio/">building a modeling portfolio</a> covers the book in detail, and <a href="../modeling-portfolio-examples/">portfolio examples</a> shows what strong selections actually look like.</p>
 
 <h2>Start Simple</h2>
 <p>One page, one strong image, fifteen well-chosen photos, your stats, and a safe contact route. That will outperform an elaborate site with weak curation every time — and it takes an afternoon rather than a month.</p>
+`,
+  },
+
+  {
+    slug: 'modeling-resume',
+    seoTitle: 'Modeling Resume: What to Put On It (and What to Cut)',
+    description:
+      'What a modeling resume actually is, when models use one instead of a comp card, what belongs on it, and the format that gets taken seriously.',
+    headline: 'The Modeling Resume: What Actually Belongs On It',
+    category: 'Portfolio',
+    image: 'how-to-get-signed-by-a-modeling-agency',
+    imageAlt: 'A model and an agency representative reviewing a portfolio book together at a desk',
+    readTime: 8,
+    date: '2026-08-31',
+    related: ['model-comp-card', 'how-to-make-a-modeling-portfolio', 'how-to-get-signed-by-a-modeling-agency'],
+    faq: [
+      {
+        q: 'Do models need a resume?',
+        a: 'Not usually, and not in the way other industries mean it. A signed model is submitted by their agency, and the comp card carries the information a client needs. A written resume matters more for freelance and direct-booking work, for crossover auditions into acting, and for the first submission to an agency before you have a card at all.',
+      },
+      {
+        q: 'What is the difference between a modeling resume and a comp card?',
+        a: 'A comp card is a printed leave-behind built around one strong photo, your stats and a handful of supporting images. A modeling resume is a plain text document: your stats, your work history and your special skills, with no photo layout at all. They do different jobs and neither replaces the other.',
+      },
+      {
+        q: 'What should go on a modeling resume?',
+        a: 'Your name and agency if you have one, your measurements, a list of the actual work you have booked (client, publication or show, and year), any relevant training, and special skills that affect what you can book, like swimming, sport-specific movement, dance or a second language. Keep it to one page.',
+      },
+      {
+        q: 'Should a new model with no experience make a resume?',
+        a: 'It is optional, and a short one is fine. List your stats, any training you have completed, and special skills. Do not pad it with unrelated work history or invent credits. Agencies and clients would rather see three real lines than ten inflated ones.',
+      },
+      {
+        q: 'Should I put my age on a modeling resume?',
+        a: 'Practice varies by market and by the type of work. Commercial and print resumes often carry an age range rather than a birth date; some markets omit age entirely and let stats and category speak for the role. If you are unsure, ask your agency what their resumes carry, since this is one of the few fields worth getting exactly right before you send anything out.',
+      },
+    ],
+    body: `
+<p>Ask five working models what belongs on a modeling resume and you will get five different answers, because unlike acting, modeling never standardised the document. Most signed models never write one at all. The comp card does that job.</p>
+<p>But a modeling resume is a real thing, used in real situations, and getting it wrong signals inexperience faster than almost anything else you could hand a client.</p>
+
+<h2>Do You Actually Need One?</h2>
+<p>Usually not, if you are agency-represented. Your agency submits you with your comp card and digitals, and a client working through an agency rarely asks for a separate resume. The card already carries your stats and your strongest image, and the agency's own relationship with the client covers the rest.</p>
+<p>A written resume earns its place in a narrower set of situations:</p>
+<ul>
+<li><b>Freelance and direct-booking work.</b> A client booking you without an agency in the middle has no other source for your work history, so it is worth having a one-page version ready. See our <a href="../how-to-become-a-freelance-model/">freelance modeling guide</a> for how direct bookings differ from agency ones.</li>
+<li><b>Applying to an agency before you have a card.</b> Some agencies ask new faces to submit a short resume alongside digitals, particularly if you already have some work behind you.</li>
+<li><b>Crossover into acting or theatrical castings.</b> Commercial and theatrical casting more often runs through resume-and-headshot submissions, closer to how actors are cast than how fashion models are booked.</li>
+<li><b>Print and commercial submissions</b> that route through a casting platform built around resumes rather than comp cards.</li>
+</ul>
+<p>If none of those apply to the work you are chasing, spend the time on your <a href="../model-comp-card/">comp card</a> instead. It will do more for you.</p>
+
+<h2>What Actually Goes On It</h2>
+<p>A modeling resume is closer to a spec sheet than a career story. Nobody wants your objective statement.</p>
+<h3>Your name and representation</h3>
+<p>Your name, and your agency's name if you have one, with the agency's contact details rather than your own. If you are unrepresented, a dedicated work email and nothing that identifies where you live.</p>
+<h3>Your stats</h3>
+<p>Height, bust or chest, waist, hips, dress or suit size, shoe size, hair colour and eye colour. Identical to what goes on your comp card, and just as important to keep accurate. A client who books you off a resume and finds the measurements were optimistic will not book you again.</p>
+<h3>Work history that actually happened</h3>
+<p>List real bookings: the client or brand, the type of work (catalogue, campaign, runway, editorial), and the year. If you have very little to list, list it honestly and move on. A short, true list reads better to anyone in the industry than a padded one, because the padding is almost always obvious to someone who does this for a living.</p>
+<h3>Training</h3>
+<p>Formal training is worth a line if you have it: a modeling course, a runway workshop, agency-run bootcamps. It signals you have been coached on the basics rather than turning up untested.</p>
+<h3>Special skills</h3>
+<p>The section that actually gets a resume read twice. Anything that affects what you can be booked for: competitive swimming, a specific sport, dance training, horseback riding, a second or third language, a driver's licence if a job might need one. Vague entries like "outgoing personality" do not belong here. Bookable, specific skills do.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modeling-resume__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>What to Leave Off</h2>
+<ul>
+<li><b>An objective or summary statement.</b> Nobody hiring a model reads one, and it uses space your stats and credits should have.</li>
+<li><b>Unrelated job history.</b> Your retail job or your degree is not relevant here, unless a skill from it genuinely affects bookings.</li>
+<li><b>References.</b> Not standard in modeling. Your agency, or your existing work, is the reference.</li>
+<li><b>Your personal phone number or home address.</b> The same safety rule as your comp card and your <a href="../model-portfolio-website/">portfolio website</a> applies here.</li>
+<li><b>Invented or exaggerated credits.</b> A small industry remembers who padded a resume, and it costs more than the booking you were trying to land.</li>
+</ul>
+
+<h2>Format</h2>
+<p>One page. A plain, legible font, generous margins, no photo embedded in the document itself, since your comp card or digitals already carry the image. Save it as a PDF so formatting cannot shift on someone else's screen, and name the file with your own name so it does not get lost in a folder of identical downloads.</p>
+<p>Resist the temptation to make it visually elaborate. A resume with heavy design is trying to compensate for something, and anyone reviewing modeling resumes regularly will read it that way.</p>
+
+<h2>Resume, Comp Card, Portfolio: Three Different Jobs</h2>
+<p>The confusion usually comes from treating these as versions of the same thing. They are not.</p>
+<ul>
+<li><b>Your resume</b> is a text record of your stats, history and skills, used mainly for direct bookings, early agency applications and crossover casting.</li>
+<li><b>Your comp card</b> is the printed, photo-led leave-behind used at in-person castings, covered in full in our <a href="../model-comp-card/">comp card guide</a>.</li>
+<li><b>Your portfolio</b> is the full image book that shows range, built out properly in our guide to <a href="../how-to-make-a-modeling-portfolio/">building a modeling portfolio</a>.</li>
+</ul>
+<p>Most working models lean almost entirely on the second and third. The resume is the one you keep updated quietly in the background, ready for the handful of situations that actually call for it.</p>
+
+<h2>If You Are Just Starting Out</h2>
+<p>A one-page resume with accurate stats, any training you have done, and honest special skills is enough. There is no requirement to have bookings listed before an agency will consider you, and our guide to <a href="../how-to-get-signed-by-a-modeling-agency/">getting signed</a> covers exactly what agencies actually weigh when they are looking at a new face with a thin history. What they are checking for is honesty and fit, not a packed page.</p>
 `,
   },
 ];

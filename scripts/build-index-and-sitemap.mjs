@@ -88,6 +88,7 @@ const CLUSTERS = [
       'modeling-portfolio-examples',
       'model-comp-card',
       'model-portfolio-website',
+      'modeling-resume',
     ],
   },
   {
