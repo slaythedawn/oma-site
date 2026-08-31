@@ -103,6 +103,7 @@ for all three markets, or it doesn't ship.
 | what-is-fashion-modeling | what is fashion modeling | 1000 | 6 | 2026-08-28 |
 | how-to-get-paid-as-a-model | how to get paid as a model | 800 | 0 | 2026-08-29 |
 | how-to-become-a-plus-size-model | how to get into plus-size modeling / how to become a plus size model | 900 + 200 | 1 / 1 | 2026-08-30 |
+| modeling-resume | modeling resume | 700 | 0 | 2026-08-31 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -169,7 +170,6 @@ the existing section, not a new URL.
 | modeling headshots | 800 | 0 | Commercial + local intent (some searchers may want a photographer, not a guide), so weaker fit than it looks. `portfolio.mjs` mentions headshots in the comp-card context but has no dedicated treatment of choosing/getting a modeling headshot specifically — not confirmed clean, check depth before writing. |
 | how to find modeling jobs | 700 | 0 | **Confirmed cannibalised 2026-08-30** — dropped, do not write. `jobs.mjs`'s FAQ already answers this near-verbatim. |
 | modeling digitals | 1000 | 0 | **Confirmed cannibalised 2026-08-30** — dropped, do not write. `portfolio.mjs` and `how-to-get-signed-by-a-modeling-agency` already cover it in depth. |
-| modeling resume | 700 | 0 | Surfaced 2026-08-30 via matching-terms scan. Genuinely uncovered but niche/low-signal — lower priority than the row above until the shortlist runs thin. |
 
 ## Known gaps
 
@@ -361,3 +361,34 @@ the existing section, not a new URL.
   didn't cleanly fit an existing bucket file. Future niche career-guide
   articles (as opposed to agency-directory or category-hub content) belong
   there too.
+- **2026-08-31 run.** `git branch -r` + open-PR check done before writing —
+  no open PRs, and every stale branch listed above (plus
+  `claude/charming-tesla-n854xk`, `claude/baby-article-uk-us-au-parity` and
+  `claude/ledger-automerge-standing-note`, all new since the last entry)
+  confirmed zero commits ahead of `main`, so nothing was in flight. The
+  designated session branch itself was identical to `main` (its own prior PR
+  #20 already merged), so it was reset from `origin/main` rather than built
+  on top of old history, per the merged-branch restart protocol. Wrote
+  `modeling-resume` (700 vol, KD 0), the shortlist's last remaining clean
+  entry, closing that list out — `modeling headshots` (800, KD 0) is now the
+  only unresolved candidate left on it, still flagged for its local/commercial
+  intent risk rather than confirmed clean. A fresh `keywords-explorer-matching-terms`
+  scan on "modeling" (US, difficulty ≤ 8, volume ≥ 300) surfaced nothing new
+  and clean: every real modeling-industry term in the results (`modeling
+  portfolio`, `how to start modeling`, `commercial modeling`, `what is a
+  modeling casting call`, `child modeling`, `hand modeling`, `how to get into
+  modeling`) is a near-duplicate of an already-live article, and the rest of
+  the volume was unrelated senses of "modeling" (3D/financial modeling,
+  modeling clay, celebrity mentions). The next run should scan a different
+  seed term (e.g. "model" or "runway") rather than "modeling" again, since
+  this exact query is now fished out. Also retested the Higgsfield hero-image
+  block once more (`generate_image` with `nano_banana_pro` for a still-life
+  desk scene, no people, since the topic is a document): the generation
+  itself worked cleanly, but the resulting `cloudfront.net` URL still 403s on
+  direct fetch through this session's network policy (confirmed via
+  `/root/.ccr/__agentproxy/status` before and a direct `curl` after), so this
+  remains a standing environment property, not a one-off. Shipped with
+  `image: 'how-to-get-signed-by-a-modeling-agency'` (the desk/portfolio-review
+  scene, already reused 5 times) since it fits a resume article better than
+  the portfolio-shoot images the rest of the cluster uses, rather than
+  spending another generation attempt on a topic this thin.
