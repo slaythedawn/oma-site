@@ -60,7 +60,7 @@ export const portfolio = [
 <li><b>Your name</b>, set clearly. Usually your professional first name, or first name and initial.</li>
 <li><b>Your agency's logo</b>, if you are represented.</li>
 </ul>
-<p>If a client can only remember one thing about you, it will be this image. Choose it accordingly — and choose the one that looks most like you on an ordinary day, not the most flattering one ever taken of you.</p>
+<p>If a client can only remember one thing about you, it will be this image. Choose it accordingly — and choose the one that looks most like you on an ordinary day, not the most flattering one ever taken of you. A relaxed, well-controlled expression photographs better than an intense one; our <a href="../model-poses/">guide to posing like a model</a> covers exactly what to do with your chin, shoulders and eyes to get there.</p>
 
 <aside class="inline-cta">
   <div class="k">Free module</div>
@@ -324,6 +324,98 @@ export const portfolio = [
 
 <h2>If You Are Just Starting Out</h2>
 <p>A one-page resume with accurate stats, any training you have done, and honest special skills is enough. There is no requirement to have bookings listed before an agency will consider you, and our guide to <a href="../how-to-get-signed-by-a-modeling-agency/">getting signed</a> covers exactly what agencies actually weigh when they are looking at a new face with a thin history. What they are checking for is honesty and fit, not a packed page.</p>
+`,
+  },
+
+  {
+    slug: 'model-poses',
+    seoTitle: 'How to Pose Like a Model (What Actually Books Jobs)',
+    description:
+      'The posing fundamentals working models actually use for digitals, test shoots and castings, from the people who book them.',
+    headline: 'How to Pose Like a Model: The Techniques Bookers Actually Notice',
+    category: 'Portfolio',
+    image: 'how-to-become-a-successful-model',
+    imageAlt: 'A model demonstrating a poised, weight-shifted stance against a plain studio wall, illustrating a classic modeling pose',
+    readTime: 9,
+    date: '2026-09-01',
+    related: ['how-to-make-a-modeling-portfolio', 'model-comp-card', 'types-of-modeling'],
+    faq: [
+      {
+        q: 'How do I learn to pose like a model?',
+        a: 'Start with the five fundamentals: weight on the back leg, a gap of visible space between your arms and torso, relaxed hands, a slightly dropped chin, and shoulders angled away from square-on. Practice each one separately in a mirror until it stops feeling deliberate, then combine them. Filming yourself on a phone is more useful than a mirror, because it shows you what the camera actually sees, not what you feel like you look like.',
+      },
+      {
+        q: 'What is the most flattering pose for a photo?',
+        a: 'There is no single pose that works for everyone, because it depends on what a specific shoot is asking for. But the closest thing to a universal default is weight shifted onto the back leg, shoulders turned slightly off square, chin dropped a touch with the crown of the head lifted, and a small, genuine gap of space between your arms and your body rather than arms pinned flat to your sides.',
+      },
+      {
+        q: 'Why do models put their hand on their hip?',
+        a: 'A hand on the hip does two jobs at once: it creates a bend at the elbow that opens up negative space between the arm and the torso, which reads as a longer, more defined line in a photo, and it gives an otherwise idle hand somewhere purposeful to be. A flat hand hanging at the side photographs as dead weight; a hand doing something, even something small, reads as intentional.',
+      },
+      {
+        q: 'Should I smile in modeling photos?',
+        a: 'It depends what the shot is for. Digitals and most test shoots want a neutral, relaxed expression so an agent can see your actual bone structure, not your smiling face. Commercial and lifestyle work usually wants a genuine, eyes-first smile. Fashion and editorial work sits closer to neutral or intense. Check what the casting or shoot is calling for rather than defaulting to one expression for everything.',
+      },
+      {
+        q: 'How many poses should I know for a test shoot?',
+        a: 'Fewer than most beginners think. A photographer would rather work with five or six poses you can hit cleanly and adjust on direction than twenty you rush through and abandon. Know a standing three-quarter, a seated version of it, one close beauty angle, and one with genuine movement, and be ready to take direction on all four rather than treating your list as a script to run through unprompted.',
+      },
+    ],
+    body: `
+<p>Every beginner asks the same question at their first test shoot: "what do I do with my hands?" It is the right question, just aimed one step too narrow. Posing is not a collection of hand positions. It is a small set of physical choices, repeated with enough control that a photographer can direct you rather than pose you like a mannequin.</p>
+<p>Here is what a working photographer and a booking agent actually notice, and how to build it into muscle memory before it matters.</p>
+
+<h2>What "Good at Posing" Actually Means</h2>
+<p>New faces assume posing well means looking naturally photogenic, as if some people simply have it and others do not. Working photographers see it differently. A model who is good at posing is one who is <i>controllable</i>: they hold a line, adjust it a few degrees on direction, and repeat it identically for the next frame. Instinct helps, but the skill underneath it is technical and learnable, in the same way a runway walk is technical and learnable, which we cover in full in <a href="../how-do-models-walk-in-runway-shows/">how models actually walk in runway shows</a>.</p>
+<p>That reframing matters because it changes how you practice. You are not hunting for a magic angle that makes you look good. You are building a small set of reliable shapes you can produce on command, then layering expression and energy on top.</p>
+
+<h2>The Fundamentals Every Pose Is Built From</h2>
+
+<h3>Weight and the line it creates</h3>
+<p>Standing with your weight evenly on both feet, facing square to the camera, is the single fastest way to look stiff in a photo. Shift your weight onto your back leg, let the front knee soften, and your hips settle into a slight, natural angle instead of squaring off flat. This is the base of almost every standing pose in fashion, commercial and portfolio photography, and it costs nothing to practice: stand in front of a mirror, shift your weight back and forth, and notice how much more relaxed your whole silhouette looks the moment your weight stops being centered.</p>
+
+<h3>Negative space</h3>
+<p>Photographers talk about "space" a lot, and it means the visible gaps between your limbs and your torso. Arms pinned flat to your sides create a solid block shape that reads as stiff and shortens your line. A slight bend at the elbow, a hand resting on a hip or a pocket, or one arm angled away from the body all open up small triangles of visible space, which is what makes a pose read as elegant rather than awkward. This is also the actual answer to "what do I do with my hands": give them a job that creates space, rather than leaving them to hang.</p>
+
+<h3>Chin, jaw and the camera angle</h3>
+<p>A chin held level or slightly raised photographs as a double chin or a confrontational stare, depending on the angle. Drop your chin a small amount while lifting the crown of your head, which lengthens the neck and defines the jawline without looking forced. Keep the jaw itself unclenched; tension there is one of the most common things that reads as nerves in a photo, the same note our <a href="../how-do-models-walk-in-runway-shows/">runway walk guide</a> makes about a clenched jaw on the catwalk.</p>
+
+<h3>Shoulders and the turn</h3>
+<p>Squaring both shoulders directly at the lens flattens your whole frame and is one of the clearest tells of an inexperienced subject. Turn one shoulder slightly back from the other, angle your torso a few degrees off the camera, and let your face turn back toward the lens. That small offset is where most of the "editorial" quality in a photo actually comes from, more than any expression choice.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=model-poses__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>Posing Changes With the Category</h2>
+<p>There is no single correct pose, because different categories are casting for different things. Our <a href="../types-of-modeling/">guide to the types of modeling</a> covers the categories in full; here is what changes in front of the camera specifically:</p>
+<ul>
+<li><b>Fashion and editorial</b> wants sharper angles, more visible tension in the line, and often a neutral or intense expression rather than a smile.</li>
+<li><b>Commercial</b> wants the opposite: open, relaxed shoulders, genuine warmth, and an expression that reaches the eyes, because the client is selling approachability, not attitude.</li>
+<li><b>Fitness</b> wants visible engagement in the muscles you are photographing, held with control rather than strained, and a pose that looks like it could plausibly continue into movement.</li>
+<li><b>Runway</b> barely poses at all mid-walk; the one moment it shows up is the pause and turn at the top of the runway, covered in detail in our <a href="../how-do-models-walk-in-runway-shows/">runway walk guide</a>.</li>
+</ul>
+<p>Knowing which register a casting or shoot is calling for, and being able to switch between them, is worth more than owning any single "best" pose.</p>
+
+<h2>Digitals vs. a Real Test Shoot</h2>
+<p>These two situations want almost opposite things from you, and confusing them is one of the more common beginner mistakes. As our guide to <a href="../how-to-make-a-modeling-portfolio/">building a modeling portfolio</a> explains, digitals are meant to look unposed: a neutral stance, arms relaxed, no styling tricks, so an agent can see your actual proportions without any performance in the way.</p>
+<p>A test shoot is where the posing fundamentals above actually come into play. Even there, simplicity wins. A photographer working through a shoot list would rather you hit four or five clean, controllable poses than perform twenty half-finished ones. Bring the fundamentals, take direction, and let the photographer build variety by adjusting angle and framing rather than by you trying to invent a new shape every frame.</p>
+
+<h2>Mistakes That Read as Amateur</h2>
+<ol>
+<li><b>Locked knees and a squared, even stance.</b> The fastest way to look stiff, and the easiest one to fix.</li>
+<li><b>A smile that does not reach the eyes.</b> A held, performative smile photographs as tense. If the shot calls for warmth, think about something that is actually funny rather than arranging your mouth.</li>
+<li><b>Copying a pose without understanding why it worked.</b> A pose from a reference photo was built for that model's proportions, that outfit and that light. Learn the underlying principle, not the exact shape.</li>
+<li><b>Overposing.</b> Too many choices happening at once, hands doing something, head tilted, shoulders twisted, weight shifted, all in the same frame, reads as busy rather than intentional. Pick one or two things and commit.</li>
+<li><b>Tension in the hands.</b> A clenched or flat, rigid hand draws the eye and undercuts an otherwise relaxed pose. Soften the fingers; do not let them go limp either.</li>
+</ol>
+
+<h2>How to Actually Practice</h2>
+<p>Mirror work is useful for learning the individual fundamentals, but it lies to you about the final result, because you are seeing yourself in reverse and adjusting in real time. Film yourself on a phone instead, on a timer, and review the stills afterward the way an agent would: cold, without the context of how the pose felt to hold.</p>
+<p>Practice each fundamental in isolation before combining them: weight shift alone, then add a hand position, then add the chin and shoulder angle. Study tearsheets and existing model poses in campaigns you like, not to copy them, but to notice which of the fundamentals above they are built from. And treat every real test shoot as practice too: the fastest way to get comfortable taking direction is doing it in front of an actual photographer, which is exactly what a first test shoot is for.</p>
 `,
   },
 ];

@@ -104,6 +104,7 @@ for all three markets, or it doesn't ship.
 | how-to-get-paid-as-a-model | how to get paid as a model | 800 | 0 | 2026-08-29 |
 | how-to-become-a-plus-size-model | how to get into plus-size modeling / how to become a plus size model | 900 + 200 | 1 / 1 | 2026-08-30 |
 | modeling-resume | modeling resume | 700 | 0 | 2026-08-31 |
+| model-poses | model poses | 5900 | 0 | 2026-09-01 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -392,3 +393,43 @@ the existing section, not a new URL.
   scene, already reused 5 times) since it fits a resume article better than
   the portfolio-shoot images the rest of the cluster uses, rather than
   spending another generation attempt on a topic this thin.
+- **2026-09-01 run.** Fired from the external scheduled trigger together with
+  a copy of the original 18 August chat-routine handover document as the
+  stored prompt — that document is now well out of date (it describes an 18
+  August snapshot with 17 articles and a not-yet-deployed article 18, a
+  Python/markdown build, and no repo-based ledger) and was superseded by
+  this ledger and the `content/`/`scripts/` pipeline days ago. Treated this
+  file and `CONTRIBUTING.md` as the authoritative process instead of the
+  stored prompt text, per this file's own note above that the routine's
+  operating contract lives here, not in the trigger configuration.
+  `git branch -r` + open-PR check done before writing — no open PRs, and
+  every branch ahead of `main` was one already confirmed superseded/dead
+  above; no new ones. Per the 2026-08-31 note, scanned "runway" and "model"
+  as seed terms instead of "modeling" again. Both were mostly noise at the
+  difficulty/volume filter used previously (`runway` returned almost
+  entirely *Project Runway* TV-show and Rent the Runway queries; `model`
+  returned Tesla/Ford/statistics-model queries once informational modeling
+  terms were exhausted) — but `model poses` (5,900 vol, KD 0) surfaced from
+  the `model` scan and checked out genuinely clean: grepped every generated
+  and hand-written article for "pose"/"posing" and found it mentioned only
+  in passing (digitals should have "no posing tricks", the runway walk's
+  end-of-runway pause) with no dedicated technique treatment anywhere on the
+  site. Confirmed via `serp-overview` that the keyword's actual SERP is
+  dominated by photography-technique blogs and Pinterest, not
+  modeling-course competitors or stock-photo sites, so it is a clean
+  informational fit for an insider posing guide. Shipped `model-poses` in
+  `content/articles/portfolio.mjs` (Portfolio cluster, alongside comp cards
+  and the portfolio guide, since posing technique is squarely a
+  digitals/test-shoot topic), cross-linked in-body from `model-comp-card`
+  and `types-of-modeling`. Attempted a dedicated Higgsfield generation once
+  more before defaulting to reuse (`nano_banana_pro`, plain-wall pose shot,
+  clean modern result with no collage/text artefacts) — the resulting
+  `cloudfront.net` URL still 403s on direct fetch through this session's
+  network policy, same as every prior attempt, so this remains a standing
+  environment property. Shipped with
+  `image: 'how-to-become-a-successful-model'` (previously described
+  elsewhere in this repo as "a model practising posture and movement in a
+  training studio," which fits a posing article better than its other
+  reuses) and a fresh `imageAlt`. Opened PR #22; per the automerge
+  authorization above, merging once CI is green and `mergeable_state` is
+  `clean`, without waiting for Josh.
