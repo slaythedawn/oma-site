@@ -270,7 +270,7 @@ export const typesOfWork = [
 <p>A substantial and steadily growing board with its own client base, its own casting standards, and its own agencies specializing in it. See our <a href="../how-to-become-a-plus-size-model/">guide to becoming a plus size model</a> for the personal path in, and our <a href="../plus-size-modeling-agencies/">guide to plus size modeling agencies</a> for how to find one and what curve casting directors are actually looking for.</p>
 
 <h3>Petite</h3>
-<p>Models below the height range fashion runway requires, cast for commercial, catalogue and lifestyle work built around realistic proportions rather than sample sizing. A genuine, steady lane, not a consolation category, and one that overlaps heavily with commercial casting more broadly.</p>
+<p>Models below the height range fashion runway requires, cast for commercial, catalogue and lifestyle work built around realistic proportions rather than sample sizing. A genuine, steady lane, not a consolation category, and one that overlaps heavily with commercial casting more broadly. See our <a href="../how-to-become-a-petite-model/">guide to becoming a petite model</a> for the personal path in.</p>
 
 <h3>Mature</h3>
 <p>Models over roughly 40, booked for brands selling to an older customer: healthcare, finance, home and lifestyle campaigns in particular. Demand has grown steadily as brands have moved away from casting only in their twenties, and it is one of the few categories where a longer, visible life is the credential rather than a limitation.</p>

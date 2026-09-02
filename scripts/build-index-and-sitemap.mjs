@@ -109,6 +109,7 @@ const CLUSTERS = [
       'types-of-modeling',
       'plus-size-modeling-agencies',
       'how-to-become-a-plus-size-model',
+      'how-to-become-a-petite-model',
       'how-to-become-a-male-model',
       'how-to-become-a-fitness-model',
       'how-to-become-a-hand-model',

@@ -5,8 +5,105 @@
 // deciding if it fits you, measurements, digitals, and getting signed.
 
 const DATE = '2026-08-30';
+const DATE_PETITE = '2026-09-02';
 
 export const niche = [
+  {
+    slug: 'how-to-become-a-petite-model',
+    seoTitle: 'How to Become a Petite Model: A Real Guide',
+    description:
+      'How to become a petite model, from the people who book them: what petite actually means, the real work available, agencies vs. freelance, and pay.',
+    headline: 'How to Become a Petite Model: What Commercial Bookers Actually Want',
+    category: 'Niche',
+    image: 'how-to-become-a-model-with-no-experience',
+    imageAlt: 'An honest phone digital against a plain wall in daylight, full length to show true proportions',
+    readTime: 9,
+    date: DATE_PETITE,
+    related: ['types-of-modeling', 'how-to-make-a-modeling-portfolio', 'how-to-become-a-plus-size-model'],
+    faq: [
+      {
+        q: 'What counts as petite in modeling?',
+        a: 'There is no single official cutoff, but the working shorthand is below the roughly 5\'9" to 6\'0" range fashion runway boards require. In practice that means most women around 5\'7" and under. It is a casting category, not the retail clothing sense of "petite" sizing, and the two get confused constantly in search results.',
+      },
+      {
+        q: 'Can petite models do runway?',
+        a: 'Not on a traditional fashion week board, because designer samples are cut to one size and the whole line has to match. Petite models do work runway regularly outside that lane though: department store and retail shows, bridal, trade shows, and local or regional show circuits, all of which are cast on presentation rather than a fixed sample size.',
+      },
+      {
+        q: 'Do petite models need an agency?',
+        a: 'No, though one helps for national commercial and advertising clients. Most agency commercial boards have no real height minimum, so petite models are not shut out the way they would be from a fashion board. Freelance and direct-to-brand work is also common, especially with local retailers and e-commerce clients.',
+      },
+      {
+        q: 'What kind of work do petite models actually get?',
+        a: 'Commercial, catalogue and e-commerce work first, since none of it screens on height. Lifestyle and advertising campaigns follow the same pattern. Fit modeling for brands that manufacture a dedicated petite clothing line is a genuinely underused option too: consistent, repeat, hourly-paid work that has nothing to do with editorial or runway at all.',
+      },
+      {
+        q: 'Is petite modeling well paid?',
+        a: 'Pay is set by the client and the usage, the same as every other category, not by height. Commercial and catalogue work is steady and volume-driven rather than headline-making, which over a full year tends to add up to more reliable income than chasing the small number of fashion-week bookings a petite model would be excluded from anyway.',
+      },
+      {
+        q: 'What is the biggest mistake petite models make?',
+        a: 'Applying only to fashion boards, getting rejected on height, and concluding modeling itself is not an option. The rejection is real but it is board-specific, not industry-wide. Submitting to agencies and clients that actually cast commercial work is the fix, not giving up.',
+      },
+    ],
+    body: `
+<p>Search "how tall do you have to be to model" and almost everything written assumes you are asking about fashion runway, where the answer is a hard no below about 5'9". That answer is accurate for exactly one lane of the industry and gets treated online as if it applies to all of it. It does not.</p>
+<p>Our instructors at Online Model Academy include agents and bookers who cast commercial boards for a living, the boards that do not screen on height at all. This is the real path in, not the fashion-runway one that was never open to begin with.</p>
+
+<h2>What "Petite" Actually Means Here</h2>
+<p>First, a mix-up worth clearing before anything else: retail "petite" sizing (clothes cut for a shorter frame) and modeling's use of "petite" are different things that share a word. In modeling, petite is a casting shorthand for models below the height fashion runway boards require, roughly 5'7" and under for women, with no fixed official line. It is a real, named lane inside the industry, the same way plus-size and curve are, not a workaround or a consolation category.</p>
+<p>Where it changes things is narrow: fashion runway and high-editorial fashion boards, which cast to a fixed sample size, generally will not consider you. Almost everywhere else in the industry, height plays little to no part in the decision at all.</p>
+
+<h2>What Actually Gets You Signed</h2>
+<h3>Honest, current measurements</h3>
+<p>Height, bust or chest, waist, hips, dress or suit size, shoe size. The same numbers every board asks for, sent accurately. Agencies remeasure, and a discrepancy reads as a professionalism problem before anyone has taken a photo, regardless of what the number actually was.</p>
+<h3>Digitals that show your real proportions</h3>
+<p>Four to six phone photos, daylight, plain wall, no filters, no heels. Front, side, one smiling, one neutral, full length so a booker can actually see how you photograph at your real height rather than guessing from a cropped shot. This is identical to what every other board asks for; our full <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers the shot list in more depth.</p>
+<h3>Targeting the right board</h3>
+<p>Sending a fashion-board submission to an agency that only casts petite talent for its commercial or catalogue board is a wasted submission, not a stronger one. Check what a board actually casts before you apply to it rather than applying everywhere and hoping.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-petite-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>Where Petite Models Actually Work</h2>
+<p>Commercial is the largest lane by far: retail, catalogue, e-commerce, lifestyle and advertising all cast on look and presentation, not a fixed height. None of it cares whether you would pass a fashion-runway height check, because none of it is casting a runway.</p>
+<p>Outside straight commercial work, two options are worth knowing about specifically because they are underused:</p>
+<ul>
+<li><b>Fit modeling for petite lines.</b> Brands that manufacture a dedicated petite clothing range need a model with consistent, specific proportions to fit garments during development. It is steady, hourly, repeat work with no published images and almost no public awareness, the same underrated niche that exists for standard and plus-size fit work.</li>
+<li><b>Retail and regional runway.</b> Department store shows, bridal, trade shows, and local show circuits cast on presentation rather than a fixed sample size, so height that would exclude you from a fashion-week board rarely excludes you here.</li>
+</ul>
+<p>Our guide to <a href="../types-of-modeling/">the different types of modeling</a> covers how petite sits alongside every other category, useful context for working out where else to target.</p>
+
+<h2>Agencies vs. Going Freelance First</h2>
+<p>Not every agency runs talent by height the same way, so check what a board actually casts before submitting rather than assuming a "no" from one agency applies everywhere. Most commercial boards, at most agencies, have no meaningful height minimum at all.</p>
+<p>You do not need a signing to start working. Local retailers, small e-commerce brands and regional campaigns frequently cast directly, without going through an agency, and a small set of real tearsheets built freelance makes a later agency submission stronger rather than weaker. Plenty of working commercial models do both at once: agency-booked national work and self-sourced local work side by side.</p>
+
+<h2>Reasons People Talk Themselves Out of Submitting, and Why They're Wrong</h2>
+<ul>
+<li><b>"I got rejected, so I'm not tall enough to model."</b> You were rejected from one board with a fixed height requirement. That says nothing about the boards, and there are more of them, that do not have one.</li>
+<li><b>"Commercial isn't real modeling."</b> It is the largest working category in the industry by volume of paid bookings. Fashion runway is the smallest and the most height-restricted, not the standard everything else is measured against.</li>
+<li><b>"My photos need to be more polished first."</b> Bookers want honest phone digitals at your actual height and proportions, not a styled shoot. Full-length, unretouched and accurate beats polished every time at this stage.</li>
+<li><b>"I should wait until I have more experience."</b> Development and new-face boards exist specifically for people with none. Experience is what an agency builds with you after signing, not a prerequisite for it.</li>
+</ul>
+
+<h2>What the Work and the Pay Actually Look Like</h2>
+<p>Rates are set by the client and the usage, the same structure as every other category, not by height. A petite model booked on a national commercial campaign is paid the way anyone else on that campaign is. Because commercial, catalogue and fit work are steady and volume-driven rather than a handful of headline fashion-week bookings, the income over a full year is often more reliable than the lane petite models get excluded from in the first place.</p>
+
+<h2>Your First Steps</h2>
+<ol>
+<li>Measure yourself properly: height, bust or chest, waist, hips, dress or suit size, shoe size.</li>
+<li>Shoot four to six honest digitals, full length, daylight, plain wall, no heels.</li>
+<li>Check what a board actually casts before submitting to it, rather than applying everywhere.</li>
+<li>Submit to agencies with a genuine commercial or petite-friendly board, and in parallel, pitch local brands and photographers directly.</li>
+<li>Learn how a casting room actually works before you are standing in one.</li>
+</ol>
+<p>That last step is where our mentors, working agents and bookers who cast commercial boards for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in six lessons, taught by a working fashion week producer, at no cost.</p>
+`,
+  },
   {
     slug: 'how-to-become-a-plus-size-model',
     seoTitle: 'How to Become a Plus Size Model: A Real Guide',

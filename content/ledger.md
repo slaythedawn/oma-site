@@ -105,6 +105,7 @@ for all three markets, or it doesn't ship.
 | how-to-become-a-plus-size-model | how to get into plus-size modeling / how to become a plus size model | 900 + 200 | 1 / 1 | 2026-08-30 |
 | modeling-resume | modeling resume | 700 | 0 | 2026-08-31 |
 | model-poses | model poses | 5900 | 0 | 2026-09-01 |
+| how-to-become-a-petite-model | petite modeling / how to become a petite model | 250 + 30 | 0 / 0 | 2026-09-02 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -171,6 +172,12 @@ the existing section, not a new URL.
 | modeling headshots | 800 | 0 | Commercial + local intent (some searchers may want a photographer, not a guide), so weaker fit than it looks. `portfolio.mjs` mentions headshots in the comp-card context but has no dedicated treatment of choosing/getting a modeling headshot specifically — not confirmed clean, check depth before writing. |
 | how to find modeling jobs | 700 | 0 | **Confirmed cannibalised 2026-08-30** — dropped, do not write. `jobs.mjs`'s FAQ already answers this near-verbatim. |
 | modeling digitals | 1000 | 0 | **Confirmed cannibalised 2026-08-30** — dropped, do not write. `portfolio.mjs` and `how-to-get-signed-by-a-modeling-agency` already cover it in depth. |
+| petite modeling agencies | 350 | 0 | Agency-directory intent, same shape as `plus-size-modeling-agencies`. Genuinely clean — no directory page exists for petite yet — but not picked 2026-09-02 in favour of the personal career-guide angle first (matches how plus-size shipped the personal guide before the directory got its own dedicated page). Worth picking next if the personal-guide pattern keeps working. |
+| model measurements | 600 | 0 | **Checked 2026-09-02, cannibalised** — `agencies-us.mjs` (`what-do-modeling-agencies-look-for`) already has a dedicated FAQ ("What measurements do modeling agencies want?") with concrete ranges by category, plus a full "Measurements, against that category" section. A standalone page would duplicate it. If its near-miss position is ever visible (needs GSC), the move is expanding that section, not a new URL. |
+| how tall do you have to be to be a model | 1100 | 0 | **Checked 2026-09-02, cannibalised** — same `agencies-us.mjs` FAQ and section as `model measurements` above already answers this close to verbatim (height ranges by board). Do not write. |
+| model diet | 700 | 0 | **Checked 2026-09-02, deprioritised on fit, not cannibalisation.** SERP is dominated by Healthline and curiosity-driven "Victoria's Secret model diet" content, not career-education intent, and the topic sits close enough to disordered-eating territory (this site's audience includes teens, per `how-to-become-a-model-at-16`) that it needs unusually careful, responsible framing to be worth the risk for the conversion upside. Not ruled out permanently, just not a quick pick — if ever written, keep it health-first and explicitly debunk the extreme-dieting framing rather than feed it. |
+| model release form | 1800 | 3 | **Checked 2026-09-02, wrong audience.** Searcher intent is overwhelmingly photographers wanting a release-form template for their own shoots, not aspiring models. Off-ICP for a modeling-course lead magnet despite the volume. Dropped. |
+| what is a brand ambassador / brand ambassador jobs | 5100 + 4600 | 0 | **Checked 2026-09-02, wrong audience.** High volume, zero difficulty, but the intent is retail/college ambassador programs, not modeling. Weak fit for the site's conversion path. Dropped. |
 
 ## Known gaps
 
@@ -433,3 +440,48 @@ the existing section, not a new URL.
   reuses) and a fresh `imageAlt`. Opened PR #22; per the automerge
   authorization above, merging once CI is green and `mergeable_state` is
   `clean`, without waiting for Josh.
+- **2026-09-02 run.** Fired from the same external scheduled trigger with the
+  original 18 August handover as the stored prompt, same as 2026-08-31 and
+  2026-09-01 - this file and `CONTRIBUTING.md` remain the authoritative
+  process, per the standing note above. Before writing anything, `git fetch
+  origin main` came back stale on the first attempt (a combined `git fetch
+  origin main <branch>` silently no-ops when one of the refs doesn't exist,
+  leaving old cached refs), which briefly looked like every PR since #14
+  had closed unmerged - false alarm, caused by reading a stale local ref,
+  not an actual problem. `mcp__github__pull_request_read` with `method:
+  'get'` on the PR in question gave the correct authoritative `merged:
+  true`, where `list_pull_requests`'s `merged` field looked wrong. Lesson
+  for next time: fetch each ref in its own `git fetch` call, and prefer
+  `pull_request_read` over `list_pull_requests` for a PR's true merge state
+  if the two ever disagree again. `git branch -r` showed only `main` and
+  this session's own designated branch, no open PRs, consistent with a
+  clean state. Skipped the seed terms already fished out ("modeling",
+  "runway", "model") and tried fresh ones instead: "casting" and
+  "photoshoot" were almost entirely noise (adult content and
+  celebrity/event photography), "model measurements" and "how tall do you
+  have to be to be a model" both checked out cannibalised by the existing
+  `what-do-modeling-agencies-look-for` FAQ and height-by-category section
+  (see the shortlist table above), and "model diet", "model release form"
+  and the "brand ambassador" cluster were deprioritised on audience fit
+  rather than cannibalisation (also logged above). "petite modeling" (250
+  vol, KD 0) checked out genuinely clean: only passing mentions in
+  `types-of-modeling`'s category list, no dedicated page, a weak SERP
+  (low-DR blogs, forums, YouTube), and it completes the Specialisms cluster
+  the same way `how-to-become-a-plus-size-model` did for curve/plus -
+  fitness, hand, male, freelance and plus-size all already had a personal
+  how-to guide, petite did not. Shipped `how-to-become-a-petite-model` in
+  `content/articles/niche.mjs`, cross-linked in-body from
+  `types-of-work.mjs`'s "Petite" section and a new "Petite" bullet added to
+  `agencies-us.mjs`'s "Which Board You Fit" list (which did not mention
+  petite at all before this run). Skipped attempting a dedicated Higgsfield
+  generation, per the 2026-08-29 note that re-testing every single run
+  stopped being informative once the failure mode was confirmed standing -
+  reused `image: 'how-to-become-a-model-with-no-experience'` (a plain-wall,
+  unretouched digital shot, not previously reused in generated content)
+  with a fresh `imageAlt` describing full-length framing to show true
+  proportions. `npm run check` and `npx html-validate@8` both pass clean;
+  `seoTitle` is 42 characters and `description` is 146, both within limit.
+  Also logged `petite-modeling-agencies` (350 vol, KD 0) to the shortlist
+  above as the natural next pick, an agency-directory companion piece to
+  this one, matching how `plus-size-modeling-agencies` and
+  `how-to-become-a-plus-size-model` pair up.
