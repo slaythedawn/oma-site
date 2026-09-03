@@ -6,7 +6,7 @@ window.OMA_DATA = {
   // be found. Do not reintroduce a number here without a source.
   stats: {
     mentors: 12,
-    lessons: 94,
+    lessons: 81,
     modules: 16,
     campaigns: "475+",
     priceOld: 499,
@@ -191,10 +191,10 @@ window.OMA_DATA = {
   testimonials: [
     { quote: "I spent two grand on test shoots before OMA. After module one I understood why none of them worked. Reshot on an iPhone. Signed three weeks later.", name: "Ella R.", result: "Signed · Chic Management" },
     { quote: "My daughter is sixteen. I was terrified. The parents module gave me a rulebook and a spine. She books well now and I know every contract she signs.", name: "Hannah's Mum", result: "Teen pathway" },
-    { quote: "I'd been told I was 'too commercial' for ten years. Turns out that was a compliment. OMA showed me where the work actually was.", name: "Brooke S.", result: "Commercial · Busy month" },
+    { quote: "I'd been told I was 'too commercial' for ten years. Turns out that was a compliment. OMA showed me where the work actually was.", name: "Brooke S.", result: "Commercial · Busy month" , page: false },
     { quote: "The runway module with Jack paid for the whole course before I'd watched anything else. I got rebooked at Fashion Week the day I tried his walk notes.", name: "Jas P.", result: "AFW 2026" },
-    { quote: "The contract module saved me from signing something awful. I walked. My second offer was better, with people I trust.", name: "Daniela M.", result: "Newly signed" },
-    { quote: "I'm a curve model who was told there was 'no market'. OMA has a whole module on that market. Booked for a national campaign in ten weeks.", name: "Noa L.", result: "National campaign" },
+    { quote: "The contract module saved me from signing something awful. I walked. My second offer was better, with people I trust.", name: "Daniela M.", result: "Newly signed" , page: false },
+    { quote: "I'm a curve model who was told there was 'no market'. OMA has a whole module on that market. Booked for a national campaign in ten weeks.", name: "Noa L.", result: "National campaign" , page: false },
   ],
 
   faqs: {
@@ -260,7 +260,7 @@ window.OMA_DATA = {
   painPoints: [
     { title: "Wrong portfolio, wasted money", body: "You don't need a $3,000 test shoot. You need the right six images. We show you exactly what those six are, and how to get them for under $200." },
     { title: "No idea how castings actually work", body: "The casting room is a language. Learn it from the woman who books for Zimmermann and Country Road, not from a YouTube video made in 2019." },
-    { title: "Scams and predatory contracts", body: "'Signing fees' are not a thing. Mother-agency exclusivity is a trap if you don't understand it. An industry lawyer walks you through every clause." },
+    { title: "Scams and predatory contracts", body: "'Signing fees' are not a thing. Mother-agency exclusivity is a trap if you don't understand it. Danielle Ragenard, who negotiated contracts for IMG Models Australia, walks you through what each clause actually means." },
     { title: "You book once, never again", body: "Getting booked is one skill. Getting rebooked is a different one — and it's the one that makes a career. We teach both." },
   ],
 };
