@@ -23,10 +23,10 @@ window.OMA_DATA = {
     {
       name: "Simone Holtznagel",
       role: "International Model & Media Personality",
-      brands: "Guess · Honey Birdette · SAS Australia",
+      brands: "Guess · Honey Birdette · Bras N Things",
       img: "assets/headshots/Simone Holtzagel Next Top Model Playboy Guess SAS Australia.png",
       longBio: "Simone Holtznagel is a prominent Australian model and media personality, recognised for her high-impact campaigns and effortless on-camera presence. She rose to fame as a finalist on Australia's Next Top Model and quickly became a go-to face for brands like Guess, Honey Birdette, and Bras N Things. Her work spans editorial, lingerie, fashion, and lifestyle, and she's also known for her role on the high-pressure reality series SAS Australia. In this course, Simone shares what it really takes to succeed in front of the lens — from building a presence that books to understanding what makes a look translate on camera.",
-      workedWith: ["Guess","Honey Birdette","Bras N Things","SAS Australia","Australia's Next Top Model"],
+      workedWith: ["Guess","Honey Birdette","Bras N Things","Australia's Next Top Model","SAS Australia"],
       gallery: [
         "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2161028204/settings_images/a0a04b-35a-541-b854-da1ab26523_002326_block.jpg",
         "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2161028204/settings_images/fb10a-72ad-d730-c6cf-4c38ab6b74b_30571349_1959139514159540_2796031234478702592_n.jpg",
@@ -43,7 +43,7 @@ window.OMA_DATA = {
       brands: "Guess · Bare Ones · Series Magazine",
       img: "assets/headshots/Natalie Roser Model.png",
       longBio: "Natalie Roser is an internationally successful Australian fashion model whose career spans commercial, editorial, and runway work. Standing at 5'11\" with her signature blonde hair and blue eyes, she has become one of Australia's most recognised modelling exports while building entrepreneurial ventures including her underwear brand Bare Ones and her role as editor of Series Magazine. With experience across campaigns for Guess and ModelCo, walking at Miami Swim Week, and competing as a Miss Universe finalist, Natalie brings depth and honesty to her guidance on building your book, cultivating agency relationships, and transitioning into brand-building as a modern model.",
-      workedWith: ["Guess","Bare Ones","ModelCo","Series Magazine","Bras N Things","Miami Swim Week","Miss Universe Australia"],
+      workedWith: ["Guess","Miami Swim Week","Miss Universe Australia","Bare Ones","ModelCo","Series Magazine","Bras N Things"],
       gallery: [
         "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2161028204/settings_images/f16aba-2817-f7a-1a25-2f0f830cb51f_GettyImages-999064874-scaled-1.jpeg",
         "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2161028204/settings_images/68056fe-d621-2fe3-c48e-dbfd6f3038ba_stunning-model-natalie-roser-poses-751919932.jpeg",
@@ -60,7 +60,7 @@ window.OMA_DATA = {
       brands: "Italian Vogue · Harper's BAZAAR · Levi's",
       img: "assets/headshots/Jez Smith Photography.png",
       longBio: "Jez Smith is a world-renowned fashion photographer whose images have defined global campaigns and magazine covers for over 30 years. His work has appeared in Italian Vogue, Harper's BAZAAR, Vogue Australia, and campaigns for Levi's, L'Oréal, Maybelline, and Tiffany & Co. He's photographed icons including Tyra Banks, Cate Blanchett, Miranda Kerr, and Serena Williams. Jez also served as an on-camera mentor and photographer across Australia's, America's, and Asia's Next Top Model. In this course, he breaks down what makes a strong portfolio, how to work with photographers, and what transforms a great look into a lasting career — your behind-the-lens guide to getting booked, and getting rebooked.",
-      workedWith: ["Italian Vogue","Harper's BAZAAR","Levi's","L'Oréal","Tiffany & Co.","Tyra Banks","Serena Williams","Australia's Next Top Model","America's Next Top Model"],
+      workedWith: ["Italian Vogue","Harper's BAZAAR","Tiffany & Co.","Levi's","L'Oréal","Serena Williams","Tyra Banks","America's Next Top Model","Australia's Next Top Model"],
       gallery: [
         "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2161028204/settings_images/f261be-b332-5fc7-e11c-e3eda43f20_Cover_Serena_076.jpg",
         "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2161028204/settings_images/fd381-a8ae-5f6-d81b-1e7fda24ddb5_20231011_Nap_Perdis_Color_Cult_Lipstick_Shot08_11951.jpg",
@@ -73,11 +73,11 @@ window.OMA_DATA = {
     },
     {
       name: "Danielle Ragenard",
-      role: "Australia's Leading Model & Talent Manager",
-      brands: "IMG Models · Vogue Australia · MBFW",
+      role: "Former VP & Managing Director, IMG Models Australia",
+      brands: "IMG Models · Miranda Kerr · Mercedes-Benz Fashion Week",
       img: "assets/headshots/Danielle Regenard IMG models Miranda Kerr.png",
       longBio: "Danielle Ragenard is a legendary figure in the Australian fashion industry. As the former Vice President and Managing Director of IMG Models Australia, she helped launch the careers of Miranda Kerr, Nicole Trunfio, Gemma Ward, and Bambi Northwood-Blyth. She's negotiated contracts, secured major campaigns, and led castings for global events like Mercedes-Benz Fashion Week. In this course, Danielle lifts the curtain on the business of modelling — from how agencies work to what really happens after a casting, sharing insights every aspiring model needs to succeed and protect their value.",
-      workedWith: ["IMG Models Australia","Vogue Australia","Mercedes-Benz Fashion Week","Miranda Kerr","Gemma Ward","Bambi Northwood-Blyth"],
+      workedWith: ["IMG Models","Miranda Kerr","Gemma Ward","Mercedes-Benz Fashion Week","Vogue Australia","Bambi Northwood-Blyth"],
       gallery: [],
     },
     {
@@ -86,7 +86,7 @@ window.OMA_DATA = {
       brands: "Calvin Klein · Bonds · Country Road",
       img: "assets/headshots/Jessica Leahy Curve Model.png",
       longBio: "Jessica Leahy is a globally recognised curve model, writer, and outspoken advocate for diversity in fashion. With a portfolio that includes campaigns for Calvin Klein, Country Road, and Ralph Lauren, and features in Vogue Australia and ELLE, she brings over 15 years of experience at the top of the industry. Jessica is also a founder and content creator, known for her thought leadership around self-worth, resilience, and authentic representation. In this course, she shares strategies for building a strong identity in modelling, and navigating the rejection, pressure, and transformation that come with the job.",
-      workedWith: ["Calvin Klein","Bonds","Country Road","Ralph Lauren","Vogue Australia","ELLE"],
+      workedWith: ["Calvin Klein","Ralph Lauren","ELLE","Vogue Australia","Country Road","Bonds"],
       gallery: [
         "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2161028204/settings_images/72173cc-05cb-ff7e-3431-b461cfd65ab7_Photo_14-7-2022_4_33_30_pm.jpg",
         "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2161028204/settings_images/d44434-de5-ae62-546a-0dfe7c505712_Limited-edition-Bras-N-Things-24.jpg",
@@ -111,7 +111,7 @@ window.OMA_DATA = {
     },
     {
       name: "Max May",
-      role: "Australia's Leading Celebrity Makeup Artist",
+      role: "Celebrity Makeup Artist, Fashion Week & Red Carpet",
       brands: "Vogue · Dior · La Mer",
       img: "assets/headshots/May May Makeup.png",
       longBio: "Max May is one of Australia's most in-demand celebrity makeup artists, with over a decade working on high fashion runways, campaigns, and red carpets. His work spans Vogue, Harper's BAZAAR, Marie Claire and luxury brands like Dior, La Mer, and ModelCo. He's also known for crafting iconic looks on talent including Gemma Ward, Lara Worthington, Georgia Fowler, Jesinta Franklin, and Bambi Northwood-Blythe. In this course, Max teaches models how to prep for any professional environment — from polished casting-ready skin to low-maintenance glam that holds up under lights.",
@@ -124,7 +124,7 @@ window.OMA_DATA = {
       brands: "Calvin Klein · Coach · Charlotte Tilbury",
       img: "assets/headshots/Jack Bedwani New Moon.png",
       longBio: "Jack Bedwani is the founder of New Moon, a globally respected agency behind fashion week experiences, immersive brand activations, and talent-led storytelling. His career includes producing runway shows for Calvin Klein, Coach, Charlotte Tilbury, and Puma across New York, London, and Australian Fashion Week 2025. Jack has cast and trained models for the runway, shaping how they walk, move, and hold presence. In this course, he shows you how to master runway fundamentals — posture, pace, timing, energy — and adapt them to different show formats.",
-      workedWith: ["Calvin Klein","Coach","Charlotte Tilbury","Puma","Harper's BAZAAR","Australian Fashion Week 2025"],
+      workedWith: ["Calvin Klein","Coach","Charlotte Tilbury","Puma","Harper's BAZAAR","New York","London","Australian Fashion Week 2025"],
       gallery: [],
     },
     {

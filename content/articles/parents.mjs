@@ -98,7 +98,7 @@ ${parentRedFlags}
 <aside class="inline-cta">
   <div class="k">Free module</div>
   <h3>The runway masterclass, free</h3>
-  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
   <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=child-modeling-agencies__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
 </aside>
 
@@ -199,7 +199,7 @@ ${legalBlock}
 <aside class="inline-cta">
   <div class="k">Free module</div>
   <h3>The runway masterclass, free</h3>
-  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
   <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=baby-modelling-agency__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
 </aside>
 
@@ -224,6 +224,122 @@ ${parentRedFlags}
 <p>Most babies on an agency board book occasionally or not at all, and that is not a reflection on the baby. Boards are large, client needs are narrow, and timing is everything.</p>
 <p>Treat it as an occasional, low-stakes thing your family does when a booking happens to come up. Do not pay anyone, stay in the room, and stop the moment it stops being easy for your child.</p>
 <p>For the older end of this, our <a href="../child-modeling-agencies/">child modelling agency guide</a> and our <a href="../how-to-become-a-child-model/">parent's guide to child modelling</a> cover what changes as children grow into their own opinions about it.</p>
+`,
+  },
+
+  {
+    slug: 'kids-modelling-agency-australia',
+    seoTitle: "Kids Modelling Agencies in Australia: A Parent's Guide",
+    description:
+      'How legitimate Australian kids modelling agencies work, the permit rules state by state, what to send, what the work pays, and the fees that mark a scam.',
+    headline: 'Kids Modelling Agencies in Australia',
+    category: 'For parents',
+    image: 'how-to-become-a-child-model',
+    imageAlt: "Folded children's clothes and shoes laid out in natural daylight",
+    readTime: 10,
+    date: '2026-09-03',
+    related: [
+      'how-to-become-a-child-model',
+      'modelling-agencies-australia',
+      'how-to-become-a-model-at-16',
+    ],
+    faq: [
+      {
+        q: 'Do kids modelling agencies in Australia charge a joining fee?',
+        a: 'No legitimate one does. An Australian children’s agency earns a commission on the work a child books, which means it is paid by the client, not by you. Joining fees, compulsory paid photoshoots, portfolio packages and paid training before representation are the standard pattern of operators who make their money from parents rather than from casting.',
+      },
+      {
+        q: 'What age can a child start modelling in Australia?',
+        a: 'There is no national minimum age for entertainment and modelling work, and agencies represent children from newborn onwards for nappy, baby and family campaigns. What changes with age is the permit and supervision regime around the job. In New South Wales an employer needs an authority to employ anyone under 16 for still photography or modelling, and in Victoria an employer needs a child employment licence for anyone under 15, even for unpaid work.',
+      },
+      {
+        q: 'Does my child need a permit to model in Australia?',
+        a: 'The permit is the employer’s responsibility, not the parent’s, but the rule differs by state. New South Wales requires the employer to hold an authority to employ children under 16 and to lodge a notification at least seven days before the child’s first work day. Victoria requires the employer to hold a child employment licence for anyone under 15 and to provide a supervisor aged 18 or over holding a Working with Children Clearance. Queensland has no permit but sets hour limits by age and requires a parent’s consent form. Western Australia, South Australia, Tasmania, the ACT and the Northern Territory have no dedicated entertainment permit scheme.',
+      },
+      {
+        q: 'What photos do kids modelling agencies want?',
+        a: 'Recent, natural phone snaps in daylight against a plain wall. A head and shoulders shot, a full-length shot, and one of the child being themselves. No makeup, no props, no studio, no retouching, and nothing that dresses a child as an adult. Children change quickly, so agencies want photos from the last month rather than a portfolio from last year.',
+      },
+      {
+        q: 'How much do child models earn in Australia?',
+        a: 'It varies enormously by job type and it is not a reliable income. A catalogue or retail day rate sits well below what an adult commercial model earns, while a national television commercial with usage can pay considerably more, because usage rather than the shoot day is where the value sits. The agency deducts its commission and the money is paid to the parent or guardian on the child’s behalf.',
+      },
+      {
+        q: 'Can teenagers join a kids modelling agency in Australia?',
+        a: 'Yes. Most Australian children’s agencies run a teen board, and the permit rules still apply until 16 in New South Wales and 15 in Victoria. Teen work is mostly commercial and retail rather than fashion, and the height thresholds that gate adult fashion boards do not apply to it.',
+      },
+    ],
+    body: `
+<p>If your child has been stopped in a shopping centre, or a scout has messaged you on Instagram, the useful thing to know first is this: <b>a legitimate Australian children's modelling agency will never ask you for money to sign your child.</b> Everything else in this guide follows from that one rule.</p>
+<p>Our child and teen module is taught by Hannah Millward, the founder of Bump Models and one of Australia's most respected child and teen agents, with more than 17 years placing young talent into campaigns for Bonds, Huggies and David Jones. This is the parent's version of what she teaches.</p>
+
+<h2>How a Real Kids Modelling Agency Makes Its Money</h2>
+<p>An agency is paid a commission on the work a child actually books. The client pays the agency, the agency takes its percentage, and the rest is paid to you on the child's behalf. That is the entire business model, and it explains every red flag below.</p>
+<p>An agency that earns from casting has an incentive to sign only children it can genuinely place, and to keep its books small enough that each child gets submitted. An operation that earns from parents has the opposite incentive: sign everyone, charge everyone, and let the disappointment sort itself out. Both call themselves agencies. Only one of them makes money when your child works.</p>
+<p>The practical test takes one question. Ask what it costs to be represented. If the answer is a number, you are not talking to an agency.</p>
+
+<h2>What You Should Never Pay For</h2>
+<ul>
+<li><b>A joining, registration or administration fee.</b> There is no legitimate version of this.</li>
+<li><b>A compulsory photoshoot.</b> Children's agencies work from phone snaps, because children change too fast for a studio portfolio to stay current.</li>
+<li><b>A portfolio or comp card package.</b> If cards are needed later, they are produced once the child is signed and working, and the cost is usually modest and often deducted from earnings.</li>
+<li><b>Paid classes as a condition of representation.</b> Training and representation are different businesses. An agency that requires you to buy the first before it will consider the second is selling the course.</li>
+<li><b>A place on a database or website listing.</b> Paying to appear somewhere is advertising, not casting.</li>
+</ul>
+<p>Our guide to <a href="../modeling-schools/">modelling schools and the scams around them</a> covers the same pattern in the adult market, where it is just as common.</p>
+
+<h2>The Permit Rules, State by State</h2>
+<p>Child employment in entertainment is regulated by state, not federally, and the obligation sits with the employer rather than with you. Knowing the rule where you live tells you very quickly whether the people booking your child are running a real production. Our <a href="../how-to-become-a-child-model/">parent's guide to child modelling</a> sets the same ground out for the US and UK.</p>
+<table>
+<thead><tr><th>State or territory</th><th>What the employer must hold</th></tr></thead>
+<tbody>
+<tr><td><b>New South Wales</b></td><td>An authority to employ children, required for anyone under 16 in still photography or modelling, issued by the Office of the Children's Guardian. A separate notification must be lodged no fewer than seven days before the child's first work day, including for fittings and rehearsals.</td></tr>
+<tr><td><b>Victoria</b></td><td>A child employment licence, required for anyone under 15 even when the work is unpaid. A supervisor aged at least 18 holding a Victorian Working with Children Clearance must be present, and the Mandatory Code of Practice sets hours, tutoring and record-keeping. Employing a child without a licence is a criminal offence.</td></tr>
+<tr><td><b>Queensland</b></td><td>No permit, but a parent's consent form is required before a school-aged child can be employed, and hour limits apply by age. For recorded work, children aged 8 to 15 may work up to eight hours a day, five days a week, between 6am and 11pm; children under 3 are limited to four hours a day, three days a week, between 6am and 6pm.</td></tr>
+<tr><td><b>WA, SA, Tasmania, ACT, NT</b></td><td>No dedicated entertainment permit scheme. General child employment, work health and safety and working-with-children laws still apply, and the absence of a permit is not an absence of obligation.</td></tr>
+</tbody>
+</table>
+<p>Victoria's hour limits are the tightest published set and a useful benchmark anywhere in the country: under 3 years, four hours a day and three days a week; 3 to 8 years, six hours a day and four days a week; 8 to 15 years, eight hours a day and five days a week. A child who has already been at school for three hours or more cannot work more than four.</p>
+<p>You are allowed to ask a producer or agency which permit they hold. A professional operation answers immediately. Hesitation is information.</p>
+
+<h2>What Australian Children's Agencies Actually Book</h2>
+<p>Almost none of it is fashion. The work that pays for children in this country is commercial: supermarket and retail catalogues, nappy and baby brands, department store campaigns, banking and telco advertising, tourism, health campaigns, and television commercials. Bonds, Huggies and David Jones are the shape of the market.</p>
+<p>That matters because it changes what agencies are looking for. A commercial client is casting a believable child, not a striking one. Agencies build a board that covers the range of children a national campaign might need, which means the child who books is often the one who fits a gap rather than the one who is most photogenic.</p>
+<p>It also means the fashion criteria that dominate adult modelling are irrelevant here. There is no height requirement for a child. Our guide to <a href="../types-of-modeling/">the types of modelling</a> sets out where each category sits.</p>
+
+<h2>What to Send, and When</h2>
+<p>Every legitimate Australian children's agency asks for roughly the same thing, and none of it costs anything.</p>
+<ul>
+<li><b>Three or four recent phone photos.</b> Daylight, plain background, taken in the last month. Head and shoulders, full length, and one candid.</li>
+<li><b>No makeup, no styling, no props.</b> Nothing that ages the child up. Agents are assessing the child, and anything added gets in the way.</li>
+<li><b>Current height, clothing size and shoe size,</b> plus date of birth.</li>
+<li><b>A short note from you</b> covering your city, your availability on weekdays, and whether the child is comfortable with strangers and instruction.</li>
+</ul>
+<p>Send it through the agency's own submission form. Then wait. Children's boards turn over as children grow, so a no this year is not a no next year, and a no is usually about a gap rather than about your child.</p>
+
+<h2>Teen Modelling in Australia</h2>
+<p>Teen boards sit inside most children's agencies and follow the same commercial logic. The work is retail, school-uniform, sport, telco and youth-brand campaigns. The permit rules still apply, up to 16 in New South Wales and 15 in Victoria.</p>
+<p>The change that matters at this age is agency. A teenager starts making their own decisions about castings, and that is exactly when scam exposure rises, because scouts approach teenagers directly through social media rather than through parents. If your child is approached on Instagram or TikTok, the same single question applies: what does representation cost? Our guide to <a href="../how-to-become-a-model-at-16/">becoming a model at 16</a> covers the transition, and <a href="../how-to-become-a-model-in-australia/">how to become a model in Australia</a> covers the adult process they are heading towards.</p>
+
+<h2>The Money</h2>
+<p>Rates vary too much to publish a single number honestly. A retail catalogue day is modest. A national television commercial with broadcast usage can be a multiple of it, because usage rather than the shoot day is where the value sits. The agency's commission comes off the top, and payment is made to you as parent or guardian.</p>
+<p>Two things are worth saying plainly. Income is irregular and unpredictable enough that no household should plan around it. And if anyone quotes you guaranteed earnings, that is not how casting works, and it is a reliable marker of the operations described earlier. Our guide to <a href="../how-much-do-models-make/">what models actually earn</a> sets out how rates and usage work across the market.</p>
+
+<h2>Questions to Ask Before You Sign Anything</h2>
+<ul>
+<li>What does representation cost? (Correct answer: nothing.)</li>
+<li>What commission do you take, and on what?</li>
+<li>Which clients have you placed children with in the last twelve months?</li>
+<li>How many children of my child's age and look are on your board right now?</li>
+<li>Which permit or licence do you or the producer hold in this state?</li>
+<li>Is the contract exclusive, how long does it run, and how do I end it?</li>
+<li>Who is on set as the child's supervisor, and how are hours and breaks managed?</li>
+</ul>
+<p>Take the contract away and read it before signing. Any agency that objects to that has told you what you needed to know.</p>
+
+<h2>What to Do This Week</h2>
+<p>Take the three photos on your phone. Shortlist two or three Australian children's agencies that actually service your city. Submit exactly what each asks for, and pay nobody. Then, before your child ever walks into a casting, learn what happens inside the room, because knowing the process is what makes the experience good for a child rather than confusing.</p>
+<p>Our free runway masterclass with Jack Bedwani, who choreographs shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons on exactly that, and it costs nothing.</p>
 `,
   },
 ];
