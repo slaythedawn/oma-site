@@ -2,6 +2,7 @@
 // what the US market searches and these terms are US-volume dominated.
 
 const DATE = '2026-08-19';
+const DATE_PETITE_AGENCIES = '2026-09-03';
 
 const feeWarning = `
 <h2>The Only Money Rule That Matters</h2>
@@ -311,6 +312,82 @@ ${feeWarning}
 
 <h2>Start Here</h2>
 <p>Measure yourself accurately, shoot honest digitals in fitted clothing, shortlist agencies that actually run a curve board, and learn how castings work before you are in one. Our free runway masterclass covers the casting-room craft in six lessons, taught by a working fashion week producer, at no cost.</p>
+`,
+  },
+
+  {
+    slug: 'petite-modeling-agencies',
+    seoTitle: 'Petite Modeling Agencies: Which Boards Take You',
+    description:
+      'Which modeling agencies actually take petite talent, how commercial and petite boards work, and how to submit without wasting time on fashion-only boards.',
+    headline: 'Petite Modeling Agencies: Which Boards Actually Take You',
+    category: 'Niche',
+    image: 'how-to-choose-a-modeling-agency',
+    imageAlt: "An agent reviewing a petite model's measurements and digitals across a desk",
+    readTime: 9,
+    date: DATE_PETITE_AGENCIES,
+    related: [
+      'how-to-become-a-petite-model',
+      'plus-size-modeling-agencies',
+      'modeling-agencies-near-me',
+    ],
+    faq: [
+      {
+        q: 'Do modeling agencies take petite models?',
+        a: 'Yes, on their commercial, catalogue and lifestyle boards, which is where most of the paid work sits anyway. Fashion runway boards are the exception, since they cast to a fixed sample size that generally requires a minimum height around 5\'9". Almost every other board at almost every agency has no meaningful height requirement.',
+      },
+      {
+        q: 'What agencies work with petite models?',
+        a: 'There is no separate "petite agency" category the way curve has dedicated curve boards. Instead, check any agency\'s commercial, lifestyle or "real people" division, since those are cast on look and presentation rather than height. A small number of agencies do run boards explicitly marketed as petite or run by height range, usually in major markets like New York.',
+      },
+      {
+        q: 'What height is considered petite for modeling agencies?',
+        a: 'There is no fixed industry line, but the working shorthand is below the roughly 5\'9" to 6\'0" range fashion boards require, which in practice means most women around 5\'7" and under. Agencies apply this loosely and case by case, not as a hard cutoff, because commercial casting depends on the client brief far more than on a height chart.',
+      },
+      {
+        q: 'How do I submit to a petite-friendly agency?',
+        a: 'The same way you submit anywhere: four to six honest phone digitals in daylight against a plain wall, accurate measurements, and the format the agency\'s submission page actually asks for. Check the agency\'s boards first so you are submitting to a commercial or petite division rather than a fashion board that will reject you on height alone.',
+      },
+      {
+        q: 'Are petite modeling agencies harder to find than fashion agencies?',
+        a: 'They can look that way only because search results default to fashion-runway agencies, which are the most written about and the least relevant here. In practice most mainstream commercial agencies already work with petite talent on their standard boards, so the task is identifying the right board at an agency you have probably already heard of, not finding a rare specialist.',
+      },
+    ],
+    body: `
+<p>Search "petite modeling agencies" and most of what comes back is fashion-runway agencies with a hard height minimum around 5'9", which is exactly the lane that will not take you. That is a search-results problem, not an industry one. If you want the personal step-by-step version of getting signed, from measuring yourself through your first submission, see our <a href="../how-to-become-a-petite-model/">guide to becoming a petite model</a>. This one covers it from the agency side: which boards actually cast petite talent, and how to find them.</p>
+
+<h2>There Is No Separate "Petite Agency" Category</h2>
+<p>Curve has dedicated curve boards at most major agencies. Petite does not work quite the same way. Instead, the relevant board is usually called commercial, lifestyle, "real people" or sometimes parts, and it is cast on look, presentation and category fit rather than a fixed sample size. A model who is 5'5" is not excluded from these boards; height barely enters the conversation.</p>
+<p>A small number of agencies, mostly in New York and other major markets, do run boards explicitly organised by height range or marketed toward petite talent specifically. Those are worth finding, but they are the exception rather than the only route in.</p>
+
+<h2>What Petite-Friendly Boards Actually Want</h2>
+<h3>Category fit over height</h3>
+<p>Commercial bookers are casting to a client brief: a retail catalogue, an ad campaign, an e-commerce listing. The brief asks for a look, an age range, sometimes an ethnicity or body type, almost never a minimum height. Fit the brief and your height is a non-issue.</p>
+<h3>Accurate measurements</h3>
+<p>Height, bust or chest, waist, hips, dress or suit size, shoe size, sent exactly as they are, not rounded up. Agencies remeasure at the open call or on your first booking, and a discrepancy reads as a professionalism problem regardless of what the real number was.</p>
+<h3>The right board, not every board</h3>
+<p>Submitting a petite profile to an agency's fashion-runway board is a wasted submission, not a bold one. Check what each agency's commercial or lifestyle division actually casts before applying, the same targeting discipline that matters on every other board covered in our guide to <a href="../what-do-modeling-agencies-look-for/">what agencies look for</a>.</p>
+
+${digitalsBlock}
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=petite-modeling-agencies__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>Finding the Right Board</h2>
+<p>Before submitting anywhere, check the agency's site for its commercial, lifestyle or "real people" division rather than assuming from the homepage models shown, which usually feature the agency's tallest, most fashion-forward talent regardless of what its other boards actually cast. A handful of agencies in major markets also run a board specifically for petite or shorter talent; search each market's agency directory rather than assuming your local market has one.</p>
+<p>The verification checklist does not change for a petite submission: commission-based, no upfront fees, traceable working clients, a real office. Our guide to <a href="../modeling-agencies-near-me/">finding a real agency near you</a> covers the full list.</p>
+
+${feeWarning}
+
+<h2>The Work Itself</h2>
+<p>Commercial, catalogue and e-commerce lead by volume, because none of it screens on height. Lifestyle and advertising campaigns follow the same pattern. Fit modeling for brands that manufacture petite-specific clothing lines is a genuinely underused option too: steady, hourly, repeat work with almost no public awareness. Our guide to <a href="../plus-size-modeling-agencies/">plus size modeling agencies</a> covers the parallel case for curve boards, useful context since the two niches sit next to each other on most agency rosters.</p>
+
+<h2>Start Here</h2>
+<p>Check each agency's actual boards before you submit, send accurate measurements and honest digitals, and target commercial and lifestyle divisions rather than fashion-runway ones. Our free runway masterclass covers the casting-room craft in six lessons, taught by a working fashion week producer, at no cost.</p>
 `,
   },
 ];
