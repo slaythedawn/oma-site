@@ -1,14 +1,14 @@
 // Shared content data for all three directions.
 window.OMA_DATA = {
+  // Removed studentsTrained / rating / reviews / spotsLeft: nothing rendered
+  // them, and none could be substantiated. 124 people have ever had course
+  // access (101 free module, 23 full course) and no Trustpilot profile could
+  // be found. Do not reintroduce a number here without a source.
   stats: {
     mentors: 12,
     lessons: 94,
     modules: 16,
-    studentsTrained: "12,000+",
     campaigns: "475+",
-    rating: 4.9,
-    reviews: 847,
-    spotsLeft: 17,
     priceOld: 499,
     priceCurrent: 299,
   },
@@ -210,7 +210,7 @@ window.OMA_DATA = {
       { q: "Do I get a certificate?", a: "Yes. You'll receive a digital certificate when you finish, which you can include in your portfolio or online profiles." },
       { q: "Can I do it on my phone?", a: "Yes. It works perfectly on mobile — learn anytime, anywhere." },
       { q: "What if I need help during the course?", a: "You'll have access to community support and regular Q&A sessions, so you're never left wondering what to do next." },
-      { q: "Do you offer refunds?", a: "7-day money-back guarantee, but only if you haven't started any of the course videos. Once the content is accessed, the course becomes non-refundable." },
+      { q: "Do you offer refunds?", a: "Yes. Seven days, no questions asked. Email us within seven days of your purchase and we will refund you in full, whether or not you have already watched some of it." },
     ],
     parent: [
       { q: "What age should my child start modelling training?", a: "The optimal age depends on various factors including maturity, industry requirements, and career goals. Our parent guidance module covers age-appropriate training strategies and timing recommendations from industry professionals." },
