@@ -106,6 +106,7 @@ for all three markets, or it doesn't ship.
 | modeling-resume | modeling resume | 700 | 0 | 2026-08-31 |
 | model-poses | model poses | 5900 | 0 | 2026-09-01 |
 | how-to-become-a-petite-model | petite modeling / how to become a petite model | 250 + 30 | 0 / 0 | 2026-09-02 |
+| petite-modeling-agencies | petite modeling agencies | 350 | 0 | 2026-09-03 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -172,7 +173,7 @@ the existing section, not a new URL.
 | modeling headshots | 800 | 0 | Commercial + local intent (some searchers may want a photographer, not a guide), so weaker fit than it looks. `portfolio.mjs` mentions headshots in the comp-card context but has no dedicated treatment of choosing/getting a modeling headshot specifically — not confirmed clean, check depth before writing. |
 | how to find modeling jobs | 700 | 0 | **Confirmed cannibalised 2026-08-30** — dropped, do not write. `jobs.mjs`'s FAQ already answers this near-verbatim. |
 | modeling digitals | 1000 | 0 | **Confirmed cannibalised 2026-08-30** — dropped, do not write. `portfolio.mjs` and `how-to-get-signed-by-a-modeling-agency` already cover it in depth. |
-| petite modeling agencies | 350 | 0 | Agency-directory intent, same shape as `plus-size-modeling-agencies`. Genuinely clean — no directory page exists for petite yet — but not picked 2026-09-02 in favour of the personal career-guide angle first (matches how plus-size shipped the personal guide before the directory got its own dedicated page). Worth picking next if the personal-guide pattern keeps working. |
+| petite modeling agencies | 350 | 0 | **Shipped 2026-09-03** — see the Live table. Was the shortlist's recommended next pick per the 2026-09-02 note. |
 | model measurements | 600 | 0 | **Checked 2026-09-02, cannibalised** — `agencies-us.mjs` (`what-do-modeling-agencies-look-for`) already has a dedicated FAQ ("What measurements do modeling agencies want?") with concrete ranges by category, plus a full "Measurements, against that category" section. A standalone page would duplicate it. If its near-miss position is ever visible (needs GSC), the move is expanding that section, not a new URL. |
 | how tall do you have to be to be a model | 1100 | 0 | **Checked 2026-09-02, cannibalised** — same `agencies-us.mjs` FAQ and section as `model measurements` above already answers this close to verbatim (height ranges by board). Do not write. |
 | model diet | 700 | 0 | **Checked 2026-09-02, deprioritised on fit, not cannibalisation.** SERP is dominated by Healthline and curiosity-driven "Victoria's Secret model diet" content, not career-education intent, and the topic sits close enough to disordered-eating territory (this site's audience includes teens, per `how-to-become-a-model-at-16`) that it needs unusually careful, responsible framing to be worth the risk for the conversion upside. Not ruled out permanently, just not a quick pick — if ever written, keep it health-first and explicitly debunk the extreme-dieting framing rather than feed it. |
@@ -485,3 +486,51 @@ the existing section, not a new URL.
   above as the natural next pick, an agency-directory companion piece to
   this one, matching how `plus-size-modeling-agencies` and
   `how-to-become-a-plus-size-model` pair up.
+- **2026-09-03 run.** Fired from the same external scheduled-trigger prompt
+  as every prior run (the stored prompt is still the stale 18 August
+  chat-routine handover; this file and `CONTRIBUTING.md` remain the
+  authoritative process, per the 2026-09-01 note). `git branch -r` + open-PR
+  check done before writing: no open PRs, and every previously-flagged stale
+  branch (`claude/charming-tesla-4r1qds`, `-5x0qph`, `-d63iwv`, `-u3oidj`,
+  `-zragay`, `claude/model-academy-github-setup-etwquk`, plus several new
+  branches this run had not seen before — `claude/baby-article-uk-us-au-parity`,
+  `claude/charming-tesla-65zhbk`, `-7yt01d`, `-79j4o5`, `-n854xk`,
+  `claude/every-2-days-cadence-and-orphan-check`, `claude/high-intent-coverage`,
+  `claude/how-to-get-paid-as-a-model`, `claude/ledger-automerge-standing-note`,
+  `claude/seo-internal-linking`, `claude/what-is-fashion-modeling`,
+  `fix-nav-drift-new-article`, `ledger-update-2026-08-26`) confirmed zero
+  commits ahead of `main`, so nothing was in flight. Shipped
+  `petite-modeling-agencies` (350 vol, KD 0), exactly the shortlist's
+  recommended next pick, confirmed live via `keywords-explorer-overview`
+  (matches the previously-recorded figures) and `serp-overview` (top results
+  are low-DR agency pages, video/social posts and forum threads, not
+  established competitors — a genuinely winnable SERP). Cross-linked
+  in-body from `how-to-become-a-petite-model` and `types-of-modeling`
+  (2 inbound links, satisfying the orphan check), and linked out to
+  `plus-size-modeling-agencies`, `what-do-modeling-agencies-look-for` and
+  `modeling-agencies-near-me`. Skipped a Higgsfield generation attempt and
+  reused `how-to-choose-a-modeling-agency` (an agent/desk scene, already
+  reused 5 times) with a fresh `imageAlt`, per the standing environment
+  block on fetching generated CDN assets logged across every run since
+  2026-08-25 — not re-tested this run since nothing suggests the block has
+  lifted. `npm run build && npm run check` clean. Attempted a fresh keyword
+  scan with a new seed term ("casting", since "modeling", "model" and
+  "runway" are all now fished out per prior notes) to restock the
+  shortlist for the next run: it returned almost entirely adult content,
+  industrial/metal casting, fishing tackle and programming type-casting
+  results, effectively zero relevant volume. Also confirmed the `where`
+  filter (`difficulty`/`volume` bounds) and `order_by` both return an
+  `internal server error` on `keywords-explorer-matching-terms` in this
+  session regardless of clause — worked fine on `keywords-explorer-overview`
+  for a single keyword, so this looks like an endpoint-specific issue, not
+  an account one. Worked around it here by reading the unsorted default
+  result and filtering by eye, which is fine for a small result set but
+  would not scale to sorting a large one; worth retrying the filtered/sorted
+  call on a future run in case it was transient. Net effect: `casting` is
+  now fished out too and should not be re-tried as a seed. The shortlist
+  is otherwise thin: `modeling headshots`
+  (800, KD 0) is the only unresolved candidate left, still flagged for its
+  local/commercial-intent risk rather than confirmed clean. The next run
+  should either resolve that one (check `portfolio.mjs`'s existing headshot
+  mentions for real depth before writing) or try a new seed term not yet
+  used here, e.g. "agency", "portfolio", "shoot" or "test shoot".

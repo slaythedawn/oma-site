@@ -19,7 +19,7 @@ export const niche = [
     imageAlt: 'An honest phone digital against a plain wall in daylight, full length to show true proportions',
     readTime: 9,
     date: DATE_PETITE,
-    related: ['types-of-modeling', 'how-to-make-a-modeling-portfolio', 'how-to-become-a-plus-size-model'],
+    related: ['petite-modeling-agencies', 'types-of-modeling', 'how-to-make-a-modeling-portfolio'],
     faq: [
       {
         q: 'What counts as petite in modeling?',
@@ -79,7 +79,7 @@ export const niche = [
 <p>Our guide to <a href="../types-of-modeling/">the different types of modeling</a> covers how petite sits alongside every other category, useful context for working out where else to target.</p>
 
 <h2>Agencies vs. Going Freelance First</h2>
-<p>Not every agency runs talent by height the same way, so check what a board actually casts before submitting rather than assuming a "no" from one agency applies everywhere. Most commercial boards, at most agencies, have no meaningful height minimum at all.</p>
+<p>Not every agency runs talent by height the same way, so check what a board actually casts before submitting rather than assuming a "no" from one agency applies everywhere. Most commercial boards, at most agencies, have no meaningful height minimum at all. Our guide to <a href="../petite-modeling-agencies/">petite modeling agencies</a> covers this from the agency side: which boards actually cast petite talent and how to find them, rather than wasting a submission on a fashion board that will reject you on height alone.</p>
 <p>You do not need a signing to start working. Local retailers, small e-commerce brands and regional campaigns frequently cast directly, without going through an agency, and a small set of real tearsheets built freelance makes a later agency submission stronger rather than weaker. Plenty of working commercial models do both at once: agency-booked national work and self-sourced local work side by side.</p>
 
 <h2>Reasons People Talk Themselves Out of Submitting, and Why They're Wrong</h2>
