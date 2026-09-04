@@ -291,7 +291,7 @@ ${parentRedFlags}
 <h2>The Permit Rules, State by State</h2>
 <p>Child employment in entertainment is regulated by state, not federally, and the obligation sits with the employer rather than with you. Knowing the rule where you live tells you very quickly whether the people booking your child are running a real production. Our <a href="../how-to-become-a-child-model/">parent's guide to child modelling</a> sets the same ground out for the US and UK.</p>
 <table>
-<thead><tr><th>State or territory</th><th>What the employer must hold</th></tr></thead>
+<thead><tr><th scope="col">State or territory</th><th scope="col">What the employer must hold</th></tr></thead>
 <tbody>
 <tr><td><b>New South Wales</b></td><td>An authority to employ children, required for anyone under 16 in still photography or modelling, issued by the Office of the Children's Guardian. A separate notification must be lodged no fewer than seven days before the child's first work day, including for fittings and rehearsals.</td></tr>
 <tr><td><b>Victoria</b></td><td>A child employment licence, required for anyone under 15 even when the work is unpaid. A supervisor aged at least 18 holding a Victorian Working with Children Clearance must be present, and the Mandatory Code of Practice sets hours, tutoring and record-keeping. Employing a child without a licence is a criminal offence.</td></tr>
