@@ -99,6 +99,7 @@ const CLUSTERS = [
       'child-modeling-agencies',
       'baby-modelling-agency',
       'how-to-become-a-child-model',
+      'kids-modelling-agency-australia',
       'how-to-become-a-model-at-16',
     ],
   },

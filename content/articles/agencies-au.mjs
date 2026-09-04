@@ -126,7 +126,7 @@ export const agenciesAu = [
 <aside class="inline-cta">
   <div class="k">Free module</div>
   <h3>The runway masterclass, free</h3>
-  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
   <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modelling-agencies-sydney__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
 </aside>
 
@@ -143,7 +143,7 @@ ${redFlags}
 <p>What shortens it is arriving prepared: correct digitals, correct stats, the right agencies for your category, and knowing how to behave in a casting. That last one is learnable, and it is most of what separates models who get rebooked from models who get booked once.</p>
 
 <h2>Before You Submit Anywhere</h2>
-<p>Get your digitals right, know your category, shortlist the agencies whose boards you genuinely fit, and understand what happens in a casting room before you are standing in one. Our free runway masterclass with Jack Bedwani, who produces Australian Fashion Week, covers the last part in six lessons and costs nothing.</p>
+<p>Get your digitals right, know your category, shortlist the agencies whose boards you genuinely fit, and understand what happens in a casting room before you are standing in one. Our free runway masterclass with Jack Bedwani, who produces Australian Fashion Week, covers the last part in five lessons and costs nothing.</p>
 `,
   },
 
@@ -186,7 +186,7 @@ ${redFlags}
 <h3>Curve and plus</h3>
 <p>Driven by Australian retail brands expanding size ranges. Growing, and worth approaching directly.</p>
 <h3>Kids and youth</h3>
-<p>Melbourne has an active children's market. If you are a parent looking into this, read our <a href="../how-to-become-a-child-model/">parent's guide to child modelling</a> and our guide to <a href="../child-modeling-agencies/">child modelling agencies</a> before you contact anyone, because this is the corner of the industry with the most predatory operators.</p>
+<p>Melbourne has an active children's market. If you are a parent looking into this, read our guide to <a href="../kids-modelling-agency-australia/">kids modelling agencies in Australia</a>, which covers the permit rules state by state, and our broader <a href="../how-to-become-a-child-model/">parent's guide to child modelling</a> before you contact anyone, because this is the corner of the industry with the most predatory operators.</p>
 <h3>Classic and talent</h3>
 <p>Models over roughly 35, plus actors and presenters. Consistently in demand and consistently under-supplied.</p>
 
@@ -206,7 +206,7 @@ ${redFlags}
 <aside class="inline-cta">
   <div class="k">Free module</div>
   <h3>The runway masterclass, free</h3>
-  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
   <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modelling-agencies-melbourne__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
 </aside>
 
@@ -255,7 +255,7 @@ ${redFlags}
 <li><b>Fashion</b> — smaller than the southern markets. Women generally from around 175cm, men from around 183cm.</li>
 <li><b>Commercial</b> — the main board and the main earner. Retail, advertising, tourism.</li>
 <li><b>Swim and resort</b> — genuinely a Queensland speciality, with clients that southern agencies do not have.</li>
-<li><b>Kids and family</b> — active, and requiring the same caution as anywhere. See our <a href="../child-modeling-agencies/">child modelling agency guide</a>.</li>
+<li><b>Kids and family</b> — active, and requiring the same caution as anywhere. See our guide to <a href="../kids-modelling-agency-australia/">kids modelling agencies in Australia</a>.</li>
 <li><b>Talent and classic</b> — presenters, actors, and models across older age brackets.</li>
 </ul>
 
@@ -274,7 +274,7 @@ ${redFlags}
 <aside class="inline-cta">
   <div class="k">Free module</div>
   <h3>The runway masterclass, free</h3>
-  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
   <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modelling-agencies-brisbane__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
 </aside>
 
@@ -322,7 +322,7 @@ ${redFlags}
 <li><b>Commercial</b> — the core of the market. Retail, corporate, lifestyle, advertising.</li>
 <li><b>Fashion</b> — smaller. Women generally from around 175cm, men from around 183cm.</li>
 <li><b>Talent</b> — presenters, actors, corporate video and voice.</li>
-<li><b>Kids and family</b> — present and active. Read our <a href="../how-to-become-a-child-model/">parent's guide</a> first if this applies to you.</li>
+<li><b>Kids and family</b> — present and active. Read our guide to <a href="../kids-modelling-agency-australia/">kids modelling agencies in Australia</a> first if this applies to you.</li>
 <li><b>Classic</b> — models over roughly 35, consistently in demand for corporate and retail.</li>
 </ul>
 
@@ -343,7 +343,7 @@ ${redFlags}
 <aside class="inline-cta">
   <div class="k">Free module</div>
   <h3>The runway masterclass, free</h3>
-  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
   <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modelling-agencies-perth__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
 </aside>
 
@@ -417,7 +417,7 @@ ${redFlags}
 <aside class="inline-cta">
   <div class="k">Free module</div>
   <h3>The runway masterclass, free</h3>
-  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
   <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modelling-agencies-australia__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
 </aside>
 
@@ -452,7 +452,7 @@ ${redFlags}
 
 <h2>What Actually Gets You Signed</h2>
 <p>Clean digitals, accurate stats, the right agency for your category, and evidence that you will be easy to work with. Nothing on that list requires money.</p>
-<p>What happens after you are signed is a different skill set: how you walk, how you take direction, how you behave when a casting runs three hours late. That is what our mentors teach, and the free runway masterclass with Jack Bedwani — who produces Australian Fashion Week — is six lessons of it at no cost.</p>
+<p>What happens after you are signed is a different skill set: how you walk, how you take direction, how you behave when a casting runs three hours late. That is what our mentors teach, and the free runway masterclass with Jack Bedwani — who produces Australian Fashion Week — is five lessons of it at no cost.</p>
 `,
   },
 ];

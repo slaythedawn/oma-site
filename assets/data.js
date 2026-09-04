@@ -1,14 +1,14 @@
 // Shared content data for all three directions.
 window.OMA_DATA = {
+  // Removed studentsTrained / rating / reviews / spotsLeft: nothing rendered
+  // them, and none could be substantiated. 124 people have ever had course
+  // access (101 free module, 23 full course) and no Trustpilot profile could
+  // be found. Do not reintroduce a number here without a source.
   stats: {
     mentors: 12,
-    lessons: 94,
+    lessons: 81,
     modules: 16,
-    studentsTrained: "12,000+",
     campaigns: "475+",
-    rating: 4.9,
-    reviews: 847,
-    spotsLeft: 17,
     priceOld: 499,
     priceCurrent: 299,
   },
@@ -23,10 +23,10 @@ window.OMA_DATA = {
     {
       name: "Simone Holtznagel",
       role: "International Model & Media Personality",
-      brands: "Guess · Honey Birdette · SAS Australia",
-      img: "assets/headshots/Simone Holtzagel Next Top Model Playboy Guess SAS Australia.png",
+      brands: "Guess · Honey Birdette · Bras N Things",
+      img: "assets/headshots/simone-holtznagel.webp",
       longBio: "Simone Holtznagel is a prominent Australian model and media personality, recognised for her high-impact campaigns and effortless on-camera presence. She rose to fame as a finalist on Australia's Next Top Model and quickly became a go-to face for brands like Guess, Honey Birdette, and Bras N Things. Her work spans editorial, lingerie, fashion, and lifestyle, and she's also known for her role on the high-pressure reality series SAS Australia. In this course, Simone shares what it really takes to succeed in front of the lens — from building a presence that books to understanding what makes a look translate on camera.",
-      workedWith: ["Guess","Honey Birdette","Bras N Things","SAS Australia","Australia's Next Top Model"],
+      workedWith: ["Guess","Honey Birdette","Bras N Things","Australia's Next Top Model","SAS Australia"],
       gallery: [
         "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2161028204/settings_images/a0a04b-35a-541-b854-da1ab26523_002326_block.jpg",
         "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2161028204/settings_images/fb10a-72ad-d730-c6cf-4c38ab6b74b_30571349_1959139514159540_2796031234478702592_n.jpg",
@@ -41,9 +41,9 @@ window.OMA_DATA = {
       name: "Natalie Roser",
       role: "International Fashion Model & Entrepreneur",
       brands: "Guess · Bare Ones · Series Magazine",
-      img: "assets/headshots/Natalie Roser Model.png",
+      img: "assets/headshots/natalie-roser.webp",
       longBio: "Natalie Roser is an internationally successful Australian fashion model whose career spans commercial, editorial, and runway work. Standing at 5'11\" with her signature blonde hair and blue eyes, she has become one of Australia's most recognised modelling exports while building entrepreneurial ventures including her underwear brand Bare Ones and her role as editor of Series Magazine. With experience across campaigns for Guess and ModelCo, walking at Miami Swim Week, and competing as a Miss Universe finalist, Natalie brings depth and honesty to her guidance on building your book, cultivating agency relationships, and transitioning into brand-building as a modern model.",
-      workedWith: ["Guess","Bare Ones","ModelCo","Series Magazine","Bras N Things","Miami Swim Week","Miss Universe Australia"],
+      workedWith: ["Guess","Miami Swim Week","Miss Universe Australia","Bare Ones","ModelCo","Series Magazine","Bras N Things"],
       gallery: [
         "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2161028204/settings_images/f16aba-2817-f7a-1a25-2f0f830cb51f_GettyImages-999064874-scaled-1.jpeg",
         "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2161028204/settings_images/68056fe-d621-2fe3-c48e-dbfd6f3038ba_stunning-model-natalie-roser-poses-751919932.jpeg",
@@ -58,9 +58,9 @@ window.OMA_DATA = {
       name: "Jez Smith",
       role: "Iconic Fashion Photographer & Model Mentor",
       brands: "Italian Vogue · Harper's BAZAAR · Levi's",
-      img: "assets/headshots/Jez Smith Photography.png",
+      img: "assets/headshots/jez-smith.webp",
       longBio: "Jez Smith is a world-renowned fashion photographer whose images have defined global campaigns and magazine covers for over 30 years. His work has appeared in Italian Vogue, Harper's BAZAAR, Vogue Australia, and campaigns for Levi's, L'Oréal, Maybelline, and Tiffany & Co. He's photographed icons including Tyra Banks, Cate Blanchett, Miranda Kerr, and Serena Williams. Jez also served as an on-camera mentor and photographer across Australia's, America's, and Asia's Next Top Model. In this course, he breaks down what makes a strong portfolio, how to work with photographers, and what transforms a great look into a lasting career — your behind-the-lens guide to getting booked, and getting rebooked.",
-      workedWith: ["Italian Vogue","Harper's BAZAAR","Levi's","L'Oréal","Tiffany & Co.","Tyra Banks","Serena Williams","Australia's Next Top Model","America's Next Top Model"],
+      workedWith: ["Italian Vogue","Harper's BAZAAR","Tiffany & Co.","Levi's","L'Oréal","Serena Williams","Tyra Banks","America's Next Top Model","Australia's Next Top Model"],
       gallery: [
         "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2161028204/settings_images/f261be-b332-5fc7-e11c-e3eda43f20_Cover_Serena_076.jpg",
         "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2161028204/settings_images/fd381-a8ae-5f6-d81b-1e7fda24ddb5_20231011_Nap_Perdis_Color_Cult_Lipstick_Shot08_11951.jpg",
@@ -73,20 +73,20 @@ window.OMA_DATA = {
     },
     {
       name: "Danielle Ragenard",
-      role: "Australia's Leading Model & Talent Manager",
-      brands: "IMG Models · Vogue Australia · MBFW",
-      img: "assets/headshots/Danielle Regenard IMG models Miranda Kerr.png",
+      role: "Former VP & Managing Director, IMG Models Australia",
+      brands: "IMG Models · Miranda Kerr · Mercedes-Benz Fashion Week",
+      img: "assets/headshots/danielle-ragenard.webp",
       longBio: "Danielle Ragenard is a legendary figure in the Australian fashion industry. As the former Vice President and Managing Director of IMG Models Australia, she helped launch the careers of Miranda Kerr, Nicole Trunfio, Gemma Ward, and Bambi Northwood-Blyth. She's negotiated contracts, secured major campaigns, and led castings for global events like Mercedes-Benz Fashion Week. In this course, Danielle lifts the curtain on the business of modelling — from how agencies work to what really happens after a casting, sharing insights every aspiring model needs to succeed and protect their value.",
-      workedWith: ["IMG Models Australia","Vogue Australia","Mercedes-Benz Fashion Week","Miranda Kerr","Gemma Ward","Bambi Northwood-Blyth"],
+      workedWith: ["IMG Models","Miranda Kerr","Gemma Ward","Mercedes-Benz Fashion Week","Vogue Australia","Bambi Northwood-Blyth"],
       gallery: [],
     },
     {
       name: "Jessica Leahy",
       role: "International Curve Model & Industry Advocate",
       brands: "Calvin Klein · Bonds · Country Road",
-      img: "assets/headshots/Jessica Leahy Curve Model.png",
+      img: "assets/headshots/jessica-leahy.webp",
       longBio: "Jessica Leahy is a globally recognised curve model, writer, and outspoken advocate for diversity in fashion. With a portfolio that includes campaigns for Calvin Klein, Country Road, and Ralph Lauren, and features in Vogue Australia and ELLE, she brings over 15 years of experience at the top of the industry. Jessica is also a founder and content creator, known for her thought leadership around self-worth, resilience, and authentic representation. In this course, she shares strategies for building a strong identity in modelling, and navigating the rejection, pressure, and transformation that come with the job.",
-      workedWith: ["Calvin Klein","Bonds","Country Road","Ralph Lauren","Vogue Australia","ELLE"],
+      workedWith: ["Calvin Klein","Ralph Lauren","ELLE","Vogue Australia","Country Road","Bonds"],
       gallery: [
         "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2161028204/settings_images/72173cc-05cb-ff7e-3431-b461cfd65ab7_Photo_14-7-2022_4_33_30_pm.jpg",
         "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2161028204/settings_images/d44434-de5-ae62-546a-0dfe7c505712_Limited-edition-Bras-N-Things-24.jpg",
@@ -99,7 +99,7 @@ window.OMA_DATA = {
       name: "Chontel Duncan",
       role: "Fitness Entrepreneur & Former Miss Universe Finalist",
       brands: "NEUFORM · HIIT Australia · SWEAT",
-      img: "assets/headshots/Chontel Duncan Neuform Fitness.png",
+      img: "assets/headshots/chontel-duncan.webp",
       longBio: "Chontel Duncan is a powerhouse in the health and fitness industry. As the founder of HIIT Australia and NEUFORM, she's led a movement focused on strength, function, and sustainability. A Miss Universe Australia finalist and mother of five, Chontel is known for showing women, especially models, how to achieve peak condition without sacrificing their mental or emotional wellbeing. With over a million followers and a reputation for keeping it real, she brings a refreshingly grounded approach to physical health — covering energy management, body image, and training routines that actually work in a model's fast-paced world.",
       workedWith: ["NEUFORM","HIIT Australia","Miss Universe Australia","SWEAT","Instagram (1M+)"],
       gallery: [
@@ -111,9 +111,9 @@ window.OMA_DATA = {
     },
     {
       name: "Max May",
-      role: "Australia's Leading Celebrity Makeup Artist",
+      role: "Celebrity Makeup Artist, Fashion Week & Red Carpet",
       brands: "Vogue · Dior · La Mer",
-      img: "assets/headshots/May May Makeup.png",
+      img: "assets/headshots/max-may.webp",
       longBio: "Max May is one of Australia's most in-demand celebrity makeup artists, with over a decade working on high fashion runways, campaigns, and red carpets. His work spans Vogue, Harper's BAZAAR, Marie Claire and luxury brands like Dior, La Mer, and ModelCo. He's also known for crafting iconic looks on talent including Gemma Ward, Lara Worthington, Georgia Fowler, Jesinta Franklin, and Bambi Northwood-Blythe. In this course, Max teaches models how to prep for any professional environment — from polished casting-ready skin to low-maintenance glam that holds up under lights.",
       workedWith: ["Vogue","Dior","La Mer","Gemma Ward","Georgia Fowler","ModelCo","Harper's BAZAAR"],
       gallery: [],
@@ -122,16 +122,16 @@ window.OMA_DATA = {
       name: "Jack Bedwani",
       role: "Global Fashion Show Producer & Brand Experience Director",
       brands: "Calvin Klein · Coach · Charlotte Tilbury",
-      img: "assets/headshots/Jack Bedwani New Moon.png",
+      img: "assets/headshots/jack-bedwani.webp",
       longBio: "Jack Bedwani is the founder of New Moon, a globally respected agency behind fashion week experiences, immersive brand activations, and talent-led storytelling. His career includes producing runway shows for Calvin Klein, Coach, Charlotte Tilbury, and Puma across New York, London, and Australian Fashion Week 2025. Jack has cast and trained models for the runway, shaping how they walk, move, and hold presence. In this course, he shows you how to master runway fundamentals — posture, pace, timing, energy — and adapt them to different show formats.",
-      workedWith: ["Calvin Klein","Coach","Charlotte Tilbury","Puma","Harper's BAZAAR","Australian Fashion Week 2025"],
+      workedWith: ["Calvin Klein","Coach","Charlotte Tilbury","Puma","Harper's BAZAAR","New York","London","Australian Fashion Week 2025"],
       gallery: [],
     },
     {
       name: "Heidi Scarlett King",
       role: "Fashion Week Beauty Director & Editorial Makeup Artist",
       brands: "Vogue · Zimmerman · Sass & Bide",
-      img: "assets/headshots/Heidi Scarlett King.png",
+      img: "assets/headshots/heidi-scarlett-king.webp",
       longBio: "Heidi Scarlett King is a celebrated beauty director with more than two decades of experience creating flawless, camera-ready looks on international runways and magazine editorials. She's worked across London, Paris, and Sydney Fashion Weeks and led shows for Zimmerman, Sass & Bide, and Ksubi. Her editorial work spans Vogue, Harper's BAZAAR, i-D and more. As the founder of a top-tier artist agency, Heidi brings real-world insight into what it takes to be remembered on set — sharing the core beauty standards every model needs to know, plus how to prep, collaborate, and deliver consistency on high-pressure jobs.",
       workedWith: ["Vogue","Zimmerman","Sass & Bide","Harper's BAZAAR","i-D Magazine","Ksubi","Paris Fashion Week","Sydney Fashion Week"],
       gallery: [],
@@ -140,7 +140,7 @@ window.OMA_DATA = {
       name: "Shona Vertue",
       role: "Celebrity Trainer & Wellness Psychologist-in-Training",
       brands: "David Beckham · Nike · The Vertue Method",
-      img: "assets/headshots/Shone Vertue Method.png",
+      img: "assets/headshots/shona-vertue.webp",
       longBio: "Shona Vertue is one of the most influential wellness voices in the world today. With a background in psychology and elite gymnastics, she developed The Vertue Method, an integrated fitness approach practised in over 65 countries. She has trained icons like David Beckham and works with Nike as a global wellness ambassador. Shona brings a biopsychosocial perspective to health that's essential for models facing pressure to perform physically and emotionally. In this course, she teaches how to build strength without burnout, create routines that support confidence, and maintain mental clarity through a modelling career.",
       workedWith: ["David Beckham","Nike Well Collective","The Vertue Method","Gary Barlow"],
       gallery: [
@@ -153,7 +153,7 @@ window.OMA_DATA = {
       name: "Hannah Millward",
       role: "Leading Child & Teen Model Agent",
       brands: "Bump Models · Bonds · David Jones",
-      img: "assets/headshots/Hannah Millward Bump Models.png",
+      img: "assets/headshots/hannah-millward.webp",
       longBio: "Hannah Millward is the founder of Bump Models and one of Australia's most respected child and teen agents. With more than 17 years of experience, she has helped young talent land campaigns for Bonds, Huggies, David Jones, and shows like Home & Away. In this course, she shares what every parent and young model needs to know — from spotting red flags to managing early career steps responsibly. Her perspective balances protection with possibility, showing how to thrive in family-friendly castings without compromise.",
       workedWith: ["Bonds","Huggies","David Jones","Home & Away","Feature Films & TVCs"],
       gallery: [],
@@ -162,7 +162,7 @@ window.OMA_DATA = {
       name: "Antonia Murphy",
       role: "Elite Casting Director & Talent Discovery Expert",
       brands: "Fountainhead Casting · David Jones · National TVCs",
-      img: "assets/headshots/Antonia Murphy Fountainhead Casting.png",
+      img: "assets/headshots/antonia-murphy.webp",
       longBio: "Antonia Murphy has cast over 30,000 actors and models across two decades. As the founder of Fountainhead Casting and a member of the Casting Guild of Australia, she's known for her discerning eye and her ability to spot magic in the moment. From TV commercials to feature films and fashion campaigns, Antonia understands what books, and what doesn't. In this course, she shares how to walk into any casting prepared, deliver what clients need, and avoid the common mistakes that hold new talent back.",
       workedWith: ["Fountainhead Casting","Event Zero","24 Hours to Live","The View from Greenhaven","David Jones","National TVCs"],
       gallery: [],
@@ -191,10 +191,10 @@ window.OMA_DATA = {
   testimonials: [
     { quote: "I spent two grand on test shoots before OMA. After module one I understood why none of them worked. Reshot on an iPhone. Signed three weeks later.", name: "Ella R.", result: "Signed · Chic Management" },
     { quote: "My daughter is sixteen. I was terrified. The parents module gave me a rulebook and a spine. She books well now and I know every contract she signs.", name: "Hannah's Mum", result: "Teen pathway" },
-    { quote: "I'd been told I was 'too commercial' for ten years. Turns out that was a compliment. OMA showed me where the work actually was.", name: "Brooke S.", result: "Commercial · Busy month" },
+    { quote: "I'd been told I was 'too commercial' for ten years. Turns out that was a compliment. OMA showed me where the work actually was.", name: "Brooke S.", result: "Commercial · Busy month" , page: false },
     { quote: "The runway module with Jack paid for the whole course before I'd watched anything else. I got rebooked at Fashion Week the day I tried his walk notes.", name: "Jas P.", result: "AFW 2026" },
-    { quote: "The contract module saved me from signing something awful. I walked. My second offer was better, with people I trust.", name: "Daniela M.", result: "Newly signed" },
-    { quote: "I'm a curve model who was told there was 'no market'. OMA has a whole module on that market. Booked for a national campaign in ten weeks.", name: "Noa L.", result: "National campaign" },
+    { quote: "The contract module saved me from signing something awful. I walked. My second offer was better, with people I trust.", name: "Daniela M.", result: "Newly signed" , page: false },
+    { quote: "I'm a curve model who was told there was 'no market'. OMA has a whole module on that market. Booked for a national campaign in ten weeks.", name: "Noa L.", result: "National campaign" , page: false },
   ],
 
   faqs: {
@@ -210,7 +210,7 @@ window.OMA_DATA = {
       { q: "Do I get a certificate?", a: "Yes. You'll receive a digital certificate when you finish, which you can include in your portfolio or online profiles." },
       { q: "Can I do it on my phone?", a: "Yes. It works perfectly on mobile — learn anytime, anywhere." },
       { q: "What if I need help during the course?", a: "You'll have access to community support and regular Q&A sessions, so you're never left wondering what to do next." },
-      { q: "Do you offer refunds?", a: "7-day money-back guarantee, but only if you haven't started any of the course videos. Once the content is accessed, the course becomes non-refundable." },
+      { q: "Do you offer refunds?", a: "Yes. Seven days, no questions asked. Email us within seven days of your purchase and we will refund you in full, whether or not you have already watched some of it." },
     ],
     parent: [
       { q: "What age should my child start modelling training?", a: "The optimal age depends on various factors including maturity, industry requirements, and career goals. Our parent guidance module covers age-appropriate training strategies and timing recommendations from industry professionals." },
@@ -260,7 +260,7 @@ window.OMA_DATA = {
   painPoints: [
     { title: "Wrong portfolio, wasted money", body: "You don't need a $3,000 test shoot. You need the right six images. We show you exactly what those six are, and how to get them for under $200." },
     { title: "No idea how castings actually work", body: "The casting room is a language. Learn it from the woman who books for Zimmermann and Country Road, not from a YouTube video made in 2019." },
-    { title: "Scams and predatory contracts", body: "'Signing fees' are not a thing. Mother-agency exclusivity is a trap if you don't understand it. An industry lawyer walks you through every clause." },
+    { title: "Scams and predatory contracts", body: "'Signing fees' are not a thing. Mother-agency exclusivity is a trap if you don't understand it. Danielle Ragenard, who negotiated contracts for IMG Models Australia, walks you through what each clause actually means." },
     { title: "You book once, never again", body: "Getting booked is one skill. Getting rebooked is a different one — and it's the one that makes a career. We teach both." },
   ],
 };

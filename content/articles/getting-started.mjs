@@ -77,7 +77,7 @@ export const gettingStarted = [
 <aside class="inline-cta">
   <div class="k">Free module</div>
   <h3>The runway masterclass, free</h3>
-  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
   <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-start-a-modeling-career__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
 </aside>
 
@@ -119,7 +119,7 @@ export const gettingStarted = [
 
 <h2>What Separates the Models Who Last</h2>
 <p>Not looks — everyone at a casting is castable. It is the craft: how you walk, how you take direction, how you handle a long day, how you behave when a client changes the brief at the last minute. Those things get you rebooked, and rebooking is the entire career.</p>
-<p>That craft is teachable, which is why our mentors teach it. Start with the free runway masterclass from Jack Bedwani, who produces Australian Fashion Week — six lessons, no cost, and the fastest way to see what the professional standard actually looks like.</p>
+<p>That craft is teachable, which is why our mentors teach it. Start with the free runway masterclass from Jack Bedwani, who choreographs shows for Calvin Klein, Coach and Charlotte Tilbury — five lessons, no cost, and the fastest way to see what the professional standard actually looks like.</p>
 `,
   },
 
@@ -185,7 +185,7 @@ export const gettingStarted = [
 <aside class="inline-cta">
   <div class="k">Free module</div>
   <h3>The runway masterclass, free</h3>
-  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
   <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-model-in-australia__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
 </aside>
 
@@ -218,7 +218,7 @@ export const gettingStarted = [
 
 <h2>What to Do This Week</h2>
 <p>Measure yourself, shoot your digitals, decide your board honestly, shortlist three or four Australian agencies that actually represent it, and submit exactly what they ask for.</p>
-<p>Then learn what happens inside a casting room, because that is what separates models who book once from models who get rebooked. Our free runway masterclass with Jack Bedwani — who produces Australian Fashion Week — is six lessons of exactly that, and it costs nothing.</p>
+<p>Then learn what happens inside a casting room, because that is what separates models who book once from models who get rebooked. Our free runway masterclass with Jack Bedwani — who produces Australian Fashion Week — is five lessons of exactly that, and it costs nothing.</p>
 `,
   },
 ];

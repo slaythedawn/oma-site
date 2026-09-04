@@ -65,7 +65,7 @@ export const niche = [
 <aside class="inline-cta">
   <div class="k">Free module</div>
   <h3>The runway masterclass, free</h3>
-  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
   <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-petite-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
 </aside>
 
@@ -101,7 +101,7 @@ export const niche = [
 <li>Submit to agencies with a genuine commercial or petite-friendly board, and in parallel, pitch local brands and photographers directly.</li>
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
-<p>That last step is where our mentors, working agents and bookers who cast commercial boards for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in six lessons, taught by a working fashion week producer, at no cost.</p>
+<p>That last step is where our mentors, working agents and bookers who cast commercial boards for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
 `,
   },
   {
@@ -166,7 +166,7 @@ export const niche = [
 <aside class="inline-cta">
   <div class="k">Free module</div>
   <h3>The runway masterclass, free</h3>
-  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
   <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-plus-size-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
 </aside>
 
@@ -197,7 +197,7 @@ export const niche = [
 <li>Submit to those agencies, and in parallel, pitch local brands and photographers directly.</li>
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
-<p>That last step is where our mentors, working agents and bookers who run these boards for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in six lessons, taught by a working fashion week producer, at no cost.</p>
+<p>That last step is where our mentors, working agents and bookers who run these boards for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
 `,
   },
 ];
