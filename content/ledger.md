@@ -58,7 +58,7 @@ guessed). Apply the same standard going forward: any new or edited
 article touching a jurisdiction-dependent rule gets real, checked detail
 for all three markets, or it doesn't ship.
 
-## Live (39 articles)
+## Live (47 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -107,6 +107,7 @@ for all three markets, or it doesn't ship.
 | model-poses | model poses | 5900 | 0 | 2026-09-01 |
 | how-to-become-a-petite-model | petite modeling / how to become a petite model | 250 + 30 | 0 / 0 | 2026-09-02 |
 | petite-modeling-agencies | petite modeling agencies | 350 | 0 | 2026-09-03 |
+| modeling-headshots | modeling headshots | 800 | 0 | 2026-09-04 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -170,7 +171,6 @@ the existing section, not a new URL.
 
 | Target keyword | US vol | KD | Note |
 | --- | --- | --- | --- |
-| modeling headshots | 800 | 0 | Commercial + local intent (some searchers may want a photographer, not a guide), so weaker fit than it looks. `portfolio.mjs` mentions headshots in the comp-card context but has no dedicated treatment of choosing/getting a modeling headshot specifically — not confirmed clean, check depth before writing. |
 | how to find modeling jobs | 700 | 0 | **Confirmed cannibalised 2026-08-30** — dropped, do not write. `jobs.mjs`'s FAQ already answers this near-verbatim. |
 | modeling digitals | 1000 | 0 | **Confirmed cannibalised 2026-08-30** — dropped, do not write. `portfolio.mjs` and `how-to-get-signed-by-a-modeling-agency` already cover it in depth. |
 | petite modeling agencies | 350 | 0 | **Shipped 2026-09-03** — see the Live table. Was the shortlist's recommended next pick per the 2026-09-02 note. |
@@ -534,3 +534,56 @@ the existing section, not a new URL.
   should either resolve that one (check `portfolio.mjs`'s existing headshot
   mentions for real depth before writing) or try a new seed term not yet
   used here, e.g. "agency", "portfolio", "shoot" or "test shoot".
+- **2026-09-04 run.** Fired from the same external scheduled-trigger prompt
+  (the stale 18 August handover) as every prior run; this file and
+  `CONTRIBUTING.md` remain the authoritative process. `git fetch origin main`
+  and `git branch -r` done before writing: no open PRs, and the only two
+  remote branches were `main` and this session's own designated branch,
+  which was identical to `main` (its prior PR #25 already merged) — reset
+  from `origin/main` per the merged-branch restart protocol rather than
+  built on stale history. Resolved the shortlist's last remaining candidate,
+  `modeling headshots` (800 vol, KD 0): confirmed via `serp-overview` that
+  the SERP mixes three local-pack photographer listings at position 1 with
+  genuinely beatable content competitors from position 3 onward (Reddit,
+  Pinterest, a DR23 photographer blog, aragon.ai, backstage.com, portraitpal.ai
+  — no established modeling-course competitor anywhere in the top 10), and
+  confirmed via a direct grep of `portfolio.mjs` that the keyword gets only
+  passing mentions (comp-card front image, portfolio opener) with no
+  dedicated treatment. Judged this closer to the `runway-model`/`types-of-modeling`
+  precedent (right audience, competitive SERP) than the `model release form`/
+  `brand ambassador` precedent (wrong audience entirely), so shipped it rather
+  than dropping it. Wrote `modeling-headshots` in `content/articles/portfolio.mjs`
+  (Portfolio cluster), cross-linked in-body from `model-comp-card` and
+  `modeling-resume` (both in `portfolio.mjs`) plus the hand-written
+  `how-to-make-a-modeling-portfolio`, and linked out to `model-comp-card`,
+  `how-to-make-a-modeling-portfolio` and `modeling-resume`. Trimmed the
+  first-draft meta description from 157 to 128 characters to clear the
+  155-character guideline in section 14 of the original handover, since
+  `check:site` itself only checks presence, not length. Skipped a Higgsfield
+  generation attempt per the standing environment block on fetching generated
+  CDN assets (confirmed still unresolved via `/root/.ccr/__agentproxy/status`,
+  empty `recentRelayFailures` because nothing was attempted, not because it's
+  fixed) — reused `how-to-become-a-model-with-no-experience` (a close,
+  plain-wall, unretouched portrait, its second reuse in generated content
+  after `how-to-become-a-petite-model`) since it is a genuinely literal
+  headshot-style image, a better visual fit here than for its first reuse.
+  `npm run build && npm run check` and `npx html-validate@8` on the built
+  page all pass clean. **New Ahrefs finding this run:** `keywords-explorer-overview`
+  returned an `internal server error` on every input tried (single keyword,
+  multi-keyword, with or without a target) — a full outage, not the
+  filter/order_by-specific issue logged 2026-09-03. `keywords-explorer-matching-terms`
+  also errored on every multi-word seed and on `match_mode: 'phrase'`,
+  succeeding only with a single-word seed and default `match_mode` — a new
+  and more restrictive failure mode than previously logged, so a future run
+  needing precise volume on a specific multi-word candidate should expect to
+  fall back to `serp-overview` (unaffected) rather than assume `overview` or
+  `matching-terms` will take it. Burned real budget confirming this: single-word
+  seeds tried against this restriction ("agent", "shoot", "swimwear") returned
+  almost entirely irrelevant noise at real cost (rows are billed even on a
+  near-total miss), so a future run should not repeat single-word fishing on
+  a generic seed without first checking whether `overview`/`matching-terms`
+  have recovered. **The shortlist above is now empty** — every candidate
+  logged in it has shipped, been confirmed cannibalised, or been dropped on
+  audience fit. The next run needs a fresh keyword-research pass from
+  scratch, ideally once `keywords-explorer-overview` or the multi-word path
+  on `matching-terms` is confirmed working again.
