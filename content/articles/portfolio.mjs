@@ -54,7 +54,7 @@ export const portfolio = [
 <h2>The Front</h2>
 <p>One image. Not two, not a collage.</p>
 <ul>
-<li><b>A clean, well-lit headshot or three-quarter shot</b> where your face is unmistakable.</li>
+<li><b>A clean, well-lit <a href="../modeling-headshots/">headshot</a> or three-quarter shot</b> where your face is unmistakable.</li>
 <li><b>Minimal styling.</b> Heavy makeup or strong art direction dates the card and obscures you.</li>
 <li><b>Direct eye contact</b> in almost all cases. It reads as confident and makes the card memorable.</li>
 <li><b>Your name</b>, set clearly. Usually your professional first name, or first name and initial.</li>
@@ -275,7 +275,7 @@ export const portfolio = [
 <ul>
 <li><b>Freelance and direct-booking work.</b> A client booking you without an agency in the middle has no other source for your work history, so it is worth having a one-page version ready. See our <a href="../how-to-become-a-freelance-model/">freelance modeling guide</a> for how direct bookings differ from agency ones.</li>
 <li><b>Applying to an agency before you have a card.</b> Some agencies ask new faces to submit a short resume alongside digitals, particularly if you already have some work behind you.</li>
-<li><b>Crossover into acting or theatrical castings.</b> Commercial and theatrical casting more often runs through resume-and-headshot submissions, closer to how actors are cast than how fashion models are booked.</li>
+<li><b>Crossover into acting or theatrical castings.</b> Commercial and theatrical casting more often runs through <a href="../modeling-headshots/">resume-and-headshot</a> submissions, closer to how actors are cast than how fashion models are booked.</li>
 <li><b>Print and commercial submissions</b> that route through a casting platform built around resumes rather than comp cards.</li>
 </ul>
 <p>If none of those apply to the work you are chasing, spend the time on your <a href="../model-comp-card/">comp card</a> instead. It will do more for you.</p>
@@ -416,6 +416,109 @@ export const portfolio = [
 <h2>How to Actually Practice</h2>
 <p>Mirror work is useful for learning the individual fundamentals, but it lies to you about the final result, because you are seeing yourself in reverse and adjusting in real time. Film yourself on a phone instead, on a timer, and review the stills afterward the way an agent would: cold, without the context of how the pose felt to hold.</p>
 <p>Practice each fundamental in isolation before combining them: weight shift alone, then add a hand position, then add the chin and shoulder angle. Study tearsheets and existing model poses in campaigns you like, not to copy them, but to notice which of the fundamentals above they are built from. And treat every real test shoot as practice too: the fastest way to get comfortable taking direction is doing it in front of an actual photographer, which is exactly what a first test shoot is for.</p>
+`,
+  },
+
+  {
+    slug: 'modeling-headshots',
+    seoTitle: 'Modeling Headshots: What Actually Books You',
+    description:
+      "What makes a modeling headshot work: what to wear, whether to smile, and how it differs from a comp card or an actor's headshot.",
+    headline: 'Modeling Headshots: What Actually Gets You Booked',
+    category: 'Portfolio',
+    image: 'how-to-become-a-model-with-no-experience',
+    imageAlt: 'A close, plain-wall modeling headshot with a neutral, unretouched expression and direct eye contact',
+    readTime: 9,
+    date: '2026-09-04',
+    related: ['model-comp-card', 'how-to-make-a-modeling-portfolio', 'modeling-resume'],
+    faq: [
+      {
+        q: 'What makes a good modeling headshot?',
+        a: 'Clean, even lighting, a plain and uncluttered background, minimal or no makeup, and an expression that reads as genuine rather than performed. The most common failure is not the photography, it is styling that dates fast or a retouch heavy enough that the model looks different in person. A booker is checking whether your face reads clearly and honestly, not whether the shot is beautiful.',
+      },
+      {
+        q: 'What to wear for modeling headshots?',
+        a: 'Plain, fitted, solid-colored basics in a neutral tone. A crew neck or scoop neck top works for almost every board. Avoid busy patterns, logos, statement jewelry and anything with a high collar that hides your neckline, since all of them pull the eye away from your face, which is the entire point of the shot.',
+      },
+      {
+        q: 'Should you smile in a modeling headshot?',
+        a: 'It depends on which headshot you mean. A commercial headshot wants a real, eyes-first smile, since the client is buying approachability. A fashion or straight headshot usually wants a neutral or softly engaged expression instead, so an agent can see your bone structure and range without a smile doing the work. Most working portfolios carry one of each rather than picking a single expression for everything.',
+      },
+      {
+        q: 'What are modeling headshots called?',
+        a: 'Inside the industry they get called a few different things depending on context: a straight shot or beauty shot for the neutral, shoulders-up image, and a smiling headshot or commercial shot for the warmer version. "Headshot" is the term clients and casting platforms use publicly; agents and bookers tend to use the more specific names once you are signed.',
+      },
+      {
+        q: 'Do you need a professional photographer for modeling headshots?',
+        a: 'Not at the application stage. Agencies evaluate new faces on clean, unretouched digitals shot on a phone in daylight, not on professional headshots, and paying for a shoot before you are signed is a common red flag rather than a requirement. A professional headshot becomes worth paying for once you are signed and building a book for clients, usually with a photographer your agency already trusts.',
+      },
+    ],
+    body: `
+<p>Search "modeling headshot tips" and almost everything you find was written by a portrait photographer trying to book more headshot clients. That is useful information about lighting and lenses. It is not the same as knowing what a booking agent actually does with the image thirty seconds after you submit it.</p>
+<p>Here is that version instead: what a modeling headshot is actually for, what a booker is really checking when they look at it, and why the answer changes depending on which kind of headshot you are shooting.</p>
+
+<h2>What a Modeling Headshot Actually Is</h2>
+<p>A modeling headshot is a clean, shoulders-up image of your face, shot against a plain background with even, flattering light. That sounds close to an actor's headshot, and the two do overlap at the edges, particularly for commercial and theatrical crossover castings. But the job they do is different.</p>
+<p>An actor's headshot has to communicate a type: the roles a casting director could plausibly see you playing. A modeling headshot has a narrower job. It has to show your actual face, clearly and honestly, so a client or agent can judge bone structure, symmetry and skin the same way they would in person. Personality matters less here than accuracy. A headshot that flatters you into looking like someone else has failed at its one job, even if it is a beautiful photograph.</p>
+
+<h2>What It's Actually For</h2>
+<p>A headshot rarely stands alone. It shows up inside three different tools, and which one changes what the image needs to do:</p>
+<ul>
+<li><b>On your <a href="../model-comp-card/">comp card</a>.</b> The single image on the front is almost always a headshot, chosen specifically because it is the one thing a client will remember you by after a casting day full of faces.</li>
+<li><b>Inside your <a href="../how-to-make-a-modeling-portfolio/">portfolio</a>.</b> A strong clean headshot is the opening image in almost every working book, because it is the first thing a reviewer judges before deciding whether to keep scrolling.</li>
+<li><b>In an agency submission.</b> Alongside your digitals, a headshot gives a scout the clearest single read on your face, separate from the unposed proof-of-look the digitals are doing.</li>
+</ul>
+<p>Notice what is missing from that list: a headshot is not itself a digital. A digital is deliberately unretouched and unposed, meant to show what you look like on an ordinary day. A headshot is still meant to be accurate, but it is a considered, chosen image rather than a raw proof shot. Confusing the two is one of the more common beginner mistakes.</p>
+
+<h2>What a Booker Is Actually Looking At</h2>
+<p>Strip away the photography advice and a booker's checklist is short:</p>
+<ul>
+<li><b>Even, honest lighting.</b> Flat and diffused, not dramatic. Hard shadows and heavy contouring lighting hide the exact structure a booker is trying to see.</li>
+<li><b>A plain, uncluttered background.</b> A wall, nothing behind you competing for attention. Nobody is judging your set design.</li>
+<li><b>Minimal or no makeup.</b> Enough to look rested, not enough to change your face. A booker who cannot picture your bare skin cannot judge whether you fit the job.</li>
+<li><b>Direct eye contact.</b> It reads as confident and gives the viewer something to land on immediately.</li>
+<li><b>A retouch level you could stand next to.</b> If a client meets you in person and you look meaningfully different from your headshot, that gap costs trust, not just this booking but the next one too.</li>
+</ul>
+<p>Everything else, the lens, the studio, the exact software used to edit, is a photographer's concern, not yours. A phone shot with clean light and no filter beats a technically superior photo that hides who you actually are.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modeling-headshots__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>Commercial Headshot vs. Fashion Headshot</h2>
+<p>This is the split that trips up more beginners than any lighting or wardrobe question, because the correct answer to "how should I look" is genuinely different depending on the register you are shooting for.</p>
+<h3>Commercial (the smiling headshot)</h3>
+<p>The client is selling approachability: a real, warm, eyes-first smile, relaxed shoulders, an expression that would work on a billboard or a product page. This is the headshot that gets used for lifestyle, catalog and everyday-brand work.</p>
+<h3>Fashion or straight (the beauty shot)</h3>
+<p>Neutral or softly intense, not smiling. The point is to let an agent see your bone structure, jawline and proportions with nothing performative in the way. This is the headshot most fashion and editorial boards lead with, and it is the one new faces underestimate, because a neutral expression can feel like doing nothing when it is actually doing the most technical work in the shot.</p>
+<p>A working portfolio usually carries both, not one or the other. If you only have time or budget for one image, ask what kind of work you are actually chasing before you choose.</p>
+
+<h2>What to Wear</h2>
+<p>Simpler than most guides make it sound. Plain, fitted, solid-color basics: a crew neck or scoop neck top in a neutral tone that does not fight with your skin. Skip busy patterns, visible logos, statement jewelry and high collars, all of which pull the eye away from your face when your face is the entire point of the image. If you are shooting both a commercial and a fashion headshot in the same session, a simple change of top is enough, you do not need a wardrobe change.</p>
+
+<h2>DIY, a Friend With a Phone, or a Professional</h2>
+<p>Not every stage of your career needs a professional photographer for this.</p>
+<p><b>Before you are signed:</b> agencies evaluate new applicants on clean, unretouched digitals, and a strong clean headshot at this stage can genuinely be a friend with a decent phone camera, daylight and a plain wall. Paying a photographer before an agency has looked at you is money spent before you know what your agency will actually want.</p>
+<p><b>Once you are signed:</b> a professional headshot becomes worth the cost, usually with a photographer your agency already works with and trusts, since consistency with their existing roster matters more than any individual photographer's personal style.</p>
+<p><b>For freelance and direct-booking work:</b> see our guide to <a href="../how-to-become-a-freelance-model/">freelance modeling</a>, since without an agency vetting photographers for you, the responsibility for getting this right sits with you alone.</p>
+
+<h2>How Often to Reshoot</h2>
+<p>Whenever your look changes meaningfully, a significant haircut, a colour change, a visible change in body composition, and otherwise on roughly the same cycle as the rest of your <a href="../model-comp-card/">comp card</a> and digitals. A headshot that no longer matches how you actually look is worse than an older but honest one, because the gap is what erodes trust at the casting, not the age of the photo itself.</p>
+
+<h2>Mistakes That Cost Castings</h2>
+<ol>
+<li><b>Heavy retouching.</b> If a client meets you and you look different from your headshot, you have burned trust before the conversation even starts.</li>
+<li><b>Busy backgrounds and props.</b> Nothing should compete with your face for attention.</li>
+<li><b>One expression doing every job.</b> A single smiling shot cannot cover both a commercial casting and a fashion one. Shoot both if you can.</li>
+<li><b>An outdated image.</b> Hair, colour or body changes that your headshot has not caught up with.</li>
+<li><b>Filters.</b> Even a subtle one shifts skin tone enough that a booker notices, and it reads as something to hide.</li>
+</ol>
+
+<h2>Where This Fits</h2>
+<p>A headshot is one piece of a small set of tools that each do a specific job: your headshot for the first impression, your <a href="../model-comp-card/">comp card</a> as the physical leave-behind, your full <a href="../how-to-make-a-modeling-portfolio/">portfolio</a> to show range, and a written <a href="../modeling-resume/">modeling resume</a> for the freelance and crossover bookings that ask for one instead. Get the headshot right and the rest of the book has something honest to build around.</p>
 `,
   },
 ];

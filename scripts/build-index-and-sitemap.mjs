@@ -90,6 +90,7 @@ const CLUSTERS = [
       'model-portfolio-website',
       'modeling-resume',
       'model-poses',
+      'modeling-headshots',
     ],
   },
   {
