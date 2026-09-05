@@ -6,6 +6,7 @@
 
 const DATE = '2026-08-30';
 const DATE_PETITE = '2026-09-02';
+const DATE_FOOT = '2026-09-05';
 
 export const niche = [
   {
@@ -198,6 +199,106 @@ export const niche = [
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
 <p>That last step is where our mentors, working agents and bookers who run these boards for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+`,
+  },
+  {
+    slug: 'how-to-become-a-foot-model',
+    seoTitle: 'How to Become a Foot Model: A Real Guide',
+    description:
+      'How to become a foot model, from the people who book them: what parts agencies actually want, care routines, digitals, agencies vs. freelance, and pay.',
+    headline: 'How to Become a Foot Model: What Parts Bookers Actually Want',
+    category: 'Niche',
+    image: 'modeling-portfolio-examples',
+    imageAlt: 'A contact sheet of close-up detail photographs under a loupe, the level of scrutiny a parts board applies',
+    readTime: 9,
+    date: DATE_FOOT,
+    related: ['how-to-become-a-hand-model', 'types-of-modeling', 'how-to-make-a-modeling-portfolio'],
+    faq: [
+      {
+        q: 'What do you need to become a foot model?',
+        a: 'Even, well-cared-for feet with no obvious calluses, bunions, discoloration or nail damage, and a size somewhere in the common commercial range, roughly a US 6 to 9 for women and 8 to 11 for men, since that is what footwear and hosiery clients sample against. There is no height, age or face requirement at all: foot boards cast on the feet alone.',
+      },
+      {
+        q: 'Do foot models need an agency?',
+        a: 'Not to start. A real amount of foot and parts work is cast directly through casting platforms and small brands without an agency involved, and building a few real bookings freelance makes a later parts-agency submission stronger. An agency adds access to national footwear, pedicure and hosiery clients that rarely post publicly.',
+      },
+      {
+        q: 'How much do foot models make?',
+        a: 'Pay is set by the client and the usage, the same as every other parts category, so a foot booking for a national footwear campaign pays like any other booking on that campaign. Rates vary widely by usage and market, but foot and parts work is generally billed hourly or half-day rather than as a single flat fee, and buyout usage (the client paying once for broad rights) is common, so always confirm usage before agreeing to a rate.',
+      },
+      {
+        q: 'What is parts modeling?',
+        a: 'The wider category foot modeling sits inside, alongside hand and leg modeling: close-up work for product photography where a specific body part, not a face or a full figure, is what the client is casting. Our guide to how to become a hand model covers the category from the hand side; the same boards, and often the same agencies, cast feet.',
+      },
+      {
+        q: 'What ruins a foot modeling submission?',
+        a: 'Visible calluses, cracked heels, bunions, uneven nail beds or chipped polish in the digitals. Clients are buying feet that need minimal retouching, and a submission shot without basic foot care first reads as a wasted application rather than a work in progress.',
+      },
+      {
+        q: 'Can men become foot models?',
+        a: "Yes. Men's footwear, sock and grooming-product clients cast a men's foot board specifically, and it is a smaller, less crowded pool than the women's side. The same care and submission standards apply.",
+      },
+    ],
+    body: `
+<p>Foot modeling gets treated online as either a joke or something slightly seedy, mostly because of how often "sell feet pics" content ranks next to it. The real category is neither: it is a legitimate, narrow corner of parts modeling, booked by footwear, hosiery, pedicure and skincare brands that need a specific pair of feet to photograph well, again and again, on schedule.</p>
+<p>Our instructors at Online Model Academy include agents and bookers who work parts boards, hands and feet both, for a living. This is the real path in, not the fetish-adjacent content that crowds the search results.</p>
+
+<h2>What Foot Modeling Actually Is</h2>
+<p>Footwear catalogues and e-commerce listings, hosiery and sock packaging, pedicure and nail-treatment ads, foot-care and skincare campaigns, and jewelry for ankles and toes. All of it needs feet that photograph cleanly and consistently, which is a narrower ask than it sounds. As our guide to <a href="../how-to-become-a-hand-model/">how to become a hand model</a> covers from the hand side, foot modeling sits inside the same wider "parts modeling" category, often at the same agencies and on the same board.</p>
+<p>What is not required at all: height, age, face, or a full-body figure. A foot board is judging exactly one thing, and everything else about you is irrelevant to the casting.</p>
+
+<h2>What Actually Gets You Signed</h2>
+<h3>Feet that need minimal retouching</h3>
+<p>Even skin tone, no visible calluses, cracked heels or bunions, straight toes, and nails that are healthy and evenly shaped. This is the single biggest factor, ahead of size or shape. Clients are paying for feet that arrive camera-ready, not for a project to fix in post.</p>
+<h3>A size in the common commercial range</h3>
+<p>Roughly a US 6 to 9 for women's boards and 8 to 11 for men's, because that is what footwear and hosiery brands sample their product in. Outside that range you are not excluded from modeling generally, just from the highest-volume part of this specific niche.</p>
+<h3>Digitals that show the feet clean and unstyled</h3>
+<p>Four to six phone photos: top-down (both feet together, then each alone), the sole, a side profile showing the arch, and one in a plain, low pair of shoes or sandals if you have them. Plain background, soft daylight, bare feet freshly washed and dried, no polish unless a specific job calls for it. Our full <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers the shot-list logic that applies here too: honest and unretouched beats styled every time at this stage.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-foot-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>Care Routines Working Foot Models Actually Use</h2>
+<ul>
+<li><b>Regular, plain pedicures.</b> Clean, natural nails at an even length. Polish only when a job specifically calls for it, since most castings want bare, neutral feet.</li>
+<li><b>A callus routine, kept up year-round.</b> A pumice stone or foot file after every shower, not a one-off scramble before a shoot. Calluses that build up over months take more than a week to undo.</li>
+<li><b>Daily moisturizer, especially on the heels.</b> Dry, cracked heels are the fastest way to get passed over, and they are also the easiest thing to prevent.</li>
+<li><b>Closed, supportive shoes day to day.</b> Flip-flops and unsupportive sandals worn constantly show up as calluses and misshapen toes over time.</li>
+<li><b>Risk management before a booking.</b> No new nail treatments, no barefoot beach walks, no unfamiliar shoes in the days before a shoot. The same logic hand models apply to their hands before a jewelry job.</li>
+</ul>
+
+<h2>Where Foot Models Actually Work</h2>
+<p>Footwear and sock e-commerce is the largest, steadiest lane: product listings need feet in the shoe, not just the shoe alone. Pedicure, nail-treatment and foot-care brands are a close second, since the whole product claim rests on how the feet look before and after. Hosiery and legwear round it out, and jewelry brands casting anklets and toe rings are a smaller but real niche.</p>
+<p>Our guide to <a href="../types-of-modeling/">the different types of modeling</a> covers where hand and parts work sits alongside every other category, useful context if you are weighing this against a broader path into modeling.</p>
+
+<h2>Agencies vs. Going Freelance First</h2>
+<p>Search for "parts agencies" or a "parts division" specifically, not just "modeling agencies": many mainstream agencies run a parts board tucked inside their commercial division, and a handful of specialist agencies do nothing but hands and feet. Legitimate agencies never charge an upfront fee to consider you.</p>
+<p>You do not need a signing to start. Casting platforms regularly post foot and parts calls for e-commerce and social content that do not require representation, and a small set of real bookings shot freelance makes a later agency submission stronger, not weaker. Knowing how to negotiate a rate and read a usage clause before you agree to one matters here as much as anywhere else in modeling; our guide to <a href="../how-to-become-a-freelance-model/">how to become a freelance model</a> covers both.</p>
+
+<h2>Reasons People Talk Themselves Out of Submitting, and Why They're Wrong</h2>
+<ul>
+<li><b>"My feet aren't perfect."</b> No one's are. What clients need is feet with no obvious flaw that needs fixing in post, not flawless feet in some abstract sense. A clean, consistent pair with basic upkeep is enough.</li>
+<li><b>"This is a weird thing to model."</b> It is a real, small commercial category with genuine paying clients, the same as hand or hosiery modeling. It only reads as strange because of how much unrelated content crowds the search term.</li>
+<li><b>"I need professional photos first."</b> Bookers want honest phone digitals of clean, bare feet, not a styled shoot. Spending money on photography before a submission is a wasted step, not a stronger one.</li>
+<li><b>"I'm not signed to a full modeling agency, so I can't apply."</b> Parts boards cast independently of a model's general representation. Plenty of working foot models have no other modeling work at all.</li>
+</ul>
+
+<h2>What the Work and the Pay Actually Look Like</h2>
+<p>Rates are set by the client and the usage, the same structure as every other parts category, and foot work is typically billed hourly or by the half-day rather than as one flat fee. Buyout usage, where the client pays once for broad, ongoing rights, is common in this niche, so always confirm how long, where and in what media the images will run before agreeing to a rate. A foot model who also has good hands, or vice versa, is a more valuable submission to most parts agencies than one who books only a single body part.</p>
+
+<h2>Your First Steps</h2>
+<ol>
+<li>Start a basic foot-care routine: regular pedicures, daily moisturizer, and a callus routine kept up year-round rather than rushed before a shoot.</li>
+<li>Shoot four to six honest digitals: top-down, sole, side profile of the arch, and one in a plain shoe, bare and unpolished.</li>
+<li>Search specifically for "parts agencies" or a "parts division," not just general modeling agencies.</li>
+<li>Submit to those agencies, and in parallel, watch casting platforms for direct foot and parts calls.</li>
+<li>Learn how a casting room actually works before you are standing in one.</li>
+</ol>
+<p>That last step is where our mentors, working agents and bookers who run parts boards for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
 `,
   },
 ];
