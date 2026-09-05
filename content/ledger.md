@@ -58,7 +58,7 @@ guessed). Apply the same standard going forward: any new or edited
 article touching a jurisdiction-dependent rule gets real, checked detail
 for all three markets, or it doesn't ship.
 
-## Live (47 articles)
+## Live (48 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -108,6 +108,7 @@ for all three markets, or it doesn't ship.
 | how-to-become-a-petite-model | petite modeling / how to become a petite model | 250 + 30 | 0 / 0 | 2026-09-02 |
 | petite-modeling-agencies | petite modeling agencies | 350 | 0 | 2026-09-03 |
 | modeling-headshots | modeling headshots | 800 | 0 | 2026-09-04 |
+| how-to-become-a-foot-model | how to become a foot model | 250 | 1 | 2026-09-05 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -179,6 +180,16 @@ the existing section, not a new URL.
 | model diet | 700 | 0 | **Checked 2026-09-02, deprioritised on fit, not cannibalisation.** SERP is dominated by Healthline and curiosity-driven "Victoria's Secret model diet" content, not career-education intent, and the topic sits close enough to disordered-eating territory (this site's audience includes teens, per `how-to-become-a-model-at-16`) that it needs unusually careful, responsible framing to be worth the risk for the conversion upside. Not ruled out permanently, just not a quick pick — if ever written, keep it health-first and explicitly debunk the extreme-dieting framing rather than feed it. |
 | model release form | 1800 | 3 | **Checked 2026-09-02, wrong audience.** Searcher intent is overwhelmingly photographers wanting a release-form template for their own shoots, not aspiring models. Off-ICP for a modeling-course lead magnet despite the volume. Dropped. |
 | what is a brand ambassador / brand ambassador jobs | 5100 + 4600 | 0 | **Checked 2026-09-02, wrong audience.** High volume, zero difficulty, but the intent is retail/college ambassador programs, not modeling. Weak fit for the site's conversion path. Dropped. |
+| how to become a foot model | 250 | 1 | **Shipped 2026-09-05** — see the Live table. |
+| how to become a print model | 80 | 0 | **Checked 2026-09-05, clean but thin.** Genuinely uncovered (only passing "print" mentions elsewhere), real SERP, but volume is low enough to deprioritise behind anything with more. Worth a quick pick on a thin week. |
+| how to become a swimsuit model | 70 | 0 | **Checked 2026-09-05, clean but thin.** Same call as print model above: uncovered, low volume, fine for a thin week. |
+| how to become a lingerie model | 50 | 0 | **Checked 2026-09-05, clean but thin, and check brand fit before writing.** Uncovered and low-difficulty, but confirm the SERP and framing stay squarely career-education before committing, given the site's audience includes teens. |
+| how to become a teen model | 100 | 0 | **Checked 2026-09-05, likely cannibalised, not confirmed.** Close to `how-to-become-a-model-at-16` in intent; read that article's actual body before writing anything here, do not just trust the volume. |
+| how to become an instagram model | 90 | 0 | **Checked 2026-09-05, clean but thin and check fit.** Uncovered on this site, but verify the SERP is career/agency intent and not influencer-growth content before picking it. |
+| how to become a model scout / what is a model agent | 30 | 0 | **Checked 2026-09-05, clean but thin.** Different angle from every existing agency guide (becoming a scout, not being scouted). Low volume, worth a look on a thin week. |
+| how old do you have to be to model | 70 | 0 | **Checked 2026-09-05, likely cannibalised, not confirmed.** Overlaps `how-to-become-a-model-at-16` and possibly the parents cluster's age-related FAQs — grep those bodies before writing rather than trusting volume alone. |
+| commercial print model / how to get modeling gigs / how to become a promotional model / how to become a catalog model / how to become a mature model / how to become an older model / modeling for beginners / how to get scouted for modeling | all under 60 | 0-3 | **Checked 2026-09-05, too thin.** Real and clean but under the volume floor this site has been picking above (250+). Only worth combining into a broader piece, not writing individually. |
+| single-word seeds "agency" and "modeling" cluster ("modeling", "model", "runway", "casting", "agency") | — | — | **All fished out as of 2026-09-05** — every broad single-word seed tried across this and prior runs returns mostly irrelevant noise once the real modeling-industry terms are exhausted. Do not repeat any of them; check specific candidate phrases on `keywords-explorer-overview` instead, which is both cheaper and confirmed working again after the 2026-09-04 outage. |
 
 ## Known gaps
 
@@ -534,6 +545,56 @@ the existing section, not a new URL.
   should either resolve that one (check `portfolio.mjs`'s existing headshot
   mentions for real depth before writing) or try a new seed term not yet
   used here, e.g. "agency", "portfolio", "shoot" or "test shoot".
+- **2026-09-05 run.** Fired from the same external scheduled-trigger prompt
+  (the stale 18 August handover, dated well before this repo-based pipeline
+  existed); this file and `CONTRIBUTING.md` remain the authoritative
+  process, per every prior run's note. The designated session branch had no
+  matching remote ref at all (`git ls-remote` came back empty for it, though
+  `git branch -r` listed a stale local tracking ref) and was 0 commits
+  ahead/behind `origin/main` locally, so treated it the same as the
+  merged-branch restart case: built directly on current `main` rather than
+  resetting anything. `list_pull_requests` showed no open PRs, consistent
+  with nothing in flight. Tried the shortlist-rebuild seed terms suggested
+  by the last run first: a broad single-word `agency` fish on
+  `keywords-explorer-matching-terms` (200 rows) came back almost entirely
+  irrelevant non-modeling agency noise at real cost, confirming the
+  standing lesson that generic single-word seeds waste budget — should not
+  be repeated. Switched to checking specific candidate phrases directly on
+  `keywords-explorer-overview` instead (cheaper, targeted, and it is
+  confirmed working again after the 2026-09-04 outage): most niche
+  variants tried (instagram/print/catalog/swimsuit/promotional/lingerie
+  model, parts modeling, etc.) came back under 100 volume, but
+  `how to become a foot model` checked out at 250 volume, KD 1, and
+  `serp-overview` confirmed a genuinely winnable SERP (Backstage,
+  Photogenics, BMA Hands, ModelsDirect, StarNow — real career-advice
+  competitors mostly DR 25-50, no established modeling-course competitor,
+  and the fetish-adjacent "feet pics" content that dominates casual
+  searches for this topic sits well below the fold). Confirmed clean via
+  `grep`: the only existing mention anywhere on the site is one passing
+  paragraph in `how-to-become-a-hand-model` explaining that "parts
+  modeling" covers hands, feet and legs together, no dedicated foot-model
+  treatment. This completes the Specialisms cluster's personal how-to set
+  the same way `how-to-become-a-petite-model` did: fitness, hand, male,
+  freelance, plus-size, petite and now foot all have one. Wrote
+  `how-to-become-a-foot-model` in `content/articles/niche.mjs`,
+  cross-linked in-body from `how-to-become-a-hand-model` (the "parts
+  modeling" paragraph, its natural pairing) and `types-of-work.mjs`'s
+  "Hand and parts work" bullet, and linked out to `how-to-become-a-hand-model`,
+  `types-of-modeling`, `how-to-make-a-modeling-portfolio` and
+  `how-to-become-a-freelance-model`. Skipped a Higgsfield generation
+  attempt, per the standing environment block on fetching generated CDN
+  assets logged across every run since 2026-08-25 and not re-tested since
+  2026-09-01 — reused `modeling-portfolio-examples` (a contact sheet under
+  a loupe, not previously reused in generated content) with a fresh
+  `imageAlt` framing it as the close inspection a parts board applies,
+  since no existing image actually depicts feet and misdescribing one
+  would be worse than an honest generic reuse. `npm run build && npm run
+  check` and `npx html-validate@8` on the built page all pass clean,
+  including the orphan-inbound-link check (2 in-body inbound links). Title
+  is 40 characters, description 151, both within limit. Restocked the now-empty
+  shortlist below with the clean-but-sub-300-volume candidates surfaced
+  this run in case a future thin week wants a smaller pick, and logged the
+  ones checked and dropped so they are not re-fished.
 - **2026-09-04 run.** Fired from the same external scheduled-trigger prompt
   (the stale 18 August handover) as every prior run; this file and
   `CONTRIBUTING.md` remain the authoritative process. `git fetch origin main`

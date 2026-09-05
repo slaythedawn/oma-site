@@ -179,7 +179,7 @@ export const typesOfWork = [
 <li><b>Advertising campaigns.</b> Print, digital and broadcast ads for a specific brand push, usually the highest-paying tier of commercial work because of the usage attached to it, covered below.</li>
 <li><b>Corporate and tech.</b> Stock-style imagery for software companies, banks, healthcare providers and B2B brands. Unglamorous, consistent, and often underrated as a category by new models chasing more visible work.</li>
 <li><b>Food, hospitality and lifestyle-adjacent.</b> Diners, servers, chefs and guests for restaurant, hotel and food-brand campaigns.</li>
-<li><b>Hand and parts work.</b> Close-up shots of hands, feet or other features for product photography. A real, specific niche with its own booking standards, covered in more depth in our guide to <a href="../how-to-become-a-hand-model/">how to become a hand model</a>.</li>
+<li><b>Hand and parts work.</b> Close-up shots of hands, feet or other features for product photography. A real, specific niche with its own booking standards, covered in more depth in our guides to <a href="../how-to-become-a-hand-model/">how to become a hand model</a> and <a href="../how-to-become-a-foot-model/">how to become a foot model</a>.</li>
 </ul>
 <p>A single working commercial model might book two or three of these categories in a single year, which is part of why the income tends to be steadier than fashion, even if any one job pays less than a headline runway booking.</p>
 
