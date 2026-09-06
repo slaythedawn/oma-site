@@ -7,6 +7,7 @@
 const DATE = '2026-08-30';
 const DATE_PETITE = '2026-09-02';
 const DATE_FOOT = '2026-09-05';
+const DATE_HAIR = '2026-09-06';
 
 export const niche = [
   {
@@ -299,6 +300,104 @@ export const niche = [
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
 <p>That last step is where our mentors, working agents and bookers who run parts boards for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+`,
+  },
+  {
+    slug: 'how-to-become-a-hair-model',
+    seoTitle: 'How to Become a Hair Model: A Real Guide',
+    description:
+      'How to become a hair model, from the people who book them: the salon route vs. paid commercial work, what actually gets you booked, and realistic pay.',
+    headline: 'How to Become a Hair Model: What Salons and Bookers Actually Want',
+    category: 'Niche',
+    image: 'how-to-become-a-model',
+    imageAlt: 'A model with healthy, natural hair against a plain wall in daylight, the framing a hair casting actually wants',
+    readTime: 9,
+    date: DATE_HAIR,
+    related: ['how-to-become-a-hand-model', 'types-of-modeling', 'how-to-make-a-modeling-portfolio'],
+    faq: [
+      {
+        q: 'What counts as a hair model?',
+        a: 'Two genuinely different things share the name. A salon or session hair model lets a stylist, colorist or academy student work on their hair, usually for free or a steep discount, in exchange for the stylist keeping before-and-after photos. A commercial hair model is booked and paid by a haircare brand, salon chain or styling-tool company to appear in ads, packaging or tutorial content. Almost everything ranking for this search is about the first kind; this guide covers both, because the second is the one with an actual income attached.',
+      },
+      {
+        q: 'Do hair models get paid?',
+        a: 'Salon and academy hair modeling usually is not paid in cash: the payment is the free or discounted service itself. Commercial hair modeling is paid like any other commercial booking, day rate plus usage, because a brand is licensing your image, not doing your hair as a favor. The two are not competing paths, they are different stages: many working commercial hair models started by building a look and a few photos through the salon route first.',
+      },
+      {
+        q: 'Do you need modeling experience to become a hair model?',
+        a: 'No. Salon hair modeling requires none at all, academies actively want first-timers. Paid commercial hair modeling has a lower bar than fashion or even general commercial casting, since a client is evaluating your hair, not your book, but a few honest digitals and a real submission still beat walking in with nothing.',
+      },
+      {
+        q: 'Is free haircut hair modeling a scam?',
+        a: 'Not inherently. Legitimate salons, hairdressing schools and photographers run real hair-model calls, and a free or discounted service in exchange for photo rights is a fair, ordinary trade. It becomes a problem only if you are asked to pay anything upfront, sign away rights you do not understand, or accept a result you did not agree to. Read the release before you sit in the chair, the same rule as any modeling release.',
+      },
+      {
+        q: 'Can men become hair models?',
+        a: "Yes, on both routes. Barbershops and men's grooming academies run hair-model calls the same way salons do for women's hair, and haircare, grooming and styling-tool brands cast men's hair campaigns specifically. It is a smaller, less crowded pool than the women's side on the commercial route.",
+      },
+      {
+        q: 'What ruins a hair model submission?',
+        a: 'Visibly damaged, over-processed or brittle hair, since that is exactly what a haircare brand is trying to sell against, not photograph. A fresh, dramatic dye job or cut right before you submit is a close second: brands and salons alike need to see your actual current hair, not a look that is about to change again in a week.',
+      },
+    ],
+    body: `
+<p>Search "how to become a hair model" and almost everything that ranks is the same story: a hairdressing student or salon needs someone to practice on, and will cut, color or style your hair for free or cheap in exchange for keeping the photos. That is real and worth knowing about. It is also not the only thing "hair model" means, and it is not the version with an actual paycheck attached.</p>
+<p>Our instructors at Online Model Academy include agents and bookers who cast commercial work for haircare and styling-product brands. This guide covers the salon route honestly, then the paid commercial route those brands actually book.</p>
+
+<h2>What Hair Modeling Actually Is</h2>
+<p>Two different things share the name, and clearing up the mix-up matters before anything else.</p>
+<ul>
+<li><b>Salon and session hair modeling.</b> A stylist, colorist or hairdressing academy needs a real head of hair to cut, color or style, usually for training, a portfolio, or a platform demo at a hair show. Payment is the service itself, free or heavily discounted, in exchange for the salon or student keeping before-and-after photos.</li>
+<li><b>Commercial hair modeling.</b> A haircare brand, salon chain, styling-tool company or wig and extension brand books a model, paid, to appear in packaging, advertising, e-commerce or tutorial content built around their product. This is booked the same way any other commercial category is booked, through an agency's parts or commercial board, or direct client casting.</li>
+</ul>
+<p>Both are legitimate. The confusion online exists because the salon version is far more commonly written about, and far more commonly searched by people who are not thinking about modeling as a career at all. If you are reading this because you want to be paid for a haircare campaign someday, the second path is the one to build toward, and the first is a genuinely useful way to build a look and a few honest photos on the way there.</p>
+
+<h2>What Actually Gets You Signed or Booked</h2>
+<h3>Hair in genuinely good condition</h3>
+<p>Healthy, unbroken, well-conditioned hair, whatever its length or texture, is the single biggest factor on the commercial side. A brand photographing a shampoo campaign is selling the promise of hair like yours; visibly damaged, over-processed or brittle hair works directly against that, no matter how striking the cut or color is.</p>
+<h3>Versatility, not a single fixed look</h3>
+<p>Brands and salons alike want hair that photographs well styled several different ways: straight, wavy, curled, pulled back. A cut that only ever looks good one way is a narrower booking than one that holds up across a shoot day of styling changes.</p>
+<h3>A texture or color brands are actively short on</h3>
+<p>Demand for a genuine range of natural textures and colors, not just one industry-standard look, is real and growing across haircare advertising specifically, and it is one of the more underrated ways into this niche if your hair does not fit the narrowest commercial stereotype.</p>
+<h3>Digitals that actually show the hair</h3>
+<p>Four to six phone photos: hair down and natural, no fresh blowout or styling product, front, back, and a close-up that shows texture and condition honestly, in daylight against a plain background. The same honest, unretouched standard as every other category; our full <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers the shot-list logic in more depth.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-hair-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>Where Hair Models Actually Work</h2>
+<p>Haircare packaging and e-commerce is the steadiest commercial lane: shampoo, conditioner and treatment brands need real hair, not just a bottle, on every listing and box. Styling-tool brands, straighteners, curling tools, dryers, follow close behind, along with tutorial and how-to video content for both haircare and styling brands. Salon chains and wig or extension brands round it out, and hair-show platform work, where a stylist demonstrates a technique live in front of an audience using a model, sits alongside the salon route as a smaller but real paid option once you have a relationship with a salon or academy.</p>
+<p>Our guide to <a href="../types-of-modeling/">the different types of modeling</a> covers where hair sits alongside parts modeling and every other category, useful context if you are weighing this against a broader path in.</p>
+
+<h2>The Salon Route vs. Going Straight for Paid Work</h2>
+<p>Hairdressing schools and academies (cosmetology programs, barbering schools, platform artist training) post hair-model calls constantly, usually through their own front desk or a local Facebook or Instagram group. It costs nothing but your time and the risk of a haircut you may not love, and it is a genuinely reasonable way to get comfortable in front of a camera and build a first set of honest photos.</p>
+<p>Paid commercial hair work runs through a different door: an agency's parts or commercial board, the same one that casts hand and foot work, or direct casting calls from haircare and styling brands on casting platforms. Search for that specifically, "hair modeling" or "parts board" at an agency, rather than assuming a general modeling agency submission covers it. Our guide to <a href="../how-to-become-a-hand-model/">how to become a hand model</a> covers how parts boards work from the hand side; hair often sits on the same board.</p>
+<p>Read whatever release you are asked to sign before either route, salon or commercial. A fair release describes exactly what will be done to your hair and how the photos will be used. Anything that asks you to pay upfront, at either kind of booking, is not a legitimate hair-model call.</p>
+
+<h2>Reasons People Talk Themselves Out of Submitting, and Why They're Wrong</h2>
+<ul>
+<li><b>"My hair isn't the industry-standard type."</b> Brands are specifically short on genuine texture and color range right now. A hair type that does not fit the narrowest commercial stereotype is a gap to fill, not a disqualification.</li>
+<li><b>"I don't have professional photos."</b> Neither route needs them. A salon call wants to see your current hair honestly; a commercial submission wants the same phone digitals every other category asks for.</li>
+<li><b>"I already tried the free-haircut kind and it wasn't a real path anywhere."</b> It isn't meant to be the whole path. It is a way to build a look and a first set of photos, not a substitute for actually submitting to an agency's parts board or a brand's casting call afterward.</li>
+<li><b>"This is too small a niche to bother with."</b> It is a real, ongoing category with its own clients, the same as hand or foot modeling, just less written about because so much of the search space around it is salon content instead.</li>
+</ul>
+
+<h2>What the Work and the Pay Actually Look Like</h2>
+<p>Salon and academy hair modeling pays in service value, not cash, so weigh the haircut or color you are agreeing to as the actual compensation, not a bonus on top of a fee. Paid commercial hair work is set by the client and the usage, the same structure as every other commercial category, typically billed hourly or by the half-day, with buyout usage, the brand paying once for broad ongoing rights, common for packaging work specifically. Confirm usage before agreeing to a rate, the same rule that applies everywhere else in modeling.</p>
+
+<h2>Your First Steps</h2>
+<ol>
+<li>Shoot four to six honest digitals of your hair down and natural, daylight, plain background, no fresh styling product.</li>
+<li>If you want to build a look and some photos first, find a local salon, academy or platform-artist call and read the release carefully before you sit down.</li>
+<li>Search specifically for an agency's "hair" or "parts" board, or direct haircare and styling-brand casting calls, not just general modeling agencies.</li>
+<li>Submit with your digitals and be upfront about your hair's current condition and history, brands need to know what they are booking.</li>
+<li>Learn how a casting room actually works before you are standing in one.</li>
+</ol>
+<p>That last step is where our mentors, working agents and bookers who cast commercial work for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
 `,
   },
 ];

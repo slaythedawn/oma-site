@@ -109,6 +109,7 @@ for all three markets, or it doesn't ship.
 | petite-modeling-agencies | petite modeling agencies | 350 | 0 | 2026-09-03 |
 | modeling-headshots | modeling headshots | 800 | 0 | 2026-09-04 |
 | how-to-become-a-foot-model | how to become a foot model | 250 | 1 | 2026-09-05 |
+| how-to-become-a-hair-model | how to become a hair model | 250 | 0 | 2026-09-06 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -190,6 +191,14 @@ the existing section, not a new URL.
 | how old do you have to be to model | 70 | 0 | **Checked 2026-09-05, likely cannibalised, not confirmed.** Overlaps `how-to-become-a-model-at-16` and possibly the parents cluster's age-related FAQs — grep those bodies before writing rather than trusting volume alone. |
 | commercial print model / how to get modeling gigs / how to become a promotional model / how to become a catalog model / how to become a mature model / how to become an older model / modeling for beginners / how to get scouted for modeling | all under 60 | 0-3 | **Checked 2026-09-05, too thin.** Real and clean but under the volume floor this site has been picking above (250+). Only worth combining into a broader piece, not writing individually. |
 | single-word seeds "agency" and "modeling" cluster ("modeling", "model", "runway", "casting", "agency") | — | — | **All fished out as of 2026-09-05** — every broad single-word seed tried across this and prior runs returns mostly irrelevant noise once the real modeling-industry terms are exhausted. Do not repeat any of them; check specific candidate phrases on `keywords-explorer-overview` instead, which is both cheaper and confirmed working again after the 2026-09-04 outage. |
+| how to become a hair model | 250 | 0 | **Shipped 2026-09-06** — see the Live table. |
+| mother agency | 300 | 16 | **Checked 2026-09-06, cannibalised.** `how-to-choose-a-modeling-agency` already has a dedicated "Mother agencies" H3 and an FAQ entry ("Do I need a mother agency?") covering it in depth. Do not write. |
+| modeling audition | 100 | 10 | **Checked 2026-09-06, cannibalised.** `model-casting-calls` and `open-casting-call` already treat "audition" as synonymous with "casting call" throughout, including in `model-casting-calls`'s own FAQ ("An audition where a brand..."). Do not write. |
+| how to become a runway model | 200 | 0 | **Checked 2026-09-06, cannibalised.** `runway-model` already has a dedicated "How to Actually Get Started" H2 covering the personal path in. Do not write. |
+| how to become a commercial model | 100 | 0 | **Checked 2026-09-06, cannibalised.** `what-is-commercial-modeling` already has a dedicated "How to Actually Get Into Commercial Modeling" H2. Do not write. |
+| how to become an extra | 150 | 11 | **Checked 2026-09-06, wrong audience.** Clean and uncovered, but the intent is background/film-extra work, not modeling — the same off-ICP call as the dropped `brand ambassador` cluster. Dropped. |
+| modeling agencies los angeles / new york / chicago / miami / atlanta | 700 / 200 / 200 / 100 / 100 | 49 / 45 / 38 / 28 / 45 | **Checked 2026-09-06, real opportunity but a bigger lift than a normal weekly pick.** Real volume, but KD sits well above this site's usual floor (most live articles are KD 0-10; `modeling-schools` at KD 35 is the current outlier), and a credible city agency-directory page needs verified, named local agencies researched per city, not the personal-narrative format this site otherwise uses. Worth a dedicated future project (start with LA, highest volume) rather than a same-run pick — flagging here so it isn't lost, not ruling it out. |
+| how to become a hand model / foot model / male model / fitness model / plus-size model / petite model / freelance model / commercial model | — | — | **Specialisms cluster's personal how-to set is now complete twice over (adding hair 2026-09-06).** Before writing another niche "how to become a [X] model" entry, check this list and the SERP/volume notes above (print, swimsuit, lingerie under 100 vol; teen and "how old" likely cannibalised by `how-to-become-a-model-at-16`) — the remaining thin candidates are combine-into-a-broader-piece material, not individual articles, per the 2026-09-05 note. |
 
 ## Known gaps
 
@@ -648,3 +657,79 @@ the existing section, not a new URL.
   audience fit. The next run needs a fresh keyword-research pass from
   scratch, ideally once `keywords-explorer-overview` or the multi-word path
   on `matching-terms` is confirmed working again.
+- **2026-09-06 run.** Fired from the same external scheduled-trigger prompt
+  (the stale 18 August chat-routine handover, describing a pre-repo
+  Python/zip workflow that no longer exists); this file and
+  `CONTRIBUTING.md` remain the authoritative process, per every prior run's
+  note — treated the stored prompt as superseded rather than followed
+  literally. `git fetch origin main`, `git ls-remote` on the designated
+  session branch (empty, no matching remote ref, same as the 2026-09-05
+  run) and `list_pull_requests`/`list_branches` via the GitHub MCP done
+  before writing: no open PRs, and every remote branch was one already
+  confirmed superseded above, so built directly on `origin/main` rather
+  than resetting anything. Per the last run's note, the shortlist was
+  empty and `keywords-explorer-overview` needed a fresh pass from scratch:
+  tried a batch of specific multi-word candidate phrases directly (agency
+  process terms — mother agency, modeling contract, modeling audition,
+  modeling open call, submission/application terms) rather than a generic
+  single-word seed, since single-word fishing was flagged as the expensive,
+  low-yield move in three of the last four runs. `mother agency` (300 vol,
+  KD 16) looked promising on volume alone but checked out cannibalised on
+  a full-text grep, not just the ledger table: `how-to-choose-a-modeling-agency`
+  has a dedicated "Mother agencies" H3 and an FAQ entry ("Do I need a
+  mother agency?") that already answers the query in depth. `modeling
+  audition` (100 vol, KD 10) and `how to become a runway model` (200 vol,
+  KD 0) both checked out cannibalised the same way: `model-casting-calls`
+  and `open-casting-call` already treat "audition" as synonymous with
+  "casting call" throughout their bodies and FAQs, and `runway-model` has
+  its own "How to Actually Get Started" H2 covering the personal path in.
+  `how to become a commercial model` (100 vol, KD 0) was cannibalised too —
+  `what-is-commercial-modeling` has a dedicated "How to Actually Get Into
+  Commercial Modeling" H2. US city agency-directory keywords (`modeling
+  agencies los angeles` 700 vol/KD 49, `new york` 200/KD 45, `chicago`
+  200/KD 38) had real volume but sit well above this site's established
+  KD floor and would need verified, named local agencies researched per
+  city, a bigger and riskier lift than a single run should take on
+  speculatively — noted below as a possible future project, not picked
+  now. `how to become an extra` (150 vol, KD 11) was clean but wrong
+  audience: background/film-extra work, not modeling, the same
+  off-ICP call as the dropped `brand ambassador` cluster. `how to become a
+  hair model` (250 vol, KD 0) checked out genuinely clean and on-ICP:
+  grepped the whole repo for "hair model" and found nothing, and a
+  separate grep for bare "hair" turned up only the same one-word mention
+  repeated across `getting-started.mjs`, `agencies-au.mjs`, `agencies-us.mjs`
+  and `jobs.mjs` ("Parts — hands, feet, hair, skin"), never expanded on,
+  the same passing-mention pattern that made foot modeling a clean pick
+  the run before. `serp-overview` confirmed a winnable SERP: Indeed,
+  Backstage, StarNow and ModelsDirect (DR 45-92 but general career-advice
+  publishers, not modeling-course competitors) alongside Reddit and
+  YouTube results, no established competitor in this exact niche. This
+  completes the Specialisms cluster's personal how-to set a second time
+  over: fitness, hand, male, freelance, plus-size, petite, foot and now
+  hair all have one. Wrote `how-to-become-a-hair-model` in
+  `content/articles/niche.mjs`, framed around the genuine two-senses mix-up
+  in this search term (free/discounted salon-and-academy hair modeling vs.
+  paid commercial hair modeling for haircare and styling brands) the same
+  way the petite article cleared up the retail-sizing mix-up, since almost
+  every organic result for this keyword is the salon sense and this site's
+  paying audience wants the commercial one. Cross-linked in-body from a
+  new "Hair modeling" H3 added to `types-of-work.mjs` (`types-of-modeling`,
+  right after the existing "Hand and parts modeling" H3, which was also
+  extended to link the foot-model guide it was missing) and from the
+  "Which Board You Fit" list in `agencies-us.mjs`
+  (`what-do-modeling-agencies-look-for`), satisfying the 2+ in-body-link
+  orphan check. Added the slug to the Specialisms cluster in
+  `scripts/build-index-and-sitemap.mjs`. Skipped a Higgsfield generation
+  attempt: checked `/root/.ccr/__agentproxy/status` first (empty
+  `recentRelayFailures`, meaning untested rather than fixed, consistent
+  with every check since 2026-08-25) and reused `how-to-become-a-model`
+  (a plain-wall studio portrait, already reused once before for
+  `how-to-become-a-plus-size-model`) with a fresh `imageAlt` describing
+  hair-focused framing, since it is the closest existing image that
+  actually shows hair clearly against a plain background. `npm run build
+  && npm run check` and `npx html-validate@8` on the built page all pass
+  clean, including the orphan-inbound-link check. Title is 40 characters,
+  description 150, both within limit. The shortlist below is restocked
+  with the checked-and-dropped candidates from this run's scan so they are
+  not re-fished, plus the US city agency-directory idea flagged as a
+  possible larger future project rather than a quick weekly pick.
