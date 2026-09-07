@@ -58,7 +58,7 @@ guessed). Apply the same standard going forward: any new or edited
 article touching a jurisdiction-dependent rule gets real, checked detail
 for all three markets, or it doesn't ship.
 
-## Live (48 articles)
+## Live (50 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -110,6 +110,8 @@ for all three markets, or it doesn't ship.
 | modeling-headshots | modeling headshots | 800 | 0 | 2026-09-04 |
 | how-to-become-a-foot-model | how to become a foot model | 250 | 1 | 2026-09-05 |
 | how-to-become-a-hair-model | how to become a hair model | 250 | 0 | 2026-09-06 |
+| kids-modelling-agency-australia | kids modelling agency australia | AU | — | 2026-09-03 |
+| how-to-become-a-fit-model | how to become a fit model | 70 | 0 | 2026-09-07 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -198,7 +200,12 @@ the existing section, not a new URL.
 | how to become a commercial model | 100 | 0 | **Checked 2026-09-06, cannibalised.** `what-is-commercial-modeling` already has a dedicated "How to Actually Get Into Commercial Modeling" H2. Do not write. |
 | how to become an extra | 150 | 11 | **Checked 2026-09-06, wrong audience.** Clean and uncovered, but the intent is background/film-extra work, not modeling — the same off-ICP call as the dropped `brand ambassador` cluster. Dropped. |
 | modeling agencies los angeles / new york / chicago / miami / atlanta | 700 / 200 / 200 / 100 / 100 | 49 / 45 / 38 / 28 / 45 | **Checked 2026-09-06, real opportunity but a bigger lift than a normal weekly pick.** Real volume, but KD sits well above this site's usual floor (most live articles are KD 0-10; `modeling-schools` at KD 35 is the current outlier), and a credible city agency-directory page needs verified, named local agencies researched per city, not the personal-narrative format this site otherwise uses. Worth a dedicated future project (start with LA, highest volume) rather than a same-run pick — flagging here so it isn't lost, not ruling it out. |
-| how to become a hand model / foot model / male model / fitness model / plus-size model / petite model / freelance model / commercial model | — | — | **Specialisms cluster's personal how-to set is now complete twice over (adding hair 2026-09-06).** Before writing another niche "how to become a [X] model" entry, check this list and the SERP/volume notes above (print, swimsuit, lingerie under 100 vol; teen and "how old" likely cannibalised by `how-to-become-a-model-at-16`) — the remaining thin candidates are combine-into-a-broader-piece material, not individual articles, per the 2026-09-05 note. |
+| how to become a hand model / foot model / male model / fitness model / plus-size model / petite model / freelance model / commercial model / fit model | — | — | **Specialisms cluster's personal how-to set is now complete three times over (adding fit 2026-09-07).** Before writing another niche "how to become a [X] model" entry, check this list and the SERP/volume notes above (print, swimsuit, lingerie under 100 vol; teen and "how old" likely cannibalised by `how-to-become-a-model-at-16`) — the remaining thin candidates are combine-into-a-broader-piece material, not individual articles, per the 2026-09-05 note. |
+| how to become a fit model | 70 | 0 | **Shipped 2026-09-07** — see the Live table. |
+| fit model (bare) | 800 | 0 | **Checked 2026-09-07, wrong sense — do not target.** High volume looks tempting, but the SERP is dominated by the IFBB bodybuilding/bikini competition "Fit Model" division (Wikipedia, NPC News, Instagram), a completely different meaning from garment-fitting fit modeling. `how to become a fit model` (70 vol) carries the correct sense and a clean, winnable SERP instead; that is the keyword this site targeted, not the bare term. |
+| modeling contract | 150 | 0 | **Checked 2026-09-07, clean but a different content shape.** Genuinely uncovered as a dedicated page, but the intent is a legal-reference/FAQ topic, not a personal how-to narrative — better suited to an FAQ expansion on an existing agency article than a standalone guide. Not written this run; worth a look if a future run wants a non-niche pick. |
+| how to become a tattoo model | 150 | 0 | **Checked 2026-09-07, clean, held for a future thin week.** Genuinely uncovered, real SERP, similar tier to the other sub-200-volume Specialisms candidates already logged above. `how to become a fit model` was picked instead this run for its stronger pay/commercial-relevance story. |
+| how to become a bikini model | 40 | 1 | **Checked 2026-09-07, too thin.** Parent topic is `swimsuit model`, likely close to the already-checked swimsuit/lingerie cluster. Under this site's volume floor. |
 
 ## Known gaps
 
@@ -733,3 +740,70 @@ the existing section, not a new URL.
   with the checked-and-dropped candidates from this run's scan so they are
   not re-fished, plus the US city agency-directory idea flagged as a
   possible larger future project rather than a quick weekly pick.
+- **2026-09-07 run.** Fired from the same external scheduled-trigger prompt (the
+  stale 18 August chat-routine handover, describing a pre-repo Python/zip
+  workflow superseded by this ledger and the `content/`/`scripts/` pipeline
+  weeks ago); this file and `CONTRIBUTING.md` remain the authoritative process,
+  per every prior run's note. `git fetch origin main` (branch was 0 ahead/0
+  behind `origin/main`, so built directly on current history rather than
+  resetting) and `list_pull_requests` (none open) plus `list_branches` (every
+  remote branch besides `main` and this session's own was already confirmed
+  superseded above, no new ones) done before writing, per the standing
+  collision lesson. The shortlist was empty per the 2026-09-06 note, so ran a
+  fresh batch of specific candidate phrases on `keywords-explorer-overview`
+  rather than a single-word seed (agency-process and niche-adjacent terms:
+  modeling contract, modeling open call, agency fees/requirements, several
+  under-explored "how to become a [niche] model" variants). Most were thin or
+  zero volume (submit-to-an-agency, agency-fees, modeling-without-an-agency,
+  swimwear, alt-model all at 0 vol) or dropped on content-shape grounds
+  (`modeling contract`, 150 vol/KD 0, is genuinely clean but a legal-FAQ topic
+  rather than a personal how-to narrative, logged to the shortlist for a
+  future non-niche pick rather than written now). `fit model` (bare, 800 vol,
+  KD 0) looked like the best find on volume alone but the SERP
+  (`serp-overview`) turned out to be the wrong sense entirely: IFBB
+  bodybuilding/bikini competition's "Fit Model" division (Wikipedia, NPC News,
+  Instagram), not garment-fitting fit modeling — the same kind of volume trap
+  the `brand ambassador` and `model release form` drops caught previously, just
+  from SERP sense-drift rather than audience mismatch. `how to become a fit
+  model` (70 vol, KD 0, parent topic `fit model jobs`) carries the correct
+  sense and a clean, winnable SERP instead (Backstage, Indeed, ModelScouts, a
+  couple of small agency pages, no modeling-course competitor), confirmed via
+  a full-repo grep that no article treats fit modeling as more than a
+  two-to-three-sentence aside (`jobs.mjs`'s "Fit modeling" H3, `money.mjs`'s
+  "Parts and fit modeling" H3, plus shorter mentions in `agencies-us.mjs`,
+  `types-of-work.mjs` and `niche.mjs`), the same passing-mention-is-not-full-
+  coverage pattern that made foot, hair and petite clean picks despite
+  existing adjacent mentions. Wrote `how-to-become-a-fit-model` in
+  `content/articles/niche.mjs`, cross-linked in-body from the existing "Fit
+  modeling" H3 in `jobs.mjs` and the "Parts and fit modeling" H3 in
+  `money.mjs` (2 inbound links, satisfying the orphan check), and linked out
+  to `how-to-make-a-modeling-portfolio`, `modeling-jobs`, `how-much-do-models-
+  make` and `types-of-modeling`. Added the slug to the Specialisms cluster in
+  `scripts/build-index-and-sitemap.mjs`. Also found and fixed a pre-existing
+  ledger gap unrelated to this run's own article: `kids-modelling-agency-
+  australia` (shipped 2026-09-03 per its git history) was live on disk and in
+  the sitemap but had never been added to this table — added it now with its
+  target keyword, discovered via `for d in blog/*; do grep -q "$d" ledger.md
+  || echo missing; done`, worth another session repeating that check
+  periodically since the table is hand-maintained and can silently drift from
+  the actual article set. Skipped a Higgsfield generation attempt, per the
+  standing environment block on fetching generated CDN assets logged across
+  every run since 2026-08-25 and not re-tested since 2026-09-01 — reused
+  `how-to-become-a-male-model` (a plain-wall, full-length standing portrait in
+  fitted, unstyled clothes, not previously reused in generated content) with a
+  fresh `imageAlt`, since a model standing still and square-on against a bare
+  wall is a genuinely close visual match for what a fitting actually looks
+  like. One escaping mistake worth flagging for next time: the first `Edit`
+  pass on `content/articles/niche.mjs` used `\\'` (double-escaped) for
+  apostrophes inside the new FAQ answers, intending a single `\'` to reach the
+  file; it wrote a literal backslash-plus-apostrophe instead and broke
+  `npm run build` with a `SyntaxError` on the very next FAQ answer's opening
+  quote. Fixed with a plain string replace of `\\'` back to `\'` across the
+  new block rather than retyping it. `npm run build && npm run check` and
+  `npx html-validate@8` on the built page all pass clean, including the
+  orphan-inbound-link check. Title is 39 characters, description 148, both
+  within limit. Restocked the shortlist with this run's checked-and-dropped
+  candidates (bare `fit model`, `modeling contract`, `how to become a bikini
+  model`) plus `how to become a tattoo model` (150 vol, KD 0, clean but held
+  for a future thin week since fit model's pay story was the stronger pick
+  this run).

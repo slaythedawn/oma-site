@@ -118,6 +118,7 @@ const CLUSTERS = [
       'how-to-become-a-hand-model',
       'how-to-become-a-foot-model',
       'how-to-become-a-hair-model',
+      'how-to-become-a-fit-model',
       'how-to-become-a-freelance-model',
     ],
   },

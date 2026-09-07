@@ -67,7 +67,7 @@ export const jobs = [
 <h3>Catalogue and e-commerce</h3>
 <p>High volume, repeat bookings, unglamorous and reliable. Brands shoot new ranges constantly. A model who is efficient, consistent and easy on set gets rebooked here indefinitely.</p>
 <h3>Fit modeling</h3>
-<p>The most under-discussed well-paid work in the industry. Brands need someone with stable, specific measurements to fit garments during development. It is regular, hourly-paid, long-term, and almost invisible from outside because there are no published images.</p>
+<p>The most under-discussed well-paid work in the industry. Brands need someone with stable, specific measurements to fit garments during development. It is regular, hourly-paid, long-term, and almost invisible from outside because there are no published images. Our <a href="../how-to-become-a-fit-model/">fit modeling guide</a> covers what the job actually involves and how to get booked.</p>
 <h3>Parts modeling</h3>
 <p>Hands, feet, hair, skin. Specialist, well paid per hour, and a genuine career for people who would never be cast on a fashion board. Our <a href="../how-to-become-a-hand-model/">hand modeling guide</a> covers what those clients look for.</p>
 <h3>Runway</h3>
