@@ -8,6 +8,7 @@ const DATE = '2026-08-30';
 const DATE_PETITE = '2026-09-02';
 const DATE_FOOT = '2026-09-05';
 const DATE_HAIR = '2026-09-06';
+const DATE_FIT = '2026-09-07';
 
 export const niche = [
   {
@@ -398,6 +399,99 @@ export const niche = [
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
 <p>That last step is where our mentors, working agents and bookers who cast commercial work for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+`,
+  },
+  {
+    slug: 'how-to-become-a-fit-model',
+    seoTitle: 'How to Become a Fit Model: A Real Guide',
+    description:
+      'How to become a fit model, from the people who book them: what fit modeling actually is, the measurements brands need, agencies vs. direct, and pay.',
+    headline: 'How to Become a Fit Model: What Brands Actually Need',
+    category: 'Niche',
+    image: 'how-to-become-a-male-model',
+    imageAlt: 'A model standing still and square-on against a plain wall in fitted, unstyled clothing, the stance a fitting actually needs',
+    readTime: 9,
+    date: DATE_FIT,
+    related: ['modeling-jobs', 'how-much-do-models-make', 'types-of-modeling'],
+    faq: [
+      {
+        q: 'What is the difference between a fit model and a fitness model?',
+        a: 'Nothing but the name. A fitness model is cast for how they look in athletic marketing, campaigns, gym brands, activewear catalogues. A fit model is cast for precise, stable body measurements and is booked by a brand\'s design and technical team to try on garment samples during development, so a pattern maker can see how the piece actually fits before it goes into production. The two searches get mixed up constantly because of the shared word, but they are different jobs with different clients.',
+      },
+      {
+        q: 'What measurements do you need to become a fit model?',
+        a: 'It depends entirely on which size range a brand manufactures, because a fit model\'s whole value is matching that brand\'s sample size exactly. A women\'s better-market or contemporary label often fits samples on a size 6 or 8, a plus-size brand fits its own separate range, often around size 18 to 20, and petite and menswear brands each fit to their own spec. There is no single "fit model size": there are as many specs as there are brands, and the job is matching one of them consistently.',
+      },
+      {
+        q: 'Do fit models need to be a specific look?',
+        a: 'No, and this is the biggest thing that separates fit modeling from almost every other category. A design or technical team is evaluating how fabric drapes, where a seam sits, whether a sleeve moves properly, not your face or your book. Consistent, stable measurements matter far more than photogenic looks, which is exactly why fit modeling stays open to people who would never get signed to a fashion or commercial board.',
+      },
+      {
+        q: 'Do fit models need an agency?',
+        a: 'Not always. Some brands, especially smaller labels and manufacturers, hire fit models directly and keep them on an ongoing basis for a specific product line. Larger brands more often book through an agency\'s fit division or a specialist fit-modeling agency. Both routes are real; submitting to specialist fit agencies while also reaching out to brands and manufacturers directly widens your odds either way.',
+      },
+      {
+        q: 'How much do fit models make?',
+        a: 'Fit modeling is one of the few corners of the industry paid straightforwardly by the hour rather than a day rate plus usage, because the client is paying for your time and your body\'s consistency during a fitting session, not licensing an image. Sessions are frequently repeat bookings with the same brand across a garment\'s development, sometimes over months, which makes the income steadier than most modeling work even where a single session pays modestly.',
+      },
+      {
+        q: 'Where is most fit modeling work based?',
+        a: 'It clusters wherever a market has an active garment industry, design studios and sample rooms working in person, which in the US means New York\'s garment district above almost anywhere else, with a smaller amount of work in Los Angeles and other apparel hubs. It is a harder category to break into freelance and remote than most modeling work, because a fitting is a physical, in-person session by nature.',
+      },
+    ],
+    body: `
+<p>Type "fit model" into a search bar and most of what comes back is actually about fitness modeling, gym-and-activewear marketing work that has nothing to do with garment fitting at all. The two share a word and almost nothing else. Fit modeling is one of the more misunderstood corners of the industry precisely because its own name gets mistaken for a completely different job.</p>
+<p>Our instructors at Online Model Academy include agents and bookers who place fit models with real apparel brands. This is what the job actually is, not the fitness-marketing career the name keeps getting confused with.</p>
+
+<h2>What Fit Modeling Actually Is</h2>
+<p>A brand designing a new garment builds it first as a sample, then needs to see how that sample actually sits on a real body before it goes anywhere near mass production. That is the fit model's job: trying on the sample, standing still through careful measuring and pinning, moving the way the garment will actually be worn, walking, sitting, raising an arm, and giving the design and technical team clear feedback on where it pulls, where it gapes, and whether it moves the way it should. A pattern maker adjusts the pattern based on that session, and often needs the exact same body back for the next round to check the fix worked.</p>
+<p>That last part is what makes fit modeling different from almost every other category in this industry. A brand is not casting a face or a portfolio. It is casting a specific, stable set of measurements that matches its sample size, and once it finds a body that fits, it wants that same body back, session after session, for as long as that product line runs.</p>
+
+<h2>What Actually Gets You Booked</h2>
+<h3>Measurements that match a real sample size, exactly</h3>
+<p>Every brand fits its samples to its own spec, so there is no single universal "fit model" measurement to hit. A women's contemporary label might sample on a size 6 or 8, a plus-size brand fits its own separate range, a petite label its own, menswear its own. What matters is knowing your real, current measurements precisely, bust or chest, waist, hips, inseam, shoulder width, and being honest about them, because a fitting only works if the numbers are accurate.</p>
+<h3>Measurements that stay stable</h3>
+<p>Brands book the same fit model repeatedly across a garment's development, sometimes for months, specifically because a moving target is useless to a pattern maker. Consistency over time, not a single great day, is what makes a fit model valuable to a client long after the first session.</p>
+<h3>Patience and clear physical feedback</h3>
+<p>A fitting session can run long: standing still while pins go in, changing in and out of samples repeatedly, describing exactly where something pulls or where a seam sits wrong. Technical designers rely on that feedback directly, so being able to describe what you feel accurately, not just stand there, is a real skill the job rewards.</p>
+<h3>A straightforward submission, not a styled shoot</h3>
+<p>Most fit-model submissions want current, accurate measurements first and a few honest photos second: plain, well-lit, unposed, showing your natural build clearly rather than styled to flatter it. Our full <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers honest digitals in more depth, and the same standard applies here even though the job itself is not about how you photograph.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-fit-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>Where Fit Models Actually Work</h2>
+<p>Apparel brands and manufacturers across every size range: straight-size, plus-size, petite and menswear labels each fit to their own separate spec, so a fit model who matches one brand's sample size may not match another's at all. Design studios, garment manufacturers and pattern-making houses book fit sessions directly as part of ordinary product development, not as a one-off event.</p>
+<p>It is a more location-bound category than most of this industry, because a fitting is a physical, in-person session by nature, not something shot and sent. Work clusters wherever a real garment industry, design studios and sample rooms operating in person, actually exists, which in the US means New York's garment district well above anywhere else, with a smaller amount of work in Los Angeles and other apparel hubs. Our guide to <a href="../modeling-jobs/">where modeling work actually comes from</a> covers how fit work compares to the rest of the industry's job categories.</p>
+
+<h2>Agencies vs. Going Direct</h2>
+<p>Both routes are real here in a way that is less true elsewhere in modeling. Some agencies run a dedicated fit division inside their commercial board, and a small number of specialist agencies place fit models exclusively, working directly with brands' design and technical teams. Search for "fit modeling agency" or a "fit division" specifically, since a general modeling-agency submission will not necessarily reach the people booking this work.</p>
+<p>Plenty of fit models are booked directly by a brand or manufacturer instead, especially smaller labels that keep the same fit model on retainer for a specific product line rather than going through an agency at all. Reaching out to local manufacturers and design studios with your accurate measurements is a legitimate way in on its own, not just a fallback while you wait to be signed.</p>
+
+<h2>Reasons People Talk Themselves Out of Submitting, and Why They're Wrong</h2>
+<ul>
+<li><b>"I'm not model-pretty enough."</b> Fit modeling is judged on measurements and consistency, not looks. This is one of the few corners of the industry where that is genuinely, structurally true, not just something people say.</li>
+<li><b>"This sounds too niche to be a real path."</b> It is a real, ongoing category with steady repeat clients, the same as parts or hand modeling, just far less written about because so little of the search space around it is accurate.</li>
+<li><b>"I don't have professional photos."</b> Submissions want honest, current measurements first. A few plain, unstyled photos are enough; a styled shoot is a wasted expense at this stage.</li>
+<li><b>"I already model straight-size, plus-size or menswear elsewhere, so this isn't a separate thing to pursue."</b> It is worth pursuing on its own. Fit work for whichever size range you actually match is steady, repeat-booked income that does not compete with editorial, commercial or runway work at all, it runs alongside it.</li>
+</ul>
+
+<h2>What the Work and the Pay Actually Look Like</h2>
+<p>Fit modeling is one of the few corners of this industry paid straightforwardly by the hour, because a brand is paying for your time and the stability of your measurements during a session, not licensing an image the way most modeling work is priced. Sessions are frequently repeat bookings with the same brand across a garment's full development cycle, sometimes running for months, which makes the income steadier over time than most categories in modeling even where a single session's rate looks modest next to a national campaign day rate. See our full breakdown of <a href="../how-much-do-models-make/">how models actually get paid</a> for how fit work compares structurally to the rest of the industry.</p>
+
+<h2>Your First Steps</h2>
+<ol>
+<li>Measure yourself properly and honestly: bust or chest, waist, hips, inseam, shoulder width, and keep those numbers current.</li>
+<li>Shoot a few plain, honest photos, no styling, that show your natural build clearly.</li>
+<li>Search specifically for a "fit division" or a specialist fit-modeling agency, not just general modeling agencies.</li>
+<li>In parallel, reach out directly to local apparel manufacturers and design studios with your measurements, particularly if you live near a real garment industry hub.</li>
+<li>Learn how a casting room actually works before you are standing in one.</li>
+</ol>
+<p>That last step is where our mentors, working agents and bookers who place models with real clients, add the most before your first booking rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
 `,
   },
 ];
