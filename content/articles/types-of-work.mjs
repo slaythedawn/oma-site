@@ -284,6 +284,9 @@ export const typesOfWork = [
 <h3>Hair modeling</h3>
 <p>A different niche again, and one most people confuse with the free-haircut kind of "hair model" a salon or hairdressing academy runs. Paid hair modeling is commercial work for haircare, styling-tool and salon brands, cast on hair condition and versatility rather than a face or figure. See our <a href="../how-to-become-a-hair-model/">guide to becoming a hair model</a> for both routes in, salon and paid.</p>
 
+<h3>Tattoo modeling</h3>
+<p>A term that covers two different jobs: sitting as a "canvas" for a tattoo artist in exchange for a discounted or free piece, and commercial or lifestyle work that specifically wants your existing tattoos on camera. The first is a trade with a tattoo artist, not modeling work; the second is real casting for tattoo-culture, streetwear and alternative-lifestyle clients. See our <a href="../how-to-become-a-tattoo-model/">guide to becoming a tattoo model</a> for both.</p>
+
 <h3>Glamour and swim</h3>
 <p>Swimwear, lingerie and beauty campaigns. Casts on a specific look and comfort in front of the camera rather than height, and overlaps significantly with commercial and fitness casting in practice.</p>
 

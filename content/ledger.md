@@ -58,7 +58,7 @@ guessed). Apply the same standard going forward: any new or edited
 article touching a jurisdiction-dependent rule gets real, checked detail
 for all three markets, or it doesn't ship.
 
-## Live (50 articles)
+## Live (51 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -112,6 +112,7 @@ for all three markets, or it doesn't ship.
 | how-to-become-a-hair-model | how to become a hair model | 250 | 0 | 2026-09-06 |
 | kids-modelling-agency-australia | kids modelling agency australia | AU | — | 2026-09-03 |
 | how-to-become-a-fit-model | how to become a fit model | 70 | 0 | 2026-09-07 |
+| how-to-become-a-tattoo-model | how to become a tattoo model | 150 | 0 | 2026-09-08 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -204,7 +205,7 @@ the existing section, not a new URL.
 | how to become a fit model | 70 | 0 | **Shipped 2026-09-07** — see the Live table. |
 | fit model (bare) | 800 | 0 | **Checked 2026-09-07, wrong sense — do not target.** High volume looks tempting, but the SERP is dominated by the IFBB bodybuilding/bikini competition "Fit Model" division (Wikipedia, NPC News, Instagram), a completely different meaning from garment-fitting fit modeling. `how to become a fit model` (70 vol) carries the correct sense and a clean, winnable SERP instead; that is the keyword this site targeted, not the bare term. |
 | modeling contract | 150 | 0 | **Checked 2026-09-07, clean but a different content shape.** Genuinely uncovered as a dedicated page, but the intent is a legal-reference/FAQ topic, not a personal how-to narrative — better suited to an FAQ expansion on an existing agency article than a standalone guide. Not written this run; worth a look if a future run wants a non-niche pick. |
-| how to become a tattoo model | 150 | 0 | **Checked 2026-09-07, clean, held for a future thin week.** Genuinely uncovered, real SERP, similar tier to the other sub-200-volume Specialisms candidates already logged above. `how to become a fit model` was picked instead this run for its stronger pay/commercial-relevance story. |
+| how to become a tattoo model | 150 | 0 | **Shipped 2026-09-08** — see the Live table. |
 | how to become a bikini model | 40 | 1 | **Checked 2026-09-07, too thin.** Parent topic is `swimsuit model`, likely close to the already-checked swimsuit/lingerie cluster. Under this site's volume floor. |
 
 ## Known gaps
@@ -807,3 +808,58 @@ the existing section, not a new URL.
   model`) plus `how to become a tattoo model` (150 vol, KD 0, clean but held
   for a future thin week since fit model's pay story was the stronger pick
   this run).
+- **2026-09-08 run.** Fired from the same external scheduled-trigger prompt (the
+  stale 18 August chat-routine handover, describing a pre-repo Python/zip
+  workflow superseded weeks ago by this ledger and the `content/`/`scripts/`
+  pipeline); this file and `CONTRIBUTING.md` remain the authoritative process,
+  per every prior run's note. `git fetch origin main` (0 ahead/0 behind, built
+  on current history) and `list_pull_requests` (none open) done before writing.
+  `list_branches` via the GitHub MCP surfaced two branches not in this file's
+  standing dead-branch list, `claude/charming-tesla-28bqy9` and
+  `claude/charming-tesla-vlo5oo` — checked both with `git log origin/main..` and
+  found zero commits ahead of `main` for either, so nothing was in flight; worth
+  adding to the dead-branch list below the next time someone with delete access
+  cleans them up. Picked `how to become a tattoo model` (150 vol, KD 0) straight
+  from last run's held shortlist entry, re-verified current on
+  `keywords-explorer-overview` (matches the previously recorded figures) and
+  `serp-overview` (submission pages, Reddit, Backstage/Quora/ZipRecruiter
+  career-advice content, no modeling-course competitor, a genuinely winnable
+  SERP). Confirmed clean via grep: the only existing mention anywhere on the
+  site was a single passing word, "tattooed models," in the hand-written
+  `how-to-become-a-freelance-model` article's list of clients agencies
+  historically overlooked. Wrote `how-to-become-a-tattoo-model` in
+  `content/articles/niche.mjs`, built around a genuine two-senses split this
+  keyword's SERP actually shows: sitting as a paid-in-kind "canvas" for a
+  tattoo artist (a trade, not modeling work) versus commercial or lifestyle
+  modeling that specifically wants existing tattoos on camera. Both senses get
+  honest, separate treatment, including telling canvas-sense readers plainly
+  that it is not a modeling credential and is typically a trade rather than
+  cash pay, since conflating the two would have set the wrong expectation for
+  a real share of this keyword's search intent. Cross-linked in-body from a
+  new "Tattoo modeling" H3 added to `types-of-work.mjs` (`types-of-modeling`,
+  placed between the existing "Hair modeling" and "Glamour and swim" H3s) and
+  from the pre-existing "tattooed models" mention in
+  `how-to-become-a-freelance-model`, turned into a link (2 inbound links,
+  satisfying the orphan check). Linked out to `how-to-become-a-freelance-model`,
+  `types-of-modeling`, `how-to-make-a-modeling-portfolio` and
+  `how-much-do-models-make`. Added the slug to the Specialisms cluster in
+  `scripts/build-index-and-sitemap.mjs`. Retried a dedicated Higgsfield
+  generation for the first time since 2026-09-01, since a full week had passed
+  since the standing CDN-fetch block was last re-tested: `generate_image`
+  (`nano_banana_pro`) again produced a clean, on-brief, modern result with no
+  collage or text artefacts, but the resulting `cloudfront.net` URL still 403s
+  on direct fetch through this session's network policy (confirmed via
+  `/root/.ccr/__agentproxy/status` showing `connect_rejected` on the CONNECT),
+  identical to every attempt since 2026-08-25. This remains a standing
+  environment property, not a one-off; reused `how-to-become-a-freelance-model`
+  (its own hero, not previously reused elsewhere, a candid self-shot digital
+  scene) with a fresh `imageAlt`, since no existing image actually shows
+  tattoos and an honest generic reuse beats a misleading specific claim.
+  `npm run build && npm run check` and `npx html-validate@8` on the new and
+  edited pages all pass clean, including the orphan-inbound-link check. Title
+  is 42 characters, description 145, both within limit. Also double-checked
+  the new article body directly for em dashes (a repo-wide style rule) before
+  committing, since `check:site` does not enforce it: zero found in the
+  article's own content, the only five in the built page are in shared
+  nav/footer boilerplate and the "Enrol — $299" button label common to every
+  page on the site, not specific to this one.

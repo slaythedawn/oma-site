@@ -9,6 +9,7 @@ const DATE_PETITE = '2026-09-02';
 const DATE_FOOT = '2026-09-05';
 const DATE_HAIR = '2026-09-06';
 const DATE_FIT = '2026-09-07';
+const DATE_TATTOO = '2026-09-08';
 
 export const niche = [
   {
@@ -492,6 +493,102 @@ export const niche = [
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
 <p>That last step is where our mentors, working agents and bookers who place models with real clients, add the most before your first booking rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+`,
+  },
+  {
+    slug: 'how-to-become-a-tattoo-model',
+    seoTitle: 'How to Become a Tattoo Model: A Real Guide',
+    description:
+      'How to become a tattoo model, from the people who book them: the two very different jobs the term actually covers, what gets you booked, and pay.',
+    headline: 'How to Become a Tattoo Model: Two Very Different Jobs, One Search Term',
+    category: 'Niche',
+    image: 'how-to-become-a-freelance-model',
+    imageAlt: 'A model setting up a phone camera against a plain wall to shoot her own honest digitals',
+    readTime: 9,
+    date: DATE_TATTOO,
+    related: ['how-to-become-a-freelance-model', 'types-of-modeling', 'how-to-make-a-modeling-portfolio'],
+    faq: [
+      {
+        q: 'What does "tattoo model" actually mean?',
+        a: 'Two different things, and almost every search result mixes them together. The first is a tattoo-industry sense: sitting as a "canvas" for an artist, who tattoos you at a reduced cost or for free in exchange for photo and video rights to promote their own portfolio. The second is a modeling sense: commercial or lifestyle work that specifically wants your existing tattoos on camera, for brands and publications built around tattoo culture, streetwear, music or an alternative look. They have different clients, different payment structures and different paths in, so it matters which one you actually mean before you start looking.',
+      },
+      {
+        q: 'Will a tattoo artist really tattoo me for free if I model for them?',
+        a: 'Sometimes, especially artists building a portfolio in a specific style who need real skin to show it on. It is a trade, not paid modeling work: reduced or waived cost for the tattoo in exchange for the artist owning or licensing photo and video rights, usually to promote their own studio and social presence. Get exactly what is being traded in writing before you sit down, including what usage rights you are giving up and for how long, and only agree to a piece from an artist whose actual portfolio you would want permanently on your body regardless of the arrangement.',
+      },
+      {
+        q: 'Do modeling agencies accept people with visible tattoos?',
+        a: 'It depends entirely on the board. Some traditional fashion and beauty boards still prefer models who can cover tattoos, because certain clients, bridal and some beauty campaigns in particular, need that option. Commercial, streetwear, music and alternative-lifestyle boards frequently want the opposite: visible ink reads as authentic to their specific customer, and a board built around that look will not ask you to cover anything. Both are real; the fit depends on which lane you are aiming at, not on whether tattoos are broadly accepted or not.',
+      },
+      {
+        q: 'What brands actually hire models specifically for their tattoos?',
+        a: 'Tattoo and ink-culture publications and conventions, tattoo aftercare and skincare brands, streetwear and music-adjacent apparel, and lifestyle brands deliberately casting an alternative look rather than a conventional commercial one. These clients are casting the tattoos as much as the person, which is the opposite of a board that wants the option to cover them.',
+      },
+      {
+        q: 'Does being a canvas model help you get signed to a modeling agency?',
+        a: 'Not by itself. Sitting for a tattoo trade is a separate transaction from building a modeling portfolio or an agency submission, and it will not read as modeling experience on its own. If the resulting photos happen to be well shot and honestly represent how you actually look, they can occasionally supplement a portfolio, but they are not a substitute for the honest digitals a real submission needs.',
+      },
+      {
+        q: 'How much do tattoo models get paid?',
+        a: 'It depends which job you mean. Canvas work is typically a straight trade, a reduced or free tattoo for usage rights, not a cash day rate, and treating it as paid work sets the wrong expectation. Commercial work booked specifically for visible tattoos follows the same day-rate-plus-usage structure as the rest of commercial modeling, set by the client and how the images get used rather than by the tattoos themselves.',
+      },
+    ],
+    body: `
+<p>Search "how to become a tattoo model" and the results come back split down the middle without ever saying so: half are tattoo studios and artists looking for someone to sit for a piece in exchange for photos, half are modeling advice that assumes you already have the tattoos and want to work them. They are genuinely different jobs that happen to share a search term, and conflating them is how people end up disappointed by whichever one they actually found.</p>
+<p>Our instructors at Online Model Academy include agents and bookers who cast commercial and lifestyle work, some of it built specifically around visible tattoos. This covers both senses of the term honestly, including the one that is not a paid modeling job at all.</p>
+
+<h2>What "Tattoo Model" Actually Means</h2>
+<p>The first sense comes from the tattoo industry, not modeling: an artist, often one building a portfolio in a specific style, tattoos you at a reduced cost or for free in exchange for photo and video rights to the result. You are the canvas, and what you are getting is the tattoo itself, not a modeling booking. It is a trade, and it should be evaluated as one.</p>
+<p>The second sense is a real modeling job: commercial and lifestyle clients who specifically want your existing tattoos in frame, casting the ink as part of the look rather than something to hide. Tattoo and ink-culture brands, streetwear, music-adjacent campaigns and alternative-lifestyle clients all fall here. This half of the term assumes you already have the tattoos and is asking how to get booked to show them, the opposite starting point from the canvas sense above.</p>
+
+<h2>If You Mean Sitting as a Canvas</h2>
+<h3>Research the artist's actual portfolio first</h3>
+<p>Agree to a piece only from an artist whose existing work in that style you would want on your body regardless of the arrangement. A discounted or free tattoo is still a permanent tattoo, and "it was a good deal" is not a reason to regret it for the next several decades.</p>
+<h3>Get the trade in writing</h3>
+<p>What is actually being exchanged: how much the tattoo cost is reduced or waived, exactly what photo and video usage rights the artist gets, for how long, and where they can use the results. A verbal understanding is not enough for something permanent.</p>
+<h3>Only work with a licensed, reputable studio</h3>
+<p>The same health and licensing standards apply to a trade as to a fully paid tattoo. A discount is never a reason to skip checking that a studio is properly licensed and inspected.</p>
+<h3>Know that this is not a modeling credential</h3>
+<p>Sitting for a tattoo trade does not build a modeling portfolio or read as experience on an agency submission. If the resulting photos are well shot and represent how you honestly look, they can occasionally supplement a portfolio later, but they do not substitute for the honest digitals a real submission needs. Our <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers what an actual submission needs instead.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-tattoo-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>If You Mean Modeling With the Tattoos You Already Have</h2>
+<h3>Honest digitals that show your tattoos clearly</h3>
+<p>Well-lit, unretouched photos that show the ink plainly rather than styled to minimize it. A client casting specifically for tattoos needs to actually see them, placement and all, the same way any other board needs to see your real proportions.</p>
+<h3>Know your placement and coverage</h3>
+<p>Some briefs want a specific amount of visible ink, others want a particular style, traditional, blackwork, fine line, and some clients still need the option of full coverage for a different job entirely. Knowing exactly what you have, where, and how easily it covers or doesn't is information a booker will ask for directly.</p>
+<h3>Target the boards that actually want it</h3>
+<p>Sending a submission to an agency built around a conventional commercial or beauty look, the kind that wants the option to cover tattoos for clients who need it, is a wasted submission. Look specifically for boards, publications and brands built around tattoo culture, streetwear, music or an alternative aesthetic instead, the same way any niche category is best approached by targeting the clients who actually cast it rather than applying everywhere.</p>
+
+<h2>Where This Work Actually Comes From</h2>
+<p>For canvas work: individual artists and studios, usually found through their own social presence or a direct referral, not through a modeling channel at all. For the modeling sense: tattoo and ink-culture publications and conventions, tattoo aftercare and skincare brands, streetwear and music-adjacent apparel, and lifestyle brands deliberately casting an alternative look. A smaller number of agencies run a dedicated alternative or tattoo-friendly board; most others simply don't screen tattoos out of an otherwise general commercial roster, which is different from actively seeking them. Our guide to <a href="../types-of-modeling/">the different types of modeling</a> covers where a niche like this sits alongside every other category.</p>
+
+<h2>Reasons People Talk Themselves Out of Submitting, and Why They're Wrong</h2>
+<ul>
+<li><b>"Agencies won't sign anyone with visible tattoos."</b> Some boards prefer the option to cover them, plenty of others don't care, and a smaller number actively want them. It depends on the board, not on a blanket industry rule.</li>
+<li><b>"I need to get more tattoos before I submit anywhere."</b> Clients casting specifically for tattoos want your actual, current ink honestly represented, not a bigger collection assembled to look the part. Submit with what you genuinely have.</li>
+<li><b>"A free tattoo in exchange for photos sounds like a good way into modeling."</b> It is a trade for a tattoo, not a modeling credential, and treating it as a shortcut into agency work sets an expectation it can't meet.</li>
+<li><b>"This is too small a niche to be worth pursuing."</b> It is a real, specific client base, tattoo and ink-culture brands, streetwear, music, alternative lifestyle, just one most general modeling advice never mentions because it assumes a conventional commercial look by default.</li>
+</ul>
+
+<h2>What the Work and the Pay Actually Look Like</h2>
+<p>The two senses of this term are paid completely differently, which is worth being clear-eyed about before pursuing either. Sitting as a canvas is typically a straight trade, a reduced or waived tattoo cost for usage rights, not a cash day rate, and it should be evaluated as a tattoo decision first. Commercial work booked specifically for visible tattoos follows the ordinary day-rate-plus-usage structure the rest of commercial modeling uses, set by the client and how the images get used, not by the tattoos as a category on their own. See our full breakdown of <a href="../how-much-do-models-make/">how models actually get paid</a> for how that structure works generally.</p>
+
+<h2>Your First Steps</h2>
+<ol>
+<li>Decide honestly which job you actually mean, sitting for a tattoo trade or modeling with tattoos you already have, since the paths in do not overlap.</li>
+<li>For a canvas trade: research the artist's actual portfolio and get the terms of the exchange in writing before agreeing to anything permanent.</li>
+<li>For modeling with existing tattoos: shoot honest digitals that show the ink clearly and know your placement and coverage precisely.</li>
+<li>Target tattoo-culture, streetwear, music and alternative-lifestyle clients and boards specifically, rather than general commercial submissions.</li>
+<li>Learn how a casting room actually works before you are standing in one.</li>
+</ol>
+<p>That last step is where our mentors, working agents and bookers who cast commercial work for a living, add the most before your first booking rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
 `,
   },
 ];
