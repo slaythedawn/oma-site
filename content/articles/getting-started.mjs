@@ -3,6 +3,7 @@
 // localisation of the head term and uses AU spelling in its body.
 
 const DATE = '2026-08-19';
+const DATE_UK = '2026-09-09';
 
 export const gettingStarted = [
   {
@@ -84,7 +85,7 @@ export const gettingStarted = [
 <h2>Step 4: Build a Real Agency Shortlist</h2>
 <p>Not every agency, and not the nearest one. Agencies that run a board for your category, in a market you can physically reach for castings.</p>
 <p>Verify each one: does it earn commission rather than fees, can you trace its clients and campaigns, do the models on its board visibly work, does it have a real office? Our guides to <a href="../modeling-agencies-near-me/">finding a real agency</a> and <a href="../how-to-choose-a-modeling-agency/">choosing between agencies</a> cover the full checklist.</p>
-<p>If you are in Australia, our <a href="../modelling-agencies-australia/">Australian agency guide</a> maps the market city by city.</p>
+<p>If you are in Australia, our <a href="../modelling-agencies-australia/">Australian agency guide</a> maps the market city by city. If you are in the UK, our <a href="../how-to-become-a-model-in-uk/">guide to becoming a model in the UK</a> covers London's dominance of the market and the UK-specific rules on agency fees.</p>
 
 <h2>Step 5: Submit Exactly as Asked</h2>
 <p>Every agency publishes a submission process. Follow it precisely. Send what is requested, in the format requested, to the address requested, and nothing extra.</p>
@@ -214,11 +215,113 @@ export const gettingStarted = [
 <p>You should never be out of pocket to be represented. Real early costs are casting travel, basic grooming and any training you choose — see <a href="../how-much-does-it-cost-to-become-a-model/">what it actually costs</a>.</p>
 
 <h2>Going Overseas</h2>
-<p>Plenty of Australian models eventually work in Asia, Europe or the US, usually through a placement arranged by their Australian agency with a partner agency abroad. That is the normal route, and it typically follows a period of consistent local work rather than preceding it. Build a book and a track record here first.</p>
+<p>Plenty of Australian models eventually work in Asia, Europe or the US, usually through a placement arranged by their Australian agency with a partner agency abroad. That is the normal route, and it typically follows a period of consistent local work rather than preceding it. Build a book and a track record here first. London is one of the more common placements for Australian faces, and our <a href="../how-to-become-a-model-in-uk/">guide to becoming a model in the UK</a> covers what a British agency looks for and how UK contracts differ from what you signed at home.</p>
 
 <h2>What to Do This Week</h2>
 <p>Measure yourself, shoot your digitals, decide your board honestly, shortlist three or four Australian agencies that actually represent it, and submit exactly what they ask for.</p>
 <p>Then learn what happens inside a casting room, because that is what separates models who book once from models who get rebooked. Our free runway masterclass with Jack Bedwani — who produces Australian Fashion Week — is five lessons of exactly that, and it costs nothing.</p>
+`,
+  },
+
+  {
+    slug: 'how-to-become-a-model-in-uk',
+    seoTitle: 'How to Become a Model in the UK: 2026 Guide',
+    description:
+      'How to become a model in the UK: the boards, London vs. the regions, real agency-fee law, submissions, scams and what UK models actually get paid.',
+    headline: 'How to Become a Model in the UK',
+    category: 'Getting started',
+    image: 'how-to-become-a-model',
+    imageAlt: 'A new model photographed against a plain wall, digitals-style',
+    readTime: 11,
+    date: DATE_UK,
+    related: [
+      'how-to-become-a-model-in-australia',
+      'how-to-become-a-model',
+      'how-to-choose-a-modeling-agency',
+    ],
+    faq: [
+      {
+        q: 'How do you become a model in the UK?',
+        a: 'Work out which board you actually fit, measure yourself properly, shoot clean unretouched digitals on your phone, shortlist UK agencies that represent your category and are realistic to reach for castings, and submit exactly what each one asks for. Attend open calls where they run them. No legitimate step requires you to pay anyone before they find you work.',
+      },
+      {
+        q: 'How tall do you have to be to be a model in the UK?',
+        a: "UK fashion and runway boards generally look for women from around 5'9\" (175cm) and men from around 6'0\" (183cm), because sample garments are cut to fixed sizes. Commercial, curve, parts and classic boards have no meaningful height requirement, and commercial work is where most working UK models actually earn their money.",
+      },
+      {
+        q: 'Can a UK modelling agency charge me a fee?',
+        a: 'Sometimes, and this genuinely differs from most other jobs. UK law bans employment agencies from charging work-seekers to find them a job, but photographic and fashion models are one of a short list of specifically exempted occupations. Even so, a legitimate agency cannot charge you upfront simply to be considered or represented, and any fee for a listing or comparable service has to be agreed with you in writing before they start looking for work on your behalf, never bundled into a compulsory photoshoot at the first meeting.',
+      },
+      {
+        q: 'Which UK city is best to start modelling in?',
+        a: 'London holds the large majority of the market, including London Fashion Week and most head-office agencies, so it is the strongest starting point for fashion and editorial work. Manchester, Birmingham and Leeds run smaller but real commercial and regional agency scenes, and are realistic starting points if relocating to London is not yet possible.',
+      },
+      {
+        q: 'Can you make a living as a model in the UK?',
+        a: 'Yes, though outside the small number of names who work internationally, most working UK models earn steadily from commercial, catalogue and e-commerce bookings rather than headline fashion work. Income is irregular by nature, and most models keep flexible other work in their first year or two while a client base builds.',
+      },
+    ],
+    body: `
+<p>The UK runs one of the world's most established modelling industries, and one of its more unusual pieces of law: agencies here are actually allowed to charge models a fee, under conditions almost nobody explains properly. Knowing that rule, not just the standard scam checklist, is most of what protects you.</p>
+<p>Our instructors are the same working agents, casting directors and runway producers who make these calls for a living, in London and beyond. This is the UK version of the process.</p>
+
+<h2>The UK Market in One Paragraph</h2>
+<p>London holds the large majority of the industry: most head-office agencies are based there, alongside London Fashion Week and the bulk of editorial, campaign and advertising work. Manchester, Birmingham and Leeds each run smaller but genuinely active commercial and regional-agency scenes, useful starting points if relocating to London is not realistic yet. Across all of it, <b>commercial, catalogue and e-commerce work pays the bills</b> for the large majority of working models. Fashion week is the visible part of the industry, not the profitable part for most people in it.</p>
+
+<h2>Step 1: Find Your Board</h2>
+<ul>
+<li><b>Fashion and runway.</b> Women generally from around 5'9" (175cm), men from around 6'0" (183cm).</li>
+<li><b>Commercial.</b> The biggest board by volume. Retail, banking, telecoms, supermarkets, travel. No meaningful height requirement.</li>
+<li><b>Curve and plus.</b> A genuinely growing board as UK retail size ranges have expanded.</li>
+<li><b>Parts.</b> Hands, feet, hair, skin.</li>
+<li><b>Kids and teens.</b> Active nationally, but licensed differently to adult work. England requires a local-authority performance licence for any child working paid modelling, arranged by the employer or agency, and Scotland, Wales and Northern Ireland each run their own equivalent scheme. Read our <a href="../child-modeling-agencies/">child modelling agency guide</a> before contacting anyone on your child's behalf.</li>
+<li><b>Classic and mature.</b> Roughly 35 and up, plus presenters. Under-supplied relative to client demand.</li>
+</ul>
+
+<h2>Step 2: Measurements, Properly Taken</h2>
+<p>UK agencies work in a genuine mix of imperial and metric: height is usually quoted in feet and inches, everything else, bust or chest, waist, hips, tends to be centimetres, alongside dress or suit size, shoe size, hair and eye colour. Measure yourself properly rather than estimating. Agencies remeasure at the first meeting, and a discrepancy from what you submitted is noticed immediately.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-model-in-uk__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>Step 3: Digitals, Not a Photoshoot</h2>
+<p>Four to six photos on a phone, in daylight, against a plain wall. Front, side, back, one smiling, one neutral, plus a close-up. No makeup, no filters, no retouching, hair down, fitted plain clothing.</p>
+<p>This costs nothing to produce. Anyone telling you a UK agency needs a professional portfolio before they will look at you is selling photography, not representation.</p>
+
+<h2>Step 4: Target the Right Agencies</h2>
+<p>Shortlist agencies that actually run your board, in a city you can reach for castings on short notice. London has by far the deepest bench of options across every board; the regional cities run smaller but real commercial rosters. Our guides to <a href="../modeling-agencies-near-me/">finding a real agency</a> and <a href="../how-to-choose-a-modeling-agency/">choosing between agencies</a> cover how to vet any of them: commission-based rather than fee-based as the default, traceable clients and campaigns, models on the board who visibly work, a real office you can find.</p>
+
+<h2>Step 5: Submit and Attend Open Calls</h2>
+<p>Follow each agency's submission instructions exactly, in the format they ask for. Then attend open calls where an agency runs them. They remain the most direct route into a room with a UK booker, and the whole encounter typically takes two or three minutes.</p>
+
+<h2>The Law Almost Nobody Explains Properly</h2>
+<p>Here is where the UK genuinely differs from the US and Australia. Under the Conduct of Employment Agencies and Employment Businesses Regulations 2003, employment agencies are banned from charging work-seekers a fee to find them a job, full stop, across almost every industry. Photographic and fashion models are one of a short, specifically named list of exemptions in the regulations, alongside performers such as actors and dancers.</p>
+<p>That does not mean an agency can charge you whatever it likes whenever it likes. The exemption is narrow: an agency still cannot charge you upfront simply for finding you work or for the act of representing you. What it can lawfully charge for, such as including you in a publication or a website, has to be a separate service you agreed to in writing before the agency started looking for work on your behalf, with the terms, the fee and how it is calculated set out clearly rather than sprung on you in the room. A genuine commission taken out of what you actually earn is always allowed, and remains how the large majority of legitimate UK agencies make their money.</p>
+<p>Read that distinction twice before you sign anything: a fee for a defined, written, after-the-fact service is technically lawful here in a way it usually is not elsewhere. A fee dressed up as the price of representation itself, sprung on you before any work has been discussed, is not, no matter which sentence in the contract it hides behind.</p>
+
+<h2>Scams Specific to the UK Market</h2>
+<ul>
+<li><b>The "listing fee" that is really a joining fee.</b> The one real exemption above gets used to disguise plain upfront charges. If the fee comes before any written agreement, before any discussion of actual work, or before you have even been told what board you are on, it is not the lawful kind.</li>
+<li><b>A compulsory in-house photographer.</b> Told you must shoot with one specific photographer, at your own cost, before anything else happens. This pattern is not covered by the fee exemption and is a straightforward red flag anywhere in the world.</li>
+<li><b>Scouted by DM with a hard close.</b> Real scouting happens on Instagram and TikTok, but a genuine scout lets you go home, look them up, and verify them through the agency's own published number.</li>
+<li><b>Vague or unverifiable clients.</b> A working agency can point to campaigns and models on its board who are visibly employed. If nobody seems to work, ask why before you sign anything.</li>
+</ul>
+<p>If an agency will not put its fee structure in writing before you agree to anything, or gets vague when you ask which regulation it is charging you under, treat that as your answer. Trading Standards and Citizens Advice both handle complaints about UK employment agencies, including modelling agencies, if you need to escalate one.</p>
+
+<h2>How Money and Tax Work Here</h2>
+<p>A UK booking is quoted as a day or session rate plus a usage fee for where the images run and for how long, the same structure covered in more depth in our <a href="../how-to-get-paid-as-a-model/">guide to how models actually get paid</a>. Your agency deducts its commission from your side and typically charges the client a separate fee on top.</p>
+<p>Almost every working UK model is self-employed rather than an agency employee, which means registering as a sole trader with HMRC once your modelling income passes the trading allowance, then filing a Self Assessment return each year covering Income Tax and Class 4 National Insurance on your profits. Your agency does not do this for you. Keep every remittance statement it sends you; that is your income record.</p>
+
+<h2>Working Beyond the UK</h2>
+<p>A strong London book is a genuine passport into Europe and beyond, usually arranged as a placement by your UK agency with a partner agency in the destination market rather than something you organise yourself. Visa and right-to-work rules for paid creative work abroad vary by country and change more often than agency contracts do, so treat your own agency, not a forum post, as the source of truth on what a specific trip actually requires before you book it.</p>
+
+<h2>What to Do This Week</h2>
+<p>Measure yourself properly, shoot your digitals, decide your board honestly, shortlist three or four UK agencies that actually represent it, and submit exactly what they ask for.</p>
+<p>Then learn what happens inside a casting room, because that is what separates models who book once from models who get rebooked. Our free runway masterclass with Jack Bedwani, who has choreographed shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons of exactly that, and it costs nothing.</p>
 `,
   },
 ];
