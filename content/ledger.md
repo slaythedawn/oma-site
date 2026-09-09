@@ -968,7 +968,11 @@ the existing section, not a new URL.
   deliberate choice, not a shortcut. `npm run build && npm run check` and
   `npx html-validate@8` on the new and edited pages all pass clean,
   including the orphan-inbound-link check. Title is 43 characters,
-  description 146, both within limit.
+  description 146, both within limit. Opened PR #31; all four checks
+  (Vercel Preview Comments, Deploy payload stays small, Off-site links
+  respond, Links/assets/sitemap) came back green with `mergeable_state`
+  `clean`, so merged it directly per the standing automerge authorisation
+  above (squash-merged as `69df7c2`).
 - **New finding: `WebFetch` is blocked for `gov.uk`, not just for this
   site's own domain.** The standing note above only documents
   `www.onlinemodelacademy.com` as blocked for `WebFetch`/`curl`. This run
