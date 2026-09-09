@@ -8,6 +8,9 @@ Thumbs.db
 # Local dev server logs
 .claude/server.cjs.log
 
+# Agent worktree scratch space (Claude Code on the web isolation:"worktree" runs)
+.claude/worktrees/
+
 # Working files that must not reach the deploy
 index (old).html
 *.old.html
