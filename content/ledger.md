@@ -58,7 +58,7 @@ guessed). Apply the same standard going forward: any new or edited
 article touching a jurisdiction-dependent rule gets real, checked detail
 for all three markets, or it doesn't ship.
 
-## Live (51 articles)
+## Live (52 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -113,6 +113,7 @@ for all three markets, or it doesn't ship.
 | kids-modelling-agency-australia | kids modelling agency australia | AU | — | 2026-09-03 |
 | how-to-become-a-fit-model | how to become a fit model | 70 | 0 | 2026-09-07 |
 | how-to-become-a-tattoo-model | how to become a tattoo model | 150 | 0 | 2026-09-08 |
+| how-to-become-a-model-in-uk | how to become a model uk | 200 (GB) | 0 | 2026-09-09 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -204,9 +205,21 @@ the existing section, not a new URL.
 | how to become a hand model / foot model / male model / fitness model / plus-size model / petite model / freelance model / commercial model / fit model | — | — | **Specialisms cluster's personal how-to set is now complete three times over (adding fit 2026-09-07).** Before writing another niche "how to become a [X] model" entry, check this list and the SERP/volume notes above (print, swimsuit, lingerie under 100 vol; teen and "how old" likely cannibalised by `how-to-become-a-model-at-16`) — the remaining thin candidates are combine-into-a-broader-piece material, not individual articles, per the 2026-09-05 note. |
 | how to become a fit model | 70 | 0 | **Shipped 2026-09-07** — see the Live table. |
 | fit model (bare) | 800 | 0 | **Checked 2026-09-07, wrong sense — do not target.** High volume looks tempting, but the SERP is dominated by the IFBB bodybuilding/bikini competition "Fit Model" division (Wikipedia, NPC News, Instagram), a completely different meaning from garment-fitting fit modeling. `how to become a fit model` (70 vol) carries the correct sense and a clean, winnable SERP instead; that is the keyword this site targeted, not the bare term. |
-| modeling contract | 150 | 0 | **Checked 2026-09-07, clean but a different content shape.** Genuinely uncovered as a dedicated page, but the intent is a legal-reference/FAQ topic, not a personal how-to narrative — better suited to an FAQ expansion on an existing agency article than a standalone guide. Not written this run; worth a look if a future run wants a non-niche pick. |
+| modeling contract | 150 | 0 | **Checked 2026-09-07 as clean, re-checked 2026-09-09 and confirmed cannibalised — correcting the earlier note.** The 2026-09-07 pass compared it only against the ledger table, not the actual article bodies. `how-to-choose-a-modeling-agency` has a dedicated H2, "Exclusivity and Contract Basics in Plain Language," covering exclusive vs. non-exclusive, term and renewal, commission, expenses and termination in depth, which already answers the SERP's actual People Also Ask questions ("What is a modeling contract?", "How long does a modeling contract last?", "Can you get out of a modeling contract?"). Do not write a standalone page; a reminder that a keyword's SERP shape looking like a good fit does not override a same-topic dedicated section elsewhere. |
 | how to become a tattoo model | 150 | 0 | **Shipped 2026-09-08** — see the Live table. |
 | how to become a bikini model | 40 | 1 | **Checked 2026-09-07, too thin.** Parent topic is `swimsuit model`, likely close to the already-checked swimsuit/lingerie cluster. Under this site's volume floor. |
+| how to become a model uk | 200 (GB) | 0 | **Shipped 2026-09-09** — see the Live table. |
+| ai model agency | 150 | 8 | **Checked 2026-09-09, wrong topic entirely.** `serp-overview` shows this term means businesses generating synthetic/AI-rendered models (Midjourney workflows, Maison Meta, Clueless.ai, "detail ai modeling agency"), not agencies that represent human models. Zero overlap with this site's actual course. Dropped, not a future-project candidate either. |
+| spokesmodel / what is a spokesmodel / spokesmodel meaning | 300 + 40 + 50 | 7 / 0 / 0 | **Checked 2026-09-09, wrong audience, same shape as the dropped `brand ambassador` cluster.** Decent bare-term volume, but the SERP is dictionary definitions (Merriam-Webster, YourDictionary), businesses hiring spokesmodels for trade shows, and unrelated "senior spokesmodel" photo-contest content, not aspiring models searching for a path in. `how to become a spokesmodel` itself carries 0 volume, confirming the framing this site would use is not what anyone actually searches. Dropped. |
+| catwalk model / how to become a catwalk model | 200 + 10 | 8 / — | **Checked 2026-09-09, cannibalised.** `runway-model`'s own FAQ already has a dedicated Q&A, "Is it a 'runway' or a 'catwalk'?", explaining catwalk as the UK/Australia synonym, and `types-of-work.mjs` repeats the same explanation. Do not write a separate page for the UK-terminology variant. |
+| modelling agencies uk / modelling agency london | 350 / 150 | 71 / 72 | **Checked 2026-09-09, same bigger-lift call as the US/AU city-directory keywords.** Real volume, but KD is far above this site's floor and a credible version needs verified, named UK agencies researched properly, the same larger project noted for the US cities above. Not a quick pick. |
+| how to become a stunt double | 450 | 1 | **Checked 2026-09-09, wrong audience.** Excellent volume and difficulty on paper, but stunt work is a distinct film-industry skill set (physical stunts, not modeling), the same off-ICP pattern as the dropped `how to become an extra`. Dropped. |
+| ecommerce modeling | 100 | 0 | **Checked 2026-09-09, clean but thin.** Real niche (product/catalogue modeling for online retail), no dedicated coverage found on a full-repo grep, genuinely different from general commercial modeling, but under this site's volume floor. Worth a quick pick on a thin week. |
+| tfp modeling / what does tfp mean in modeling | 50 + 30 | 0 / 0 | **Checked 2026-09-09, clean but thin.** "Time for prints/photos" explainer, uncovered on this site, real but low-volume search. Fine for a thin week, possibly better as an addition to the portfolio cluster than a standalone page given how short the honest answer is. |
+| how to become a bridal model | 20 | — | **Checked 2026-09-09, too thin.** Clean but very low volume even by this site's thin-week standard. |
+| modeling agency new york | 150 | 47 | **Checked 2026-09-09, same city-directory call as above.** Folded into the existing US-cities note; not a standalone opportunity. |
+| how to find a modeling agent | 40 | 11 | **Checked 2026-09-09, too thin and likely overlapping.** Real but low volume, and the actual content (how to locate and vet an agent) is close to what `how-to-choose-a-modeling-agency` and `how-to-get-signed-by-a-modeling-agency` already cover; would need a full-body grep before ever writing, not just the volume check. |
+| how to become a nude model / how to become an art model / figure model | 70 / 20 / 10 | 0 / 0 / 0 | **Checked 2026-09-09, deprioritised on brand fit, not cannibalisation.** Real, low-difficulty terms, but this is life-drawing/art-class nude modeling, a meaningfully different topic from fashion or commercial modeling, and this site's audience includes teens per `how-to-become-a-model-at-16`. Same caution class as the deprioritised `model diet` — not ruled out permanently, but needs a deliberate decision to pursue, not a routine pick. |
 
 ## Known gaps
 
@@ -863,3 +876,107 @@ the existing section, not a new URL.
   article's own content, the only five in the built page are in shared
   nav/footer boilerplate and the "Enrol — $299" button label common to every
   page on the site, not specific to this one.
+- **2026-09-09 run.** Fired from the same external scheduled-trigger prompt (the
+  stale 18 August chat-routine handover, describing a pre-repo Python/zip
+  workflow superseded weeks ago by this ledger and the `content/`/`scripts/`
+  pipeline); this file and `CONTRIBUTING.md` remain the authoritative process,
+  per every prior run's note. `git fetch origin main` (0 ahead/0 behind, no
+  reset needed) and `list_pull_requests` (none open) done before writing.
+  `list_branches` surfaced several remote branches not yet in this file's dead
+  list (`claude/charming-tesla-33dzj7`, `-66w08h`, `-c4qeku`, `-io1zy3`,
+  `-lcpv3n`, `-vj69vm`, `-28bqy9`, `-vlo5oo`, `credential-reframe-and-lesson-count`);
+  fetched each individually (fetching them combined with `main` in one call
+  silently drops refs, per the 2026-09-02 lesson) and diffed each against
+  `main`: every one was a fully-merged PR head branch with 0 commits ahead
+  (`-33dzj7` was in fact PR #30, yesterday's tattoo-model merge), so nothing
+  was in flight and none needed action beyond noting them here for future
+  cleanup once delete access exists. The shortlist was restocked but thin
+  after 2026-09-08, so ran a fresh batch of specific multi-word candidates on
+  `keywords-explorer-overview` covering four different angles: legal/contract
+  terms, an AI-modeling angle (new for this site, worth checking once given
+  how much that space has grown through 2026), UK-market terms, and a batch
+  of niche career variants. Two important corrections came out of this pass.
+  First, `modeling contract` (150 vol, KD 0), carried on the shortlist since
+  2026-09-07 as "clean but a different content shape," is actually
+  cannibalised: a closer grep this run found `how-to-choose-a-modeling-agency`
+  already has a dedicated H2, "Exclusivity and Contract Basics in Plain
+  Language," covering exclusivity, term, commission, expenses and
+  termination, which answers the SERP's own People Also Ask questions
+  near-verbatim. The 2026-09-07 check only compared the term against this
+  ledger's table, not the actual article body, the exact mistake this
+  ledger repeatedly warns against. Corrected in the shortlist table above.
+  Second, `ai model agency` (150 vol, KD 8) looked like a timely fresh angle
+  but `serp-overview` showed it means something else entirely: businesses
+  that generate synthetic AI-rendered models (Midjourney workflows, Maison
+  Meta, Clueless.ai), not agencies representing real people. Zero overlap
+  with this site's actual course; dropped as a wrong-topic match, not a
+  volume or difficulty problem. `spokesmodel` (300 vol, KD 7) and
+  `catwalk model` (200 vol, KD 8) were checked and dropped too (wrong
+  audience and cannibalised by `runway-model`'s FAQ respectively, both
+  logged above), along with `how to become a stunt double` (450 vol, KD 1,
+  wrong industry entirely) and the nude/art/figure-modeling cluster
+  (deprioritised on brand fit given this site's teen audience, not
+  cannibalisation). The UK-market angle produced the actual pick:
+  `how to become a model uk` (200 GB vol, KD 0), confirmed clean via a
+  full-repo grep (only passing UK mentions exist, in the parents.mjs
+  jurisdiction block, portfolio.mjs comp-card sizing, and the
+  runway/catwalk FAQ synonym note, none of them a personal how-to guide)
+  and via `serp-overview` (nationalcareers.service.gov.uk at position 3 is
+  a strong DR92 competitor, but the rest of the field is agency apply pages
+  and small blogs, the same winnable shape as the AU pillar's own SERP).
+  This mirrors `how-to-become-a-model-in-australia` exactly: the site has a
+  proven AU pillar for country-specific market-entry content but no UK
+  equivalent, despite the cadence section's standing market-parity mandate
+  and the UK being one of this site's three target markets. Unlike the
+  city agency-directory keywords, this does not need verified named
+  agencies (the AU pillar itself does not name any either; that is what
+  the separate `modelling-agencies-<city>` pages are for), so it was not a
+  bigger-lift deferral like the LA/NYC/Chicago cluster remains. Verified
+  one materially important, genuinely UK-specific legal fact via `WebSearch`
+  before writing rather than guessing it (`WebFetch` on gov.uk itself
+  returned `EGRESS_BLOCKED`, a new finding logged below): under the Conduct
+  of Employment Agencies and Employment Businesses Regulations 2003,
+  photographic and fashion models are one of a short list of occupations
+  specifically exempted from the general UK ban on agencies charging
+  work-seekers upfront to find them work, provided any fee is for a
+  separate, written, after-the-fact service rather than the act of
+  representation itself. This meaningfully changes the "agencies never
+  charge you, ever" framing this site uses for the US and Australia, so it
+  gets its own section rather than being flattened into the usual scam
+  checklist. Wrote `how-to-become-a-model-in-uk` in
+  `content/articles/getting-started.mjs`, alongside its AU sibling, with
+  its own `DATE_UK` constant. Cross-linked in-body from two places: extended
+  the existing `how-to-start-a-modeling-career` sentence that already
+  branched to the AU guide ("If you are in Australia...") to add a UK
+  branch, and extended the AU pillar's own "Going Overseas" section to
+  mention London as a common placement market for Australian models,
+  linking to the new UK guide (2 inbound links, satisfying the orphan
+  check). Also caught and fixed a style-consistency issue before shipping:
+  the AU pillar's own bullet-list pattern I was mirroring
+  (`<li><b>Label</b> — description</li>`) uses em dashes throughout, but a
+  repo-wide grep showed the em-dash-heavy files are all from 2026-08-14
+  through 2026-08-25, while every article shipped since `niche.mjs` started
+  (2026-08-30 onward) uses a period after the bold label instead
+  (`<li><b>Label.</b> Description</li>`) and has almost none. Rewrote the
+  new article's board-list bullets to the newer, dash-free convention before
+  committing, since the "no em dashes anywhere" writing rule is still
+  binding even where an older template being mirrored does not follow it.
+  Skipped a Higgsfield generation attempt, reused `how-to-become-a-model`
+  (already used 4 times, including for the AU sibling itself) since it is
+  the most literal fit for a general "how to become a model" market pillar
+  and pairing the two country guides with the same portrait is an honest,
+  deliberate choice, not a shortcut. `npm run build && npm run check` and
+  `npx html-validate@8` on the new and edited pages all pass clean,
+  including the orphan-inbound-link check. Title is 43 characters,
+  description 146, both within limit.
+- **New finding: `WebFetch` is blocked for `gov.uk`, not just for this
+  site's own domain.** The standing note above only documents
+  `www.onlinemodelacademy.com` as blocked for `WebFetch`/`curl`. This run
+  hit the same `EGRESS_BLOCKED` error fetching a `gov.uk` guidance page
+  directly, so the network egress policy blocks at least some external
+  government domains too, not only this site's own. `WebSearch` was
+  unaffected and returned usable results (including gov.uk page titles and
+  summarized content) for the same query, so it remains the fallback for
+  verifying jurisdiction-specific legal claims when direct `WebFetch` is
+  blocked on the source domain. Worth knowing before a future run assumes
+  `WebFetch` will reach any given government or reference site directly.
