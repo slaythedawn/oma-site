@@ -65,7 +65,7 @@ export const jobs = [
 <h3>Commercial and advertising</h3>
 <p>The biggest source of paid work by a wide margin. Retail, banking, telco, supermarkets, healthcare, travel. Clients are casting believable people, so height requirements are loose to non-existent and age range is wide. For most working models, this is where the income is.</p>
 <h3>Catalogue and e-commerce</h3>
-<p>High volume, repeat bookings, unglamorous and reliable. Brands shoot new ranges constantly. A model who is efficient, consistent and easy on set gets rebooked here indefinitely.</p>
+<p>High volume, repeat bookings, unglamorous and reliable. Brands shoot new ranges constantly. A model who is efficient, consistent and easy on set gets rebooked here indefinitely. Our <a href="../ecommerce-modeling/">guide to ecommerce modeling</a> covers this specific lane in more depth, including what separates it from a printed catalogue or a campaign shoot.</p>
 <h3>Fit modeling</h3>
 <p>The most under-discussed well-paid work in the industry. Brands need someone with stable, specific measurements to fit garments during development. It is regular, hourly-paid, long-term, and almost invisible from outside because there are no published images. Our <a href="../how-to-become-a-fit-model/">fit modeling guide</a> covers what the job actually involves and how to get booked.</p>
 <h3>Parts modeling</h3>

@@ -58,7 +58,7 @@ guessed). Apply the same standard going forward: any new or edited
 article touching a jurisdiction-dependent rule gets real, checked detail
 for all three markets, or it doesn't ship.
 
-## Live (52 articles)
+## Live (53 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -114,6 +114,7 @@ for all three markets, or it doesn't ship.
 | how-to-become-a-fit-model | how to become a fit model | 70 | 0 | 2026-09-07 |
 | how-to-become-a-tattoo-model | how to become a tattoo model | 150 | 0 | 2026-09-08 |
 | how-to-become-a-model-in-uk | how to become a model uk | 200 (GB) | 0 | 2026-09-09 |
+| ecommerce-modeling | ecommerce modeling | 100 | 0 | 2026-09-10 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -214,7 +215,7 @@ the existing section, not a new URL.
 | catwalk model / how to become a catwalk model | 200 + 10 | 8 / — | **Checked 2026-09-09, cannibalised.** `runway-model`'s own FAQ already has a dedicated Q&A, "Is it a 'runway' or a 'catwalk'?", explaining catwalk as the UK/Australia synonym, and `types-of-work.mjs` repeats the same explanation. Do not write a separate page for the UK-terminology variant. |
 | modelling agencies uk / modelling agency london | 350 / 150 | 71 / 72 | **Checked 2026-09-09, same bigger-lift call as the US/AU city-directory keywords.** Real volume, but KD is far above this site's floor and a credible version needs verified, named UK agencies researched properly, the same larger project noted for the US cities above. Not a quick pick. |
 | how to become a stunt double | 450 | 1 | **Checked 2026-09-09, wrong audience.** Excellent volume and difficulty on paper, but stunt work is a distinct film-industry skill set (physical stunts, not modeling), the same off-ICP pattern as the dropped `how to become an extra`. Dropped. |
-| ecommerce modeling | 100 | 0 | **Checked 2026-09-09, clean but thin.** Real niche (product/catalogue modeling for online retail), no dedicated coverage found on a full-repo grep, genuinely different from general commercial modeling, but under this site's volume floor. Worth a quick pick on a thin week. |
+| ecommerce modeling | 100 | 0 | **Shipped 2026-09-10** — see the Live table. |
 | tfp modeling / what does tfp mean in modeling | 50 + 30 | 0 / 0 | **Checked 2026-09-09, clean but thin.** "Time for prints/photos" explainer, uncovered on this site, real but low-volume search. Fine for a thin week, possibly better as an addition to the portfolio cluster than a standalone page given how short the honest answer is. |
 | how to become a bridal model | 20 | — | **Checked 2026-09-09, too thin.** Clean but very low volume even by this site's thin-week standard. |
 | modeling agency new york | 150 | 47 | **Checked 2026-09-09, same city-directory call as above.** Folded into the existing US-cities note; not a standalone opportunity. |
@@ -984,3 +985,63 @@ the existing section, not a new URL.
   verifying jurisdiction-specific legal claims when direct `WebFetch` is
   blocked on the source domain. Worth knowing before a future run assumes
   `WebFetch` will reach any given government or reference site directly.
+- **2026-09-10 run: checked open branches/PRs first (none open, confirmed
+  via `mcp__github__list_pull_requests`), then re-verified `ecommerce
+  modeling` (100 vol, KD 0) live via `keywords-explorer-overview` and
+  `serp-overview` before writing, since the 2026-09-09 shortlist note was
+  a day old. Numbers held. Also checked `how to become an ecommerce
+  model` (0 vol) and `e-commerce model` (60 vol, KD 11, but a different
+  parent topic entirely, "ecommerce business models," not the modeling
+  career sense) and `keywords-explorer-matching-terms` for nearby
+  variants: nothing better surfaced, everything else in that space is
+  SaaS/business-model terminology. `serp-overview` for the bare term
+  showed genuine career/how-to-become-a-model content (agency pages, a
+  Reddit thread, a competing explainer at mymodelreality.com, all DR
+  29-48) rather than stock-photo or freelance-marketplace noise, and a
+  full-repo grep confirmed "e-commerce" appears only as a passing mention
+  inside the general commercial-modeling cluster (`what-is-commercial-modeling`,
+  `types-of-modeling`, `modeling-jobs`, `how-much-do-models-make`, the
+  niche pieces), never as its own dedicated page, so this is not
+  cannibalised. Wrote `ecommerce-modeling` in `content/articles/types-of-work.mjs`
+  alongside its `what-is-commercial-modeling` and `what-is-fashion-modeling`
+  siblings, an explainer-plus-how-to hybrid matching that cluster's
+  format rather than niche.mjs's personal-identity "how to become a X
+  model" format, since the keyword itself is a bare category noun, not a
+  personal-path phrase, the same call `types-of-modeling` and
+  `what-is-commercial-modeling` made before it. Cross-linked in-body from
+  three places, one more than the minimum: `jobs.mjs`'s "Catalogue and
+  e-commerce" H3, `money.mjs`'s "Commercial and retail" pay section, and
+  `types-of-work.mjs`'s own `what-is-commercial-modeling` bullet list, all
+  three already mentioning e-commerce in passing and turned into real
+  links rather than added cold. Added the slug to the "Castings & work"
+  cluster in `scripts/build-index-and-sitemap.mjs`. Retried a dedicated
+  Higgsfield hero on schedule (last retested 2026-09-08): `generate_image`
+  (`nano_banana_pro`, resolved to `nano_banana_2`) again produced a clean
+  2752x1536 result with no collage or text artefacts on inspection of the
+  job metadata, but the resulting `cloudfront.net` URL still hit a hard
+  `403`/`connect_rejected` on direct fetch through this session's agent
+  proxy, identical to every attempt since 2026-08-25 and confirmed via
+  `/__agentproxy/status`. This remains a standing environment property,
+  not a one-off. Reused `how-to-become-a-male-model`'s hero (a plain-wall,
+  squarely-posed shot in unstyled clothing) with a fresh `imageAlt`
+  describing it as the plain product-listing framing this niche actually
+  needs, rather than a misleading claim to a dedicated shoot. `npm run
+  build && npm run check` and `npx html-validate@8` on the new and edited
+  pages all pass clean, including the orphan-inbound-link check. Title is
+  46 characters, description 149, both within limit; zero em dashes in
+  the new article body (checked directly, since `check:site` does not
+  enforce it). Word count landed at 1,274, in line with this site's other
+  recent thin-keyword niche pieces (foot model 1,226, tattoo model 1,271)
+  rather than the higher-volume articles' 1,500-2,500 range, a deliberate
+  match to established practice rather than a shortfall.
+- **GSC access still unavailable this run** (re-confirmed 2026-09-10, no
+  new service-account key or MCP tool present in this session) — substituted
+  the Ahrefs keyword-explorer/SERP checks above per the standing note.
+  No open PRs or unmerged branches from prior runs existed to collide
+  with (`list_pull_requests` returned none), and `git fetch origin main`
+  showed the true remote `main` sat two merges ahead of this session's
+  initial shallow-clone snapshot of the local `main` ref (a clone-time
+  caching quirk, not a real divergence) — worth a fresh `git fetch
+  origin main` before branching in any future run that sees local `main`
+  and the environment's default checked-out branch disagree, rather than
+  trusting the first `git log` on a freshly cloned `main`.
