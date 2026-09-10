@@ -3,6 +3,7 @@
 // guide, which teaches the physical skill rather than explaining the category.
 
 const DATE = '2026-08-20';
+const DATE_ECOMMERCE = '2026-09-10';
 
 export const typesOfWork = [
   {
@@ -174,7 +175,7 @@ export const typesOfWork = [
 <h2>What Commercial Work Actually Looks Like</h2>
 <p>"Commercial" covers more ground than most beginners expect. In practice, the bookings a casting director actually runs fall into a handful of recurring types:</p>
 <ul>
-<li><b>Catalogue and e-commerce.</b> The product shots on a retailer's own site: on-model apparel, accessories, homeware. High volume, steady demand, and usually the easiest entry point for a new face.</li>
+<li><b>Catalogue and e-commerce.</b> The product shots on a retailer's own site: on-model apparel, accessories, homeware. High volume, steady demand, and usually the easiest entry point for a new face. Our <a href="../ecommerce-modeling/">dedicated guide to ecommerce modeling</a> covers this lane on its own, including how it differs from a printed catalogue or a campaign shoot.</li>
 <li><b>Lifestyle.</b> A person using a product in a natural-looking setting, a kitchen, a gym, a car interior, built for a brand's website, social feed or paid ads.</li>
 <li><b>Advertising campaigns.</b> Print, digital and broadcast ads for a specific brand push, usually the highest-paying tier of commercial work because of the usage attached to it, covered below.</li>
 <li><b>Corporate and tech.</b> Stock-style imagery for software companies, banks, healthcare providers and B2B brands. Unglamorous, consistent, and often underrated as a category by new models chasing more visible work.</li>
@@ -429,6 +430,104 @@ export const typesOfWork = [
 
 <h2>The Short Version</h2>
 <p>Fashion modeling is the category built around presenting clothing and a brand's image, and it is bigger than runway alone: editorial, campaign and showroom work are all real, working parts of it, each with its own pay structure and its own demands. Editorial builds the credibility, campaign work tends to pay the bills, and runway, covered in full separately, is one visible but narrow channel inside a wider career. The proportion requirement is real and closer to runway's than commercial's, but the channels around it give a fashion model more ways to build a working career than the runway-only picture most beginners start with.</p>
+`,
+  },
+
+  {
+    slug: 'ecommerce-modeling',
+    seoTitle: 'What Is Ecommerce Modeling? The Job, Explained',
+    description:
+      'What ecommerce modeling actually is, how it differs from catalogue and campaign work, real pay and usage, and how to get booked, from working agents.',
+    headline: 'What Is Ecommerce Modeling? The Job, the Pay and Getting Booked',
+    category: 'Types of work',
+    image: 'how-to-become-a-male-model',
+    imageAlt: 'A model standing squarely against a plain wall in simple, unstyled clothing, the plain framing an online product listing actually needs',
+    readTime: 9,
+    date: DATE_ECOMMERCE,
+    related: ['what-is-commercial-modeling', 'modeling-jobs', 'how-to-become-a-model-with-no-experience'],
+    faq: [
+      {
+        q: 'What is ecommerce modeling?',
+        a: 'Ecommerce modeling is modeling shot specifically for a retailer\'s own online store or marketplace listing: the on-model product photo on a Shopify page or an Amazon listing, not a printed catalogue or a national ad campaign. It is a distinct, high-volume commercial niche in its own right, not just another word for catalogue or commercial modeling generally, and it has grown fast as more retail moves online.',
+      },
+      {
+        q: 'How is ecommerce modeling different from catalogue or commercial modeling?',
+        a: 'Catalogue and general commercial work can mean anything from a printed lookbook to a national ad campaign, each with its own budget and usage. Ecommerce modeling specifically means the plain, repeatable product-page shot for a retailer\'s own site or a marketplace listing, usually licensed for that one listing rather than broad advertising rights. A single session often shoots dozens of separate looks in a day rather than building toward one hero image.',
+      },
+      {
+        q: 'Do you need an agency to get ecommerce modeling work?',
+        a: 'Not always. Plenty of small and mid-size online retailers cast directly through their own social media, a casting platform, or a photo studio they book repeatedly, without an agency involved at all. An agency\'s commercial or catalogue board adds access to bigger retailers and marketplace sellers running steady, ongoing volume, but freelance and direct outreach are a genuinely common way in.',
+      },
+      {
+        q: 'How much does ecommerce modeling pay?',
+        a: 'Pay is usually structured as an hourly or half or full day rate rather than a single flat fee with broad usage, since the client is paying for a high volume of clean, repeatable looks for one listing rather than licensing a hero image for wide advertising use. A single session\'s rate is often more modest than a national campaign day rate, but the steady, repeat nature of the work makes it a reliable category to build income around.',
+      },
+      {
+        q: 'What do you need to break into ecommerce modeling?',
+        a: 'Honest, current measurements that match a retailer\'s sample size, the stamina to hold a clean, repeatable pose through dozens of changes in a single session, and simple digitals that show your natural proportions rather than a styled shoot. No agency signing, formal training or expensive portfolio is required to submit.',
+      },
+      {
+        q: 'Is ecommerce modeling a good way to start with no modeling experience?',
+        a: 'Yes. It is one of the lowest-barrier entry points into paid commercial work, because most clients are casting for a consistent, camera-ready look and stable measurements rather than a portfolio or agency history. It is also one of the more repeatable ways to build real paid experience and tearsheets before pursuing a bigger agency board.',
+      },
+    ],
+    body: `
+<p>Search "ecommerce modeling" and most of what comes back is either a vague definition post or advice written for catalogue or general commercial modeling that treats the term as interchangeable. It isn't. Ecommerce modeling is its own specific, high-volume corner of commercial work, and it has grown faster than almost any other lane in the industry as more of retail moves online.</p>
+<p>Our instructors at Online Model Academy include agents and bookers who place models directly with online retailers and the studios that shoot their product pages. This is what the job actually is, and how to get into it.</p>
+
+<h2>What Ecommerce Modeling Actually Is</h2>
+<p>Ecommerce modeling is the on-model photography that appears on a brand's or retailer's own website or marketplace listing: the model wearing a shirt on a Shopify product page, the model in the shoes on an Amazon listing, the model showing how a jacket fits on a direct-to-consumer brand's site. It is a narrower, more specific job than "catalogue" or "commercial" modeling generally, which can also mean a printed lookbook, a national ad campaign, or a lifestyle shoot built for social media.</p>
+<p>What sets it apart is the client's actual need: a retailer selling online needs a shopper to see clearly how a product looks and fits on a real body before buying it sight unseen. The photo has one job, answer that question plainly, not sell a mood or a brand feeling the way a campaign image does.</p>
+
+<h2>How It Differs From Catalogue and Commercial Modeling Generally</h2>
+<h3>Volume, not a single hero shot</h3>
+<p>An ecommerce shoot day is built around volume: a single model might shoot twenty to sixty separate product looks in a day, changing outfits repeatedly, rather than the handful of setups a campaign shoot builds around one or two hero images. Speed, consistency and the ability to hit the same clean pose reliably matter more here than in almost any other category.</p>
+<h3>Usage is usually narrow</h3>
+<p>A campaign licence buys broad rights: national advertising, social, sometimes print, for a set period. An ecommerce booking typically licenses the images for that one listing or site only, which is a real part of why the per-session rate usually runs lower than a campaign day rate even when the shoot itself takes just as long.</p>
+<h3>Simpler production, smaller crew</h3>
+<p>Many ecommerce shoots run lean: a photographer, a stylist handling the volume of garment changes, sometimes no separate hair and makeup team at all, especially for brands shooting a large seasonal range on a tight budget. It is a less glamorous set than a campaign, and a genuinely useful place for a new model to learn to work fast and take direction without needing months of prior experience.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=ecommerce-modeling__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>What Actually Gets You Booked</h2>
+<h3>Measurements that match the brand's sample size</h3>
+<p>Same logic as any commercial casting: a retailer photographs its actual sample garments, so a model whose measurements sit close to that size books more consistently than one who simply looks right in photos but does not fit the sample cleanly. Send honest, current measurements, height, bust or chest, waist, hips, dress or suit size, shoe size, the same numbers every board asks for.</p>
+<h3>Stamina and consistency across a long shoot day</h3>
+<p>Holding a clean, repeatable pose through dozens of changes, staying camera-ready and pleasant through a long day, and taking quick direction without needing multiple retakes per look is the single most valuable trait an ecommerce client books for. It rewards reliability over a dramatic look.</p>
+<h3>Simple, honest digitals</h3>
+<p>Four to six phone photos, daylight, plain wall, no filters or retouching: front, side, one smiling, one neutral, full length. The same standard every commercial board asks for. Our full <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers the shot list in more depth.</p>
+
+<h2>Where This Work Actually Comes From</h2>
+<p>Direct-to-consumer apparel and accessory brands running their own website store, marketplace sellers on Amazon, Walmart and similar platforms, and photo studios that specialize in bulk product photography for multiple retail clients at once are the main sources. A smaller amount runs through an agency's commercial or catalogue board, where a bigger retailer books through representation rather than casting directly. Our guide to <a href="../what-is-commercial-modeling/">what commercial modeling actually is</a> covers where ecommerce work sits alongside the wider commercial category.</p>
+
+<h2>Agencies vs. Going Direct</h2>
+<p>You do not need a signing to start. Small and mid-size online retailers cast directly through their own social media, a casting platform, or a studio they book repeatedly, without an agency involved at all. An agency's commercial or catalogue board adds access to bigger retailers and marketplace sellers running steady, ongoing volume, worth pursuing once you have a few real bookings and honest digitals to submit. See our guide to <a href="../modeling-jobs/">where modeling work actually comes from</a> for how ecommerce fits alongside the rest of the industry's job sources.</p>
+<p>This is also one of the more realistic starting points for someone with no modeling background at all. Our guide for <a href="../how-to-become-a-model-with-no-experience/">getting started with no experience</a> points beginners toward accessible commercial work first, and ecommerce is one of the most accessible lanes inside it.</p>
+
+<h2>Reasons People Talk Themselves Out of Submitting, and Why They're Wrong</h2>
+<ul>
+<li><b>"Ecommerce shoots aren't real modeling."</b> It is real, paid, professional work with real clients and real usage rights, just narrower in scope and lower-key than a campaign. It is also one of the highest-volume categories in the entire industry.</li>
+<li><b>"I need professional photos before I submit."</b> Clients want honest phone digitals that show your true proportions and how cleanly and consistently you photograph, not a styled shoot. Spending money on photography before your first submission is a wasted step.</li>
+<li><b>"I'm not signed to an agency, so I can't get this work."</b> A large share of ecommerce work is cast directly by the brand or studio, without an agency involved at all. Plenty of working ecommerce models have never signed with anyone.</li>
+<li><b>"I should wait until I have more experience."</b> Ecommerce casting is one of the lowest-barrier ways to get that first real, paid experience. It is the way in, not something to wait for after you already have a portfolio.</li>
+</ul>
+
+<h2>How to Actually Get Into Ecommerce Modeling</h2>
+<ol>
+<li><b>Measure yourself properly and keep the numbers current.</b> Height, bust or chest, waist, hips, dress or suit size, shoe size, the same numbers every commercial board asks for.</li>
+<li><b>Shoot simple, honest digitals.</b> Four to six phone photos, daylight, plain wall, no filters: front, side, one smiling, one neutral, full length. Our <a href="../how-to-make-a-modeling-portfolio/">portfolio guide</a> covers the shot list in more depth.</li>
+<li><b>Search directly for online retailers, direct-to-consumer brands and product-photography studios,</b> not just modeling agencies. A large share of this work is cast without an agency at all.</li>
+<li><b>Submit to agencies with a commercial or catalogue board too,</b> for access to bigger retail and marketplace clients running steady, ongoing volume.</li>
+<li><b>Practise holding a clean, consistent pose through repeated changes.</b> It is the single most valuable, trainable skill this category rewards.</li>
+</ol>
+
+<h2>The Short Version</h2>
+<p>Ecommerce modeling is the plain, high-volume product photography behind every online retailer's own listings, a distinct and genuinely accessible lane inside commercial work rather than a synonym for catalogue or campaign modeling generally. It books on consistency, stamina and accurate measurements rather than a dramatic look, pays by the hour or the day rather than through broad usage rights, and is one of the most realistic ways for a beginner with no agency and no portfolio to start earning real, paid modeling work.</p>
 `,
   },
 ];
