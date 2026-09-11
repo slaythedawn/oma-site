@@ -58,7 +58,7 @@ guessed). Apply the same standard going forward: any new or edited
 article touching a jurisdiction-dependent rule gets real, checked detail
 for all three markets, or it doesn't ship.
 
-## Live (53 articles)
+## Live (54 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -115,6 +115,7 @@ for all three markets, or it doesn't ship.
 | how-to-become-a-tattoo-model | how to become a tattoo model | 150 | 0 | 2026-09-08 |
 | how-to-become-a-model-in-uk | how to become a model uk | 200 (GB) | 0 | 2026-09-09 |
 | ecommerce-modeling | ecommerce modeling | 100 | 0 | 2026-09-10 |
+| how-to-become-an-instagram-model | how to become an instagram model | 90 | 0 | 2026-09-11 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -191,7 +192,7 @@ the existing section, not a new URL.
 | how to become a swimsuit model | 70 | 0 | **Checked 2026-09-05, clean but thin.** Same call as print model above: uncovered, low volume, fine for a thin week. |
 | how to become a lingerie model | 50 | 0 | **Checked 2026-09-05, clean but thin, and check brand fit before writing.** Uncovered and low-difficulty, but confirm the SERP and framing stay squarely career-education before committing, given the site's audience includes teens. |
 | how to become a teen model | 100 | 0 | **Checked 2026-09-05, likely cannibalised, not confirmed.** Close to `how-to-become-a-model-at-16` in intent; read that article's actual body before writing anything here, do not just trust the volume. |
-| how to become an instagram model | 90 | 0 | **Checked 2026-09-05, clean but thin and check fit.** Uncovered on this site, but verify the SERP is career/agency intent and not influencer-growth content before picking it. |
+| how to become an instagram model | 90 | 0 | **Shipped 2026-09-11** — see the Live table. |
 | how to become a model scout / what is a model agent | 30 | 0 | **Checked 2026-09-05, clean but thin.** Different angle from every existing agency guide (becoming a scout, not being scouted). Low volume, worth a look on a thin week. |
 | how old do you have to be to model | 70 | 0 | **Checked 2026-09-05, likely cannibalised, not confirmed.** Overlaps `how-to-become-a-model-at-16` and possibly the parents cluster's age-related FAQs — grep those bodies before writing rather than trusting volume alone. |
 | commercial print model / how to get modeling gigs / how to become a promotional model / how to become a catalog model / how to become a mature model / how to become an older model / modeling for beginners / how to get scouted for modeling | all under 60 | 0-3 | **Checked 2026-09-05, too thin.** Real and clean but under the volume floor this site has been picking above (250+). Only worth combining into a broader piece, not writing individually. |
@@ -1045,3 +1046,69 @@ the existing section, not a new URL.
   origin main` before branching in any future run that sees local `main`
   and the environment's default checked-out branch disagree, rather than
   trusting the first `git log` on a freshly cloned `main`.
+- **2026-09-11 run.** Fired from the same external scheduled-trigger prompt as
+  every prior run (the stale 18 August chat-routine handover, describing a
+  pre-repo Python/zip workflow superseded weeks ago); this file and
+  `CONTRIBUTING.md` remain the authoritative process, per every prior run's
+  note. `git fetch origin main` and `list_pull_requests` done before writing:
+  no open PRs, and the designated session branch was identical to `origin/main`
+  (no unmerged commits), so built directly on it rather than resetting
+  anything. `git branch -r` surfaced two remote branches not previously logged
+  here, `claude/charming-tesla-cjjm7a` and `claude/charming-tesla-psb5a8` —
+  checked both with `git diff` against `origin/main` before writing anything,
+  per the standing collision lesson, rather than assuming they were safe from
+  the names alone. `psb5a8`'s tree is byte-identical to `main` (an already
+  squash-merged branch whose head commit just isn't a graph ancestor), and
+  `cjjm7a` is strictly behind `main` (missing `ecommerce-modeling` and the
+  ledger entries after it, plus one unrelated trivial `.gitignore` commit on
+  top) — both fully superseded, no unmerged work at risk, nothing to build on.
+  Shortlist review: every specific candidate phrase batch-checked this run
+  (print/swimsuit/lingerie model, modeling-agency-requirements, modeling
+  shoot, TFP modeling, model-scout, hair-model-adjacent submission terms) came
+  back at or below 90 volume — a genuinely thin week, not a research
+  shortfall. Picked the shortlist's own highest-volume flagged-but-unshipped
+  candidate instead of a fresh thin one: `how to become an instagram model`
+  (90 vol, KD 0), flagged 2026-09-05 as "clean but thin, check fit." Resolved
+  that flag via `serp-overview`: the actual SERP (Indeed, Backstage, a
+  Reddit modeling-subreddit thread) is genuine career/agency advice on
+  building a bookable presence, not influencer-growth content, so the fit
+  concern is cleared. Confirmed clean via a full-repo grep for
+  "instagram model" and "Instagram model" — only passing mentions existed
+  (a scam-pattern bullet about DM scouting in the UK article, an aside in
+  `runway-model`), no dedicated treatment anywhere. Shipped
+  `how-to-become-an-instagram-model` in `content/articles/niche.mjs`,
+  extending the Specialisms cluster's personal how-to set again. The
+  differentiator from the influencer-advice content dominating the SERP is
+  the article's central point, not just a line in it: an agency/brand books
+  Instagram-native content for a fee and a usage license, the same
+  commercial-modeling structure as everywhere else on this site, which is a
+  different transaction from being paid for reach as an influencer — most
+  competing content conflates the two. Cross-linked in-body from three
+  places, one more than the minimum: the hand-written
+  `how-to-become-a-freelance-model`'s existing "Social media as your
+  storefront" section (edited the HTML directly, since it is one of the
+  original 16 hand-written pages, not generated — per CONTRIBUTING.md, do not
+  route this kind of edit through the generator), and `types-of-modeling`'s
+  "Freelance" subsection in `content/articles/types-of-work.mjs`. Added the
+  slug to the Specialisms cluster in `scripts/build-index-and-sitemap.mjs`.
+  Reused `image: 'how-to-become-a-freelance-model'` (a model reviewing her own
+  phone against a plain wall) rather than attempting a Higgsfield generation —
+  the standing `cloudfront.net` 403 block logged on every run since
+  2026-08-25 was last confirmed 2026-09-10 and nothing suggests it has
+  lifted, so not re-tested this run. `npm run build && npm run check` and
+  `npx html-validate@8` on the new and edited pages all pass clean, including
+  the orphan-inbound-link check (2 in-body inbound links, plus the blog index
+  and sitemap by construction). Title is 46 characters, description 149
+  characters (trimmed from an initial 155 to leave margin), both within
+  limit; word count landed at 1,114, in line with this site's other
+  thin-keyword niche pieces (foot model 1,226, tattoo model 1,271) rather
+  than the higher-volume 1,500-2,500 range, the same deliberate match to
+  established practice logged for those. Zero em dashes in the new article
+  body (the only em dashes `check-site.mjs`'s output would not catch are the
+  shared nav/footer template's generated-marker comments and the "Enrol —
+  $299" CTA label, identical across every page on the site, not new content).
+  GSC access still unavailable this run (no service-account key or `gsc-*`
+  MCP tool present); substituted Ahrefs `keywords-explorer-overview` and
+  `serp-overview` per the standing note. Opening a PR next and merging once
+  CI is green and `mergeable_state` is `clean`, per the standing automerge
+  authorisation above, without waiting on Josh.

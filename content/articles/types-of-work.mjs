@@ -292,7 +292,7 @@ export const typesOfWork = [
 <p>Swimwear, lingerie and beauty campaigns. Casts on a specific look and comfort in front of the camera rather than height, and overlaps significantly with commercial and fitness casting in practice.</p>
 
 <h3>Freelance</h3>
-<p>Not a look or a client type, a way of working: booking directly with clients and photographers instead of, or alongside, an agency. A freelancer keeps the full rate they negotiate rather than paying agency commission, at the cost of the largest national clients, who mostly book through agencies. Our <a href="../how-to-become-a-freelance-model/">freelance modeling guide</a> covers rate-setting and finding legitimate work directly.</p>
+<p>Not a look or a client type, a way of working: booking directly with clients and photographers instead of, or alongside, an agency. A freelancer keeps the full rate they negotiate rather than paying agency commission, at the cost of the largest national clients, who mostly book through agencies. Our <a href="../how-to-become-a-freelance-model/">freelance modeling guide</a> covers rate-setting and finding legitimate work directly. A specific, growing corner of this lane is social-native brand content: our <a href="../how-to-become-an-instagram-model/">guide to becoming an Instagram model</a> covers what those bookings actually pay for, and how the job differs from influencing.</p>
 
 <aside class="inline-cta">
   <div class="k">Free module</div>
