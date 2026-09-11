@@ -10,6 +10,7 @@ const DATE_FOOT = '2026-09-05';
 const DATE_HAIR = '2026-09-06';
 const DATE_FIT = '2026-09-07';
 const DATE_TATTOO = '2026-09-08';
+const DATE_INSTAGRAM = '2026-09-11';
 
 export const niche = [
   {
@@ -589,6 +590,95 @@ export const niche = [
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
 <p>That last step is where our mentors, working agents and bookers who cast commercial work for a living, add the most before your first booking rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+`,
+  },
+  {
+    slug: 'how-to-become-an-instagram-model',
+    seoTitle: 'How to Become an Instagram Model: A Real Guide',
+    description:
+      'How to become an Instagram model, from the people who book them: what brands pay for, how it differs from influencing, and getting scouted safely.',
+    headline: 'How to Become an Instagram Model: What Brands Are Actually Paying For',
+    category: 'Niche',
+    image: 'how-to-become-a-freelance-model',
+    imageAlt: 'A model reviewing her own phone against a plain wall, the honest self-shot content brands actually book',
+    readTime: 9,
+    date: DATE_INSTAGRAM,
+    related: ['how-to-become-a-freelance-model', 'types-of-modeling', 'how-to-make-a-modeling-portfolio'],
+    faq: [
+      {
+        q: 'What is an Instagram model, exactly?',
+        a: 'Someone booked by a brand specifically for content that runs on Instagram: product tags, UGC-style ads, a branded feed post, a reel built around a product. It is a modeling job, paid for a specific piece of content and a specific usage, not a following. That is different from an influencer, who is paid mainly for reach and access to an audience they built themselves.',
+      },
+      {
+        q: 'How many followers do you need to become an Instagram model?',
+        a: 'Fewer than most people assume. Brands running paid UGC and ad content care about the shot quality, your look and consistency, and how the license lets them run the images, in their own ad account, not your follower count. A small, tidy feed of well-lit, honest photos books this work; a large following helps with a different, separate kind of deal built around your own reach, not this one.',
+      },
+      {
+        q: 'Is Instagram modeling different from being an influencer?',
+        a: 'Yes, and the mix-up costs new applicants real money. An influencer is paid for access to an audience they already have. An Instagram model is paid the way any other model is, a fee for a shoot plus a license for how the resulting images or video get used, usually on the brand\'s own account or ad account rather than yours. You can do either, both, or neither; treating them as the same job leads to underpricing one or misunderstanding what a client actually wants from the other.',
+      },
+      {
+        q: 'How do you get scouted for modeling on Instagram?',
+        a: 'Real agency scouts do use Instagram and TikTok to find new faces, and a genuine one behaves the same way an in-person scout does: introduces themselves, names the actual agency, and is fine with you looking the agency up and calling its published number before you reply to anything. A scout who pushes for an instant answer, asks for money, or will not name a verifiable agency is not a real scout, whatever the account looks like.',
+      },
+      {
+        q: 'Do you need a modeling agency to book Instagram work?',
+        a: 'No. A large share of this work is cast directly: brands and their marketing agencies search hashtags and comment sections, or run their own casting calls, for people who already photograph well and post consistently. An agency adds access to bigger, better-paying brand deals and someone to check a contract before you sign it, but plenty of models build a real Instagram-modeling income freelance first.',
+      },
+      {
+        q: 'What ruins an Instagram modeling submission or DM reply to a brand?',
+        a: 'An inconsistent feed that makes it hard to tell what you actually look like day to day, heavily filtered or retouched photos that will not match how you show up on a shoot, and no clear way to contact you off-platform. A brand or scout that cannot tell what you look like honestly, or cannot reach you cleanly, moves on to the next account rather than following up.',
+      },
+    ],
+    body: `
+<p>Search "how to become an Instagram model" and most of what comes back is influencer advice: grow your following, pick a niche, post consistently, chase the algorithm. That is a real and useful skillset, and it is answering a different question. Brands that book Instagram modeling work are not paying for an audience. They are paying for a specific piece of content, the same way any commercial client pays for a shoot, and Instagram just happens to be where it runs.</p>
+<p>Our instructors at Online Model Academy include agents and bookers who work with brands on exactly this kind of content. This is the modeling version of the job, not the influencer-growth version that dominates the search results.</p>
+
+<h2>What Instagram Modeling Actually Is</h2>
+<p>A brand needs content that looks native to the platform: a product tag in a feed post, a UGC-style ad that reads like a real post rather than a polished campaign, a reel built around wearing or using something. It books a model for that specific shoot, pays a fee, and licenses the resulting images or video for a defined use, often the brand's own account or ad account rather than the model's. That is a modeling booking with a familiar structure underneath an unfamiliar-sounding name.</p>
+<p>This is a genuinely different job from influencing, where the payment is for access to an audience the creator already built. Both are real, both pay, and conflating them is the single most common mistake people make chasing this work: pricing a modeling booking like a sponsorship, or expecting a following to matter where the client is actually buying a shoot and a license.</p>
+
+<h2>What Actually Gets You Booked</h2>
+<h3>A consistent, honest feed, not a big one</h3>
+<p>Brands scanning for this work want to see clearly and consistently what you look like: recent, well-lit photos, a face that reads the same from post to post, and range across a few simple looks. A modest, tidy feed of honest photos books more of this work than a large one built on heavy filters, because the brand needs to know exactly what shows up on the shoot day.</p>
+<h3>Real digitals behind the polished feed</h3>
+<p>A curated Instagram grid is not a substitute for the plain, unretouched photos an agency or brand actually vets a submission against. Our full <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers the honest shot list this work is checked against underneath the feed.</p>
+<h3>Clear usage terms, agreed before you shoot</h3>
+<p>Where the content will run, for how long, and on whose account is the actual value of the deal, the same as any other modeling job. A brand asking for broad, ongoing usage across paid ads is buying something worth more than a single organic feed post, and should be paying accordingly.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-an-instagram-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>Getting Scouted Safely</h2>
+<p>Genuine agency scouting on Instagram and TikTok is real, not just a story told to explain how someone got signed. It also looks a specific, checkable way: the scout names an actual agency, is comfortable with you looking that agency up independently and calling its published number before you reply, and never asks for money at any point. Anyone pushing for an immediate answer, being vague about which agency they represent, or asking for a fee up front is not a real scout, regardless of how legitimate the account looks. Our guide to <a href="../how-to-become-a-freelance-model/">building a freelance modeling career</a> covers the wider version of this: using social media as a genuine storefront, and vetting a client yourself when there is no agency doing it for you.</p>
+
+<h2>Agencies vs. Booking Direct</h2>
+<p>Both routes are real here. A modeling or talent agency with a social or UGC-content division adds access to bigger, better-paying brand deals and someone to check a contract and a usage clause before you sign anything. Plenty of this work is also cast directly, though: brands and the marketing agencies working for them search relevant hashtags and comment sections, or run their own casting calls, specifically looking for people who already photograph well and post consistently. Building a track record freelance first, a handful of real brand deals with clear terms, makes a later agency submission stronger, not weaker.</p>
+
+<h2>Reasons People Talk Themselves Out of Submitting, and Why They're Wrong</h2>
+<ul>
+<li><b>"I don't have enough followers to be an Instagram model."</b> Most of this work is booked on how you photograph and how clean your usage terms are, not your reach. A following matters for a different, separate kind of deal, not this one.</li>
+<li><b>"My photos aren't professional enough."</b> Brands want to see what you honestly look like, consistently, not a heavily produced grid. An overly polished, filtered feed can work against you here.</li>
+<li><b>"This isn't real modeling."</b> It is a modeling booking with a fee and a usage license, the same structure as any other commercial job, just delivered through a different platform and a different-sounding brief.</li>
+<li><b>"I should wait until I've grown my account more."</b> Growth helps a different kind of deal. For this one, a consistent, honest feed today is enough to start submitting.</li>
+</ul>
+
+<h2>What the Work and the Pay Actually Look Like</h2>
+<p>Rates are set by the client, the usage, and whether the content is a single organic post or a licensed ad asset, the same structure as the rest of commercial modeling, not by a follower count. A brand paying for broad usage across its own paid ad account is buying something worth meaningfully more than a single feed post, and a fair deal reflects that difference. Our guide to <a href="../types-of-modeling/">the different types of modeling</a> covers where freelance and social-facing work like this sits alongside every other category in the industry.</p>
+
+<h2>Your First Steps</h2>
+<ol>
+<li>Clean up your feed to a small, consistent set of honest, well-lit photos rather than a large, heavily filtered one.</li>
+<li>Shoot a few plain digitals behind the curated grid, the same honest shot list any agency submission needs.</li>
+<li>Add a clear, off-platform contact method to your bio so a real brand or scout can reach you cleanly.</li>
+<li>Verify any scout or brand independently before agreeing to anything, and never pay to be considered.</li>
+<li>Learn how a casting room actually works before you are standing in one.</li>
+</ol>
+<p>That last step is where our mentors, working agents and bookers who work with brands on this kind of content, add the most before your first booking rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
 `,
   },
 ];
