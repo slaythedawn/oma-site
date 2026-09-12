@@ -11,6 +11,7 @@ const DATE_HAIR = '2026-09-06';
 const DATE_FIT = '2026-09-07';
 const DATE_TATTOO = '2026-09-08';
 const DATE_INSTAGRAM = '2026-09-11';
+const DATE_SHOWROOM = '2026-09-12';
 
 export const niche = [
   {
@@ -679,6 +680,98 @@ export const niche = [
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
 <p>That last step is where our mentors, working agents and bookers who work with brands on this kind of content, add the most before your first booking rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+`,
+  },
+  {
+    slug: 'how-to-become-a-showroom-model',
+    seoTitle: 'How to Become a Showroom Model: A Real Guide',
+    description:
+      'How to become a showroom model, from the people who book them: what the job actually is, the proportions it needs, agencies vs. direct, and pay.',
+    headline: 'How to Become a Showroom Model: What Buyers Actually See',
+    category: 'Niche',
+    image: 'how-to-become-a-model-at-16',
+    imageAlt: 'A garment rail and portfolio book against a plain wall, the presentation a showroom fitting call actually needs',
+    readTime: 8,
+    date: DATE_SHOWROOM,
+    related: ['how-to-become-a-fit-model', 'what-is-fashion-modeling', 'types-of-modeling'],
+    faq: [
+      {
+        q: 'What is showroom modeling, exactly?',
+        a: 'A design house presenting its full collection privately to retail buyers, editors and press before or alongside a runway season, done inside a showroom rather than on a stage. A showroom model wears each look in the collection in turn, sometimes dozens of times in a single day, so the people deciding what to stock or feature can see how it actually falls and moves on a body.',
+      },
+      {
+        q: 'What is the difference between showroom modeling and runway modeling?',
+        a: 'The audience and the skill, not necessarily the samples. Runway is a choreographed walk performed once in front of a full audience. Showroom is the same or similar samples shown repeatedly to a small room of buyers and press, with no walk, no choreography and no stage presence required, just a calm, professional presentation and a lot of quick changes. Because a design house frequently reuses the same samples across both, the two often draw from the same casting pool.',
+      },
+      {
+        q: 'Do showroom models need runway-level proportions?',
+        a: 'Often yes, because a design house cuts one sample to one exact spec and reuses it across showroom and runway alike, so a showroom board frequently carries similar height and measurement requirements to a fashion or runway board. It is not automatically an easier bar than runway to clear; it is a different job built on a similar body of samples.',
+      },
+      {
+        q: 'Do you need an agency for showroom work?',
+        a: 'Nearly always, more so than most categories in this industry. Design houses typically book their showroom staffing for a whole market-week season at once through an agency\'s fashion or showroom division, rather than casting individually the way a lot of commercial and freelance work gets booked. A specialist fashion-board agency is a more direct route in than a general commercial submission.',
+      },
+      {
+        q: 'How much do showroom models get paid?',
+        a: 'Typically a flat day rate for the market-week days worked, rather than the day-rate-plus-usage structure that prices most commercial and campaign work, because the images from a showroom presentation are rarely distributed publicly the way an ad or editorial spread is. Repeat seasons with the same house are common once you are on their roster.',
+      },
+      {
+        q: 'Where is most showroom work based?',
+        a: 'It clusters hard around a handful of market weeks a year in the same cities that run fashion week: New York, and internationally Paris, Milan and London, with a smaller amount of apparel-mart showroom work in Los Angeles. It is seasonal and concentrated rather than steady, year-round work, worth planning around rather than discovering after signing.',
+      },
+    ],
+    body: `
+<p>Search "showroom modeling" and almost nothing useful comes back, a handful of agency glossary pages and a dictionary-style definition or two, nothing that actually explains the job. That is a strange gap, because showroom work is one of the steadier paid corners of fashion: wearing a designer's full collection, look after look, for the buyers and press deciding what actually gets ordered, well before any of it reaches a runway or a rack.</p>
+<p>Our instructors at Online Model Academy include agents and bookers who staff showroom seasons for design houses every year. This is what the job actually looks like, not the market-week photos that get shared online instead of it.</p>
+
+<h2>What Showroom Modeling Actually Is</h2>
+<p>During market week, a design house presents its full range privately to retail buyers, editors and press, inside a showroom rather than on a public stage. A showroom model wears each look in the collection in sequence, one after another, sometimes dozens of changes across a single day, so a buyer deciding what to order for their store, or an editor deciding what to feature, can actually see how a piece falls, moves and photographs on a body before committing to it.</p>
+<p>It is closer to a long, repeated live fitting than a performance. There is no choreography and rarely more than a handful of people in the room at once, but the pace and the sheer number of changes make it a genuinely demanding day, just a different kind of demanding than a runway show.</p>
+
+<h2>What Actually Gets You Booked</h2>
+<h3>Proportions that hold a sample exactly</h3>
+<p>A design house cuts each sample once, to one precise spec, and frequently uses the same samples across showroom presentations and runway alike. That means a showroom board often carries height and measurement requirements close to a fashion or runway board's, not a looser, more forgiving bar. Knowing your exact current measurements, and submitting them honestly, matters as much here as anywhere else in fashion.</p>
+<h3>Stamina for a lot of quick changes</h3>
+<p>A showroom day can run long, with dozens of looks changed in and out, often with minimal hair or makeup touch-up between them. Handling a sample carefully while changing fast, without damaging or wrinkling it, is a real, practised skill, and the physical stamina to do it change after change is part of what a booker is actually evaluating.</p>
+<h3>A calm, professional presence for a room, not a crowd</h3>
+<p>Because the audience is a handful of buyers and press rather than a full house, the skill being cast for is different from runway: standing cleanly, turning on request, holding still through a longer look, and occasionally answering a brief question about the fabric or the fit. Low-drama professionalism reads better here than performance energy.</p>
+<h3>A straightforward submission, not a styled shoot</h3>
+<p>Most showroom submissions want current, accurate measurements first and a small set of plain, honest photos second, the same standard our full <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers in depth. An overly produced book is not what gets a showroom casting director's attention; accuracy is.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-showroom-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>Where Showroom Work Happens</h2>
+<p>It clusters hard around market week rather than running year-round. In the US that means New York above anywhere else, with a smaller amount of apparel-mart showroom work in Los Angeles, and internationally the same handful of weeks in Paris, Milan and London that also run runway. Our guide to <a href="../modeling-jobs/">where modeling work actually comes from</a> covers how showroom's seasonal, concentrated pattern compares to steadier categories like e-commerce or fit work.</p>
+
+<h2>Agencies vs. Going Direct</h2>
+<p>Agency representation matters more here than in most of this industry. Design houses typically staff an entire market-week season at once through an agency's fashion or showroom division, rather than casting model by model the way a lot of commercial work gets booked. Search specifically for a fashion-board or showroom-division agency rather than a general commercial submission, since the people staffing this work usually sit inside that specific division.</p>
+<p>Direct booking exists but is rarer than in fit modeling, and mostly shows up once a design house already knows you: after one good season, some houses will book the same models directly for the next, without going back through the agency each time. That relationship has to be built through an agency-booked season first for almost everyone.</p>
+
+<h2>Reasons People Talk Themselves Out of Submitting, and Why They're Wrong</h2>
+<ul>
+<li><b>"I don't have runway presence."</b> Showroom is judged on a calm, professional presentation for a small room, not a performed walk for an audience. Someone who reads as flat on a runway can still be exactly what a showroom casting wants.</li>
+<li><b>"No audience means it isn't real modeling."</b> It is real, paid, recurring seasonal work for actual design houses, dismissed mostly because so little of it gets photographed or written about compared to runway.</li>
+<li><b>"I don't have an editorial-level portfolio."</b> Plain, accurate photos and honest current measurements are what get a showroom submission looked at, not a heavily produced book.</li>
+<li><b>"I already do fit modeling, so this isn't a separate thing to pursue."</b> It is worth pursuing alongside it. Fit and showroom work draw on similar skills, precise measurements and professionalism through repeated changes, and plenty of working models do both across a single season rather than choosing one.</li>
+</ul>
+
+<h2>What the Work and the Pay Actually Look Like</h2>
+<p>Showroom work is typically paid a flat day rate for the market-week days actually worked, rather than the day-rate-plus-usage structure that prices most commercial and campaign work, because the images from a private showroom presentation are rarely distributed publicly the way an ad or editorial spread is. See our full breakdown of <a href="../how-much-do-models-make/">how models actually get paid</a> for how that structure compares to the rest of the industry. Repeat bookings with the same house across future seasons are common once you are established on their roster, which makes a good first season worth more than the single day rate suggests.</p>
+
+<h2>Your First Steps</h2>
+<ol>
+<li>Get exact, current measurements: height, bust or chest, waist, hips, and keep them accurate rather than optimistic.</li>
+<li>Shoot a small set of plain, honest digitals, no heavy styling, the same standard fit and runway submissions use.</li>
+<li>Search specifically for a fashion-board or showroom-division agency, not just a general modeling-agency submission.</li>
+<li>Ask any agency you submit to about their market-week casting calendar directly, since this work clusters around a handful of weeks a year rather than being posted year-round.</li>
+<li>Learn how a casting room actually works before you are standing in one.</li>
+</ol>
+<p>That last step is where our mentors, working agents and bookers who staff showroom seasons for real design houses, add the most before your first booking rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
 `,
   },
 ];

@@ -122,6 +122,7 @@ const CLUSTERS = [
       'how-to-become-a-fit-model',
       'how-to-become-a-tattoo-model',
       'how-to-become-an-instagram-model',
+      'how-to-become-a-showroom-model',
       'how-to-become-a-freelance-model',
     ],
   },

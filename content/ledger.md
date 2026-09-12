@@ -58,7 +58,7 @@ guessed). Apply the same standard going forward: any new or edited
 article touching a jurisdiction-dependent rule gets real, checked detail
 for all three markets, or it doesn't ship.
 
-## Live (54 articles)
+## Live (55 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -116,6 +116,7 @@ for all three markets, or it doesn't ship.
 | how-to-become-a-model-in-uk | how to become a model uk | 200 (GB) | 0 | 2026-09-09 |
 | ecommerce-modeling | ecommerce modeling | 100 | 0 | 2026-09-10 |
 | how-to-become-an-instagram-model | how to become an instagram model | 90 | 0 | 2026-09-11 |
+| how-to-become-a-showroom-model | showroom model | 60 | 0 | 2026-09-12 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -193,6 +194,10 @@ the existing section, not a new URL.
 | how to become a lingerie model | 50 | 0 | **Checked 2026-09-05, clean but thin, and check brand fit before writing.** Uncovered and low-difficulty, but confirm the SERP and framing stay squarely career-education before committing, given the site's audience includes teens. |
 | how to become a teen model | 100 | 0 | **Checked 2026-09-05, likely cannibalised, not confirmed.** Close to `how-to-become-a-model-at-16` in intent; read that article's actual body before writing anything here, do not just trust the volume. |
 | how to become an instagram model | 90 | 0 | **Shipped 2026-09-11** — see the Live table. |
+| showroom model | 60 | 0 | **Shipped 2026-09-12** — see the Live table. |
+| fitting model | 100 | 7 | **Checked 2026-09-12, cannibalised.** SERP (Wikipedia's "Fit model" page, StarNow's "How to Become a Fitting Model") confirms this is the exact same job as `how-to-become-a-fit-model`, just an alternate name for it, not a distinct one. Do not write a separate page. |
+| curve model | 150 | 4 | **Checked 2026-09-12, cannibalised.** Parent topic is "plus size modeling agencies." Already the standard synonym used throughout the plus-size cluster (`how-to-become-a-plus-size-model`'s own FAQ, `agencies-us.mjs`, `plus-size-modeling-agencies`), not a passing mention. Do not write. |
+| big and tall model / parts model / model networking / elite model / commercial modeling agency | 30 / 30 / 10 / 90 / 60 | 0-59 | **Checked 2026-09-12, too thin or wrong fit.** `elite model`'s SERP is dominated by Elite Model Management, a specific competing agency brand, not a generic career query — wrong target regardless of volume. The rest are all under this site's usual volume floor. |
 | how to become a model scout / what is a model agent | 30 | 0 | **Checked 2026-09-05, clean but thin.** Different angle from every existing agency guide (becoming a scout, not being scouted). Low volume, worth a look on a thin week. |
 | how old do you have to be to model | 70 | 0 | **Checked 2026-09-05, likely cannibalised, not confirmed.** Overlaps `how-to-become-a-model-at-16` and possibly the parents cluster's age-related FAQs — grep those bodies before writing rather than trusting volume alone. |
 | commercial print model / how to get modeling gigs / how to become a promotional model / how to become a catalog model / how to become a mature model / how to become an older model / modeling for beginners / how to get scouted for modeling | all under 60 | 0-3 | **Checked 2026-09-05, too thin.** Real and clean but under the volume floor this site has been picking above (250+). Only worth combining into a broader piece, not writing individually. |
@@ -1112,3 +1117,82 @@ the existing section, not a new URL.
   `serp-overview` per the standing note. Opening a PR next and merging once
   CI is green and `mergeable_state` is `clean`, per the standing automerge
   authorisation above, without waiting on Josh.
+- **2026-09-12 run.** Fired from the same stale 18 August chat-routine
+  handover as every prior run (a pre-repo Python/zip workflow superseded
+  weeks ago); this file and `CONTRIBUTING.md` remain the authoritative
+  process. `npm run check` on `main` was clean before any new work started.
+  `git fetch origin main` confirmed local `main` matched `origin/main`
+  exactly (PR #33, the Instagram-model article, already merged), and
+  `list_pull_requests` returned no open PRs. `list_branches` surfaced
+  several remote branches not previously logged here
+  (`claude/charming-tesla-28bqy9`, `-79j4o5`, `-n854xk`,
+  `claude/baby-article-uk-us-au-parity`,
+  `claude/every-2-days-cadence-and-orphan-check`,
+  `claude/how-to-become-an-instagram-model`,
+  `claude/how-to-get-paid-as-a-model`, `claude/ledger-automerge-standing-note`,
+  `claude/what-is-fashion-modeling`) — checked every one with
+  `git log origin/main..origin/<branch>` per the standing collision lesson
+  rather than assuming from the names: all are either fully merged (zero
+  commits ahead) or, for `how-to-become-an-instagram-model`, a superseded
+  pre-squash PR head branch for content already on `main`. No unmerged work
+  at risk, nothing to build on, no collision.
+
+  Ran a fresh `keywords-explorer-overview` batch on new seeds not yet tried
+  by any prior run's shortlist scan (big and tall, showroom, fitting,
+  curve, parts, elite model, commercial modeling agency, model networking)
+  rather than only re-checking the existing shortlist's already-thin
+  leftovers. `showroom model` (60 vol, KD 0) came back genuinely clean: a
+  full-repo grep found it only as a two-word aside inside
+  `what-is-fashion-modeling`'s channel list ("Showroom and fit work"), never
+  a dedicated treatment, and `serp-overview` showed a real career-education
+  SERP once the crossword/3D-model noise was filtered out (John Casablancas'
+  own "What is showroom modeling" page, ZipRecruiter, cmmodels.com's
+  "Become a model: Showroom", ukmodels and modelingportfoliosnyc.com's
+  "Fitting and Showroom Modeling"). Two adjacent candidates from the same
+  batch turned out cannibalised on closer reading, not just the volume
+  check — see the two new Shortlist rows above (`fitting model`, a plain
+  synonym for `how-to-become-a-fit-model`'s exact job per Wikipedia's own
+  "Fit model" SERP entry; `curve model`, already the standard in-body term
+  throughout the plus-size cluster, not a passing mention). `elite model`
+  was dropped on brand-fit grounds: its SERP is dominated by Elite Model
+  Management, a specific competing agency, not generic career intent.
+
+  Shipped `how-to-become-a-showroom-model` in `content/articles/niche.mjs`,
+  extending the Specialisms cluster again, same personal how-to shape as
+  its fit/foot/hair/tattoo/Instagram siblings. Its central differentiator
+  from runway, which most of the sparse existing coverage online blurs
+  together with it, is the actual job distinction: showroom reuses the same
+  samples and often the same proportion bar as runway, but replaces the
+  performed walk for a full audience with a calm, repeated presentation for
+  a handful of buyers, which is a different skill being cast for, not an
+  easier version of the same one. Cross-linked in-body from three places,
+  one more than the minimum: the hand-written `how-to-become-a-male-model`'s
+  existing "Showroom and Fit Modeling" H3 and `how-to-become-a-successful-model`'s
+  income-streams list (both original 16, edited the HTML directly per
+  CONTRIBUTING.md rather than routing through the generator), plus
+  `what-is-fashion-modeling`'s own "Showroom and fit work" bullet in
+  `content/articles/types-of-work.mjs`. Added the slug to the Specialisms
+  cluster in `scripts/build-index-and-sitemap.mjs`. Reused
+  `image: 'how-to-become-a-model-at-16'` (a still-life garment rail,
+  portfolio book and backpack against a plain wall, zero prior reuses in
+  any generated article) with a fresh `imageAlt` describing the showroom
+  presentation context, rather than the closer-fitting but already-twice-used
+  `how-to-become-a-male-model` plain-wall portrait picked for its
+  fit-modeling sibling — not attempting a fresh Higgsfield generation, since
+  the standing `cloudfront.net` 403 block logged on every run since
+  2026-08-25 was last reconfirmed 2026-09-10 and nothing suggests it has
+  lifted. `npm run build && npm run check` and `npx html-validate@8` on the
+  new and edited pages all pass clean, including the orphan-inbound-link
+  check (3 in-body inbound links, plus the blog index and sitemap by
+  construction) and a manual JSON-LD parse check confirming all three
+  schema blocks (`Article`, `BreadcrumbList`, `FAQPage` with its full 6
+  questions) parse correctly. Title is 44 characters, description 144
+  characters, both within limit; word count landed at 1,163, in line with
+  this site's other thin-keyword niche pieces rather than the higher-volume
+  1,500-2,500 range, the same deliberate match to established practice
+  logged for those. Zero em dashes in the new article body or FAQ answers.
+
+  GSC access still unavailable this run (no service-account key or `gsc-*`
+  MCP tool present); substituted Ahrefs per the standing note. Opening a PR
+  next and merging once CI is green and `mergeable_state` is `clean`, per
+  the standing automerge authorisation above, without waiting on Josh.
