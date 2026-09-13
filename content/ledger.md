@@ -58,7 +58,7 @@ guessed). Apply the same standard going forward: any new or edited
 article touching a jurisdiction-dependent rule gets real, checked detail
 for all three markets, or it doesn't ship.
 
-## Live (55 articles)
+## Live (56 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -117,6 +117,7 @@ for all three markets, or it doesn't ship.
 | ecommerce-modeling | ecommerce modeling | 100 | 0 | 2026-09-10 |
 | how-to-become-an-instagram-model | how to become an instagram model | 90 | 0 | 2026-09-11 |
 | how-to-become-a-showroom-model | showroom model | 60 | 0 | 2026-09-12 |
+| how-to-become-a-print-model | how to become a print model | 200 | 0 | 2026-09-13 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -189,7 +190,7 @@ the existing section, not a new URL.
 | model release form | 1800 | 3 | **Checked 2026-09-02, wrong audience.** Searcher intent is overwhelmingly photographers wanting a release-form template for their own shoots, not aspiring models. Off-ICP for a modeling-course lead magnet despite the volume. Dropped. |
 | what is a brand ambassador / brand ambassador jobs | 5100 + 4600 | 0 | **Checked 2026-09-02, wrong audience.** High volume, zero difficulty, but the intent is retail/college ambassador programs, not modeling. Weak fit for the site's conversion path. Dropped. |
 | how to become a foot model | 250 | 1 | **Shipped 2026-09-05** — see the Live table. |
-| how to become a print model | 80 | 0 | **Checked 2026-09-05, clean but thin.** Genuinely uncovered (only passing "print" mentions elsewhere), real SERP, but volume is low enough to deprioritise behind anything with more. Worth a quick pick on a thin week. |
+| how to become a print model | 200 | 0 | **Shipped 2026-09-13** — see the Live table. Re-checked at 200 vol (up from the 80 recorded 2026-09-05). |
 | how to become a swimsuit model | 70 | 0 | **Checked 2026-09-05, clean but thin.** Same call as print model above: uncovered, low volume, fine for a thin week. |
 | how to become a lingerie model | 50 | 0 | **Checked 2026-09-05, clean but thin, and check brand fit before writing.** Uncovered and low-difficulty, but confirm the SERP and framing stay squarely career-education before committing, given the site's audience includes teens. |
 | how to become a teen model | 100 | 0 | **Checked 2026-09-05, likely cannibalised, not confirmed.** Close to `how-to-become-a-model-at-16` in intent; read that article's actual body before writing anything here, do not just trust the volume. |
@@ -1196,3 +1197,71 @@ the existing section, not a new URL.
   MCP tool present); substituted Ahrefs per the standing note. Opening a PR
   next and merging once CI is green and `mergeable_state` is `clean`, per
   the standing automerge authorisation above, without waiting on Josh.
+- **2026-09-13 run.** Fired from the same stale 18 August chat-routine
+  handover as every prior run; this file and `CONTRIBUTING.md` remain the
+  authoritative process. `git fetch origin main` confirmed local `main`
+  matched `origin/main` exactly (PR #34, the showroom-model article, already
+  merged), `npm run check` on `main` was clean before writing, and
+  `list_pull_requests` returned no open PRs. `list_branches` showed no
+  remote branches beyond `main` and ones already confirmed superseded in
+  this file's prior entries, so nothing was in flight to collide with.
+  Ran a fresh `keywords-explorer-overview` batch on specific candidate
+  phrases not tried together before (model-agent/scout terms, TFP, a batch
+  of thin niche variants already flagged on the shortlist, several new
+  ones). Two findings worth recording. First, `what is a model agent`
+  came back at 1,400 volume, KD 1, dramatically higher than anything else
+  checked, but `serp-overview` showed the SERP dominated by Indeed
+  ("How To Become a Modeling Agent") and onlinedegree.com career-guide
+  content aimed at people who want to become a booking agent themselves,
+  not models seeking representation, the same wrong-audience pattern
+  already logged for `brand ambassador`, `ai model agency` and
+  `spokesmodel`. Dropped, not shipped, despite the volume. Second,
+  `how much do runway models make` (250 vol, KD 0) checked out cannibalised
+  on a full-text grep: `runway-model`'s own FAQ already has a dedicated
+  "How much does a runway model make?" Q&A. Also dropped.
+  `how to become a print model` re-checked at 200 volume (up from the 80
+  recorded 2026-09-05) and confirmed clean via a full-repo grep for "print
+  model" (zero hits anywhere) and via `serp-overview`: a genuinely
+  career-education SERP (Photogenics, Latitude Talent, The Mother Agents,
+  Backstage DR85, Reddit, Quora), no established modeling-course
+  competitor, the same winnable shape as the rest of the Specialisms
+  cluster. Shipped `how-to-become-a-print-model` in
+  `content/articles/niche.mjs`, extending that cluster again. Its central
+  differentiator, since "print," "editorial" and "e-commerce" all get
+  used loosely for similar-looking photos, is the actual distinction: the
+  client and the physical medium (a printed, unchangeable run vs. a
+  website that can be updated, vs. a magazine's own fashion-casting
+  standard), which changes how usage gets priced, not just the styling.
+  Cross-linked in-body from three places, one more than the minimum:
+  `what-is-commercial-modeling`'s "Catalogue and e-commerce" bullet
+  (turning its existing "printed catalogue" aside into a link),
+  `types-of-modeling`'s "Editorial and print" H3, and
+  `what-is-fashion-modeling`'s "Editorial" bullet, all in
+  `content/articles/types-of-work.mjs`. Added the slug to the Specialisms
+  cluster in `scripts/build-index-and-sitemap.mjs`. Skipped a Higgsfield
+  generation attempt, per the standing `cloudfront.net` 403 block on this
+  session's network policy logged on every run since 2026-08-25 and not
+  re-tested since 2026-09-10 — reused `image: 'how-to-become-a-fitness-model'`
+  (a full-length shot against a plain white studio cyclorama with natural
+  window light, zero prior reuses in generated content) with a fresh
+  `imageAlt`, since that exact clean, flat-lit, full-length setup is
+  honestly the standard look a print/catalogue submission actually uses,
+  not a fitness-specific framing. `npm run build && npm run check` and
+  `npx html-validate@8` on the new and edited pages all pass clean,
+  including the orphan-inbound-link check (3 in-body inbound links) and a
+  manual JSON-LD parse check confirming all three schema blocks parse,
+  with the `FAQPage` block carrying its full 6 questions. Title is 41
+  characters, description 141 characters, both within limit; zero em
+  dashes in the new article body or FAQ answers (the only em dashes
+  anywhere in the built page are the shared nav/footer generated-marker
+  comments and the "Enrol — $299" CTA label, identical across every page
+  on the site). Word count landed at 1,124, in line with this site's other
+  thin-keyword niche pieces (foot 1,226, tattoo 1,271, showroom 1,163,
+  Instagram 1,114) rather than the higher-volume 1,500-2,500 range, the
+  same deliberate match to established practice logged for those.
+
+  GSC access still unavailable this run (no service-account key or
+  `gsc-*` MCP tool present); substituted Ahrefs per the standing note.
+  Opening a PR next and merging once CI is green and `mergeable_state` is
+  `clean`, per the standing automerge authorisation above, without
+  waiting on Josh.

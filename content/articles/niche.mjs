@@ -12,6 +12,7 @@ const DATE_FIT = '2026-09-07';
 const DATE_TATTOO = '2026-09-08';
 const DATE_INSTAGRAM = '2026-09-11';
 const DATE_SHOWROOM = '2026-09-12';
+const DATE_PRINT = '2026-09-13';
 
 export const niche = [
   {
@@ -772,6 +773,94 @@ export const niche = [
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
 <p>That last step is where our mentors, working agents and bookers who staff showroom seasons for real design houses, add the most before your first booking rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+`,
+  },
+  {
+    slug: 'how-to-become-a-print-model',
+    seoTitle: 'How to Become a Print Model: A Real Guide',
+    description:
+      'How to become a print model, from the people who book them: what the job actually is, the look that gets picked, print pay, and how to start.',
+    headline: 'How to Become a Print Model: What Actually Gets You Booked',
+    category: 'Niche',
+    image: 'how-to-become-a-fitness-model',
+    imageAlt: 'A full-length shot against a plain white studio cyclorama with natural window light, the clean product-style setup most print submissions actually use',
+    readTime: 8,
+    date: DATE_PRINT,
+    related: ['types-of-modeling', 'what-is-commercial-modeling', 'ecommerce-modeling'],
+    faq: [
+      {
+        q: 'What is print modeling, exactly?',
+        a: 'Modeling for images used in physical printed media: retail catalogues, print advertising, product packaging, in-store signage and inserts. It is distinct from e-commerce modeling, which shoots for a retailer\'s own website, and from fashion editorial, which shoots for a magazine rather than a client selling a product. All three can look similar in the photo; the client and the medium the image ends up in are what actually separate them.',
+      },
+      {
+        q: 'What is the difference between print modeling and e-commerce modeling?',
+        a: 'The medium the client is buying, not the styling. E-commerce work is shot for a retailer\'s own online listing and can be swapped or updated at any time. Print work is shot for something physically manufactured, printed and distributed, a catalogue run, packaging, a magazine ad, so there is no fixing or swapping it once it is printed, which changes how carefully a client reviews and licenses the images beforehand.',
+      },
+      {
+        q: 'Do you need a specific height or look to be a print model?',
+        a: 'No narrow height or proportion range the way fashion runway has. Print clients cast to resemble their actual customer, so a catalogue for a mainstream apparel brand wants someone relatable and true to size rather than a runway-height ideal. It books on the same broad, relatability-first standard as commercial modeling generally, not a fashion-industry look.',
+      },
+      {
+        q: 'How much do print models get paid?',
+        a: 'A day rate plus usage, the same structure as the rest of commercial work, but usage is priced differently because print cannot be quietly updated or taken down the way a webpage can. A client is buying the right to a fixed run, a season\'s catalogue print, a set number of magazine insertions, a packaging print run, so a longer run or wider distribution is worth more than a single, small local placement, and buyout fees for broad, ongoing print rights are common.',
+      },
+      {
+        q: 'Is print modeling hard to break into?',
+        a: 'No harder than general commercial work, and it shares the same entry point: simple, honest digitals submitted to an agency\'s commercial or lifestyle board. There is no narrow physical bar to clear, and a first booking is usually a smaller regional catalogue or a local print ad rather than a national campaign.',
+      },
+      {
+        q: 'Is print modeling still relevant with so much advertising online now?',
+        a: 'Yes. Retail catalogues, product packaging, in-store signage and print advertising all still run; the assumption that "print is dead" oversells how much has actually changed. What shifted is that print now sits alongside digital rather than being the only channel, not that the work disappeared. Clients who need a physical catalogue or a printed package still need a model shot for exactly that.',
+      },
+    ],
+    body: `
+<p>Search "print modeling" and the results split two ways: a handful of agency glossary pages defining the term, and a Reddit thread asking how "average-looking" models end up in a catalogue. Neither actually explains the job, which is a real gap, because print work, catalogues, packaging, in-store signage, print advertising, is still one of the steadier corners of commercial modeling, just one that gets talked about far less than a runway show or a viral campaign.</p>
+<p>Our instructors at Online Model Academy include agents and bookers who cast print work for retail and packaging clients regularly. This is what the job actually is, and what separates it from the online and fashion-editorial work it keeps getting confused with.</p>
+
+<h2>What Print Modeling Actually Is</h2>
+<p>Print modeling is modeling shot specifically for something physically manufactured and distributed: a retail catalogue that gets printed and mailed, a magazine or newspaper advertisement, product packaging, in-store signage, an insert or flyer. What separates it from other commercial work is not the photo itself but the medium the client is buying: once it is printed, it cannot be swapped, updated or quietly corrected the way a website image can, which is exactly why print clients review and license images more carefully upfront.</p>
+<p>It also is not the same thing as fashion editorial, even though both end up on paper. Editorial is shot for a magazine's own pages, pays in tearsheets and credibility as much as cash, and books close to a fashion casting standard. Print modeling, in the commercial sense this guide covers, is shot for a paying client selling a product, and it books on the same broad, relatability-first standard as the rest of commercial work.</p>
+
+<h2>What Actually Gets You Booked</h2>
+<h3>A relatable, true-to-size look</h3>
+<p>A print client casting a catalogue or a package is trying to sell to a real, specific customer, and wants a model who looks like that customer rather than a fashion ideal. This is the detail the "average-looking models" framing that dominates casual searches for this topic is actually circling, without naming it directly: relatable is the brief, not a consolation prize for missing a narrower standard.</p>
+<h3>Consistency across a shoot day</h3>
+<p>A single catalogue or packaging shoot often needs the same clean expression and pose repeated across dozens of product variations in one sitting. Clients are evaluating whether you can deliver that steadily, take after take, without the energy or the look drifting, which is a different, less visible skill than a single striking shot.</p>
+<h3>Comfort being shot for accuracy, not drama</h3>
+<p>Packaging and catalogue photography is lit and reviewed for color and product accuracy first, since a printed piece cannot be corrected after the fact the way a digital file can. Casting favors a model who reads clean and true under flat, accurate lighting over one who photographs best in a moodier, more stylized setup.</p>
+<h3>A straightforward digital submission</h3>
+<p>Print submissions want simple, honest, well-lit digitals, the same standard our full <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers in depth, not a heavily styled shoot. A plain, accurate set of photos gets looked at; an over-produced one does not read as more bookable to a print casting director.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-print-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>Print vs. E-Commerce vs. Editorial, Sorted Out</h2>
+<p>All three can produce a nearly identical photograph, which is exactly why the terms get confused. The client and the medium are what actually differ: e-commerce is shot for a retailer's own website and can be updated at any time, covered in full in our <a href="../ecommerce-modeling/">dedicated guide to ecommerce modeling</a>. Editorial is shot for a magazine's own pages under a fashion casting standard, not a commercial one. Print, as this guide covers it, is shot for a client selling a product through something physically printed, a catalogue run, packaging, an ad insertion, which is neither a website nor a magazine feature. Our broader <a href="../what-is-commercial-modeling/">guide to what commercial modeling actually is</a> covers how all of these sit inside the wider commercial category.</p>
+
+<h2>How Print Pay Actually Works</h2>
+<p>Print pay follows the same day-rate-plus-usage structure as the rest of commercial work, but the usage side is priced around a fixed, physical run rather than an easily adjusted digital placement. A client is licensing a specific catalogue season, a set number of magazine insertions, or a packaging print run, and once that run is printed, it exists at that size for its full distribution whether the campaign performs well or not. That fixed, unchangeable scale is why a wide-distribution catalogue or a national packaging run pays meaningfully more than a small regional print placement, and why buyout fees, a single payment for broad ongoing print rights, are common in this category. Always confirm the run size, the distribution and how long the images can be reprinted before agreeing to a rate.</p>
+
+<h2>Reasons People Talk Themselves Out of Submitting, and Why They're Wrong</h2>
+<ul>
+<li><b>"I'm not tall or striking enough."</b> Print clients are casting toward their actual customer, not a fashion-industry ideal. Relatable and true to size is the brief, not a lesser substitute for it.</li>
+<li><b>"Print is basically dead now."</b> Catalogues, packaging, in-store signage and print advertising all still run. The channel sits alongside digital now instead of dominating it, which is a real shift, but it is not the same as the work disappearing.</li>
+<li><b>"I don't have a professional portfolio."</b> Simple, honest, well-lit digitals are what a print submission actually needs, the same standard as general commercial work, not a styled editorial book.</li>
+<li><b>"This is a lesser category than fashion or e-commerce."</b> It is a distinct client and medium, not a smaller version of either, and plenty of working commercial models book steadily across print without ever chasing fashion work at all.</li>
+</ul>
+
+<h2>Your First Steps</h2>
+<ol>
+<li>Shoot simple, accurate digitals in flat, even light, no heavy styling or dramatic shadow.</li>
+<li>Submit to agencies with a commercial or lifestyle board, the same board that books catalogue and print work, not a fashion-specific one.</li>
+<li>Expect a first booking to be a smaller regional catalogue or local print ad rather than a national campaign.</li>
+<li>Ask about usage and run size before agreeing to any rate, since that is where a print booking's real value sits.</li>
+<li>Learn how a casting room actually works before you are standing in one.</li>
+</ol>
+<p>That last step is where our mentors, working agents and bookers who cast print work for real retail and packaging clients, add the most before your first booking rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
 `,
   },
 ];
