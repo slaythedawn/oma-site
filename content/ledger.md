@@ -118,6 +118,7 @@ for all three markets, or it doesn't ship.
 | how-to-become-an-instagram-model | how to become an instagram model | 90 | 0 | 2026-09-11 |
 | how-to-become-a-showroom-model | showroom model | 60 | 0 | 2026-09-12 |
 | how-to-become-a-print-model | how to become a print model | 200 | 0 | 2026-09-13 |
+| how-to-become-a-ugc-model | ugc model | 200 | 0 | 2026-09-14 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -228,6 +229,11 @@ the existing section, not a new URL.
 | modeling agency new york | 150 | 47 | **Checked 2026-09-09, same city-directory call as above.** Folded into the existing US-cities note; not a standalone opportunity. |
 | how to find a modeling agent | 40 | 11 | **Checked 2026-09-09, too thin and likely overlapping.** Real but low volume, and the actual content (how to locate and vet an agent) is close to what `how-to-choose-a-modeling-agency` and `how-to-get-signed-by-a-modeling-agency` already cover; would need a full-body grep before ever writing, not just the volume check. |
 | how to become a nude model / how to become an art model / figure model | 70 / 20 / 10 | 0 / 0 / 0 | **Checked 2026-09-09, deprioritised on brand fit, not cannibalisation.** Real, low-difficulty terms, but this is life-drawing/art-class nude modeling, a meaningfully different topic from fashion or commercial modeling, and this site's audience includes teens per `how-to-become-a-model-at-16`. Same caution class as the deprioritised `model diet` — not ruled out permanently, but needs a deliberate decision to pursue, not a routine pick. |
+| ugc model | 200 | 0 | **Shipped 2026-09-14** — see the Live table. |
+| test shoot / what is a test shoot in modeling / modeling test shoot | 20 | — | **Checked 2026-09-14, too thin.** Real but under this site's usual volume floor. |
+| sample size model / how to become a sample size model | 10 | — | **Checked 2026-09-14, too thin.** Under the volume floor even by thin-week standards. |
+| virtual model agency / how to become a virtual model | 10 | — | **Checked 2026-09-14, too thin, and likely wrong topic besides.** Adjacent to the already-dropped `ai model agency` (synthetic/AI-rendered models, not human talent) — not worth a fresh SERP check at this volume. |
+| how much does a modeling portfolio cost | 10 | — | **Checked 2026-09-14, too thin.** Likely partially covered already by `how-much-does-it-cost-to-become-a-model` regardless; volume alone rules it out. |
 
 ## Known gaps
 
@@ -1256,6 +1262,79 @@ the existing section, not a new URL.
   anywhere in the built page are the shared nav/footer generated-marker
   comments and the "Enrol — $299" CTA label, identical across every page
   on the site). Word count landed at 1,124, in line with this site's other
+  thin-keyword niche pieces (foot 1,226, tattoo 1,271, showroom 1,163,
+  Instagram 1,114) rather than the higher-volume 1,500-2,500 range, the
+  same deliberate match to established practice logged for those.
+
+  GSC access still unavailable this run (no service-account key or
+  `gsc-*` MCP tool present); substituted Ahrefs per the standing note.
+  Opening a PR next and merging once CI is green and `mergeable_state` is
+  `clean`, per the standing automerge authorisation above, without
+  waiting on Josh.
+- **2026-09-14 run.** Fired from the same stale 18 August chat-routine
+  handover as every prior run; this file and `CONTRIBUTING.md` remain the
+  authoritative process. `git fetch origin main` confirmed local `main`
+  matched `origin/main` exactly (PR #35, the print-model article, already
+  merged), `npm run check` on `main` was clean before writing, and
+  `list_pull_requests` returned no open PRs. `list_branches` surfaced two
+  previously-unlogged remote branches, `claude/charming-tesla-dpu2um` and
+  `claude/charming-tesla-xs4alx`; fetched and diffed each against
+  `origin/main` individually per the standing collision lesson rather than
+  trusting the names, and both turned out to be superseded pre-squash PR
+  head branches (showroom-model and print-model respectively, both already
+  on `main`), so nothing was in flight to collide with.
+
+  Ran a fresh `keywords-explorer-overview` batch on an angle not tried by
+  any prior run, brand-facing content formats (UGC, sample-size, test-shoot,
+  TFP, virtual-model terms), rather than another niche "how to become a [X]
+  model" variant. Most were thin (test shoot, sample size model, virtual
+  model agency, portfolio-cost queries all at or under 20 volume) or already
+  logged as checked-and-thin (TFP, bridal, lingerie, swimsuit). `ugc model`
+  (200 vol, KD 0) stood out and checked out genuinely clean and on-ICP:
+  `serp-overview` showed real career-guide competitors in the mix
+  (Photogenics Media's own "How to Become a UGC Creator Model" and "How to
+  Get UGC Modeling Work" glossary pages, modelmanagement.com, Collabstr,
+  alongside Indeed/YouTube/Reddit noise and some AI-avatar-tool chatter that
+  sits below the fold), no modeling-course competitor anywhere in the top
+  10. Checked for cannibalisation properly, not just against this table: a
+  full-repo grep for "UGC" found it used only as a qualifier inside
+  `how-to-become-an-instagram-model` ("a UGC-style ad that reads like a real
+  post"), describing Instagram-specific branded content, never as its own
+  dedicated treatment of the broader, platform-agnostic UGC-content category
+  (which runs through a brand's own ad account rather than the model's
+  feed, is priced per piece of content rather than day-rate-plus-usage, and
+  needs no following at all) — the same passing-mention-is-not-full-coverage
+  pattern that cleared foot, hair, petite, fit and several other Specialisms
+  entries before it. Wrote `how-to-become-a-ugc-model` in
+  `content/articles/niche.mjs`, built around that exact distinction from the
+  Instagram-model guide (who owns and runs the finished content, not how it
+  looks) since the two are close enough that blurring them would read as
+  cannibalisation rather than a genuine sibling. Also flagged the pay
+  structure explicitly as an exception to the site's usual
+  day-rate-plus-usage framing, since UGC is priced per finished piece with
+  usage as a separate add-on, not a day rate at all.
+
+  Cross-linked in-body from three places, one more than the minimum: turned
+  the existing "UGC-style ad" mention in `how-to-become-an-instagram-model`
+  into a link, extended `types-of-modeling`'s "Freelance" section (which
+  already linked the Instagram-model guide) with a new sentence
+  distinguishing UGC modeling from it, and added both a new "UGC-style
+  content" bullet to `what-is-commercial-modeling`'s work-types list and a
+  new "Social and UGC content" H3 to `modeling-jobs`'s category list in
+  `content/articles/jobs.mjs`. Added the slug to the Specialisms cluster in
+  `scripts/build-index-and-sitemap.mjs`. Skipped a Higgsfield generation
+  attempt, per the standing `cloudfront.net` 403 block logged on every run
+  since 2026-08-25 and last reconfirmed 2026-09-10 — reused
+  `image: 'how-to-become-a-model-with-no-experience'` (an honest,
+  unpolished phone digital against a plain wall, already reused once for
+  `how-to-become-a-petite-model` and once for `modeling-headshots`) with a
+  fresh `imageAlt`, since that exact plain, unpolished look is honestly the
+  actual UGC brief, not a compromise substitute for a dedicated shoot.
+  `npm run build && npm run check` and `npx html-validate@8` on the new and
+  edited pages all pass clean, including the orphan-inbound-link check (3
+  in-body inbound links). Title is 39 characters, description 148
+  characters, both within limit; zero em dashes in the new article body or
+  FAQ answers. Word count landed at 1,167, in line with this site's other
   thin-keyword niche pieces (foot 1,226, tattoo 1,271, showroom 1,163,
   Instagram 1,114) rather than the higher-volume 1,500-2,500 range, the
   same deliberate match to established practice logged for those.
