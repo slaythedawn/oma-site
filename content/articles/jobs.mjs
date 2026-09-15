@@ -75,7 +75,7 @@ export const jobs = [
 <h3>Editorial</h3>
 <p>Magazine work pays notably little. It exists to build your book and your standing, which then converts into commercial rates. Treat it as investment, not income.</p>
 <h3>Promotional and event</h3>
-<p>Brand ambassador work, trade shows, activations. Frequently booked direct, frequently the entry point for freelancers, and correspondingly the category where scam listings cluster.</p>
+<p>Brand ambassador work, trade shows, activations. Frequently booked direct, frequently the entry point for freelancers, and correspondingly the category where scam listings cluster. Our <a href="../promotional-modeling/">guide to promotional modeling</a> covers what trade show and convention bookings actually pay and how to tell a real one from a vague listing.</p>
 <h3>Social and UGC content</h3>
 <p>Content built for a brand's own feed or ad account rather than a set-based shoot, often filmed by the model alone on a phone. Paid per finished piece rather than a day rate, and open to models with no following at all. Our <a href="../how-to-become-a-ugc-model/">UGC modeling guide</a> covers what actually gets booked and how the pay works.</p>
 

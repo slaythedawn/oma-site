@@ -82,7 +82,7 @@ export const niche = [
 <p>Outside straight commercial work, two options are worth knowing about specifically because they are underused:</p>
 <ul>
 <li><b>Fit modeling for petite lines.</b> Brands that manufacture a dedicated petite clothing range need a model with consistent, specific proportions to fit garments during development. It is steady, hourly, repeat work with no published images and almost no public awareness, the same underrated niche that exists for standard and plus-size fit work.</li>
-<li><b>Retail and regional runway.</b> Department store shows, bridal, trade shows, and local show circuits cast on presentation rather than a fixed sample size, so height that would exclude you from a fashion-week board rarely excludes you here.</li>
+<li><b>Retail and regional runway.</b> Department store shows, bridal, <a href="../promotional-modeling/">trade shows</a>, and local show circuits cast on presentation rather than a fixed sample size, so height that would exclude you from a fashion-week board rarely excludes you here.</li>
 </ul>
 <p>Our guide to <a href="../types-of-modeling/">the different types of modeling</a> covers how petite sits alongside every other category, useful context for working out where else to target.</p>
 

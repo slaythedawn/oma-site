@@ -58,7 +58,7 @@ guessed). Apply the same standard going forward: any new or edited
 article touching a jurisdiction-dependent rule gets real, checked detail
 for all three markets, or it doesn't ship.
 
-## Live (56 articles)
+## Live (57 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -119,6 +119,7 @@ for all three markets, or it doesn't ship.
 | how-to-become-a-showroom-model | showroom model | 60 | 0 | 2026-09-12 |
 | how-to-become-a-print-model | how to become a print model | 200 | 0 | 2026-09-13 |
 | how-to-become-a-ugc-model | ugc model | 200 | 0 | 2026-09-14 |
+| promotional-modeling | promotional model / trade show model | 200 + 100 | 1 / 6 | 2026-09-15 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -1342,5 +1343,100 @@ the existing section, not a new URL.
   GSC access still unavailable this run (no service-account key or
   `gsc-*` MCP tool present); substituted Ahrefs per the standing note.
   Opening a PR next and merging once CI is green and `mergeable_state` is
+  `clean`, per the standing automerge authorisation above, without
+  waiting on Josh.
+- **2026-09-15 run.** Fired from the same stale 18 August chat-routine
+  handover as every prior run; this file and `CONTRIBUTING.md` remain the
+  authoritative process, and there is nothing left to check off from that
+  handover itself: article 17 it flagged as undeployed is long since live,
+  and the GSC/Ahrefs/build-pipeline gaps it assumed are already tracked
+  here in their current state. `git fetch origin main` confirmed local
+  `main` matched `origin/main` exactly (PR #36, the UGC-model article,
+  already merged) and `npm run check` on `main` was clean before writing.
+  `list_pull_requests` returned no open PRs, and `list_branches` surfaced
+  no branches beyond `main` and ones already confirmed superseded in this
+  file's prior entries, so nothing was in flight to collide with.
+
+  Ran a fresh `keywords-explorer-overview` batch on an angle not tried by
+  any prior run, live/event-staffing modeling formats (trade show,
+  convention, in-house, glamour, lifestyle, stock photo, body double).
+  `glamour model` (900 vol, KD 1) had by far the best numbers in the batch
+  but was dropped on brand fit, not cannibalisation: `how-to-make-a-modeling-portfolio`
+  and `how-to-become-a-model` both actively warn against "glamour-style"
+  shoots and lighting as signalling "the wrong industry entirely for
+  agency work," so a dedicated glamour-modeling guide would contradict the
+  site's own established editorial stance elsewhere, not just risk a thin
+  SERP. `live model` (100 vol) and `how to become a body double` (0 vol)
+  were dropped too, the former for the same life-drawing/art-model
+  brand-fit caution already logged for the nude/figure-model cluster.
+  `trade show model` (100 vol, KD 6) and `promotional model` (200 vol,
+  KD 1) checked out as the genuine opportunity: `serp-overview` for both
+  showed real career-advice and staffing-agency competitors (Backstage,
+  Indeed, ModelsDirect, mymodelreality.com, plus city-specific trade show
+  staffing agencies), Wikipedia's "Promotional model" page with its own
+  "Trade show model" section, and a real "How to become a promo model?"
+  People Also Ask question, no modeling-course competitor anywhere in
+  either top 10. Confirmed clean via a full-repo grep for "promotional"
+  and "trade show": both terms appear only as passing mentions inside
+  `modeling-jobs`' "Promotional and event" H3, `runway-model`'s
+  "smaller shows" bullet and FAQ, and the petite-model guide's
+  "Retail and regional runway" bullet, never as a dedicated treatment,
+  the same passing-mention-is-not-full-coverage pattern that has cleared
+  most of the Specialisms cluster's niche picks. Combined the two terms
+  (plus `trade show modeling` and `tradeshow model`, ~400 vol total
+  across the cluster) into one article rather than two, following the
+  `ecommerce-modeling`/`what-is-commercial-modeling` explainer-plus-how-to
+  format for a bare category noun rather than `niche.mjs`'s personal
+  "how to become a [X] model" shape, since neither keyword is phrased as
+  a personal path.
+
+  Wrote `promotional-modeling` in `content/articles/types-of-work.mjs`,
+  alongside its `ecommerce-modeling` and `what-is-commercial-modeling`
+  siblings. Its central differentiator is the actual job shape: live,
+  in-person representation at an event rather than a photograph, booked
+  by the day or hour rather than for usage rights, casting far more on
+  personality and stamina than on height or measurements. Also gave it a
+  dedicated section distinguishing it from "brand ambassador" postings
+  (retail/college programs, the audience-fit reason that keyword cluster
+  was dropped entirely back on 2026-09-02), since the two terms are used
+  near-interchangeably online but promotional/trade-show work is a
+  specifically booked shift with a set rate, the same booking structure
+  as everything else on this site. Cross-linked in-body from three
+  places, one more than the minimum: turned the existing "trade shows"
+  mentions in `jobs.mjs`'s "Promotional and event" section,
+  `types-of-work.mjs`'s own `runway-model` "smaller shows" bullet, and
+  `niche.mjs`'s petite-model "Retail and regional runway" bullet into
+  links. Added the slug to the "Castings & work" cluster in
+  `scripts/build-index-and-sitemap.mjs`.
+
+  Retried a dedicated Higgsfield generation, last confirmed blocked
+  2026-09-10 (five days prior, close to the roughly-weekly retest
+  cadence): `generate_image` (`nano_banana_pro`, resolved to
+  `nano_banana_2`) produced a clean 2752x1536 result with no collage or
+  text artefacts on inspection, but a direct `curl` on the resulting
+  `cloudfront.net` URL still failed with `CONNECT tunnel failed, response
+  403` through this session's agent proxy, identical to every attempt
+  since 2026-08-25. Standing environment block confirmed still not
+  lifted. Reused `image: 'how-to-become-a-male-model'` (a plain-wall,
+  full-length standing portrait in unstyled clothing, already reused
+  twice) with a fresh `imageAlt` describing the camera-ready,
+  approachable presence promotional and trade show work actually needs,
+  since no existing image depicts an actual booth or convention setting
+  and an honest generic reuse beats a misleading specific claim.
+
+  `npm run build && npm run check` and `npx html-validate@8` on the new
+  and edited pages all pass clean, including the orphan-inbound-link
+  check (3 in-body inbound links) and a manual JSON-LD parse check
+  confirming all three schema blocks parse, with the `FAQPage` block
+  carrying its full 6 questions. Title is 49 characters, description 150
+  characters, both within limit. Fixed one authoring mistake before
+  building: a missing closing quotation mark in one of the "reasons
+  people talk themselves out of submitting" bullets, caught on review of
+  the diff rather than by any automated check, since `check:site` does
+  not validate prose punctuation.
+
+  GSC access still unavailable this run (no service-account key or
+  `gsc-*` MCP tool present); substituted Ahrefs per the standing note.
+  Opened PR #37; merging once CI is green and `mergeable_state` is
   `clean`, per the standing automerge authorisation above, without
   waiting on Josh.

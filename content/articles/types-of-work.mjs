@@ -4,6 +4,7 @@
 
 const DATE = '2026-08-20';
 const DATE_ECOMMERCE = '2026-09-10';
+const DATE_PROMOTIONAL = '2026-09-15';
 
 export const typesOfWork = [
   {
@@ -105,7 +106,7 @@ export const typesOfWork = [
 <ol>
 <li><b>Get signed by an agency with a runway board.</b> Not every agency runs one. Ask directly during your interview whether runway is part of what they book, and read our guide to <a href="../how-to-choose-a-modeling-agency/">choosing a modeling agency</a> for the questions worth asking before you sign.</li>
 <li><b>Learn the walk before you need it.</b> Casting directors can tell in the first three steps whether a walk has been practised. Our guide to <a href="../how-do-models-walk-in-runway-shows/">how models actually walk in runway shows</a> breaks down the technique in detail.</li>
-<li><b>Take the smaller shows.</b> Trade shows, retail events and market week castings are where most working runway résumés actually get built, not fashion week.</li>
+<li><b>Take the smaller shows.</b> <a href="../promotional-modeling/">Trade shows</a>, retail events and market week castings are where most working runway résumés actually get built, not fashion week.</li>
 <li><b>Show up ready, every time.</b> On time, camera-ready, easy to work with backstage. In a discipline this fast-moving, reliability is remembered longer than any single walk.</li>
 </ol>
 
@@ -529,6 +530,108 @@ export const typesOfWork = [
 
 <h2>The Short Version</h2>
 <p>Ecommerce modeling is the plain, high-volume product photography behind every online retailer's own listings, a distinct and genuinely accessible lane inside commercial work rather than a synonym for catalogue or campaign modeling generally. It books on consistency, stamina and accurate measurements rather than a dramatic look, pays by the hour or the day rather than through broad usage rights, and is one of the most realistic ways for a beginner with no agency and no portfolio to start earning real, paid modeling work.</p>
+`,
+  },
+  {
+    slug: 'promotional-modeling',
+    seoTitle: 'What Is Promotional Modeling? Trade Shows and Pay',
+    description:
+      'What promotional modeling actually is, how trade show and convention work differs from commercial modeling, real pay structure, and how to get booked.',
+    headline: 'What Is Promotional Modeling? Trade Shows, Pay and Getting Booked',
+    category: 'Types of work',
+    image: 'how-to-become-a-male-model',
+    imageAlt: 'A model standing squarely against a plain wall in simple, professional business-casual clothing, the camera-ready, approachable presence trade show and promotional bookings actually need',
+    readTime: 10,
+    date: DATE_PROMOTIONAL,
+    related: ['modeling-jobs', 'what-is-commercial-modeling', 'runway-model'],
+    faq: [
+      {
+        q: 'What is promotional modeling?',
+        a: 'Promotional modeling is live, in-person work representing a brand at an event, most often a trade show, convention, product launch or retail activation, rather than being photographed for an ad or a product listing. The model talks to attendees, demonstrates a product, hands out material or simply presents the brand well for a full event day. It is modeling work in the sense that appearance and presentation matter, but the actual job is closer to hosting than to a photo shoot.',
+      },
+      {
+        q: 'What is a trade show model?',
+        a: 'A trade show model, sometimes called a convention model, is a promotional model booked specifically to work an exhibitor\'s booth at an industry trade show or convention: greeting attendees, demonstrating a product, answering basic questions and keeping the booth staffed and welcoming for the full length of the show. It is the single biggest and best-paid category inside promotional modeling, and the one staffing and event agencies advertise the most.',
+      },
+      {
+        q: 'Do you need an agency for promotional and trade show modeling?',
+        a: 'Not always, but it helps more here than in most other categories. Trade show and convention bookings are frequently filled through staffing and event-modeling agencies that keep a dedicated roster for a given city or show circuit, because exhibitors book in bulk for multi-day events and want one point of contact. Direct booking through an event marketing or experiential-marketing company is also common, especially for repeat gigs once a model has worked a few shows and built a reputation with organizers.',
+      },
+      {
+        q: 'How much does promotional modeling pay?',
+        a: 'It is usually a day rate or an hourly rate rather than a fee tied to usage rights, since nothing is being licensed the way a photograph would be. A single trade show day tends to run considerably longer than a typical photo shoot call time, often eight to ten hours on your feet, which is reflected in the rate. Multi-day conventions that book the same model for the full run are common and add up to some of the more reliable short-term income in the industry.',
+      },
+      {
+        q: 'What do brands look for when booking promotional and trade show models?',
+        a: 'Genuine ease talking to strangers all day, the ability to learn and repeat a brand\'s key talking points accurately after a short briefing, a professional appearance that holds up over a long shift, and reliability: showing up on time, in the right outfit, for every day of a multi-day booking. Looks matter less here than in almost any other modeling category. Warmth and stamina matter more.',
+      },
+      {
+        q: 'Is promotional modeling a good way to start with no experience?',
+        a: 'Yes. Most bookings need no portfolio, no agency history and no specific look, just a professional presentation and the confidence to talk to strangers for a full day. It is one of the more accessible paid entry points into the industry, and the event and hospitality skills it builds carry over directly into other in-person modeling work.',
+      },
+    ],
+    body: `
+<p>Search "promotional modeling" and the results split two ways: dictionary-style definitions that barely describe the actual job, and staffing agency pages advertising a specific city's trade show roster. Neither tells you what the work is actually like day to day, what it pays, or how it is different from the commercial and ecommerce modeling this site otherwise covers.</p>
+<p>Our instructors at Online Model Academy include agents and bookers who staff trade shows, conventions and brand activations directly. This is what the job actually involves, and how to get into it.</p>
+
+<h2>What Promotional Modeling Actually Is</h2>
+<p>Promotional modeling is live, in-person representation of a brand at an event, not a photograph. A client hires a promotional model to stand at a booth, demonstrate a product, hand out samples or literature, answer basic questions and generally make the brand's presence at that event look sharp and welcoming for however many hours or days the event runs. There is no camera, no usage license and no shoot day. The entire job happens live, in front of the actual public the brand is trying to reach.</p>
+<p>It sits closer to skilled hosting than to a traditional modeling booking, which is exactly why looks matter less here than in almost any other category on this site, and personality, stamina and reliability matter more.</p>
+
+<h2>Trade Shows and Conventions: the Biggest Booking Category</h2>
+<p>Inside promotional modeling, trade show and convention work is the largest and most consistently booked lane. An exhibitor renting a booth at an industry trade show, a consumer electronics show, an auto show or a regional expo needs staff on that booth for the full run of the event, and a trade show model is exactly that: someone booked specifically to greet attendees, demonstrate the product on display, and keep the booth staffed and inviting from open to close, every day the show runs.</p>
+<p>Multi-day shows are common, and a model who performs well on day one is usually asked back for the rest of the run, which is part of why trade show and convention work carries some of the higher day rates inside promotional modeling: the client is booking reliability across several long days, not a single short call.</p>
+
+<h2>How It Differs From Commercial and Ecommerce Modeling</h2>
+<h3>Live, not photographed</h3>
+<p>Commercial and <a href="../ecommerce-modeling/">ecommerce modeling</a> exist to produce an image a brand keeps and reuses. Promotional modeling produces nothing but the event itself. Once the show closes, the job is over. There is no usage license to negotiate, because there is no photograph or footage being licensed at all.</p>
+<h3>Personality is the actual audition</h3>
+<p>A casting director reviewing digitals for a commercial board is judging a photograph. A promotional or trade show client is judging whether you can talk to a stranger, answer a question you were not expecting, and stay warm and energetic through hour nine of a long show day. That is not a skill a portfolio demonstrates, which is why in-person interviews and short trial shifts are far more common here than in photo-based categories.</p>
+<h3>Longer days, shorter bookings</h3>
+<p>A typical photo shoot call runs a handful of hours around one or two setups. A trade show day runs the full length of the exhibition floor's open hours, often eight to ten hours on your feet, for however many days the show runs. It is genuinely different physical work, closer to a long retail or hospitality shift than a shoot.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=promotional-modeling__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>What Actually Gets You Booked</h2>
+<h3>Genuine ease talking to strangers, all day</h3>
+<p>The single most important trait. A booth model who visibly enjoys the conversation, rather than tolerating it, is who gets rebooked for the next show. This is not something you can fake convincingly for eight hours, so it is worth being honest with yourself about whether this specific lane suits you before you submit.</p>
+<h3>Fast, reliable memorization</h3>
+<p>Most bookings include a short briefing, sometimes the morning of the show, on the product and the two or three points the client wants repeated to every visitor. Clients rebook models who absorb that briefing quickly and represent it accurately, not just the ones who look the part.</p>
+<h3>A professional appearance that holds up all day</h3>
+<p>Simple, well-fitted, brand-appropriate clothing (often supplied or specified by the client) and grooming that survives a long shift under show-floor lighting matters more than a striking or unusual look. This is one of the most forgiving categories on height, measurements and conventional modeling standards.</p>
+<h3>Reliability and punctuality</h3>
+<p>A multi-day trade show booking depends entirely on the same model showing up, on time, in the right outfit, for every day of the run. One no-show or late arrival on a multi-day booking is the fastest way to be dropped from an agency's roster.</p>
+
+<h2>Agencies vs. Going Direct</h2>
+<p>Staffing and event-modeling agencies that keep a dedicated roster for a specific city or show circuit book a large share of this work, because exhibitors need multiple staff filled at once for a multi-day event and want a single point of contact rather than hiring individually. Event marketing and experiential-marketing companies, the agencies that plan and run a brand's presence at a show rather than the exhibitor itself, are a second common direct route once you have worked a few shows and built a reputation with organizers. See our guide to <a href="../modeling-jobs/">where modeling work actually comes from</a> for how promotional work fits alongside the rest of the industry's job sources.</p>
+
+<h2>Promotional Modeling vs. "Brand Ambassador" Work</h2>
+<p>The two terms get used almost interchangeably online, which causes real confusion. Generic "brand ambassador" postings are frequently retail or college-campus programs built around social reach or in-store sampling rather than a booked event day. Promotional and trade show modeling, by contrast, is a specific, staffed booking for a specific event with a set call time, a defined shift length and a day or hourly rate agreed in advance, the same booking structure as any other modeling job on this site. If a posting cannot tell you which show, which dates and what it pays, it is worth treating with the same caution as any other vague casting call.</p>
+
+<h2>Reasons People Talk Themselves Out of Submitting, and Why They're Wrong</h2>
+<ul>
+<li><b>"I don't have a modeling look."</b> Trade show and convention clients cast far more on personality, presentation and reliability than on the height and proportion standards a fashion or commercial board applies. This is one of the most accessible categories on looks alone.</li>
+<li><b>"I need a portfolio to submit."</b> Most staffing and event agencies want current photos and a short bio, not a modeling book. A few honest, well-lit photos are usually enough to be considered.</li>
+<li><b>"I'm not experienced enough to represent a brand."</b> Most clients brief you on the product the same day. Reliability, warmth and the ability to learn a short script matter far more than prior promotional experience.</li>
+<li><b>"It's basically the same as a brand ambassador program."</b> As above, it is a distinct, specifically booked event shift with a set rate, not an open-ended retail or campus program.</li>
+</ul>
+
+<h2>How to Actually Get Into Promotional Modeling</h2>
+<ol>
+<li><b>Search for staffing and event-modeling agencies in your city or a nearby convention hub.</b> Most keep an open application for their trade show and convention roster.</li>
+<li><b>Submit current, honest photos and a short bio.</b> A modeling portfolio is not required; our <a href="../how-to-make-a-modeling-portfolio/">portfolio guide</a> still covers the basics if you want to put one together anyway.</li>
+<li><b>Be specific about your availability</b> for multi-day bookings, since reliability across a full show run is what gets a new face rebooked.</li>
+<li><b>Take the first booking seriously, even if it's a small local show.</b> A good reference from one event organizer is what gets you considered for the bigger, better-paid conventions next.</li>
+<li><b>Stay open to direct outreach from event marketing companies</b> once you have a booking or two behind you, not just agency rosters.</li>
+</ol>
+
+<h2>The Short Version</h2>
+<p>Promotional modeling, and trade show and convention work specifically, is live, in-person representation of a brand at an event rather than a photograph, booked by the day or the hour rather than for usage rights. It rewards genuine ease with strangers, fast memorization, a professional appearance that holds up over a long shift and dependable attendance across a multi-day run far more than it rewards height, measurements or a modeling portfolio, which makes it one of the more accessible, well-paid ways into the industry for someone starting with no agency and no experience at all.</p>
 `,
   },
 ];
