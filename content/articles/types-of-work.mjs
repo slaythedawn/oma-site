@@ -284,6 +284,9 @@ export const typesOfWork = [
 <h3>Hand and parts modeling</h3>
 <p>A real, specialist niche: close-up work for product photography, jewelry, cosmetics and skincare. Small client pool, repeat bookings, and consistently underrated pay per hour. Covered in full in <a href="../how-to-become-a-hand-model/">how to become a hand model</a> and <a href="../how-to-become-a-foot-model/">how to become a foot model</a>.</p>
 
+<h3>Beauty</h3>
+<p>A different close-up niche again: skincare, makeup, haircare and fragrance clients shot tight from the collarbone or shoulders up, cast on skin condition and a calm, unperformed expression rather than height or figure. It gets confused with glamour work constantly online, though the two are judged on almost opposite things. See our <a href="../how-to-become-a-beauty-model/">guide to becoming a beauty model</a> for what the casting actually looks for.</p>
+
 <h3>Hair modeling</h3>
 <p>A different niche again, and one most people confuse with the free-haircut kind of "hair model" a salon or hairdressing academy runs. Paid hair modeling is commercial work for haircare, styling-tool and salon brands, cast on hair condition and versatility rather than a face or figure. See our <a href="../how-to-become-a-hair-model/">guide to becoming a hair model</a> for both routes in, salon and paid.</p>
 
