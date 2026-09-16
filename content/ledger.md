@@ -58,7 +58,7 @@ guessed). Apply the same standard going forward: any new or edited
 article touching a jurisdiction-dependent rule gets real, checked detail
 for all three markets, or it doesn't ship.
 
-## Live (57 articles)
+## Live (58 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -120,6 +120,7 @@ for all three markets, or it doesn't ship.
 | how-to-become-a-print-model | how to become a print model | 200 | 0 | 2026-09-13 |
 | how-to-become-a-ugc-model | ugc model | 200 | 0 | 2026-09-14 |
 | promotional-modeling | promotional model / trade show model | 200 + 100 | 1 / 6 | 2026-09-15 |
+| how-to-become-a-beauty-model | beauty modeling / how to become a beauty model | 70 + 10 | 0 / 0 | 2026-09-16 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -195,7 +196,8 @@ the existing section, not a new URL.
 | how to become a print model | 200 | 0 | **Shipped 2026-09-13** — see the Live table. Re-checked at 200 vol (up from the 80 recorded 2026-09-05). |
 | how to become a swimsuit model | 70 | 0 | **Checked 2026-09-05, clean but thin.** Same call as print model above: uncovered, low volume, fine for a thin week. |
 | how to become a lingerie model | 50 | 0 | **Checked 2026-09-05, clean but thin, and check brand fit before writing.** Uncovered and low-difficulty, but confirm the SERP and framing stay squarely career-education before committing, given the site's audience includes teens. |
-| how to become a teen model | 100 | 0 | **Checked 2026-09-05, likely cannibalised, not confirmed.** Close to `how-to-become-a-model-at-16` in intent; read that article's actual body before writing anything here, do not just trust the volume. |
+| how to become a teen model | 100 | 0 | **Checked 2026-09-16, confirmed a deliberate brand exclusion, not a coverage gap.** `content/articles/parents.mjs`'s own file-header comment says the bare term "teen model" is deliberately not targeted because of the search intent it carries. Do not write, and do not re-check this as a cannibalisation question — it is a standing brand decision, not an overlap with `how-to-become-a-model-at-16`. |
+| how to become an underwear model | 150 | 0 | **Checked 2026-09-16, clean but deprioritised on brand fit, not cannibalised.** Uncovered, low-difficulty and a genuine career-education SERP, but this site's audience includes teens per `how-to-become-a-model-at-16`, the same standing caution already logged for the unshipped lingerie and swimsuit terms below. Needs a deliberate decision to pursue, not a routine pick. |
 | how to become an instagram model | 90 | 0 | **Shipped 2026-09-11** — see the Live table. |
 | showroom model | 60 | 0 | **Shipped 2026-09-12** — see the Live table. |
 | fitting model | 100 | 7 | **Checked 2026-09-12, cannibalised.** SERP (Wikipedia's "Fit model" page, StarNow's "How to Become a Fitting Model") confirms this is the exact same job as `how-to-become-a-fit-model`, just an alternate name for it, not a distinct one. Do not write a separate page. |
@@ -1438,5 +1440,129 @@ the existing section, not a new URL.
   GSC access still unavailable this run (no service-account key or
   `gsc-*` MCP tool present); substituted Ahrefs per the standing note.
   Opened PR #37; merging once CI is green and `mergeable_state` is
+  `clean`, per the standing automerge authorisation above, without
+  waiting on Josh.
+- **2026-09-16 run.** Fired from the same stale 18 August chat-routine
+  handover as every prior run; this file and `CONTRIBUTING.md` remain the
+  authoritative process. `git fetch origin main` confirmed the designated
+  session branch matched `origin/main` exactly (PR #37, the
+  promotional-modeling article, already merged) and `npm run check` on
+  `main` was clean before writing. `list_pull_requests` returned no open
+  PRs, and `list_branches` surfaced no branches beyond `main` and ones
+  already confirmed superseded in this file's prior entries (all the
+  `charming-tesla-*` stale branches, `claude/model-academy-github-setup-etwquk`,
+  `claude/how-to-become-an-instagram-model` and the rest), so nothing was
+  in flight to collide with.
+
+  Ran a fresh `keywords-explorer-overview` batch on an angle not tried by
+  any prior run, close-up beauty/content-format terms not covered by the
+  live/event-staffing or brand-content batches of the last two runs
+  (teen model, beauty model variants, stock photo modeling, video model,
+  catalog model, editorial model, underwear model, body double,
+  modeling internship). Two findings worth recording. First,
+  `how to become a teen model` (100 vol, KD 0), flagged on the shortlist
+  since 2026-09-05 as "likely cannibalised, not confirmed," turned out to
+  be a deliberate brand decision rather than a coverage gap:
+  `content/articles/parents.mjs` carries its own file-header comment,
+  "Deliberately NOT targeting the bare term 'teen model', which carries
+  search intent this brand should not be competing for," written when
+  that cluster was built. Not a content-overlap cannibalisation in the
+  usual sense, but a standing decision that rules the term out
+  permanently either way; corrected the shortlist note below and flagging
+  it here as a new, durable dead end for future runs, since it would not
+  have surfaced from a grep for existing coverage alone. Second,
+  `how to become an underwear model` (150 vol, KD 0) looked clean on
+  volume and a grep found no existing coverage, but was deprioritised on
+  brand fit rather than picked, the same standing caution already logged
+  for the checked-but-unshipped lingerie and swimsuit terms: this site's
+  audience includes teens per `how-to-become-a-model-at-16`, and
+  underwear modeling carries at least as much of that risk as lingerie
+  did. Left on the shortlist for a deliberate future decision, not ruled
+  out permanently.
+
+  `beauty modeling` (70 vol, KD 0) and `how to become a beauty model`
+  (10 vol, KD 0) checked out as the genuine opportunity. `serp-overview`
+  for `beauty modeling` showed a real career-education SERP once the
+  noise cleared (photogenicsmedia.com's own "What Is Beauty Modeling"
+  glossary page, Indeed's makeup-model jobs listing, Backstage's beauty
+  and makeup modeling castings, a couple of low-DR modeling-agency and
+  photography sites, a TikTok how-to), no modeling-course competitor
+  anywhere in the top 10. Checked cannibalisation properly, not just
+  against this table: a full-repo grep for "beauty" turned up dozens of
+  passing mentions (a "clean beauty" shot on nearly every portfolio
+  shot-list, "beauty" as one board among several in agency and
+  category-list content, "the beauty shot" as a headshot-expression
+  name), but a second, narrower grep for the exact phrase "beauty model"
+  found exactly one passing use anywhere on the site (a single sentence
+  in `how-to-become-a-model` about height cutoffs), confirming no article
+  gives the category itself a dedicated treatment, the same
+  passing-mention-is-not-full-coverage pattern that has cleared most of
+  the Specialisms cluster's niche picks before it.
+
+  Wrote `how-to-become-a-beauty-model` in `content/articles/niche.mjs`,
+  extending that cluster again. Its central differentiator, since this
+  keyword's own search results default to a pageant-style framing, is the
+  actual casting standard: skin condition and a calm, unperformed
+  expression at close range, not a subjective beauty ranking, plus one
+  genuinely insider detail that seemed worth a dedicated section rather
+  than a passing line: doing nothing new to your skin, brows or hair in
+  the days before a beauty casting or shoot, since a fresh facial, wax,
+  thread or first-time product is the most common reason a booked beauty
+  model gets recast, and a tight beauty crop shows redness and irritation
+  in far more detail than any other category on this site would.
+
+  Cross-linked in-body from three places, one more than the minimum: a
+  new "Beauty" H3 added to `types-of-modeling`'s category list in
+  `content/articles/types-of-work.mjs`, between the existing "Hand and
+  parts modeling" and "Hair modeling" H3s; a new sentence added to
+  `modeling-headshots`'s "Fashion or straight (the beauty shot)" section
+  in `content/articles/portfolio.mjs`, connecting that headshot-expression
+  explainer to the modeling category built on the same close crop; and the
+  hand-written `how-to-become-a-hand-model`'s existing "Beauty." paragraph
+  (nail polish, hand cream, skincare clients), edited directly per
+  CONTRIBUTING.md since it is one of the original 16 hand-written pages,
+  extended with a sentence distinguishing hand-focused beauty work from
+  the face-focused version and linking to the new guide. Added the slug to
+  the Specialisms cluster in `scripts/build-index-and-sitemap.mjs`. Did not
+  add it to any footer column, since a 70-volume niche pick does not clear
+  the sitewide-link bar the rest of the Specialisms cluster has not
+  cleared either.
+
+  Skipped a Higgsfield generation attempt, per the standing `cloudfront.net`
+  403 block on this session's network policy logged on every run since
+  2026-08-25 and most recently reconfirmed 2026-09-15 (yesterday) — not
+  re-tested again this run per the task's own instruction not to re-burn
+  time confirming a standing, repeatedly-reconfirmed block. Reused
+  `image: 'how-to-become-a-model'` (a plain-wall, face-forward portrait
+  with a natural smile, already the most-reused image in generated content
+  at 5 prior reuses) with a fresh `imageAlt` describing it honestly as a
+  close, evenly lit face crop rather than claiming a dedicated beauty
+  shoot, since it is genuinely the only image on the site that puts the
+  face this clearly in frame against a plain background, the same
+  deliberate honest-fit-over-freshness call the 2026-09-09 UK-guide entry
+  logged for its own most-reused image.
+
+  `npm run build && npm run check` and `npx html-validate@8` on the new
+  and edited pages all pass clean, including the orphan-inbound-link
+  check (3 in-body inbound links) and a manual JSON-LD parse check
+  confirming all three schema blocks parse, with the `FAQPage` block
+  carrying its full 6 questions. Title is 42 characters, description 145
+  characters, both within limit; word count landed at 1,136, in line with
+  this site's other thin-keyword niche pieces (foot 1,226, tattoo 1,271,
+  showroom 1,163, Instagram 1,114, UGC 1,167) rather than the
+  higher-volume 1,500-2,500 range, the same deliberate match to
+  established practice logged for those. Zero em dashes anywhere in the
+  new article body or FAQ answers, confirmed directly; the only em dashes
+  in the built page are the shared nav/footer generated-marker comments
+  and the "Enrol — $299" CTA label common to every page on the site.
+  Diffed every changed file for the hard-constraint strings (`299`, `499`,
+  `offers/`, the GTM/GA4/Pixel IDs) before committing and found nothing
+  beyond the expected, unrelated "All 58 guides" to "All 59 guides"
+  footer-count bump on every page, confirming this run did not touch
+  pricing, checkout links or tracking.
+
+  GSC access still unavailable this run (no service-account key or
+  `gsc-*` MCP tool present); substituted Ahrefs per the standing note.
+  Opening a PR next and merging once CI is green and `mergeable_state` is
   `clean`, per the standing automerge authorisation above, without
   waiting on Josh.

@@ -14,6 +14,7 @@ const DATE_INSTAGRAM = '2026-09-11';
 const DATE_SHOWROOM = '2026-09-12';
 const DATE_PRINT = '2026-09-13';
 const DATE_UGC = '2026-09-14';
+const DATE_BEAUTY = '2026-09-16';
 
 export const niche = [
   {
@@ -951,6 +952,94 @@ export const niche = [
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
 <p>That last step is where our mentors, working agents and bookers who work with brands on this kind of content, add the most before your first booking rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+`,
+  },
+  {
+    slug: 'how-to-become-a-beauty-model',
+    seoTitle: 'How to Become a Beauty Model: A Real Guide',
+    description:
+      'How to become a beauty model, from the people who book them: what the casting actually looks for, how it differs from glamour work, and real pay.',
+    headline: 'How to Become a Beauty Model: What a Close-Crop Casting Is Actually Judging',
+    category: 'Niche',
+    image: 'how-to-become-a-model',
+    imageAlt: 'A close, evenly lit portrait against a plain wall showing clear, well-cared-for skin and natural expression, the kind of close crop a beauty casting judges',
+    readTime: 7,
+    date: DATE_BEAUTY,
+    related: ['modeling-headshots', 'how-to-become-a-hand-model', 'types-of-modeling'],
+    faq: [
+      {
+        q: 'What is beauty modeling, exactly?',
+        a: 'Commercial work booked for skincare, makeup, haircare, fragrance and personal-care brands, shot in a tight crop from roughly the collarbone up. The client is buying skin, features and expression at close range, not a full-length figure, and the images are usually shot tighter and lit more evenly than any other commercial category on this site.',
+      },
+      {
+        q: 'Is beauty modeling the same as glamour modeling?',
+        a: 'No, and mixing the two up sends a submission to the wrong board entirely. Glamour work is styled around a specific look and comfort in front of the camera, and it overlaps with swim and lingerie casting. Beauty work is closer to a product shoot: clean, minimal or no makeup, and skin condition doing almost all of the work, closer in spirit to a headshot than to a styled shoot.',
+      },
+      {
+        q: 'Do you need to be conventionally beautiful to become a beauty model?',
+        a: 'Less than the name suggests. What a beauty casting actually screens for is skin that holds up under a macro lens, symmetrical, healthy features, and an expression that reads as calm rather than performed. Plenty of models who would not win a beauty pageant book steady beauty work, because the client is judging skin condition and camera presence, not a subjective beauty standard.',
+      },
+      {
+        q: 'What clients actually hire beauty models?',
+        a: 'Skincare, cosmetics, haircare and styling-tool brands, fragrance houses, dermatology and personal-care companies, and the beauty counters and campaigns run by department stores and drugstores. Editorial beauty pages in magazines book the same way. It is a genuinely large, steady client pool, not a niche corner of the industry.',
+      },
+      {
+        q: 'How much do beauty models get paid?',
+        a: 'The same day-rate-plus-usage structure as the rest of commercial work, set by the client and where the images run rather than by the category itself. A local drugstore-brand shoot pays modestly; a national skincare or cosmetics campaign with broad usage pays like any other national commercial booking, because the client is buying the same rights either way, just on a face instead of a full figure.',
+      },
+      {
+        q: 'What is the biggest mistake new beauty-model applicants make?',
+        a: 'Changing something about their skin right before a casting or shoot. A new facial, a fresh wax or thread, a skincare product tried for the first time that week, all of it can leave redness, irritation or a breakout that a tight beauty crop shows in full detail. The actual advice from working bookers is almost boring: keep your normal, boring skincare routine and change nothing in the days before you are seen.',
+      },
+    ],
+    body: `
+<p>Search "how to become a beauty model" and most of what comes back reads like a pageant checklist: symmetry scores, ideal proportions, a very narrow idea of what counts. That is not what a beauty casting actually looks at. It is closer to a product shoot than a beauty contest, and the standard is skin condition and camera presence at close range, not a subjective ranking of how conventionally attractive someone is.</p>
+<p>Our instructors at Online Model Academy include agents and bookers who cast beauty work for skincare and cosmetics clients. This is the version of the job they actually book, not the pageant framing dominating the search results.</p>
+
+<h2>What Beauty Modeling Actually Is</h2>
+<p>Beauty work is commercial modeling shot tight, usually from the collarbone or shoulders up, for clients selling something applied to the face, skin or hair: skincare, makeup, haircare and styling tools, fragrance, dermatology and personal-care brands. The client is buying skin and expression at close range, the way a hand model sells hands or a foot model sells feet, except the product here is the face itself.</p>
+<p>It gets confused with glamour work constantly, because both categories can produce a striking, well-lit close-up. The difference is what is being cast. Glamour casts on a styled look and comfort in front of the camera, and sits closer to swimwear and lingerie work. Beauty casts on skin condition, feature symmetry and a calm, unperformed expression, closer in spirit to a headshot than to a styled shoot. Our full guide to <a href="../modeling-headshots/">modeling headshots</a> covers the neutral, technical version of this same close crop, the "straight" or beauty shot most fashion boards lead with, which is the same tight framing this category is cast on.</p>
+
+<h2>What Actually Gets You Booked</h2>
+<h3>Skin that holds up close</h3>
+<p>Not flawless skin, condition. Even tone, no active breakouts, no fresh sunburn or irritation on the day. A beauty crop shows pores and texture that a full-length commercial shot never has to, so a casting director is checking whether your skin photographs consistently, not whether it looks perfect in person.</p>
+<h3>A calm, unperformed expression</h3>
+<p>Beauty casting wants neutral or softly engaged, not a wide commercial smile and not a hard fashion stare. The point is to let the client see the product doing its job on your actual face, without an expression competing for attention.</p>
+<h3>Clean, honest digitals</h3>
+<p>The same rule as every other category on this site: unretouched phone photos in daylight, no filter, no makeup for the submission itself unless a specific casting asks for it. A booker wants to see your real skin, because that is the exact thing they are being asked to cast. Our full <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers the shot list in more depth.</p>
+<h3>Doing nothing unusual to your skin beforehand</h3>
+<p>This is the detail almost nobody outside a booking office tells you. A new facial, a fresh brow wax or thread, or a skincare product tried for the first time in the week before a casting or shoot is the single most common reason a booked beauty model gets recast at the last minute. Redness, irritation and breakouts all show up in a tight beauty crop far more than they would in a full-length shot, so the actual professional standard is to change nothing and keep your ordinary routine right up to the shoot.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-beauty-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>Beauty Modeling vs. Hand Modeling vs. Hair Modeling</h2>
+<p>All three are close-up, product-driven categories, and clients frequently book from the same short list of agencies for all of them, but they are cast on different things. <a href="../how-to-become-a-hand-model/">Hand modeling</a> sells hands for jewelry, tech and beauty products the hand is holding or applying, judged on steadiness and skin condition on the hand itself, not the face. Hair modeling sells hair condition and versatility for haircare and styling brands, judged from the neck up but rarely close enough to judge skin. Beauty modeling is the tightest crop of the three, face and skin specifically, and the category most likely to book someone with no prior agency experience at all, because a genuinely clear, even, well-cared-for complexion is rarer than most new applicants assume.</p>
+
+<h2>Where Beauty Models Actually Work</h2>
+<p>Skincare and cosmetics campaigns are the largest client group by volume, followed by haircare and styling-tool brands, fragrance houses, dermatology and personal-care companies, and the in-store and catalogue beauty content that drugstore and department-store brands run constantly. Editorial beauty pages inside fashion and lifestyle magazines book the same way, usually paying in tearsheets and credibility early on rather than a high day rate. None of this requires the height or proportions fashion runway screens for, since nothing below the collarbone is in frame.</p>
+
+<h2>Reasons People Talk Themselves Out of Submitting, and Why They're Wrong</h2>
+<ul>
+<li><b>"I'm not beautiful enough for beauty modeling."</b> The category is judged on skin condition and camera presence at close range, not a subjective beauty ranking. Plenty of working beauty models have ordinary, unremarkable faces that simply photograph clearly and consistently.</li>
+<li><b>"I need professional makeup skills first."</b> Most beauty submissions want a bare, unretouched face so a booker can see real skin, not makeup application. Makeup is applied on set by a professional once you are booked, not something you are expected to bring.</li>
+<li><b>"This isn't real modeling, it's just close-up photos."</b> It is a booking with a day rate and a usage license, the same structure as every other commercial category on this site, cast on a specific product need rather than a full figure.</li>
+<li><b>"I should wait until my skin is perfect."</b> Skin that is consistently clear and calm beats skin that is briefly perfect after an intervention. Waiting for a flawless week is the wrong strategy; a stable, ordinary routine is the actual credential.</li>
+</ul>
+
+<h2>Your First Steps</h2>
+<ol>
+<li>Shoot four to six honest digitals, close crop from the shoulders up, daylight, plain wall, no makeup and no filter.</li>
+<li>Leave your skincare, brow and hair routine exactly as it normally is in the week before you submit or shoot, nothing new.</li>
+<li>Practice a calm, neutral expression in the mirror until it stops feeling deliberate, rather than defaulting to a commercial smile.</li>
+<li>Submit to agencies with a genuine beauty or commercial board, and check what a board actually casts before applying to it.</li>
+<li>Learn how a casting room actually works before you are standing in one.</li>
+</ol>
+<p>That last step is where our mentors, working agents and bookers who cast beauty work for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
 `,
   },
 ];
