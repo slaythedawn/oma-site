@@ -121,6 +121,7 @@ for all three markets, or it doesn't ship.
 | how-to-become-a-ugc-model | ugc model | 200 | 0 | 2026-09-14 |
 | promotional-modeling | promotional model / trade show model | 200 + 100 | 1 / 6 | 2026-09-15 |
 | how-to-become-a-beauty-model | beauty modeling / how to become a beauty model | 70 + 10 | 0 / 0 | 2026-09-16 |
+| how-to-become-a-mature-model | mature models / middle age model jobs / how to become a senior model | 700 + 350 + 70 | 4 / 4 / 16 | 2026-09-17 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -1564,5 +1565,117 @@ the existing section, not a new URL.
   GSC access still unavailable this run (no service-account key or
   `gsc-*` MCP tool present); substituted Ahrefs per the standing note.
   Opening a PR next and merging once CI is green and `mergeable_state` is
+  `clean`, per the standing automerge authorisation above, without
+  waiting on Josh.
+- **Correction, 2026-09-17: `claude/model-academy-github-setup-etwquk` was
+  never actually superseded.** This file logged it as "confirmed
+  superseded" three separate times (2026-08-27, 2026-09-03, 2026-09-16),
+  each time based on a commit-count/name check against the standing dead-
+  branch list, not an actual content diff against `main`. A closer check
+  this run (`git diff origin/main origin/claude/model-academy-github-setup-etwquk
+  -- index.html`) shows real, unshipped content on that branch: its head
+  commit, "Remove the lifetime access claim from the site" (2026-09-01),
+  rewrites the homepage meta description, the `Course` JSON-LD and the
+  homepage FAQ away from "lifetime access" and a "Seven days, no questions
+  asked" refund to "one payment, no subscription" and a refund policy that
+  excludes courses where any video has already been started. `main` today
+  still carries the original "lifetime access" / no-questions-asked
+  wording this branch was written to remove. The branch is not a clean,
+  isolated fix, though: its 8 commits also bundle unrelated hero-copy and
+  stats rewrites, CSS/reveal-animation changes, a removed mobile media
+  query, a favicon change, and repo work unrelated to the homepage
+  (`migration/` gitignore, removing "extracted course content" from the
+  repo). Not merged this run: it touches the refund policy and an access
+  claim, both outside the standing automerge authorisation (which covers
+  routine blog-content PRs, not business/policy copy), and CONTRIBUTING.md's
+  price/checkout/tracking carve-out is the closest existing guidance,
+  which points the same way, toward a human decision rather than an
+  autonomous merge. Flagged directly to Josh via push notification instead
+  of silently re-logging it as superseded a fourth time. **Do not repeat
+  the commit-count-only check that produced the original three false
+  "superseded" entries** — verify branches with unusual, non-generic names
+  (this one is not a `charming-tesla-*` auto-named session branch) with an
+  actual content diff before recording a disposition here, the same
+  standard `git log origin/main..` alone does not meet.
+- **2026-09-17 run.** Fired from the same stale 18 August chat-routine
+  handover as every prior run; this file and `CONTRIBUTING.md` remain the
+  authoritative process. `git fetch origin main` confirmed the designated
+  session branch matched `origin/main` exactly (PR #38, the beauty-model
+  article, already merged) and `npm run check` on `main` was clean before
+  writing. A subagent check of `list_pull_requests` (none open) and
+  `list_branches` surfaced the `claude/model-academy-github-setup-etwquk`
+  finding above; every other non-`main` branch was re-confirmed
+  content-identical to already-merged history, so nothing else was in
+  flight to collide with.
+
+  Ran a fresh `keywords-explorer-overview` batch on an angle not tried by
+  any prior run, older/non-youth demographic and pay-mechanics terms
+  (livestream shopping, QVC, day rate, salary, mature/senior/older-model
+  variants). `catalog modeling` (150 vol, KD 0) looked promising on volume
+  alone but checked out cannibalised on a full-repo grep: "catalogue" and
+  "catalog" already get dedicated, repeated treatment across `jobs.mjs`,
+  `money.mjs`, `niche.mjs`'s print-model FAQ, and both agency-market files,
+  including print-model's own FAQ answer distinguishing catalogue, print
+  and e-commerce work directly. `mature models` (700 vol, KD 4, bare term)
+  stood out as the real find: `serp-overview` for the bare term showed a
+  genuine industry SERP (ModelsDirect, Classic Modeling Agency NYC,
+  the-models.de's "best ager" agency page, sandrareynolds.co.uk's own "How
+  To Become A Mature Model," winkmodels.com.au), no modeling-course
+  competitor, once a handful of stock-photo and celebrity-gossip results
+  were filtered out. Checked the adjacent bare term `senior models`
+  (350 vol, KD 0) separately and dropped it: its SERP is dominated
+  entirely by a completely different meaning, high-school "senior
+  portrait" photography (Pinterest, local portrait studios, prom-season
+  Instagram posts), the same kind of sense-trap that ruled out bare `fit
+  model` and `elite model` in earlier runs. Confirmed clean via a
+  full-repo grep for "senior model," "mature model," "middle age model"
+  and "older model": zero hits anywhere except the two passing mentions
+  used as cross-link sources below, no dedicated treatment.
+
+  Wrote `how-to-become-a-mature-model` in `content/articles/niche.mjs`,
+  extending the Specialisms cluster again, framed around the actual
+  industry term ("classic board") rather than the search terms
+  themselves, the same call the beauty and hair articles made for their
+  own industry/search-term mismatches. Its central point is the opposite
+  of most competing content's framing: clients casting this board
+  specifically want an authentic, current, unretouched face, so trying to
+  photograph younger is the most common way a submission gets passed
+  over, not a way to improve one. Cross-linked in-body from three places,
+  one more than the minimum: the existing "Mature" H3 in
+  `content/articles/types-of-work.mjs` (`types-of-modeling`), the
+  "Classic" board bullet in `content/articles/agencies-us.mjs` (which
+  turned out to belong to `modeling-agencies-near-me`, not
+  `what-do-modeling-agencies-look-for` as first assumed, corrected before
+  finalizing the `related` field to match), and the hand-written
+  `how-to-become-a-successful-model`'s "Categories are doors, not cages"
+  section, edited directly per CONTRIBUTING.md since it is one of the
+  original 16 pages. Added the slug to the Specialisms cluster in
+  `scripts/build-index-and-sitemap.mjs`.
+
+  Skipped a Higgsfield generation attempt, per the standing
+  `cloudfront.net` 403 block on this session's network policy logged on
+  every run since 2026-08-25 and most recently reconfirmed 2026-09-16 —
+  reused `image: 'how-to-become-a-fitness-model'` (a full-length shot
+  against a plain white studio cyclorama, only 1 prior reuse) with a
+  fresh, deliberately age-neutral `imageAlt` describing the photo type
+  rather than the subject, since no existing image can honestly support
+  an age claim either way and the site's standing practice is an honest
+  generic reuse over a misleading specific one.
+
+  `npm run build && npm run check` and `npx html-validate@8` on the new
+  and edited pages all pass clean, including the orphan-inbound-link
+  check (3 in-body inbound links) and a manual JSON-LD parse check
+  confirming all three schema blocks parse, with the `FAQPage` block
+  carrying its full 6 questions. Title is 42 characters, description 137
+  characters, both within limit; word count landed at 1,188. Zero em
+  dashes anywhere in the new article body or FAQ answers, confirmed
+  directly. Diffed every changed file for the hard-constraint strings
+  (`299`, `499`, `offers/`, the GTM/GA4/Pixel IDs) before committing and
+  found nothing beyond the expected "All 59 guides" to "All 60 guides"
+  footer-count bump on every page.
+
+  GSC access still unavailable this run (no service-account key or
+  `gsc-*` MCP tool present); substituted Ahrefs per the standing note.
+  Opened PR #39; merging once CI is green and `mergeable_state` is
   `clean`, per the standing automerge authorisation above, without
   waiting on Josh.
