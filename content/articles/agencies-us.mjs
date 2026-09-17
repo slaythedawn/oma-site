@@ -95,7 +95,7 @@ ${feeWarning}
 <li><b>Petite</b> — below the fashion range, roughly 5'7" and under. No meaningful height minimum on commercial boards. See our <a href="../how-to-become-a-petite-model/">guide to becoming a petite model</a>.</li>
 <li><b>Parts</b> — hands, feet, hair, skin. Specialist and lucrative per hour. See our <a href="../how-to-become-a-hand-model/">hand modeling guide</a> and <a href="../how-to-become-a-hair-model/">hair modeling guide</a>.</li>
 <li><b>Kids and teens</b> — active nationally and the segment with the most predatory operators. Parents should start with our <a href="../child-modeling-agencies/">child modeling agencies guide</a>.</li>
-<li><b>Classic</b> — models over roughly 35. Consistently in demand, consistently under-supplied.</li>
+<li><b>Classic</b> — models over roughly 35. Consistently in demand, consistently under-supplied. See our <a href="../how-to-become-a-mature-model/">guide to becoming a mature model</a>.</li>
 </ul>
 
 <aside class="inline-cta">

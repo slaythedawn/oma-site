@@ -15,6 +15,7 @@ const DATE_SHOWROOM = '2026-09-12';
 const DATE_PRINT = '2026-09-13';
 const DATE_UGC = '2026-09-14';
 const DATE_BEAUTY = '2026-09-16';
+const DATE_MATURE = '2026-09-17';
 
 export const niche = [
   {
@@ -1040,6 +1041,104 @@ export const niche = [
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
 <p>That last step is where our mentors, working agents and bookers who cast beauty work for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+`,
+  },
+  {
+    slug: 'how-to-become-a-mature-model',
+    seoTitle: 'How to Become a Mature Model: A Real Guide',
+    description:
+      'How to become a mature model, from the people who book them: what the classic board actually wants, agencies vs. freelance, and real pay.',
+    headline: 'How to Become a Mature Model: What the Classic Board Actually Wants',
+    category: 'Niche',
+    image: 'how-to-become-a-fitness-model',
+    imageAlt: 'A calm, full-length digital-style portrait against a plain studio backdrop in natural light',
+    readTime: 10,
+    date: DATE_MATURE,
+    related: ['modeling-agencies-near-me', 'types-of-modeling', 'how-to-become-a-successful-model'],
+    faq: [
+      {
+        q: 'What counts as a "mature" or "classic" model?',
+        a: 'There is no single official cutoff, but the working shorthand most agencies use is roughly 35 to 40 and up, with no upper limit at all. Agencies usually call this the classic board rather than "mature" or "senior," and it is treated as its own category with its own clients, not a wind-down of a fashion career.',
+      },
+      {
+        q: 'Is there real demand for mature models, or is this a niche gimmick?',
+        a: 'Real and growing. Healthcare, finance, insurance, home and lifestyle brands are all selling to customers of every age, and casting only twenty-somethings to sell a retirement product or a hip replacement ad reads as obviously wrong to the client buying the campaign. Several working agents describe the classic board as consistently under-supplied relative to client demand, not a favor category.',
+      },
+      {
+        q: 'Do mature models need an agency?',
+        a: 'It helps for national commercial and advertising clients, but plenty of classic-board work is booked directly. Local healthcare providers, financial advisors, home brands and lifestyle publications frequently cast without going through an agency at all, especially for regional or smaller-usage work.',
+      },
+      {
+        q: 'What kind of work do mature models actually get?',
+        a: 'Commercial work dominates: healthcare and pharma, finance and insurance, home, garden and lifestyle brands, grandparent and family-role castings, and corporate or stock-style imagery. Some fashion and lifestyle brands now deliberately cast a classic model alongside younger talent in the same campaign as a genuine reflection of who actually buys the product, not a token gesture.',
+      },
+      {
+        q: 'Is mature modeling well paid?',
+        a: 'Pay is set by the client and the usage, the same structure as every other category, not by age. Commercial classic work is steady and volume-driven rather than headline-making, and because the board is consistently under-supplied relative to demand, a signed classic model with reliable availability tends to work more consistently than the raw booking count might suggest.',
+      },
+      {
+        q: 'What is the biggest mistake people make trying to start later in life?',
+        a: 'Assuming the door already closed and never submitting anywhere. The second most common mistake is trying to look younger in submission photos. Clients casting the classic board want an authentic, current face, not a retouched or filtered version of one twenty years younger; a submission that reads as trying to hide your actual age gets passed over for one that does not.',
+      },
+    ],
+    body: `
+<p>Search "how to become a model" past a certain age and most of what comes back either assumes you mean your teenage daughter or quietly implies the window already closed. Neither is true. Agencies run an entire board built around exactly this demographic, and clients selling to adults are actively looking for faces that look like their actual customers.</p>
+<p>Our instructors at Online Model Academy include agents and bookers who cast commercial boards for a living, including the classic board this guide is about. This is the real path in, not a consolation version of a younger person's career.</p>
+
+<h2>What the Classic Board Actually Is</h2>
+<p>Inside the industry, this category is almost always called the classic board, not "mature" or "senior," terms search engines default to but agencies rarely use out loud. There is no single official age cutoff, but the working shorthand is roughly 35 to 40 and up, with no meaningful upper limit at all. A classic model in their sixties or seventies is a normal, working part of the roster, not an exception.</p>
+<p>The client logic is straightforward. Healthcare, finance, insurance, home and lifestyle brands sell to adults of every age, and casting only twenty-somethings for a retirement product, a hearing aid, or a kitchen renovation ad looks obviously wrong to the marketing team buying the campaign. Demand has grown as advertisers have moved away from defaulting to youth in every category, and several working agents describe the classic board as consistently under-supplied relative to how much client demand actually exists for it.</p>
+
+<h2>What Actually Gets You Signed</h2>
+<h3>Honest, current measurements and an honest, current age</h3>
+<p>Height, bust or chest, waist, hips, dress or suit size, hair and eye color, and your real age. Agencies remeasure and clients cast on an accurate impression of who is showing up, so disguising any of it, age included, reads as a professionalism problem the moment it is discovered, not a clever edit.</p>
+<h3>Digitals that show your real, unretouched face</h3>
+<p>Four to six phone photos, daylight, plain wall, no filters, no heavy makeup. Front, side, one smiling, one neutral, full length so a booker can see how you actually photograph. The instinct to smooth or soften lines before shooting is understandable and works against you: classic-board clients are specifically buying an authentic, lived-in face, and a submission that reads as trying to look younger gets passed over for one that does not.</p>
+<h3>Presence, not polish</h3>
+<p>Bookers casting the classic board are looking for ease in front of a camera and a face that photographs as genuinely comfortable in its own age, which usually reads more clearly in someone with real life experience than in someone performing confidence for the first time. That is a real advantage over a newer, younger model, not something to downplay.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-mature-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>Where Mature Models Actually Work</h2>
+<p>Commercial work dominates the category, the same way it dominates every other board on this site:</p>
+<ul>
+<li><b>Healthcare and pharma.</b> Campaigns for medications, medical devices, hearing and vision care, and healthcare providers, almost all of which specifically need a face in the age range of the actual patient.</li>
+<li><b>Finance, insurance and retirement.</b> Advisors, insurers and retirement products sell almost exclusively to adults with income and assets, not twenty-year-olds, and cast accordingly.</li>
+<li><b>Home, garden and lifestyle brands.</b> Renovation, furniture, travel and home-goods clients regularly cast a classic model as the primary talent, not a background extra.</li>
+<li><b>Grandparent and family-role castings.</b> A steady, specific lane of its own inside general commercial and lifestyle work.</li>
+<li><b>Fashion and campaign inclusion work.</b> A smaller but real and growing lane: some fashion and lifestyle brands now deliberately cast a classic model alongside younger talent in the same campaign, a genuine reflection of who buys the product rather than a token gesture.</li>
+</ul>
+<p>Our guide to <a href="../types-of-modeling/">the different types of modeling</a> covers how the classic board sits alongside every other category, useful context for working out where else to target alongside it.</p>
+
+<h2>Agencies vs. Going Freelance First</h2>
+<p>Not every agency actively markets a classic board even when it technically represents one, so ask directly rather than assuming from an agency's website alone. Our guide to <a href="../what-do-modeling-agencies-look-for/">what modeling agencies actually look for</a> covers how bookers evaluate a submission board by board, classic included.</p>
+<p>You do not need a signing to start working. Local healthcare providers, financial advisors, home brands and regional lifestyle publications frequently cast directly, without an agency, and a small set of real tearsheets built freelance makes a later agency submission stronger rather than weaker. Many working classic models do both at once: agency-booked national work and self-sourced local work side by side.</p>
+
+<h2>Reasons People Talk Themselves Out of Submitting, and Why They're Wrong</h2>
+<ul>
+<li><b>"Modeling is a young person's business, and I missed my window."</b> That is true of one narrow lane, fashion runway, and false of the rest of the industry. The classic board exists specifically because clients need faces this age, not as an afterthought.</li>
+<li><b>"Agencies only sign people in their twenties."</b> Most agencies run a dedicated classic board precisely because their commercial clients ask for it. A "no" from a fashion board says nothing about a classic one.</li>
+<li><b>"I should try to look younger in my photos."</b> The opposite of the actual brief. Clients casting this board are buying an authentic, current face, and photos that read as an attempt to disguise age are the single most common reason a strong submission gets passed over.</li>
+<li><b>"I have no experience, so I'm starting from zero at a disadvantage."</b> A real life of work, family and other experience reads as ease on camera, not inexperience. New-face classic submissions are welcomed the same way any other board's are.</li>
+</ul>
+
+<h2>What the Work and the Pay Actually Look Like</h2>
+<p>Rates are set by the client and the usage, the same structure as every other category on this site, not by age. Commercial classic work is steady and volume-driven rather than a handful of headline bookings, and because the board is consistently under-supplied relative to client demand, a reliable, available classic model tends to get called back more often than the raw size of the board would suggest.</p>
+
+<h2>Your First Steps</h2>
+<ol>
+<li>Take honest current measurements, including your real age, and send them exactly as they are.</li>
+<li>Shoot four to six honest digitals, full length, daylight, plain wall, no heavy makeup and nothing aimed at looking younger.</li>
+<li>Confirm an agency actively runs a classic board before submitting, rather than assuming from its general website.</li>
+<li>Submit to agencies with a genuine classic or commercial board, and in parallel, pitch local healthcare, finance and home brands directly.</li>
+<li>Learn how a casting room actually works before you are standing in one.</li>
+</ol>
+<p>That last step is where our mentors, working agents and bookers who cast commercial and classic boards for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
 `,
   },
 ];
