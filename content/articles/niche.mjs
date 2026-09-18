@@ -16,6 +16,7 @@ const DATE_PRINT = '2026-09-13';
 const DATE_UGC = '2026-09-14';
 const DATE_BEAUTY = '2026-09-16';
 const DATE_MATURE = '2026-09-17';
+const DATE_FACE = '2026-09-18';
 
 export const niche = [
   {
@@ -1139,6 +1140,102 @@ export const niche = [
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
 <p>That last step is where our mentors, working agents and bookers who cast commercial and classic boards for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+`,
+  },
+  {
+    slug: 'how-to-become-a-face-model',
+    seoTitle: 'How to Become a Face Model: A Real Guide',
+    description:
+      'How to become a face model, from the people who book them: how it differs from beauty modeling, what actually gets you booked, and real pay.',
+    headline: 'How to Become a Face Model: What Skincare and Packaging Clients Actually Want',
+    category: 'Niche',
+    image: 'how-to-become-a-model',
+    imageAlt: 'A close, evenly lit portrait against a plain wall with clear skin and a calm, repeatable expression, the crop a face-modeling client actually books',
+    readTime: 9,
+    date: DATE_FACE,
+    related: ['how-to-become-a-beauty-model', 'how-to-become-a-hand-model', 'modeling-headshots'],
+    faq: [
+      {
+        q: 'What counts as a face model?',
+        a: "Someone booked specifically for their face, without a client needing the rest of them in frame or in the room. Skincare, dermatology and dental brands, eyewear, hats and jewelry catalogs, haircare packaging, and stock or e-learning imagery all cast this way: they need a face for a box, an ad, a before-and-after or a course thumbnail, not a full portfolio or a runway walk.",
+      },
+      {
+        q: 'Is face modeling the same as beauty modeling?',
+        a: "No, and the two get mixed up constantly because both are shot in a tight, close crop. Beauty casting is an editorial or campaign look, judged on expression, styling and a specific beauty ideal the brand is selling. Face modeling is closer in spirit to hand or foot modeling: a client needs a specific feature, clear skin and a calm, repeatable expression, not a look or a personality. See our guide to becoming a beauty model for that side of the same close crop.",
+      },
+      {
+        q: 'Do you have to be conventionally beautiful to be a face model?',
+        a: "No. Clean, healthy, even skin and a face that photographs calmly and consistently matter far more than fitting a beauty ideal. A dermatology client wants a face that shows their product working, an eyewear or hat catalog wants a face that does not distract from the product, and neither is casting a beauty pageant.",
+      },
+      {
+        q: 'Do you need modeling experience to become a face model?',
+        a: "No. This is one of the more approachable specialist boards to start in, the same as hand or foot modeling, because a client is evaluating your face and your skin, not your book. A few honest digitals and a real submission to the right board beat a polished portfolio you had to pay for.",
+      },
+      {
+        q: 'Where do face models actually work?',
+        a: "Skincare and dermatology brands showing product results, dental and orthodontic before-and-after work, eyewear, hat and jewelry catalogs that need a face rather than a hand or foot in frame, haircare and cosmetics packaging, and stock photography or e-learning content that needs a believable, generic face rather than a recognizable one.",
+      },
+      {
+        q: 'What ruins a face model submission?',
+        a: "Visible skin issues on the day, heavy makeup or filters that hide your actual skin, and an inconsistent look between your submission photo and how you show up to a booking. A dermatology or skincare client is buying your skin's honest condition, and a submission that hides it works against you rather than for you.",
+      },
+    ],
+    body: `
+<p>Search "how to become a face model" and most of what comes back either assumes you mean becoming a model generally, or slides straight into beauty-pageant language about being conventionally attractive. Neither is quite it. Face modeling is its own specific, bookable niche, closer in spirit to hand or foot modeling than to a fashion or beauty career, and it is genuinely one of the more approachable boards to start in.</p>
+<p>Our instructors at Online Model Academy include agents and bookers who cast commercial and parts boards for a living. This guide covers what face modeling actually is, how it differs from beauty modeling, and what gets you booked.</p>
+
+<h2>What Face Modeling Actually Is</h2>
+<p>A client needs a face in frame, without needing your body, your walk, or even your name. That covers a specific, recurring set of work:</p>
+<ul>
+<li><b>Skincare and dermatology.</b> Product-result imagery, before-and-after shots and packaging that need a face showing clear, healthy skin, sometimes shot in stages over a treatment period.</li>
+<li><b>Dental and orthodontic.</b> Before-and-after and marketing imagery for dental practices, orthodontists and teeth-whitening brands, cast almost entirely on a smile and healthy teeth.</li>
+<li><b>Eyewear, hats and jewelry.</b> Catalog and e-commerce imagery where the product sits on or near the face and the client needs a face that supports it without competing with it.</li>
+<li><b>Haircare and cosmetics packaging.</b> Box fronts, tubes and point-of-sale imagery, a face-focused cousin of paid hair modeling.</li>
+<li><b>Stock photography and e-learning.</b> Course thumbnails, stock libraries and training content that need a believable, generic, approachable face rather than a recognizable public one.</li>
+</ul>
+<p>None of this is a beauty pageant. It is closer to a parts board that happens to book a face instead of a hand or a foot, and it is judged the same specialist way.</p>
+
+<h2>Face Modeling vs. Beauty Modeling</h2>
+<p>Both are shot in a tight, close crop, which is exactly why the two get confused constantly online. They are judged on close to opposite things. Beauty casting is an editorial or campaign look: a brand is selling a specific beauty ideal, and expression, styling and a distinctive look matter. Face modeling is judged on skin condition and a calm, repeatable expression a client can shoot the same way take after take, the same logic hand modeling applies to cuticles and knuckles. See our <a href="../how-to-become-a-beauty-model/">guide to becoming a beauty model</a> for the editorial side of the same close crop.</p>
+
+<h2>What Actually Gets You Booked</h2>
+<h3>Genuinely clear, healthy skin</h3>
+<p>Not a beauty ideal, condition. No active breakouts, visible irritation, or anything a dermatology or skincare client would need to retouch around. Working face models treat their skin the way a hand model treats their hands: no new products, treatments or sun exposure right before a booking.</p>
+<h3>A calm, repeatable expression</h3>
+<p>Clients need the same neutral or lightly smiling expression across dozens of frames, sometimes across a whole treatment series shot weeks apart. Being able to hold a genuinely relaxed, unforced expression on command, repeatedly, matters more here than range.</p>
+<h3>Digitals that show your actual skin</h3>
+<p>Four to six phone photos, daylight, plain wall, no makeup or filters: front, both profiles, and one close-up tight enough to show real skin texture and condition. Hiding anything here is the opposite of what a face-modeling client is trying to evaluate. Our full <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers the shot-list logic in more depth.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-face-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>Agencies vs. Going Direct</h2>
+<p>Larger agencies that run a parts board, the same one that books hand and foot work, often keep a face or "features" listing alongside it, though not every agency markets it openly, so ask directly rather than assuming from a website alone. A great deal of face-modeling work is also booked without an agency at all: dermatology practices, dental offices and small skincare brands regularly cast directly through their own channels or a casting platform, since the usage and budgets involved rarely need a national agency relationship. Our guide to <a href="../how-to-become-a-hand-model/">how to become a hand model</a> covers how a parts board works from the hand side; face listings, where they exist, run the same way.</p>
+
+<h2>Reasons People Talk Themselves Out of Submitting, and Why They're Wrong</h2>
+<ul>
+<li><b>"I'm not beautiful enough to be a face model."</b> That is a beauty-modeling worry, not a face-modeling one. A dermatology or eyewear client is booking clear skin and a calm expression, not a specific beauty ideal.</li>
+<li><b>"I don't have professional photos."</b> Nobody in this niche wants them. Honest, unfiltered phone digitals that show your actual skin are the entire submission.</li>
+<li><b>"This is too small or obscure a niche to bother with."</b> It is a real, recurring category with its own steady client base, the same as hand or foot modeling, just less written about because so much of the search space around "face model" is generic career advice instead.</li>
+<li><b>"I have a skin condition, scar or feature that isn't 'perfect.'"</b> Depending on the client, that can be an asset rather than a disqualifier. Before-and-after and dermatology work specifically need real skin at its starting point, not a flawless one.</li>
+</ul>
+
+<h2>What the Work and the Pay Actually Look Like</h2>
+<p>Rates are set by the client and the usage, the same structure as every other category on this site. Packaging and e-commerce work tends toward a flat buyout, the brand paying once for broad, ongoing rights, common wherever the image ends up printed on physical product. Dermatology and before-and-after work sometimes books the same model across a series of sessions over weeks or months, which pays out steadily rather than as a single day rate. Stock and e-learning work is typically lower per-image but higher volume, and rarely exclusive, so it sits comfortably alongside other modeling or non-modeling work.</p>
+
+<h2>Your First Steps</h2>
+<ol>
+<li>Shoot four to six honest digitals of your face, daylight, plain wall, no makeup or filters, including one close-up that shows real skin texture.</li>
+<li>Ask an agency directly whether it runs a face or features listing rather than assuming from its general site.</li>
+<li>Search for dermatology, dental, eyewear and skincare casting calls directly, not just general modeling agencies.</li>
+<li>Be upfront in your submission about your skin's current condition, including anything a client would need to know for a before-and-after series.</li>
+<li>Learn how a casting room actually works before you are standing in one.</li>
+</ol>
+<p>That last step is where our mentors, working agents and bookers who cast parts and commercial boards for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
 `,
   },
 ];

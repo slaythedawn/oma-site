@@ -127,6 +127,7 @@ const CLUSTERS = [
       'how-to-become-a-ugc-model',
       'how-to-become-a-beauty-model',
       'how-to-become-a-mature-model',
+      'how-to-become-a-face-model',
       'how-to-become-a-freelance-model',
     ],
   },
