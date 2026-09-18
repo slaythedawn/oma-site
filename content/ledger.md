@@ -122,6 +122,7 @@ for all three markets, or it doesn't ship.
 | promotional-modeling | promotional model / trade show model | 200 + 100 | 1 / 6 | 2026-09-15 |
 | how-to-become-a-beauty-model | beauty modeling / how to become a beauty model | 70 + 10 | 0 / 0 | 2026-09-16 |
 | how-to-become-a-mature-model | mature models / middle age model jobs / how to become a senior model | 700 + 350 + 70 | 4 / 4 / 16 | 2026-09-17 |
+| how-to-become-a-face-model | how to become a face model | 50 | 0 | 2026-09-18 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -1677,5 +1678,113 @@ the existing section, not a new URL.
   GSC access still unavailable this run (no service-account key or
   `gsc-*` MCP tool present); substituted Ahrefs per the standing note.
   Opened PR #39; merging once CI is green and `mergeable_state` is
+  `clean`, per the standing automerge authorisation above, without
+  waiting on Josh.
+- **2026-09-18 run.** Fired from the same stale 18 August chat-routine
+  handover as every prior run; this file and `CONTRIBUTING.md` remain the
+  authoritative process. `git fetch origin main` confirmed the designated
+  session branch matched `origin/main` exactly (PR #39, the mature-model
+  article, already merged) and `npm run check` on `main` was clean before
+  writing. `git ls-remote` on the designated session branch itself came back
+  empty (same no-matching-remote-ref case logged on several prior runs), so
+  built directly on `origin/main` rather than resetting anything.
+  `list_pull_requests` returned no open PRs, and `list_branches` surfaced
+  only branches already confirmed superseded in this file's prior entries
+  (including `claude/model-academy-github-setup-etwquk`, whose real
+  unmerged content was flagged to Josh directly on 2026-09-17 rather than
+  merged, since it touches refund-policy and access-claim copy outside the
+  automerge authorisation), so nothing was in flight to collide with.
+
+  Ran a fresh `keywords-explorer-overview` batch on an angle not tried by
+  any prior run, legal/financial and business-terminology adjacent phrases
+  (child trust accounts, agency-application process terms, a Canada
+  market-parity check). Two findings worth recording as durable dead ends.
+  First, `coogan account` (3,300 vol, KD 9) looked like a major find on
+  volume alone, but `serp-overview` showed a SERP dominated entirely by
+  SAG-AFTRA, credit unions and entertainment-industry financial advisors,
+  i.e. child *actors*, not child models — the same off-ICP pattern that
+  ruled out `brand ambassador` and `how to become an extra` in earlier
+  runs. A grep of `content/articles/parents.mjs` also found the underlying
+  concept already covered: its `legalBlock`'s US section names the
+  California/New York trust-account requirement and the "Coogan account"
+  term directly. Dropped, not a future-project candidate either. Second,
+  `product model` (200 vol, KD 0) checked out as the wrong sense entirely:
+  `serp-overview` is 100% business/product-management content (Silicon
+  Valley Product Group, Atlassian, Product School), nothing to do with
+  modeling. Dropped. `how to become a model in canada` and a few adjacent
+  Canada-market phrases came back at 0 volume, so a Canada market-parity
+  push (the UK guide's equivalent) is not supported by search demand right
+  now, unlike the UK and Australia expansions.
+
+  `how to become a face model` (50 vol, KD 0) checked out as the genuine
+  opportunity. `serp-overview` showed a clean career-education SERP
+  (ZipRecruiter, Backstage, low-DR modeling-industry sites, forums, one
+  TikTok how-to), no modeling-course competitor anywhere in the top 10.
+  Confirmed clean via a full-repo grep for "face model" and "face
+  modeling": zero existing hits anywhere on the site. This completes
+  another entry in the Specialisms cluster's parts-adjacent set (hand,
+  foot, hair, now face), each a single-feature booking judged on
+  condition rather than a look.
+
+  Wrote `how-to-become-a-face-model` in `content/articles/niche.mjs`. Its
+  central differentiator, since this keyword's own SERP and casual
+  understanding default to beauty-pageant framing, is the same
+  "condition, not a beauty ideal" logic the hand and foot guides use:
+  skincare, dermatology, dental, eyewear and haircare-packaging clients
+  need a specific feature (the face) in clean, repeatable, camera-ready
+  condition, not a fashion or beauty look. Took care to explicitly
+  disambiguate this from `how-to-become-a-beauty-model` in its own FAQ and
+  body, since both categories share the same tight close crop and are the
+  most likely of any two articles on this site to get confused for one
+  another going forward — a dedicated "Face Modeling vs. Beauty Modeling"
+  H2 makes the distinction explicit rather than leaving it implied.
+
+  Cross-linked in-body from three places, one more than the minimum: a
+  new "Face" H3 added to `types-of-modeling`'s category list in
+  `content/articles/types-of-work.mjs`, placed before the existing
+  "Beauty" H3; a second sentence added to `modeling-headshots`'s "Fashion
+  or straight (the beauty shot)" section in `content/articles/portfolio.mjs`,
+  alongside the existing beauty-model link from that same close-crop
+  discussion; and the hand-written `how-to-become-a-hand-model`'s existing
+  "Parts Modeling" paragraph (`blog/how-to-become-a-hand-model/index.html`),
+  edited directly per CONTRIBUTING.md since it is one of the original 16
+  hand-written pages, extended with a sentence on face/features listings
+  alongside the existing foot-model link that paragraph already carried.
+  Added the slug to the Specialisms cluster in
+  `scripts/build-index-and-sitemap.mjs`, after `how-to-become-a-mature-model`
+  and before `how-to-become-a-freelance-model`. Did not add it to any
+  footer column, the same call made for every other sub-100-volume niche
+  pick in this cluster.
+
+  Skipped a Higgsfield generation attempt, per the standing
+  `cloudfront.net` 403 block on this session's network policy logged on
+  every run since 2026-08-25 and most recently reconfirmed 2026-09-16 and
+  2026-09-17 (one and two days prior) — not re-tested again this run per
+  the same reasoning those two runs gave for not re-confirming a
+  freshly-reconfirmed standing block. Reused `image: 'how-to-become-a-model'`
+  (a close, plain-wall headshot with direct eye contact and a natural
+  expression, already the site's most-reused generated-content image at 6
+  prior reuses including for `how-to-become-a-beauty-model`) with a fresh
+  `imageAlt` describing it honestly as the crop a face-modeling client
+  books rather than a beauty shoot, the same deliberate honest-fit-over-
+  freshness call logged for this image's own prior reuse.
+
+  `npm run build && npm run check` and `npx html-validate@8` on the new
+  and edited pages all pass clean, including the orphan-inbound-link
+  check (3 in-body inbound links) and a manual JSON-LD parse check
+  confirming all three schema blocks parse, with the `FAQPage` block
+  carrying its full 6 questions. Title is 40 characters, description 140
+  characters, both within limit; word count landed at 1,126, in line with
+  this site's other thin-keyword niche pieces rather than the higher-volume
+  1,500-2,500 range. Zero em dashes anywhere in the new article body or
+  FAQ answers, confirmed directly. Diffed every changed file for the hard-
+  constraint strings (`299`, `499`, `offers/`, the GTM/GA4/Pixel IDs)
+  before committing and found nothing beyond the expected "All 60 guides"
+  to "All 61 guides" footer-count bump on every page and the new article's
+  own correctly-slugged inline-CTA UTM line.
+
+  GSC access still unavailable this run (no service-account key or
+  `gsc-*` MCP tool present); substituted Ahrefs per the standing note.
+  Opening a PR next and merging once CI is green and `mergeable_state` is
   `clean`, per the standing automerge authorisation above, without
   waiting on Josh.
