@@ -58,7 +58,7 @@ guessed). Apply the same standard going forward: any new or edited
 article touching a jurisdiction-dependent rule gets real, checked detail
 for all three markets, or it doesn't ship.
 
-## Live (58 articles)
+## Live (62 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -123,6 +123,7 @@ for all three markets, or it doesn't ship.
 | how-to-become-a-beauty-model | beauty modeling / how to become a beauty model | 70 + 10 | 0 / 0 | 2026-09-16 |
 | how-to-become-a-mature-model | mature models / middle age model jobs / how to become a senior model | 700 + 350 + 70 | 4 / 4 / 16 | 2026-09-17 |
 | how-to-become-a-face-model | how to become a face model | 50 | 0 | 2026-09-18 |
+| stock-photo-modeling | stock photo model | 90 | 0 | 2026-09-19 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -239,6 +240,8 @@ the existing section, not a new URL.
 | sample size model / how to become a sample size model | 10 | — | **Checked 2026-09-14, too thin.** Under the volume floor even by thin-week standards. |
 | virtual model agency / how to become a virtual model | 10 | — | **Checked 2026-09-14, too thin, and likely wrong topic besides.** Adjacent to the already-dropped `ai model agency` (synthetic/AI-rendered models, not human talent) — not worth a fresh SERP check at this volume. |
 | how much does a modeling portfolio cost | 10 | — | **Checked 2026-09-14, too thin.** Likely partially covered already by `how-much-does-it-cost-to-become-a-model` regardless; volume alone rules it out. |
+| stock photo model | 90 | 0 | **Shipped 2026-09-19** — see the Live table. |
+| glamour model | 900 | 1 | **Checked 2026-09-19, deprioritised on brand fit, not cannibalisation.** Real volume and low difficulty, but the SERP mixes career-advice content with glamour-photography stock imagery and Instagram/Behance galleries, the boudoir/pin-up-adjacent sense of the term. Same standing caution already logged for the deprioritised lingerie, swimsuit and underwear terms given this site's audience includes teens per `how-to-become-a-model-at-16`. Not ruled out permanently, but needs a deliberate decision to pursue, not a routine pick. |
 
 ## Known gaps
 
@@ -1786,5 +1789,103 @@ the existing section, not a new URL.
   GSC access still unavailable this run (no service-account key or
   `gsc-*` MCP tool present); substituted Ahrefs per the standing note.
   Opening a PR next and merging once CI is green and `mergeable_state` is
+  `clean`, per the standing automerge authorisation above, without
+  waiting on Josh.
+- **2026-09-19 run.** Fired from the same stale 18 August chat-routine
+  handover as every prior run; this file and `CONTRIBUTING.md` remain the
+  authoritative process. `git fetch origin main` confirmed the designated
+  session branch matched `origin/main` exactly (PR #40, the face-model
+  article, already merged) and `npm run check` on `main` was clean before
+  writing. `git ls-remote` on the designated session branch itself came
+  back empty (the same no-matching-remote-ref case logged on several
+  prior runs), so built directly on `origin/main`. `list_pull_requests`
+  returned no open PRs, and `list_branches` surfaced only branches already
+  confirmed superseded in this file's prior entries, including
+  `claude/model-academy-github-setup-etwquk` (still correctly left
+  unmerged and flagged to Josh per the 2026-09-17 correction above, not
+  re-touched this run), so nothing was in flight to collide with.
+
+  Ran a fresh `keywords-explorer-overview` batch on an angle not tried by
+  any prior run, niche photography-format terms (glamour, pin-up, body
+  double, stock photo, lookbook, showcase, "live" modeling). `glamour
+  model` (900 vol, KD 1) looked like the best find on volume and
+  difficulty alone, but `serp-overview` showed a SERP that blends
+  career-advice content (Backstage, StarNow, LiveAbout) with glamour
+  photography stock-image galleries and Instagram/Behance portfolios,
+  i.e. the boudoir/pin-up-adjacent sense of "glamour," the same
+  audience-fit risk class already logged for the deprioritised lingerie,
+  swimsuit and underwear terms given this site's audience includes teens
+  per `how-to-become-a-model-at-16`. Deprioritised rather than picked,
+  logged to the shortlist below for a deliberate future decision, not
+  ruled out permanently.
+
+  `stock photo model` (90 vol, KD 0) checked out as the clean, on-brand
+  opportunity instead. `serp-overview` showed a genuine career-education
+  SERP (Backstage, Shutterstock's own recruiting page, a Reddit thread,
+  Business Insider), no modeling-course competitor anywhere in the top
+  10, and no glamour/boudoir adjacency at all. Confirmed clean via a
+  full-repo grep for "stock photo" and "stock photography": only passing
+  mentions existed, in `how-to-become-a-face-model`'s and
+  `how-to-become-a-fitness-model`'s own "where this work comes from"
+  lists, the same passing-mention-is-not-full-coverage pattern that has
+  cleared most of this site's recent niche picks.
+
+  Wrote `stock-photo-modeling` in `content/articles/types-of-work.mjs`
+  (the "Types of work" category-explainer cluster, alongside
+  `ecommerce-modeling` and `promotional-modeling`, since this is a
+  work-type explainer rather than a personal "how to become a..." guide
+  and shares that cluster's exact structure and tone) rather than
+  `niche.mjs`. Its central differentiator is the one thing every existing
+  explainer for this term gets vague about: stock work is paid once, as a
+  flat session rate, with no ongoing royalty in almost every arrangement,
+  which is worth stating plainly rather than leaving implied, plus a
+  dedicated section on why the casting standard rewards a wide, relatable
+  range of genuine expressions over a distinctive look, the opposite of
+  how most other categories on this site cast.
+
+  Cross-linked in-body from three places, one more than the minimum: the
+  existing "Stock photography and e-learning" bullet in
+  `how-to-become-a-face-model` (`content/articles/niche.mjs`), the
+  existing "Stock photography" bullet in the hand-written
+  `how-to-become-a-fitness-model` (edited directly per CONTRIBUTING.md
+  since it is one of the original 16 pages), and a new sentence added to
+  `ecommerce-modeling`'s own "Where This Work Actually Comes From"
+  section naming stock photo modeling as a close cousin, since the two
+  categories are genuinely adjacent and readers of one are a natural
+  audience for the other. Added the slug to the "Castings & work" cluster
+  in `scripts/build-index-and-sitemap.mjs`, after `promotional-modeling`.
+  Did not add it to any footer column, the same call made for every other
+  sub-100-volume pick in this file's recent history.
+
+  Skipped a Higgsfield generation attempt, per the standing
+  `cloudfront.net` 403 block on this session's network policy logged on
+  every run since 2026-08-25 and most recently reconfirmed 2026-09-18
+  (yesterday) — not re-tested again this run per the same reasoning those
+  runs gave for not re-confirming a freshly-reconfirmed standing block.
+  Reused `image: 'how-to-become-a-model-with-no-experience'` (a plain
+  white t-shirt against a plain wall, evenly lit, previously used twice
+  for `how-to-become-a-petite-model` and `modeling-headshots`, now a
+  third time) with a fresh `imageAlt` describing it honestly as the
+  generic, versatile look stock casting actually wants, since it is the
+  most literally fitting image on the site for this specific topic
+  despite the reuse count, the same honest-fit-over-freshness call logged
+  for this site's other most-reused images.
+
+  `npm run build && npm run check` and `npx html-validate@8` on the new
+  and edited pages all pass clean, including the orphan-inbound-link
+  check (3 in-body inbound links) and a manual JSON-LD parse check
+  confirming all three schema blocks parse, with the `FAQPage` block
+  carrying its full 6 questions. Title is 50 characters, description 136
+  characters, both within limit; word count landed at 1,128, in line with
+  this site's other thin-keyword niche pieces. Zero em dashes anywhere in
+  the new article body or FAQ answers, confirmed directly. Diffed every
+  changed file for the hard-constraint strings (`299`, `499`, `offers/`,
+  the GTM/GA4/Pixel IDs) before committing and found nothing beyond the
+  expected "All 61 guides" to "All 62 guides" footer-count bump on every
+  page and the new article's own correctly-slugged inline-CTA UTM line.
+
+  GSC access still unavailable this run (no service-account key or
+  `gsc-*` MCP tool present); substituted Ahrefs per the standing note.
+  Opened PR next; merging once CI is green and `mergeable_state` is
   `clean`, per the standing automerge authorisation above, without
   waiting on Josh.

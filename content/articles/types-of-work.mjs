@@ -5,6 +5,7 @@
 const DATE = '2026-08-20';
 const DATE_ECOMMERCE = '2026-09-10';
 const DATE_PROMOTIONAL = '2026-09-15';
+const DATE_STOCK_PHOTO = '2026-09-19';
 
 export const typesOfWork = [
   {
@@ -511,7 +512,7 @@ export const typesOfWork = [
 <p>Four to six phone photos, daylight, plain wall, no filters or retouching: front, side, one smiling, one neutral, full length. The same standard every commercial board asks for. Our full <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers the shot list in more depth.</p>
 
 <h2>Where This Work Actually Comes From</h2>
-<p>Direct-to-consumer apparel and accessory brands running their own website store, marketplace sellers on Amazon, Walmart and similar platforms, and photo studios that specialize in bulk product photography for multiple retail clients at once are the main sources. A smaller amount runs through an agency's commercial or catalogue board, where a bigger retailer books through representation rather than casting directly. Our guide to <a href="../what-is-commercial-modeling/">what commercial modeling actually is</a> covers where ecommerce work sits alongside the wider commercial category.</p>
+<p>Direct-to-consumer apparel and accessory brands running their own website store, marketplace sellers on Amazon, Walmart and similar platforms, and photo studios that specialize in bulk product photography for multiple retail clients at once are the main sources. A smaller amount runs through an agency's commercial or catalogue board, where a bigger retailer books through representation rather than casting directly. Our guide to <a href="../what-is-commercial-modeling/">what commercial modeling actually is</a> covers where ecommerce work sits alongside the wider commercial category. A close cousin worth knowing about is <a href="../stock-photo-modeling/">stock photo modeling</a>, which shoots relatable, no-brand imagery for a library to resell to many buyers rather than one retailer's own site.</p>
 
 <h2>Agencies vs. Going Direct</h2>
 <p>You do not need a signing to start. Small and mid-size online retailers cast directly through their own social media, a casting platform, or a studio they book repeatedly, without an agency involved at all. An agency's commercial or catalogue board adds access to bigger retailers and marketplace sellers running steady, ongoing volume, worth pursuing once you have a few real bookings and honest digitals to submit. See our guide to <a href="../modeling-jobs/">where modeling work actually comes from</a> for how ecommerce fits alongside the rest of the industry's job sources.</p>
@@ -638,6 +639,101 @@ export const typesOfWork = [
 
 <h2>The Short Version</h2>
 <p>Promotional modeling, and trade show and convention work specifically, is live, in-person representation of a brand at an event rather than a photograph, booked by the day or the hour rather than for usage rights. It rewards genuine ease with strangers, fast memorization, a professional appearance that holds up over a long shift and dependable attendance across a multi-day run far more than it rewards height, measurements or a modeling portfolio, which makes it one of the more accessible, well-paid ways into the industry for someone starting with no agency and no experience at all.</p>
+`,
+  },
+  {
+    slug: 'stock-photo-modeling',
+    seoTitle: 'What Is Stock Photo Modeling? Pay & Getting In',
+    description:
+      'What stock photo modeling actually pays, how libraries license your image, and how to get booked without an agency, from working agents.',
+    headline: 'What Is Stock Photo Modeling? The Job, the Pay and Getting Booked',
+    category: 'Types of work',
+    image: 'how-to-become-a-model-with-no-experience',
+    imageAlt: 'A model in a plain white t-shirt against a plain wall, an unstyled, evenly lit look built to read as generic and versatile rather than as a specific campaign',
+    readTime: 9,
+    date: DATE_STOCK_PHOTO,
+    related: ['ecommerce-modeling', 'how-to-become-a-face-model', 'modeling-jobs'],
+    faq: [
+      {
+        q: 'What is a stock photo model?',
+        a: 'A stock photo model is someone photographed for a stock library, an agency like Shutterstock, Adobe Stock or Getty that licenses the resulting images to many different businesses over and over, rather than for one brand\'s own campaign or product listing. The same shot of you at a laptop or laughing over coffee might end up in a bank\'s website, a healthcare brochure and an unrelated blog post, all from one shoot.',
+      },
+      {
+        q: 'How do stock photo models get paid?',
+        a: 'Almost always a flat day or half-day rate for the shoot itself, not a royalty on every future licence the image sells. A handful of libraries and individual photographers offer a small royalty share instead, but a signed model release paid once, with no ongoing cut of licensing revenue, is the standard arrangement, and it is worth reading before you sign it.',
+      },
+      {
+        q: 'Do you need an agency to become a stock photo model?',
+        a: 'No. Most stock photography is cast directly by the photographer or production company shooting for a library, through their own casting call, a local casting platform, or a talent database the library itself runs. An agency\'s commercial board can add access to bigger, better-paid stock shoots, but a large share of this work is booked without any agency involved.',
+      },
+      {
+        q: 'What kind of photos do stock libraries actually want?',
+        a: 'A wide, relatable range of genuine, unforced expressions, laughing, thinking, listening, working, rather than a single polished beauty shot. Clean, current, honest digitals that show your natural look in good light matter far more than a styled portfolio, because the casting photographer is judging how naturally you take direction and vary an expression across dozens of frames in one session.',
+      },
+      {
+        q: 'Is stock photo modeling a good way to start with no experience?',
+        a: 'Yes. It is one of the most accessible paid categories in the industry, because most castings need no agency history, no distinctive look and no formal portfolio, just a relaxed, natural presence in front of a camera for a full session. It is also a genuinely useful place to get comfortable taking direction before pursuing agency-represented work.',
+      },
+      {
+        q: 'How is stock photo modeling different from ecommerce modeling?',
+        a: 'Ecommerce modeling photographs you wearing or using one retailer\'s own product for that retailer\'s own site. Stock photo modeling photographs you doing something relatable, working, relaxing, reacting, with no product tie-in at all, for a library that resells the image to many unrelated buyers afterward. The shoot day looks similar, but the client and the usage are different.',
+      },
+    ],
+    body: `
+<p>Search "stock photo model" and most of what comes back is either a dictionary-style explainer or a stock library's own recruiting page for its specific platform. Neither tells you what a shoot day is actually like, how the pay compares to other commercial work, or how to get cast the first time with no agency and no portfolio.</p>
+<p>Our instructors at Online Model Academy include agents and bookers who place models directly with stock libraries and the production companies that shoot for them. This is what the work actually is, and how to get into it.</p>
+
+<h2>What Stock Photo Modeling Actually Is</h2>
+<p>Stock photo modeling is being photographed for a library, Shutterstock, Adobe Stock, Getty and dozens of smaller specialist libraries, that then licenses the resulting images to many different, unrelated buyers over and over. One shoot day of you at a laptop, walking a dog or laughing with a coworker can end up illustrating a bank's homepage, a healthcare brand's brochure and a completely unrelated blog post, none of which you ever meet or shoot for directly.</p>
+<p>That is the core difference from almost every other category on this site: there is no single client art-directing the shot toward their own brand. The library is selling a believable, relatable moment that a huge range of future buyers can drop into their own project, so the casting standard rewards a natural, repeatable presence far more than a distinctive look.</p>
+
+<h2>How It Differs From Ecommerce and Commercial Modeling</h2>
+<h3>No single client, no product tie-in</h3>
+<p><a href="../ecommerce-modeling/">Ecommerce modeling</a> photographs you wearing or using one retailer's actual product for that retailer's own site. Stock photo modeling usually has no product at all, or a deliberately generic one, because the whole point is a library image flexible enough for many future buyers, not one brand's listing.</p>
+<h3>Volume of expressions, not volume of outfits</h3>
+<p>An ecommerce shoot changes outfits dozens of times to cover a product range. A stock shoot instead cycles through dozens of natural expressions and small actions, laughing, typing, listening, thinking, in the same one or two outfits, because the library is buying a wide, reusable range of genuine moments rather than a wide range of garments.</p>
+<h3>The client you never meet</h3>
+<p>A commercial or campaign booking usually involves direction from the actual brand, in person or through a creative brief. A stock shoot is directed by the photographer alone, working from a general shot list the library requested, since the eventual buyer of any given frame is unknown at the time you are photographed.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=stock-photo-modeling__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>What Actually Gets You Booked</h2>
+<h3>A genuinely relaxed, repeatable presence</h3>
+<p>The single most valuable trait. A stock casting photographer needs the same person to laugh, think and react convincingly across dozens of frames without looking like they are performing for a camera. Models who look natural rather than posed book the most repeat work.</p>
+<h3>A relatable, everyday look</h3>
+<p>Libraries deliberately cast a wide range of ages, body types, ethnicities and styles, because their buyers need images their own customers can see themselves in. An unusual or highly editorial look is not a disadvantage here the way it can be for a fashion board; it is simply a different lane.</p>
+<h3>Honest, current digitals</h3>
+<p>Four to six phone photos, daylight, plain background, no filters or heavy retouching: front, side, one smiling, one neutral. The same standard nearly every commercial casting asks for. Our full <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers the shot list in more depth, though a formal portfolio is not required to submit.</p>
+<h3>Reading the model release before you sign it</h3>
+<p>Stock work is paid once, upfront, with no ongoing royalty in almost every arrangement, in exchange for the library reselling your image indefinitely. That trade is normal and not a red flag on its own, but know exactly what you are agreeing to, and for how long, before you sign.</p>
+
+<h2>Agencies vs. Going Direct</h2>
+<p>Most stock photography is cast directly, through a casting call the photographer or production company posts, a local casting platform, or a talent database the library itself runs for photographers to browse. An agency's commercial board can add access to bigger, better-paid stock productions and a steadier flow of castings, but a large share of working stock models have never signed with anyone. See our guide to <a href="../modeling-jobs/">where modeling work actually comes from</a> for how stock work fits alongside the rest of the industry's job sources.</p>
+
+<h2>Reasons People Talk Themselves Out of Submitting, and Why They're Wrong</h2>
+<ul>
+<li><b>"I don't look like a stock photo."</b> There is no single stock look. Libraries deliberately cast a wide range of ages, body types and styles because their buyers need images a broad audience can see themselves in.</li>
+<li><b>"I'm not a trained actor, I can't fake expressions all day."</b> Casting photographers coach you through the expression list in the moment. What they need is someone who takes that direction naturally, not someone arriving with a rehearsed range already prepared.</li>
+<li><b>"I need professional photos before I submit."</b> Honest phone digitals that show your natural look in good light are what most stock castings ask for. A styled, paid shoot before your first submission is a wasted step.</li>
+<li><b>"I should wait until I have an agency."</b> A large share of stock work is cast directly, with no agency involved. It is one of the more realistic ways to get your first paid, professional credit while you decide whether to pursue representation at all.</li>
+</ul>
+
+<h2>How to Actually Get Into Stock Photo Modeling</h2>
+<ol>
+<li><b>Shoot simple, honest digitals.</b> Four to six phone photos, daylight, plain background, no filters: front, side, one smiling, one neutral.</li>
+<li><b>Search for stock photographers and production companies</b> in your area posting casting calls directly, not just modeling agencies.</li>
+<li><b>Check whether your city has a local casting platform</b> that stock and commercial photographers post to regularly.</li>
+<li><b>Submit to agencies with a commercial board too,</b> for access to bigger, better-paid stock productions.</li>
+<li><b>Read the model release carefully before every shoot,</b> so you know exactly how your image can be used and for how long.</li>
+</ol>
+
+<h2>The Short Version</h2>
+<p>Stock photo modeling is being photographed for a library that resells the image to many unrelated buyers afterward, rather than for one brand's own campaign or product page. It books on a natural, repeatable presence and a relatable everyday look rather than a distinctive one, pays a flat rate per session rather than an ongoing royalty in almost every case, and is one of the more accessible ways for a beginner with no agency and no portfolio to get real, paid, professional experience in front of a camera.</p>
 `,
   },
 ];
