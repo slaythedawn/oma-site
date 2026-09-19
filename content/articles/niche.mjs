@@ -1191,7 +1191,7 @@ export const niche = [
 <li><b>Dental and orthodontic.</b> Before-and-after and marketing imagery for dental practices, orthodontists and teeth-whitening brands, cast almost entirely on a smile and healthy teeth.</li>
 <li><b>Eyewear, hats and jewelry.</b> Catalog and e-commerce imagery where the product sits on or near the face and the client needs a face that supports it without competing with it.</li>
 <li><b>Haircare and cosmetics packaging.</b> Box fronts, tubes and point-of-sale imagery, a face-focused cousin of paid hair modeling.</li>
-<li><b>Stock photography and e-learning.</b> Course thumbnails, stock libraries and training content that need a believable, generic, approachable face rather than a recognizable public one.</li>
+<li><b><a href="../stock-photo-modeling/">Stock photography</a> and e-learning.</b> Course thumbnails, stock libraries and training content that need a believable, generic, approachable face rather than a recognizable public one.</li>
 </ul>
 <p>None of this is a beauty pageant. It is closer to a parts board that happens to book a face instead of a hand or a foot, and it is judged the same specialist way.</p>
 
