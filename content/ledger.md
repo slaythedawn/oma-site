@@ -124,6 +124,7 @@ for all three markets, or it doesn't ship.
 | how-to-become-a-mature-model | mature models / middle age model jobs / how to become a senior model | 700 + 350 + 70 | 4 / 4 / 16 | 2026-09-17 |
 | how-to-become-a-face-model | how to become a face model | 50 | 0 | 2026-09-18 |
 | stock-photo-modeling | stock photo model | 90 | 0 | 2026-09-19 |
+| how-to-become-a-leg-model | leg model | 200 | 0 | 2026-09-20 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -1889,3 +1890,115 @@ the existing section, not a new URL.
   Opened PR next; merging once CI is green and `mergeable_state` is
   `clean`, per the standing automerge authorisation above, without
   waiting on Josh.
+- **2026-09-20 run.** Fired from the same stale 18 August chat-routine
+  handover as every prior run; this file and `CONTRIBUTING.md` remain the
+  authoritative process. `git fetch origin main` confirmed the designated
+  session branch matched `origin/main` exactly (PR #41, the stock-photo
+  article, already merged) and `npm run check` on `main` was clean before
+  writing, so reset the designated branch from `origin/main` per the
+  merged-branch restart protocol. `list_pull_requests` returned no open
+  PRs. `list_branches` surfaced ten branches ahead of `main` with no PR
+  behind them (`claude/charming-tesla-3y1oe5`, `-6nxfz5`, `-10q7bk`,
+  `-cjjm7a`, `-dpu2um`, `-g2dfdj`, `-kosmeq`, `-psb5a8`, `-xs4alx`,
+  `claude/how-to-become-an-instagram-model`) — the same no-PR failure mode
+  logged repeatedly above, not a new one. Checked each: every single one
+  is an independent write of a topic already live on `main` under a
+  different, merged branch (beauty, promotional, face, UK, showroom,
+  mature, UGC, ecommerce, print and Instagram models respectively, one
+  commit or two ahead of main each). All ten are dead duplicates, not
+  in-flight work, so there was nothing to collide with. Cannot delete
+  them (branch deletion is still blocked from this execution environment,
+  per the standing note above); flagging here again for whoever has the
+  access to clean the repo up.
+
+  Delegated the keyword research pass to a subagent given the Ahrefs
+  tool budget this now takes, with the full already-covered and
+  already-dropped keyword lists as context so it wouldn't re-suggest a
+  duplicate. It tried a fresh angle, single-body-part niches parallel to
+  the site's existing hand/foot/face guides ("leg model", "lip model",
+  "arm model", "shoulder model", "torso model", "ear model") plus an
+  agency-process angle and a fashion-week-seasonal angle. The body-part
+  angle was the winner: `leg model` (200 vol, KD 0) checked out clean,
+  with a genuine career-education SERP (Backstage, Indeed, a couple of
+  low-DR parts agencies, Reddit) and no modeling-course competitor in the
+  top 10, the same pattern that made hand, foot and face genuine wins.
+  `arm model` (350 vol) and `shoulder model` (150 vol) looked tempting on
+  volume but were the wrong sense entirely, anatomical/3D-model product
+  listings, not modeling work; `torso model` and `ear model` were
+  deprioritised on the same suspicion without spending a SERP call, worth
+  a look in a future run. `lip model` (100 vol, KD 0) checked out clean
+  too and is banked as a ready next pick if a future thin week wants it,
+  no re-research needed. Agency-process and fashion-week seed terms
+  ("modeling agency requirements", "how to submit to a modeling agency",
+  "fashion week model", "modeling agency commission") all came back under
+  50 volume or fragmented into low-volume city/year long-tails, too thin
+  to be this week's lead pick, don't repeat them as seeds.
+
+  Confirmed `leg model` clean via a full-repo grep before writing, not
+  just the ledger table: the only existing mentions anywhere on the site
+  were the passing "leg models for hosiery, razors, and skincare" line in
+  the hand-written `how-to-become-a-hand-model` page and an FAQ-schema-only
+  line in `how-to-become-a-foot-model` naming "hand and leg modeling" as
+  the wider parts category (FAQ answers feed only the `FAQPage` JSON-LD,
+  not visible body copy, per `content/article-template.html`, so that
+  line carried no actual page content) — the same passing-mention pattern
+  that made every other parts-cluster pick clean before it.
+
+  Wrote `how-to-become-a-leg-model` in `content/articles/niche.mjs`,
+  matching the hand/foot/face template's structure and voice: what the
+  category actually is, what gets you signed, a care-routine list specific
+  to legs (moisturizer, a predictable hair-removal schedule, no self-tanner
+  before a submission, sun protection against an uneven tan line), where
+  the work comes from (hosiery, self-tanner and razor brands, compression
+  and activewear, boot catalogs), agencies vs. freelance, objection-handling,
+  pay, and first steps. This completes the parts-modeling cluster's
+  personal how-to set a fourth time (hand, foot, face, now leg).
+
+  Cross-linked in-body from three places, one more than the minimum: the
+  existing "leg models for hosiery, razors, and skincare" sentence in the
+  hand-written `how-to-become-a-hand-model` page, extended with a link
+  rather than left as an unlinked mention; a new clause added to
+  `how-to-become-a-foot-model`'s "What Foot Modeling Actually Is" section
+  in `content/articles/niche.mjs`, alongside its existing hand-model link;
+  and the existing "Hand and parts modeling" H3 in `types-of-work.mjs`,
+  extended from two linked guides to three. Added the slug to the
+  Specialisms cluster in `scripts/build-index-and-sitemap.mjs`, directly
+  after `how-to-become-a-face-model`. Did not add it to any footer column,
+  the same call made for every other sub-300-volume niche pick in this
+  cluster.
+
+  Skipped a Higgsfield generation attempt, per the standing `cloudfront.net`
+  403 block on this session's network policy logged on every run since
+  2026-08-25 and most recently reconfirmed yesterday (2026-09-19) — not
+  re-tested again this run per the same reasoning recent runs gave for not
+  re-confirming a freshly-reconfirmed standing block. Reused
+  `image: 'how-to-become-a-fitness-model'` (a full-length digital-style shot
+  against a plain studio cyclorama, previously reused twice, both times for
+  its close crop rather than its full-length framing) with a fresh
+  `imageAlt` describing it honestly as the full-length, legs-visible framing
+  a leg-modeling submission actually needs, its first reuse where the
+  full-length shot itself is the fit rather than a crop of it.
+
+  First draft's meta description ran to 161 characters; trimmed to 152 to
+  clear the 155-character guideline in section 14 of the original handover
+  before committing, since `check:site` only checks presence, not length.
+  `npm run build && npm run check` and `npx html-validate@8` on the new and
+  edited pages all pass clean, including the orphan-inbound-link check (3
+  in-body inbound links) and a manual JSON-LD parse check confirming all
+  three schema blocks parse, with the `FAQPage` block carrying its full 6
+  questions. Title is 39 characters, description 152, both within limit;
+  word count landed at 1,278. Zero em dashes anywhere in the new article
+  body or FAQ answers, confirmed directly (the only em dashes anywhere in
+  the diff are in the shared nav/footer CTA boilerplate, "Enrol — $299",
+  present on every page already, not something this run introduced).
+  Diffed every changed file for the hard-constraint strings (`299`, `499`,
+  `offers/`, the GTM/GA4/Pixel IDs) before committing and found nothing
+  beyond the expected "All 62 guides" to "All 63 guides" footer-count bump
+  on every page and the new article's own correctly-slugged inline-CTA UTM
+  line. Confirmed zero `utm_source` occurrences on the homepage.
+
+  GSC access still unavailable this run (no service-account key or
+  `gsc-*` MCP tool present); substituted Ahrefs per the standing note.
+  Opening a PR next and merging once CI is green and `mergeable_state` is
+  `clean`, per the standing automerge authorisation above, without waiting
+  on Josh.

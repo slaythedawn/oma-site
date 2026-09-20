@@ -17,6 +17,7 @@ const DATE_UGC = '2026-09-14';
 const DATE_BEAUTY = '2026-09-16';
 const DATE_MATURE = '2026-09-17';
 const DATE_FACE = '2026-09-18';
+const DATE_LEG = '2026-09-20';
 
 export const niche = [
   {
@@ -254,7 +255,7 @@ export const niche = [
 <p>Our instructors at Online Model Academy include agents and bookers who work parts boards, hands and feet both, for a living. This is the real path in, not the fetish-adjacent content that crowds the search results.</p>
 
 <h2>What Foot Modeling Actually Is</h2>
-<p>Footwear catalogues and e-commerce listings, hosiery and sock packaging, pedicure and nail-treatment ads, foot-care and skincare campaigns, and jewelry for ankles and toes. All of it needs feet that photograph cleanly and consistently, which is a narrower ask than it sounds. As our guide to <a href="../how-to-become-a-hand-model/">how to become a hand model</a> covers from the hand side, foot modeling sits inside the same wider "parts modeling" category, often at the same agencies and on the same board.</p>
+<p>Footwear catalogues and e-commerce listings, hosiery and sock packaging, pedicure and nail-treatment ads, foot-care and skincare campaigns, and jewelry for ankles and toes. All of it needs feet that photograph cleanly and consistently, which is a narrower ask than it sounds. As our guide to <a href="../how-to-become-a-hand-model/">how to become a hand model</a> covers from the hand side and our guide to <a href="../how-to-become-a-leg-model/">how to become a leg model</a> covers from the leg side, foot modeling sits inside the same wider "parts modeling" category, often at the same agencies and on the same board.</p>
 <p>What is not required at all: height, age, face, or a full-body figure. A foot board is judging exactly one thing, and everything else about you is irrelevant to the casting.</p>
 
 <h2>What Actually Gets You Signed</h2>
@@ -1236,6 +1237,106 @@ export const niche = [
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
 <p>That last step is where our mentors, working agents and bookers who cast parts and commercial boards for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+`,
+  },
+  {
+    slug: 'how-to-become-a-leg-model',
+    seoTitle: 'How to Become a Leg Model: A Real Guide',
+    description:
+      'How to become a leg model, from the people who book them: what legwear and parts clients want, care routines, digitals, agencies vs. freelance, and pay.',
+    headline: 'How to Become a Leg Model: What Legwear and Parts Bookers Actually Want',
+    category: 'Niche',
+    image: 'how-to-become-a-fitness-model',
+    imageAlt: 'A full-length digital-style shot against a plain studio backdrop showing straight, evenly toned legs, the framing a leg-modeling submission actually needs',
+    readTime: 9,
+    date: DATE_LEG,
+    related: ['how-to-become-a-hand-model', 'how-to-become-a-foot-model', 'types-of-modeling'],
+    faq: [
+      {
+        q: 'What do you need to become a leg model?',
+        a: 'Straight, proportionate legs with even skin tone and no distracting scarring, plus the discipline to keep them in consistent, camera-ready condition between bookings. There is no height, age or face requirement at all: leg boards cast on the legs alone, the same way a foot or hand board does on feet or hands.',
+      },
+      {
+        q: 'Do leg models need an agency?',
+        a: 'Not to start. A meaningful amount of leg and parts work is cast directly through casting platforms, small hosiery and skincare brands, and e-commerce sellers without an agency involved, and a few honest freelance bookings make a later parts-agency submission stronger. An agency adds access to national hosiery, footwear-adjacent and body-care clients that rarely post publicly.',
+      },
+      {
+        q: 'How much do leg models make?',
+        a: 'Pay is set by the client and the usage, the same as every other parts category, so a leg booking for a national hosiery or skincare campaign pays like any other booking on that campaign. Rates vary widely by usage and market, but parts work is generally billed hourly or half-day rather than as a single flat fee, and buyout usage, where the client pays once for broad rights, is common, so always confirm usage before agreeing to a rate.',
+      },
+      {
+        q: 'What is parts modeling?',
+        a: 'The wider category leg modeling sits inside, alongside hand and foot modeling: close-up and full-length work for product photography where a specific body part, not a face or an overall figure, is what the client is casting. Our guide to how to become a hand model covers the category from the hand side; the same boards, and often the same agencies, cast legs too.',
+      },
+      {
+        q: 'What ruins a leg modeling submission?',
+        a: 'Visible bruising, fresh scrapes, uneven self-tanner or an inconsistent skin tone between the two legs in the digitals. Clients are buying legs that need minimal retouching, and a submission shot right after an injury or a rushed spray tan reads as a wasted application rather than a work in progress.',
+      },
+      {
+        q: 'Can men become leg models?',
+        a: "Yes, though the client base is smaller and skews toward athletic and grooming brands, razors, compression wear and activewear in particular, rather than the hosiery clients that dominate the women's side. The same care and submission standards apply.",
+      },
+    ],
+    body: `
+<p>Leg modeling gets almost no honest coverage online, mostly because the search results are split between generic "how to become a model" advice and anatomy diagrams meant for a completely different audience. The real category is neither: it is a legitimate, narrow corner of parts modeling, booked by hosiery, footwear-adjacent, skincare and razor brands that need a specific pair of legs to photograph well, again and again, on schedule.</p>
+<p>Our instructors at Online Model Academy include agents and bookers who work parts boards, hands, feet and legs alike, for a living. This is the real path in, not a beauty-pageant read of the term.</p>
+
+<h2>What Leg Modeling Actually Is</h2>
+<p>Hosiery, tights and stocking packaging, self-tanner and leg-specific skincare campaigns, razor and hair-removal brand advertising, compression wear and activewear e-commerce, and boot and footwear catalogs that need legs in the frame alongside the product, not just the shoe alone. As our guide to <a href="../how-to-become-a-hand-model/">how to become a hand model</a> covers from the hand side, leg modeling sits inside the same wider "parts modeling" category, often at the same agencies and on the same board as hand and <a href="../how-to-become-a-foot-model/">foot</a> work.</p>
+<p>What is not required at all: height, age, face, or an overall figure that fits a fashion board. A leg board is judging skin condition, tone and proportion, and everything else about you is irrelevant to the casting.</p>
+
+<h2>What Actually Gets You Signed</h2>
+<h3>Legs that need minimal retouching</h3>
+<p>Even skin tone across both legs, no visible bruising, scarring or broken capillaries, straight proportion knee to ankle, and skin that photographs cleanly under flat lighting. This is the single biggest factor, ahead of overall height or body type. Clients are paying for legs that arrive camera-ready, not for a project to fix in post.</p>
+<h3>A build that reads as proportionate, not a specific size</h3>
+<p>Hosiery and legwear brands sample product across a range of leg shapes and sizes, so this is a far wider net than fashion-runway proportions. Outside the narrowest hosiery-fit lane you are not excluded from leg work generally, just from that one specific sub-category.</p>
+<h3>Digitals that show the legs clean and unstyled</h3>
+<p>Four to six phone photos: full length facing forward, full length from behind, a close crop of each knee, and a close crop of each ankle. Plain background, soft daylight, bare legs freshly washed with no self-tanner, fresh shave marks or lotion sheen. Our full <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers the shot-list logic that applies here too: honest and unretouched beats styled every time at this stage.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-leg-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>Care Routines Working Leg Models Actually Use</h2>
+<ul>
+<li><b>Daily moisturizer, applied year-round.</b> Dry, flaky skin is the fastest way to get passed over in digitals, and it is also the easiest thing to prevent with a consistent routine rather than a one-off scramble before a shoot.</li>
+<li><b>A consistent hair-removal routine, timed away from bookings.</b> Whatever method you use, keep the timing predictable so a shoot never lands the day after a fresh shave leaves visible redness or the day before regrowth shows.</li>
+<li><b>No new self-tanner, at all, for submissions or bookings.</b> An uneven tan is the single most common reason a leg submission gets rejected. Bookers want your actual, consistent skin tone.</li>
+<li><b>Sun protection to avoid an uneven tan line.</b> Working leg models keep their tone consistent between both legs and across the whole limb, which an uneven tan line quietly wrecks.</li>
+<li><b>Risk management before a booking.</b> No new nail treatments on the toes, no rough sport or gym work that risks a bruise or scrape, no unfamiliar razors or products in the days before a shoot, the same logic hand and foot models apply to their own bookings.</li>
+</ul>
+
+<h2>Where Leg Models Actually Work</h2>
+<p>Hosiery, tights and stocking brands are the largest, steadiest lane, since the whole product claim is how it looks on a leg. Self-tanner, razor and leg-specific skincare brands are a close second, needing legs to show a product's actual effect rather than a styled result. Compression wear, activewear and boot or footwear catalogs round it out, wherever the leg itself is part of what is being sold alongside the product.</p>
+<p>Our guide to <a href="../types-of-modeling/">the different types of modeling</a> covers where hand and parts work sits alongside every other category, useful context if you are weighing this against a broader path into modeling.</p>
+
+<h2>Agencies vs. Going Freelance First</h2>
+<p>Search for "parts agencies" or a "parts division" specifically, not just "modeling agencies": many mainstream agencies run a parts board tucked inside their commercial division, and a handful of specialist agencies do nothing but hands, feet and legs. Legitimate agencies never charge an upfront fee to consider you.</p>
+<p>You do not need a signing to start. Casting platforms regularly post leg and parts calls for e-commerce and social content that do not require representation, and a small set of real bookings shot freelance makes a later agency submission stronger, not weaker. Knowing how to negotiate a rate and read a usage clause before you agree to one matters here as much as anywhere else in modeling; our guide to <a href="../how-to-become-a-freelance-model/">how to become a freelance model</a> covers both.</p>
+
+<h2>Reasons People Talk Themselves Out of Submitting, and Why They're Wrong</h2>
+<ul>
+<li><b>"My legs aren't perfect."</b> No one's are. What clients need is legs with no obvious flaw that needs fixing in post, not flawless legs in some abstract sense. Even skin tone and basic upkeep is enough.</li>
+<li><b>"This is a weird thing to model."</b> It is a real, small commercial category with genuine paying clients, the same as hand or hosiery modeling. It only reads as strange because so little honest content exists about it.</li>
+<li><b>"I need professional photos first."</b> Bookers want honest phone digitals of clean, bare legs, not a styled shoot. Spending money on photography before a submission is a wasted step, not a stronger one.</li>
+<li><b>"I'm not signed to a full modeling agency, so I can't apply."</b> Parts boards cast independently of a model's general representation. Plenty of working leg models have no other modeling work at all.</li>
+</ul>
+
+<h2>What the Work and the Pay Actually Look Like</h2>
+<p>Rates are set by the client and the usage, the same structure as every other parts category, and leg work is typically billed hourly or by the half-day rather than as one flat fee. Buyout usage, where the client pays once for broad, ongoing rights, is common in this niche, so always confirm how long, where and in what media the images will run before agreeing to a rate. A leg model who also has good hands or feet is a more valuable submission to most parts agencies than one who books only a single body part.</p>
+
+<h2>Your First Steps</h2>
+<ol>
+<li>Start a basic leg-care routine: daily moisturizer, a predictable hair-removal schedule, and sun protection kept up year-round rather than rushed before a shoot.</li>
+<li>Shoot four to six honest digitals: full length front and back, and close crops of each knee and ankle, bare and untanned.</li>
+<li>Search specifically for "parts agencies" or a "parts division," not just general modeling agencies.</li>
+<li>Submit to those agencies, and in parallel, watch casting platforms for direct leg and parts calls.</li>
+<li>Learn how a casting room actually works before you are standing in one.</li>
+</ol>
+<p>That last step is where our mentors, working agents and bookers who run parts boards for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
 `,
   },
 ];
