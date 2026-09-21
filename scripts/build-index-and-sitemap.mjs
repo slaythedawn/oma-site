@@ -129,6 +129,7 @@ const CLUSTERS = [
       'how-to-become-a-mature-model',
       'how-to-become-a-face-model',
       'how-to-become-a-leg-model',
+      'how-to-become-a-lip-model',
       'how-to-become-a-freelance-model',
     ],
   },

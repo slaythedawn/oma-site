@@ -18,6 +18,7 @@ const DATE_BEAUTY = '2026-09-16';
 const DATE_MATURE = '2026-09-17';
 const DATE_FACE = '2026-09-18';
 const DATE_LEG = '2026-09-20';
+const DATE_LIP = '2026-09-21';
 
 export const niche = [
   {
@@ -1282,7 +1283,7 @@ export const niche = [
 <p>Our instructors at Online Model Academy include agents and bookers who work parts boards, hands, feet and legs alike, for a living. This is the real path in, not a beauty-pageant read of the term.</p>
 
 <h2>What Leg Modeling Actually Is</h2>
-<p>Hosiery, tights and stocking packaging, self-tanner and leg-specific skincare campaigns, razor and hair-removal brand advertising, compression wear and activewear e-commerce, and boot and footwear catalogs that need legs in the frame alongside the product, not just the shoe alone. As our guide to <a href="../how-to-become-a-hand-model/">how to become a hand model</a> covers from the hand side, leg modeling sits inside the same wider "parts modeling" category, often at the same agencies and on the same board as hand and <a href="../how-to-become-a-foot-model/">foot</a> work.</p>
+<p>Hosiery, tights and stocking packaging, self-tanner and leg-specific skincare campaigns, razor and hair-removal brand advertising, compression wear and activewear e-commerce, and boot and footwear catalogs that need legs in the frame alongside the product, not just the shoe alone. As our guide to <a href="../how-to-become-a-hand-model/">how to become a hand model</a> covers from the hand side, leg modeling sits inside the same wider "parts modeling" category, often at the same agencies and on the same board as hand, <a href="../how-to-become-a-foot-model/">foot</a> and <a href="../how-to-become-a-lip-model/">lip</a> work.</p>
 <p>What is not required at all: height, age, face, or an overall figure that fits a fashion board. A leg board is judging skin condition, tone and proportion, and everything else about you is irrelevant to the casting.</p>
 
 <h2>What Actually Gets You Signed</h2>
@@ -1334,6 +1335,116 @@ export const niche = [
 <li>Shoot four to six honest digitals: full length front and back, and close crops of each knee and ankle, bare and untanned.</li>
 <li>Search specifically for "parts agencies" or a "parts division," not just general modeling agencies.</li>
 <li>Submit to those agencies, and in parallel, watch casting platforms for direct leg and parts calls.</li>
+<li>Learn how a casting room actually works before you are standing in one.</li>
+</ol>
+<p>That last step is where our mentors, working agents and bookers who run parts boards for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+`,
+  },
+  {
+    slug: 'how-to-become-a-lip-model',
+    seoTitle: 'How to Become a Lip Model: A Real Guide',
+    description:
+      'How to become a lip model, from the people who book them: what cosmetics and lip-care clients want, care routines, digitals, agencies and pay.',
+    headline: 'How to Become a Lip Model: What Cosmetics and Lip-Care Clients Actually Want',
+    category: 'Niche',
+    image: 'how-to-become-a-model',
+    imageAlt: 'A close, evenly lit headshot against a plain wall with a natural, relaxed smile that keeps the lips clearly in frame, the crop a lip-modeling client actually books',
+    readTime: 8,
+    date: DATE_LIP,
+    related: ['how-to-become-a-hand-model', 'how-to-become-a-face-model', 'how-to-become-a-beauty-model'],
+    faq: [
+      {
+        q: 'What do you need to become a lip model?',
+        a: "Smooth, evenly colored lips with no chronic chapping, cold sores or peeling, and the discipline to keep them in that condition between bookings. There is no height, age, face or body requirement at all: a lip board casts on the lips alone, the same way a hand or foot board casts on hands or feet.",
+      },
+      {
+        q: 'Do lip models need an agency?',
+        a: 'Not to start. A meaningful amount of lip and parts work is cast directly through casting platforms and small cosmetics or lip-care brands without an agency involved, and a few honest freelance bookings make a later parts-agency submission stronger. An agency mainly adds access to national cosmetics and lip-care clients that rarely post open casting calls publicly.',
+      },
+      {
+        q: 'How much do lip models make?',
+        a: 'Pay is set by the client and the usage, the same structure as every other parts category, so a lip booking for a national cosmetics or lip-care campaign pays like any other booking on that campaign. Rates vary widely by usage and market, but this work is often billed hourly or as a flat session fee, and buyout usage, where the client pays once for broad rights, is common, so always confirm usage before agreeing to a rate.',
+      },
+      {
+        q: 'Is lip modeling the same as beauty modeling?',
+        a: "No, though the two get confused because both can involve a close crop of the lower face. Beauty casting is an editorial or campaign look shot from the collarbone or shoulders up, judged on expression, styling and a specific beauty ideal the brand is selling. Lip modeling is a parts-board niche, closer in spirit to hand or foot modeling: a client needs the lips alone, in clean, camera-ready condition, not a look or a personality. See our guide to becoming a beauty model for that side of the same general area.",
+      },
+      {
+        q: 'What ruins a lip modeling submission?',
+        a: 'Visible chapping, peeling, a cold sore, uneven pigmentation, or heavy lipstick, gloss or filter in the submission photos. Clients are buying lips that need minimal correction in post, and a submission that hides their actual condition, or shows them mid-flare-up, works against the model rather than for them.',
+      },
+      {
+        q: 'Can men become lip models?',
+        a: 'Yes. The client base is smaller than the women\'s side and skews toward lip balm, chapstick and grooming brands rather than the cosmetics clients that dominate the category overall, but the same condition and submission standards apply either way.',
+      },
+    ],
+    body: `
+<p>Search "how to become a lip model" and most of what comes back is either a single agency's own recruitment page or generic modeling advice that never actually addresses lips specifically. The real category sits quietly inside parts modeling, the same wider niche as hand, foot and leg work, and it is a genuine, bookable specialism with its own steady client base.</p>
+<p>Our instructors at Online Model Academy include agents and bookers who work parts boards, hands, feet, legs and lips alike, for a living. This is the real path in, not a beauty-pageant read of the term.</p>
+
+<h2>What Lip Modeling Actually Is</h2>
+<p>A client needs the lips in frame, close and clear, without needing the rest of your face or body. That covers a specific, recurring set of work:</p>
+<ul>
+<li><b>Cosmetics.</b> Lipstick, lip gloss, lip liner and lip stain brands, shot for packaging, e-commerce and campaign imagery where the lips carry the entire shot.</li>
+<li><b>Lip-care and skincare.</b> Chapstick, lip balm, hydrating masks and exfoliating scrub brands, often shooting a before-and-after or a clean product-in-use close-up.</li>
+<li><b>Dental and orthodontic.</b> Teeth-whitening trays, mouthguards and some orthodontic marketing that frames tight on the mouth rather than the full smile our <a href="../how-to-become-a-face-model/">face-modeling guide</a> covers.</li>
+<li><b>Packaging and print.</b> Tube, compact and point-of-sale photography, a lip-focused cousin of <a href="../how-to-become-a-beauty-model/">paid beauty modeling</a>.</li>
+<li><b>Food and beverage macro work.</b> Occasional close, styled "mouth shot" advertising for drinks or food brands, a smaller and less regular lane than cosmetics or lip-care.</li>
+</ul>
+<p>None of this is judged as a beauty ideal. It is closer to a parts board that happens to book lips instead of a hand or a foot, and it is judged the same specialist way: on condition, not on an overall look.</p>
+
+<h2>Lip Modeling vs. Beauty Modeling</h2>
+<p>Both can involve a tight crop around the lower face, which is exactly why the two get mixed up online. They are judged on close to opposite things. Beauty casting is an editorial or campaign look shot from the collarbone or shoulders up: a brand is selling a specific styled ideal, and expression and overall styling matter. Lip modeling is judged narrowly on the lips themselves, smoothness, even color, clean edges, the same way hand modeling is judged on cuticles and knuckles rather than an overall hand "look." See our <a href="../how-to-become-a-beauty-model/">guide to becoming a beauty model</a> for the editorial side of the same general area, and our guide to <a href="../how-to-become-a-hand-model/">how to become a hand model</a> for how a parts board runs from the hand side.</p>
+
+<h2>What Actually Gets You Booked</h2>
+<h3>Lips that need minimal correction</h3>
+<p>Smooth, evenly colored, no chronic chapping, peeling, cold sores or visible dryness lines. This is the single biggest factor, ahead of overall lip shape or size. Clients are paying for lips that arrive camera-ready, not for a condition to fix in post.</p>
+<h3>Natural shape and proportion, not a specific ideal</h3>
+<p>Cosmetics and lip-care brands sample product across a genuinely wide range of lip shapes and sizes, so this is a far wider net than fashion casting. There is no single "correct" lip shape for this work, just clean, healthy condition.</p>
+<h3>Digitals that show the lips bare and unstyled</h3>
+<p>Three or four phone photos: lips closed and relaxed, lips slightly parted, a front-on close crop, and one at a slight angle. Plain background, soft daylight, no lipstick, gloss, filter or heavy retouching. Our full <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers the shot-list logic that applies here too: honest and unretouched beats styled every time at this stage.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-lip-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>Care Routines Working Lip Models Actually Use</h2>
+<ul>
+<li><b>Daily lip balm, applied year-round.</b> Dry, flaking or cracked lips are the fastest way to get passed over in digitals, and the easiest thing to prevent with a consistent routine rather than a one-off scramble before a shoot.</li>
+<li><b>Gentle exfoliation, not aggressive scrubbing.</b> A light routine removes flaking skin without leaving lips raw or irritated for a submission photo.</li>
+<li><b>No new lip treatments right before a booking.</b> New fillers, chemical peels, aggressive exfoliants or unfamiliar products all carry a real risk of visible irritation exactly when you cannot afford it.</li>
+<li><b>Sun and wind protection.</b> Chapping from weather exposure is one of the most common, most avoidable reasons a submission or booking gets pushed back.</li>
+<li><b>Hydration and a habit check.</b> Lip biting and picking habits show up in photos as broken skin and uneven texture, the same way bitten nails work against a hand model.</li>
+</ul>
+
+<h2>Where Lip Models Actually Work</h2>
+<p>Cosmetics brands, lipstick, lip gloss, lip liner and lip stain, are the largest, steadiest lane, since the whole product claim is how it looks and wears on real lips. Lip-care and skincare brands are a close second, needing lips to show a product's actual hydrating or exfoliating effect rather than a styled result. Dental, orthodontic and beverage or food macro work round it out, each a smaller, less frequent booking source than the two lead categories.</p>
+<p>Our guide to <a href="../types-of-modeling/">the different types of modeling</a> covers where hand and parts work sits alongside every other category, useful context if you are weighing this against a broader path into modeling.</p>
+
+<h2>Agencies vs. Going Freelance First</h2>
+<p>Search for "parts agencies" or a "parts division" specifically, not just "modeling agencies": many mainstream agencies run a parts board tucked inside their commercial division, and a handful of specialist agencies do nothing but hands, feet, legs and lips. Legitimate agencies never charge an upfront fee to consider you.</p>
+<p>You do not need a signing to start. Casting platforms regularly post lip and parts calls for cosmetics and lip-care brands that do not require representation, and a small set of real bookings shot freelance makes a later agency submission stronger, not weaker. Knowing how to negotiate a rate and read a usage clause before you agree to one matters here as much as anywhere else in modeling; our guide to <a href="../how-to-become-a-freelance-model/">how to become a freelance model</a> covers both.</p>
+
+<h2>Reasons People Talk Themselves Out of Submitting, and Why They're Wrong</h2>
+<ul>
+<li><b>"My lips aren't a perfect shape."</b> There is no single ideal shape here. What clients need is lips in clean, healthy condition, not a specific size or fullness.</li>
+<li><b>"This is a weird thing to model."</b> It is a real, small commercial category with genuine paying clients, the same as hand or lip-care modeling. It only reads as strange because so little honest content exists about it.</li>
+<li><b>"I need professional photos first."</b> Bookers want honest phone digitals of bare, unstyled lips, not a styled beauty shoot. Spending money on photography before a submission is a wasted step, not a stronger one.</li>
+<li><b>"I'm not signed to a full modeling agency, so I can't apply."</b> Parts boards cast independently of a model's general representation. Plenty of working lip models have no other modeling work at all.</li>
+</ul>
+
+<h2>What the Work and the Pay Actually Look Like</h2>
+<p>Rates are set by the client and the usage, the same structure as every other parts category, and lip work is typically billed hourly or as a flat session fee rather than a day rate. Buyout usage, where the client pays once for broad, ongoing rights, is common in this niche, so always confirm how long, where and in what media the images will run before agreeing to a rate. A lip model who also has good hands, feet or a clean smile is a more valuable submission to most parts agencies than one who books only a single feature.</p>
+
+<h2>Your First Steps</h2>
+<ol>
+<li>Start a basic lip-care routine: daily balm, gentle exfoliation, and sun and wind protection kept up year-round rather than rushed before a shoot.</li>
+<li>Shoot three or four honest digitals: lips closed, lips slightly parted, a front-on close crop and a slight angle, bare and unstyled.</li>
+<li>Search specifically for "parts agencies" or a "parts division," not just general modeling agencies.</li>
+<li>Submit to those agencies, and in parallel, watch casting platforms for direct lip and parts calls from cosmetics and lip-care brands.</li>
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
 <p>That last step is where our mentors, working agents and bookers who run parts boards for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
