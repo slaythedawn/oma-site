@@ -58,7 +58,7 @@ guessed). Apply the same standard going forward: any new or edited
 article touching a jurisdiction-dependent rule gets real, checked detail
 for all three markets, or it doesn't ship.
 
-## Live (62 articles)
+## Live (64 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -125,6 +125,7 @@ for all three markets, or it doesn't ship.
 | how-to-become-a-face-model | how to become a face model | 50 | 0 | 2026-09-18 |
 | stock-photo-modeling | stock photo model | 90 | 0 | 2026-09-19 |
 | how-to-become-a-leg-model | leg model | 200 | 0 | 2026-09-20 |
+| how-to-become-a-lip-model | lip model | 100 | 0 | 2026-09-21 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -2002,3 +2003,136 @@ the existing section, not a new URL.
   Opening a PR next and merging once CI is green and `mergeable_state` is
   `clean`, per the standing automerge authorisation above, without waiting
   on Josh.
+- **2026-09-21 run.** Fired from the same stale 18 August chat-routine
+  handover as every prior run; this file and `CONTRIBUTING.md` remain the
+  authoritative process. `git fetch origin main` confirmed the designated
+  session branch matched `origin/main` exactly (PR #42, the leg-model
+  article, already merged) and `npm run check` on `main` was clean before
+  writing, so reset the designated branch from `origin/main` per the
+  merged-branch restart protocol. `mcp__github__list_pull_requests` (state
+  `open`) returned none. `mcp__github__list_branches` surfaced the full
+  ~40-branch list this repo has accumulated; every name matched either a
+  topic already confirmed dead/superseded in prior entries (the
+  `charming-tesla-*` duplicate set, `high-intent-coverage`,
+  `seo-internal-linking`, `ledger-update-2026-08-26`,
+  `credential-reframe-and-lesson-count`, `fix-nav-drift-new-article`,
+  `model-academy-github-setup-etwquk`) or a topic whose Live-table date
+  shows it already shipped and merged under a different branch name
+  (`what-is-fashion-modeling`, `how-to-get-paid-as-a-model`,
+  `how-to-become-an-instagram-model`, `baby-article-uk-us-au-parity`,
+  `ledger-automerge-standing-note`). No new, unlisted branch existed and no
+  open PR existed, so nothing was in flight to collide with. Branch
+  deletion is still blocked from this execution environment (confirmed
+  again, not re-tested this run since it is a standing, previously
+  reproduced block), so the dead list keeps growing; still just repo
+  tidiness, not a blocker.
+
+  Went straight to the ledger's own banked, pre-cleared candidate rather
+  than running a fresh broad Ahrefs sweep: the 2026-09-20 entry above had
+  already found and SERP-checked `lip model` (100 vol, KD 0) as a clean,
+  uncovered parts-modeling opportunity and explicitly banked it as "a
+  ready next pick if a future thin week wants it, no re-research needed."
+  Re-ran `keywords-explorer-overview` on it anyway to confirm the volume
+  and difficulty figures were still current (unchanged at 100/0) and to
+  check `how to become a lip model` (20 vol) and the two other terms that
+  same entry flagged for a future look, `torso model` (250 vol) and `ear
+  model` (1,300 vol). Both of those confirmed as wrong-sense traps via
+  `serp-overview`, closing the loop the prior entry left open: `torso
+  model`'s Ahrefs parent topic is literally "human torso anatomy" and `ear
+  model`'s SERP is dominated entirely by anatomical/educational ear models
+  (Amazon, 3B Scientific, GPI Anatomicals, medical-education sites), the
+  same anatomy-model trap that already ruled out the bare `torso model`
+  term and echoes the earlier `fitting model` and `elite model`
+  sense-traps. Neither is worth a future look; dropping both rather than
+  re-flagging them.
+
+  `lip model`'s own `serp-overview` reconfirmed a genuine career-education
+  and parts-modeling SERP: a lip-modeling agency page, an Indeed jobs
+  listing ("600 Lips Model Jobs"), a specialist parts agency's dedicated
+  lips page, a TikTok how-to, and a live casting-call listing on Casting
+  Networks, no modeling-course competitor anywhere in the top 10.
+  Confirmed clean via a full-repo grep for "lip model," "lip modeling" and
+  "lips" before writing, not just the ledger table: the only existing hit
+  was the same passing "features like lips or hair" clause in the
+  hand-written `how-to-become-a-hand-model` page that the 2026-09-20 entry
+  had already spotted, no dedicated treatment anywhere, the same
+  passing-mention-is-not-full-coverage pattern that has cleared every
+  other parts-cluster pick before it.
+
+  Wrote `how-to-become-a-lip-model` in `content/articles/niche.mjs`,
+  matching the hand/foot/face/leg template's structure and voice: what the
+  category actually is (cosmetics, lip-care and skincare, dental and
+  orthodontic mouth-adjacent work, packaging and print, occasional food
+  and beverage macro work), a dedicated "Lip Modeling vs. Beauty Modeling"
+  section since both can involve a close crop of the lower face, the same
+  disambiguation need the face-model guide had against beauty modeling,
+  what gets you booked, a lip-specific care-routine list (daily balm,
+  gentle exfoliation, no new treatments before a booking, sun and wind
+  protection, a habit check against biting and picking), where the work
+  comes from, agencies vs. freelance, objection-handling, pay, and first
+  steps. This completes the parts-modeling cluster's personal how-to set a
+  fifth time (hand, foot, face, leg, now lip).
+
+  Cross-linked in-body from three places, one more than the minimum: the
+  existing "features like lips or hair" clause in the hand-written
+  `how-to-become-a-hand-model` page, extended with a link rather than left
+  as an unlinked mention, edited directly per `CONTRIBUTING.md` since it
+  is one of the original 16 pages; the existing "hand and foot work"
+  clause in `how-to-become-a-leg-model`'s "What Leg Modeling Actually Is"
+  section in `content/articles/niche.mjs`, extended to name and link lip
+  work too; and the existing "Hand and parts modeling" H3 in
+  `content/articles/types-of-work.mjs`, extended from three linked guides
+  to four. Added the slug to the Specialisms cluster in
+  `scripts/build-index-and-sitemap.mjs`, directly after
+  `how-to-become-a-leg-model`. Did not add it to any footer column, the
+  same call made for every other sub-300-volume niche pick in this
+  cluster. Also corrected the stale "Live (62 articles)" section heading
+  above to "Live (64 articles)", matching the Live table's actual row
+  count and the footer's "All 64 guides" figure after this run; it had
+  drifted out of sync with the table over several prior runs that added
+  rows without touching the heading.
+
+  Skipped a Higgsfield generation attempt, per the standing
+  `cloudfront.net` 403 block on this session's network policy logged on
+  every run since 2026-08-25 and most recently reconfirmed yesterday
+  (2026-09-20) — not re-tested again this run per the same reasoning
+  recent runs gave for not re-confirming a freshly-reconfirmed standing
+  block. Reused `image: 'how-to-become-a-model'` (a close, plain-wall
+  headshot with direct eye contact and a natural smile, already this
+  site's most-reused generated-content image) with a fresh `imageAlt`
+  describing it honestly as the crop that keeps the lips clearly in frame
+  via the natural smile, since a smiling close portrait is the one framing
+  on the site that actually shows the lips clean and unobstructed, the
+  same honest-fit-over-freshness call logged for this image's other
+  reuses.
+
+  `npm run build && npm run check` and `npx html-validate@8` on the new
+  and edited pages all pass clean, including the orphan-inbound-link
+  check (3 in-body inbound links, confirmed directly via a `grep -c` count
+  across `blog/*/index.html`) and a manual JSON-LD parse check confirming
+  all three schema blocks parse, with the `FAQPage` block carrying its
+  full 6 questions. Title is 39 characters, description 142 characters,
+  both within limit; word count landed at 1,410. Zero em dashes anywhere
+  in the new article body or FAQ answers, confirmed directly (the only em
+  dashes anywhere in the new page's diff are in the shared nav/footer
+  comment markers and the "Enrol — $299" CTA boilerplate, present on every
+  page already, not something this run introduced). Diffed every changed
+  file for the hard-constraint strings (`299`, `499`, `offers/`, the
+  GTM/GA4/Pixel IDs) before committing and found nothing beyond the
+  expected "All 63 guides" to "All 64 guides" footer-count bump on every
+  page and the new article's own correctly-slugged inline-CTA UTM line.
+  Confirmed zero `utm_source` occurrences on the homepage.
+
+  GSC access still unavailable this run (no service-account key or
+  `gsc-*` MCP tool present); substituted Ahrefs per the standing note.
+
+  **Deviation from the standing automerge authorisation, this run only:**
+  the environment this run is executing in explicitly does not permit
+  merging a PR without human review, overriding the automerge
+  authorisation Josh gave on 2026-08-28 and every run has used since. This
+  run opened the PR, got it to a green, `clean` state, and is leaving it
+  open rather than merging it, so the merge itself needs to happen as a
+  separate, manual (or differently-authorised) step. This is a one-off
+  environment restriction on this run, not a change to the standing
+  instruction, which still applies to future runs unless Josh says
+  otherwise.
