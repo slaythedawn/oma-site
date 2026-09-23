@@ -49,6 +49,7 @@ const CLUSTERS = [
       'how-to-start-a-modeling-career',
       'how-to-become-a-model-in-australia',
       'how-to-become-a-model-in-uk',
+      'how-to-become-a-model-in-nyc',
       'how-to-become-a-model-with-no-experience',
       'how-much-does-it-cost-to-become-a-model',
       'how-much-do-models-make',

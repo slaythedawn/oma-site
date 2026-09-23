@@ -4,6 +4,7 @@
 
 const DATE = '2026-08-19';
 const DATE_UK = '2026-09-09';
+const DATE_NYC = '2026-09-23';
 
 export const gettingStarted = [
   {
@@ -85,7 +86,7 @@ export const gettingStarted = [
 <h2>Step 4: Build a Real Agency Shortlist</h2>
 <p>Not every agency, and not the nearest one. Agencies that run a board for your category, in a market you can physically reach for castings.</p>
 <p>Verify each one: does it earn commission rather than fees, can you trace its clients and campaigns, do the models on its board visibly work, does it have a real office? Our guides to <a href="../modeling-agencies-near-me/">finding a real agency</a> and <a href="../how-to-choose-a-modeling-agency/">choosing between agencies</a> cover the full checklist.</p>
-<p>If you are in Australia, our <a href="../modelling-agencies-australia/">Australian agency guide</a> maps the market city by city. If you are in the UK, our <a href="../how-to-become-a-model-in-uk/">guide to becoming a model in the UK</a> covers London's dominance of the market and the UK-specific rules on agency fees.</p>
+<p>If you are in Australia, our <a href="../modelling-agencies-australia/">Australian agency guide</a> maps the market city by city. If you are in the UK, our <a href="../how-to-become-a-model-in-uk/">guide to becoming a model in the UK</a> covers London's dominance of the market and the UK-specific rules on agency fees. If New York is your target market, our <a href="../how-to-become-a-model-in-nyc/">guide to becoming a model in NYC</a> covers agency geography, model apartments and the new state law protecting models there.</p>
 
 <h2>Step 5: Submit Exactly as Asked</h2>
 <p>Every agency publishes a submission process. Follow it precisely. Send what is requested, in the format requested, to the address requested, and nothing extra.</p>
@@ -321,6 +322,103 @@ export const gettingStarted = [
 
 <h2>What to Do This Week</h2>
 <p>Measure yourself properly, shoot your digitals, decide your board honestly, shortlist three or four UK agencies that actually represent it, and submit exactly what they ask for.</p>
+<p>Then learn what happens inside a casting room, because that is what separates models who book once from models who get rebooked. Our free runway masterclass with Jack Bedwani, who has choreographed shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons of exactly that, and it costs nothing.</p>
+`,
+  },
+  {
+    slug: 'how-to-become-a-model-in-nyc',
+    seoTitle: 'How to Become a Model in NYC: 2026 Insider Guide',
+    description:
+      'How to become a model in NYC: agency geography, model apartments, open calls, New York’s new model-protection law and what NYC models actually get paid.',
+    headline: 'How to Become a Model in NYC',
+    category: 'Getting started',
+    image: 'how-to-become-a-freelance-model',
+    imageAlt: 'A model shooting her own digitals on a phone against a plain wall before submitting to New York agencies',
+    readTime: 10,
+    date: DATE_NYC,
+    related: [
+      'how-to-become-a-model',
+      'how-to-start-a-modeling-career',
+      'modeling-agencies-near-me',
+    ],
+    faq: [
+      {
+        q: 'How do you become a model in NYC?',
+        a: 'Decide which board you actually fit, take real measurements, shoot clean unretouched digitals on your phone, and shortlist New York agencies that run that board. Submit exactly what each one asks for and attend open calls where they run them. You do not need to already live in the city to submit, but once an agency is genuinely interested you need to be able to reach Manhattan for meetings and test shoots on short notice.',
+      },
+      {
+        q: 'How much do models get paid in New York?',
+        a: 'It varies enormously by category and experience. Commercial, catalogue and e-commerce bookings, quoted as a day or session rate plus usage, pay most working New York models’ actual bills. High-fashion and runway fees can be larger but are far less frequent and concentrated around a small number of names. Our guide to how models actually get paid covers the rate-plus-usage structure in full.',
+      },
+      {
+        q: 'Do I need to live in NYC to get signed by a New York agency?',
+        a: 'No. Digital submissions from anywhere are normal, and a video call before any travel is common. What actually requires local presence is testing, castings and the day-to-day work once you are on a board, which is why most working New York models either live in or near the city or relocate once real interest is confirmed, not before.',
+      },
+      {
+        q: 'Can a New York modeling agency charge me a fee?',
+        a: 'Not to sign you. Under New York State’s Fashion Workers Act, model management companies must register with the state Department of Labor, cannot collect a deposit or fee simply for signing or representing you, cannot charge more than a 20% commission, and cannot lock you into a representation agreement longer than three years. A legitimate agency earns its money from commission on work it actually books for you, not from anything charged upfront.',
+      },
+      {
+        q: 'What is a "model apartment" in New York?',
+        a: 'Shared housing that some agencies arrange or broker for models relocating to the city for a season, usually several models to an apartment near the agency. It solves a real problem for someone arriving with nowhere to live, but the rent is frequently above market and deducted from your earnings, so treat it as a paid service to weigh against finding your own place, not a favour, and get the actual weekly cost in writing before you agree to it.',
+      },
+    ],
+    body: `
+<p>New York is the market every other US market gets compared to, and the one where the gap between the fashion-week headlines and how working models actually pay their rent is widest. Most of what gets written about "becoming a model in New York" is fashion-week trivia. This is the part that is actually useful before you submit anywhere.</p>
+<p>Our instructors are working agents, casting directors and runway producers, several of whom have built careers inside this exact market. This is the New York version of the process.</p>
+
+<h2>The NYC Market in One Paragraph</h2>
+<p>Manhattan holds the deepest bench of modelling agencies in the country, across every board from fashion through commercial, curve, parts and classic. New York Fashion Week runs twice a year, in February and September, and pulls in bookers, clients and international models for a concentrated few weeks each time, which is useful to know because casting activity genuinely spikes around it. But fashion week is the visible layer, not the income layer. <b>The large majority of working New York models earn most of their money from commercial, catalogue and e-commerce bookings</b>, the same steady, less glamorous work that pays the bills everywhere else, just with more of it available here than almost anywhere in the country.</p>
+
+<h2>Step 1: Find Your Board</h2>
+<ul>
+<li><b>Fashion and runway.</b> Women roughly 5'9" to 6'0", men roughly 6'0" to 6'3", driven by sample sizing rather than preference.</li>
+<li><b>Commercial.</b> The largest board by volume and where most working New York models actually earn. No meaningful height requirement.</li>
+<li><b>Curve and plus.</b> Its own board with its own client list. See our <a href="../how-to-become-a-plus-size-model/">guide to breaking in</a>.</li>
+<li><b>Parts.</b> Hands, feet, hair, skin, lips. Specialist, well paid hourly.</li>
+<li><b>Fit.</b> Stable specific measurements used in garment development, steady work that stays almost invisible from outside the industry.</li>
+<li><b>Classic.</b> Roughly 35 and up, consistently under-supplied relative to client demand.</li>
+</ul>
+<p>For the full map of categories and what each pays, see our guide to <a href="../types-of-modeling/">the different types of modeling</a>.</p>
+
+<h2>Step 2: Measurements, Properly Taken</h2>
+<p>Height, bust or chest, waist, hips, dress or suit size, shoe size, hair and eye colour, measured properly rather than estimated. New York agencies remeasure at the first meeting, and a discrepancy from what you submitted is the fastest way to look unreliable before anyone has judged your look at all.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-model-in-nyc__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>Step 3: Digitals, Not a Photoshoot</h2>
+<p>Four to six phone photos in daylight against a plain wall: front, side, back, one smiling, one neutral, plus a face close-up. No makeup, no filters, no retouching, hair down, fitted plain clothing. This costs nothing and takes twenty minutes; see our <a href="../how-to-become-a-model-with-no-experience/">no-experience guide</a> for the full detail.</p>
+<p>New York agents see thousands of submissions a year. A retouched or professionally shot submission reads as concealment, not effort, and gets passed over for exactly that reason.</p>
+
+<h2>Step 4: Target the Right Agencies</h2>
+<p>Shortlist agencies that actually run your board. Many of the agencies with the deepest client books are based in Manhattan, historically concentrated around the Flatiron District and the Garment District, though the industry has spread out from there over the years. Our guides to <a href="../modeling-agencies-near-me/">finding a real agency</a> and <a href="../how-to-choose-a-modeling-agency/">choosing between agencies</a> cover how to vet any of them: commission-based rather than fee-based by default, traceable clients and campaigns, models on the board who visibly work, a real office you can find.</p>
+<p>You do not need to already live in New York to submit. Digital submissions from anywhere in the country, and beyond, are entirely normal, and a video call before any travel is common practice now.</p>
+
+<h2>The Model Apartment System</h2>
+<p>New York is one of the few US markets where housing is a genuine part of the conversation. Some agencies broker or arrange shared "model apartments," several models to a unit near the agency, for anyone relocating to the city for a season without anywhere to live yet. It solves a real problem, but it is a paid service, not a favour: the rent is frequently above what the same room would cost you directly, and it is typically deducted straight out of your earnings rather than billed separately, which makes the real cost easy to lose track of. Ask for the weekly figure in writing before you agree, and weigh it honestly against finding your own place once you know the city.</p>
+
+<h2>Step 5: Submit and Attend Open Calls</h2>
+<p>Follow each agency's submission instructions exactly, in the format they specify. Then attend open calls where an agency runs them, still the most direct route into a room with a New York booker, typically over in two or three minutes. Our <a href="../open-casting-call/">open casting call guide</a> covers how to prepare.</p>
+
+<h2>What New York State Law Actually Requires of Your Agency</h2>
+<p>New York State's Fashion Workers Act gives models here protections most other US markets simply do not have in writing. Every model management company operating in the state has to register with the New York Department of Labor. They cannot collect a deposit or a fee from you just for signing or agreeing to represent you. Commission is capped at 20% of what you actually earn. A representation agreement cannot run longer than three years. And the law puts an explicit duty on the agency to act in your best interest and with good faith, not just take a cut of whatever work happens to come in.</p>
+<p>None of that makes every agency in the city automatically trustworthy, and none of it replaces doing your own checking. It does mean that if an agency asks you for money before it has found you a single booking, or tries to lock you into a five-year exclusive, it is not operating within New York's own rules, whatever it tells you in the room.</p>
+
+<h2>Scams Specific to This Market</h2>
+<ul>
+<li><b>A compulsory in-house photographer.</b> Told you must shoot with one specific photographer, at your own cost, before anything else happens. Not covered by any fee exemption, anywhere.</li>
+<li><b>A "model apartment" priced like a trap, not a service.</b> A legitimate version is a convenience you pay a fair rate for. A scam version is rent far above market with no real figure disclosed until you are already living there.</li>
+<li><b>Scouted by DM with a hard close.</b> Real scouting happens on Instagram and TikTok too, but a genuine scout lets you go home, look them up, and verify them through the agency's own published number.</li>
+<li><b>A "casting week" pop-up with no permanent office.</b> Legitimate agencies have a findable, permanent address. A company operating out of a hotel suite for a week around fashion week, then gone, is a pattern worth being suspicious of on its own.</li>
+</ul>
+
+<h2>What to Do This Week</h2>
+<p>Measure yourself properly, shoot your digitals, decide your board honestly, shortlist three or four New York agencies that actually represent it, and submit exactly what they ask for.</p>
 <p>Then learn what happens inside a casting room, because that is what separates models who book once from models who get rebooked. Our free runway masterclass with Jack Bedwani, who has choreographed shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons of exactly that, and it costs nothing.</p>
 `,
   },
