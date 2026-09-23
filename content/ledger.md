@@ -58,7 +58,7 @@ guessed). Apply the same standard going forward: any new or edited
 article touching a jurisdiction-dependent rule gets real, checked detail
 for all three markets, or it doesn't ship.
 
-## Live (64 articles)
+## Live (65 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -126,6 +126,7 @@ for all three markets, or it doesn't ship.
 | stock-photo-modeling | stock photo model | 90 | 0 | 2026-09-19 |
 | how-to-become-a-leg-model | leg model | 200 | 0 | 2026-09-20 |
 | how-to-become-a-lip-model | lip model | 100 | 0 | 2026-09-21 |
+| how-to-become-a-model-in-nyc | how to become a model in nyc | 100 | 4 | 2026-09-23 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -2136,3 +2137,161 @@ the existing section, not a new URL.
   environment restriction on this run, not a change to the standing
   instruction, which still applies to future runs unless Josh says
   otherwise.
+- **2026-09-23 run.** Fired from the same stale 18 August chat-routine
+  handover as every prior run; this file and `CONTRIBUTING.md` remain the
+  authoritative process. `git fetch origin main` confirmed the designated
+  session branch matched `origin/main` exactly (PR #43, the lip-model
+  article, already merged the same day), so worked directly on it rather
+  than resetting anything. `mcp__github__list_pull_requests` (state
+  `open`) returned none, and `list_branches` showed the same long tail of
+  already-confirmed-dead duplicate branches as every recent run plus no
+  new ones, so nothing was in flight to collide with.
+
+  The prior-run shortlist was empty (last entries closed out `torso
+  model` and `ear model` as anatomy-sense traps, `lip model` shipped
+  2026-09-21), so this run needed a fresh keyword pass. Direct
+  `keywords-explorer-overview` calls on roughly 60 candidate phrases
+  across several fresh angles (agency-application language, "for
+  brands"/clothing-brand framing, age/body/hair variants, city-specific
+  "become a model in X" phrasing) came back almost entirely at or near
+  zero volume — the easy single-niche picks in this vertical are
+  genuinely thinning out. Switched to `keywords-explorer-matching-terms`
+  with a `phrase` match on the seed "become a model" and a `where` filter
+  (`volume >= 100`, `difficulty <= 10`), which is cheaper per useful
+  result than singleton `overview` calls and surfaced three real
+  candidates at once: `how to become a model for clothing brands` /
+  `... for brands` (150 vol each, shared parent topic), `how to become a
+  model with no money` (150 vol), and `how to become a model in nyc` (100
+  vol, KD 4, its own parent topic, distinct from the shared "become a
+  model" parent the generic variants sit under).
+
+  Checked all three against the actual article bodies, not just this
+  table, before picking. `how to become a model with no money` is
+  cannibalised: `how-much-does-it-cost-to-become-a-model`'s FAQ already
+  has "Can you become a model with no money?" as a direct Q&A, plus a
+  dedicated "How to Spend Your First $500 Wisely" section and a "What
+  Should NEVER Cost Money" section covering the same ground. `how to
+  become a model for clothing brands` / `for brands` is not identically
+  covered anywhere, but sits close enough to `what-is-commercial-modeling`'s
+  "How to Actually Get Into Commercial Modeling" section and
+  `ecommerce-modeling`'s whole "How to Actually Get Into Ecommerce
+  Modeling" section that a dedicated page felt like real cannibalisation
+  risk rather than a genuinely distinct angle, so dropped it without
+  spending a `serp-overview` call. `how to become a model in nyc` was
+  the clean one: a full-repo grep turned up only passing city mentions
+  (submission-form examples, an open-calls sentence in the hand-written
+  `how-to-become-a-model` page, agency-directory context in `agencies-us.mjs`),
+  no dedicated NYC treatment anywhere, and `serp-overview` confirmed a
+  genuine career-education SERP — Reddit, Facebook groups, Quora,
+  Backstage magazine, People Also Ask questions like "How much do NYC
+  models get paid?" and "How do I become a model with no experience?" —
+  with no modeling-course competitor in the top 10, the exact pattern
+  that made the UK and Australia guides winnable. Also spot-checked
+  `how to become a model in los angeles` (50 vol, KD 30), `... chicago`
+  (60 vol, KD 1) and a few other cities: none matched NYC's combination
+  of real volume, low difficulty and its own parent topic, so did not
+  pursue a city-guide series beyond this one pick.
+
+  Wrote `how-to-become-a-model-in-nyc` in `content/articles/getting-started.mjs`,
+  alongside the existing UK and Australia market guides, matching their
+  structure (board selection, measurements, digitals, agency targeting,
+  submission and open calls, a dedicated local-specifics section, a
+  closing "what to do this week") rather than inventing a new format.
+  The NYC-specific content is genuine, not filler: agency geography
+  (Manhattan, historically concentrated around the Flatiron District and
+  the Garment District), the "model apartment" shared-housing system
+  agencies broker for models relocating for a season and its real cost
+  risk (rent above market, deducted from earnings rather than billed
+  separately), and New York State's Fashion Workers Act. The Act is
+  real and current legislation, not assumed from training knowledge —
+  looked it up via a live `WebSearch` call against Department of Labor
+  and law-firm sources before writing anything about it, and kept the
+  claims to what multiple sources agreed on: every model management
+  company operating in the state must register with the NY Department
+  of Labor, cannot collect a deposit or fee just for signing or
+  representing a model, cannot charge more than 20% commission, and
+  cannot lock a model into a representation agreement longer than three
+  years. Deliberately left out the registration-fee and surety-bond
+  figures the search also returned, since those are agency-side
+  compliance details a model-searcher does not need and the extra
+  specificity added verification risk without adding value to the
+  reader.
+
+  Cross-linked in-body from three places: the hand-written
+  `how-to-become-a-model` page's existing open-calls sentence
+  ("a major market like New York, Los Angeles, Miami, or Chicago"),
+  turning the existing unlinked "New York" mention into a link rather
+  than adding a new sentence; the existing UK/Australia market-guide
+  callout paragraph in `how-to-start-a-modeling-career` (same file, Step
+  4), extended with a third sentence for NYC; and `modeling-agencies-near-me`'s
+  "If There Is Genuinely Nothing Near You" section in `agencies-us.mjs`,
+  extended with a sentence pointing at the new guide. Added the slug to
+  the "Start here" cluster in `scripts/build-index-and-sitemap.mjs`,
+  directly after `how-to-become-a-model-in-uk`.
+
+  **One real mistake made and caught before committing, worth recording
+  precisely because it is the kind of error that would otherwise ship
+  silently:** the first attempt at inserting the new entry into
+  `content/articles/getting-started.mjs` used a string-replacement edit
+  anchored on the opening of the UK article's `body` template literal.
+  Because that same opening text was not unique enough in context, the
+  edit replaced the entire UK body with a placeholder and closed the
+  object early, leaving the real UK body content orphaned as dangling
+  text after the new NYC entry and before a duplicate closing bracket —
+  a file that would very likely still have parsed superficially in a
+  quick glance but was structurally broken. Caught immediately by
+  running `node -e` to actually import the module and print each
+  article's slug and field lengths rather than trusting the edit
+  summary, which is why this run treats "import the module and inspect
+  it" as a mandatory step after any edit to a multi-article `.mjs` file
+  from now on, not just a nice-to-have. Reconstructed the UK body in
+  full from the file content already read earlier in the session and
+  re-verified the module imported cleanly with all four expected slugs
+  before moving on. Flagging this here in case a future run edits this
+  same file with a similarly non-unique anchor string.
+
+  Skipped a Higgsfield generation attempt, per the standing
+  `cloudfront.net` 403 block on this session's network policy logged on
+  every run since 2026-08-25 and not re-tested this run since it was
+  reconfirmed as recently as 2026-09-21 — reused
+  `image: 'how-to-become-a-freelance-model'` (a model setting up a phone
+  camera against a plain wall to shoot her own digitals, previously used
+  twice) with a fresh `imageAlt` naming the NYC submission context
+  specifically, since the underlying photo (a phone-digitals setup shot)
+  is a literal, honest fit for the "shoot your digitals before
+  submitting" step this guide also covers.
+
+  First draft used three em dashes in the new prose despite the
+  no-em-dash rule; caught by grepping the built HTML for the literal
+  U+2014 character before committing (not just eyeballing the text) and
+  rewritten with commas, semicolons and restructured clauses instead.
+  Also noticed in passing that two of the earliest-shipped articles in
+  this same file, `how-to-start-a-modeling-career` and
+  `how-to-become-a-model-in-australia` (both dated 2026-08-19), contain
+  real em dashes throughout their prose, not just shared nav/footer
+  boilerplate, unlike every article shipped more recently. Left them
+  alone rather than doing an unscoped cleanup pass unasked, but flagging
+  it here since it means the "only em dashes are in nav/footer
+  boilerplate" claim in several earlier run-log entries was true for the
+  content those specific runs wrote, not for the whole file, and a
+  future run doing a dedicated em-dash sweep should check those two
+  articles specifically.
+
+  `npm run build && npm run check` and `npx html-validate@8` on the new
+  and edited pages all pass clean, including the orphan-inbound-link
+  check (3 in-body inbound links, confirmed via grep) and a manual
+  JSON-LD parse check confirming all three schema blocks parse. Title is
+  48 characters, description 152 characters, both within limit; word
+  count landed at 1,221. Diffed every changed file for the
+  hard-constraint strings (`299`, `499`, `offers/`, the GTM/GA4/Pixel
+  IDs) before committing and found nothing beyond the expected "All 64
+  guides" to "All 65 guides" footer-count bump on every page and the new
+  article's own correctly-slugged inline-CTA UTM line. Confirmed zero
+  `utm_source` occurrences on the homepage.
+
+  GSC access still unavailable this run (no service-account key or
+  `gsc-*` MCP tool present); substituted Ahrefs per the standing note.
+  Opened PR #44 and will merge once CI is green and `mergeable_state` is
+  `clean`, per the standing automerge authorisation, unless this
+  environment carries the same merge restriction the 2026-09-21 run
+  hit.
