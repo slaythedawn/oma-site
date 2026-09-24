@@ -5,6 +5,7 @@
 const DATE = '2026-08-19';
 const DATE_UK = '2026-09-09';
 const DATE_NYC = '2026-09-23';
+const DATE_SUPERMODEL = '2026-09-24';
 
 export const gettingStarted = [
   {
@@ -120,7 +121,7 @@ export const gettingStarted = [
 <p>Anyone promising to compress this is selling something.</p>
 
 <h2>What Separates the Models Who Last</h2>
-<p>Not looks — everyone at a casting is castable. It is the craft: how you walk, how you take direction, how you handle a long day, how you behave when a client changes the brief at the last minute. Those things get you rebooked, and rebooking is the entire career.</p>
+<p>Not looks — everyone at a casting is castable. It is the craft: how you walk, how you take direction, how you handle a long day, how you behave when a client changes the brief at the last minute. Those things get you rebooked, and rebooking is the entire career. It is also, years down the line, the only thing that ever leads to the rare exclusives and campaigns the public calls being a <a href="../how-to-become-a-supermodel/">supermodel</a>, so build the career in front of you before you plan for that one.</p>
 <p>That craft is teachable, which is why our mentors teach it. Start with the free runway masterclass from Jack Bedwani, who choreographs shows for Calvin Klein, Coach and Charlotte Tilbury — five lessons, no cost, and the fastest way to see what the professional standard actually looks like.</p>
 `,
   },
@@ -420,6 +421,100 @@ export const gettingStarted = [
 <h2>What to Do This Week</h2>
 <p>Measure yourself properly, shoot your digitals, decide your board honestly, shortlist three or four New York agencies that actually represent it, and submit exactly what they ask for.</p>
 <p>Then learn what happens inside a casting room, because that is what separates models who book once from models who get rebooked. Our free runway masterclass with Jack Bedwani, who has choreographed shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons of exactly that, and it costs nothing.</p>
+`,
+  },
+
+  {
+    slug: 'how-to-become-a-supermodel',
+    seoTitle: 'How to Become a Supermodel: What It Actually Takes',
+    description:
+      'What separates a supermodel from a working model: exclusives, campaign economics, and whether it is a realistic goal to set for yourself right now.',
+    headline: 'How to Become a Supermodel: The Real Path, Not the Fantasy',
+    category: 'Career',
+    image: 'how-do-models-walk-in-runway-shows',
+    imageAlt: 'A model mid-stride on a bare runway, the composure that separates the top tier of the industry',
+    readTime: 10,
+    date: DATE_SUPERMODEL,
+    related: [
+      'how-to-become-a-successful-model',
+      'runway-model',
+      'how-to-start-a-modeling-career',
+    ],
+    faq: [
+      {
+        q: 'What actually makes someone a supermodel rather than just a working model?',
+        a: 'An exclusive contract with a major fashion house or beauty brand, a campaign roster that keeps her face in front of the same audience season after season, and a public identity beyond any single job. It is not a job title anyone applies for. It is a status a small number of already-successful working models eventually get offered, usually years into a career, never on day one.',
+      },
+      {
+        q: 'How tall do you have to be to become a supermodel?',
+        a: 'The high-fashion boards most supermodels come up through still run roughly 5\'9" to 6\'0" for women and 6\'0" to 6\'3" for men, the same sample-sizing range every fashion board uses. Height gets you considered for that board. It has never been what turns a fashion model into a supermodel; the tier itself is decided by exclusives and campaigns, not measurements.',
+      },
+      {
+        q: 'How much do supermodels get paid compared to working models?',
+        a: 'A handful of names at the very top earn campaign and exclusive fees that are genuinely not comparable to a standard day rate. Almost nothing published about those numbers is verifiable, and treating them as a realistic income plan is the fastest way to make bad decisions early in a career. The honest planning number is the one covered in our guide to how models actually get paid: day or session rate plus usage, which is what pays the large majority of working models\' bills, supermodels included, most months of the year.',
+      },
+      {
+        q: 'Is it realistic to set becoming a supermodel as your career goal?',
+        a: 'As a first goal, no. It is a rare outcome that a tiny number of already-working models eventually reach, not a milestone with a checklist. The realistic goal, and the one that keeps the supermodel path even theoretically open, is becoming a genuinely successful working model: booked consistently, rebooked by the same clients, still working years in. Every named supermodel was that model first.',
+      },
+      {
+        q: 'Do you need a large social media following to become a supermodel?',
+        a: 'It helps and increasingly factors into which working models a brand considers for a campaign face, but it has never been sufficient by itself. A following with no bookings behind it reads to an agency or client as an influencer, not a model. The following supports the career; it does not replace the work that has to come first.',
+      },
+      {
+        q: 'What is the difference between a successful model and a supermodel?',
+        a: 'A successful model works consistently, earns a real income, and has a career that lasts years, entirely achievable and the actual goal worth aiming at. A supermodel is a successful model who was also offered an exclusive and built a public identity around it, an outcome a small fraction of successful models ever reach, and largely outside anyone\'s direct control. See our guide to becoming a successful model for the part of this that is actually within your control.',
+      },
+    ],
+    body: `
+<p>Nobody gets signed as a supermodel. It is not a board an agency puts you on in your first meeting, and it is not a certificate a course can hand you. It is a status that gets built onto an already-working career, usually years in, by people who were not chasing the word "supermodel" at all. This is what the tier actually is, what creates it, and why aiming at it directly is close to the least useful way to spend your first year.</p>
+<p>Our instructors at Online Model Academy are working agents, casting directors and runway producers who have watched this tier get built from the inside. Here is what they will tell you that the fantasy version leaves out.</p>
+
+<h2>What "Supermodel" Actually Means Inside the Industry</h2>
+<p>Every fashion board has working models on it. A tiny number of those models get offered something different: an exclusive contract with a major fashion house or beauty brand, meaning they stop working for that brand's direct competitors in exchange for a retainer and a guaranteed place in its campaigns. Stack a couple of those exclusives on top of a genuine public profile, magazine covers, a recognizable name, appearances beyond the runway, and you get the tier the public calls "supermodel."</p>
+<p>Nobody inside an agency uses that word to describe a category on their roster. It is a media label applied after the fact to a handful of models whose exclusives and campaigns made them recognizable outside the industry. The agency's own internal language is much plainer: main board, exclusive, campaign face. The glamour is real. The mechanism behind it is contractual.</p>
+
+<h2>The Economics That Actually Create the Tier</h2>
+<p>A standard booking pays a day or session rate plus a usage fee for where the images run and for how long, the same structure covered in our guide to <a href="../how-to-get-paid-as-a-model/">how models actually get paid</a>. An exclusive changes that structure entirely. Instead of a rate per job, the brand pays a retainer for the model's availability and image rights over a defined period, often tied to a set number of campaigns, and the model agrees not to work for competing brands for the length of the deal. That retainer, renewed and expanded over successive contracts, is where the income gap the public associates with supermodels actually comes from. It is not a bigger day rate. It is a completely different kind of contract, offered to a working model a brand has already decided is worth locking down.</p>
+<p>That decision is commercial, not artistic. A brand offers an exclusive when a model's face reliably moves its specific customer, proven across bookings the brand already ran and can measure. Nobody gets offered that on a first test shoot.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-supermodel__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>What Actually Separates the Top Tier From Everyone Else</h2>
+<p>Fitting a fashion board's measurements gets you considered. It does not explain why one model among hundreds who fit those measurements gets the exclusive and the rest do not. What insiders actually point to is far less glamorous than looks.</p>
+<ul>
+<li><b>Consistency over years, not one striking test.</b> Brands build exclusives around models who have already proven, across dozens of real bookings, that they show up prepared, take direction well, and deliver the same reliable result every time. See our guide to <a href="../how-to-become-a-successful-model/">becoming a successful model</a> for exactly what that reliability looks like in practice.</li>
+<li><b>A face a brand can build a story around.</b> Campaign casting is not just "who looks good in the clothes." It is "who can our customer see themselves in, or aspire to, across a two-year campaign." That is a marketing judgment about identity, not a beauty ranking, and it is genuinely unpredictable from the outside.</li>
+<li><b>Timing that nobody can engineer.</b> A brand's needs, a competitor's exclusive expiring, a creative director's specific vision for a season, all of it lands on a model at a moment she did not control. Every honest account of how an exclusive actually happened includes some version of being the right working model in the room when the decision got made.</li>
+</ul>
+<p>None of that is a checklist. It is closer to what happens when genuine skill meets enough repeated exposure for the right person to notice it.</p>
+
+<h2>The Role Social Media Actually Plays Now</h2>
+<p>A real following has become a genuine factor in which working models a brand shortlists for a campaign face, the same way magazine circulation once mattered to a previous generation of casting directors. Brands can see engagement now, and a model who already moves an audience is a lower-risk bet for the campaign spend behind an exclusive.</p>
+<p>It has never been sufficient on its own. A large following with no real booking history behind it reads to an agency or a client as an influencer applying for a modeling job, not a model who happens to also have a following. The order matters: the work builds the case, the following supports it, not the other way round.</p>
+
+<h2>Why This Should Not Be Your First Goal</h2>
+<p>If you are just starting out, aiming at "supermodel" is aiming at an outcome that is mostly decided by other people, on a timeline you cannot control, for reasons that will not become visible until years into a career you have not started yet. That is a plan built on the part you cannot influence.</p>
+<p>The part you can influence is becoming genuinely good at the job: fitting a category honestly, submitting properly, learning how a casting room actually works, and building the kind of consistency that gets you rebooked. Our guide to <a href="../how-to-start-a-modeling-career/">starting a modeling career</a> covers that sequence in order, and every model who has ever been offered an exclusive was a working model who had already done exactly that, for years, before the offer ever came.</p>
+
+<h2>If You Are Still Aiming for It, What to Actually Build</h2>
+<p>Wanting it honestly is not the problem. Building the wrong things toward it is. If the top tier is genuinely your long-term aim, this is what the people who actually offer exclusives say moves the needle, in the order it needs to happen:</p>
+<ul>
+<li><b>Get the fundamentals right first.</b> Category fit, clean digitals, a shortlist of real agencies for your board. Nothing after this matters if this step is skipped or rushed.</li>
+<li><b>Choose a market with genuine depth.</b> Exclusives get offered where the campaigns are. Our <a href="../how-to-become-a-model-in-nyc/">New York</a>, <a href="../how-to-become-a-model-in-uk/">UK</a> and <a href="../how-to-become-a-model-in-australia/">Australia</a> market guides cover what each one actually offers.</li>
+<li><b>Master the walk and the room, not just the look.</b> Runway and editorial work is where campaign-facing exclusives are most often built, and our guide to <a href="../how-do-models-walk-in-runway-shows/">how the runway walk actually works</a> breaks down the mechanics that separate a rehearsed walk from a natural one.</li>
+<li><b>Build a real body of work before you build a following.</b> Let the bookings come first. A following with real work behind it reads as credibility. A following with none reads as an ad for yourself.</li>
+<li><b>Play the long game the brand is actually watching.</b> Exclusives get offered to models who have already been reliable for years, not to the newest or loudest face in the room.</li>
+</ul>
+
+<h2>The Honest Version</h2>
+<p>Most models who reach the top tier will tell you they were not aiming at the word "supermodel" when it happened. They were aiming at the next booking, then the one after that, for long enough that a brand eventually noticed a pattern worth locking down. The word came after the work, not before it.</p>
+<p>Start where every one of them started: with the fundamentals, taught properly. Our free runway masterclass with Jack Bedwani, who has choreographed shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons of exactly that craft, and it costs nothing.</p>
 `,
   },
 ];
