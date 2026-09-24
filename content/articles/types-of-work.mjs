@@ -81,6 +81,7 @@ export const typesOfWork = [
 <li><b>Bridal, plus-size and petite runway.</b> Each has its own casting standards built around its own sample sizing, and each runs its own show circuit, often with far less coverage than fashion week but steady, real bookings.</li>
 </ul>
 <p>A new face is far more likely to build a real runway résumé through trade shows, retail and department store work than through a fashion week debut, whatever the Instagram version of the industry suggests.</p>
+<p>It is also the fashion week tier specifically that the rare exclusive contracts and campaigns the public calls being a <a href="../how-to-become-a-supermodel/">supermodel</a> tend to get built from, years into a runway career, never at the start of one.</p>
 
 <h2>What Agencies Actually Look For</h2>
 

@@ -58,7 +58,7 @@ guessed). Apply the same standard going forward: any new or edited
 article touching a jurisdiction-dependent rule gets real, checked detail
 for all three markets, or it doesn't ship.
 
-## Live (65 articles)
+## Live (66 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -127,6 +127,7 @@ for all three markets, or it doesn't ship.
 | how-to-become-a-leg-model | leg model | 200 | 0 | 2026-09-20 |
 | how-to-become-a-lip-model | lip model | 100 | 0 | 2026-09-21 |
 | how-to-become-a-model-in-nyc | how to become a model in nyc | 100 | 4 | 2026-09-23 |
+| how-to-become-a-supermodel | how to become a supermodel | 150 | 0 | 2026-09-24 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -220,6 +221,7 @@ the existing section, not a new URL.
 | how to become a commercial model | 100 | 0 | **Checked 2026-09-06, cannibalised.** `what-is-commercial-modeling` already has a dedicated "How to Actually Get Into Commercial Modeling" H2. Do not write. |
 | how to become an extra | 150 | 11 | **Checked 2026-09-06, wrong audience.** Clean and uncovered, but the intent is background/film-extra work, not modeling — the same off-ICP call as the dropped `brand ambassador` cluster. Dropped. |
 | modeling agencies los angeles / new york / chicago / miami / atlanta | 700 / 200 / 200 / 100 / 100 | 49 / 45 / 38 / 28 / 45 | **Checked 2026-09-06, real opportunity but a bigger lift than a normal weekly pick.** Real volume, but KD sits well above this site's usual floor (most live articles are KD 0-10; `modeling-schools` at KD 35 is the current outlier), and a credible city agency-directory page needs verified, named local agencies researched per city, not the personal-narrative format this site otherwise uses. Worth a dedicated future project (start with LA, highest volume) rather than a same-run pick — flagging here so it isn't lost, not ruling it out. |
+| top male modeling agency | 350 | 2 | **Checked 2026-09-24, same bigger-lift call as the city directories above, not cannibalisation.** Low KD looks tempting, but `serp-overview` shows the actual SERP is "top 10 named elite agencies" listicles requiring verified, named world-famous agencies (the Elite/IMG tier), the same named-real-companies content type and research burden already deferred for the US-city and UK/London agency-directory keywords. Not a routine pick; fold into that same future project if it ever gets picked up. |
 | how to become a hand model / foot model / male model / fitness model / plus-size model / petite model / freelance model / commercial model / fit model | — | — | **Specialisms cluster's personal how-to set is now complete three times over (adding fit 2026-09-07).** Before writing another niche "how to become a [X] model" entry, check this list and the SERP/volume notes above (print, swimsuit, lingerie under 100 vol; teen and "how old" likely cannibalised by `how-to-become-a-model-at-16`) — the remaining thin candidates are combine-into-a-broader-piece material, not individual articles, per the 2026-09-05 note. |
 | how to become a fit model | 70 | 0 | **Shipped 2026-09-07** — see the Live table. |
 | fit model (bare) | 800 | 0 | **Checked 2026-09-07, wrong sense — do not target.** High volume looks tempting, but the SERP is dominated by the IFBB bodybuilding/bikini competition "Fit Model" division (Wikipedia, NPC News, Instagram), a completely different meaning from garment-fitting fit modeling. `how to become a fit model` (70 vol) carries the correct sense and a clean, winnable SERP instead; that is the keyword this site targeted, not the bare term. |
@@ -2295,3 +2297,138 @@ the existing section, not a new URL.
   `clean`, per the standing automerge authorisation, unless this
   environment carries the same merge restriction the 2026-09-21 run
   hit.
+- **2026-09-24 run.** Fired from the same stale 18 August chat-routine
+  handover as every prior run; this file and `CONTRIBUTING.md` remain the
+  authoritative process. `git fetch origin main` confirmed the designated
+  session branch matched `origin/main` exactly (PR #44 already merged), so
+  worked directly on it. `mcp__github__list_pull_requests` (state `open`)
+  returned none. `list_branches` showed a long tail of branches ahead of
+  `main` with no open PR, more of them than any prior run's note lists by
+  name — checked every one of them this time (`git log origin/main..origin/<branch>`
+  for each), not just the ones already named in this file, since an
+  in-flight collision only gets more likely as this list grows unpruned.
+  All had exactly one or two commits, and every commit message matched an
+  already-shipped, already-merged article (beauty, promotional, face,
+  UK-market, showroom, mature, UGC, ecommerce, print), confirming each one
+  is a stale duplicate of a merged PR, not new work in flight. Nothing
+  collided.
+
+  The prior run's shortlist was empty again (NYC shipped 2026-09-23, the
+  other two candidates it surfaced were dropped as cannibalised or too
+  close to existing coverage), so this run needed a fresh pass. Direct
+  `keywords-explorer-matching-terms` phrase-match scans on two fresh seeds,
+  `how to be a model` and `modeling agency`, mostly surfaced either a
+  single already-known result or agency-directory noise. The `modeling
+  agency` scan did turn up several looked-clean candidates that all failed
+  on closer checking: `kids modeling agency` (700 vol, KD 0) is a plain
+  synonym of `child-modeling-agencies`, already the linked term in that
+  guide's own "Kids and teens" board description across three other
+  articles; `modeling agency near me` (500 vol) shares its parent topic
+  with the already-live `modeling-agencies-near-me`; `toddler modeling
+  agency`, `modeling agency for kids` and the `john casablancas`/`janice
+  dickinson` results are either near-duplicates of the kids-agency topic or
+  named-competitor-brand queries (a specific real agency's legitimacy),
+  off-topic for this site regardless of volume. `top male modeling agency`
+  (350 vol, KD 2) looked promising on the numbers alone, but `serp-overview`
+  showed the actual SERP is "top 10 named elite agencies" listicles
+  (Elite-tier world-famous agencies, not a generic how-to-evaluate guide),
+  the same bigger-lift, name-real-companies content type already flagged
+  and deferred for the US-city and UK agency-directory keywords in this
+  file — noted below as a future-project candidate, not picked now.
+
+  Switched to direct `keywords-explorer-overview` checks on a batch of
+  specific fresh-angle phrases instead of another broad seed fish (cheaper
+  per relevant result, per the standing lesson from repeated single-word
+  fishing runs). Most came back at or near zero volume or an unrelated
+  sense of the term (`alt model` resolves to Carol Alt, not the
+  subculture; `modeling without an agency` and `model networking events`
+  both zero volume). `how to walk like a model` (150 vol, KD 0) looked
+  clean at first glance but its parent topic, `how to model walk`, is the
+  same walking-technique topic the already-live `how-do-models-walk-in-runway-shows`
+  (3,200 vol) exists to cover in depth — dropped without a full grep, since
+  the parent-topic match alone was strong enough evidence.
+
+  `how to become a supermodel` (150 vol, KD 0) is the one that checked out
+  genuinely clean. A full-repo grep for "supermodel" returned zero hits
+  anywhere on the site, including inside `how-to-become-a-successful-model`,
+  which reads as the closest existing article on the surface but is
+  explicitly about durable, working-model longevity, not the rare
+  exclusive-and-campaign tier the public calls "supermodel" — confirmed by
+  reading that article's actual body rather than assuming from the title,
+  per the standing full-text-before-ledger-table rule. `serp-overview`
+  confirmed a genuine career-education SERP (Backstage, StarNow, Forbes,
+  several `how-to-become-a-model`-style competitor sites, Reddit and Quora
+  threads asking the same question a beginner would ask), no glamour-press
+  competitor and no modeling-course competitor in the top 10. Volume is on
+  the low end of what this site has picked recently, consistent with the
+  general thinning of this keyword vertical logged across the last several
+  weeks of entries above, not a departure from it.
+
+  Wrote `how-to-become-a-supermodel` in `content/articles/getting-started.mjs`
+  (the "Start here" cluster, alongside `how-to-become-a-successful-model`,
+  which it is deliberately positioned to pair with and contrast rather than
+  duplicate: the existing article covers the achievable goal of a durable
+  working career, the new one covers the rare, mostly-uncontrollable tier
+  built on top of that career, and is explicit throughout that the former
+  is the actual goal worth aiming at). Content covers what "supermodel"
+  means operationally inside agencies (exclusives, campaign retainers, a
+  public identity), the contract economics that actually create the tier
+  (a retainer and image-rights deal replacing the usual day-rate-plus-usage
+  structure, not a bigger day rate), what insiders say actually separates
+  the top tier from any other working model (years of proven consistency,
+  a face a brand can build a campaign identity around, timing nobody can
+  engineer), the real but non-sufficient role of a social following today,
+  and an honest closing case for why this should never be a beginner's
+  first goal. No fabricated statistics or named living public figures;
+  the SERP's own "who is the #1 supermodel" and specific-name angles were
+  deliberately left out for exactly that reason.
+
+  Cross-linked in-body from three places, one more than the minimum:
+  `how-to-become-a-successful-model` (hand-written, one of the original 16,
+  edited directly per `CONTRIBUTING.md`), extending its existing "success
+  as fame" paragraph with a link to the new guide rather than leaving fame
+  unaddressed; `how-to-start-a-modeling-career`'s closing "What Separates
+  the Models Who Last" section (same file); and `runway-model`'s "Different
+  Kinds of Runway Work" section in `content/articles/types-of-work.mjs`,
+  since fashion-week-tier runway work is where insiders say these
+  exclusives actually get built. Added the slug to the "Start here" cluster
+  in `scripts/build-index-and-sitemap.mjs`, directly after
+  `how-to-become-a-successful-model`.
+
+  Skipped a Higgsfield generation attempt, per the standing `cloudfront.net`
+  403 block on this session's network policy logged on every run since
+  2026-08-25 and not re-tested since it was last reconfirmed — reused
+  `image: 'how-do-models-walk-in-runway-shows'` (a runway mid-stride shot,
+  previously reused once, in `types-of-work.mjs`'s own `runway-model` entry)
+  with a fresh `imageAlt`, a genuinely on-topic fit given the article's own
+  content ties the top tier back to fashion-week runway work.
+
+  `npm run build && npm run check` and `npx html-validate@8` on all new and
+  edited pages pass clean, including the orphan-inbound-link check (3
+  in-body inbound links, confirmed via `grep -c` across `blog/*/index.html`)
+  and a manual JSON-LD parse check confirming all three schema blocks parse,
+  with `FAQPage` carrying its full 6 questions. `seoTitle` is 50 characters,
+  `description` is 147, both confirmed programmatically via `node -e`
+  importing the module directly (the mandatory step per the 2026-09-23
+  lesson on non-unique edit anchors), rather than trusting the edit summary
+  or counting by eye. Word count landed at 1,312, under this file's usual
+  1,500 floor but in line with several recent runs (1,221 and 1,410 words)
+  that shipped without issue given the thinning keyword pool. Zero em
+  dashes anywhere in the new body, FAQ or metadata, confirmed via the same
+  script. Diffed every changed file for the hard-constraint strings (`299`,
+  `499`, `offers/`, the GTM/GA4/Pixel IDs) before committing and found
+  nothing beyond the expected "All 65 guides" to "All 66 guides" footer
+  bump on every page and the new article's own correctly-slugged inline-CTA
+  UTM line. Confirmed zero `utm_source` occurrences on the homepage.
+
+  Logged `top male modeling agency` (350 vol, KD 2) to the future-projects
+  note below, alongside the existing US-city and UK agency-directory
+  entries, since it is the same named-real-agencies content type and lift,
+  not a routine pick.
+
+  GSC access still unavailable this run (no service-account key or
+  `gsc-*` MCP tool present); substituted Ahrefs per the standing note.
+  Opened a PR for this run's branch and will merge once CI is green and
+  `mergeable_state` is `clean`, per the standing automerge authorisation,
+  unless this environment carries the same one-off merge restriction the
+  2026-09-21 run hit.
