@@ -6,6 +6,7 @@ const DATE = '2026-08-19';
 const DATE_UK = '2026-09-09';
 const DATE_NYC = '2026-09-23';
 const DATE_SUPERMODEL = '2026-09-24';
+const DATE_CANADA = '2026-09-25';
 
 export const gettingStarted = [
   {
@@ -87,7 +88,7 @@ export const gettingStarted = [
 <h2>Step 4: Build a Real Agency Shortlist</h2>
 <p>Not every agency, and not the nearest one. Agencies that run a board for your category, in a market you can physically reach for castings.</p>
 <p>Verify each one: does it earn commission rather than fees, can you trace its clients and campaigns, do the models on its board visibly work, does it have a real office? Our guides to <a href="../modeling-agencies-near-me/">finding a real agency</a> and <a href="../how-to-choose-a-modeling-agency/">choosing between agencies</a> cover the full checklist.</p>
-<p>If you are in Australia, our <a href="../modelling-agencies-australia/">Australian agency guide</a> maps the market city by city. If you are in the UK, our <a href="../how-to-become-a-model-in-uk/">guide to becoming a model in the UK</a> covers London's dominance of the market and the UK-specific rules on agency fees. If New York is your target market, our <a href="../how-to-become-a-model-in-nyc/">guide to becoming a model in NYC</a> covers agency geography, model apartments and the new state law protecting models there.</p>
+<p>If you are in Australia, our <a href="../modelling-agencies-australia/">Australian agency guide</a> maps the market city by city. If you are in the UK, our <a href="../how-to-become-a-model-in-uk/">guide to becoming a model in the UK</a> covers London's dominance of the market and the UK-specific rules on agency fees. If New York is your target market, our <a href="../how-to-become-a-model-in-nyc/">guide to becoming a model in NYC</a> covers agency geography, model apartments and the new state law protecting models there. If you are in Canada, our <a href="../how-to-become-a-model-in-canada/">guide to becoming a model in Canada</a> covers Toronto, Montreal and Vancouver and the province-by-province rules on agency fees.</p>
 
 <h2>Step 5: Submit Exactly as Asked</h2>
 <p>Every agency publishes a submission process. Follow it precisely. Send what is requested, in the format requested, to the address requested, and nothing extra.</p>
@@ -217,7 +218,7 @@ export const gettingStarted = [
 <p>You should never be out of pocket to be represented. Real early costs are casting travel, basic grooming and any training you choose — see <a href="../how-much-does-it-cost-to-become-a-model/">what it actually costs</a>.</p>
 
 <h2>Going Overseas</h2>
-<p>Plenty of Australian models eventually work in Asia, Europe or the US, usually through a placement arranged by their Australian agency with a partner agency abroad. That is the normal route, and it typically follows a period of consistent local work rather than preceding it. Build a book and a track record here first. London is one of the more common placements for Australian faces, and our <a href="../how-to-become-a-model-in-uk/">guide to becoming a model in the UK</a> covers what a British agency looks for and how UK contracts differ from what you signed at home.</p>
+<p>Plenty of Australian models eventually work in Asia, Europe, North America or elsewhere, usually through a placement arranged by their Australian agency with a partner agency abroad. That is the normal route, and it typically follows a period of consistent local work rather than preceding it. Build a book and a track record here first. London is one of the more common placements for Australian faces, and our <a href="../how-to-become-a-model-in-uk/">guide to becoming a model in the UK</a> covers what a British agency looks for and how UK contracts differ from what you signed at home. Our <a href="../how-to-become-a-model-in-canada/">guide to becoming a model in Canada</a> covers another English-language market with its own provincial rules, worth knowing if that is where a placement takes you.</p>
 
 <h2>What to Do This Week</h2>
 <p>Measure yourself, shoot your digitals, decide your board honestly, shortlist three or four Australian agencies that actually represent it, and submit exactly what they ask for.</p>
@@ -420,6 +421,108 @@ export const gettingStarted = [
 
 <h2>What to Do This Week</h2>
 <p>Measure yourself properly, shoot your digitals, decide your board honestly, shortlist three or four New York agencies that actually represent it, and submit exactly what they ask for.</p>
+<p>Then learn what happens inside a casting room, because that is what separates models who book once from models who get rebooked. Our free runway masterclass with Jack Bedwani, who has choreographed shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons of exactly that, and it costs nothing.</p>
+`,
+  },
+
+  {
+    slug: 'how-to-become-a-model-in-canada',
+    seoTitle: 'How to Become a Model in Canada: 2026 Guide',
+    description:
+      'How to become a model in Canada: Toronto, Montreal and Vancouver agencies, real provincial agency-fee rules, submissions, scams and Canadian model pay.',
+    headline: 'How to Become a Model in Canada',
+    category: 'Getting started',
+    image: 'how-to-become-a-model',
+    imageAlt: 'A new model photographed against a plain wall, digitals-style',
+    readTime: 11,
+    date: DATE_CANADA,
+    related: [
+      'how-to-become-a-model-in-uk',
+      'how-to-start-a-modeling-career',
+      'modeling-agencies-near-me',
+    ],
+    faq: [
+      {
+        q: 'How do you become a model in Canada?',
+        a: 'Work out which board you actually fit, measure yourself properly in centimetres, shoot clean unretouched digitals on your phone, shortlist Canadian agencies that represent your category in a city you can reach for castings, and submit exactly what each one asks for. Attend open calls where they run them. No legitimate step requires you to pay anyone before they find you work.',
+      },
+      {
+        q: 'How tall do you have to be to be a model in Canada?',
+        a: 'Canadian fashion and runway boards generally look for women from around 175cm and men from around 183cm, because sample garments are cut to fixed sizes. Commercial, curve, parts and classic boards have no meaningful height requirement, and commercial and catalogue work is where most working Canadian models actually earn their money.',
+      },
+      {
+        q: 'Can a Canadian modelling agency charge me a fee?',
+        a: 'It depends which province you are in, because Canada regulates talent agencies provincially rather than nationally. British Columbia licenses talent agencies outright and caps their total fees at 15% of what you actually earn from the work they book. Ontario has no equivalent licensing regime yet, though its government opened a public consultation in 2025 on introducing one. Whatever the province, a legitimate agency earns its money as a commission on work it actually books for you, not as a fee charged before any work exists.',
+      },
+      {
+        q: 'Which Canadian city is best to start modelling in?',
+        a: 'Toronto holds the largest and deepest agency market across every board. Montreal has its own distinct fashion and editorial culture and is a genuine second hub, historically strong in European-style fashion work. Vancouver leans commercial and benefits from the city\'s large film and TV production industry spilling into print and commercial casting. Start where the agencies that run your specific board actually are.',
+      },
+      {
+        q: 'Can you make a living as a model in Canada?',
+        a: 'Yes, though the Canadian market is smaller than the US or UK, and most working models earn the bulk of their income from commercial, catalogue and e-commerce bookings rather than fashion. A strong Canadian book is also a realistic route into the US market given the proximity and shared language, and many Canadian agencies maintain placement relationships with US agencies for exactly that reason.',
+      },
+    ],
+    body: `
+<p>Canada runs a smaller, more fragmented modelling industry than the US or UK, split across three real hubs and a patchwork of provincial rules that almost nobody explains clearly. Knowing the actual shape of the market, not the fashion-week trivia, is what actually gets you started.</p>
+<p>Our instructors are working agents, casting directors and runway producers, including several who have worked directly inside the Canadian market. This is the Canadian version of the process.</p>
+
+<h2>The Canadian Market in One Paragraph</h2>
+<p>Toronto is the largest market by far, home to the deepest agency bench across every board and most of the country's head-office representation. Montreal runs a genuinely distinct fashion and editorial scene, historically closer in sensibility to European fashion markets than to Toronto's commercial focus, and its French-language market has its own client base entirely. Vancouver is a smaller commercial market that benefits from the city's large film and television production industry, which pulls in print and commercial casting alongside it. Across all three, <b>commercial, catalogue and e-commerce work is where most working Canadian models actually earn their money</b>, the same pattern as every other market this site covers. Fashion is the visible layer, not the income layer.</p>
+
+<h2>Step 1: Find Your Board</h2>
+<ul>
+<li><b>Fashion and runway.</b> Women generally from around 175cm, men from around 183cm, driven by sample sizing rather than preference.</li>
+<li><b>Commercial.</b> The biggest board nationally by volume. Retail, banking, telecom, grocery and tourism campaigns. No meaningful height requirement.</li>
+<li><b>Curve and plus.</b> A real and growing board as Canadian retail size ranges have expanded.</li>
+<li><b>Parts.</b> Hands, feet, hair, skin.</li>
+<li><b>Kids and youth.</b> Active nationally, but licensed differently to adult work in some provinces. Ontario, for instance, requires 25% of a child performer's earnings above $2,000 on a project to be held in trust under its Protecting Child Performers Act, and other provinces run their own equivalent protections. Read our <a href="../child-modeling-agencies/">child modelling agency guide</a> before contacting anyone on your child's behalf.</li>
+<li><b>Classic.</b> Roughly 35 and up, consistently under-supplied relative to client demand.</li>
+</ul>
+
+<h2>Step 2: Measurements, in Centimetres</h2>
+<p>Canadian agencies work in metric. Height, bust or chest, waist, hips, dress or suit size, shoe size, hair and eye colour. Measure properly rather than estimating; agencies remeasure at the first meeting, and a discrepancy from what you submitted is noticed immediately.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-model-in-canada__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>Step 3: Digitals, Not a Photoshoot</h2>
+<p>Four to six photos on a phone, in daylight, against a plain wall. Front, side, back, one smiling, one neutral, plus a face close-up. No makeup, no filters, no retouching, hair down, fitted plain clothing.</p>
+<p>This costs nothing to produce. Anyone telling you a Canadian agency needs a professional portfolio before it will look at you is selling photography, not representation.</p>
+
+<h2>Step 4: Target the Right Agencies</h2>
+<p>Shortlist agencies that actually run your board, in a city you can reach for castings on short notice. Toronto has the deepest bench across every category; Montreal is the stronger call for fashion and editorial, especially if you can work comfortably in French as well as English; Vancouver leans commercial and benefits from spillover casting out of its production industry. Our guides to <a href="../modeling-agencies-near-me/">finding a real agency</a> and <a href="../how-to-choose-a-modeling-agency/">choosing between agencies</a> cover how to vet any of them: commission-based rather than fee-based as the default, traceable clients and campaigns, models on the board who visibly work, a real office you can find.</p>
+
+<h2>Step 5: Submit and Attend Open Calls</h2>
+<p>Follow each agency's submission instructions exactly, in the format it asks for. A surprising share of rejections here are administrative rather than aesthetic: a professional headshot sent when digitals were asked for, missing measurements, a cover email nobody actually reads. Then attend open calls where an agency runs them, still the most direct route into a room with a Canadian booker, typically over in two or three minutes. Expect a measurement, a photo against a wall, a couple of questions and "we'll be in touch", which is the format working as intended, not a rejection.</p>
+<p>Digital submissions from outside the city, or outside the country, are entirely normal now, and a video call before any travel is standard practice at most agencies. What actually requires local presence is testing and the day-to-day castings once you are on a board, which is why most working Canadian models either live near their agency's city or relocate once real interest is confirmed, not before.</p>
+
+<h2>How Agency Regulation Actually Works Here</h2>
+<p>Canada has no single national law covering modelling agencies. Regulation happens province by province, and the provinces genuinely differ, which is the detail most guides to this market skip entirely.</p>
+<p>British Columbia has the clearest framework: talent agencies must be licensed with the province, renewed annually, and the total fees a licensed agency can charge you are capped at 15% of the wages you actually earn from the work it books. Ontario, by contrast, has no equivalent licensing regime as of this writing, though its Ministry of Labour opened a public consultation in 2025 on introducing new protections for performers represented by talent agents, so this is a genuinely live area of reform rather than settled law. Quebec runs its own distinct framework for artists' professional status that predates either. Whichever province you are in, the rule that holds everywhere is simple: a legitimate agency earns its money as a commission on work it actually books for you, never as a fee charged before any work exists.</p>
+
+<h2>Scams Specific to This Market</h2>
+<ul>
+<li><b>An "agency" that is really a photography studio.</b> You pay several hundred dollars for a portfolio, get added to a website, and nothing follows. Often technically legal, and worthless either way.</li>
+<li><b>A compulsory in-house photographer.</b> Told you must shoot with one specific photographer, at your own cost, before anything else happens. Not a legitimate part of representation anywhere in the country.</li>
+<li><b>Scouted by DM with a hard close.</b> Real scouting happens on Instagram and TikTok, but a genuine scout lets you go home, look them up, and verify them through the agency's own published number.</li>
+<li><b>Paid "model search" competitions</b> with entry fees and vague prizes, more common than they should be given how small the real Canadian market is.</li>
+</ul>
+<p>If an agency operates in British Columbia and cannot show you its licence, or gets vague about how its fees are calculated, treat that as your answer.</p>
+
+<h2>How Money Works Here</h2>
+<p>A Canadian booking is quoted as a day or session rate plus a usage fee covering where the images run and for how long, the same structure covered in more depth in our <a href="../how-to-get-paid-as-a-model/">guide to how models actually get paid</a>. Your agency deducts its commission from your side and typically charges the client a separate fee on top. Almost every working Canadian model is self-employed rather than an agency employee, reporting business income on a T2125 alongside your personal tax return, registering for GST/HST once your modelling income passes $30,000 in a year, and paying both the employee and employer portions of CPP as a self-employed person. Your agency does not do this for you; keep every remittance statement it sends you as your actual income record.</p>
+
+<h2>Working Beyond Canada</h2>
+<p>A strong Canadian book, especially one built in Toronto or Montreal, is a genuine and realistic route into the US market given the shared language and proximity, usually arranged as a placement by your Canadian agency with a partner agency across the border rather than something you organise cold yourself. Our <a href="../how-to-become-a-model-in-nyc/">guide to becoming a model in NYC</a> covers what a New York agency looks for and how its rules differ from what you would sign at home.</p>
+<p>Working across the border for pay does mean actual paperwork, not just a plane ticket: a Canadian model booked for paid work in the US typically needs the right visa category for creative or performance work, arranged through the US client or agency rather than something a model applies for independently, and the requirements change more often than agency contracts do. Treat your own agency, not a forum thread, as the source of truth on what a specific booking actually requires before you commit to travelling for it.</p>
+
+<h2>What to Do This Week</h2>
+<p>Measure yourself properly, shoot your digitals, decide your board honestly, shortlist three or four Canadian agencies that actually represent it, and submit exactly what they ask for.</p>
 <p>Then learn what happens inside a casting room, because that is what separates models who book once from models who get rebooked. Our free runway masterclass with Jack Bedwani, who has choreographed shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons of exactly that, and it costs nothing.</p>
 `,
   },

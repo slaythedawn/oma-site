@@ -58,7 +58,7 @@ guessed). Apply the same standard going forward: any new or edited
 article touching a jurisdiction-dependent rule gets real, checked detail
 for all three markets, or it doesn't ship.
 
-## Live (66 articles)
+## Live (67 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -128,6 +128,7 @@ for all three markets, or it doesn't ship.
 | how-to-become-a-lip-model | lip model | 100 | 0 | 2026-09-21 |
 | how-to-become-a-model-in-nyc | how to become a model in nyc | 100 | 4 | 2026-09-23 |
 | how-to-become-a-supermodel | how to become a supermodel | 150 | 0 | 2026-09-24 |
+| how-to-become-a-model-in-canada | how to become a model in canada | 100 (CA) | 0 | 2026-09-25 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -222,6 +223,11 @@ the existing section, not a new URL.
 | how to become an extra | 150 | 11 | **Checked 2026-09-06, wrong audience.** Clean and uncovered, but the intent is background/film-extra work, not modeling — the same off-ICP call as the dropped `brand ambassador` cluster. Dropped. |
 | modeling agencies los angeles / new york / chicago / miami / atlanta | 700 / 200 / 200 / 100 / 100 | 49 / 45 / 38 / 28 / 45 | **Checked 2026-09-06, real opportunity but a bigger lift than a normal weekly pick.** Real volume, but KD sits well above this site's usual floor (most live articles are KD 0-10; `modeling-schools` at KD 35 is the current outlier), and a credible city agency-directory page needs verified, named local agencies researched per city, not the personal-narrative format this site otherwise uses. Worth a dedicated future project (start with LA, highest volume) rather than a same-run pick — flagging here so it isn't lost, not ruling it out. |
 | top male modeling agency | 350 | 2 | **Checked 2026-09-24, same bigger-lift call as the city directories above, not cannibalisation.** Low KD looks tempting, but `serp-overview` shows the actual SERP is "top 10 named elite agencies" listicles requiring verified, named world-famous agencies (the Elite/IMG tier), the same named-real-companies content type and research burden already deferred for the US-city and UK/London agency-directory keywords. Not a routine pick; fold into that same future project if it ever gets picked up. |
+| how to become a model for target | 60 | 0 | **Checked 2026-09-25, clean on cannibalisation but a needs-verification item, not a routine pick.** Real competitor precedent exists (Backstage, AllCasting and Project Casting all publish this exact article), but a `WebSearch` pass surfaced a named third-party "Target Casting Agency" Instagram account alongside Target-the-retailer's own modelling roster, a real risk of conflating the two in print. Low volume besides. If ever written, verify precisely which company does what before naming either. |
+| what are the steps to start a modeling career | 2600 | 5 | **Checked 2026-09-25, not new-article material.** Shares its exact parent topic with the already-live `how-to-start-a-modeling-career`. A near-miss-optimisation candidate for that existing page once GSC access exists (check whether its FAQ already answers this phrasing directly), not a new URL. |
+| modeling gigs near me | 450 | 4 | **Checked 2026-09-25, wrong content type, not cannibalisation.** Good numbers, but `serp-overview` shows the entire top 10 is live local casting-call aggregators and city-specific Indeed/Backstage/Facebook-group listings — the same local-directory search intent this site cannot credibly serve with an evergreen guide, no different in kind from the deferred city agency-directory keywords above. Do not write. |
+| model mayhem | 8200 | 4 | **Checked 2026-09-25, purely navigational, wrong content type.** Despite being the single highest-volume result surfaced all run, every SERP result is the actual modelmayhem.com site, its app-store listings or its own social accounts — a named competing platform's own branded query, the same call already made for `elite model` and `ai model agency`. Do not write, not a future-project candidate either. |
+| how to become a makeup model | 80 | 0 | **Checked 2026-09-25, cannibalised.** `how-to-become-a-beauty-model`'s own FAQ already states beauty work is "commercial work booked for skincare, makeup, haircare, fragrance and personal-care brands," substantively the same job this query wants. Do not write a separate page. |
 | how to become a hand model / foot model / male model / fitness model / plus-size model / petite model / freelance model / commercial model / fit model | — | — | **Specialisms cluster's personal how-to set is now complete three times over (adding fit 2026-09-07).** Before writing another niche "how to become a [X] model" entry, check this list and the SERP/volume notes above (print, swimsuit, lingerie under 100 vol; teen and "how old" likely cannibalised by `how-to-become-a-model-at-16`) — the remaining thin candidates are combine-into-a-broader-piece material, not individual articles, per the 2026-09-05 note. |
 | how to become a fit model | 70 | 0 | **Shipped 2026-09-07** — see the Live table. |
 | fit model (bare) | 800 | 0 | **Checked 2026-09-07, wrong sense — do not target.** High volume looks tempting, but the SERP is dominated by the IFBB bodybuilding/bikini competition "Fit Model" division (Wikipedia, NPC News, Instagram), a completely different meaning from garment-fitting fit modeling. `how to become a fit model` (70 vol) carries the correct sense and a clean, winnable SERP instead; that is the keyword this site targeted, not the bare term. |
@@ -2425,6 +2431,155 @@ the existing section, not a new URL.
   note below, alongside the existing US-city and UK agency-directory
   entries, since it is the same named-real-agencies content type and lift,
   not a routine pick.
+
+  GSC access still unavailable this run (no service-account key or
+  `gsc-*` MCP tool present); substituted Ahrefs per the standing note.
+  Opened a PR for this run's branch and will merge once CI is green and
+  `mergeable_state` is `clean`, per the standing automerge authorisation,
+  unless this environment carries the same one-off merge restriction the
+  2026-09-21 run hit.
+- **2026-09-25 run.** Fired from the same stale 18 August chat-routine
+  handover as every prior run; this file and `CONTRIBUTING.md` remain the
+  authoritative process. `git fetch origin main` confirmed the designated
+  session branch matched `origin/main` exactly (PR #45, the supermodel
+  article, already merged), so worked directly on it. `mcp__github__list_pull_requests`
+  (state `open`) returned none. `list_branches` returned the same long tail
+  of stale branches as the 2026-09-24 run plus several new ones this run
+  had not seen before (`claude/charming-tesla-3y1oe5`, `-6nxfz5`, `-10q7bk`,
+  `-28bqy9`, `-33dzj7`, `-66w08h`, `-c4qeku`, `-cjjm7a`, `-dpu2um`,
+  `-g2dfdj`, `-io1zy3`, `-kosmeq`, `-lcpv3n`, `-psb5a8`, `-vj69vm`,
+  `-vlo5oo`, `-xs4alx`, `credential-reframe-and-lesson-count`). Checked
+  every one of them with `git log origin/main..origin/<branch>`: the ones
+  with any commits ahead all matched an already-shipped, already-merged
+  article (beauty, promotional, face, UK market, showroom, mature, UGC,
+  print, plus a nav-fix branch), confirming each is a stale duplicate, not
+  new work in flight. Nothing collided.
+
+  This run's keyword search was unusually expensive and mostly unproductive,
+  worth recording in full because it establishes just how thin this vertical
+  has gotten. Roughly a dozen `keywords-explorer-overview`/`matching-terms`
+  calls across niche-model variants (swimwear, activewear, jewelry, bra,
+  maternity, hijabi, eyewear, nail, eyelash, wig, skincare, makeup),
+  process/business terms (agency application, test shoot, union, SAG,
+  becoming a scout), age-related terms (too old to model, discovered as a
+  model, break into modeling), and a Canadian-market check turned up almost
+  nothing usable. Specific dead ends worth logging so they are not
+  re-fished: `how to become a makeup model` (80 vol, KD 0) looked clean at
+  first but is cannibalised — `how-to-become-a-beauty-model`'s own FAQ
+  already states beauty work is "commercial work booked for skincare,
+  makeup, haircare, fragrance and personal-care brands," which is
+  substantively the same job. `modeling gigs near me` (450 vol, KD 4,
+  genuinely good numbers) checked out wrong content type, not cannibalised:
+  `serp-overview` showed the entire top 10 is live local casting-call
+  aggregators and city-specific Indeed/Backstage/Facebook-group listings,
+  the same local-directory intent this site cannot credibly serve with an
+  evergreen guide, no different in kind from the already-deferred city
+  agency-directory keywords. `model mayhem` (8,200 vol, KD 4, the single
+  highest-volume result of the whole run) is purely navigational: every
+  result is the actual modelmayhem.com site, its app-store listings or its
+  own social accounts, a named competing platform's own branded query, the
+  same wrong-content-type call already made for `elite model` and `ai model
+  agency`. `how to become a model for target` (60 vol, KD 0) checked out
+  clean on cannibalisation and has real competitor precedent (Backstage,
+  AllCasting and Project Casting all publish this exact article), but a
+  `WebSearch` pass to verify the actual casting mechanics surfaced a
+  genuine complication: some of the citable sources describe a distinctly
+  named "Target Casting Agency" Instagram account alongside Target-the-
+  retailer's own modelling roster, a real risk of conflating a named
+  third-party company with the retailer itself in print. Combined with the
+  low volume, this is a bigger-lift, needs-careful-verification item, not a
+  routine pick — logged to the shortlist below rather than shipped.
+  `what are the steps to start a modeling career` (2,600 vol, KD 5) shares
+  its exact parent topic with the already-live `how-to-start-a-modeling-career`,
+  a near-miss-optimisation candidate for that existing page once GSC access
+  exists, not new-article material.
+
+  The keyword that shipped, `how to become a model in canada` (100 vol
+  measured in the CA market, KD 0, its own parent topic distinct from the
+  generic `how to become a model` cluster), surfaced from checking the
+  obvious remaining gap in this site's own successful pattern: US, UK and
+  Australia market guides are all live, Canada never got one. Confirmed
+  clean via a full-repo grep (zero existing mentions of Canada, Toronto,
+  Montreal or Vancouver anywhere) and via `serp-overview`, which showed the
+  same winnable shape that made the UK and Australia guides work: real
+  Canadian modelling agencies' own "become a model" application pages at
+  low-to-mid domain rating, Indeed's generic career-advice page, and one
+  small blog listicle, no modelling-course competitor anywhere in the top
+  10.
+
+  Wrote `how-to-become-a-model-in-canada` in `content/articles/getting-started.mjs`,
+  matching the UK and Australia guides' structure exactly (board selection,
+  metric measurements, digitals, agency targeting by city, submission and
+  open calls, a dedicated regulation section, scams, money and tax, a
+  closing "what to do this week") per the market-parity precedent, rather
+  than inventing a new format. The Canada-specific content is genuine, not
+  filler, and was checked against live sources before writing, not assumed:
+  agency geography across three real hubs (Toronto as the largest market,
+  Montreal's distinct fashion/French-market culture, Vancouver's commercial
+  market benefiting from film/TV production spillover); that Canada
+  regulates talent agencies provincially rather than nationally, with
+  British Columbia's actual licensing regime and 15%-of-earnings fee cap
+  (verified via BC government sources) as the clearest example and
+  Ontario's 2025 public consultation on introducing equivalent protections
+  (verified via a law-firm/Mondaq source) as evidence this is live, unsettled
+  policy rather than something to overstate as settled law; and Ontario's
+  Protecting Child Performers Act trust-account requirement (25% of
+  earnings over $2,000 per project, verified via a Law Times source) as a
+  brief, appropriately hedged mention in the kids-and-youth board bullet
+  rather than a deep dive, consistent with how the UK and Australia guides
+  treat the child-modelling topic (a pointer to the dedicated
+  `child-modeling-agencies` guide, not an attempt to cover it in depth
+  here). Deliberately left Quebec's separate artists'-status framework as a
+  one-sentence acknowledgement rather than asserting specifics not strongly
+  sourced, and phrased the US work-visa paragraph in "your agency is the
+  source of truth" terms rather than naming a specific visa category not
+  independently verified.
+
+  Cross-linked in-body from three places, one more than the minimum:
+  `how-to-start-a-modeling-career`'s existing Step 4 paragraph (which
+  already listed the AU/UK/NYC guides), extended with a fourth sentence for
+  Canada; `how-to-become-a-model-in-australia`'s "Going Overseas" section,
+  extended to mention the new guide as another English-language market with
+  its own provincial rules; and a new paragraph added to
+  `modeling-agencies-near-me` (`agencies-us.mjs`) pointing non-US readers at
+  the UK, Australia and Canada guides together, which also strengthens
+  those two existing pages' inbound-link counts as a side effect. Added the
+  slug to the "Start here" cluster in `scripts/build-index-and-sitemap.mjs`,
+  directly after `how-to-become-a-model-in-nyc`.
+
+  Skipped a Higgsfield generation attempt, per the standing `cloudfront.net`
+  403 block on this session's network policy logged on every run since
+  2026-08-25 and not re-tested since it was last reconfirmed the previous
+  run — reused `image: 'how-to-become-a-model'` (the plain-wall digitals
+  portrait already used for the UK and Australia guides), continuing the
+  same image across all three Commonwealth-adjacent market guides as a
+  deliberate, consistent visual identity for the cluster rather than an
+  arbitrary reuse, with a fresh `imageAlt` matching the UK guide's wording.
+
+  `npm run build && npm run check` and `npx html-validate@8` on all new and
+  edited pages pass clean, including the orphan-inbound-link check (3
+  in-body inbound links, confirmed via `check-site.mjs`'s own inbound-link
+  count) and a manual JSON-LD parse check confirming all three schema
+  blocks parse, with `FAQPage` carrying its full 5 questions. `seoTitle` is
+  43 characters, `description` is 151, both within limit. Word count landed
+  at 1,463 after two rounds of expansion from an initial 1,253-word draft,
+  brought up to this file's usual floor rather than shipped thin. One em
+  dash slipped into the first draft of the open-calls paragraph despite the
+  no-em-dash rule; caught by grepping the built HTML for the literal U+2014
+  character before committing (per the standing lesson from the 2026-09-23
+  run) and rewritten with a comma. Diffed every changed file for the
+  hard-constraint strings (`299`, `499`, `offers/`, the GTM/GA4/Pixel IDs)
+  before committing and found nothing beyond the expected "All 66 guides"
+  to "All 67 guides" footer bump on every page and the new article's own
+  correctly-slugged inline-CTA UTM line. Confirmed zero `utm_source`
+  occurrences on the homepage.
+
+  Logged `how to become a model for target` (60 vol, KD 0) to the
+  future-projects note below as a needs-verification item, and confirmed
+  `what are the steps to start a modeling career` (2,600 vol, KD 5) as a
+  near-miss-optimisation candidate for the existing
+  `how-to-start-a-modeling-career` page once GSC access exists, not new-
+  article material — both flagged rather than acted on this run.
 
   GSC access still unavailable this run (no service-account key or
   `gsc-*` MCP tool present); substituted Ahrefs per the standing note.
