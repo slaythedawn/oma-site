@@ -58,7 +58,7 @@ guessed). Apply the same standard going forward: any new or edited
 article touching a jurisdiction-dependent rule gets real, checked detail
 for all three markets, or it doesn't ship.
 
-## Live (67 articles)
+## Live (68 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -129,6 +129,7 @@ for all three markets, or it doesn't ship.
 | how-to-become-a-model-in-nyc | how to become a model in nyc | 100 | 4 | 2026-09-23 |
 | how-to-become-a-supermodel | how to become a supermodel | 150 | 0 | 2026-09-24 |
 | how-to-become-a-model-in-canada | how to become a model in canada | 100 (CA) | 0 | 2026-09-25 |
+| how-to-become-a-model-for-clothing-brands | how to become a model for clothing brands / how to become a model for brands | 150 + 150 | 1 / 3 | 2026-09-26 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -2580,6 +2581,134 @@ the existing section, not a new URL.
   near-miss-optimisation candidate for the existing
   `how-to-start-a-modeling-career` page once GSC access exists, not new-
   article material — both flagged rather than acted on this run.
+
+  GSC access still unavailable this run (no service-account key or
+  `gsc-*` MCP tool present); substituted Ahrefs per the standing note.
+  Opened a PR for this run's branch and will merge once CI is green and
+  `mergeable_state` is `clean`, per the standing automerge authorisation,
+  unless this environment carries the same one-off merge restriction the
+  2026-09-21 run hit.
+- **2026-09-26 run.** Fired from the same stale 18 August chat-routine
+  handover as every prior run; this file and `CONTRIBUTING.md` remain the
+  authoritative process. `git fetch origin main` confirmed the designated
+  session branch matched `origin/main` exactly (PR #46, the Canada article,
+  already merged), so worked directly on it. `mcp__github__list_pull_requests`
+  (state `open`) returned none. `list_branches` returned the same long tail of
+  stale branches as prior runs plus two not previously logged
+  (`claude/charming-tesla-65zhbk`, `-79j4o5`) — checked both with `git log
+  origin/main..origin/<branch>`, both came back empty (identical to `main`,
+  zero commits ahead), so nothing collided.
+
+  Keyword research started with brand-neutral market gaps (a Canada-style
+  "how to become a model in new zealand/ireland/south africa/singapore/dubai/
+  germany/india/philippines" scan) and a thin niche-variant batch (swimwear,
+  bra, jewelry, shoe, parts, body double, maternity, bikini), all of which
+  came back at or near zero volume, consistent with the "this vertical is
+  fished out" pattern logged on 2026-09-25. Broader `become a model` and
+  `modeling career` matching-terms scans mostly returned already-shipped
+  near-duplicates or celebrity-name queries (Adriana Lima, Hailey Bieber,
+  Melania Trump and others' "modeling career" as a biography query, not a
+  how-to one) with no real remaining gap.
+
+  The keyword that shipped, `how to become a model for clothing brands`
+  (150 vol, KD 1, parent topic of its own; `how to become a model for
+  brands` at 150 vol, KD 3, shares the same parent topic), surfaced from the
+  same `become a model` scan as a genuinely different angle: a cluster of
+  brand-specific variants with real if modest individual volume (`how to
+  become a model for target` 60, `...for shein` 40, `...for lululemon` 40,
+  `...for nike` 40, `...for fashion nova` 30, `...for hollister` 20).
+  `serp-overview` on the parent term and on `how to become a model for shein`
+  and `...for target` specifically confirmed a genuine, established
+  career-education content genre, not brand-ambassador or influencer
+  content: Backstage and StarNow both publish dedicated "how to become a
+  model for [brand]" guides for Shein, Lululemon and Target individually, a
+  `WebSearch` pass corroborated the same, and the SERP carries no
+  modeling-course competitor. A full-repo grep for "clothing brand," "brand
+  model," Shein, Fashion Nova, Lululemon, Hollister and "brand ambassador"
+  confirmed this angle is genuinely uncovered — the existing
+  `ecommerce-modeling` article covers a narrower, distinct job (a retailer's
+  own product-listing photography) rather than going direct to a named
+  consumer brand for its broader marketing, and the previously-dropped
+  `brand ambassador` cluster (2026-09-02, wrong audience) is retail/campus
+  discount-code programs, a different intent than this genre's actual
+  casting-for-photography content, confirmed again via the SERP checks
+  above rather than assumed from the shared word "brand."
+
+  One verification finding shaped the piece directly. The 2026-09-25 run had
+  flagged `how to become a model for target` itself as a needs-verification
+  item because a `WebSearch` pass surfaced a distinctly named "Target
+  Casting Agency" Instagram account alongside Target-the-retailer's own
+  modelling roster — a real risk of conflating the two in print. This run's
+  own `WebSearch` pass confirmed it precisely: Target Casting Agency is a
+  Cairo-based talent agency with no connection to the US retailer at all,
+  sharing only the name. Rather than writing a single-brand Target deep dive
+  (the bigger-lift, needs-careful-verification path already flagged),
+  writing the general parent-topic article sidesteps that risk while still
+  using the verified fact as genuine insider value: a dedicated "One Real
+  Trap Worth Knowing About" section names the Target Casting Agency mix-up
+  explicitly and correctly, as an example of the general pattern (a familiar
+  brand name does not guarantee you have found that brand), not as an
+  unverified claim about either company. No specific per-brand pay figures
+  or application mechanics were asserted anywhere in the piece, since the
+  only figures surfaced (a ZipRecruiter scraped hourly-rate range) were not
+  reliable enough to cite, consistent with the site's no-fabricated-
+  statistics rule.
+
+  Wrote `how-to-become-a-model-for-clothing-brands` in
+  `content/articles/types-of-work.mjs`, alongside `ecommerce-modeling`,
+  `promotional-modeling` and `stock-photo-modeling` (the "Castings & work"
+  cluster's category-explainer articles), matching their exact structure
+  (what the job actually is, how it differs from adjacent categories
+  already covered on the site, what gets you booked, objection-handling,
+  a numbered how-to-get-in close, a closing short version) rather than
+  inventing a new format. Content explains going direct to a brand as its
+  own route distinct from both agency representation and ecommerce
+  modeling specifically, where these casting calls actually show up (a
+  brand's own careers page, its verified social accounts, established
+  casting platforms), what actually gets you booked, the Target Casting
+  Agency trap covered above, and closes with a practical five-step
+  how-to-get-in list.
+
+  Cross-linked in-body from three places, one more than the minimum:
+  `ecommerce-modeling`'s existing beginner-accessibility paragraph in
+  `types-of-work.mjs` (same file), extended with a sentence distinguishing
+  the new guide's broader direct-to-brand route from ecommerce's
+  product-page-specific one; `modeling-jobs`'s "Catalogue and e-commerce"
+  category section in `jobs.mjs`, extended with a sentence on the
+  no-agency-required version of this work; and the hand-written, original-16
+  `how-to-become-a-model-with-no-experience/index.html`'s "Local and
+  small-scale work" paragraph, edited directly per `CONTRIBUTING.md`'s
+  hand-written-article rule, extended to point beginners at bigger
+  recognizable-brand direct casting as the same accessible pattern at
+  larger scale. Added the slug to the "Castings & work" cluster in
+  `scripts/build-index-and-sitemap.mjs`, directly after `stock-photo-modeling`.
+
+  Skipped a Higgsfield generation attempt, per the standing `cloudfront.net`
+  403 block on this session's network policy logged on every run since
+  2026-08-25 and not re-tested since it was last reconfirmed — reused
+  `image: 'how-to-become-a-model-with-no-experience'` (the plain-wall phone-
+  digital shot, already reused four times, most recently for
+  `stock-photo-modeling`), a literal, honest fit for an article whose whole
+  premise is a simple digital submitted straight to a brand, with a fresh
+  `imageAlt`.
+
+  `npm run build && npm run check` and `npx html-validate@8` on all new and
+  edited pages pass clean, including the orphan-inbound-link check (3
+  in-body inbound links, confirmed via `grep -rl` across `blog/*/index.html`)
+  and a manual JSON-LD parse check confirming all three schema blocks parse,
+  with `FAQPage` carrying its full 6 questions. `seoTitle` is 41 characters,
+  `description` is 156, both within limit. Word count landed at 1,431 after
+  adding a "Where These Casting Calls Actually Show Up" section to an
+  initial 1,302-word draft, brought closer to this file's usual floor rather
+  than shipped thin. Checked the built HTML for the literal U+2014 character
+  before committing per the standing lesson from the 2026-09-23 run; the
+  only hits were in the shared generated nav/footer boilerplate ("Enrol —
+  $299"), not in this run's own prose, so no em dash was introduced. Diffed
+  every changed file for the hard-constraint strings (`299`, `499`,
+  `offers/`, the GTM/GA4/Pixel IDs) before committing and found nothing
+  beyond the expected "All 67 guides" to "All 68 guides" footer bump on
+  every page and the new article's own correctly-slugged inline-CTA UTM
+  line. Confirmed zero `utm_source` occurrences on the homepage.
 
   GSC access still unavailable this run (no service-account key or
   `gsc-*` MCP tool present); substituted Ahrefs per the standing note.
