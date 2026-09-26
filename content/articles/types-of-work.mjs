@@ -6,6 +6,7 @@ const DATE = '2026-08-20';
 const DATE_ECOMMERCE = '2026-09-10';
 const DATE_PROMOTIONAL = '2026-09-15';
 const DATE_STOCK_PHOTO = '2026-09-19';
+const DATE_BRAND_DIRECT = '2026-09-26';
 
 export const typesOfWork = [
   {
@@ -517,7 +518,7 @@ export const typesOfWork = [
 
 <h2>Agencies vs. Going Direct</h2>
 <p>You do not need a signing to start. Small and mid-size online retailers cast directly through their own social media, a casting platform, or a studio they book repeatedly, without an agency involved at all. An agency's commercial or catalogue board adds access to bigger retailers and marketplace sellers running steady, ongoing volume, worth pursuing once you have a few real bookings and honest digitals to submit. See our guide to <a href="../modeling-jobs/">where modeling work actually comes from</a> for how ecommerce fits alongside the rest of the industry's job sources.</p>
-<p>This is also one of the more realistic starting points for someone with no modeling background at all. Our guide for <a href="../how-to-become-a-model-with-no-experience/">getting started with no experience</a> points beginners toward accessible commercial work first, and ecommerce is one of the most accessible lanes inside it.</p>
+<p>This is also one of the more realistic starting points for someone with no modeling background at all. Our guide for <a href="../how-to-become-a-model-with-no-experience/">getting started with no experience</a> points beginners toward accessible commercial work first, and ecommerce is one of the most accessible lanes inside it. If you would rather go straight to a specific, recognizable brand than a general retailer's product page, our guide to <a href="../how-to-become-a-model-for-clothing-brands/">modeling for a clothing brand directly</a> covers that route on its own.</p>
 
 <h2>Reasons People Talk Themselves Out of Submitting, and Why They're Wrong</h2>
 <ul>
@@ -735,6 +736,104 @@ export const typesOfWork = [
 
 <h2>The Short Version</h2>
 <p>Stock photo modeling is being photographed for a library that resells the image to many unrelated buyers afterward, rather than for one brand's own campaign or product page. It books on a natural, repeatable presence and a relatable everyday look rather than a distinctive one, pays a flat rate per session rather than an ongoing royalty in almost every case, and is one of the more accessible ways for a beginner with no agency and no portfolio to get real, paid, professional experience in front of a camera.</p>
+`,
+  },
+  {
+    slug: 'how-to-become-a-model-for-clothing-brands',
+    seoTitle: 'How to Become a Model for Clothing Brands',
+    description:
+      'How brands like Shein, Target and Lululemon cast models directly, no agency required: how it actually works, what gets you booked, and a real trap to avoid.',
+    headline: 'How to Become a Model for Clothing Brands: Going Direct, No Agency Required',
+    category: 'Types of work',
+    image: 'how-to-become-a-model-with-no-experience',
+    imageAlt: 'An honest phone digital submitted against a plain wall in daylight, the exact simple photo a brand\'s own casting inbox actually wants',
+    readTime: 9,
+    date: DATE_BRAND_DIRECT,
+    related: ['ecommerce-modeling', 'modeling-jobs', 'how-to-become-a-model-with-no-experience'],
+    faq: [
+      {
+        q: 'What does it mean to model for a clothing brand directly?',
+        a: 'It means submitting straight to the brand itself, a retailer, an apparel label or an activewear or footwear company, rather than going through a modeling agency first. Plenty of well-known consumer brands run their own casting for social content, campaign imagery and their own website, posted on the brand\'s own careers or casting page, through an established casting platform, or as an open call on the brand\'s own social accounts.',
+      },
+      {
+        q: 'How is this different from working through a modeling agency?',
+        a: 'An agency represents you across many potential clients and negotiates on your behalf, taking a commission from what you book. Going direct means applying straight to one brand\'s own casting for its own specific work, with no agency and no commission in between. It is faster to start and needs no signing, but it is also narrower: you are submitting for that one brand\'s specific needs, not building a general modeling career across many clients at once.',
+      },
+      {
+        q: 'How is this different from ecommerce modeling?',
+        a: 'Our guide to <a href="../ecommerce-modeling/">ecommerce modeling</a> covers a narrower, specific job: the product-page photo shot for a retailer\'s own online store or marketplace listing. Modeling directly for a brand can include that, but also covers social content, campaign imagery and open casting calls a brand runs for its own broader marketing, not just its product pages. Ecommerce modeling describes a type of shoot; going direct to a brand describes how you got booked for it.',
+      },
+      {
+        q: 'Do you need experience or an agency to start?',
+        a: 'No. Most brand-direct castings are looking for honest, current photos and basic information, height, measurements or clothing size, location and availability, not a modeling portfolio or agency history. It is one of the more accessible ways to get a first real, paid credit with a recognizable brand name attached.',
+      },
+      {
+        q: 'What should I watch out for before submitting?',
+        a: 'Confirm you are actually on the brand\'s own domain, its verified social account, or an established casting platform, not a look-alike account trading on a familiar name. A real, working example: a Cairo-based talent agency called Target Casting Agency shares its name with the US retailer Target but has no connection to it at all, a mix-up that is easy to make from a search result alone. A legitimate brand casting also never asks for payment, a deposit or your bank details just to be considered.',
+      },
+      {
+        q: 'What actually gets you booked?',
+        a: 'Honest, current measurements or clothing sizes that match what the brand actually stocks, since a mismatch is the single fastest way to be passed over regardless of how you photograph. Simple, unstyled phone digitals in good daylight. A look and presence consistent with the brand\'s own customer base, since most consumer brands cast a wide, relatable range rather than one narrow fashion-board standard. And a fast, reliable reply once a casting call goes out, since brand-direct castings often move quickly and fill from whoever responds first with what was asked for.',
+      },
+    ],
+    body: `
+<p>Search "how to become a model for" any well-known clothing brand and you will find a genuine, established genre of advice: sites like Backstage and StarNow publish dedicated guides for Shein, Lululemon, Target and others, each treating it as a real, distinct path in rather than a variation on general modeling advice. It is real, and it is worth understanding on its own terms rather than assuming it works the same way as signing with an agency.</p>
+<p>Our instructors at Online Model Academy include agents and bookers who place models with brands directly, outside the traditional agency system entirely. This is how that path actually works, and how to use it.</p>
+
+<h2>What "Modeling for a Brand" Actually Means</h2>
+<p>A large and growing number of consumer brands, apparel labels, footwear and activewear companies, and big-box retailers, cast some or all of their own modeling talent directly, rather than booking exclusively through agencies. This can mean an open casting call posted on the brand's own social accounts, a standing "become a model" page inside the brand's careers site, or a listing on an established casting platform that a brand or its casting team runs itself. The common thread is simple: you are submitting straight to the company whose product you would be wearing, not to a modeling agency that then pitches you to many possible clients.</p>
+<p>This is a meaningfully different job from anything requiring agency representation first. It does not replace an agency career, and it is not a shortcut into one, but it is a genuine, standalone way to get real, paid, recognizable work.</p>
+
+<h2>How It Differs From an Agency Path, and From Ecommerce Modeling</h2>
+<h3>One brand, not many clients</h3>
+<p>An agency represents you across a roster of potential clients and takes a commission on what you book, in exchange for pitching you where an agent thinks you fit. Going direct skips that entirely: you are submitting for one specific brand's specific need, with no commission and no agent negotiating on your behalf. It is faster and needs no signing, but it is also narrower in scope than building a general modeling career.</p>
+<h3>Broader than a product-page shoot</h3>
+<p>Our guide to <a href="../ecommerce-modeling/">ecommerce modeling</a> covers a specific job: the on-model photo for a retailer's own website or marketplace listing. Modeling directly for a brand can include that same kind of shoot, but it also covers the brand's social content, seasonal campaign imagery and in-person open calls, work that is broader than a single product listing. Ecommerce modeling is a type of shoot; going direct to a brand is a route in that can lead to several different kinds of shoots for the same company.</p>
+<h3>Cast on fit with the brand's actual customer, not a fashion-board standard</h3>
+<p>A traditional agency board often screens against fairly narrow height and proportion standards. A consumer brand casting its own models is usually trying to represent the actual range of people who buy its clothes, so the net is often wider on age, body type, height and background than a fashion-agency board would apply.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-model-for-clothing-brands__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>What Actually Gets You Booked</h2>
+<h3>Measurements or sizing that match what the brand actually stocks</h3>
+<p>A brand casting its own models is shooting its own actual sample garments, so a mismatch between your real measurements and what the brand carries is the single fastest way to be passed over, regardless of how well you photograph. Send honest, current numbers rather than the ones you wish were true.</p>
+<h3>Simple, honest digitals</h3>
+<p>Four to six phone photos, daylight, plain background, no filters or heavy retouching: front, side, one smiling, one neutral, full length. The same standard almost every direct casting asks for. Our full <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers the shot list in more depth if you want one on hand anyway.</p>
+<h3>A genuine fit with the brand's own customer</h3>
+<p>Most consumer brands are deliberately casting a wide, relatable range rather than one narrow ideal, because the whole point is representing the actual people who buy the product. Look at the brand's own recent campaigns and social content before you submit, and be honest with yourself about whether your look, style and energy actually match what that brand puts out.</p>
+<h3>Speed and reliability once a call goes out</h3>
+<p>Brand-direct castings, especially ones posted on social media, often move fast and fill from whoever responds first with exactly what was asked for. A complete, on-brief submission sent quickly beats a more polished one sent late.</p>
+
+<h2>Where These Casting Calls Actually Show Up</h2>
+<p>Three places account for most of it. A brand's own careers page sometimes carries a standing "become a model" or "model with us" link, separate from its regular job listings. The brand's own verified social accounts, particularly on Instagram and TikTok, are where most open calls actually get posted, often with a short deadline and a specific ask (a certain size range, a certain look, a certain shoot date). And established casting platforms that professional productions actually use, the same kind of platform an agency's own bookers post to, sometimes carry a listing run by the brand's own casting team rather than an agency. A brand's own official channels are always the safest starting point, since they are the easiest to verify.</p>
+
+<h2>One Real Trap Worth Knowing About</h2>
+<p>A familiar brand name does not guarantee you have found that brand. Search results and social platforms both surface accounts and agencies that share a well-known company's name without any connection to it at all. A real example: a Cairo-based talent agency operating as Target Casting Agency shares its name with the US retailer Target, but the two are entirely unrelated companies in different industries, on different continents. It is an easy mix-up to make from a search result alone, and it is exactly the kind of confusion a scam listing could exploit. Before you submit anything, confirm you are on the brand's own verified domain or social account, or on an established casting platform you can independently verify, not a look-alike trading on a familiar name. And treat any request for payment, a deposit or your banking details just to be considered as the immediate red flag it is; our guide to <a href="../modeling-jobs/">where modeling work actually comes from</a> covers this same scam pattern in more depth.</p>
+
+<h2>Reasons People Talk Themselves Out of Submitting, and Why They're Wrong</h2>
+<ul>
+<li><b>"I'm not agency material."</b> Most brand-direct casting is looking for a genuine fit with its own customer base, not the narrower standard an agency's fashion board applies. Plenty of working brand-direct models have never signed with an agency at all.</li>
+<li><b>"I need professional photos first."</b> Brands want honest, current phone digitals that show your real proportions, not a styled shoot. Spending money on photography before your first submission is a wasted step.</li>
+<li><b>"This is basically the same as a brand ambassador program."</b> It isn't. A retail or campus ambassador role is usually built around discount codes, referral links or in-store sampling. Brand-direct modeling is a genuine casting for photography or campaign work, judged on your look and your submission, not on how many people you can refer.</li>
+<li><b>"I should wait until I have an agency."</b> Going direct is one of the more realistic ways to get a first real, paid, recognizable credit while you decide whether to pursue agency representation at all.</li>
+</ul>
+
+<h2>How to Actually Get Into Brand-Direct Modeling</h2>
+<ol>
+<li><b>Make a short list of brands whose actual customer you genuinely resemble,</b> rather than submitting broadly to every recognizable name.</li>
+<li><b>Check each brand's own careers page or bio for a modeling or casting link</b> before searching social platforms more broadly.</li>
+<li><b>Shoot simple, honest digitals</b> and keep them current as your measurements or look change.</li>
+<li><b>Verify any account or portal independently</b> before submitting personal details, using the brand's own official domain or verified social handle as your reference point.</li>
+<li><b>Reply quickly and completely</b> once a casting call goes out, with exactly what was asked for.</li>
+</ol>
+
+<h2>The Short Version</h2>
+<p>Modeling for a clothing brand directly means submitting straight to the company itself, no agency, no commission, no signing, for its own social content, campaign imagery or product photography. It books on an honest fit with the brand's actual customer and simple, current digitals far more than on a fashion-board standard, which makes it one of the more accessible ways into paid, recognizable modeling work, provided you verify who you are actually submitting to before you send anything.</p>
 `,
   },
 ];
