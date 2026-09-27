@@ -7,6 +7,7 @@ const DATE_ECOMMERCE = '2026-09-10';
 const DATE_PROMOTIONAL = '2026-09-15';
 const DATE_STOCK_PHOTO = '2026-09-19';
 const DATE_BRAND_DIRECT = '2026-09-26';
+const DATE_LIFESTYLE = '2026-09-27';
 
 export const typesOfWork = [
   {
@@ -265,6 +266,9 @@ export const typesOfWork = [
 
 <h3>Commercial</h3>
 <p>The category that sells everything except the clothes themselves: catalogues, e-commerce, lifestyle photography, advertising campaigns, corporate imagery. No universal height or age rule, because there is no single client, and it employs more working models than any other category by a wide margin. Our full breakdown, including the different kinds of commercial work and how the pay structure differs from fashion, is in <a href="../what-is-commercial-modeling/">what is commercial modeling</a>. The posing is different too: warm and open rather than tense, and our <a href="../model-poses/">guide to posing like a model</a> covers exactly how the technique shifts between categories.</p>
+
+<h3>Lifestyle</h3>
+<p>A commercial sub-genre built around real-life scenes shot on location rather than product-focused studio work: a family at the breakfast table, someone checking a phone on a park bench, a couple unloading groceries, for insurance, finance, healthcare, home and travel clients. It gets mistaken for stock photography constantly because the on-camera style looks almost identical, but a single brand commissions a lifestyle shoot for its own campaign; a stock shoot has no client at all until a library resells it later. See our <a href="../lifestyle-modeling/">guide to lifestyle modeling</a> for how the two actually differ, and what gets you booked into this one.</p>
 
 <h3>Editorial and print</h3>
 <p>Magazine features, brand lookbooks and print campaigns. Pays less in cash than commercial or advertising work, often close to nothing on smaller shoots, but builds the tearsheets and book credibility that open doors to bigger bookings later. Most working models treat early editorial as an investment in the portfolio rather than an income source. That is the fashion-editorial side of print; the commercial side, catalogues, packaging and print advertising, books on a different, relatability-first standard, covered on its own in our <a href="../how-to-become-a-print-model/">guide to becoming a print model</a>.</p>
@@ -696,6 +700,8 @@ export const typesOfWork = [
 <p>An ecommerce shoot changes outfits dozens of times to cover a product range. A stock shoot instead cycles through dozens of natural expressions and small actions, laughing, typing, listening, thinking, in the same one or two outfits, because the library is buying a wide, reusable range of genuine moments rather than a wide range of garments.</p>
 <h3>The client you never meet</h3>
 <p>A commercial or campaign booking usually involves direction from the actual brand, in person or through a creative brief. A stock shoot is directed by the photographer alone, working from a general shot list the library requested, since the eventual buyer of any given frame is unknown at the time you are photographed.</p>
+<h3>Not the same as lifestyle modeling</h3>
+<p>The two get confused constantly because the on-camera style looks almost identical: natural, candid, real-life moments rather than a posed beauty shot. The difference is who is paying for the shoot and when. A stock shoot has no client at all at the time you are photographed, since the whole point is a library reselling the same image to many unrelated buyers later. <a href="../lifestyle-modeling/">Lifestyle modeling</a> is the opposite: a single brand commissions the shoot for its own specific campaign, usually on location rather than in a studio, and the resulting images are not resold to anyone else afterward.</p>
 
 <aside class="inline-cta">
   <div class="k">Free module</div>
@@ -834,6 +840,115 @@ export const typesOfWork = [
 
 <h2>The Short Version</h2>
 <p>Modeling for a clothing brand directly means submitting straight to the company itself, no agency, no commission, no signing, for its own social content, campaign imagery or product photography. It books on an honest fit with the brand's actual customer and simple, current digitals far more than on a fashion-board standard, which makes it one of the more accessible ways into paid, recognizable modeling work, provided you verify who you are actually submitting to before you send anything.</p>
+`,
+  },
+  {
+    slug: 'lifestyle-modeling',
+    seoTitle: 'What Is Lifestyle Modeling? The Job, Explained',
+    description:
+      'What lifestyle modeling actually is, how it differs from stock photo and ecommerce work, who actually books it, and how to get booked, from working agents.',
+    headline: 'What Is Lifestyle Modeling? The Job, the Pay and Getting Booked',
+    category: 'Types of work',
+    image: 'how-to-become-a-freelance-model',
+    imageAlt: 'A model captured mid-laugh in a candid, natural moment on location rather than posed against a studio backdrop',
+    readTime: 10,
+    date: DATE_LIFESTYLE,
+    related: ['stock-photo-modeling', 'what-is-commercial-modeling', 'ecommerce-modeling'],
+    faq: [
+      {
+        q: 'What is lifestyle modeling?',
+        a: 'Lifestyle modeling is being photographed or filmed in a real-world setting, a kitchen, a park, an office, a car, doing something believable, having coffee, checking a phone, unloading groceries, for a single brand\'s own advertising or content. It is a commercial sub-genre defined by its authentic, unposed, on-location feel, used heavily by insurance, healthcare, finance, home and travel clients who need customers to see themselves in the image.',
+      },
+      {
+        q: 'How is lifestyle modeling different from stock photo modeling?',
+        a: 'The look is nearly identical, natural, candid, real-life moments, which is exactly why the two get confused. The difference is who commissions the shoot and when. A stock shoot has no client at the time you are photographed; a library shoots a general list and resells the same image to many unrelated buyers afterward. Lifestyle modeling is commissioned by one specific brand for its own campaign, usually on location rather than in a studio, and the images are not resold to anyone else.',
+      },
+      {
+        q: 'How is lifestyle modeling different from ecommerce or commercial modeling generally?',
+        a: 'Ecommerce modeling is a plain, product-focused shot built to answer one question, how does this look on a real body, usually against a simple background. Lifestyle modeling builds a scene around a product or a brand message instead, shot on location with props, a setting and often other models playing a family or a couple, closer to a small piece of storytelling than a product page. Commercial modeling is the umbrella term both sit inside; lifestyle is the specific, scene-based lane within it.',
+      },
+      {
+        q: 'Do you need an agency for lifestyle modeling?',
+        a: 'It helps for national campaigns, since many agencies run a dedicated lifestyle or commercial board with direct relationships to the insurance, healthcare and finance clients who book this work most. But a real share of lifestyle work, especially for smaller local brands, regional healthcare providers and independent businesses, is cast directly through a casting platform or a production company\'s own call, with no agency involved.',
+      },
+      {
+        q: 'What kind of clients actually book lifestyle models?',
+        a: 'Insurance, banking and financial services, healthcare and pharmaceutical brands, home, real estate and renovation companies, travel and hospitality, wellness and telehealth apps, and family or parenting brands are the biggest, steadiest sources. All of them are selling to a broad, ordinary customer base and need imagery that looks like real life, not a fashion campaign.',
+      },
+      {
+        q: 'What actually gets you booked for lifestyle work?',
+        a: 'A genuinely relaxed, unforced presence that holds up while acting out a small scene rather than just holding a pose, comfort interacting naturally with other cast models if a shoot calls for a family or a couple, and a relatable, ordinary look rather than a distinctive one. Lifestyle casting deliberately spans a wide range of ages and body types, since the whole point is representing a brand\'s actual customer base.',
+      },
+    ],
+    body: `
+<p>Search "lifestyle modeling" and most of what comes back is a one-line glossary definition, or advice written for stock photography that treats the two as interchangeable. They are not. Lifestyle modeling is its own specific, commissioned commercial lane, and it is one of the steadiest sources of paid work in the entire industry precisely because almost every brand eventually needs to show a customer living an ordinary life.</p>
+<p>Our instructors at Online Model Academy include agents and bookers who place models directly with the insurance, healthcare and finance clients who book most of this work. This is what the job actually is, and how to get into it.</p>
+
+<h2>What Lifestyle Modeling Actually Is</h2>
+<p>Lifestyle modeling is being photographed or filmed doing something believable in a real setting, a kitchen table, a park bench, a car, a home office, rather than in front of a plain studio wall. The brief is authenticity: the client wants a moment that reads as genuinely happened, not a polished product shot or a runway look. It sells the feeling of an ordinary life, not a garment or a specific product feature, which is what puts it in a different lane from most of the other commercial work covered elsewhere on this site.</p>
+<p>The clients who book it most are the ones selling something a customer has to trust rather than simply want: an insurance policy, a bank account, a medication, a mortgage, a family vacation. None of that sells well against a fashion backdrop. It sells on a customer seeing a believable version of their own life in the picture, and that is the single job a lifestyle model is actually hired to do.</p>
+
+<h2>How It Differs From Stock Photo and Ecommerce Modeling</h2>
+<h3>A single brand, not a library reselling to strangers</h3>
+<p>This is the distinction almost every beginner misses, because the on-camera style is nearly identical. Our guide to <a href="../stock-photo-modeling/">stock photo modeling</a> covers a shoot with no client at all at the time you are photographed, a library shoots a general list and resells the same frame to dozens of unrelated buyers over years. A lifestyle shoot is the opposite: one brand commissions it for its own specific campaign, briefs the exact scene it wants, and the images are not resold to anyone else afterward. That difference in who is paying, and when, is why lifestyle bookings usually pay meaningfully more than a comparable stock session, and why the usage terms look completely different.</p>
+<h3>A scene, not a product page</h3>
+<p><a href="../ecommerce-modeling/">Ecommerce modeling</a> answers one plain question: how does this actual garment look on a real body. It is shot fast, against a simple background, changing outfits dozens of times in a day. Lifestyle modeling builds a small scene instead, a setting, props, sometimes other models playing a family or a couple, and the product or brand message sits inside that scene rather than being the entire point of the frame.</p>
+<h3>On location, not in a studio</h3>
+<p>Most lifestyle shoots happen somewhere that looks like a real place a customer would actually be: a rented house, a real kitchen, an outdoor park, a car, an office. That means longer shoot days, more setup and reset time between takes, and a genuinely different kind of stamina than a studio session, holding a natural, unforced presence for hours in a real environment rather than a controlled one.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=lifestyle-modeling__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>Who Actually Books This Work</h2>
+<p>A short list of client categories accounts for most of the lifestyle-casting budget in the industry:</p>
+<ul>
+<li><b>Insurance, banking and financial services.</b> Nearly all of their advertising is built around trust and an ordinary customer's life, a family reviewing a policy, a couple at a kitchen table with paperwork, which is close to the purest form of the genre.</li>
+<li><b>Healthcare and pharmaceutical brands.</b> Patients, caregivers and doctors shown in realistic settings, at home, in a clinic waiting room, on a walk, rather than a sterile studio portrait.</li>
+<li><b>Home, real estate and renovation companies.</b> Families in a kitchen, a couple touring a house, someone gardening, all built to help a customer picture themselves in the space or the product.</li>
+<li><b>Travel and hospitality.</b> Believable vacation and leisure moments rather than a styled, aspirational fashion campaign.</li>
+<li><b>Wellness and telehealth apps.</b> Someone checking a phone on a couch or during a walk, a specific look this genre books constantly as the industry has grown.</li>
+<li><b>Family and parenting brands.</b> Multi-generational and family castings are common here in a way most other boards never touch, which is part of why lifestyle work is one of the more age-inclusive lanes in the industry.</li>
+</ul>
+
+<h2>What Actually Gets You Booked</h2>
+<h3>A genuinely relaxed presence, sustained through a scene</h3>
+<p>The single biggest difference from posing for a photo: a lifestyle casting director needs you to hold a natural, unforced presence through an entire small scene, walking, talking, reacting, not just landing one good frame. Models who look like they forgot the camera is there book the most repeat work.</p>
+<h3>Comfort acting naturally with other cast models</h3>
+<p>A large share of lifestyle work casts groups, a family, a couple, coworkers, and part of what a casting director is judging is how convincingly you interact with people you may have just met on set. Genuine, unforced warmth toward another cast member reads on camera in a way that is hard to fake and easy to spot when it is missing.</p>
+<h3>A relatable, ordinary look</h3>
+<p>Lifestyle casting deliberately spans a wide range of ages, body types and backgrounds, because the entire premise is representing a brand's actual customer, not one narrow ideal. This is one of the few boards where an unusual or highly distinctive look is not an advantage; it is simply a different lane.</p>
+<h3>Honest, current digitals</h3>
+<p>Four to six phone photos, daylight, plain background, no filters or heavy retouching: front, side, one smiling, one neutral, full length. The same standard nearly every commercial casting asks for. Our full <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers the shot list in more depth.</p>
+
+<h2>Agencies vs. Going Direct</h2>
+<p>Many agencies run a dedicated lifestyle or commercial board with direct, ongoing relationships to the insurance, healthcare and finance clients who book this category most, and that access is genuinely hard to replicate on your own for the biggest national campaigns. But a real share of lifestyle work, especially for smaller local brands, regional healthcare providers and independent businesses, is cast directly through a casting platform or a production company's own call. See our guide to <a href="../modeling-jobs/">where modeling work actually comes from</a> for how lifestyle work fits alongside the rest of the industry's job sources.</p>
+
+<h2>What the Money Actually Looks Like</h2>
+<p>Because a lifestyle shoot is commissioned by a single, named brand rather than shot speculatively for a library, it is priced closer to standard commercial work: a day or half-day rate, plus usage for where and how long the client can run the images. A national insurance or healthcare campaign licensing images for broad, long-running use pays meaningfully more than a stock session precisely because that usage is real and exclusive, not shared across dozens of future buyers. The full breakdown of day rates, usage and commission across categories is in <a href="../how-much-do-models-make/">how much do models actually make</a>.</p>
+
+<h2>Reasons People Talk Themselves Out of Submitting, and Why They're Wrong</h2>
+<ul>
+<li><b>"I'm too ordinary-looking for modeling."</b> That is close to the actual job description here. Lifestyle casting wants a relatable, everyday presence far more than a distinctive fashion look.</li>
+<li><b>"I'm not an actor, I can't perform a whole scene."</b> Directors coach the action in the moment, a bite of breakfast, a glance at a phone, a laugh with another cast member. What they need is someone who takes that direction naturally, not someone arriving with a rehearsed performance.</li>
+<li><b>"I need professional photos before I submit."</b> Honest phone digitals that show your real, relatable look in good light are what most lifestyle castings ask for. A styled, paid shoot before your first submission is a wasted step.</li>
+<li><b>"I'm too old, or my family doesn't look like a stock family."</b> The opposite is true. Lifestyle casting is one of the more age-inclusive and family-inclusive boards in the entire industry, precisely because real customers come in every age and family shape.</li>
+</ul>
+
+<h2>How to Actually Get Into Lifestyle Modeling</h2>
+<ol>
+<li><b>Shoot simple, honest digitals.</b> Four to six phone photos, daylight, plain background, no filters: front, side, one smiling, one neutral, full length.</li>
+<li><b>Submit to agencies with a dedicated lifestyle or commercial board,</b> not every agency actively markets one, ask directly.</li>
+<li><b>Search casting platforms and local production companies directly</b> for regional healthcare, finance and home-brand clients, a large share of this work is cast without an agency.</li>
+<li><b>Practice a genuinely relaxed, unforced presence</b> doing ordinary things in front of a camera, not just holding a pose.</li>
+<li><b>If you have a partner, children or a close friend willing to shoot too,</b> mention it in your submission. Family and couple castings are a steady, specific lane inside this category.</li>
+</ol>
+
+<h2>The Short Version</h2>
+<p>Lifestyle modeling is being photographed in a real-world setting for a single brand's own campaign, not for a stock library and not for a product-page listing. It books on a genuinely relaxed, relatable presence and comfort acting a small scene rather than a distinctive look, pays closer to standard commercial rates than stock work does because the usage is exclusive to one client, and is one of the most age-inclusive, family-inclusive lanes in the entire industry.</p>
 `,
   },
 ];
