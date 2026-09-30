@@ -94,6 +94,7 @@ const CLUSTERS = [
       'model-portfolio-website',
       'modeling-resume',
       'model-poses',
+      'how-to-be-photogenic',
       'modeling-headshots',
     ],
   },

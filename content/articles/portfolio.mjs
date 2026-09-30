@@ -366,7 +366,7 @@ export const portfolio = [
 <p>Here is what a working photographer and a booking agent actually notice, and how to build it into muscle memory before it matters.</p>
 
 <h2>What "Good at Posing" Actually Means</h2>
-<p>New faces assume posing well means looking naturally photogenic, as if some people simply have it and others do not. Working photographers see it differently. A model who is good at posing is one who is <i>controllable</i>: they hold a line, adjust it a few degrees on direction, and repeat it identically for the next frame. Instinct helps, but the skill underneath it is technical and learnable, in the same way a runway walk is technical and learnable, which we cover in full in <a href="../how-do-models-walk-in-runway-shows/">how models actually walk in runway shows</a>.</p>
+<p>New faces assume posing well means being naturally photogenic (see our guide to <a href="../how-to-be-photogenic/">how to be photogenic</a>), as if some people simply have it and others do not. Working photographers see it differently. A model who is good at posing is one who is <i>controllable</i>: they hold a line, adjust it a few degrees on direction, and repeat it identically for the next frame. Instinct helps, but the skill underneath it is technical and learnable, in the same way a runway walk is technical and learnable, which we cover in full in <a href="../how-do-models-walk-in-runway-shows/">how models actually walk in runway shows</a>.</p>
 <p>That reframing matters because it changes how you practice. You are not hunting for a magic angle that makes you look good. You are building a small set of reliable shapes you can produce on command, then layering expression and energy on top.</p>
 
 <h2>The Fundamentals Every Pose Is Built From</h2>
@@ -505,6 +505,9 @@ export const portfolio = [
 <p><b>Once you are signed:</b> a professional headshot becomes worth the cost, usually with a photographer your agency already works with and trusts, since consistency with their existing roster matters more than any individual photographer's personal style.</p>
 <p><b>For freelance and direct-booking work:</b> see our guide to <a href="../how-to-become-a-freelance-model/">freelance modeling</a>, since without an agency vetting photographers for you, the responsibility for getting this right sits with you alone.</p>
 
+<h2>Feeling Stiff on Camera?</h2>
+<p>Most headshots that fall flat fail on comfort, not lighting. If you tense up the moment the lens points at you, our guide to <a href="../how-to-be-photogenic/">how to be photogenic</a> covers the jaw, eye and posture habits that fix it.</p>
+
 <h2>How Often to Reshoot</h2>
 <p>Whenever your look changes meaningfully, a significant haircut, a colour change, a visible change in body composition, and otherwise on roughly the same cycle as the rest of your <a href="../model-comp-card/">comp card</a> and digitals. A headshot that no longer matches how you actually look is worse than an older but honest one, because the gap is what erodes trust at the casting, not the age of the photo itself.</p>
 
@@ -519,6 +522,105 @@ export const portfolio = [
 
 <h2>Where This Fits</h2>
 <p>A headshot is one piece of a small set of tools that each do a specific job: your headshot for the first impression, your <a href="../model-comp-card/">comp card</a> as the physical leave-behind, your full <a href="../how-to-make-a-modeling-portfolio/">portfolio</a> to show range, and a written <a href="../modeling-resume/">modeling resume</a> for the freelance and crossover bookings that ask for one instead. Get the headshot right and the rest of the book has something honest to build around.</p>
+`,
+  },
+
+  {
+    slug: 'how-to-be-photogenic',
+    seoTitle: 'How to Be Photogenic: What Photographers Know',
+    description:
+      'How to be more photogenic, from the people who book models: what the camera actually rewards, what to practice, and what to stop worrying about.',
+    headline: 'How to Be Photogenic: What Photographers and Bookers Actually Look For',
+    category: 'Portfolio',
+    image: 'how-to-become-a-successful-model',
+    imageAlt: 'A person relaxed in natural window light, turned slightly off square to the camera, looking comfortable in front of the lens',
+    readTime: 9,
+    date: '2026-09-30',
+    related: ['model-poses', 'modeling-headshots', 'how-to-make-a-modeling-portfolio'],
+    faq: [
+      {
+        q: 'Can you learn to be photogenic?',
+        a: "Largely, yes. Being photogenic is mostly about how you carry yourself in front of a lens: comfort, posture, where you look, and how you use light. Those are habits, not genetics. Bone structure plays a part in some categories, but most people who say they photograph badly are reacting to tension and unfamiliar angles, both of which improve quickly with practice.",
+      },
+      {
+        q: 'Why do I look bad in photos but fine in the mirror?',
+        a: "A mirror shows you a reversed, moving, three-dimensional version of your face that you are used to. A photo is a flat, frozen, unreversed one. Faces are not symmetrical, so the flipped version looks unfamiliar, and a single frozen frame catches moments in between expressions that you never see in motion. Reviewing many frames, not one, gives a fairer picture.",
+      },
+      {
+        q: 'What makes someone photogenic?',
+        a: "In practice it is a mix of things photographers can work with: relaxed features, an easy expression that reaches the eyes, good posture, and a willingness to take direction and repeat what works. Models who photograph well are usually the ones who stay comfortable and responsive while the camera is on them, not simply the ones with a particular face.",
+      },
+      {
+        q: 'What is the most photogenic angle?',
+        a: "There is no universal one, because it depends on your face and the lens. A reliable starting point is turning your body slightly off square to the camera, dropping your chin a little, and bringing your face back toward the lens. Then test a few variations on a phone timer and keep the ones that look best on you.",
+      },
+      {
+        q: 'Do you have to be photogenic to be a model?',
+        a: "You need to photograph well for the category you are aiming at, and you need to be easy to work with on camera. Agencies judge that from clean, unretouched digitals rather than from a single glamorous shot. Commercial work in particular casts believable, approachable people, not only striking faces.",
+      },
+      {
+        q: 'How do I stop looking stiff in photos?',
+        a: "Give your body a job and your face a thought. Shift your weight onto one leg, let your hands do something small, and think of something that is actually funny before the shutter goes. Stiffness is almost always tension held in the jaw, shoulders and hands, so relaxing those three fixes most of it.",
+      },
+    ],
+    body: `
+<p>"I'm just not photogenic" is one of the most common things people say before their first test shoot, and one of the least accurate. It treats photographing well as a fixed trait, like height. In a casting room it is closer to a skill, and the people who seem to have it have mostly stopped fighting the camera.</p>
+<p>Here is what photographers and bookers actually notice, what you can change, and how to practice it without a studio.</p>
+
+<h2>What "Photogenic" Really Means to the People Who Book</h2>
+<p>When a photographer calls someone photogenic, they rarely mean a specific face. They mean someone who gives them usable frames quickly. That person holds a relaxed expression, does not freeze when the camera comes up, responds to small direction, and can repeat a good frame on request.</p>
+<p>That is why two people with similar features can photograph completely differently. One is tense and watching themselves. The other is paying attention to the photographer and letting the face settle. The camera records that difference more clearly than it records any feature.</p>
+<p>It also explains why bookers care less about a single stunning image and more about a set of honest ones. A consistent, natural set tells them you will be easy to shoot. If you are building that set, our guide to <a href="../how-to-make-a-modeling-portfolio/">making a modeling portfolio</a> covers what to include.</p>
+
+<h2>Why You Look Different in Photos Than in the Mirror</h2>
+<p>Most of the dread people feel comes from one mismatch. You know your face from the mirror, which shows it reversed and in motion. A photo shows it unreversed and frozen. No face is perfectly symmetrical, so the unreversed version can look slightly wrong to you even though it is exactly what everyone else sees every day.</p>
+<p>A single frame also catches the half-second between expressions, the blink or the mid-word mouth, that you never notice in person. Judging yourself from one photo is like judging a sentence from one syllable. Look at a whole sequence instead. You will usually find that the good frames are plentiful and that you were fixating on the odd one.</p>
+<p>Seeing your reversed and unreversed face side by side, a few times, takes much of the sting out. It is unfamiliarity, not a flaw.</p>
+
+<h2>The Things That Actually Change How You Photograph</h2>
+
+<h3>Relaxation, starting with the jaw</h3>
+<p>Tension shows up in photos before anything else. The jaw clenches, the lips press, the neck tightens. Before each frame, let your tongue rest on the floor of your mouth, unclench your teeth, and take a slow breath out. It feels like nothing and it changes the whole lower face.</p>
+
+<h3>Posture and the angle of your body</h3>
+<p>Squaring your whole body to the lens flattens you out. Turn your torso a few degrees off square, shift your weight onto the back leg, and bring your face back toward the camera. The fundamentals are laid out in detail in our guide to <a href="../model-poses/">how to pose like a model</a>, and they apply to everyday photos as much as shoots.</p>
+
+<h3>Chin and head position</h3>
+<p>A chin held level or raised can read as a stare or add heaviness under the jaw. A slight drop of the chin while the crown of the head stays lifted lengthens the neck and defines the jawline. Small moves matter here. An inch is plenty.</p>
+
+<h3>Where your eyes go</h3>
+<p>Look at the lens as if it were a person you like, not as if it were a machine that is judging you. Eyes that are thinking about something look alive. Eyes that are waiting for the photo to be over look flat. If the shot calls for warmth, recall something that actually amuses you rather than arranging your mouth into a smile.</p>
+
+<h3>Light</h3>
+<p>You can do more with light than with any pose. Soft, even daylight, such as a window with a sheer curtain or open shade outdoors, flatters almost everyone. Harsh overhead light throws shadows under the eyes and nose. Light coming from directly behind you silhouettes your face. Turn so the window is in front of you or slightly to the side and most problems ease.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-be-photogenic__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>Expression Is Specific to the Job</h2>
+<p>There is no single photogenic face, because different work asks for different things. A commercial client wants warmth and approachability, so an easy, eyes-first smile photographs best. A fashion or straight shot usually wants a calm, neutral look so an agent can see your features clearly. Our guide to <a href="../modeling-headshots/">modeling headshots</a> explains how those two expressions differ and why working portfolios carry both.</p>
+<p>So the better question is not "how do I look good in photos" but "what is this photo for." Answer that first and the choices about smile, angle and energy mostly make themselves.</p>
+
+<h2>What to Practice Before a Shoot</h2>
+<ol>
+<li><b>Film yourself, not a mirror.</b> Set your phone on a timer or record video, then review the stills cold, the way an agent would. A mirror lets you adjust in real time and hides what the camera sees.</li>
+<li><b>Take a lot of frames.</b> Dozens, not three. The first ones are usually stiff. Comfort tends to arrive around the fifteenth frame.</li>
+<li><b>Practice one thing at a time.</b> Jaw first, then weight, then chin, then eyes. Combine them once each feels automatic.</li>
+<li><b>Learn your own variations.</b> Try a few angles and expressions and note which ones look most like you on a good day. Repeat those.</li>
+<li><b>Get used to direction.</b> Ask a friend to call out small changes ("chin down a touch, look past me"). Responding to that is most of what shoots involve.</li>
+</ol>
+
+<h2>What Not to Worry About</h2>
+<p>A few things people obsess over matter much less than they think. Symmetry does not decide whether you photograph well. Neither does having "a good side", since most people have a slight preference and a competent photographer simply works with it. Filters and heavy retouching do not help either. Bookers see untouched digitals, and a gap between your photos and your face in person costs trust.</p>
+<p>What does matter is honesty and ease. Clean, natural photos of you looking relaxed will always serve you better than one heavily styled image that does not look like you on a Tuesday morning.</p>
+
+<h2>Is This Enough to Start Modeling?</h2>
+<p>Photographing well is one piece of it, not the whole picture. Agencies also look at proportions, versatility, professionalism and whether you fit what their clients are casting. If you are just beginning, our guide to <a href="../how-to-become-a-model/">how to become a model</a> walks through the full path, and the free runway masterclass covers how to move and present yourself when a camera or a room is watching.</p>
+<p>The encouraging part is that the piece covered here is the most trainable. If you are comfortable, curious and willing to practice in front of a lens, you are already most of the way to being the person photographers enjoy working with.</p>
 `,
   },
 ];
