@@ -58,7 +58,7 @@ guessed). Apply the same standard going forward: any new or edited
 article touching a jurisdiction-dependent rule gets real, checked detail
 for all three markets, or it doesn't ship.
 
-## Live (68 articles)
+## Live (69 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -130,6 +130,7 @@ for all three markets, or it doesn't ship.
 | how-to-become-a-supermodel | how to become a supermodel | 150 | 0 | 2026-09-24 |
 | how-to-become-a-model-in-canada | how to become a model in canada | 100 (CA) | 0 | 2026-09-25 |
 | how-to-become-a-model-for-clothing-brands | how to become a model for clothing brands / how to become a model for brands | 150 + 150 | 1 / 3 | 2026-09-26 |
+| how-to-be-photogenic | how to be photogenic | 900 | 0 | 2026-09-30 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -2716,3 +2717,20 @@ the existing section, not a new URL.
   `mergeable_state` is `clean`, per the standing automerge authorisation,
   unless this environment carries the same one-off merge restriction the
   2026-09-21 run hit.
+
+- **2026-09-30 run.** Same stale chat-routine handover prompt; repo process
+  (this file) followed instead. PR #48 (`lifestyle-modeling`, 2026-09-27) was
+  still open and unmerged, so that target is in flight, not available.
+  Ahrefs `site-explorer-organic-keywords` (GSC substitute) showed only two
+  positions 4-20 at 100+ volume: the homepage at 10 for `professional model
+  training workshops` (2700) and `what do modeling agencies look for` at 13
+  (150), the latter oddly ranking via `/Blog` (capital B), worth a look if GSC
+  ever appears. New target `how to be photogenic` (900 US vol, KD 0, plus
+  `model photoshoot` 1400 / KD 0 noted as a possible separate pick, not yet
+  grep-checked). Grep confirmed zero dedicated coverage; SERP is Reddit,
+  YouTube and small photographer blogs, winnable. Shipped in `portfolio.mjs`,
+  cross-linked in-body from `model-poses` and `modeling-headshots`, added to the
+  Portfolio cluster. Reused the `how-to-become-a-successful-model` hero (no
+  image generation this run). Also noted: `model walk` 700 / KD 0 (likely
+  cannibalised by the runway walk guide) and `how to get scouted as a model`
+  50 (thin). No em dashes in the new prose; `npm run check` passes.
