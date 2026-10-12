@@ -58,7 +58,7 @@ guessed). Apply the same standard going forward: any new or edited
 article touching a jurisdiction-dependent rule gets real, checked detail
 for all three markets, or it doesn't ship.
 
-## Live (70 articles)
+## Live (71 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -132,6 +132,7 @@ for all three markets, or it doesn't ship.
 | how-to-become-a-model-for-clothing-brands | how to become a model for clothing brands / how to become a model for brands | 150 + 150 | 1 / 3 | 2026-09-26 |
 | lifestyle-modeling | lifestyle modeling / what is lifestyle modeling | 90 + 30 | 0 / 0 | 2026-09-27 |
 | how-to-be-photogenic | how to be photogenic | 900 | 0 | 2026-09-30 |
+| what-to-expect-at-a-model-photoshoot | model photoshoot | 1400 | 0 | 2026-10-12 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -2881,3 +2882,18 @@ the existing section, not a new URL.
   image generation this run). Also noted: `model walk` 700 / KD 0 (likely
   cannibalised by the runway walk guide) and `how to get scouted as a model`
   50 (thin). No em dashes in the new prose; `npm run check` passes.
+
+- **2026-10-12 run.** Same stale 18 August chat-routine prompt; repo process
+  followed. No open PRs or other branches. GSC unavailable (no key or tool),
+  Ahrefs substituted. Only two positions 4-20 at 100+ volume: `how much do
+  models make` at 8 (2300; page already exists, an improvement candidate for a
+  future run) and the homepage at 4 for `professional model training
+  workshops` (1500). New target `model photoshoot` (1400 US vol, KD 0): grep
+  found no dedicated page (only passing mentions), SERP is photographer
+  studios, stock and Reddit/YouTube, winnable. Shipped
+  `what-to-expect-at-a-model-photoshoot` in `portfolio.mjs`, Portfolio
+  cluster, cross-linked in-body from `how-to-be-photogenic`, `model-poses`
+  and `modeling-headshots`. Reused the `how-to-become-a-successful-model` hero
+  (no image generation). `npm run build && npm run check` pass; seoTitle 51,
+  description 153; no em dashes in the new prose; zero `utm_source` on the
+  homepage.
