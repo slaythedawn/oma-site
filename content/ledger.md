@@ -130,6 +130,7 @@ for all three markets, or it doesn't ship.
 | how-to-become-a-supermodel | how to become a supermodel | 150 | 0 | 2026-09-24 |
 | how-to-become-a-model-in-canada | how to become a model in canada | 100 (CA) | 0 | 2026-09-25 |
 | how-to-become-a-model-for-clothing-brands | how to become a model for clothing brands / how to become a model for brands | 150 + 150 | 1 / 3 | 2026-09-26 |
+| lifestyle-modeling | lifestyle modeling / what is lifestyle modeling | 90 + 30 | 0 / 0 | 2026-09-27 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -2716,3 +2717,149 @@ the existing section, not a new URL.
   `mergeable_state` is `clean`, per the standing automerge authorisation,
   unless this environment carries the same one-off merge restriction the
   2026-09-21 run hit.
+- **2026-09-27 run.** Fired from the same stale 18 August chat-routine
+  handover as every prior run; this file and `CONTRIBUTING.md` remain the
+  authoritative process. `git fetch origin --prune` first, since the local
+  remote-tracking refs only showed `main` and this session's own branch
+  until pruned/refetched (a `git branch -r` run before fetching under-reports
+  what actually exists on the remote — worth remembering for the next run
+  rather than trusting the local ref list at session start). After the
+  fetch, `git branch -r` listed the same long tail of stale branches as
+  prior runs plus a handful not previously logged here
+  (`claude/charming-tesla-3y1oe5`, `-5ry3p6`, `-6nxfz5`, `-10q7bk`,
+  `-u962pr`). Checked each with `git log origin/main..origin/<branch>`:
+  `-5ry3p6` and `-u962pr` came back empty (identical to `main`); `-3y1oe5`,
+  `-6nxfz5` and `-10q7bk` showed commits "ahead," which looked like
+  collisions at first, but `list_pull_requests` (state `all`, filtered by
+  `head`) confirmed each is a squash-merged PR head branch whose content
+  (beauty, promotional, face-model) is already live on `main` under a
+  different commit hash — the squash rewrites history, so a raw
+  `git log origin/main..branch` on an already-merged branch can show
+  "ahead" commits that are not actually new work, a wrinkle worth knowing
+  for the next run rather than treating any nonempty diff as a live
+  collision without also checking `list_pull_requests`. `list_pull_requests`
+  (state `open`) returned none. Nothing was in flight.
+
+  Keyword research started from a batch of process/format terms not yet
+  tried by name (network as a model, boutique/look-alike/swim/background/
+  stand-in/video model, promo girl, athletic model, modeling for beginners,
+  model influencer, runway-walk coach, fashion-week model, look-book model,
+  and a modeling-application cluster) on `keywords-explorer-overview`. Most
+  came back at or near zero volume, consistent with the "this vertical is
+  fished out" pattern logged on every run since 2026-09-05. Two findings
+  worth recording so they are not re-checked: `athletic model` (10 vol) is
+  cannibalised, its own parent topic is `fitness model jobs`, the same
+  keyword `how-to-become-a-fitness-model` already targets. `what to wear to
+  a modeling audition` (40 vol, KD 0, parent topic `what to wear to model
+  casting`) is cannibalised too — `open-casting-call`'s own description and
+  body already cover what to wear to a casting in depth.
+
+  The `model application` cluster (`model application` 350 vol/KD 9,
+  `model application form` 150/KD 0, `how to apply to be a model` 90/KD 5,
+  `modeling application` 150/KD 1, all sharing the same parent topic)
+  looked like the best volume of the whole run on paper, but `serp-overview`
+  on the head term showed a purely navigational SERP: an AI Overview built
+  entirely from sitelinks straight to named agencies' own `/apply` and
+  `/application` pages (CM Models, Models Direct, The Society, Elite Model
+  Look, Next Management), not career-education content. Searchers typing
+  this want to click through and submit an application to a specific real
+  agency, not read a guide about the category — the same wrong-content-type
+  call already made for the local-directory and navigational-platform
+  keywords logged on prior runs (`modeling gigs near me`, `model mayhem`).
+  Dropped, not a future-project candidate.
+
+  The keyword that shipped, `lifestyle modeling` (90 vol, KD 0; `what is
+  lifestyle modeling` 30 vol, KD 0; parent topic `lifestyle model`, 100
+  vol), surfaced from the same batch and checked out genuinely clean on
+  every axis. A full-repo grep for the exact phrase "lifestyle model"
+  turned up zero hits anywhere in `content/articles/` — only generic,
+  unrelated uses of the word "lifestyle" as an adjective ("lifestyle
+  brands," describing a client type) inside `agencies-au.mjs`,
+  `how-to-become-a-mature-model` and elsewhere, never the category itself.
+  `types-of-modeling`'s own category list, which now covers fifteen
+  distinct types including several close cousins (commercial, editorial,
+  freelance), had no "Lifestyle" entry at all, a genuine gap rather than an
+  oversight. `serp-overview` confirmed a winnable, on-genre SERP: ModelsDirect's
+  own "lifestyle modelling" explainer, a Reddit thread, a small DR15 blog
+  and several agency category pages, no modeling-course competitor and no
+  navigational trap like the `model application` cluster above. A
+  `WebSearch` pass verified the substantive claim the whole article turns
+  on before writing it, not assuming it from the keyword alone: lifestyle
+  modeling is work commissioned by one specific brand for its own campaign,
+  shot on location in a real-world setting, which is genuinely different
+  from stock photo modeling (a library shoots speculatively with no client
+  at all until it resells the image to many buyers later) despite the two
+  looking almost identical on camera. That distinction, not just a
+  definition, is what makes the piece worth writing rather than a rehash of
+  the already-live `stock-photo-modeling` article.
+
+  Wrote `lifestyle-modeling` in `content/articles/types-of-work.mjs`,
+  alongside `what-is-commercial-modeling`, `what-is-fashion-modeling`,
+  `ecommerce-modeling`, `promotional-modeling` and `stock-photo-modeling`
+  (the "Castings & work" cluster's category-explainer set), matching their
+  exact structure (what the job actually is, how it differs from the
+  closest existing categories, who books it, what gets you booked,
+  agencies vs. direct, the money, objection-handling, a numbered
+  how-to-get-in close, a closing short version) rather than inventing a new
+  format. Content leans on the single real distinction verified above (one
+  commissioning brand vs. a resold library) as its spine, names the actual
+  client categories that book this work (insurance, healthcare, finance,
+  home/real estate, travel, telehealth, family/parenting brands) without
+  fabricating pay figures for any of them, and flags the category as one of
+  the more age- and family-inclusive boards in the industry, a genuine,
+  checkable claim, not a guess, since multi-generational and family
+  castings are a real, named lane inside lifestyle work specifically.
+
+  Cross-linked in-body from three places, one more than the minimum: a new
+  "Lifestyle" H3 added to `types-of-modeling`'s category list, placed right
+  after "Commercial" since it is the closest parent category; a new "Not
+  the same as lifestyle modeling" H3 added to `stock-photo-modeling`'s own
+  "How It Differs" section, extending that article rather than only linking
+  from the new one, since the two are the pair most likely to get confused
+  for each other; and a sentence added to `how-to-become-a-mature-model`'s
+  "Home, garden and lifestyle brands" bullet, since lifestyle campaigns are
+  a genuine, named source of paid work for the classic board covered there.
+  Added the slug to the "Castings & work" cluster in
+  `scripts/build-index-and-sitemap.mjs`, directly after
+  `how-to-become-a-model-for-clothing-brands`.
+
+  Checked the standing Higgsfield `cloudfront.net` 403 block
+  (`/root/.ccr/__agentproxy/status`, empty `recentRelayFailures`, meaning
+  untested rather than fixed) and, per the 2026-08-31 note that re-testing
+  every single run stopped being informative once the failure mode was
+  confirmed standing and it has not been retested since 2026-09-08, skipped
+  a generation attempt and reused `how-to-become-a-freelance-model` (its
+  own candid, unposed self-shot digital scene, previously reused three
+  times) with a fresh `imageAlt` describing a candid, mid-laugh, on-location
+  moment, a genuinely close visual match for what a lifestyle shoot actually
+  looks like rather than an arbitrary substitution.
+
+  `npm run build && npm run check` (build, site, kajabi) and
+  `npx html-validate@8` on all four changed pages
+  (`lifestyle-modeling`, `stock-photo-modeling`, `types-of-modeling`,
+  `how-to-become-a-mature-model`) all pass clean, including the
+  orphan-inbound-link check (3 in-body inbound links). A manual JSON-LD
+  parse check confirmed all three schema blocks parse on the new page, with
+  `FAQPage` carrying its full 6 questions. `seoTitle` is 46 characters,
+  `description` is 155, both within limit. Body word count is 1,600.
+  Checked the built HTML for the literal U+2014 character before
+  committing, per the standing lesson from the 2026-09-23 run: the only
+  hits across all changed pages are in the shared generated nav/footer
+  boilerplate ("Enrol — $299") and the nav/footer build-script comments, not
+  in this run's own prose. Diffed every changed file for the hard-constraint
+  strings (`299`, `499`, `offers/`, the GTM/GA4/Pixel IDs) before committing
+  and found nothing beyond the expected "All 68 guides" to "All 69 guides"
+  footer bump on every page and the new article's own correctly-slugged
+  inline-CTA UTM line. Confirmed zero `utm_source` occurrences on the
+  homepage.
+
+  GSC access still unavailable this run (no service-account key or
+  `gsc-*` MCP tool present); substituted Ahrefs per the standing note.
+  Opened a PR for this run's branch and **stopped there without merging**:
+  this session's harness carries an explicit safety control blocking a PR
+  merge without human review, which takes precedence over this file's own
+  standing automerge authorisation above. That authorisation is Josh's
+  instruction to the routine, not a permission this particular session's
+  harness grants it the means to act on; noting the distinction here in
+  case a future run reads the automerge note and expects the same. A human
+  needs to merge the PR once they are ready.
