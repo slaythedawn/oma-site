@@ -369,6 +369,8 @@ export const portfolio = [
 <p>New faces assume posing well means being naturally photogenic (see our guide to <a href="../how-to-be-photogenic/">how to be photogenic</a>), as if some people simply have it and others do not. Working photographers see it differently. A model who is good at posing is one who is <i>controllable</i>: they hold a line, adjust it a few degrees on direction, and repeat it identically for the next frame. Instinct helps, but the skill underneath it is technical and learnable, in the same way a runway walk is technical and learnable, which we cover in full in <a href="../how-do-models-walk-in-runway-shows/">how models actually walk in runway shows</a>.</p>
 <p>That reframing matters because it changes how you practice. You are not hunting for a magic angle that makes you look good. You are building a small set of reliable shapes you can produce on command, then layering expression and energy on top.</p>
 
+<p>Once you know the poses, see <a href="../what-to-expect-at-a-model-photoshoot/">what to expect at a model photoshoot</a> for how a real shoot day uses them.</p>
+
 <h2>The Fundamentals Every Pose Is Built From</h2>
 
 <h3>Weight and the line it creates</h3>
@@ -521,6 +523,7 @@ export const portfolio = [
 </ol>
 
 <h2>Where This Fits</h2>
+<p>If you are shooting yours at a studio, see <a href="../what-to-expect-at-a-model-photoshoot/">what to expect at a model photoshoot</a> first.</p>
 <p>A headshot is one piece of a small set of tools that each do a specific job: your headshot for the first impression, your <a href="../model-comp-card/">comp card</a> as the physical leave-behind, your full <a href="../how-to-make-a-modeling-portfolio/">portfolio</a> to show range, and a written <a href="../modeling-resume/">modeling resume</a> for the freelance and crossover bookings that ask for one instead. Get the headshot right and the rest of the book has something honest to build around.</p>
 `,
   },
@@ -614,6 +617,8 @@ export const portfolio = [
 <li><b>Get used to direction.</b> Ask a friend to call out small changes ("chin down a touch, look past me"). Responding to that is most of what shoots involve.</li>
 </ol>
 
+<p>If a shoot is already booked, our guide to <a href="../what-to-expect-at-a-model-photoshoot/">what to expect at a model photoshoot</a> walks through the day from check-in to wrap.</p>
+
 <h2>What Not to Worry About</h2>
 <p>A few things people obsess over matter much less than they think. Symmetry does not decide whether you photograph well. Neither does having "a good side", since most people have a slight preference and a competent photographer simply works with it. Filters and heavy retouching do not help either. Bookers see untouched digitals, and a gap between your photos and your face in person costs trust.</p>
 <p>What does matter is honesty and ease. Clean, natural photos of you looking relaxed will always serve you better than one heavily styled image that does not look like you on a Tuesday morning.</p>
@@ -621,6 +626,128 @@ export const portfolio = [
 <h2>Is This Enough to Start Modeling?</h2>
 <p>Photographing well is one piece of it, not the whole picture. Agencies also look at proportions, versatility, professionalism and whether you fit what their clients are casting. If you are just beginning, our guide to <a href="../how-to-become-a-model/">how to become a model</a> walks through the full path, and the free runway masterclass covers how to move and present yourself when a camera or a room is watching.</p>
 <p>The encouraging part is that the piece covered here is the most trainable. If you are comfortable, curious and willing to practice in front of a lens, you are already most of the way to being the person photographers enjoy working with.</p>
+`,
+  },
+
+  {
+    slug: 'what-to-expect-at-a-model-photoshoot',
+    seoTitle: 'Model Photoshoot: What to Expect and How to Prepare',
+    description:
+      'What actually happens at a model photoshoot, from the people who book models: how to prepare, what the day looks like, and how to stay safe and get paid.',
+    headline: 'Model Photoshoot: What Really Happens on Set and How to Prepare',
+    category: 'Portfolio',
+    image: 'how-to-become-a-successful-model',
+    imageAlt: 'A model mid-shoot in bright natural light, turning toward the camera while a photographer works just out of frame',
+    readTime: 9,
+    date: '2026-10-12',
+    related: ['how-to-be-photogenic', 'model-poses', 'how-to-make-a-modeling-portfolio'],
+    faq: [
+      {
+        q: 'What happens at a model photoshoot?',
+        a: "You arrive, check in with the photographer or producer, go through hair and makeup if there is a stylist, and review the plan for the day. Shooting then runs in setups: one look, one location or one lighting arrangement at a time, with short breaks to change. The photographer directs poses and expression, and you respond and repeat what works. Most of the day is waiting and resetting, with short bursts of shooting in between.",
+      },
+      {
+        q: 'What should I bring to a model photoshoot?',
+        a: "Bring clean, well-fitting basics in neutral colors, plus anything the brief lists. A seamless set of underlayers, a robe or cover-up, a hairbrush and any skin or hair products you rely on all help. Add water, a snack, a phone charger and a printed or saved copy of the booking details. Check the brief for specific requests and do not guess.",
+      },
+      {
+        q: 'How do I prepare for my first photoshoot?',
+        a: "Read the brief twice, confirm the time, address and contact, and get a full night of sleep. Avoid new skin products, heavy salt and tight clothing the day before, since marks and puffiness show on camera. Practice a few relaxed expressions and body angles beforehand so you are not inventing everything on the spot.",
+      },
+      {
+        q: 'Do models get paid for photoshoots?',
+        a: "Sometimes. Paid commercial and editorial bookings come with a rate set by the client or agency. Test shoots, often called TFP or time for prints, are usually unpaid and are exchanged for images you can use in your portfolio. Both are normal, but you should know which one you are agreeing to before the day, in writing.",
+      },
+      {
+        q: 'How do I stay safe at a photoshoot with a photographer I do not know?',
+        a: "Research the photographer and check that their work and references are real. Share the address, time and contact details with someone you trust, and consider bringing a friend or chaperone, especially for a first test shoot. Agree in advance on the concept, the clothing and what will and will not be shot. You are always allowed to stop, and a professional will respect that without argument.",
+      },
+      {
+        q: 'What is a model release and do I need to sign one?',
+        a: "A model release is a signed agreement that lets the photographer or client use images of you in specific ways. Paid jobs nearly always include one. Read it before signing, check where and for how long the images can be used, and ask questions if the wording is broad. If something in it does not match what you were told, raise it before the shoot, not after.",
+      },
+    ],
+    body: `
+<p>The first photoshoot is usually the point where modeling stops being an idea and becomes a day with a call time. It also tends to be nothing like people expect. There is less glamour and more waiting than the photos suggest, and the people who do well are rarely the ones with the most dramatic poses. They are the ones who arrive prepared, stay easy to direct and look after themselves.</p>
+<p>Here is how a model photoshoot actually runs, from the people who book models, and how to prepare so the day goes in your favor.</p>
+
+<h2>Not All Photoshoots Are the Same</h2>
+<p>"Photoshoot" covers several very different jobs, and what is expected of you changes with each one.</p>
+<ul>
+<li><b>Test shoots.</b> You and a photographer, and sometimes a stylist and makeup artist, create images for everyone's portfolios. Usually unpaid, often called TFP. The point is to build your book, so the pictures matter more than the pay.</li>
+<li><b>Commercial shoots.</b> Paid work for a brand, such as product, lifestyle or catalog imagery. There is a client on set, a brief to follow and usually a tight schedule.</li>
+<li><b>Editorial shoots.</b> Images for a publication or a creative project, with more room for concept and mood. Pay varies widely and is sometimes minimal.</li>
+<li><b>Digitals.</b> Plain, unretouched photos for an agency, with no styling and no concept. Our guide to <a href="../how-to-get-signed-by-a-modeling-agency/">getting signed by an agency</a> covers what to send.</li>
+</ul>
+<p>Ask which of these you are walking into before you say yes. The answer decides what you wear, what you bring and what you should expect to be paid.</p>
+
+<h2>Before the Day: What to Confirm</h2>
+<p>A good booking comes with a clear brief. If yours does not, ask for these in writing:</p>
+<ol>
+<li>Date, call time, address and a phone number for someone who will pick up on the day.</li>
+<li>The concept, the number of looks and who is providing the wardrobe.</li>
+<li>Whether the shoot is paid or a trade, and what you will receive afterward, including how many images and when.</li>
+<li>Who will be on set, including any stylist, makeup artist or client.</li>
+<li>How the images may be used. If a release will be signed, ask to read it ahead of time.</li>
+</ol>
+<p>A vague answer to any of these is information. Clear, professional people answer them without fuss. If someone avoids putting basics in writing, treat that as a reason to slow down.</p>
+
+<h2>How to Prepare</h2>
+
+<h3>Your body and skin</h3>
+<p>Sleep and water do more than any trick. Skip new skincare, tanning and treatments in the days before, since reactions and marks show on camera. Avoid tight waistbands, bra straps and socks for a few hours before, because the lines can stay on skin and appear in pictures.</p>
+
+<h3>Your kit</h3>
+<p>Bring clean, neutral basics in a few colors, a robe or cover-up, a brush, any products your hair and skin rely on, water and something to eat. Pack the brief, a charger and any items you were asked to bring. If you are providing your own wardrobe, bring more options than you think you need and keep them pressed.</p>
+
+<h3>Your practice</h3>
+<p>Walk in already knowing a handful of poses and expressions. You do not need to plan the whole shoot, but it helps to be comfortable with a few reliable angles. Our guides to <a href="../model-poses/">how to pose like a model</a> and <a href="../how-to-be-photogenic/">how to be photogenic</a> cover the fundamentals.</p>
+
+<h2>What the Day Actually Looks Like</h2>
+<p>Most shoots follow the same pattern, even when the budget does not.</p>
+<ol>
+<li><b>Arrival and check-in.</b> Introduce yourself, find out who is who and look at the plan. Arrive a little early. Being late is the quickest way to start a day badly.</li>
+<li><b>Hair and makeup.</b> This can take an hour or more. Sit still, speak up politely if something is uncomfortable and do not alter it yourself afterward without checking.</li>
+<li><b>Wardrobe.</b> Look by look, with a stylist or assistant helping. Keep garments clean and handle them carefully, particularly if they will be returned.</li>
+<li><b>Shooting.</b> One setup at a time. The photographer gives direction, you adjust, and frames get taken in quick bursts. Expect small, specific notes such as "chin down," "weight back" or "relax your hands."</li>
+<li><b>Resets.</b> Between setups there is waiting while lights move and looks change. This is where energy drains, so stay warm, hydrated and in a good mood.</li>
+<li><b>Wrap.</b> Thank everyone, confirm what happens next and ask when you can expect images or payment.</li>
+</ol>
+<p>The biggest surprise for new models is the pace. Shooting is quick and repetitive, and most frames are variations on a small number of moves. The skill is staying fresh through that repetition.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=what-to-expect-at-a-model-photoshoot__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>How to Be Easy to Work With</h2>
+<p>Photographers and bookers remember the people who made the day smoother. That comes down to a few habits.</p>
+<ul>
+<li><b>Take direction cleanly.</b> Make the change you were asked for, then hold it. Do not explain why a pose feels awkward unless something is actually painful.</li>
+<li><b>Repeat what works.</b> If the photographer reacts well to a frame, say "same again" and give it to them.</li>
+<li><b>Keep your phone away.</b> Checking it between setups breaks the energy and signals you would rather be elsewhere.</li>
+<li><b>Be kind to the whole crew.</b> Assistants, stylists and makeup artists talk, and they are often the ones recommending models to the next client.</li>
+</ul>
+
+<h2>Staying Safe</h2>
+<p>Most photographers are professionals running a normal working day. A small number are not, and new models are the people they target, so a few simple habits are worth building now.</p>
+<ul>
+<li>Check a photographer's published work, references and how long they have been operating before agreeing to a one-on-one shoot.</li>
+<li>Tell someone you trust where you are, who you are with and when you expect to finish. Bring a friend or chaperone for a first test shoot if you can.</li>
+<li>Agree on the concept and wardrobe beforehand, including what you will not do. A professional accepts those limits without negotiation.</li>
+<li>You can stop at any time. Pressure to wear less, do more or "just trust me" is a reason to leave, not a reason to push through.</li>
+<li>Be wary of any shoot that is required before an agency will consider you. Reputable agencies do not make representation depend on paying for photography. Our guide to <a href="../how-to-choose-a-modeling-agency/">choosing a modeling agency</a> explains the pattern.</li>
+</ul>
+
+<h2>Paperwork, Pay and What Happens After</h2>
+<p>Read anything you are asked to sign, especially a model release. Check where and for how long the images can be used, whether the use is limited to a specific purpose and whether there are any extra uses you did not expect. Paid jobs should come with a rate and payment terms in writing. Our guide to <a href="../how-to-get-paid-as-a-model/">how to get paid as a model</a> covers invoices and timelines.</p>
+<p>After the shoot, ask when you will receive images and what you are allowed to do with them. For test shoots, you should be able to use selected images in your <a href="../how-to-make-a-modeling-portfolio/">portfolio</a>. Check whether credit lines are expected and whether retouching is limited.</p>
+
+<h2>Making the Most of Your First Shoot</h2>
+<p>Treat the first shoot as practice you happen to be photographed doing. Notice what you found easy, which directions threw you and which frames felt natural. Ask the photographer which images worked best and why. That feedback is worth more than most of the pictures.</p>
+<p>If you want to go further, our guide to <a href="../how-to-become-a-model/">how to become a model</a> shows where a shoot sits in the larger path, and the free runway masterclass covers how to carry yourself when a room is watching.</p>
 `,
   },
 ];

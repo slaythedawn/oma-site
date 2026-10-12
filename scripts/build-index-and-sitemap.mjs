@@ -95,6 +95,7 @@ const CLUSTERS = [
       'modeling-resume',
       'model-poses',
       'how-to-be-photogenic',
+      'what-to-expect-at-a-model-photoshoot',
       'modeling-headshots',
     ],
   },
