@@ -2897,3 +2897,20 @@ the existing section, not a new URL.
   (no image generation). `npm run build && npm run check` pass; seoTitle 51,
   description 153; no em dashes in the new prose; zero `utm_source` on the
   homepage.
+
+- **2026-10-13 run.** Same stale 18 August chat-routine prompt; repo process
+  followed. No open PRs. GSC unavailable, Ahrefs substituted. Fresh scan
+  again shows only two positions 4-20 at 100+ volume: `how much do models
+  make` at 8 (2300, KD 0) and the homepage at 4 for `professional model
+  training workshops` (1500). The keyword space is fished out (see the long
+  checked list above), so this run **improved** the near-miss page instead
+  of forcing a weak new article: `how-much-do-models-make` now has a "What
+  the Government Numbers Say" section and an FAQ entry using BLS OEWS May
+  2022 figures (median $20.73/hr, mean $37.17, quartiles $14.20 and
+  $45.67), with the caveats that the sample is tiny and employee-only. The
+  SERP is salary aggregators that lead with a number, which our page lacked.
+  Figures came via search-tool summaries because bls.gov is blocked from
+  this environment; worth re-verifying against bls.gov/oes/current/oes419012.htm
+  and updating to the latest release when a run can reach it. Re-measure the
+  position-8 ranking in 2-4 weeks. `npm run build && npm run check` pass; no
+  em dashes in the new prose.

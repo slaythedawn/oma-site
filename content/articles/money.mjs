@@ -113,6 +113,10 @@ export const money = [
         a: 'There is no single number, because modeling pay is not a salary, it is a fee per job that varies enormously by category, client, and usage. A local catalogue shoot might pay a few hundred dollars for a few hours. A national campaign with broad usage can pay five figures for the same few hours of shooting. Most working models earn somewhere between those extremes, and irregularly.',
       },
       {
+        q: 'What is the average hourly pay for a model?',
+        a: 'The Bureau of Labor Statistics May 2022 estimates put the median hourly wage for models at about $20.73, with a mean of about $37.17. Treat that as a rough guide only. The survey covers a small number of employed models, most working models are paid per job as contractors, and one large booking can move an average a long way.',
+      },
+      {
         q: 'Do models get paid hourly, daily, or per job?',
         a: 'Almost always per job, quoted as a day rate or session fee for a set number of hours, plus a separate usage fee for where and how long the images run. Very little modeling work is paid hourly in the way a shift job is. Fit modeling is the main exception, and is genuinely paid by the hour.',
       },
@@ -136,6 +140,15 @@ export const money = [
     body: `
 <p>"How much do models make" gets asked constantly and answered badly almost everywhere, usually with a single average that means nothing because modeling pay does not work like a salary. There is no annual figure that describes both a first-time TFP shoot and a national campaign booking, because the person asking the question is usually picturing the second one and about to be quoted the first one's structure.</p>
 <p>Our instructors at Online Model Academy are agents, bookers, and a working fashion week producer, people who set these rates and write these checks. This is how pay actually breaks down.</p>
+
+<h2>What the Government Numbers Say, and What They Leave Out</h2>
+<p>If you want one published figure, the closest thing is the US Bureau of Labor Statistics. Its May 2022 occupational wage estimates for models put the median at about $20.73 an hour, with the middle half of employed models earning roughly $14.20 to $45.67 an hour and a mean of about $37.17. Those are real, citable numbers, and they are also a poor guide to your own income, for three reasons.</p>
+<ul>
+<li><b>The sample is tiny.</b> The survey counts only a couple of thousand models nationally, and only people paid as employees. Most working models are independent contractors paid per job, so the majority of the industry never appears in it.</li>
+<li><b>An hourly wage is not a booking.</b> Jobs are sold by the day or the session, so an hourly figure says nothing about how many paid days a month you actually get.</li>
+<li><b>The mean is dragged up by the top.</b> A small number of large campaign bookings pull the average far above the median. The gap between $20.73 and $37.17 is that effect in miniature.</li>
+</ul>
+<p>Salary-aggregator pages built from self-reported figures have the same problem in a different form. Treat any single average, ours included, as a starting point for the structure below, not a forecast.</p>
 
 <h2>The Structure Comes Before the Number</h2>
 <p>Almost every modeling job is priced in two parts, and understanding both is worth more to your income than any single rate you memorize.</p>
