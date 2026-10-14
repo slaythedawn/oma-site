@@ -6,7 +6,7 @@ const DATE_PETITE_AGENCIES = '2026-09-03';
 
 const feeWarning = `
 <h2>The Only Money Rule That Matters</h2>
-<p>A legitimate modeling agency earns a commission on work you book. That is the whole business model, and it is why a real agency has no reason to charge you anything to sign.</p>
+<p>A legitimate modeling agency earns a commission on work you book. That is the whole business model, and it is why a real agency has no reason to charge you anything to sign. If you are unsure who you would actually be dealing with there, see <a href="../what-is-a-model-agent/">what a model agent does</a>.</p>
 <p>Anything that inverts that — an upfront fee, a mandatory shoot with their photographer at your expense, a paid "portfolio package", a fee to appear on their website, a charge for a "screen test" — is a business that makes money from aspiring models rather than from clients. Some of these are outright scams. Others are legal but useless. Neither is representation.</p>
 <p>The test is simple: <b>does this company make money when I work, or does it make money whether or not I ever work?</b> We put real numbers to it in <a href="../how-much-does-it-cost-to-become-a-model/">what it actually costs to become a model</a>.</p>
 `;
@@ -389,6 +389,120 @@ ${feeWarning}
 
 <h2>Start Here</h2>
 <p>Check each agency's actual boards before you submit, send accurate measurements and honest digitals, and target commercial and lifestyle divisions rather than fashion-runway ones. Our free runway masterclass covers the casting-room craft in six lessons, taught by a working fashion week producer, at no cost.</p>
+`,
+  },
+
+  {
+    slug: 'what-is-a-model-agent',
+    seoTitle: 'What Is a Model Agent? What They Do and Earn',
+    description:
+      'What a model agent actually does, how they get paid, how an agent differs from an agency or manager, and how to get one, from the people who book models.',
+    headline: 'What Is a Model Agent? What They Do, How They Get Paid and How to Get One',
+    category: 'Agencies',
+    image: 'how-to-choose-a-modeling-agency',
+    imageAlt: 'A model agent at a desk reviewing a model portfolio on a laptop in bright daylight',
+    readTime: 9,
+    date: '2026-10-14',
+    related: [
+      'how-to-get-signed-by-a-modeling-agency',
+      'how-to-choose-a-modeling-agency',
+      'what-do-modeling-agencies-look-for',
+    ],
+    faq: [
+      {
+        q: 'What is a model agent?',
+        a: 'A model agent is the person at a modeling agency who represents you to clients. They submit you for castings, negotiate rates and usage, handle the paperwork and invoicing, and guide how your portfolio and look develop. They earn a commission on the work you book, so they only get paid when you do.',
+      },
+      {
+        q: 'What is the difference between a model agent and a booker?',
+        a: 'The titles overlap and vary by agency. Generally a booker handles day-to-day logistics such as castings, availability and confirmations, while an agent or board director shapes your career, negotiates larger deals and decides how you are positioned. At smaller agencies one person does both.',
+      },
+      {
+        q: 'How much does a model agent take?',
+        a: 'A commission on each job, commonly somewhere in the range of 10 to 20 percent from the model, and the agency usually charges the client a separate fee on top. Exact terms are in your contract and differ by market, so read it and ask questions before you sign.',
+      },
+      {
+        q: 'Should I pay a model agent upfront?',
+        a: 'No. A real agent earns money when you work, so there is no reason to charge you to sign, to be on a website, or to take a test shoot with their photographer. Upfront fees are the clearest warning sign in the industry.',
+      },
+      {
+        q: 'What is the difference between a model agent and a manager?',
+        a: 'An agent finds and books work and is paid commission on those bookings. A manager advises on the wider career, such as brand deals and long-term planning, and usually takes their own commission. Most models start with an agent only and do not need a manager early on.',
+      },
+      {
+        q: 'How do I get a model agent?',
+        a: 'Work out which category you fit, shoot clean unretouched digitals, and submit to agencies that represent your category using their own submission process. Follow the instructions exactly, be accurate with measurements, and keep it short. Our guide to getting signed walks through the whole process.',
+      },
+    ],
+    body: `
+<p>Ask ten aspiring models what a model agent is and most will say "the person who gets me jobs." That is half right, and the missing half is the part that decides whether the relationship works.</p>
+<p>Here is what a model agent actually does day to day, how they are paid, who they are not, and how to get one, as the people who work with agents every week describe it.</p>
+
+<h2>What a Model Agent Does</h2>
+<p>An agent is your representative to the people who hire models. In practice that covers a handful of jobs:</p>
+<ul>
+<li><b>Submitting you for castings.</b> When a client sends a brief, the agent decides which of their models to put forward. Being submitted is the whole game, and it depends on whether the agent believes you fit what the client asked for.</li>
+<li><b>Negotiating rates and usage.</b> The agent agrees the day rate, how long and where the images can run, and whether there is exclusivity. Models who negotiate for themselves usually get less, and quietly burn the client relationship.</li>
+<li><b>Handling the logistics.</b> Confirmations, call sheets, travel, fittings and the paperwork around all of them.</li>
+<li><b>Invoicing and chasing payment.</b> The agency bills the client and passes your share on to you. Chasing late payers is a large part of why agencies exist.</li>
+<li><b>Steering your look and portfolio.</b> A good agent tells you which pictures to cut, whether a haircut helps, and which type of work you should be pushing toward.</li>
+</ul>
+<p>The honest summary is that an agent sells you, protects you and handles the money, in exchange for a share of what you earn. Our breakdown of <a href="../how-much-do-models-make/">what models actually make</a> shows what that share is taken from.</p>
+
+<h2>Agent, Agency, Booker, Scout and Manager</h2>
+<p>These words get used interchangeably, and mixing them up is how people end up confused about who they are even talking to.</p>
+<ul>
+<li><b>The agency</b> is the company that holds your contract and bills clients.</li>
+<li><b>The agent</b> is the person there who represents you. At many agencies the title is "booker" or "board director" instead.</li>
+<li><b>A booker</b> runs the day-to-day: castings, availability, confirmations. At larger agencies a booker is junior to the head of a board.</li>
+<li><b>A scout</b> finds new faces and passes them to the agency. A scout is not your agent and cannot promise you work.</li>
+<li><b>A manager</b> advises on the wider career and usually takes a separate commission. Most working models, especially at the start, do not have one.</li>
+</ul>
+<p>If you want to see how the agency side fits together, <a href="../how-to-choose-a-modeling-agency/">choosing a modeling agency</a> covers mother agencies, exclusivity and what to look for in a contract.</p>
+
+<h2>How a Model Agent Gets Paid</h2>
+<p>This is the part that protects you from scams, so it is worth being plain about it.</p>
+<p>A legitimate agent is paid by commission. The agency typically takes a percentage from you on each job, and usually charges the client a separate agency fee on top. Commission figures commonly fall somewhere in the range of 10 to 20 percent from the model, but the exact number, and how expenses are handled, is set by your contract and differs by market. Rules on licensing and fees also vary between US states, the UK and Australia, so check the rules where you live rather than assuming.</p>
+<p>The principle does not change anywhere: <b>the agent makes money when you work.</b> That is why a real agent is selective. Signing someone who cannot be booked costs them time and earns nothing.</p>
+<p>It also tells you what a red flag looks like. A company that asks you to pay to sign, to pay for its photographer, to pay for a placement on its website or to buy a "package" makes money whether or not you ever work. That is not representation. Our guide on <a href="../what-do-modeling-agencies-look-for/">what modeling agencies look for</a> covers the submission side, and the cost guide covers where the money should and should not go.</p>
+
+<h2>What a Good Agent Looks Like</h2>
+<p>The agents models stay with for years tend to share a few habits.</p>
+<ul>
+<li><b>They answer.</b> Not instantly, but within a working day, and they tell you when there is nothing to report.</li>
+<li><b>They are specific.</b> "You are going up for a lifestyle campaign on Tuesday, here is the brief" beats "keep your phone on."</li>
+<li><b>They put the numbers in writing.</b> Rates, usage and payment terms arrive in an email, not a phone call you have to remember.</li>
+<li><b>They tell you the truth about your look.</b> If your hair, your digitals or your category is holding you back, a good agent says so.</li>
+<li><b>They pay on time and explain deductions.</b> Statements should be clear. If you cannot work out how a payment was calculated, ask.</li>
+</ul>
+<p>Worth knowing: an agent who gets back to you quickly and keeps sending you out is a better sign than a famous agency name. A big name with a busy board where you are one of hundreds can go quiet for months.</p>
+
+<h2>What an Agent Cannot Do</h2>
+<p>Expectations are where most disappointment comes from.</p>
+<ul>
+<li>An agent cannot make clients want you. They can only put you in front of the right ones.</li>
+<li>An agent cannot guarantee income. Even well-signed models have slow seasons.</li>
+<li>An agent is not your friend, your coach or your career therapist. The relationship is professional, and the best ones stay that way.</li>
+<li>An agent cannot fix poor digitals. If your photos are heavily edited or styled, the first thing an agent does is ask for new ones.</li>
+</ul>
+
+<h2>How to Get a Model Agent</h2>
+<p>The route into representation is simpler than most people make it, and it is mostly about not wasting an agent's time.</p>
+<ol>
+<li><b>Work out your category.</b> Fashion, commercial, curve, parts and talent boards want different things. Submitting to the wrong board is the most common reason for a silent no.</li>
+<li><b>Take clean digitals.</b> Plain background, natural light, no filters, no heavy makeup, simple fitted clothes. Our guide on <a href="../how-to-get-signed-by-a-modeling-agency/">how to get signed by a modeling agency</a> lists exactly which shots to take.</li>
+<li><b>Research agencies for your category.</b> Look at who they represent. If they have nobody who looks like you in your category, they probably are not looking.</li>
+<li><b>Follow their submission process to the letter.</b> Use the form or email they ask for, include the measurements they list, and keep your note short and honest.</li>
+<li><b>Be patient and polite.</b> A no, or silence, is normal. Reapply when your look changes meaningfully, not every month.</li>
+</ol>
+<p>If you do not know where to start, <a href="../modeling-agencies-near-me/">finding modeling agencies near you</a> is a practical first step, and <a href="../how-to-start-a-modeling-career/">how to start a modeling career</a> puts the agent search in its place within the full sequence.</p>
+
+<h2>Do You Even Need an Agent?</h2>
+<p>For fashion and most paid commercial work, yes. Major clients cast through agencies, and an agent is how you get in the room. For some work, such as local commercial jobs, UGC or freelance projects, you can find work yourself. Our guide to <a href="../how-to-become-a-freelance-model/">freelance modeling</a> covers that route.</p>
+<p>Many models do both, using an agent for the bigger bookings and handling smaller direct work on their own, subject to what their contract allows. Check the exclusivity terms before you take a job outside your agency.</p>
+
+<h2>Where to Go Next</h2>
+<p>An agent is easier to get, and easier to keep, when you walk in already knowing how castings and sets work. That is what our course teaches, taught by working casting directors, runway producers and agents. Start with the free runway masterclass, and see how it fits on the <a href="../../">Online Model Academy homepage</a>.</p>
 `,
   },
 ];

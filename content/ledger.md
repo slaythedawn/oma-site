@@ -58,7 +58,7 @@ guessed). Apply the same standard going forward: any new or edited
 article touching a jurisdiction-dependent rule gets real, checked detail
 for all three markets, or it doesn't ship.
 
-## Live (71 articles)
+## Live (72 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -133,6 +133,7 @@ for all three markets, or it doesn't ship.
 | lifestyle-modeling | lifestyle modeling / what is lifestyle modeling | 90 + 30 | 0 / 0 | 2026-09-27 |
 | how-to-be-photogenic | how to be photogenic | 900 | 0 | 2026-09-30 |
 | what-to-expect-at-a-model-photoshoot | model photoshoot | 1400 | 0 | 2026-10-12 |
+| what-is-a-model-agent | what is a model agent | 1500 | 0 | 2026-10-14 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -2897,3 +2898,21 @@ the existing section, not a new URL.
   (no image generation). `npm run build && npm run check` pass; seoTitle 51,
   description 153; no em dashes in the new prose; zero `utm_source` on the
   homepage.
+
+- **2026-10-14 run.** Same stale 18 August chat-routine prompt; repo process
+  followed (article 17 is long since live). PR #51 (`how-much-do-models-make`
+  improvement) was open, a different target, so no collision. GSC unavailable,
+  Ahrefs substituted. A questions-mode `keywords-explorer-matching-terms` scan
+  surfaced `what are the risks of being a model` (1300 vol, KD 0) but its
+  traffic potential is only 40, so the volume is probably inflated; skipped.
+  `what are the qualities of a successful model` (3100, KD 0, TP 1000) is
+  likely cannibalised by `how-to-become-a-successful-model`: an
+  improvement candidate for that page, not a new URL. New target `what is a
+  model agent` (1500, KD 0, TP 300): grep found no dedicated coverage.
+  Shipped `what-is-a-model-agent` in `agencies-us.mjs`, Agencies cluster,
+  cross-linked in-body from `modeling-agencies-near-me` and
+  `how-to-start-a-modeling-career`. Reused the `how-to-choose-a-modeling-agency`
+  hero (no image generation). Commission range is stated as a hedged "commonly
+  10 to 20 percent" with a note that licensing and fee rules differ by US
+  state, UK and Australia. `npm run build && npm run check` pass; no em dashes
+  in the new page; zero `utm_source` on the homepage.

@@ -66,6 +66,7 @@ const CLUSTERS = [
       'what-do-modeling-agencies-look-for',
       'how-to-get-signed-by-a-modeling-agency',
       'how-to-choose-a-modeling-agency',
+      'what-is-a-model-agent',
       'modeling-agencies-near-me',
       'modelling-agencies-australia',
       'modelling-agencies-sydney',
