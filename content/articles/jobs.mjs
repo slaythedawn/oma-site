@@ -104,7 +104,7 @@ export const jobs = [
 <h3>Direct and freelance (some work)</h3>
 <p>Commercial, promotional and fit work is often booked direct. It is legitimate and can pay well. It also means you negotiate, you check the contract, you invoice, you chase payment, and you manage your own safety. Our <a href="../how-to-become-a-freelance-model/">freelance modeling guide</a> covers doing that properly.</p>
 <h3>Open calls</h3>
-<p>Some productions and agencies run genuine open calls. Our <a href="../open-casting-call/">open casting call guide</a> covers how to work them.</p>
+<p>Some productions and agencies run genuine open calls. Our <a href="../open-casting-call/">open casting call guide</a> covers how to work them, and <a href="../what-does-a-casting-director-do/">what a casting director does</a> explains who runs the room.</p>
 
 ${scamSection}
 
@@ -184,7 +184,7 @@ ${scamSection}
 <li><b>How do you carry yourself?</b> Walking in, standing still, being looked at without fidgeting. It reads instantly on camera.</li>
 <li><b>Are you easy?</b> Prompt, prepared, pleasant to the person on the door. Bookers ask that person afterwards more often than anyone expects.</li>
 </ul>
-<p>Our guide to <a href="../what-do-modeling-agencies-look-for/">what agencies look for</a> goes deeper on the criteria behind the decision.</p>
+<p>Our guide to <a href="../what-do-modeling-agencies-look-for/">what agencies look for</a> goes deeper on the criteria behind the decision, and <a href="../what-does-a-casting-director-do/">what a casting director does</a> explains who is on the other side of the table.</p>
 
 <aside class="inline-cta">
   <div class="k">Free module</div>
@@ -231,6 +231,111 @@ ${scamSection}
 <p>Most open calls end in silence, and silence is the normal outcome rather than a personal verdict. Boards fill, briefs are narrow, and timing decides more than anything you did in the room.</p>
 <p>Do not chase. One polite follow-up is fine; repeated contact works against you. Go to the next one. Models who get signed are routinely people who attended several open calls over a year or more, including at agencies that had already passed on them.</p>
 <p>What you can improve between now and the next one is how you present in the room. That is craft, it is learnable, and our free runway masterclass — five lessons from a working fashion week producer — is the fastest way to pick it up at no cost.</p>
+`,
+  },
+  {
+    slug: 'what-does-a-casting-director-do',
+    seoTitle: 'What Does a Casting Director Do? A Model\'s Guide',
+    description:
+      'What a casting director actually does on a modeling job, how they choose who gets booked, and how to work with one. Written from the casting side of the room.',
+    headline: 'What Does a Casting Director Do? The Model\'s Guide',
+    category: 'Castings',
+    image: 'model-casting-calls',
+    imageAlt: 'Models waiting in line to be seen by a casting team',
+    readTime: 9,
+    date: '2026-10-15',
+    related: [
+      'open-casting-call',
+      'model-casting-calls',
+      'what-do-modeling-agencies-look-for',
+    ],
+    faq: [
+      {
+        q: 'What does a casting director do?',
+        a: 'A casting director finds and shortlists the people who could fill the roles on a job, runs the casting, and presents the best options to the client or creative team who make the final call. For modeling, that means turning a brief into a pool of candidates, seeing them, and recommending.',
+      },
+      {
+        q: 'Does the casting director make the final decision?',
+        a: 'Usually not alone. The casting director narrows the field and gives a recommendation, and the client, designer, photographer or creative director chooses. On some jobs the casting director has real sway; on others they are mainly an organiser. Either way, they control who gets in front of the decision makers.',
+      },
+      {
+        q: 'How is a casting director different from a booker?',
+        a: 'A booker works for the agency and represents models, pitching them for jobs and handling the logistics. A casting director works for the client or production and is trying to fill a brief. Bookers submit models; casting directors choose who to see.',
+      },
+      {
+        q: 'Can a model contact a casting director directly?',
+        a: 'It is possible, but most casting directors take submissions through agencies because it saves time and filters out unsuitable candidates. If you are unrepresented, look for open calls and published submission instructions, and follow them exactly rather than sending unsolicited messages.',
+      },
+      {
+        q: 'Do casting directors charge models a fee?',
+        a: 'No. A casting director is paid by the production or client. Anyone asking you to pay to be seen, to be added to a database or to be considered for a job is not working in the way legitimate casting works.',
+      },
+    ],
+    body: `
+<p>Most models spend years walking into rooms run by casting directors without being quite sure what the job is. That gap costs them. If you understand what the person across the table is trying to do, you stop reading short appointments as rejection and start making their day easier.</p>
+<p>This guide explains the role from the casting side of the room.</p>
+
+<h2>The Short Answer</h2>
+<p>A casting director turns a brief into a person. A client or creative team says what they need: a look, an age range, a feeling, a set of practical requirements. The casting director finds candidates who fit, sees them, and puts the strongest options in front of the people who decide.</p>
+<p>They are not the person who owns the job, and they are not your agent. They sit in the middle, and their reputation depends on sending the client people who are right and reliable.</p>
+
+<h2>What the Job Actually Involves</h2>
+<h3>Reading the brief</h3>
+<p>Everything starts with working out what the client really wants, which is often different from what the written brief says. "Natural and approachable" can mean four very different faces depending on the brand. A good casting director asks questions early so they are not guessing later.</p>
+<h3>Building the pool</h3>
+<p>They request submissions from agencies, search their own records of people they have seen before, and sometimes scout. Most of the pool comes from agencies, because agency models arrive vetted, with accurate measurements and an adult who will answer the phone.</p>
+<h3>Running the casting</h3>
+<p>They schedule appointments, manage the room, take photos or video, note measurements, and keep the day on time. For a large job this can mean seeing dozens or hundreds of people in a day, which is why each appointment is short.</p>
+<h3>Presenting and recommending</h3>
+<p>They assemble the shortlist, usually as photos, short clips and notes, and present it to the client. The client reacts, the list narrows, sometimes there is a callback, and eventually someone is booked.</p>
+<h3>Handling the logistics</h3>
+<p>Availability, holds, conflicts, fittings and booking confirmation often pass through the casting team too. A model who is hard to schedule or slow to reply makes this harder, and that is remembered.</p>
+
+<h2>Casting Director, Booker, Agent: Who Is Who</h2>
+<ul>
+<li><b>Booker.</b> Works for your agency. Pitches you, negotiates rates, handles your calendar. Their loyalty is to you and the agency.</li>
+<li><b>Casting director.</b> Works for the client or production. Fills a brief. Their loyalty is to the job.</li>
+<li><b>Client or creative director.</b> Makes the final choice, usually after seeing the casting director's shortlist.</li>
+</ul>
+<p>When a booker sends you to a casting, the casting director has asked for people like you. Your booker has agreed you fit. The final yes is a third decision made by someone you may never meet. Our guide to <a href="../what-do-modeling-agencies-look-for/">what agencies look for</a> covers the booker's side of that chain.</p>
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=what-does-a-casting-director-do__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>How They Decide Who to Pick</h2>
+<p>The honest answer is that most of the decision is made before you walk in, and not by anything you control.</p>
+<ul>
+<li><b>Fit with the brief.</b> Does the person match what was asked for? This removes most candidates immediately and says nothing about their quality.</li>
+<li><b>The unstyled photo.</b> Casting photos are plain on purpose. Casting directors need to see what the client will actually be working with.</li>
+<li><b>Reliability signals.</b> On time, prepared, correct measurements, easy to speak to. Clients hate surprises, and the casting director takes the blame for them.</li>
+<li><b>Room presence.</b> How you stand, how you handle being looked at, whether you can take direction in a sentence or two.</li>
+<li><b>Variety in the shortlist.</b> A casting director often wants to show the client a range of options, so two very similar people can compete for one slot.</li>
+</ul>
+<p>Notice that very little of that is about being the most beautiful person in the room. It is mostly about being the right, easy and dependable choice.</p>
+
+<h2>What a Casting Director Remembers</h2>
+<p>Casting directors work with the same clients and agencies repeatedly, and they keep a mental record of who was good in the room. A professional appointment today can mean a call for a different job a year from now, even if you were not picked this time.</p>
+<p>The reverse is true too. Lateness, a poor attitude with the person on the door, or arriving unprepared gets remembered and passed along. This is why the small habits matter more than they seem to.</p>
+
+<h2>How to Work With One</h2>
+<ul>
+<li><b>Arrive on time with the basics.</b> Digitals, measurements, any requested items, and the right clothes for the brief.</li>
+<li><b>Answer the question asked.</b> Short, pleasant, honest. Casting rooms run on tight schedules.</li>
+<li><b>Take direction instantly.</b> If asked to turn, walk or change expression, do it without commentary.</li>
+<li><b>Be gracious about the outcome.</b> A quiet thank you is plenty. Do not argue, explain or chase.</li>
+<li><b>Go through your agency.</b> If you are represented, let your booker handle contact. Going around them causes problems.</li>
+</ul>
+<p>For the full picture of what happens at the open end of the process, read our guide to <a href="../open-casting-call/">open casting calls</a>, and for the wider map of where castings come from, see <a href="../model-casting-calls/">model casting calls</a>.</p>
+
+<h2>Real Castings Never Charge You</h2>
+<p>A casting director is paid by the production. If anyone tells you that you must pay to be seen, to be listed, or to be considered, you are not dealing with a casting in the way the industry works. The same goes for private addresses, being told to come alone, or unannounced requirements to remove clothing. Our <a href="../modeling-jobs/">modeling jobs guide</a> lists the warning signs in full.</p>
+
+<h2>Where to Go From Here</h2>
+<p>Once you understand the casting director's job, the short appointments make sense: they are choosing quickly between many fits to a brief, not judging your worth. What you can control is how professionally you present. That is craft, and it can be learned. Our course is taught by working casting directors, runway producers and agents, and the free runway masterclass is the easiest place to start. Start from the <a href="../../">Online Model Academy homepage</a> to see how it all fits together.</p>
 `,
   },
 ];
