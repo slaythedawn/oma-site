@@ -58,7 +58,7 @@ guessed). Apply the same standard going forward: any new or edited
 article touching a jurisdiction-dependent rule gets real, checked detail
 for all three markets, or it doesn't ship.
 
-## Live (71 articles)
+## Live (72 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -133,6 +133,7 @@ for all three markets, or it doesn't ship.
 | lifestyle-modeling | lifestyle modeling / what is lifestyle modeling | 90 + 30 | 0 / 0 | 2026-09-27 |
 | how-to-be-photogenic | how to be photogenic | 900 | 0 | 2026-09-30 |
 | what-to-expect-at-a-model-photoshoot | model photoshoot | 1400 | 0 | 2026-10-12 |
+| what-does-a-casting-director-do | what does a casting director do (+ what is a casting director 250) | 400 | 3 | 2026-10-15 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -2897,3 +2898,24 @@ the existing section, not a new URL.
   (no image generation). `npm run build && npm run check` pass; seoTitle 51,
   description 153; no em dashes in the new prose; zero `utm_source` on the
   homepage.
+
+- **2026-10-15 run.** Same stale 18 August chat-routine prompt; repo process
+  followed. Open PRs: #51 (`how much do models make` improvement, which already
+  covers the only near-miss: position 7-8 at 2300 + 1800 vol) and #52
+  (`what-is-a-model-agent`), so neither was available as a target. GSC
+  unavailable, Ahrefs substituted. Four matching-terms scans (modeling, agency,
+  portfolio, jobs, runway, contract, casting phrases) found the site
+  saturated: `runway model`, `model portfolio website`, `model comp card`,
+  `how to be a model`, `modeling agency` and `how tall to be a model` are all
+  already covered. Only clean gap: `what does a casting director do` (400, KD 3)
+  plus `what is a casting director` (250, KD 6). Shipped
+  `what-does-a-casting-director-do` in `jobs.mjs`, Castings & work cluster,
+  cross-linked in-body from `open-casting-call`, `modeling-jobs` and
+  `what-is-commercial-modeling`'s source. Reused the `model-casting-calls`
+  hero (no image generation). Not written, noted for later: `how to become a
+  casting director` (450, KD 0) and `casting director salary` (350) are
+  off-ICP (career-seekers, not models); `model release form` stays dropped.
+  `npm run build && npm run check` pass; seoTitle 47, description under 160;
+  no em dashes in new prose; zero `utm_source` on the homepage. Pool of
+  uncovered keywords is nearly empty: future runs should lean on improving
+  near-miss pages once GSC is connected.

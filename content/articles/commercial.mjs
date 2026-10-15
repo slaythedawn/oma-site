@@ -66,7 +66,7 @@ export const commercial = [
 <ul>
 <li><b>Posing and how you read on camera.</b> The single most trainable skill. Most beginners have no idea what their body is doing under a lens.</li>
 <li><b>Runway technique.</b> Walk, pace, turns, timing, and holding energy through a show. See our guide to <a href="../how-do-models-walk-in-runway-shows/">how models walk in runway shows</a>.</li>
-<li><b>What a casting is really like.</b> The format, the brevity, the waiting, the two minutes you actually get. Our <a href="../open-casting-call/">open casting call guide</a> covers the room itself.</li>
+<li><b>What a casting is really like.</b> The format, the brevity, the waiting, the two minutes you actually get. Our <a href="../open-casting-call/">open casting call guide</a> covers the room itself, and <a href="../what-does-a-casting-director-do/">what a casting director does</a> covers the person running it.</li>
 <li><b>Digitals and portfolio.</b> What agencies ask for and why polished photos hurt you at submission stage.</li>
 <li><b>Contracts, rates and usage.</b> The commercial literacy that stops you signing away perpetual worldwide usage for a day rate.</li>
 <li><b>Professional conduct.</b> Unglamorous and decisive — the behaviour that separates models who get rebooked from models who get booked once.</li>
