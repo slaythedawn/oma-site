@@ -3,18 +3,27 @@
 The public site at **[www.onlinemodelacademy.com](https://www.onlinemodelacademy.com)**.
 Hand-written static HTML, deployed by Vercel on every push to `main`.
 
-It sells the course. It does not run it: checkout, accounts, lessons and legal
-pages all live in Kajabi on a **separate domain**, `www.onlinemodel.academy`.
-Everything in this repo is the shopfront in front of that.
+It sells the course. It does not run it — but the thing that runs it is moving
+in under this domain. `vercel.json` rewrites `/learn/*` to `oma-backend`, the
+replacement for Kajabi, so the course platform is served from
+`onlinemodelacademy.com/learn` without a subdomain and without a second origin.
 
 ```
 Visitor → onlinemodelacademy.com (this repo, Vercel)
              │
-             ├── "Enrol — $299"        → onlinemodel.academy/offers/iJxLGaoD   (Kajabi checkout)
-             ├── "Get the free module" → onlinemodel.academy/offers/ZbJFXeGn   (Kajabi free offer)
-             ├── "Login"               → onlinemodel.academy/login             (Kajabi course)
-             └── Privacy / Terms       → onlinemodel.academy/…                 (Kajabi pages)
+             ├── /learn/*              → oma-backend (rewrite — the course platform)
+             │
+             ├── "Enrol — $299"        → onlinemodel.academy/offers/iJxLGaoD   (Kajabi — to repoint)
+             ├── "Get the free module" → onlinemodel.academy/offers/ZbJFXeGn   (Kajabi — to repoint)
+             ├── "Login"               → onlinemodel.academy/login             (Kajabi — to repoint)
+             └── Privacy / Terms       → onlinemodel.academy/…                 (Kajabi — to repoint)
 ```
+
+**The 358 Kajabi links are the next job, not a done one.** Every destination
+now exists on the new platform — `/learn/free`, `/learn/upgrade`,
+`/learn/sign-in`, `/learn/legal/privacy`, `/learn/legal/terms` — but they
+should only be repointed once that platform is deployed, or the site would
+link to a 404. See `oma-backend/docs/domain.md` for the mapping.
 
 ## Layout
 
