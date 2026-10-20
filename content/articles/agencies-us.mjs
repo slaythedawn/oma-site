@@ -2,6 +2,7 @@
 // what the US market searches and these terms are US-volume dominated.
 
 const DATE = '2026-08-19';
+const DATE_PETITE_AGENCIES = '2026-09-03';
 
 const feeWarning = `
 <h2>The Only Money Rule That Matters</h2>
@@ -91,9 +92,10 @@ ${feeWarning}
 <li><b>Fashion and runway</b> — women roughly 5'9" to 6'0", men roughly 6'0" to 6'3". The range exists because runway samples are cut to one size.</li>
 <li><b>Commercial</b> — the largest board and where most US models earn most of their income. Retail, advertising, lifestyle, pharma. No meaningful height requirement.</li>
 <li><b>Curve and plus</b> — a substantial and growing board with its own client base. See our <a href="../plus-size-modeling-agencies/">guide to plus size modeling agencies</a>.</li>
-<li><b>Parts</b> — hands, feet, hair, skin. Specialist and lucrative per hour. See our <a href="../how-to-become-a-hand-model/">hand modeling guide</a>.</li>
+<li><b>Petite</b> — below the fashion range, roughly 5'7" and under. No meaningful height minimum on commercial boards. See our <a href="../how-to-become-a-petite-model/">guide to becoming a petite model</a>.</li>
+<li><b>Parts</b> — hands, feet, hair, skin. Specialist and lucrative per hour. See our <a href="../how-to-become-a-hand-model/">hand modeling guide</a> and <a href="../how-to-become-a-hair-model/">hair modeling guide</a>.</li>
 <li><b>Kids and teens</b> — active nationally and the segment with the most predatory operators. Parents should start with our <a href="../child-modeling-agencies/">child modeling agencies guide</a>.</li>
-<li><b>Classic</b> — models over roughly 35. Consistently in demand, consistently under-supplied.</li>
+<li><b>Classic</b> — models over roughly 35. Consistently in demand, consistently under-supplied. See our <a href="../how-to-become-a-mature-model/">guide to becoming a mature model</a>.</li>
 </ul>
 
 <aside class="inline-cta">
@@ -114,8 +116,9 @@ ${digitalsBlock}
 <p>Both can be legitimate, but only one of them can put you in front of a client — and no class or certificate has ever caused an agency to sign anyone, because the industry has no accreditation. If a local business presents itself as both, read our guides to <a href="../modeling-schools/">modeling schools and how the scams work</a> and <a href="../modeling-classes/">judging a class before you pay</a> before handing over anything.</p>
 
 <h2>If There Is Genuinely Nothing Near You</h2>
-<p>Some legitimate paths do not require a local agency at all. Freelance commercial and catalogue work exists in most cities, and a lot of it is booked directly — our <a href="../how-to-become-a-freelance-model/">freelance modeling guide</a> covers how that works and where the risks are. Digital submissions to agencies in a target market are also normal now, and many agencies will request a video call before asking you to travel.</p>
+<p>Some legitimate paths do not require a local agency at all. Freelance commercial and catalogue work exists in most cities, and a lot of it is booked directly — our <a href="../how-to-become-a-freelance-model/">freelance modeling guide</a> covers how that works and where the risks are. Digital submissions to agencies in a target market are also normal now, and many agencies will request a video call before asking you to travel. Our <a href="../how-to-become-a-model-in-nyc/">guide to becoming a model in NYC</a> covers how that works in practice for the country's deepest agency market, including how much local presence you actually need before signing.</p>
 <p>What does not work is signing with whoever is nearest regardless of whether they can book you. A bad agency is worse than no agency, because an exclusive contract with a company that never places you can lock up your career for its full term.</p>
+<p>If you are reading this from outside the US, the near-me logic is identical but the rules are not: our dedicated guides to becoming a model in the <a href="../how-to-become-a-model-in-uk/">UK</a>, <a href="../how-to-become-a-model-in-australia/">Australia</a> and <a href="../how-to-become-a-model-in-canada/">Canada</a> cover the agency landscape and fee regulation specific to each of those markets.</p>
 
 <h2>Before You Submit Anywhere</h2>
 <p>Get your digitals right, know your category, verify every agency on your list, and understand what happens in a casting room before you are standing in one. Our free runway masterclass — five lessons from a working fashion week producer — covers the last part, and costs nothing.</p>
@@ -136,7 +139,7 @@ ${digitalsBlock}
     related: [
       'how-to-get-signed-by-a-modeling-agency',
       'modeling-agencies-near-me',
-      'runway-model',
+      'what-is-commercial-modeling',
     ],
     faq: [
       {
@@ -171,7 +174,7 @@ ${digitalsBlock}
 
 <h2>The Four Things Being Assessed</h2>
 <h3>1. Category fit</h3>
-<p>Before anything else, an agent is working out which board you belong on. Fashion, commercial, curve, parts, kids, classic. If you do not clearly fit one, you are difficult to market, and difficult to market is the single most common reason for a no.</p>
+<p>Before anything else, an agent is working out which board you belong on. Fashion, commercial, curve, parts, kids, classic. If you do not clearly fit one, you are difficult to market, and difficult to market is the single most common reason for a no. Our guide to <a href="../types-of-modeling/">the different types of modeling</a> covers what each board actually requires.</p>
 <p>The practical implication: decide your category before you submit, and submit to agencies that run that board. Applying to a fashion-only agency with a commercial look is not ambition, it is a filing error.</p>
 
 <h3>2. Measurements, against that category</h3>
@@ -220,7 +223,7 @@ ${feeWarning}
 
 <h2>What You Can Actually Control</h2>
 <p>You cannot control your height, your bone structure, or whether an agency's board happens to need your look this season. You can control your digitals, your accuracy, your targeting, and how you behave in the room.</p>
-<p>That last one is where most of the difference lies between models who get booked once and models who build a career. It is learnable, and it is what our mentors teach. The free runway masterclass with Jack Bedwani — who produces Australian Fashion Week — is five lessons of exactly that, at no cost.</p>
+<p>That last one is where most of the difference lies between models who get booked once and models who build a career. It is learnable, and it is what our mentors teach. The free runway masterclass with Jack Bedwani, who choreographs shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons of exactly that, at no cost.</p>
 `,
   },
 
@@ -264,7 +267,7 @@ ${feeWarning}
     ],
     body: `
 <p>Curve and plus is one of the few genuinely growing segments in modeling, driven by retail brands broadening their size ranges and by advertising that finally casts closer to the actual customer. It is also poorly explained, which leaves a lot of people who would be signable submitting to the wrong boards.</p>
-<p>This is how it works from the agency side.</p>
+<p>This is how it works from the agency side. If you want the personal step-by-step version instead, from measuring yourself through your first submission, see our <a href="../how-to-become-a-plus-size-model/">guide to becoming a plus size model</a>.</p>
 
 <h2>Curve, Plus, or Neither: The Terminology</h2>
 <p>Agencies use "curve" and "plus" fairly interchangeably, though many now prefer curve. What matters practically is that it is a separate board with its own client base, its own measurement expectations, and often its own bookers within the agency.</p>
@@ -310,6 +313,82 @@ ${feeWarning}
 
 <h2>Start Here</h2>
 <p>Measure yourself accurately, shoot honest digitals in fitted clothing, shortlist agencies that actually run a curve board, and learn how castings work before you are in one. Our free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+`,
+  },
+
+  {
+    slug: 'petite-modeling-agencies',
+    seoTitle: 'Petite Modeling Agencies: Which Boards Take You',
+    description:
+      'Which modeling agencies actually take petite talent, how commercial and petite boards work, and how to submit without wasting time on fashion-only boards.',
+    headline: 'Petite Modeling Agencies: Which Boards Actually Take You',
+    category: 'Niche',
+    image: 'how-to-choose-a-modeling-agency',
+    imageAlt: "An agent reviewing a petite model's measurements and digitals across a desk",
+    readTime: 9,
+    date: DATE_PETITE_AGENCIES,
+    related: [
+      'how-to-become-a-petite-model',
+      'plus-size-modeling-agencies',
+      'modeling-agencies-near-me',
+    ],
+    faq: [
+      {
+        q: 'Do modeling agencies take petite models?',
+        a: 'Yes, on their commercial, catalogue and lifestyle boards, which is where most of the paid work sits anyway. Fashion runway boards are the exception, since they cast to a fixed sample size that generally requires a minimum height around 5\'9". Almost every other board at almost every agency has no meaningful height requirement.',
+      },
+      {
+        q: 'What agencies work with petite models?',
+        a: 'There is no separate "petite agency" category the way curve has dedicated curve boards. Instead, check any agency\'s commercial, lifestyle or "real people" division, since those are cast on look and presentation rather than height. A small number of agencies do run boards explicitly marketed as petite or run by height range, usually in major markets like New York.',
+      },
+      {
+        q: 'What height is considered petite for modeling agencies?',
+        a: 'There is no fixed industry line, but the working shorthand is below the roughly 5\'9" to 6\'0" range fashion boards require, which in practice means most women around 5\'7" and under. Agencies apply this loosely and case by case, not as a hard cutoff, because commercial casting depends on the client brief far more than on a height chart.',
+      },
+      {
+        q: 'How do I submit to a petite-friendly agency?',
+        a: 'The same way you submit anywhere: four to six honest phone digitals in daylight against a plain wall, accurate measurements, and the format the agency\'s submission page actually asks for. Check the agency\'s boards first so you are submitting to a commercial or petite division rather than a fashion board that will reject you on height alone.',
+      },
+      {
+        q: 'Are petite modeling agencies harder to find than fashion agencies?',
+        a: 'They can look that way only because search results default to fashion-runway agencies, which are the most written about and the least relevant here. In practice most mainstream commercial agencies already work with petite talent on their standard boards, so the task is identifying the right board at an agency you have probably already heard of, not finding a rare specialist.',
+      },
+    ],
+    body: `
+<p>Search "petite modeling agencies" and most of what comes back is fashion-runway agencies with a hard height minimum around 5'9", which is exactly the lane that will not take you. That is a search-results problem, not an industry one. If you want the personal step-by-step version of getting signed, from measuring yourself through your first submission, see our <a href="../how-to-become-a-petite-model/">guide to becoming a petite model</a>. This one covers it from the agency side: which boards actually cast petite talent, and how to find them.</p>
+
+<h2>There Is No Separate "Petite Agency" Category</h2>
+<p>Curve has dedicated curve boards at most major agencies. Petite does not work quite the same way. Instead, the relevant board is usually called commercial, lifestyle, "real people" or sometimes parts, and it is cast on look, presentation and category fit rather than a fixed sample size. A model who is 5'5" is not excluded from these boards; height barely enters the conversation.</p>
+<p>A small number of agencies, mostly in New York and other major markets, do run boards explicitly organised by height range or marketed toward petite talent specifically. Those are worth finding, but they are the exception rather than the only route in.</p>
+
+<h2>What Petite-Friendly Boards Actually Want</h2>
+<h3>Category fit over height</h3>
+<p>Commercial bookers are casting to a client brief: a retail catalogue, an ad campaign, an e-commerce listing. The brief asks for a look, an age range, sometimes an ethnicity or body type, almost never a minimum height. Fit the brief and your height is a non-issue.</p>
+<h3>Accurate measurements</h3>
+<p>Height, bust or chest, waist, hips, dress or suit size, shoe size, sent exactly as they are, not rounded up. Agencies remeasure at the open call or on your first booking, and a discrepancy reads as a professionalism problem regardless of what the real number was.</p>
+<h3>The right board, not every board</h3>
+<p>Submitting a petite profile to an agency's fashion-runway board is a wasted submission, not a bold one. Check what each agency's commercial or lifestyle division actually casts before applying, the same targeting discipline that matters on every other board covered in our guide to <a href="../what-do-modeling-agencies-look-for/">what agencies look for</a>.</p>
+
+${digitalsBlock}
+
+<aside class="inline-cta">
+  <div class="k">Free module</div>
+  <h3>The runway masterclass, free</h3>
+  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
+  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=petite-modeling-agencies__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+</aside>
+
+<h2>Finding the Right Board</h2>
+<p>Before submitting anywhere, check the agency's site for its commercial, lifestyle or "real people" division rather than assuming from the homepage models shown, which usually feature the agency's tallest, most fashion-forward talent regardless of what its other boards actually cast. A handful of agencies in major markets also run a board specifically for petite or shorter talent; search each market's agency directory rather than assuming your local market has one.</p>
+<p>The verification checklist does not change for a petite submission: commission-based, no upfront fees, traceable working clients, a real office. Our guide to <a href="../modeling-agencies-near-me/">finding a real agency near you</a> covers the full list.</p>
+
+${feeWarning}
+
+<h2>The Work Itself</h2>
+<p>Commercial, catalogue and e-commerce lead by volume, because none of it screens on height. Lifestyle and advertising campaigns follow the same pattern. Fit modeling for brands that manufacture petite-specific clothing lines is a genuinely underused option too: steady, hourly, repeat work with almost no public awareness. Our guide to <a href="../plus-size-modeling-agencies/">plus size modeling agencies</a> covers the parallel case for curve boards, useful context since the two niches sit next to each other on most agency rosters.</p>
+
+<h2>Start Here</h2>
+<p>Check each agency's actual boards before you submit, send accurate measurements and honest digitals, and target commercial and lifestyle divisions rather than fashion-runway ones. Our free runway masterclass covers the casting-room craft in six lessons, taught by a working fashion week producer, at no cost.</p>
 `,
   },
 ];

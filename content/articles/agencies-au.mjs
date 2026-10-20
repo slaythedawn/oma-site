@@ -186,7 +186,7 @@ ${redFlags}
 <h3>Curve and plus</h3>
 <p>Driven by Australian retail brands expanding size ranges. Growing, and worth approaching directly.</p>
 <h3>Kids and youth</h3>
-<p>Melbourne has an active children's market. If you are a parent looking into this, read our <a href="../how-to-become-a-child-model/">parent's guide to child modelling</a> and our guide to <a href="../child-modeling-agencies/">child modelling agencies</a> before you contact anyone, because this is the corner of the industry with the most predatory operators.</p>
+<p>Melbourne has an active children's market. If you are a parent looking into this, read our guide to <a href="../kids-modelling-agency-australia/">kids modelling agencies in Australia</a>, which covers the permit rules state by state, and our broader <a href="../how-to-become-a-child-model/">parent's guide to child modelling</a> before you contact anyone, because this is the corner of the industry with the most predatory operators.</p>
 <h3>Classic and talent</h3>
 <p>Models over roughly 35, plus actors and presenters. Consistently in demand and consistently under-supplied.</p>
 
@@ -255,7 +255,7 @@ ${redFlags}
 <li><b>Fashion</b> — smaller than the southern markets. Women generally from around 175cm, men from around 183cm.</li>
 <li><b>Commercial</b> — the main board and the main earner. Retail, advertising, tourism.</li>
 <li><b>Swim and resort</b> — genuinely a Queensland speciality, with clients that southern agencies do not have.</li>
-<li><b>Kids and family</b> — active, and requiring the same caution as anywhere. See our <a href="../child-modeling-agencies/">child modelling agency guide</a>.</li>
+<li><b>Kids and family</b> — active, and requiring the same caution as anywhere. See our guide to <a href="../kids-modelling-agency-australia/">kids modelling agencies in Australia</a>.</li>
 <li><b>Talent and classic</b> — presenters, actors, and models across older age brackets.</li>
 </ul>
 
@@ -322,7 +322,7 @@ ${redFlags}
 <li><b>Commercial</b> — the core of the market. Retail, corporate, lifestyle, advertising.</li>
 <li><b>Fashion</b> — smaller. Women generally from around 175cm, men from around 183cm.</li>
 <li><b>Talent</b> — presenters, actors, corporate video and voice.</li>
-<li><b>Kids and family</b> — present and active. Read our <a href="../how-to-become-a-child-model/">parent's guide</a> first if this applies to you.</li>
+<li><b>Kids and family</b> — present and active. Read our guide to <a href="../kids-modelling-agency-australia/">kids modelling agencies in Australia</a> first if this applies to you.</li>
 <li><b>Classic</b> — models over roughly 35, consistently in demand for corporate and retail.</li>
 </ul>
 

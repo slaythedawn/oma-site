@@ -120,7 +120,7 @@ ${whatAgenciesThink}
 
 <h2>What We Do</h2>
 <p>Online Model Academy is an online course taught by working casting directors, agents, a fashion week producer and an industry lawyer. It covers the knowledge half thoroughly and makes no claim to get you signed, because no course can.</p>
-<p>The free runway module with Jack Bedwani, who produces Australian Fashion Week, is five lessons at no cost — enough to judge whether the teaching is worth anything to you before you spend a dollar.</p>
+<p>The free runway module with Jack Bedwani, who choreographs shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons at no cost — enough to judge whether the teaching is worth anything to you before you spend a dollar.</p>
 `,
   },
 

@@ -33,7 +33,7 @@ export const jobs = [
     related: [
       'open-casting-call',
       'how-much-do-models-make',
-      'how-to-become-a-freelance-model',
+      'what-is-commercial-modeling',
     ],
     faq: [
       {
@@ -65,9 +65,9 @@ export const jobs = [
 <h3>Commercial and advertising</h3>
 <p>The biggest source of paid work by a wide margin. Retail, banking, telco, supermarkets, healthcare, travel. Clients are casting believable people, so height requirements are loose to non-existent and age range is wide. For most working models, this is where the income is.</p>
 <h3>Catalogue and e-commerce</h3>
-<p>High volume, repeat bookings, unglamorous and reliable. Brands shoot new ranges constantly. A model who is efficient, consistent and easy on set gets rebooked here indefinitely.</p>
+<p>High volume, repeat bookings, unglamorous and reliable. Brands shoot new ranges constantly. A model who is efficient, consistent and easy on set gets rebooked here indefinitely. Our <a href="../ecommerce-modeling/">guide to ecommerce modeling</a> covers this specific lane in more depth, including what separates it from a printed catalogue or a campaign shoot. A growing share of this work is booked with no agency at all, straight from the brand itself; our guide to <a href="../how-to-become-a-model-for-clothing-brands/">modeling for a clothing brand directly</a> covers that route and a real scam pattern to watch for.</p>
 <h3>Fit modeling</h3>
-<p>The most under-discussed well-paid work in the industry. Brands need someone with stable, specific measurements to fit garments during development. It is regular, hourly-paid, long-term, and almost invisible from outside because there are no published images.</p>
+<p>The most under-discussed well-paid work in the industry. Brands need someone with stable, specific measurements to fit garments during development. It is regular, hourly-paid, long-term, and almost invisible from outside because there are no published images. Our <a href="../how-to-become-a-fit-model/">fit modeling guide</a> covers what the job actually involves and how to get booked.</p>
 <h3>Parts modeling</h3>
 <p>Hands, feet, hair, skin. Specialist, well paid per hour, and a genuine career for people who would never be cast on a fashion board. Our <a href="../how-to-become-a-hand-model/">hand modeling guide</a> covers what those clients look for.</p>
 <h3>Runway</h3>
@@ -75,7 +75,9 @@ export const jobs = [
 <h3>Editorial</h3>
 <p>Magazine work pays notably little. It exists to build your book and your standing, which then converts into commercial rates. Treat it as investment, not income.</p>
 <h3>Promotional and event</h3>
-<p>Brand ambassador work, trade shows, activations. Frequently booked direct, frequently the entry point for freelancers, and correspondingly the category where scam listings cluster.</p>
+<p>Brand ambassador work, trade shows, activations. Frequently booked direct, frequently the entry point for freelancers, and correspondingly the category where scam listings cluster. Our <a href="../promotional-modeling/">guide to promotional modeling</a> covers what trade show and convention bookings actually pay and how to tell a real one from a vague listing.</p>
+<h3>Social and UGC content</h3>
+<p>Content built for a brand's own feed or ad account rather than a set-based shoot, often filmed by the model alone on a phone. Paid per finished piece rather than a day rate, and open to models with no following at all. Our <a href="../how-to-become-a-ugc-model/">UGC modeling guide</a> covers what actually gets booked and how the pay works.</p>
 
 <aside class="inline-cta">
   <div class="k">Free module</div>
@@ -93,6 +95,7 @@ export const jobs = [
 </ul>
 <p>Usage is frequently the larger number. A single day's shoot licensed for a two-year national campaign is a completely different job from the same day licensed for one month of social media, even though you did identical work.</p>
 <p>So the question to ask before accepting anything is never just "what does it pay". It is <b>"what's the rate, and what's the usage?"</b> A client offering a generous day rate with unlimited perpetual worldwide usage is not being generous.</p>
+<p>Once the booking is confirmed, how the money actually reaches you, and when, is its own question. Our <a href="../how-to-get-paid-as-a-model/">guide to how models actually get paid</a> covers agency-collected versus direct billing, net terms, and what to do if a client goes quiet.</p>
 <p>Your agency deducts commission from the total, and typically charges the client a separate booking fee. None of that comes out of your pocket in advance. Our guide to <a href="../how-much-does-it-cost-to-become-a-model/">what modeling actually costs</a> covers the money flow in full.</p>
 
 <h2>How to Actually Get Booked</h2>
@@ -114,7 +117,7 @@ ${scamSection}
 <li>Comes prepared — nails clean, hair as briefed, own basics in the bag.</li>
 <li>Pleasant to the whole crew, not just the client.</li>
 </ul>
-<p>None of that is glamorous, and all of it is why some models work constantly while equally photogenic ones do not. It is also learnable, which is the point of our course. The free runway masterclass with Jack Bedwani, who produces Australian Fashion Week, is five lessons of it at no cost.</p>
+<p>None of that is glamorous, and all of it is why some models work constantly while equally photogenic ones do not. It is also learnable, which is the point of our course. The free runway masterclass with Jack Bedwani, who choreographs shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons of it at no cost.</p>
 `,
   },
 
