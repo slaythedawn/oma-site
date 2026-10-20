@@ -210,7 +210,7 @@ window.OMA_DATA = {
       { q: "Do I get a certificate?", a: "Yes. You'll receive a digital certificate when you finish, which you can include in your portfolio or online profiles." },
       { q: "Can I do it on my phone?", a: "Yes. It works perfectly on mobile — learn anytime, anywhere." },
       { q: "What if I need help during the course?", a: "You'll have access to community support and regular Q&A sessions, so you're never left wondering what to do next." },
-      { q: "Do you offer refunds?", a: "Yes. Seven days, no questions asked. Email us within seven days of your purchase and we will refund you in full, whether or not you have already watched some of it." },
+      { q: "Do you offer refunds?", a: "Yes, within seven days. If the course is not for you, email us within seven days of buying and we will refund you in full, as long as you have watched fewer than 15 of the paid lessons (the free module does not count) and have not been refunded before. The full conditions are in our terms." },
     ],
     parent: [
       { q: "What age should my child start modelling training?", a: "The optimal age depends on various factors including maturity, industry requirements, and career goals. Our parent guidance module covers age-appropriate training strategies and timing recommendations from industry professionals." },
