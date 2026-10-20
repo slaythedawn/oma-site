@@ -38,7 +38,7 @@ export const agenciesUs = [
     date: DATE,
     related: [
       'what-do-modeling-agencies-look-for',
-      'how-to-start-a-modeling-career',
+      'how-to-become-a-model',
       'how-to-choose-a-modeling-agency',
     ],
     faq: [

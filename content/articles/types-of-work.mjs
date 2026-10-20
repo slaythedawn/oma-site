@@ -784,6 +784,7 @@ export const typesOfWork = [
     ],
     body: `
 <p>Search "how to become a model for" any well-known clothing brand and you will find a genuine, established genre of advice: sites like Backstage and StarNow publish dedicated guides for Shein, Lululemon, Target and others, each treating it as a real, distinct path in rather than a variation on general modeling advice. It is real, and it is worth understanding on its own terms rather than assuming it works the same way as signing with an agency.</p>
+<p>New to modeling altogether? Start with <a href="../how-to-become-a-model/">the step-by-step guide to becoming a model</a>, which covers what every category builds on: requirements, digitals, agencies, costs and the scams to avoid. This guide is what is specific to modeling for clothing brands.</p>
 <p>Our instructors at Online Model Academy include agents and bookers who place models with brands directly, outside the traditional agency system entirely. This is how that path actually works, and how to use it.</p>
 
 <h2>What "Modeling for a Brand" Actually Means</h2>

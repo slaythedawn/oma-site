@@ -46,7 +46,6 @@ const CLUSTERS = [
     blurb: 'The fundamentals, whichever market you are in.',
     slugs: [
       'how-to-become-a-model',
-      'how-to-start-a-modeling-career',
       'how-to-become-a-model-in-australia',
       'how-to-become-a-model-in-uk',
       'how-to-become-a-model-in-nyc',

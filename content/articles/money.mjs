@@ -93,7 +93,7 @@ export const money = [
   },
   {
     slug: 'how-much-do-models-make',
-    seoTitle: 'How Much Do Models Make? Real Pay, Explained',
+    seoTitle: 'How Much Do Models Make? Day Rates, Usage & Agency Cuts',
     description:
       'How modeling pay actually works: day rates, usage fees, agency commission, and realistic income by category, from people who book and pay models.',
     headline: 'How Much Do Models Make? The Pay Structure, From the People Who Write the Checks',

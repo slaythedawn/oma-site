@@ -33,7 +33,7 @@ export const commercial = [
     related: [
       'modeling-schools',
       'what-do-modeling-agencies-look-for',
-      'how-to-start-a-modeling-career',
+      'how-to-become-a-model',
     ],
     faq: [
       {
@@ -92,7 +92,7 @@ ${whatAgenciesThink}
 <h3>Agency development</h3>
 <p><b>Best for:</b> everything, and it is free — but only available after you are signed. Agencies train the models on their development boards because it is in their commercial interest that you perform.</p>
 <p><b>Watch for:</b> nothing. This is the ideal. It is simply not available to you until an agency says yes, which is why the other two exist.</p>
-<p>The practical sequence for most people: learn the knowledge cheaply, get your digitals right, get signed, then let your agency handle the rest. Our guide to <a href="../how-to-start-a-modeling-career/">starting a modeling career</a> lays out the whole order.</p>
+<p>The practical sequence for most people: learn the knowledge cheaply, get your digitals right, get signed, then let your agency handle the rest. Our guide to <a href="../how-to-become-a-model/">how to become a model</a> lays out the whole order.</p>
 
 <h2>What Classes Cost</h2>
 <p>Ranges vary widely by market and format, but the shape is consistent:</p>

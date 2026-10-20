@@ -38,7 +38,6 @@ const COLUMNS = [
     heading: 'Start here',
     links: [
       { href: 'blog/how-to-become-a-model/', label: 'How to become a model' },
-      { href: 'blog/how-to-start-a-modeling-career/', label: 'Starting a career' },
       { href: 'blog/how-to-become-a-model-with-no-experience/', label: 'With no experience' },
       { href: 'blog/how-to-become-a-model-in-australia/', label: 'Modelling in Australia' },
       { href: 'blog/modeling-classes/', label: 'Are classes worth it?' },
