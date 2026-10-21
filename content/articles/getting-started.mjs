@@ -1,6 +1,13 @@
-// Career and localised how-to cluster. `how-to-start-a-modeling-career` targets a
-// large US question cluster; `how-to-become-a-model-in-australia` is the AU
-// localisation of the head term and uses AU spelling in its body.
+// Career and localised how-to cluster.
+//
+// There used to be a `how-to-start-a-modeling-career` article here, meant to
+// target a separate US question cluster. It never did. It was the pillar's
+// step-by-step again — category, measurements, digitals, agencies, in the same
+// order — and Search Console showed Google sending "how to become a model"
+// (7,400 US searches a month, difficulty 4/100) to it at position 51 instead
+// of to the real guide at 32. Two near-duplicates split the signal and
+// neither won. Merged into /blog/how-to-become-a-model/ by a 301 in
+// vercel.json, which carries whatever it had earned.
 
 const DATE = '2026-08-19';
 const DATE_UK = '2026-09-09';
@@ -9,124 +16,6 @@ const DATE_SUPERMODEL = '2026-09-24';
 const DATE_CANADA = '2026-09-25';
 
 export const gettingStarted = [
-  {
-    slug: 'how-to-start-a-modeling-career',
-    seoTitle: 'How to Start a Modeling Career: The Real Steps',
-    description:
-      'The actual steps to start a modeling career, in order, from working agents and casting directors — category, digitals, agencies, castings and money.',
-    headline: 'How to Start a Modeling Career: The Steps in Order',
-    category: 'Career',
-    image: 'how-to-become-a-successful-model',
-    imageAlt: 'A new model preparing digitals against a plain wall in daylight',
-    readTime: 12,
-    date: DATE,
-    related: [
-      'how-to-become-a-model',
-      'what-do-modeling-agencies-look-for',
-      'types-of-modeling',
-    ],
-    faq: [
-      {
-        q: 'What are the steps to start a modeling career?',
-        a: 'Identify which category and board you realistically fit, take accurate measurements, shoot clean unretouched digitals, research and shortlist agencies that represent your category in your market, submit exactly what each one asks for, attend open calls, and learn how castings work. None of those steps requires paying anyone.',
-      },
-      {
-        q: 'How long does it take to start making money as a model?',
-        a: 'Commonly months rather than weeks. A newly signed model may spend a season testing and building a portfolio before being submitted for paid work, and the first bookings are usually small. Models who progress faster are typically the ones who arrived prepared and are easy to work with.',
-      },
-      {
-        q: 'Do I need modeling school to start a modeling career?',
-        a: 'No agency signs anyone on the basis of a modeling school certificate. Training can be genuinely useful for learning how castings work and how to move on camera, but it is never a prerequisite for representation, and any school implying it will get you signed is misrepresenting what it sells.',
-      },
-      {
-        q: 'How old is too old to start modeling?',
-        a: 'For fashion boards, agencies typically scout between roughly 14 and 22 for women and 16 to 25 for men. For commercial, classic and talent boards there is no meaningful upper limit, because brands cast every age bracket their customers occupy. Classic boards are frequently under-supplied.',
-      },
-      {
-        q: 'Can I start a modeling career part time?',
-        a: 'Many models begin this way, but availability is a real constraint. Castings are usually mid-week and mid-day at short notice, and a model who repeatedly cannot attend stops being submitted. Flexible work alongside modeling is far more workable than fixed hours.',
-      },
-    ],
-    body: `
-<p>Most guides to starting a modeling career are a list of encouragements. This one is the sequence the people who actually sign and book models would put you through, in the order that matters.</p>
-<p>Our instructors at Online Model Academy are working agents, casting directors and runway producers. Here is the route as they describe it.</p>
-
-<h2>Step 1: Work Out What You Actually Are</h2>
-<p>Before a single photo or email, decide which category you fit. This is the step everyone skips and the reason most submissions fail.</p>
-<ul>
-<li><b>Fashion and runway</b> — women roughly 5'9" to 6'0", men roughly 6'0" to 6'3". The range is driven by sample sizing, not preference.</li>
-<li><b>Commercial</b> — the largest board and where most models earn most of their money. No meaningful height requirement. Clients are casting believable people.</li>
-<li><b>Curve and plus</b> — its own board with its own clients. See our <a href="../how-to-become-a-plus-size-model/">guide to breaking in</a> and our <a href="../plus-size-modeling-agencies/">curve board guide</a>.</li>
-<li><b>Parts</b> — hands, feet, hair, skin. Specialist, well paid hourly.</li>
-<li><b>Fit</b> — stable specific measurements, used in garment development. Steady and almost invisible from outside.</li>
-<li><b>Classic</b> — over roughly 35, consistently under-supplied.</li>
-</ul>
-<p>That is the short version. For the full map of categories, what each pays, and how to tell which one actually fits you, see our guide to <a href="../types-of-modeling/">the different types of modeling</a>.</p>
-<p>Be honest here. Aiming at a fashion board at 5'5" is not ambition, it is a guaranteed no from every agency you contact — while the commercial board that would have taken you never hears from you.</p>
-
-<h2>Step 2: Measure Yourself Properly</h2>
-<p>Height, bust or chest, waist, hips, dress or suit size, shoe size, hair colour, eye colour. Measured, not estimated, in the units of your market.</p>
-<p>Agencies remeasure. Arriving shorter than you claimed tells an agent something about your reliability before anyone has looked at your face.</p>
-
-<h2>Step 3: Shoot Digitals</h2>
-<p>Not a photoshoot. Digitals.</p>
-<ul>
-<li>Four to six photos on a phone, in daylight, against a plain wall.</li>
-<li>Front, side, back. One smiling, one neutral. Full-length and a face close-up.</li>
-<li>No makeup, no filters, no retouching. Hair down and natural.</li>
-<li>Fitted plain clothes. Heels for women if relevant to your board.</li>
-</ul>
-<p>Agencies specifically want to see you unhelped. A polished, retouched submission reads as concealment and guarantees a wasted meeting. This costs nothing and takes twenty minutes — see our <a href="../how-to-become-a-model-with-no-experience/">no-experience guide</a> for the detail.</p>
-
-<aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-start-a-modeling-career__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
-</aside>
-
-<h2>Step 4: Build a Real Agency Shortlist</h2>
-<p>Not every agency, and not the nearest one. Agencies that run a board for your category, in a market you can physically reach for castings.</p>
-<p>Verify each one: does it earn commission rather than fees, can you trace its clients and campaigns, do the models on its board visibly work, does it have a real office? Our guides to <a href="../modeling-agencies-near-me/">finding a real agency</a> and <a href="../how-to-choose-a-modeling-agency/">choosing between agencies</a> cover the full checklist.</p>
-<p>If you are in Australia, our <a href="../modelling-agencies-australia/">Australian agency guide</a> maps the market city by city. If you are in the UK, our <a href="../how-to-become-a-model-in-uk/">guide to becoming a model in the UK</a> covers London's dominance of the market and the UK-specific rules on agency fees. If New York is your target market, our <a href="../how-to-become-a-model-in-nyc/">guide to becoming a model in NYC</a> covers agency geography, model apartments and the new state law protecting models there. If you are in Canada, our <a href="../how-to-become-a-model-in-canada/">guide to becoming a model in Canada</a> covers Toronto, Montreal and Vancouver and the province-by-province rules on agency fees.</p>
-
-<h2>Step 5: Submit Exactly as Asked</h2>
-<p>Every agency publishes a submission process. Follow it precisely. Send what is requested, in the format requested, to the address requested, and nothing extra.</p>
-<p>A surprising share of rejections are administrative rather than aesthetic: professional photos sent when digitals were asked for, missing stats, files that will not open, a five-paragraph covering letter nobody read.</p>
-
-<h2>Step 6: Go to Open Calls</h2>
-<p>The most direct route into a room with a booker, and consistently underused. Expect two to five minutes, a wall photo, a measurement, and "we'll be in touch" — that is the format working, not a rejection. Our <a href="../open-casting-call/">open casting call guide</a> covers how to prepare.</p>
-
-<h2>Step 7: Understand What Happens After Signing</h2>
-<p>Signing is the start, not the finish. What typically follows:</p>
-<ul>
-<li><b>Testing.</b> Shoots arranged by your agency to build your book. Often unpaid on both sides, and normal.</li>
-<li><b>Your comp card.</b> The agency designs it. See our <a href="../model-comp-card/">comp card guide</a>.</li>
-<li><b>Castings.</b> Frequently, at short notice, mostly unsuccessful. This is the job.</li>
-<li><b>The first booking.</b> Usually months in, usually small.</li>
-</ul>
-<p>Models who quit almost always quit during this phase, because the gap between being signed and being booked is longer and quieter than anyone expects.</p>
-
-<h2>Step 8: Learn How the Money Works</h2>
-<p>A booking pays a day or session rate plus a usage fee covering where the images run and for how long. Usage is frequently the larger figure and the part new models forget to ask about. Our guide to <a href="../modeling-jobs/">where modeling work comes from</a> breaks the structure down, and our <a href="../how-to-get-paid-as-a-model/">guide to how models actually get paid</a> covers what happens after the booking, from invoicing through to the money actually landing.</p>
-<p>Your genuine costs starting out are casting travel, basic grooming and any training you choose. Representation itself should cost nothing, ever. Our guide to <a href="../how-much-does-it-cost-to-become-a-model/">what modeling costs</a> puts real numbers on it.</p>
-
-<h2>The Realistic Timeline</h2>
-<ul>
-<li><b>Week 1</b> — category decided, measurements taken, digitals shot.</li>
-<li><b>Weeks 2–4</b> — agencies researched, submissions sent, open calls attended.</li>
-<li><b>Months 1–3</b> — responses, meetings, possibly representation. Silence from most.</li>
-<li><b>Months 3–9</b> — testing, book building, castings, first bookings.</li>
-<li><b>Year 1+</b> — a working pattern, if the category fit was right.</li>
-</ul>
-<p>Anyone promising to compress this is selling something.</p>
-
-<h2>What Separates the Models Who Last</h2>
-<p>Not looks — everyone at a casting is castable. It is the craft: how you walk, how you take direction, how you handle a long day, how you behave when a client changes the brief at the last minute. Those things get you rebooked, and rebooking is the entire career. It is also, years down the line, the only thing that ever leads to the rare exclusives and campaigns the public calls being a <a href="../how-to-become-a-supermodel/">supermodel</a>, so build the career in front of you before you plan for that one.</p>
-<p>That craft is teachable, which is why our mentors teach it. Start with the free runway masterclass from Jack Bedwani, who choreographs shows for Calvin Klein, Coach and Charlotte Tilbury — five lessons, no cost, and the fastest way to see what the professional standard actually looks like.</p>
-`,
-  },
-
   {
     slug: 'how-to-become-a-model-in-australia',
     seoTitle: 'How to Become a Model in Australia: 2026 Insider Guide',
@@ -141,7 +30,7 @@ export const gettingStarted = [
     related: [
       'modelling-agencies-australia',
       'modelling-agencies-sydney',
-      'how-to-start-a-modeling-career',
+      'how-to-become-a-model',
     ],
     faq: [
       {
@@ -167,6 +56,7 @@ export const gettingStarted = [
     ],
     body: `
 <p>Australia runs a small, professional modelling industry with a persistent scam problem around its edges. Knowing how the legitimate side works is most of what protects you from the rest.</p>
+<p>The fundamentals are the same in every market, and they are in <a href="../how-to-become-a-model/">our full guide to becoming a model</a>: requirements, digitals, agencies, costs and the scams to avoid. This guide is what changes in Australia.</p>
 <p>Our instructors are the Australian agents, casting directors and runway producers who make these decisions. This is the local version of the process.</p>
 
 <h2>The Australian Market in One Paragraph</h2>
@@ -266,6 +156,7 @@ export const gettingStarted = [
     ],
     body: `
 <p>The UK runs one of the world's most established modelling industries, and one of its more unusual pieces of law: agencies here are actually allowed to charge models a fee, under conditions almost nobody explains properly. Knowing that rule, not just the standard scam checklist, is most of what protects you.</p>
+<p>The fundamentals are the same in every market, and they are in <a href="../how-to-become-a-model/">the step-by-step guide to becoming a model</a>: requirements, digitals, agencies, costs and the scams to avoid. This guide is what changes in the UK.</p>
 <p>Our instructors are the same working agents, casting directors and runway producers who make these calls for a living, in London and beyond. This is the UK version of the process.</p>
 
 <h2>The UK Market in One Paragraph</h2>
@@ -340,7 +231,7 @@ export const gettingStarted = [
     date: DATE_NYC,
     related: [
       'how-to-become-a-model',
-      'how-to-start-a-modeling-career',
+      'how-to-get-signed-by-a-modeling-agency',
       'modeling-agencies-near-me',
     ],
     faq: [
@@ -367,6 +258,7 @@ export const gettingStarted = [
     ],
     body: `
 <p>New York is the market every other US market gets compared to, and the one where the gap between the fashion-week headlines and how working models actually pay their rent is widest. Most of what gets written about "becoming a model in New York" is fashion-week trivia. This is the part that is actually useful before you submit anywhere.</p>
+<p>The fundamentals are the same in every market, and they are in <a href="../how-to-become-a-model/">our full guide to becoming a model</a>: requirements, digitals, agencies, costs and the scams to avoid. This guide is what changes in New York.</p>
 <p>Our instructors are working agents, casting directors and runway producers, several of whom have built careers inside this exact market. This is the New York version of the process.</p>
 
 <h2>The NYC Market in One Paragraph</h2>
@@ -438,7 +330,7 @@ export const gettingStarted = [
     date: DATE_CANADA,
     related: [
       'how-to-become-a-model-in-uk',
-      'how-to-start-a-modeling-career',
+      'how-to-become-a-model',
       'modeling-agencies-near-me',
     ],
     faq: [
@@ -465,6 +357,7 @@ export const gettingStarted = [
     ],
     body: `
 <p>Canada runs a smaller, more fragmented modelling industry than the US or UK, split across three real hubs and a patchwork of provincial rules that almost nobody explains clearly. Knowing the actual shape of the market, not the fashion-week trivia, is what actually gets you started.</p>
+<p>The fundamentals are the same in every market, and they are in <a href="../how-to-become-a-model/">the step-by-step guide to becoming a model</a>: requirements, digitals, agencies, costs and the scams to avoid. This guide is what changes in Canada.</p>
 <p>Our instructors are working agents, casting directors and runway producers, including several who have worked directly inside the Canadian market. This is the Canadian version of the process.</p>
 
 <h2>The Canadian Market in One Paragraph</h2>
@@ -541,7 +434,7 @@ export const gettingStarted = [
     related: [
       'how-to-become-a-successful-model',
       'runway-model',
-      'how-to-start-a-modeling-career',
+      'how-to-become-a-model',
     ],
     faq: [
       {
@@ -603,7 +496,7 @@ export const gettingStarted = [
 
 <h2>Why This Should Not Be Your First Goal</h2>
 <p>If you are just starting out, aiming at "supermodel" is aiming at an outcome that is mostly decided by other people, on a timeline you cannot control, for reasons that will not become visible until years into a career you have not started yet. That is a plan built on the part you cannot influence.</p>
-<p>The part you can influence is becoming genuinely good at the job: fitting a category honestly, submitting properly, learning how a casting room actually works, and building the kind of consistency that gets you rebooked. Our guide to <a href="../how-to-start-a-modeling-career/">starting a modeling career</a> covers that sequence in order, and every model who has ever been offered an exclusive was a working model who had already done exactly that, for years, before the offer ever came.</p>
+<p>The part you can influence is becoming genuinely good at the job: fitting a category honestly, submitting properly, learning how a casting room actually works, and building the kind of consistency that gets you rebooked. Our guide to <a href="../how-to-become-a-model/">how to become a model</a> covers that sequence in order, and every model who has ever been offered an exclusive was a working model who had already done exactly that, for years, before the offer ever came.</p>
 
 <h2>If You Are Still Aiming for It, What to Actually Build</h2>
 <p>Wanting it honestly is not the problem. Building the wrong things toward it is. If the top tier is genuinely your long-term aim, this is what the people who actually offer exclusives say moves the needle, in the order it needs to happen:</p>

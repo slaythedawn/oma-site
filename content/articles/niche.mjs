@@ -61,6 +61,7 @@ export const niche = [
     ],
     body: `
 <p>Search "how tall do you have to be to model" and almost everything written assumes you are asking about fashion runway, where the answer is a hard no below about 5'9". That answer is accurate for exactly one lane of the industry and gets treated online as if it applies to all of it. It does not.</p>
+<p>New to modeling altogether? Start with <a href="../how-to-become-a-model/">how to become a model</a>, which covers what every category builds on: requirements, digitals, agencies, costs and the scams to avoid. This guide is what is specific to petite modeling.</p>
 <p>Our instructors at Online Model Academy include agents and bookers who cast commercial boards for a living, the boards that do not screen on height at all. This is the real path in, not the fashion-runway one that was never open to begin with.</p>
 
 <h2>What "Petite" Actually Means Here</h2>
@@ -157,6 +158,7 @@ export const niche = [
     ],
     body: `
 <p>Curve and plus is one of the few genuinely growing lanes in modeling right now, and it is also one of the most poorly explained from the outside. A lot of people who would be signable never submit anywhere, because the advice they find online is either written for straight-size fashion and does not apply, or is vague enough to be useless.</p>
+<p>New to modeling altogether? Start with <a href="../how-to-become-a-model/">our full guide to becoming a model</a>, which covers what every category builds on: requirements, digitals, agencies, costs and the scams to avoid. This guide is what is specific to plus-size modeling.</p>
 <p>Our instructors at Online Model Academy include agents and bookers who run curve boards for a living. This is the path, from the first photo to the first booking.</p>
 
 <h2>Do You Actually Fit the Lane?</h2>
@@ -253,6 +255,7 @@ export const niche = [
     ],
     body: `
 <p>Foot modeling gets treated online as either a joke or something slightly seedy, mostly because of how often "sell feet pics" content ranks next to it. The real category is neither: it is a legitimate, narrow corner of parts modeling, booked by footwear, hosiery, pedicure and skincare brands that need a specific pair of feet to photograph well, again and again, on schedule.</p>
+<p>New to modeling altogether? Start with <a href="../how-to-become-a-model/">how to become a model</a>, which covers what every category builds on: requirements, digitals, agencies, costs and the scams to avoid. This guide is what is specific to foot modeling.</p>
 <p>Our instructors at Online Model Academy include agents and bookers who work parts boards, hands and feet both, for a living. This is the real path in, not the fetish-adjacent content that crowds the search results.</p>
 
 <h2>What Foot Modeling Actually Is</h2>
@@ -353,6 +356,7 @@ export const niche = [
     ],
     body: `
 <p>Search "how to become a hair model" and almost everything that ranks is the same story: a hairdressing student or salon needs someone to practice on, and will cut, color or style your hair for free or cheap in exchange for keeping the photos. That is real and worth knowing about. It is also not the only thing "hair model" means, and it is not the version with an actual paycheck attached.</p>
+<p>New to modeling altogether? Start with <a href="../how-to-become-a-model/">our full guide to becoming a model</a>, which covers what every category builds on: requirements, digitals, agencies, costs and the scams to avoid. This guide is what is specific to hair modeling.</p>
 <p>Our instructors at Online Model Academy include agents and bookers who cast commercial work for haircare and styling-product brands. This guide covers the salon route honestly, then the paid commercial route those brands actually book.</p>
 
 <h2>What Hair Modeling Actually Is</h2>
@@ -451,6 +455,7 @@ export const niche = [
     ],
     body: `
 <p>Type "fit model" into a search bar and most of what comes back is actually about fitness modeling, gym-and-activewear marketing work that has nothing to do with garment fitting at all. The two share a word and almost nothing else. Fit modeling is one of the more misunderstood corners of the industry precisely because its own name gets mistaken for a completely different job.</p>
+<p>New to modeling altogether? Start with <a href="../how-to-become-a-model/">the step-by-step guide to becoming a model</a>, which covers what every category builds on: requirements, digitals, agencies, costs and the scams to avoid. This guide is what is specific to fit modeling.</p>
 <p>Our instructors at Online Model Academy include agents and bookers who place fit models with real apparel brands. This is what the job actually is, not the fitness-marketing career the name keeps getting confused with.</p>
 
 <h2>What Fit Modeling Actually Is</h2>
@@ -544,6 +549,7 @@ export const niche = [
     ],
     body: `
 <p>Search "how to become a tattoo model" and the results come back split down the middle without ever saying so: half are tattoo studios and artists looking for someone to sit for a piece in exchange for photos, half are modeling advice that assumes you already have the tattoos and want to work them. They are genuinely different jobs that happen to share a search term, and conflating them is how people end up disappointed by whichever one they actually found.</p>
+<p>New to modeling altogether? Start with <a href="../how-to-become-a-model/">our full guide to becoming a model</a>, which covers what every category builds on: requirements, digitals, agencies, costs and the scams to avoid. This guide is what is specific to tattoo modeling.</p>
 <p>Our instructors at Online Model Academy include agents and bookers who cast commercial and lifestyle work, some of it built specifically around visible tattoos. This covers both senses of the term honestly, including the one that is not a paid modeling job at all.</p>
 
 <h2>What "Tattoo Model" Actually Means</h2>
@@ -729,6 +735,7 @@ export const niche = [
     ],
     body: `
 <p>Search "showroom modeling" and almost nothing useful comes back, a handful of agency glossary pages and a dictionary-style definition or two, nothing that actually explains the job. That is a strange gap, because showroom work is one of the steadier paid corners of fashion: wearing a designer's full collection, look after look, for the buyers and press deciding what actually gets ordered, well before any of it reaches a runway or a rack.</p>
+<p>New to modeling altogether? Start with <a href="../how-to-become-a-model/">how to become a model</a>, which covers what every category builds on: requirements, digitals, agencies, costs and the scams to avoid. This guide is what is specific to showroom modeling.</p>
 <p>Our instructors at Online Model Academy include agents and bookers who staff showroom seasons for design houses every year. This is what the job actually looks like, not the market-week photos that get shared online instead of it.</p>
 
 <h2>What Showroom Modeling Actually Is</h2>
@@ -821,6 +828,7 @@ export const niche = [
     ],
     body: `
 <p>Search "print modeling" and the results split two ways: a handful of agency glossary pages defining the term, and a Reddit thread asking how "average-looking" models end up in a catalogue. Neither actually explains the job, which is a real gap, because print work, catalogues, packaging, in-store signage, print advertising, is still one of the steadier corners of commercial modeling, just one that gets talked about far less than a runway show or a viral campaign.</p>
+<p>New to modeling altogether? Start with <a href="../how-to-become-a-model/">the step-by-step guide to becoming a model</a>, which covers what every category builds on: requirements, digitals, agencies, costs and the scams to avoid. This guide is what is specific to print modeling.</p>
 <p>Our instructors at Online Model Academy include agents and bookers who cast print work for retail and packaging clients regularly. This is what the job actually is, and what separates it from the online and fashion-editorial work it keeps getting confused with.</p>
 
 <h2>What Print Modeling Actually Is</h2>
@@ -909,6 +917,7 @@ export const niche = [
     ],
     body: `
 <p>Search "how to become a UGC model" and most of what comes back is influencer-growth advice aimed at a different job: build a niche, grow a following, land brand deals off the back of it. UGC modeling does not need any of that. A brand pays for a specific piece of content built to look unscripted and native, not for access to an audience, and the two get treated as the same thing far too often.</p>
+<p>New to modeling altogether? Start with <a href="../how-to-become-a-model/">the step-by-step guide to becoming a model</a>, which covers what every category builds on: requirements, digitals, agencies, costs and the scams to avoid. This guide is what is specific to UGC work.</p>
 <p>Our instructors at Online Model Academy include agents and bookers who work with brands on this exact kind of content. This is the modeling version of the job, the fee-and-license version, not the influencer-growth version dominating the search results.</p>
 
 <h2>What UGC Modeling Actually Is</h2>
@@ -998,6 +1007,7 @@ export const niche = [
     ],
     body: `
 <p>Search "how to become a beauty model" and most of what comes back reads like a pageant checklist: symmetry scores, ideal proportions, a very narrow idea of what counts. That is not what a beauty casting actually looks at. It is closer to a product shoot than a beauty contest, and the standard is skin condition and camera presence at close range, not a subjective ranking of how conventionally attractive someone is.</p>
+<p>New to modeling altogether? Start with <a href="../how-to-become-a-model/">how to become a model</a>, which covers what every category builds on: requirements, digitals, agencies, costs and the scams to avoid. This guide is what is specific to beauty work.</p>
 <p>Our instructors at Online Model Academy include agents and bookers who cast beauty work for skincare and cosmetics clients. This is the version of the job they actually book, not the pageant framing dominating the search results.</p>
 
 <h2>What Beauty Modeling Actually Is</h2>
@@ -1086,6 +1096,7 @@ export const niche = [
     ],
     body: `
 <p>Search "how to become a model" past a certain age and most of what comes back either assumes you mean your teenage daughter or quietly implies the window already closed. Neither is true. Agencies run an entire board built around exactly this demographic, and clients selling to adults are actively looking for faces that look like their actual customers.</p>
+<p>New to modeling altogether? Start with <a href="../how-to-become-a-model/">our full guide to becoming a model</a>, which covers what every category builds on: requirements, digitals, agencies, costs and the scams to avoid. This guide is what is specific to modeling as a mature model.</p>
 <p>Our instructors at Online Model Academy include agents and bookers who cast commercial boards for a living, including the classic board this guide is about. This is the real path in, not a consolation version of a younger person's career.</p>
 
 <h2>What the Classic Board Actually Is</h2>
@@ -1184,6 +1195,7 @@ export const niche = [
     ],
     body: `
 <p>Search "how to become a face model" and most of what comes back either assumes you mean becoming a model generally, or slides straight into beauty-pageant language about being conventionally attractive. Neither is quite it. Face modeling is its own specific, bookable niche, closer in spirit to hand or foot modeling than to a fashion or beauty career, and it is genuinely one of the more approachable boards to start in.</p>
+<p>New to modeling altogether? Start with <a href="../how-to-become-a-model/">our full guide to becoming a model</a>, which covers what every category builds on: requirements, digitals, agencies, costs and the scams to avoid. This guide is what is specific to face modeling.</p>
 <p>Our instructors at Online Model Academy include agents and bookers who cast commercial and parts boards for a living. This guide covers what face modeling actually is, how it differs from beauty modeling, and what gets you booked.</p>
 
 <h2>What Face Modeling Actually Is</h2>
@@ -1280,6 +1292,7 @@ export const niche = [
     ],
     body: `
 <p>Leg modeling gets almost no honest coverage online, mostly because the search results are split between generic "how to become a model" advice and anatomy diagrams meant for a completely different audience. The real category is neither: it is a legitimate, narrow corner of parts modeling, booked by hosiery, footwear-adjacent, skincare and razor brands that need a specific pair of legs to photograph well, again and again, on schedule.</p>
+<p>New to modeling altogether? Start with <a href="../how-to-become-a-model/">the step-by-step guide to becoming a model</a>, which covers what every category builds on: requirements, digitals, agencies, costs and the scams to avoid. This guide is what is specific to leg modeling.</p>
 <p>Our instructors at Online Model Academy include agents and bookers who work parts boards, hands, feet and legs alike, for a living. This is the real path in, not a beauty-pageant read of the term.</p>
 
 <h2>What Leg Modeling Actually Is</h2>
@@ -1380,6 +1393,7 @@ export const niche = [
     ],
     body: `
 <p>Search "how to become a lip model" and most of what comes back is either a single agency's own recruitment page or generic modeling advice that never actually addresses lips specifically. The real category sits quietly inside parts modeling, the same wider niche as hand, foot and leg work, and it is a genuine, bookable specialism with its own steady client base.</p>
+<p>New to modeling altogether? Start with <a href="../how-to-become-a-model/">how to become a model</a>, which covers what every category builds on: requirements, digitals, agencies, costs and the scams to avoid. This guide is what is specific to lip modeling.</p>
 <p>Our instructors at Online Model Academy include agents and bookers who work parts boards, hands, feet, legs and lips alike, for a living. This is the real path in, not a beauty-pageant read of the term.</p>
 
 <h2>What Lip Modeling Actually Is</h2>

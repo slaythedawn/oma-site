@@ -14,6 +14,16 @@
       "source": "/blog/index.html",
       "destination": "/blog/",
       "permanent": true
+    },
+    {
+      "source": "/blog/how-to-start-a-modeling-career/",
+      "destination": "/blog/how-to-become-a-model/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-start-a-modeling-career",
+      "destination": "/blog/how-to-become-a-model/",
+      "permanent": true
     }
   ],
   "headers": [
