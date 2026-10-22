@@ -13,6 +13,12 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.onlinemodelacademy.com/terms/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
     <loc>https://www.onlinemodelacademy.com/blog/how-to-become-a-model/</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
