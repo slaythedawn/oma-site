@@ -213,6 +213,8 @@ const lastmod = (slug) => registry[slug].date || today;
 const urls = [
   { loc: `${SITE}/`, priority: '1.0', changefreq: 'weekly', lastmod: today },
   { loc: `${SITE}/blog/`, priority: '0.9', changefreq: 'weekly', lastmod: today },
+  // Hosted here because Kajabi will no longer save edits to its own copy.
+  { loc: `${SITE}/terms/`, priority: '0.2', changefreq: 'yearly', lastmod: '2026-10-22' },
   ...ORDER.map((slug) => ({
     loc: `${SITE}/blog/${slug}/`,
     priority: '0.8',

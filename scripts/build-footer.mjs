@@ -109,7 +109,7 @@ function footer(prefix, home, ctaHref) {
     <div class="ft-bot-links">
       <a href="https://instagram.com/onlinemodelacademy" target="_blank" rel="noopener">Instagram</a>
       <a href="https://tiktok.com/@onlinemodelacademy" target="_blank" rel="noopener">TikTok</a>
-      <a href="${KAJABI}/Terms-&-Conditions" target="_blank" rel="noopener">Terms</a>
+      <a href="${prefix}terms/">Terms</a>
       <a href="${KAJABI}/privacy-policy" target="_blank" rel="noopener">Privacy</a>
       <a href="mailto:hello@onlinemodelacademy.com">Contact</a>
     </div>
