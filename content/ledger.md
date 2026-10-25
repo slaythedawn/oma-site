@@ -139,6 +139,10 @@ The homepage itself was revised 2026-08-18 for the commercial cluster
 title, meta, hero, curriculum intro, pricing lede and Course schema. Not a
 blog article, tracked separately.
 
+## Run log
+
+- 2026-10-25: Shortlist exhausted of clean new keywords, so improved a near-miss instead of adding a URL. Ahrefs shows `how much do models make` at positions 7 to 8 on `how-much-do-models-make`; added a BLS-sourced section (May 2023 OEWS) and an hourly/yearly FAQ to that article. Re-measure in GSC in about 4 weeks. Also noted: `modeling` (18000 vol) ranks 5 on the homepage and `professional model training workshops` (1500) at 4, both homepage-optimisation candidates.
+
 ## Shortlist for coming weeks
 
 `how to get into plus-size modeling` (below) was picked and shipped
