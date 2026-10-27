@@ -6,8 +6,12 @@
   "trailingSlash": true,
   "rewrites": [
     {
-      "source": "/learn",
-      "destination": "https://oma-backend.vercel.app/learn"
+      "source": "/learn/",
+      "destination": "https://oma-backend.vercel.app/learn/"
+    },
+    {
+      "source": "/learn/:path*/",
+      "destination": "https://oma-backend.vercel.app/learn/:path*/"
     },
     {
       "source": "/learn/:path*",
