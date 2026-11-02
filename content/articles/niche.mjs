@@ -77,10 +77,10 @@ export const niche = [
 <p>Sending a fashion-board submission to an agency that only casts petite talent for its commercial or catalogue board is a wasted submission, not a stronger one. Check what a board actually casts before you apply to it rather than applying everywhere and hoping.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-petite-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=how-to-become-a-petite-model__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>Where Petite Models Actually Work</h2>
@@ -115,7 +115,7 @@ export const niche = [
 <li>Submit to agencies with a genuine commercial or petite-friendly board, and in parallel, pitch local brands and photographers directly.</li>
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
-<p>That last step is where our mentors, working agents and bookers who cast commercial boards for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+<p>That last step is where our mentors, working agents and bookers who cast commercial boards for real clients, add the most before your first casting rather than after it. The runway module in our course covers the casting-room craft in five lessons, taught by a working fashion week producer. All 16 modules are $99, one payment.</p>
 `,
   },
   {
@@ -179,10 +179,10 @@ export const niche = [
 <p>The format is the same as any other board: four to six phone photos, daylight, plain wall, no retouching, no filters. Front, side, back, one smiling, one neutral, plus a close-up. The one meaningful difference for curve submissions is clothing: wear something fitted that shows your actual shape, not oversized or draping. A booker cannot assess proportion through a loose dress, and a submission that visibly obscures your shape reads as discomfort with it, which is the opposite of what books the job. Our full <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers the shot list and what happens after digitals in more depth.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-plus-size-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=how-to-become-a-plus-size-model__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>Agencies vs. Going Freelance First</h2>
@@ -212,7 +212,7 @@ export const niche = [
 <li>Submit to those agencies, and in parallel, pitch local brands and photographers directly.</li>
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
-<p>That last step is where our mentors, working agents and bookers who run these boards for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+<p>That last step is where our mentors, working agents and bookers who run these boards for real clients, add the most before your first casting rather than after it. The runway module in our course covers the casting-room craft in five lessons, taught by a working fashion week producer. All 16 modules are $99, one payment.</p>
 `,
   },
   {
@@ -271,10 +271,10 @@ export const niche = [
 <p>Four to six phone photos: top-down (both feet together, then each alone), the sole, a side profile showing the arch, and one in a plain, low pair of shoes or sandals if you have them. Plain background, soft daylight, bare feet freshly washed and dried, no polish unless a specific job calls for it. Our full <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers the shot-list logic that applies here too: honest and unretouched beats styled every time at this stage.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-foot-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=how-to-become-a-foot-model__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>Care Routines Working Foot Models Actually Use</h2>
@@ -313,7 +313,7 @@ export const niche = [
 <li>Submit to those agencies, and in parallel, watch casting platforms for direct foot and parts calls.</li>
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
-<p>That last step is where our mentors, working agents and bookers who run parts boards for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+<p>That last step is where our mentors, working agents and bookers who run parts boards for real clients, add the most before your first casting rather than after it. The runway module in our course covers the casting-room craft in five lessons, taught by a working fashion week producer. All 16 modules are $99, one payment.</p>
 `,
   },
   {
@@ -378,10 +378,10 @@ export const niche = [
 <p>Four to six phone photos: hair down and natural, no fresh blowout or styling product, front, back, and a close-up that shows texture and condition honestly, in daylight against a plain background. The same honest, unretouched standard as every other category; our full <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers the shot-list logic in more depth.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-hair-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=how-to-become-a-hair-model__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>Where Hair Models Actually Work</h2>
@@ -412,7 +412,7 @@ export const niche = [
 <li>Submit with your digitals and be upfront about your hair's current condition and history, brands need to know what they are booking.</li>
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
-<p>That last step is where our mentors, working agents and bookers who cast commercial work for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+<p>That last step is where our mentors, working agents and bookers who cast commercial work for real clients, add the most before your first casting rather than after it. The runway module in our course covers the casting-room craft in five lessons, taught by a working fashion week producer. All 16 modules are $99, one payment.</p>
 `,
   },
   {
@@ -473,10 +473,10 @@ export const niche = [
 <p>Most fit-model submissions want current, accurate measurements first and a few honest photos second: plain, well-lit, unposed, showing your natural build clearly rather than styled to flatter it. Our full <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers honest digitals in more depth, and the same standard applies here even though the job itself is not about how you photograph.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-fit-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=how-to-become-a-fit-model__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>Where Fit Models Actually Work</h2>
@@ -506,7 +506,7 @@ export const niche = [
 <li>In parallel, reach out directly to local apparel manufacturers and design studios with your measurements, particularly if you live near a real garment industry hub.</li>
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
-<p>That last step is where our mentors, working agents and bookers who place models with real clients, add the most before your first booking rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+<p>That last step is where our mentors, working agents and bookers who place models with real clients, add the most before your first booking rather than after it. The runway module in our course covers the casting-room craft in five lessons, taught by a working fashion week producer. All 16 modules are $99, one payment.</p>
 `,
   },
   {
@@ -567,10 +567,10 @@ export const niche = [
 <p>Sitting for a tattoo trade does not build a modeling portfolio or read as experience on an agency submission. If the resulting photos are well shot and represent how you honestly look, they can occasionally supplement a portfolio later, but they do not substitute for the honest digitals a real submission needs. Our <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers what an actual submission needs instead.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-tattoo-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=how-to-become-a-tattoo-model__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>If You Mean Modeling With the Tattoos You Already Have</h2>
@@ -603,7 +603,7 @@ export const niche = [
 <li>Target tattoo-culture, streetwear, music and alternative-lifestyle clients and boards specifically, rather than general commercial submissions.</li>
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
-<p>That last step is where our mentors, working agents and bookers who cast commercial work for a living, add the most before your first booking rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+<p>That last step is where our mentors, working agents and bookers who cast commercial work for a living, add the most before your first booking rather than after it. The runway module in our course covers the casting-room craft in five lessons, taught by a working fashion week producer. All 16 modules are $99, one payment.</p>
 `,
   },
   {
@@ -661,10 +661,10 @@ export const niche = [
 <p>Where the content will run, for how long, and on whose account is the actual value of the deal, the same as any other modeling job. A brand asking for broad, ongoing usage across paid ads is buying something worth more than a single organic feed post, and should be paying accordingly.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-an-instagram-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=how-to-become-an-instagram-model__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>Getting Scouted Safely</h2>
@@ -692,7 +692,7 @@ export const niche = [
 <li>Verify any scout or brand independently before agreeing to anything, and never pay to be considered.</li>
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
-<p>That last step is where our mentors, working agents and bookers who work with brands on this kind of content, add the most before your first booking rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+<p>That last step is where our mentors, working agents and bookers who work with brands on this kind of content, add the most before your first booking rather than after it. The runway module in our course covers the casting-room craft in five lessons, taught by a working fashion week producer. All 16 modules are $99, one payment.</p>
 `,
   },
   {
@@ -753,10 +753,10 @@ export const niche = [
 <p>Most showroom submissions want current, accurate measurements first and a small set of plain, honest photos second, the same standard our full <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers in depth. An overly produced book is not what gets a showroom casting director's attention; accuracy is.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-showroom-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=how-to-become-a-showroom-model__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>Where Showroom Work Happens</h2>
@@ -785,7 +785,7 @@ export const niche = [
 <li>Ask any agency you submit to about their market-week casting calendar directly, since this work clusters around a handful of weeks a year rather than being posted year-round.</li>
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
-<p>That last step is where our mentors, working agents and bookers who staff showroom seasons for real design houses, add the most before your first booking rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+<p>That last step is where our mentors, working agents and bookers who staff showroom seasons for real design houses, add the most before your first booking rather than after it. The runway module in our course covers the casting-room craft in five lessons, taught by a working fashion week producer. All 16 modules are $99, one payment.</p>
 `,
   },
   {
@@ -846,10 +846,10 @@ export const niche = [
 <p>Print submissions want simple, honest, well-lit digitals, the same standard our full <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers in depth, not a heavily styled shoot. A plain, accurate set of photos gets looked at; an over-produced one does not read as more bookable to a print casting director.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-print-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=how-to-become-a-print-model__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>Print vs. E-Commerce vs. Editorial, Sorted Out</h2>
@@ -874,7 +874,7 @@ export const niche = [
 <li>Ask about usage and run size before agreeing to any rate, since that is where a print booking's real value sits.</li>
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
-<p>That last step is where our mentors, working agents and bookers who cast print work for real retail and packaging clients, add the most before your first booking rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+<p>That last step is where our mentors, working agents and bookers who cast print work for real retail and packaging clients, add the most before your first booking rather than after it. The runway module in our course covers the casting-room craft in five lessons, taught by a working fashion week producer. All 16 modules are $99, one payment.</p>
 `,
   },
   {
@@ -935,10 +935,10 @@ export const niche = [
 <p>A UGC booking is often a short, specific brief with a tight deadline instead of a scheduled shoot day. A model who delivers clean footage on time, without back-and-forth over reshoots, gets rebooked far more than one who happens to deliver the single best individual clip.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-ugc-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=how-to-become-a-ugc-model__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>UGC Modeling vs. Instagram Modeling vs. Influencing</h2>
@@ -964,7 +964,7 @@ export const niche = [
 <li>Ask any agency you are already signed with whether it runs a UGC or creator-content division, but do not wait on one to start.</li>
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
-<p>That last step is where our mentors, working agents and bookers who work with brands on this kind of content, add the most before your first booking rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+<p>That last step is where our mentors, working agents and bookers who work with brands on this kind of content, add the most before your first booking rather than after it. The runway module in our course covers the casting-room craft in five lessons, taught by a working fashion week producer. All 16 modules are $99, one payment.</p>
 `,
   },
   {
@@ -1025,10 +1025,10 @@ export const niche = [
 <p>This is the detail almost nobody outside a booking office tells you. A new facial, a fresh brow wax or thread, or a skincare product tried for the first time in the week before a casting or shoot is the single most common reason a booked beauty model gets recast at the last minute. Redness, irritation and breakouts all show up in a tight beauty crop far more than they would in a full-length shot, so the actual professional standard is to change nothing and keep your ordinary routine right up to the shoot.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-beauty-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=how-to-become-a-beauty-model__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>Beauty Modeling vs. Hand Modeling vs. Hair Modeling</h2>
@@ -1053,7 +1053,7 @@ export const niche = [
 <li>Submit to agencies with a genuine beauty or commercial board, and check what a board actually casts before applying to it.</li>
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
-<p>That last step is where our mentors, working agents and bookers who cast beauty work for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+<p>That last step is where our mentors, working agents and bookers who cast beauty work for real clients, add the most before your first casting rather than after it. The runway module in our course covers the casting-room craft in five lessons, taught by a working fashion week producer. All 16 modules are $99, one payment.</p>
 `,
   },
   {
@@ -1112,10 +1112,10 @@ export const niche = [
 <p>Bookers casting the classic board are looking for ease in front of a camera and a face that photographs as genuinely comfortable in its own age, which usually reads more clearly in someone with real life experience than in someone performing confidence for the first time. That is a real advantage over a newer, younger model, not something to downplay.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-mature-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=how-to-become-a-mature-model__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>Where Mature Models Actually Work</h2>
@@ -1152,7 +1152,7 @@ export const niche = [
 <li>Submit to agencies with a genuine classic or commercial board, and in parallel, pitch local healthcare, finance and home brands directly.</li>
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
-<p>That last step is where our mentors, working agents and bookers who cast commercial and classic boards for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+<p>That last step is where our mentors, working agents and bookers who cast commercial and classic boards for real clients, add the most before your first casting rather than after it. The runway module in our course covers the casting-room craft in five lessons, taught by a working fashion week producer. All 16 modules are $99, one payment.</p>
 `,
   },
   {
@@ -1221,10 +1221,10 @@ export const niche = [
 <p>Four to six phone photos, daylight, plain wall, no makeup or filters: front, both profiles, and one close-up tight enough to show real skin texture and condition. Hiding anything here is the opposite of what a face-modeling client is trying to evaluate. Our full <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers the shot-list logic in more depth.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-face-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=how-to-become-a-face-model__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>Agencies vs. Going Direct</h2>
@@ -1249,7 +1249,7 @@ export const niche = [
 <li>Be upfront in your submission about your skin's current condition, including anything a client would need to know for a before-and-after series.</li>
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
-<p>That last step is where our mentors, working agents and bookers who cast parts and commercial boards for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+<p>That last step is where our mentors, working agents and bookers who cast parts and commercial boards for real clients, add the most before your first casting rather than after it. The runway module in our course covers the casting-room craft in five lessons, taught by a working fashion week producer. All 16 modules are $99, one payment.</p>
 `,
   },
   {
@@ -1308,10 +1308,10 @@ export const niche = [
 <p>Four to six phone photos: full length facing forward, full length from behind, a close crop of each knee, and a close crop of each ankle. Plain background, soft daylight, bare legs freshly washed with no self-tanner, fresh shave marks or lotion sheen. Our full <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers the shot-list logic that applies here too: honest and unretouched beats styled every time at this stage.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-leg-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=how-to-become-a-leg-model__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>Care Routines Working Leg Models Actually Use</h2>
@@ -1350,7 +1350,7 @@ export const niche = [
 <li>Submit to those agencies, and in parallel, watch casting platforms for direct leg and parts calls.</li>
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
-<p>That last step is where our mentors, working agents and bookers who run parts boards for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+<p>That last step is where our mentors, working agents and bookers who run parts boards for real clients, add the most before your first casting rather than after it. The runway module in our course covers the casting-room craft in five lessons, taught by a working fashion week producer. All 16 modules are $99, one payment.</p>
 `,
   },
   {
@@ -1419,10 +1419,10 @@ export const niche = [
 <p>Three or four phone photos: lips closed and relaxed, lips slightly parted, a front-on close crop, and one at a slight angle. Plain background, soft daylight, no lipstick, gloss, filter or heavy retouching. Our full <a href="../how-to-make-a-modeling-portfolio/">guide to building a modeling portfolio</a> covers the shot-list logic that applies here too: honest and unretouched beats styled every time at this stage.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-lip-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=how-to-become-a-lip-model__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>Care Routines Working Lip Models Actually Use</h2>
@@ -1461,7 +1461,7 @@ export const niche = [
 <li>Submit to those agencies, and in parallel, watch casting platforms for direct lip and parts calls from cosmetics and lip-care brands.</li>
 <li>Learn how a casting room actually works before you are standing in one.</li>
 </ol>
-<p>That last step is where our mentors, working agents and bookers who run parts boards for real clients, add the most before your first casting rather than after it. The free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+<p>That last step is where our mentors, working agents and bookers who run parts boards for real clients, add the most before your first casting rather than after it. The runway module in our course covers the casting-room craft in five lessons, taught by a working fashion week producer. All 16 modules are $99, one payment.</p>
 `,
   },
 ];

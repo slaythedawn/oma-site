@@ -63,10 +63,10 @@ export const portfolio = [
 <p>If a client can only remember one thing about you, it will be this image. Choose it accordingly — and choose the one that looks most like you on an ordinary day, not the most flattering one ever taken of you. A relaxed, well-controlled expression photographs better than an intense one; our <a href="../model-poses/">guide to posing like a model</a> covers exactly what to do with your chin, shoulders and eyes to get there.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=model-comp-card__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=model-comp-card__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>The Back</h2>
@@ -190,10 +190,10 @@ export const portfolio = [
 <p>Your agency's details if you are represented. A dedicated work email if you are not. Never your phone number, never your home address, and nothing that identifies your suburb, your gym or your regular routine.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=model-portfolio-website__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=model-portfolio-website__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>What to Leave Out</h2>
@@ -294,10 +294,10 @@ export const portfolio = [
 <p>The section that actually gets a resume read twice. Anything that affects what you can be booked for: competitive swimming, a specific sport, dance training, horseback riding, a second or third language, a driver's licence if a job might need one. Vague entries like "outgoing personality" do not belong here. Bookable, specific skills do.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modeling-resume__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=modeling-resume__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>What to Leave Off</h2>
@@ -386,10 +386,10 @@ export const portfolio = [
 <p>Squaring both shoulders directly at the lens flattens your whole frame and is one of the clearest tells of an inexperienced subject. Turn one shoulder slightly back from the other, angle your torso a few degrees off the camera, and let your face turn back toward the lens. That small offset is where most of the "editorial" quality in a photo actually comes from, more than any expression choice.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=model-poses__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=model-poses__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>Posing Changes With the Category</h2>
@@ -484,10 +484,10 @@ export const portfolio = [
 <p>Everything else, the lens, the studio, the exact software used to edit, is a photographer's concern, not yours. A phone shot with clean light and no filter beats a technically superior photo that hides who you actually are.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modeling-headshots__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=modeling-headshots__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>Commercial Headshot vs. Fashion Headshot</h2>
@@ -598,10 +598,10 @@ export const portfolio = [
 <p>You can do more with light than with any pose. Soft, even daylight, such as a window with a sheer curtain or open shade outdoors, flatters almost everyone. Harsh overhead light throws shadows under the eyes and nose. Light coming from directly behind you silhouettes your face. Turn so the window is in front of you or slightly to the side and most problems ease.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-be-photogenic__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=how-to-be-photogenic__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>Expression Is Specific to the Job</h2>
@@ -624,7 +624,7 @@ export const portfolio = [
 <p>What does matter is honesty and ease. Clean, natural photos of you looking relaxed will always serve you better than one heavily styled image that does not look like you on a Tuesday morning.</p>
 
 <h2>Is This Enough to Start Modeling?</h2>
-<p>Photographing well is one piece of it, not the whole picture. Agencies also look at proportions, versatility, professionalism and whether you fit what their clients are casting. If you are just beginning, our guide to <a href="../how-to-become-a-model/">how to become a model</a> walks through the full path, and the free runway masterclass covers how to move and present yourself when a camera or a room is watching.</p>
+<p>Photographing well is one piece of it, not the whole picture. Agencies also look at proportions, versatility, professionalism and whether you fit what their clients are casting. If you are just beginning, our guide to <a href="../how-to-become-a-model/">how to become a model</a> walks through the full path, and the runway module in our course covers how to move and present yourself when a camera or a room is watching.</p>
 <p>The encouraging part is that the piece covered here is the most trainable. If you are comfortable, curious and willing to practice in front of a lens, you are already most of the way to being the person photographers enjoy working with.</p>
 `,
   },
@@ -716,10 +716,10 @@ export const portfolio = [
 <p>The biggest surprise for new models is the pace. Shooting is quick and repetitive, and most frames are variations on a small number of moves. The skill is staying fresh through that repetition.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=what-to-expect-at-a-model-photoshoot__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=what-to-expect-at-a-model-photoshoot__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>How to Be Easy to Work With</h2>
@@ -747,7 +747,7 @@ export const portfolio = [
 
 <h2>Making the Most of Your First Shoot</h2>
 <p>Treat the first shoot as practice you happen to be photographed doing. Notice what you found easy, which directions threw you and which frames felt natural. Ask the photographer which images worked best and why. That feedback is worth more than most of the pictures.</p>
-<p>If you want to go further, our guide to <a href="../how-to-become-a-model/">how to become a model</a> shows where a shoot sits in the larger path, and the free runway masterclass covers how to carry yourself when a room is watching.</p>
+<p>If you want to go further, our guide to <a href="../how-to-become-a-model/">how to become a model</a> shows where a shoot sits in the larger path, and the runway module in our course covers how to carry yourself when a room is watching.</p>
 `,
   },
 ];

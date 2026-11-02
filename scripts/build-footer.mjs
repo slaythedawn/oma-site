@@ -101,7 +101,7 @@ function footer(prefix, home, ctaHref) {
     <div class="ft-brand">
       <div style="margin-bottom:16px"><img src="${prefix}assets/logo-white.svg" alt="Online Model Academy" style="height:26px"></div>
       <div class="tag">Learn how to become a model, from the people who book them. 12 industry professionals across 16 modules, taught by working casting directors, agents and runway producers.</div>
-      <a class="ft-cta" data-cta="footer-free" href="${ctaHref}" target="_blank" rel="noopener">Get the free module →</a>
+      <a class="ft-cta" data-cta="footer-enrol" href="${ctaHref}" target="_blank" rel="noopener">All 16 modules · $99 →</a>
     </div>${COLUMNS.map(col).join('')}
   </div>
   <div class="ft-bot">
@@ -173,7 +173,7 @@ for (const page of targets) {
   const prefix = '../'.repeat(depth);
   const home = depth === 0 ? '' : `${prefix}index.html`;
 
-  // The footer CTA keeps the page's own utm_content so footer opt-ins stay
+  // The footer CTA keeps the page's own utm_content so footer enrols stay
   // attributable to the article that drove them. The homepage deliberately
   // carries no UTMs, matching how its other CTAs are tagged.
   const slug =
@@ -184,8 +184,8 @@ for (const page of targets) {
         : (page.match(/^blog\/([^/]+)\/index\.html$/)?.[1] ?? null);
 
   const ctaHref = slug
-    ? `${KAJABI}/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=${slug}__footer`
-    : `${KAJABI}/offers/ZbJFXeGn`;
+    ? `${KAJABI}/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=${slug}__footer`
+    : `${KAJABI}/offers/iJxLGaoD`;
 
   let updated = original.replace(/<footer class="ft">[\s\S]*?<\/footer>/, footer(prefix, home, ctaHref));
 

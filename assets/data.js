@@ -9,8 +9,7 @@ window.OMA_DATA = {
     lessons: 81,
     modules: 16,
     campaigns: "475+",
-    priceOld: 499,
-    priceCurrent: 299,
+    priceCurrent: 99,
   },
 
   founderQuote: {
@@ -210,7 +209,7 @@ window.OMA_DATA = {
       { q: "Do I get a certificate?", a: "Yes. You'll receive a digital certificate when you finish, which you can include in your portfolio or online profiles." },
       { q: "Can I do it on my phone?", a: "Yes. It works perfectly on mobile — learn anytime, anywhere." },
       { q: "What if I need help during the course?", a: "You'll have access to community support and regular Q&A sessions, so you're never left wondering what to do next." },
-      { q: "Do you offer refunds?", a: "Yes, within seven days. If the course is not for you, email us within seven days of buying and we will refund you in full, as long as you have watched fewer than 15 of the paid lessons (the free module does not count) and have not been refunded before. The full conditions are in our terms." },
+      { q: "Do you offer refunds?", a: "Yes, within seven days. If the course is not for you, email us within seven days of buying and we will refund you in full, as long as you have watched fewer than 15 of the lessons and have not been refunded before. The full conditions are in our terms." },
     ],
     parent: [
       { q: "What age should my child start modelling training?", a: "The optimal age depends on various factors including maturity, industry requirements, and career goals. Our parent guidance module covers age-appropriate training strategies and timing recommendations from industry professionals." },
@@ -253,7 +252,7 @@ window.OMA_DATA = {
     ],
     result: {
       title: "We built this course for you.",
-      body: "Based on your answers, the full programme covers exactly what's blocking you — portfolio, castings, contracts, and the agency-side knowledge most courses skip. Start with the free runway module with Jack Bedwani, then enrol when you're ready.",
+      body: "Based on your answers, the full programme covers exactly what's blocking you — portfolio, castings, contracts, and the agency-side knowledge most courses skip. All 16 modules are $99, one payment, with a seven-day money-back guarantee.",
     },
   },
 

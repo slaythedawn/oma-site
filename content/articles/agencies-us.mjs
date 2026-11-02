@@ -99,10 +99,10 @@ ${feeWarning}
 </ul>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modeling-agencies-near-me__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=modeling-agencies-near-me__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 ${digitalsBlock}
@@ -121,7 +121,7 @@ ${digitalsBlock}
 <p>If you are reading this from outside the US, the near-me logic is identical but the rules are not: our dedicated guides to becoming a model in the <a href="../how-to-become-a-model-in-uk/">UK</a>, <a href="../how-to-become-a-model-in-australia/">Australia</a> and <a href="../how-to-become-a-model-in-canada/">Canada</a> cover the agency landscape and fee regulation specific to each of those markets.</p>
 
 <h2>Before You Submit Anywhere</h2>
-<p>Get your digitals right, know your category, verify every agency on your list, and understand what happens in a casting room before you are standing in one. Our free runway masterclass — five lessons from a working fashion week producer — covers the last part, and costs nothing.</p>
+<p>Get your digitals right, know your category, verify every agency on your list, and understand what happens in a casting room before you are standing in one. Our runway module — five lessons from a working fashion week producer — covers the last part. The full course is $99.</p>
 `,
   },
 
@@ -195,10 +195,10 @@ ${digitalsBlock}
 <p>So agents screen hard for it, from the first email. Do you reply promptly and clearly? Did you follow the submission instructions? At an open call, were you polite to the receptionist? None of this is a test in the formal sense, and all of it is being noticed.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=what-do-modeling-agencies-look-for__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=what-do-modeling-agencies-look-for__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>What Gets People Rejected, In Order</h2>
@@ -223,7 +223,7 @@ ${feeWarning}
 
 <h2>What You Can Actually Control</h2>
 <p>You cannot control your height, your bone structure, or whether an agency's board happens to need your look this season. You can control your digitals, your accuracy, your targeting, and how you behave in the room.</p>
-<p>That last one is where most of the difference lies between models who get booked once and models who build a career. It is learnable, and it is what our mentors teach. The free runway masterclass with Jack Bedwani, who choreographs shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons of exactly that, at no cost.</p>
+<p>That last one is where most of the difference lies between models who get booked once and models who build a career. It is learnable, and it is what our mentors teach. The runway module with Jack Bedwani, who choreographs shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons of exactly that. All 16 modules are $99, one payment.</p>
 `,
   },
 
@@ -287,10 +287,10 @@ ${feeWarning}
 <p>Send bust, waist, hips, dress size, and height, measured properly rather than estimated from what you buy. Curve sizing varies enormously between brands, so your actual measurements matter more than your label size.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=plus-size-modeling-agencies__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=plus-size-modeling-agencies__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>How to Submit</h2>
@@ -312,7 +312,7 @@ ${feeWarning}
 <p>Once signed, your agency will guide testing to build a portfolio that shows range: clean beauty, commercial lifestyle, something with movement, and at least one shot that shows your shape honestly rather than styled around it. Our guide to <a href="../how-to-make-a-modeling-portfolio/">building a modeling portfolio</a> covers the structure, and the principles are identical across boards.</p>
 
 <h2>Start Here</h2>
-<p>Measure yourself accurately, shoot honest digitals in fitted clothing, shortlist agencies that actually run a curve board, and learn how castings work before you are in one. Our free runway masterclass covers the casting-room craft in five lessons, taught by a working fashion week producer, at no cost.</p>
+<p>Measure yourself accurately, shoot honest digitals in fitted clothing, shortlist agencies that actually run a curve board, and learn how castings work before you are in one. Our runway module covers the casting-room craft in five lessons, taught by a working fashion week producer. All 16 modules are $99, one payment.</p>
 `,
   },
 
@@ -372,10 +372,10 @@ ${feeWarning}
 ${digitalsBlock}
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Six lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=petite-modeling-agencies__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=petite-modeling-agencies__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>Finding the Right Board</h2>
@@ -388,7 +388,7 @@ ${feeWarning}
 <p>Commercial, catalogue and e-commerce lead by volume, because none of it screens on height. Lifestyle and advertising campaigns follow the same pattern. Fit modeling for brands that manufacture petite-specific clothing lines is a genuinely underused option too: steady, hourly, repeat work with almost no public awareness. Our guide to <a href="../plus-size-modeling-agencies/">plus size modeling agencies</a> covers the parallel case for curve boards, useful context since the two niches sit next to each other on most agency rosters.</p>
 
 <h2>Start Here</h2>
-<p>Check each agency's actual boards before you submit, send accurate measurements and honest digitals, and target commercial and lifestyle divisions rather than fashion-runway ones. Our free runway masterclass covers the casting-room craft in six lessons, taught by a working fashion week producer, at no cost.</p>
+<p>Check each agency's actual boards before you submit, send accurate measurements and honest digitals, and target commercial and lifestyle divisions rather than fashion-runway ones. Our runway module covers the casting-room craft in six lessons, taught by a working fashion week producer. All 16 modules are $99, one payment.</p>
 `,
   },
 ];

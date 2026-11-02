@@ -69,10 +69,10 @@ export const typesOfWork = [
 <p>Runway castings move fast and reject harder than almost any other category. A single show might see two or three hundred models walk for a casting director in a day for twenty or thirty confirmed spots. It is not personal, and it is rarely about how you looked. It is a fit exercise: does this specific person, in this specific sample garment, read the way the designer wants the whole line-up to read.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=runway-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=runway-model__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 <h2>The Different Kinds of Runway Work</h2>
 <p>"Runway model" gets used as one term for several distinct jobs, and knowing which one you are actually being booked for changes what to expect.</p>
@@ -171,10 +171,10 @@ export const typesOfWork = [
 <p>A fashion casting director is judging whether you disappear into the clothes and carry a specific walk or silhouette. A commercial casting director is judging something closer to relatability on camera: can you look natural rather than posed, can you convey a specific, ordinary emotion, warmth, mild surprise, quiet competence, on command and repeatably, and do you read as a real person a stranger would trust. It is a different skill from a runway walk, and it is arguably harder to fake, because the entire brief is "look like you are not performing."</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=what-is-commercial-modeling__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=what-is-commercial-modeling__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>What Commercial Work Actually Looks Like</h2>
@@ -310,10 +310,10 @@ export const typesOfWork = [
 <p>Not a look or a client type, a way of working: booking directly with clients and photographers instead of, or alongside, an agency. A freelancer keeps the full rate they negotiate rather than paying agency commission, at the cost of the largest national clients, who mostly book through agencies. Our <a href="../how-to-become-a-freelance-model/">freelance modeling guide</a> covers rate-setting and finding legitimate work directly. A specific, growing corner of this lane is social-native brand content: our <a href="../how-to-become-an-instagram-model/">guide to becoming an Instagram model</a> covers what those bookings actually pay for, and how the job differs from influencing. A closely related but distinct lane is <a href="../how-to-become-a-ugc-model/">UGC modeling</a>, content built to look even more unscripted and personal, handed off to run through the brand's own channels rather than a branded post on the model's own feed.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=types-of-modeling__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=types-of-modeling__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>What Beginners Usually Get Wrong About Categories</h2>
@@ -397,10 +397,10 @@ export const typesOfWork = [
 <p>This is worth stating plainly, because it is the most common mix-up beginners bring to a first agency meeting: runway is one channel inside fashion modeling, not another name for it. A fashion model who books editorial and campaign work steadily and never walks a show is not doing a lesser or incomplete version of the job; they are doing a large, normal share of it. Our guide to <a href="../runway-model/">what a runway model actually does</a> covers the live-show discipline specifically, the height requirement, the seasonal booking pattern, the backstage pace. Everything below is about the wider category that discipline sits inside.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=what-is-fashion-modeling__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=what-is-fashion-modeling__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>The Channels Inside Fashion Modeling</h2>
@@ -503,10 +503,10 @@ export const typesOfWork = [
 <p>Many ecommerce shoots run lean: a photographer, a stylist handling the volume of garment changes, sometimes no separate hair and makeup team at all, especially for brands shooting a large seasonal range on a tight budget. It is a less glamorous set than a campaign, and a genuinely useful place for a new model to learn to work fast and take direction without needing months of prior experience.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=ecommerce-modeling__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=ecommerce-modeling__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>What Actually Gets You Booked</h2>
@@ -604,10 +604,10 @@ export const typesOfWork = [
 <p>A typical photo shoot call runs a handful of hours around one or two setups. A trade show day runs the full length of the exhibition floor's open hours, often eight to ten hours on your feet, for however many days the show runs. It is genuinely different physical work, closer to a long retail or hospitality shift than a shoot.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=promotional-modeling__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=promotional-modeling__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>What Actually Gets You Booked</h2>
@@ -704,10 +704,10 @@ export const typesOfWork = [
 <p>The two get confused constantly because the on-camera style looks almost identical: natural, candid, real-life moments rather than a posed beauty shot. The difference is who is paying for the shoot and when. A stock shoot has no client at all at the time you are photographed, since the whole point is a library reselling the same image to many unrelated buyers later. <a href="../lifestyle-modeling/">Lifestyle modeling</a> is the opposite: a single brand commissions the shoot for its own specific campaign, usually on location rather than in a studio, and the resulting images are not resold to anyone else afterward.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=stock-photo-modeling__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=stock-photo-modeling__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>What Actually Gets You Booked</h2>
@@ -800,10 +800,10 @@ export const typesOfWork = [
 <p>A traditional agency board often screens against fairly narrow height and proportion standards. A consumer brand casting its own models is usually trying to represent the actual range of people who buy its clothes, so the net is often wider on age, body type, height and background than a fashion-agency board would apply.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-model-for-clothing-brands__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=how-to-become-a-model-for-clothing-brands__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>What Actually Gets You Booked</h2>
@@ -898,10 +898,10 @@ export const typesOfWork = [
 <p>Most lifestyle shoots happen somewhere that looks like a real place a customer would actually be: a rented house, a real kitchen, an outdoor park, a car, an office. That means longer shoot days, more setup and reset time between takes, and a genuinely different kind of stamina than a studio session, holding a natural, unforced presence for hours in a real environment rather than a controlled one.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=lifestyle-modeling__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=lifestyle-modeling__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>Who Actually Books This Work</h2>
