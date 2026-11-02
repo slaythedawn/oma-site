@@ -7,12 +7,7 @@
     "paid": {
       "id": "iJxLGaoD",
       "label": "Full course enrolment",
-      "utmCampaign": "enrol_299"
-    },
-    "free": {
-      "id": "ZbJFXeGn",
-      "label": "Free runway module",
-      "utmCampaign": "free_runway_module"
+      "utmCampaign": "enrol_99"
     }
   },
 

@@ -61,10 +61,10 @@ export const money = [
 <p>What is not normal: a client who goes quiet past their stated terms, an agency that cannot tell you when a specific job was invoiced, or terms that were never actually specified before you agreed to the job. Ask "what are the terms on this one" before you accept a booking, not while you are waiting on it.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-get-paid-as-a-model__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=how-to-get-paid-as-a-model__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>Getting Paid in Vouchers or Trade, Not Cash</h2>
@@ -88,7 +88,7 @@ export const money = [
 </ul>
 <p>The best protection sits upstream of all of this: agree on the rate, the usage, and the payment terms in writing before the shoot, not after. Almost every payment dispute in modeling traces back to one of those three things being assumed rather than confirmed.</p>
 
-<p>None of this is complicated once someone walks you through it once, which is exactly the gap our mentors built the course to close. The free runway masterclass, taught by Jack Bedwani, who choreographs shows for Calvin Klein, Coach and Charlotte Tilbury, covers the craft side of the business at no cost. Understanding how you get paid is worth knowing before your first booking, not after your first overdue invoice.</p>
+<p>None of this is complicated once someone walks you through it once, which is exactly the gap our mentors built the course to close. The runway module in our course, taught by Jack Bedwani, who choreographs shows for Calvin Klein, Coach and Charlotte Tilbury, covers the craft side of the business. Understanding how you get paid is worth knowing before your first booking, not after your first overdue invoice.</p>
 `,
   },
   {
@@ -165,10 +165,10 @@ export const money = [
 <p>Pay structure is identical, minus the agency taking a cut. A freelancer negotiating directly with a local photographer or small brand keeps everything they are quoted. What freelancers give up is access to the clients paying the largest usage fees, which mostly book through agencies. Our <a href="../how-to-become-a-freelance-model/">freelance modeling guide</a> covers rate-setting in detail.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-much-do-models-make__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=how-much-do-models-make__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>What Your Agency Takes, and Why</h2>
@@ -196,7 +196,7 @@ export const money = [
 <li><b>Knowing what you're worth before you're in the room.</b> Understanding day rate versus usage, and negotiating both, is a learnable skill, not an innate one, and it is worth real money the first time a client tries to bundle unlimited usage into a modest day rate.</li>
 <li><b>Range.</b> A model who can competently deliver beauty, commercial lifestyle, and movement is bookable by more clients than one who can only do one of those things well.</li>
 </ul>
-<p>That last set of skills, reading a casting room and negotiating from a position of actually understanding what you're being asked to sign away, is exactly what our mentors teach. The free runway masterclass, taught by Jack Bedwani, who choreographs shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons on the craft side of this at no cost, and it is the place to start before your first rate negotiation, not after.</p>
+<p>That last set of skills, reading a casting room and negotiating from a position of actually understanding what you're being asked to sign away, is exactly what our mentors teach. The runway module in our course, taught by Jack Bedwani, who choreographs shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons on the craft side of this, and it is the place to start before your first rate negotiation, not after.</p>
 `,
   },
 ];

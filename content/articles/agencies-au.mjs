@@ -124,10 +124,10 @@ export const agenciesAu = [
 <p>Working out which of these is right for you is the whole game, and it is worth reading our <a href="../how-to-choose-a-modeling-agency/">guide to choosing between agencies</a> before you submit to all of them at once.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modelling-agencies-sydney__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=modelling-agencies-sydney__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 ${openCalls}
@@ -143,7 +143,7 @@ ${redFlags}
 <p>What shortens it is arriving prepared: correct digitals, correct stats, the right agencies for your category, and knowing how to behave in a casting. That last one is learnable, and it is most of what separates models who get rebooked from models who get booked once.</p>
 
 <h2>Before You Submit Anywhere</h2>
-<p>Get your digitals right, know your category, shortlist the agencies whose boards you genuinely fit, and understand what happens in a casting room before you are standing in one. Our free runway masterclass with Jack Bedwani, who produces Australian Fashion Week, covers the last part in five lessons and costs nothing.</p>
+<p>Get your digitals right, know your category, shortlist the agencies whose boards you genuinely fit, and understand what happens in a casting room before you are standing in one. Our runway module with Jack Bedwani, who produces Australian Fashion Week, covers the last part in five lessons and the full course is $99.</p>
 `,
   },
 
@@ -204,10 +204,10 @@ ${redFlags}
 </ul>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modelling-agencies-melbourne__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=modelling-agencies-melbourne__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 ${openCalls}
@@ -215,7 +215,7 @@ ${submissionSteps}
 ${redFlags}
 
 <h2>What to Do This Week</h2>
-<p>Shoot your digitals properly, write down your measurements in centimetres, shortlist three or four Melbourne agencies whose boards you actually fit, and submit exactly what each one asks for. Then learn what happens in the casting room, because that is where signed models either get rebooked or quietly disappear. Our free runway module covers it, taught by the producer who casts Australian Fashion Week.</p>
+<p>Shoot your digitals properly, write down your measurements in centimetres, shortlist three or four Melbourne agencies whose boards you actually fit, and submit exactly what each one asks for. Then learn what happens in the casting room, because that is where signed models either get rebooked or quietly disappear. Our runway module covers it, taught by the producer who casts Australian Fashion Week.</p>
 `,
   },
 
@@ -272,10 +272,10 @@ ${redFlags}
 <p>Because the Brisbane market is smaller, dual representation is common: signed in Brisbane, also on a Sydney or Melbourne board for bigger campaigns. Check your contract's exclusivity and territory clauses before assuming you can do this — our <a href="../how-to-choose-a-modeling-agency/">agency selection guide</a> explains which clauses matter.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modelling-agencies-brisbane__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=modelling-agencies-brisbane__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 ${openCalls}
@@ -283,7 +283,7 @@ ${submissionSteps}
 ${redFlags}
 
 <h2>Start Here</h2>
-<p>Get your digitals right, be honest about your category, and approach the agencies whose clients actually book your look. Then learn the casting-room craft — it is the difference between one booking and a career. Our free runway masterclass covers it, taught by a working fashion week producer, at no cost.</p>
+<p>Get your digitals right, be honest about your category, and approach the agencies whose clients actually book your look. Then learn the casting-room craft — it is the difference between one booking and a career. Our runway module covers it, taught by a working fashion week producer. All 16 modules are $99, one payment.</p>
 `,
   },
 
@@ -341,10 +341,10 @@ ${redFlags}
 <p>Sooner or later a Perth-based model asks whether to move east. There is no universal answer, but there is a sensible sequence: build a book and a track record locally first, get comfortable in casting rooms, then approach east coast agencies with evidence rather than potential. Arriving in Sydney with a working portfolio and references is a completely different conversation from arriving with digitals.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modelling-agencies-perth__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=modelling-agencies-perth__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 ${openCalls}
@@ -352,7 +352,7 @@ ${submissionSteps}
 ${redFlags}
 
 <h2>Your Next Step</h2>
-<p>Shoot clean digitals, get your measurements in centimetres, target the Perth agencies whose commercial clients match your look, and learn what actually happens in a casting before you walk into one. Our free runway module, taught by the producer behind Australian Fashion Week, is the fastest way to do the last part.</p>
+<p>Shoot clean digitals, get your measurements in centimetres, target the Perth agencies whose commercial clients match your look, and learn what actually happens in a casting before you walk into one. Our runway module, taught by the producer behind Australian Fashion Week, is the fastest way to do the last part.</p>
 `,
   },
 
@@ -415,10 +415,10 @@ ${redFlags}
 <p>The smallest of the mainland markets, primarily commercial and retail, with several small agencies and frequent interstate placement for larger jobs.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modelling-agencies-australia__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=modelling-agencies-australia__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>Which Board You Belong On</h2>
@@ -452,7 +452,7 @@ ${redFlags}
 
 <h2>What Actually Gets You Signed</h2>
 <p>Clean digitals, accurate stats, the right agency for your category, and evidence that you will be easy to work with. Nothing on that list requires money.</p>
-<p>What happens after you are signed is a different skill set: how you walk, how you take direction, how you behave when a casting runs three hours late. That is what our mentors teach, and the free runway masterclass with Jack Bedwani — who produces Australian Fashion Week — is five lessons of it at no cost.</p>
+<p>What happens after you are signed is a different skill set: how you walk, how you take direction, how you behave when a casting runs three hours late. That is what our mentors teach, and the runway module with Jack Bedwani — who produces Australian Fashion Week — is five lessons of it, inside a $99 course.</p>
 `,
   },
 ];

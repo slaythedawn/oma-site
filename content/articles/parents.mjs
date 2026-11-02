@@ -96,10 +96,10 @@ export const parents = [
 ${parentRedFlags}
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=child-modeling-agencies__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=child-modeling-agencies__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>What Agencies Actually Want From a Child</h2>
@@ -130,7 +130,7 @@ ${legalBlock}
 <h2>The Question Worth Asking First</h2>
 <p>Not "could my child do this" — plenty of children could. The better question is whether your child actively wants to, and whether your family can absorb irregular castings, unpaid travel and a lot of rejection without it becoming a source of pressure on a child.</p>
 <p>If the answer is yes, approach real agencies, refuse to pay anyone, stay present at every booking, and treat the whole thing as something your child gets to try rather than something they need to succeed at.</p>
-<p>Our full <a href="../how-to-become-a-child-model/">parent's guide to child modelling</a> goes deeper on the day-to-day of it, and our free runway masterclass is available at no cost if an older child wants to understand what the professional side actually involves.</p>
+<p>Our full <a href="../how-to-become-a-child-model/">parent's guide to child modelling</a> goes deeper on the day-to-day of it, and our full course, $99 with a dedicated pathway for parents, is there if an older child wants to understand what the professional side actually involves.</p>
 `,
   },
 
@@ -197,10 +197,10 @@ ${legalBlock}
 ${legalBlock}
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=baby-modelling-agency__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=baby-modelling-agency__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>How to Submit</h2>
@@ -339,7 +339,7 @@ ${parentRedFlags}
 
 <h2>What to Do This Week</h2>
 <p>Take the three photos on your phone. Shortlist two or three Australian children's agencies that actually service your city. Submit exactly what each asks for, and pay nobody. Then, before your child ever walks into a casting, learn what happens inside the room, because knowing the process is what makes the experience good for a child rather than confusing.</p>
-<p>Our free runway masterclass with Jack Bedwani, who choreographs shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons on exactly that, and it costs nothing.</p>
+<p>Our runway module with Jack Bedwani, who choreographs shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons on exactly that. The full course is $99, one payment.</p>
 `,
   },
 ];

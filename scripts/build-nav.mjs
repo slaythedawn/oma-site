@@ -112,7 +112,7 @@ function nav({ prefix, home, logoHref, isBlog, ctaHref, ctaAttrs }) {
     </div>
     <div class="nav-right">
       <a class="nav-login" href="${KAJABI}/login" target="_blank" rel="noopener">Log in</a>
-      <a class="nav-cta"${ctaAttrs} href="${ctaHref}" target="_blank" rel="noopener">Enrol — $299</a>
+      <a class="nav-cta"${ctaAttrs} href="${ctaHref}" target="_blank" rel="noopener">Enrol — $99</a>
     </div>
   </div>
 </nav>
@@ -150,7 +150,7 @@ for (const page of targets) {
   // CTAs are tagged; every other page keeps its own utm_content so nav enrols
   // stay attributable to the article that drove them.
   const ctaHref = slug
-    ? `${KAJABI}/offers/${PAID_OFFER}?utm_source=blog&utm_medium=article&utm_campaign=enrol_299&utm_content=${slug}__nav`
+    ? `${KAJABI}/offers/${PAID_OFFER}?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=${slug}__nav`
     : `${KAJABI}/offers/${PAID_OFFER}`;
   const ctaAttrs = slug ? ' data-cta="nav-enrol"' : '';
 

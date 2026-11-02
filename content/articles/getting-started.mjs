@@ -77,10 +77,10 @@ export const gettingStarted = [
 <p>Australian agencies work in centimetres. Height, bust or chest, waist, hips, dress or suit size, shoe size, hair and eye colour. Measure properly — agencies remeasure, and a discrepancy is noticed.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-model-in-australia__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=how-to-become-a-model-in-australia__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>Step 3: Digitals, Not a Photoshoot</h2>
@@ -112,7 +112,7 @@ export const gettingStarted = [
 
 <h2>What to Do This Week</h2>
 <p>Measure yourself, shoot your digitals, decide your board honestly, shortlist three or four Australian agencies that actually represent it, and submit exactly what they ask for.</p>
-<p>Then learn what happens inside a casting room, because that is what separates models who book once from models who get rebooked. Our free runway masterclass with Jack Bedwani — who produces Australian Fashion Week — is five lessons of exactly that, and it costs nothing.</p>
+<p>Then learn what happens inside a casting room, because that is what separates models who book once from models who get rebooked. Our runway module with Jack Bedwani — who produces Australian Fashion Week — is five lessons of exactly that. The full course is $99, one payment.</p>
 `,
   },
 
@@ -176,10 +176,10 @@ export const gettingStarted = [
 <p>UK agencies work in a genuine mix of imperial and metric: height is usually quoted in feet and inches, everything else, bust or chest, waist, hips, tends to be centimetres, alongside dress or suit size, shoe size, hair and eye colour. Measure yourself properly rather than estimating. Agencies remeasure at the first meeting, and a discrepancy from what you submitted is noticed immediately.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-model-in-uk__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=how-to-become-a-model-in-uk__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>Step 3: Digitals, Not a Photoshoot</h2>
@@ -215,7 +215,7 @@ export const gettingStarted = [
 
 <h2>What to Do This Week</h2>
 <p>Measure yourself properly, shoot your digitals, decide your board honestly, shortlist three or four UK agencies that actually represent it, and submit exactly what they ask for.</p>
-<p>Then learn what happens inside a casting room, because that is what separates models who book once from models who get rebooked. Our free runway masterclass with Jack Bedwani, who has choreographed shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons of exactly that, and it costs nothing.</p>
+<p>Then learn what happens inside a casting room, because that is what separates models who book once from models who get rebooked. Our runway module with Jack Bedwani, who has choreographed shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons of exactly that. The full course is $99, one payment.</p>
 `,
   },
   {
@@ -279,10 +279,10 @@ export const gettingStarted = [
 <p>Height, bust or chest, waist, hips, dress or suit size, shoe size, hair and eye colour, measured properly rather than estimated. New York agencies remeasure at the first meeting, and a discrepancy from what you submitted is the fastest way to look unreliable before anyone has judged your look at all.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-model-in-nyc__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=how-to-become-a-model-in-nyc__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>Step 3: Digitals, Not a Photoshoot</h2>
@@ -313,7 +313,7 @@ export const gettingStarted = [
 
 <h2>What to Do This Week</h2>
 <p>Measure yourself properly, shoot your digitals, decide your board honestly, shortlist three or four New York agencies that actually represent it, and submit exactly what they ask for.</p>
-<p>Then learn what happens inside a casting room, because that is what separates models who book once from models who get rebooked. Our free runway masterclass with Jack Bedwani, who has choreographed shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons of exactly that, and it costs nothing.</p>
+<p>Then learn what happens inside a casting room, because that is what separates models who book once from models who get rebooked. Our runway module with Jack Bedwani, who has choreographed shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons of exactly that. The full course is $99, one payment.</p>
 `,
   },
 
@@ -377,10 +377,10 @@ export const gettingStarted = [
 <p>Canadian agencies work in metric. Height, bust or chest, waist, hips, dress or suit size, shoe size, hair and eye colour. Measure properly rather than estimating; agencies remeasure at the first meeting, and a discrepancy from what you submitted is noticed immediately.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-model-in-canada__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=how-to-become-a-model-in-canada__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>Step 3: Digitals, Not a Photoshoot</h2>
@@ -416,7 +416,7 @@ export const gettingStarted = [
 
 <h2>What to Do This Week</h2>
 <p>Measure yourself properly, shoot your digitals, decide your board honestly, shortlist three or four Canadian agencies that actually represent it, and submit exactly what they ask for.</p>
-<p>Then learn what happens inside a casting room, because that is what separates models who book once from models who get rebooked. Our free runway masterclass with Jack Bedwani, who has choreographed shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons of exactly that, and it costs nothing.</p>
+<p>Then learn what happens inside a casting room, because that is what separates models who book once from models who get rebooked. Our runway module with Jack Bedwani, who has choreographed shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons of exactly that. The full course is $99, one payment.</p>
 `,
   },
 
@@ -475,10 +475,10 @@ export const gettingStarted = [
 <p>That decision is commercial, not artistic. A brand offers an exclusive when a model's face reliably moves its specific customer, proven across bookings the brand already ran and can measure. Nobody gets offered that on a first test shoot.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=how-to-become-a-supermodel__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=how-to-become-a-supermodel__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>What Actually Separates the Top Tier From Everyone Else</h2>
@@ -510,7 +510,7 @@ export const gettingStarted = [
 
 <h2>The Honest Version</h2>
 <p>Most models who reach the top tier will tell you they were not aiming at the word "supermodel" when it happened. They were aiming at the next booking, then the one after that, for long enough that a brand eventually noticed a pattern worth locking down. The word came after the work, not before it.</p>
-<p>Start where every one of them started: with the fundamentals, taught properly. Our free runway masterclass with Jack Bedwani, who has choreographed shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons of exactly that craft, and it costs nothing.</p>
+<p>Start where every one of them started: with the fundamentals, taught properly. Our runway module with Jack Bedwani, who has choreographed shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons of exactly that craft. The full course is $99, one payment.</p>
 `,
   },
 ];

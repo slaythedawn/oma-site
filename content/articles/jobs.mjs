@@ -80,10 +80,10 @@ export const jobs = [
 <p>Content built for a brand's own feed or ad account rather than a set-based shoot, often filmed by the model alone on a phone. Paid per finished piece rather than a day rate, and open to models with no following at all. Our <a href="../how-to-become-a-ugc-model/">UGC modeling guide</a> covers what actually gets booked and how the pay works.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=modeling-jobs__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=modeling-jobs__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>How the Money Works</h2>
@@ -117,7 +117,7 @@ ${scamSection}
 <li>Comes prepared — nails clean, hair as briefed, own basics in the bag.</li>
 <li>Pleasant to the whole crew, not just the client.</li>
 </ul>
-<p>None of that is glamorous, and all of it is why some models work constantly while equally photogenic ones do not. It is also learnable, which is the point of our course. The free runway masterclass with Jack Bedwani, who choreographs shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons of it at no cost.</p>
+<p>None of that is glamorous, and all of it is why some models work constantly while equally photogenic ones do not. It is also learnable, which is the point of our course. The runway module with Jack Bedwani, who choreographs shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons of it, inside a $99 course.</p>
 `,
   },
 
@@ -187,10 +187,10 @@ ${scamSection}
 <p>Our guide to <a href="../what-do-modeling-agencies-look-for/">what agencies look for</a> goes deeper on the criteria behind the decision.</p>
 
 <aside class="inline-cta">
-  <div class="k">Free module</div>
-  <h3>The runway masterclass, free</h3>
-  <p>Five lessons from the course, taught by a working runway producer. The same material our paying students get, yours to keep.</p>
-  <a class="go" data-cta="inline-free" href="https://www.onlinemodel.academy/offers/ZbJFXeGn?utm_source=blog&utm_medium=article&utm_campaign=free_runway_module&utm_content=open-casting-call__inline" target="_blank" rel="noopener">Get the free module &rarr;</a>
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=open-casting-call__inline" target="_blank" rel="noopener">Enrol — $99 &rarr;</a>
 </aside>
 
 <h2>What to Bring and Wear</h2>
@@ -230,7 +230,7 @@ ${scamSection}
 <h2>Afterwards</h2>
 <p>Most open calls end in silence, and silence is the normal outcome rather than a personal verdict. Boards fill, briefs are narrow, and timing decides more than anything you did in the room.</p>
 <p>Do not chase. One polite follow-up is fine; repeated contact works against you. Go to the next one. Models who get signed are routinely people who attended several open calls over a year or more, including at agencies that had already passed on them.</p>
-<p>What you can improve between now and the next one is how you present in the room. That is craft, it is learnable, and our free runway masterclass — five lessons from a working fashion week producer — is the fastest way to pick it up at no cost.</p>
+<p>What you can improve between now and the next one is how you present in the room. That is craft, it is learnable, and our runway module — five lessons from a working fashion week producer — is the fastest way to pick it up.</p>
 `,
   },
 ];

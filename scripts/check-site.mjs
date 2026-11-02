@@ -162,12 +162,12 @@ if (!existsSync(dataPath)) {
   }
 }
 
-// --- the two prices agree everywhere they are declared ----------------------
-// The pricing card shows a markdown: $299 current, $499 struck through, and a
-// "Save $200" line derived from the two. Those numbers are repeated in the
-// Course schema, in the Meta/GA4 conversion events and in assets/data.js, so a
-// price change touches five places. Miss one and the site either misreports
-// revenue or makes a savings claim that does not add up.
+// --- the price agrees everywhere it is declared ------------------------------
+// The pricing card shows one price. It is repeated in the Course schema, in the
+// Meta/GA4 conversion events and in assets/data.js, so a price change touches
+// four places. Miss one and the site misreports revenue. The card carries no
+// struck-through anchor price or savings claim; if one is ever reintroduced it
+// must sit above the current price and the savings must be arithmetic.
 {
   const home = readFileSync(join(ROOT, 'index.html'), 'utf8');
   const data = existsSync(dataPath) ? readFileSync(dataPath, 'utf8') : '';
