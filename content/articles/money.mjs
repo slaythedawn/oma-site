@@ -113,6 +113,10 @@ export const money = [
         a: 'There is no single number, because modeling pay is not a salary, it is a fee per job that varies enormously by category, client, and usage. A local catalogue shoot might pay a few hundred dollars for a few hours. A national campaign with broad usage can pay five figures for the same few hours of shooting. Most working models earn somewhere between those extremes, and irregularly.',
       },
       {
+        q: 'How much do models make per hour or per year?',
+        a: 'The US Bureau of Labor Statistics put the median wage for models at $22.80 an hour in May 2023, with a mean of $33.03 and roughly 3,090 people counted. Treat that as a loose reference, not a forecast: it covers only those paid as employees, and most working models are paid per job as contractors, so a year of real bookings can land well above or below it.',
+      },
+      {
         q: 'Do models get paid hourly, daily, or per job?',
         a: 'Almost always per job, quoted as a day rate or session fee for a set number of hours, plus a separate usage fee for where and how long the images run. Very little modeling work is paid hourly in the way a shift job is. Fit modeling is the main exception, and is genuinely paid by the hour.',
       },
@@ -175,6 +179,10 @@ export const money = [
 <p>Standard US agency commission runs around 20 percent of what you earn, deducted from your fee rather than charged to you upfront. Many agencies also charge the client a separate booking fee, which does not reduce your pay at all, it is a cost the client absorbs for access to the agency's roster.</p>
 <p>This is worth understanding precisely because it explains the entire business model: an agency earns only when you work, so it has every incentive to book you as much as possible and negotiate your rate up, since its cut scales with yours. That alignment of incentives is also the fastest way to spot a fake agency: one that has already been paid regardless of whether you ever book a job has no such incentive.</p>
 <p>Ask for the exact commission percentage in writing before you sign, and confirm whether it applies to usage as well as the day rate. Both should be disclosed plainly; if they are not, that is itself information.</p>
+
+<h2>What the Government Numbers Say, and What They Miss</h2>
+<p>If you want one published reference point, the US Bureau of Labor Statistics tracks models as an occupation. In its <a href="https://www.bls.gov/oes/2023/may/oes419012.htm" target="_blank" rel="noopener">May 2023 wage data</a>, the median was $22.80 an hour and the mean $33.03, with only about 3,090 people counted nationwide. The gap between those two figures is the pattern we see from the booking side: a small number of high fees pull the average well above what the typical working model is paid.</p>
+<p>Two caveats matter more than the headline. The survey counts employees, while most models are independent contractors paid per job, so a lot of real work never appears in it. And an hourly figure hides that a shoot day is paid as a fee for a block of time plus usage, not for the hours you are physically in front of the camera. Use the number to sanity-check a quote for a straightforward booking, not to predict your year.</p>
 
 <h2>Why "How Much Do Models Make a Year" Is the Wrong Question</h2>
 <p>Modeling income does not arrive as a salary, it arrives as irregular payments for irregular bookings, and that shapes how you should actually think about it.</p>
