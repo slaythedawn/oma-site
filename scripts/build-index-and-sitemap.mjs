@@ -56,6 +56,7 @@ const CLUSTERS = [
       'how-to-get-paid-as-a-model',
       'how-to-become-a-successful-model',
       'how-to-become-a-supermodel',
+      'modelling-vs-modeling',
     ],
   },
   {
