@@ -58,7 +58,7 @@ guessed). Apply the same standard going forward: any new or edited
 article touching a jurisdiction-dependent rule gets real, checked detail
 for all three markets, or it doesn't ship.
 
-## Live (72 articles)
+## Live (73 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -134,6 +134,7 @@ for all three markets, or it doesn't ship.
 | how-to-be-photogenic | how to be photogenic | 900 | 0 | 2026-09-30 |
 | what-to-expect-at-a-model-photoshoot | model photoshoot | 1400 | 0 | 2026-10-12 |
 | what-is-a-model-agent | what is a model agent | 1500 | 0 | 2026-11-02 |
+| modelling-vs-modeling | modelling vs modeling (+ modeling or modelling) | 3400 + 1300 | 0 | 2026-11-04 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -2902,3 +2903,7 @@ the existing section, not a new URL.
 ## Run log 2026-11-02
 
 PRs #52, #53 (new articles), #51 and #59 (both rewrite the `how-much-do-models-make` BLS section with different figures) were sitting open as drafts. #52 conflicted with main after the price and CTA overhaul, so its article entry was re-applied onto current main as a fresh PR (free-module line removed, `how-to-start-a-modeling-career` link swapped for `how-to-become-a-model`). #53 and the BLS PRs were left for Josh.
+
+## Run log 2026-11-04
+
+Same stale 18 August chat-routine handover (it still cites $299 and a free module; the repo is now $99, no free module), so the repo process was followed. GSC unavailable; Ahrefs `keywords-explorer-matching-terms` used. Open PRs #51, #53, #59 still waiting on Josh, none targets this keyword. New target `modelling vs modeling` (3400 US vol, KD 0; `modeling or modelling` 1300 / KD 0): grep found no coverage. Shipped `modelling-vs-modeling` in `getting-started.mjs`, Start here cluster, linked in-body from `how-to-become-a-model-in-uk` and `how-to-become-a-model-in-australia`. Reused the `how-to-become-a-model` hero. Other fresh Ahrefs candidates not yet grep-checked: `what are the most popular modeling agencies` (3100, KD 0, likely a named-agency listicle, bigger lift), `how to get into modeling` (1900, KD 4, probably cannibalises `how-to-become-a-model`). `npm run build && npm run check` pass.
