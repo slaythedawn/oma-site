@@ -14,6 +14,7 @@ const DATE_UK = '2026-09-09';
 const DATE_NYC = '2026-09-23';
 const DATE_SUPERMODEL = '2026-09-24';
 const DATE_CANADA = '2026-09-25';
+const DATE_SPELLING = '2026-11-04';
 
 export const gettingStarted = [
   {
@@ -57,7 +58,7 @@ export const gettingStarted = [
     body: `
 <p>Australia runs a small, professional modelling industry with a persistent scam problem around its edges. Knowing how the legitimate side works is most of what protects you from the rest.</p>
 <p>The fundamentals are the same in every market, and they are in <a href="../how-to-become-a-model/">our full guide to becoming a model</a>: requirements, digitals, agencies, costs and the scams to avoid. This guide is what changes in Australia.</p>
-<p>Our instructors are the Australian agents, casting directors and runway producers who make these decisions. This is the local version of the process.</p>
+<p>Our instructors are the Australian agents, casting directors and runway producers who make these decisions. This is the local version of the process. (A quick note on spelling: Australian agencies write <a href="../modelling-vs-modeling/">modelling with two Ls</a>, the British form, which is why this guide does too.)</p>
 
 <h2>The Australian Market in One Paragraph</h2>
 <p>Sydney is the biggest market and holds most of the fashion work, including Australian Fashion Week. Melbourne is strong commercially and has its own fashion culture. Brisbane and the Gold Coast own swim, resort and tourism. Perth and Adelaide are smaller commercial markets. Across all of them, <b>commercial and catalogue work is where the money is</b> — fashion is the visible part, not the profitable part.</p>
@@ -157,7 +158,7 @@ export const gettingStarted = [
     body: `
 <p>The UK runs one of the world's most established modelling industries, and one of its more unusual pieces of law: agencies here are actually allowed to charge models a fee, under conditions almost nobody explains properly. Knowing that rule, not just the standard scam checklist, is most of what protects you.</p>
 <p>The fundamentals are the same in every market, and they are in <a href="../how-to-become-a-model/">the step-by-step guide to becoming a model</a>: requirements, digitals, agencies, costs and the scams to avoid. This guide is what changes in the UK.</p>
-<p>Our instructors are the same working agents, casting directors and runway producers who make these calls for a living, in London and beyond. This is the UK version of the process.</p>
+<p>Our instructors are the same working agents, casting directors and runway producers who make these calls for a living, in London and beyond. This is the UK version of the process. (Why two Ls? See our note on <a href="../modelling-vs-modeling/">modelling vs modeling</a>.)</p>
 
 <h2>The UK Market in One Paragraph</h2>
 <p>London holds the large majority of the industry: most head-office agencies are based there, alongside London Fashion Week and the bulk of editorial, campaign and advertising work. Manchester, Birmingham and Leeds each run smaller but genuinely active commercial and regional-agency scenes, useful starting points if relocating to London is not realistic yet. Across all of it, <b>commercial, catalogue and e-commerce work pays the bills</b> for the large majority of working models. Fashion week is the visible part of the industry, not the profitable part for most people in it.</p>
@@ -511,6 +512,111 @@ export const gettingStarted = [
 <h2>The Honest Version</h2>
 <p>Most models who reach the top tier will tell you they were not aiming at the word "supermodel" when it happened. They were aiming at the next booking, then the one after that, for long enough that a brand eventually noticed a pattern worth locking down. The word came after the work, not before it.</p>
 <p>Start where every one of them started: with the fundamentals, taught properly. Our runway module with Jack Bedwani, who has choreographed shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons of exactly that craft. The full course is $99, one payment.</p>
+`,
+  },
+  {
+    slug: 'modelling-vs-modeling',
+    seoTitle: 'Modelling vs Modeling: Which Spelling Is Correct?',
+    description:
+      'Modelling or modeling? Both are correct. Here is which to use in the US, UK and Australia, plus the industry terms that change between markets.',
+    headline: 'Modelling vs Modeling: Which Spelling Is Correct (and Why It Matters in the Industry)',
+    category: 'Getting started',
+    image: 'how-to-become-a-model',
+    imageAlt: 'A new model photographed against a plain wall in daylight, digitals-style',
+    readTime: 8,
+    date: DATE_SPELLING,
+    related: [
+      'how-to-become-a-model-in-uk',
+      'how-to-become-a-model-in-australia',
+      'how-to-become-a-model-in-canada',
+    ],
+    faq: [
+      {
+        q: 'Is it modelling or modeling?',
+        a: 'Both are correct. "Modeling" with one L is standard American spelling, and "modelling" with two Ls is standard British spelling, used across the UK and Australia. Neither is a mistake. The only rule that matters is to pick the one that matches your market and stay consistent.',
+      },
+      {
+        q: 'Which spelling should I use in the US?',
+        a: 'Modeling, with one L. American English drops the doubled consonant when a suffix is added to a word like model, so you get modeling, modeled and modeler, the same way it gives you traveling and canceled.',
+      },
+      {
+        q: 'Which spelling should I use in the UK and Australia?',
+        a: 'Modelling, with two Ls. British English doubles the final consonant before the suffix, giving modelling, modelled and modeller, and Australian English follows the British pattern. Australian agencies, casting calls and job listings use the two-L form.',
+      },
+      {
+        q: 'Does the spelling change the word "model" itself?',
+        a: 'No. The noun "model" is spelled the same everywhere. The difference only appears when you add an ending: modeling or modelling, modeled or modelled, modeler or modeller.',
+      },
+      {
+        q: 'Does it matter which spelling I use in an agency submission?',
+        a: 'Not in any way that decides whether you are signed. Bookers look at your photos, your measurements and your presentation, not your spelling of the word modeling. What does matter is that your email is clean and consistent, so match the spelling of the market you are applying to.',
+      },
+      {
+        q: 'Do other modeling terms change between countries?',
+        a: 'Yes, and some of them matter more than the spelling. The same runway is called a catwalk in the UK and Australia, the same set of simple test photos can be called digitals or polaroids depending on who you ask, and agencies use slightly different words for the same boards and roles. Knowing the local term helps you search for the right agencies and understand what a casting is asking for.',
+      },
+    ],
+    body: `
+<p>Search for the word and you will find it spelled both ways, sometimes on the same agency website. That is not a typo in either case. "Modeling" and "modelling" are two accepted spellings of the same word, and which one is right depends entirely on where you are and who you are writing for.</p>
+<p>Online Model Academy is taught by working casting directors, agents and runway producers from several countries, so we see both spellings every day. Here is the short answer, the reason behind it, and the more useful half of the question: the industry words that really do change from one market to another.</p>
+
+<h2>The Short Answer</h2>
+<ul>
+<li><b>Modeling</b> (one L) is American spelling. Use it in the United States.</li>
+<li><b>Modelling</b> (two Ls) is British spelling. Use it in the UK, Australia and New Zealand.</li>
+<li><b>Canada</b> sits in between and you will see both, though two Ls is common in Canadian publishing.</li>
+</ul>
+<p>Either one is correct. Neither will cost you a booking. If you are applying to an agency, writing a bio or posting your profile, match the market you are targeting and keep it consistent from the first line to the last.</p>
+
+<h2>Why the Spelling Differs</h2>
+<p>It comes down to one small rule. When you add an ending like -ing, -ed or -er to a word that finishes in a single vowel plus a consonant, British English doubles the final consonant and American English usually does not.</p>
+<p>That is why the same split shows up in everyday words: traveling and travelling, canceled and cancelled, labeled and labelled. Model follows the same pattern. American English gives you modeling, modeled and modeler. British English gives you modelling, modelled and modeller.</p>
+<p>The root word never changes. A model is a model in every country. Only the forms built from it differ, which is why "model agency" looks identical on both sides of the Atlantic while "modeling agency" and "modelling agency" do not.</p>
+
+<h2>Which One Should You Use?</h2>
+<h3>If you are applying in the US</h3>
+<p>Use modeling. Every American agency, casting platform and job listing uses the one-L form, so it is the spelling you will see and the one you should write. If you are searching for agencies, the one-L form is also what turns up the right results. Our guide to <a href="../how-to-become-a-model/">how to become a model</a> is written to US spelling for that reason.</p>
+<h3>If you are applying in the UK or Australia</h3>
+<p>Use modelling. Agencies, casting calls and listings in both markets use two Ls, and an application written to match looks like it came from someone who knows the local scene. Our market guides for the <a href="../how-to-become-a-model-in-uk/">UK</a> and <a href="../how-to-become-a-model-in-australia/">Australia</a> go through how each market actually works.</p>
+<h3>If you are in Canada</h3>
+<p>You can use either, but check the spelling the agency uses on its own site and mirror it. Our <a href="../how-to-become-a-model-in-canada/">Canadian guide</a> covers how that market differs.</p>
+<h3>If you work across markets</h3>
+<p>Use the spelling of whoever you are writing to. A model with a UK mother agency and a US market agency will happily write "modelling" to one and "modeling" to the other. Nobody reads it as an error.</p>
+
+<aside class="inline-cta">
+  <div class="k">The full course</div>
+  <h3>All 16 modules for $99</h3>
+  <p>Taught by the casting directors, agents and runway producers who book models. One payment, no subscription, and a seven-day money-back guarantee.</p>
+  <a class="go" data-cta="inline-enrol" href="https://www.onlinemodel.academy/offers/iJxLGaoD?utm_source=blog&utm_medium=article&utm_campaign=enrol_99&utm_content=modelling-vs-modeling__inline" target="_blank" rel="noopener">Enrol for $99 &rarr;</a>
+</aside>
+
+<h2>Does the Spelling Ever Matter to a Booker?</h2>
+<p>Almost never. A booker scanning a submission is looking at the photos first, then measurements, then whether you present like a professional. A missing or doubled L is not something anyone books or rejects on.</p>
+<p>What does register is carelessness. A submission that is full of errors, or that switches style halfway through, reads as someone who will be hard to work with. So the practical rule is not "get the L right", it is "send something clean and consistent". That is also why the basics in our guide to <a href="../how-to-get-signed-by-a-modeling-agency/">getting signed by a modeling agency</a> focus on presentation rather than polish for its own sake.</p>
+
+<h2>The Terms That Matter More Than the Spelling</h2>
+<p>If you are planning to work in more than one country, or just researching agencies abroad, the vocabulary differences are worth more of your attention than the extra L. The industry uses different words for the same things in different places.</p>
+<h3>Runway or catwalk</h3>
+<p>Americans say runway. In the UK and Australia you will hear catwalk just as often. They are the same thing: the strip models walk down in a show. If you are researching the skill itself, our guide to <a href="../how-do-models-walk-in-runway-shows/">how models walk in runway shows</a> covers it either way.</p>
+<h3>Digitals or polaroids</h3>
+<p>The plain, unretouched photos an agency asks for to see your natural look are usually called digitals in the US. Some agencies and bookers, particularly in Europe, still call them polaroids, a leftover from when they were shot on instant film. They are the same request. Natural light, plain background, no filters, no makeup.</p>
+<h3>Comp card or zed card</h3>
+<p>A comp card is the printed or digital sheet of your best photos and stats that a model sends to clients. In some markets you will also hear it called a zed card or z-card, after the folded format. Different name, same job.</p>
+<h3>Modeling agency or model agency</h3>
+<p>Both phrases are used, and the second is common in British English. You will also meet the term model management, which means a model agency. When you search for representation abroad, try all three, because a listing may only use one.</p>
+<h3>Mother agency</h3>
+<p>This is the agency that develops a new model and manages their career, often placing them with agencies in other cities. The term is used internationally. Our guide to <a href="../how-to-choose-a-modeling-agency/">choosing a modeling agency</a> explains when you need one.</p>
+
+<h2>Searching for Opportunities Abroad</h2>
+<p>This is where the spelling does have a practical use. Search engines handle both forms reasonably well, but results are not identical. If you are looking for agencies or casting calls in a specific country, search using that country's spelling and that country's terms. A search for "modelling agencies" and one for "modeling agencies" can surface different lists, and the local form is more likely to return local agencies.</p>
+<p>Just as useful: check how an agency describes itself and copy its wording when you write to it. It signals that you have done your homework, which is a small but real advantage when a booker is skimming a full inbox.</p>
+
+<h2>A Note on Consistency</h2>
+<p>If you maintain a portfolio site, a social bio and a set of agency submissions, decide on one spelling per market and stick to it. Mixing both in one document looks accidental. Writing each document in the spelling of its audience looks professional.</p>
+
+<h2>The Short Version</h2>
+<p>Modeling is the American spelling and modelling is the British one, used in the UK, Australia and New Zealand. Both are correct, neither affects whether you get booked, and the right choice is simply the one that matches the market you are writing to. The thing worth learning is the vocabulary: catwalk and runway, digitals and polaroids, comp card and zed card. Know those, send clean and consistent submissions, and you will read as someone who understands the business wherever you apply.</p>
+<p>If you want to learn the business from the people who book models, start with the fundamentals. Our <a href="../how-to-become-a-model/">complete guide to becoming a model</a> is where we send everyone first.</p>
 `,
   },
 ];
