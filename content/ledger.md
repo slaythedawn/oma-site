@@ -2902,3 +2902,7 @@ the existing section, not a new URL.
 ## Run log 2026-11-02
 
 PRs #52, #53 (new articles), #51 and #59 (both rewrite the `how-much-do-models-make` BLS section with different figures) were sitting open as drafts. #52 conflicted with main after the price and CTA overhaul, so its article entry was re-applied onto current main as a fresh PR (free-module line removed, `how-to-start-a-modeling-career` link swapped for `how-to-become-a-model`). #53 and the BLS PRs were left for Josh.
+
+## Run log 2026-11-07
+
+Same stale 18 August handover prompt (cites $299, free module, unshipped article 17); repo process followed. No article shipped, deliberately. Ahrefs (GSC still unavailable) shows only two positions 4-20 at 100+ US volume: homepage at 4 for `model classes` (100) and `what-to-expect-at-a-model-photoshoot` at 10 for `modeling photoshoot` (100), both too small to act on. Shortlist is exhausted per the many scans above. Four drafts remain unmerged (#51, #53, #59, #63); #51 and #59 conflict with each other on the BLS figures. Another draft would only add to the pile, so this run stops until Josh merges or closes them.
