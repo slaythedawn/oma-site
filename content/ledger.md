@@ -58,7 +58,7 @@ guessed). Apply the same standard going forward: any new or edited
 article touching a jurisdiction-dependent rule gets real, checked detail
 for all three markets, or it doesn't ship.
 
-## Live (72 articles)
+## Live (75 articles)
 
 | Slug | Target keyword | US vol | KD | Added |
 | --- | --- | --- | --- | --- |
@@ -134,6 +134,9 @@ for all three markets, or it doesn't ship.
 | how-to-be-photogenic | how to be photogenic | 900 | 0 | 2026-09-30 |
 | what-to-expect-at-a-model-photoshoot | model photoshoot | 1400 | 0 | 2026-10-12 |
 | what-is-a-model-agent | what is a model agent | 1500 | 0 | 2026-11-02 |
+| modelling-vs-modeling | modelling vs modeling / modeling or modelling | 3400 + 1300 | 0 / 0 | 2026-11-04 |
+| what-does-a-casting-director-do | what does a casting director do (+ what is a casting director 250) | 400 | 3 | 2026-11-10 |
+| modelling-vs-modeling | modelling vs modeling (+ modeling or modelling) | 3400 + 1300 | 0 | 2026-11-04 |
 
 The homepage itself was revised 2026-08-18 for the commercial cluster
 (`modeling course`, `online modeling`, `model academy` and neighbours) —
@@ -2902,3 +2905,11 @@ the existing section, not a new URL.
 ## Run log 2026-11-02
 
 PRs #52, #53 (new articles), #51 and #59 (both rewrite the `how-much-do-models-make` BLS section with different figures) were sitting open as drafts. #52 conflicted with main after the price and CTA overhaul, so its article entry was re-applied onto current main as a fresh PR (free-module line removed, `how-to-start-a-modeling-career` link swapped for `how-to-become-a-model`). #53 and the BLS PRs were left for Josh.
+
+## Run log 2026-11-04
+
+Same stale 18 August chat-routine handover (it still cites $299 and a free module; the repo is now $99, no free module), so the repo process was followed. GSC unavailable; Ahrefs `keywords-explorer-matching-terms` used. Open PRs #51, #53, #59 still waiting on Josh, none targets this keyword. New target `modelling vs modeling` (3400 US vol, KD 0; `modeling or modelling` 1300 / KD 0): grep found no coverage. Shipped `modelling-vs-modeling` in `getting-started.mjs`, Start here cluster, linked in-body from `how-to-become-a-model-in-uk` and `how-to-become-a-model-in-australia`. Reused the `how-to-become-a-model` hero. Other fresh Ahrefs candidates not yet grep-checked: `what are the most popular modeling agencies` (3100, KD 0, likely a named-agency listicle, bigger lift), `how to get into modeling` (1900, KD 4, probably cannibalises `how-to-become-a-model`). `npm run build && npm run check` pass.
+
+## Run log 2026-11-10
+
+Same stale 18 August handover prompt; repo process followed. GSC still unavailable. The 2026-11-07 run stopped because drafts were piling up unmerged, and nothing had changed since, so this run spent its effort clearing the pile instead of adding a sixth draft. Checked every open PR against main: #63 (`modelling-vs-modeling`) and #64 (ledger only) merge clean; #59 merges clean but is 8 commits behind; #53 (`what-does-a-casting-director-do`) and #51 conflict and predate the $99 price change, and #53 still carried the old free-module CTA. Re-applied #53 onto current main (same precedent as #52 on 2026-11-02), swapped its inline CTA for the current $99 block with `utm_content=what-does-a-casting-director-do__inline`, removed the free-masterclass line from its close, trimmed the description to 155, and expanded the body from about 1,040 to 1,620 words (new sections on a casting day from the table's side, and how show, campaign, commercial and e-commerce casting differ). Stacked #63's commit underneath it, because every article PR bumps the shared "All N guides" footer and sitemap, so two article PRs always conflict with each other: one merge now ships both. #53 and #63 can be closed once this merges. #51 vs #59 (competing BLS figure rewrites of `how-much-do-models-make`) still needs Josh to pick one; #59 is the newer and the only one that still merges. `npm run build && npm run check` and `html-validate` pass; rendered clean at 1440 and 390; zero `utm_source` on the homepage.

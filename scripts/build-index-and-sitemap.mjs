@@ -56,6 +56,7 @@ const CLUSTERS = [
       'how-to-get-paid-as-a-model',
       'how-to-become-a-successful-model',
       'how-to-become-a-supermodel',
+      'modelling-vs-modeling',
     ],
   },
   {
@@ -77,7 +78,7 @@ const CLUSTERS = [
   {
     heading: 'Castings & work',
     blurb: 'Where the bookings come from and how to handle the room.',
-    slugs: ['modeling-jobs', 'open-casting-call', 'model-casting-calls', 'how-do-models-walk-in-runway-shows', 'what-is-fashion-modeling', 'runway-model', 'what-is-commercial-modeling', 'ecommerce-modeling', 'promotional-modeling', 'stock-photo-modeling', 'how-to-become-a-model-for-clothing-brands', 'lifestyle-modeling'],
+    slugs: ['modeling-jobs', 'open-casting-call', 'model-casting-calls', 'how-do-models-walk-in-runway-shows', 'what-is-fashion-modeling', 'runway-model', 'what-does-a-casting-director-do', 'what-is-commercial-modeling', 'ecommerce-modeling', 'promotional-modeling', 'stock-photo-modeling', 'how-to-become-a-model-for-clothing-brands', 'lifestyle-modeling'],
   },
   {
     heading: 'Training',
