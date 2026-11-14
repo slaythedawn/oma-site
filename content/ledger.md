@@ -2905,7 +2905,7 @@ PRs #52, #53 (new articles), #51 and #59 (both rewrite the `how-much-do-models-m
 
 ## Run log 2026-11-14
 
-No new article. Five drafts are still unmerged (#51, #53, #59, #63, #64, plus #65 which supersedes #53 and #63), and every new article PR conflicts with every other one on the footer count and sitemap, so this run shipped a near-miss improvement instead, which does not touch either.
+No new article. Six drafts are still unmerged (#51, #53, #59, #63, #64 and #65, which supersedes #53 and #63), and every new article PR conflicts with every other one on the footer count and sitemap, so this run shipped a near-miss improvement instead, which does not touch either.
 
 Ahrefs (US, positions 3 to 20, 100+ volume) shows one new signal since 2026-11-07: the homepage now ranks 9 for `modeling classes` (900 vol, KD 29, not ranking at all on 2026-10-30). That is buyer intent, so the homepage is the right page to hold it, not the `modeling-classes` article, which does not rank. Until now no article linked to the homepage with a course anchor, only "Online Model Academy homepage" in `what-is-a-model-agent`. Added contextual links: `modeling-classes` ("online modeling classes") and `modeling-schools` ("online modeling course"). Also `what-to-expect-at-a-model-photoshoot` ranks 10 for `modeling photoshoot` (100 vol, KD 2) and never used that phrase; one intro sentence now does. Homepage copy left alone. Recheck both positions next run.
 
