@@ -669,7 +669,7 @@ export const portfolio = [
     ],
     body: `
 <p>The first photoshoot is usually the point where modeling stops being an idea and becomes a day with a call time. It also tends to be nothing like people expect. There is less glamour and more waiting than the photos suggest, and the people who do well are rarely the ones with the most dramatic poses. They are the ones who arrive prepared, stay easy to direct and look after themselves.</p>
-<p>Here is how a model photoshoot actually runs, from the people who book models, and how to prepare so the day goes in your favor.</p>
+<p>Here is how a modeling photoshoot actually runs, from the people who book models, and how to prepare so the day goes in your favor.</p>
 
 <h2>Not All Photoshoots Are the Same</h2>
 <p>"Photoshoot" covers several very different jobs, and what is expected of you changes with each one.</p>
