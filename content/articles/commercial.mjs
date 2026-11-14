@@ -119,7 +119,7 @@ ${whatAgenciesThink}
 <p>Classes make most sense for the person in between: not yet signed, digitals sent, and wanting to walk into the next casting knowing what actually happens in the room.</p>
 
 <h2>What We Do</h2>
-<p>Online Model Academy is an online course taught by working casting directors, agents, a fashion week producer and an industry lawyer. It covers the knowledge half thoroughly and makes no claim to get you signed, because no course can.</p>
+<p>Online Model Academy runs <a href="../../">online modeling classes</a> taught by working casting directors, agents, a fashion week producer and an industry lawyer. It covers the knowledge half thoroughly and makes no claim to get you signed, because no course can.</p>
 <p>The runway module with Jack Bedwani, who choreographs shows for Calvin Klein, Coach and Charlotte Tilbury, is five lessons of the sixteen modules, and with a seven-day money-back guarantee you can judge whether the teaching is worth it to you.</p>
 `,
   },
@@ -230,7 +230,7 @@ ${whatAgenciesThink}
 <li>Find real agencies and verify them — our guide to <a href="../modeling-agencies-near-me/">finding a genuine agency</a> has the checklist.</li>
 <li>Submit exactly what each one asks for, and go to open calls.</li>
 </ol>
-<p>If you then decide training would help, <a href="../modeling-classes/">our guide to modeling classes</a> covers how to judge one. And our own course is $99 for all sixteen modules, with a seven-day money-back guarantee, so you can assess the teaching without much at stake.</p>
+<p>If you then decide training would help, <a href="../modeling-classes/">our guide to modeling classes</a> covers how to judge one. And our own <a href="../../">online modeling course</a> is $99 for all sixteen modules, with a seven-day money-back guarantee, so you can assess the teaching without much at stake.</p>
 `,
   },
 ];
